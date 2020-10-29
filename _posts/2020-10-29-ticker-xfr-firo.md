@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pick the right exchange ticker: XFR vs FIRO
+title: The exchange ticker for Firo
 summary: The ticker name we initially chose was XFR, but we are receiving community feedback that many prefer Firo's ticker to be FIRO.
 tags: [news, community]
 author: Noah Pierau
