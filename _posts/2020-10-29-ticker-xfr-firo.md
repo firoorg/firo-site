@@ -34,7 +34,7 @@ The main argument against FIRO is that if you want to compete against fiat, you 
 It should be noted that Bitcoin uses both BTC and XBT, but ideally the community decides on one standard. Firo has conducted polls to harvest the wisdom of the crowd:
 
 |  | XFR | FIRO |
-|-------|--------|---------|
+|-------|:--------:|:---------:|
 | Telegram (321 votes) | 17% | 83% |
 | Blockfolio (198 votes) | 24% | 76% |
 | Twitter (414 votes) | 33% | 67% |
