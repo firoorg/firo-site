@@ -1,3 +1,11 @@
+---
+layout: base
+title: Masternode setup guide
+summary: Follow this guide to setup your masternode from scratch
+tags: [guide]
+author: Anwar P
+permalink: /guide/masternode_guide.html
+---
 **DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a Znode provider.
 
 **List of Znode Providers (arranged in alphabetical order)**
