@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Masternode setup guide
 summary: Follow this guide to setup your masternode from scratch
 tags: [guide]
