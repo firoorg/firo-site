@@ -7,7 +7,7 @@ author: Noah Pierau
 img: "/blog/assets/xfr-firo.jpg"
 alt: " XFR vs FIRO"
 ---
-# Pick the right exchange ticker: XFR vs FIRO
+## Pick the right exchange ticker: XFR vs FIRO
 
 On the 27th of October [Zcoin announced](https://zcoin.io/zcoin-is-becoming-firo/) its new name: Firo (pronounced “fee-roh”). The new identity was chosen to differentiate from competitors and to make financial privacy more accessible to more people.
 
