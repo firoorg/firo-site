@@ -42,9 +42,9 @@ With Lelantus, this is greatly improved. To achieve the same private spend of 15
 
 Lelantus proofs are only 1.5 kB, so the entire transaction would take a fraction of the power the original Zerocoin protocol required.
 
-![](blog/assets/lelantus-firo/lelantus-firo-mint.webp)
+![](/blog/assets/lelantus-firo/lelantus-firo-mint.webp)
 
-![](blog/assets/lelantus-firo/lelantus-firo-spend.webp)
+![](/blog/assets/lelantus-firo/lelantus-firo-spend.webp)
 
 ## Better Privacy
 
@@ -72,13 +72,13 @@ Lelantus proofs, based off Sigma, take 200 ms to verify per proof, which is sign
 
 This means the cost of verifying a single proof is only 23.7 ms when using batch verification techniques. We utilize multi exponentiation tricks such as Pippenger's and Straus techniques to improve this as well.
 
-![](blog/assets/lelantus-firo/lelantus-firo-benchmark.webp)
+![](/blog/assets/lelantus-firo/lelantus-firo-benchmark.webp)
 
 ## The Competition
 
 The chart below illustrates how Lelantus compares to other leading privacy schemes.
 
-![](blog/assets/lelantus-firo/lelantus-firo-comparison.webp)
+![](/blog/assets/lelantus-firo/lelantus-firo-comparison.webp)
 
 As you can see, Lelantus performs very well in all measures; offering a high degree of anonymity, good performance and low proof sizes, without relying on experimental cryptography. We believe that Lelantus offers the most rounded privacy protocol available today.
 
