@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Lelantus: Firo's next gen privacy protocol
-summary: We are proud to present Lelantus; the result of Firo's research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan.
+title: "Lelantus: Firo's next gen privacy protocol"
+summary: "We are proud to present Lelantus; the result of Firo's research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan."
 tags: [news, dev]
 author: Reuben Yap
 img: "/blog/assets/lelantus-firo/lelantus-firo-poramin.jpg"
@@ -12,7 +12,7 @@ alt: ""
 
 Technology never stands still; especially not in the blockchain privacy space. In a few years, the industry has moved from simple mixing solutions like Coinjoin, to more advanced cryptographic implementations like ring-signatures, Zerocoin (as used by Zcoin) and Zerocash (as used in Zcash).
 
-The tools that de-anonymise blockchains have also grown more sophisticated. Blockchain analysis is now widely available, and well-respected researchers such as Ian Miers believe that ('decoy based' systems such as Ring Signatures (as used in Monero) and Mimblewimble (as used in Grin or Beam) can be deanonymized especially when there are repeat transactions.)[https://www.youtube.com/watch?v=9s3EbSKDA3o]
+The tools that de-anonymise blockchains have also grown more sophisticated. Blockchain analysis is now widely available, and well-respected researchers such as Ian Miers believe that ['decoy based' systems such as Ring Signatures (as used in Monero) and Mimblewimble (as used in Grin or Beam) can be deanonymized especially when there are repeat transactions.](https://www.youtube.com/watch?v=9s3EbSKDA3o)
 
 While Zerocoin offered very good anonymity, it suffered from three main issues:
 
@@ -26,11 +26,11 @@ If Zcoin were to reach the current volume of Bitcoin transactions, Zerocoin perf
 
 * **Trusted Setup**
 
-A trusted setup is a feature of both Zerocoin and Zerocash systems. It requires certain parameters to be generated, then destroyed. If not destroyed correctly, it allows someone to create coins out of thin air. While (Zcoin uses parameters from a 20 year old academic factoring challenge which reduces the chances of a backdoor,)[https://zcoin.io/zcoin-moving-beyond-trusted-setup-in-zerocoin/] it is still an undesirable possibility which reduces trust in the system.
+A trusted setup is a feature of both Zerocoin and Zerocash systems. It requires certain parameters to be generated, then destroyed. If not destroyed correctly, it allows someone to create coins out of thin air. While [Zcoin uses parameters from a 20 year old academic factoring challenge which reduces the chances of a backdoor,](https://zcoin.io/zcoin-moving-beyond-trusted-setup-in-zerocoin/) it is still an undesirable possibility which reduces trust in the system.
 
 We have previously teased Sigma (set to go live soon) which has smaller proof sizes and no trusted setup, but it still did not address the fixed denominations issue.
 
-We are therefore proud to present (Lelantus)[https://eprint.iacr.org/2019/373]; the result of Zcoin's research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan.
+We are therefore proud to present [Lelantus](https://eprint.iacr.org/2019/373); the result of Zcoin's research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan.
 
 ## Greater Ease of Use
 
@@ -42,9 +42,9 @@ With Lelantus, this is greatly improved. To achieve the same private spend of 15
 
 Lelantus proofs are only 1.5 kB, so the entire transaction would take a fraction of the power the original Zerocoin protocol required.
 
-[](blog/assets/lelantus-firo/lelantus-firo-mint.webp)
+![](blog/assets/lelantus-firo/lelantus-firo-mint.webp)
 
-[](blog/assets/lelantus-firo/lelantus-firo-spend.webp)
+![](blog/assets/lelantus-firo/lelantus-firo-spend.webp)
 
 ## Better Privacy
 
@@ -72,13 +72,13 @@ Lelantus proofs, based off Sigma, take 200 ms to verify per proof, which is sign
 
 This means the cost of verifying a single proof is only 23.7 ms when using batch verification techniques. We utilize multi exponentiation tricks such as Pippenger's and Straus techniques to improve this as well.
 
-[](blog/assets/lelantus-firo/lelantus-firo-benchmark.webp)
+![](blog/assets/lelantus-firo/lelantus-firo-benchmark.webp)
 
 ## The Competition
 
 The chart below illustrates how Lelantus compares to other leading privacy schemes.
 
-[](blog/assets/lelantus-firo/lelantus-firo-comparison.webp)
+![](blog/assets/lelantus-firo/lelantus-firo-comparison.webp)
 
 As you can see, Lelantus performs very well in all measures; offering a high degree of anonymity, good performance and low proof sizes, without relying on experimental cryptography. We believe that Lelantus offers the most rounded privacy protocol available today.
 
@@ -89,8 +89,6 @@ The full academic paper is available at Eprint though we expect further improvem
 We would like to thank Jens Groth, Benedikt Bunz, Ariel Gabizon, Sarang Noether and Markulf Kohlweiss who provided invaluable feedback on Lelantus.
 
 You can check out some of our videos on Lelantus below:
-
-
 
 [![MoneroKon 2019 - Lelantus: New Protocol for Private Transactions with Hidden Origins and Amounts](https://img.youtube.com/vi/gb53Fe2iuqg/maxresdefault.jpg)](https://www.youtube.com/watch?v=gb53Fe2iuqg)
 
