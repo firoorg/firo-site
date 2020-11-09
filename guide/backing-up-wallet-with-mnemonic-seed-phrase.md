@@ -17,6 +17,7 @@ The release of [Zcoin Core wallet v0.13.8.10](https://github.com/firoorg/firo/re
 2. Choose either 12 or 24 words seed. 24 words seed is selected by default although 12 word seed is also available for compatibility reasons. A 24 word seed provides 256-bit security while a 12 word seed provides 128-bit security.
 
 ![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_02.png)
+
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
 
 You can also add a mnemonic passphrase by checking the "Use seed passphrase" box to prevent easy access to your seed. However this means you should backup your mnemonic passphrase as well as the seed phrase. 
@@ -30,6 +31,7 @@ You can also add a mnemonic passphrase by checking the "Use seed passphrase" box
 ## Restoring wallet from seed phrase
 
 ![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_03.png) 
+
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
 
 **Note: Electrum, from which Electrum-XZC was forked from uses a different seed phrase standard and thus cannot be imported.** 

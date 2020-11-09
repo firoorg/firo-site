@@ -20,7 +20,7 @@ Please note that there is no reason to wait for a payout, as an update completed
 
 3.  On the masternode’s command line, type **wget** and insert the copied link after it like so: 
 
-`wget [https://github.com/firoorg/firo/releases/download/v0.14.0.5/zcoin-0.14.0.5-linux64.tar.gz](https://github.com/firoorg/firo/releases/download/v0.14.0.5/zcoin-0.14.0.5-linux64.tar.gz)` 
+`wget https://github.com/firoorg/firo/releases/download/v0.14.0.5/zcoin-0.14.0.5-linux64.tar.gz` 
 
 This will download the archive to your masternode.
 

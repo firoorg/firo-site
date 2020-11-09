@@ -29,7 +29,7 @@ If you also want to rescan for Zcoin Sigma mints, do the following (which will a
 
 Type .\\zcoin-qt.exe, add the **-reindex-chainstate** flag and press **Enter**. Note the period and backslash. 
 
-![](/guide/assets/reindex-wallet/zcoin-qt-powershellp.png)
+![](/guide/assets/reindex-wallet/zcoin-qt-powershell.png)
 
 ## Linux
 

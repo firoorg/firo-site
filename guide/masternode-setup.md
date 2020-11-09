@@ -59,14 +59,17 @@ Click on the Receive tab. Enter a label for your collateral address in the Label
 
 #### Debug Window:
 
-Go to Help > Debug Window > Console and type in 
+Go to Help > Debug Window > Console and type in
+ 
 `getnewaddress` 
 
 In one single transaction, send **exactly 1000 XZC** into the Znode collateral address that you created. Do not send 500 and then another 500. **It has to be in one single transaction. Do not tick subtract fee from amount.** 
 
 It is not recommended to send it direct from an exchange as they might deduct certain withdrawal fees resulting in less than 1000 XZC in that transfer. 
 
-Wait **1 confirmation** for this transaction to be valid as your Znode collateral. When done correctly, the transaction id and transaction index will appear when you execute this command in the Debug Console: `evoznode outputs`
+Wait **1 confirmation** for this transaction to be valid as your Znode collateral. When done correctly, the transaction id and transaction index will appear when you execute this command in the Debug Console:
+
+`evoznode outputs`
 
 #### Special Notes only for those who are creating more than one Znode:
 
@@ -98,7 +101,8 @@ Address the Znode will pay out to. Can be inside the same wallet or an external 
 
 #### c. feeSourceAddress
 
-An address with funds to pay the transaction fee for registering your Znode. To get a list of addresses with funds, enter the following command in the Debug Window: 
+An address with funds to pay the transaction fee for registering your Znode. To get a list of addresses with funds, enter the following command in the Debug Window:
+ 
 `listaddressbalances 0.01` 
 
 If you do not have any, you can create an address and send some Zcoins there. You can then use the address as feeSourceAddress.
@@ -106,10 +110,11 @@ If you do not have any, you can create an address and send some Zcoins there. Yo
 #### d. operatorKey/operatorPubKey
 
 In Debug Console, enter bls generate. The output will be similar to this:
-`{
-    "secret": "2e551176c4cd5a2e26f3a1c61f151487e013f7095ffbc0f62b5c2b251e7bd84c",
-    "public": "89d395bc75e99527e80d3bbd408a5b41bbf37e7e1e26c5924da734008d1aa4a3f5e42a968bef541cb1c9a0899280d29b"
-}`
+
+    {
+        "secret": "2e551176c4cd5a2e26f3a1c61f151487e013f7095ffbc0f62b5c2b251e7bd84c",
+        "public": "89d395bc75e99527e80d3bbd408a5b41bbf37e7e1e26c5924da734008d1aa4a3f5e42a968bef541cb1c9a0899280d29b"
+    }
     
 
 **secret**: This is your operatorKey (for protx) and also the znodeblsprivkey for use in Step 6. 
@@ -130,7 +135,7 @@ There are many providers to choose out there.
 Select a VPS package that meets the minimum requirements:
 
 *   1 GB of RAM (2 GB recommended)
-*   45+ GB of disk space (blockchain is currently 34GB in July 2020)
+*   55+ GB of disk space (blockchain is currently 40GB in November 2020)
 
 **Note:** The blockchain will grow at a rate of about 20 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
@@ -148,32 +153,47 @@ It is always good practice to create a new user to run the Znode so that the Zno
 
 On your newly created **VPS**, Login **as root.** 
 
-Create a new user with the following command, replacing <username> with a username of your choice. `adduser <username>` 
+Create a new user with the following command, replacing <username> with a username of your choice.
+
+`adduser <username>` 
 
 You will be prompted for a password. Enter and confirm using a new password (different to your root password) and store it in a safe place. 
 
 You will also see prompts for user information, but this can be left blank. 
 
-Once the user has been created, we will add them to the sudo group so they can perform commands as root. Only commands/applications run with sudo will run with root privileges, while others will run with regular privileges 
+Once the user has been created, we will add them to the sudo group so they can perform commands as root. Only commands/applications run with sudo will run with root privileges, while others will run with regular privileges
+ 
 `usermod -aG sudo <username>` 
 
-Now, while still as root, we will update the system from the Ubuntu package repository. 
+Now, while still as root, we will update the system from the Ubuntu package repository.
+ 
 `apt update`
+
 `apt upgrade`
 
 #### Installing a Firewall
 
 We are installing **UFW** (uncomplicated firewall) to further secure your VPS server. This is optional but highly recommended. 
 
-While still in root user on your VPS (or alternatively you can sudo within your newly created user). 
-`apt install ufw` (press Y and Enter to confirm) 
+While still in root user on your VPS (or alternatively you can sudo within your newly created user).
+ 
+`apt install ufw`
+ 
+(press Y and Enter to confirm) 
 
-The next step opens port 8168 which is required for your Znode to communicate. 
-`ufw allow ssh/tcp` 
-`ufw limit ssh/tcp` 
-`ufw allow 8168/tcp` 
-`ufw logging on` 
-`ufw enable` (press Y and Enter to confirm) You now have a firewall setup!
+The next step opens port 8168 which is required for your Znode to communicate.
+ 
+`ufw allow ssh/tcp`
+ 
+`ufw limit ssh/tcp`
+ 
+`ufw allow 8168/tcp`
+ 
+`ufw logging on`
+ 
+`ufw enable` 
+
+(press Y and Enter to confirm) You now have a firewall setup!
 
 #### Allocating a Swap File (Optional if your VPS/server has 2gb or more RAM)
 
@@ -182,16 +202,23 @@ Allocating a swap file can guard your VPS server against out of memory errors in
 **Swap** is an area on a hard drive that has been designated as a place where the operating system can temporarily store data that it can no longer hold in RAM. Basically, this gives you the ability to increase the amount of information that your server can keep in its working “memory”, with some caveats. The swap space on the hard drive will be used mainly when there is no longer sufficient space in RAM to hold in-use application data. 
 
 The information written to disk will be significantly slower than information kept in RAM, but the operating system will prefer to keep running application data in memory and use swap for the older data. Overall, having swap space as a fall back for when your system’s RAM is depleted can be a good safety net against out-of-memory exceptions on systems. 
+
 `fallocate -l 4G /swapfile`
+
 `chmod 600 /swapfile`
+
 `mkswap /swapfile`
+
 `swapon /swapfile`
+
 `nano /etc/fstab` 
 
-Add the following line at the end of the file (press tab to separate each word/number 
+Add the following line at the end of the file (press tab to separate each word/number
+ 
 `/swapfile none swap sw 0 0` 
 
 then press Ctrl + X to close the editor, then Y and Enter save the file. Then reboot the server. 
+
 `reboot now` 
 
 Your VPS is now ready for operation.
@@ -199,11 +226,17 @@ Your VPS is now ready for operation.
 ### Step 6: Installing Zcoin in your VPS
 
 After **logging into the new user** on your **VPS** you created in Step 5, type the following to **download the latest Zcoin Linux package**. 
-`cd ~` `wget [https://sourceforge.net/projects/zcoin/files/zcoin-0.14.0.5-linux64.tar.gz](https://downloads.sourceforge.net/project/zcoin/zcoin-0.14.0.5-linux64.tar.gz)` 
+
+`cd ~` 
+
+`wget https://downloads.sourceforge.net/project/zcoin/zcoin-0.14.0.5-linux64.tar.gz`
+ 
 `tar xzvf zcoin-0.14.0.5-linux64.tar.gz` 
 
-Create a new config file for your Znode. Type 
+Create a new config file for your Znode. Type
+ 
 `mkdir ~/.zcoin`
+
 `nano ~/.zcoin/zcoin.conf` 
 
 This will create a new directory and also open up a new text file called zcoin.conf in a text editor called nano. 
@@ -224,29 +257,35 @@ In that new file type the following and **change the bolded parts** to match you
     znode=1
     externalip=YOUR ZNODE IP:8168
     znodeblsprivkey=YOUR SECRET OUTPUT FROM STEP 3 HERE
-    znodeprivkey=ZNODE PRIV KEY
+
 
 Press **Ctrl-X** to save and press **Y** to confirm it. 
 
-Note: **znodeprivkey** is still required despite not in use anymore. A future update will remove this requirement. To generate a znodeprivkey, use the command "znode genkey". 
+
 
 Type following commands to start your zcoind daemon and let it sync. This will take a few hours. 
+
 `cd ~/zcoin-0.14.0/bin`
+
 `./zcoind -daemon`
 
 You can always check the status of syncing by typing 
+
 `./zcoin-cli getinfo`
 
 and compare the blocks number with [our Block Explorer](https://explorer.zcoin.io). Once it has synced, it's now time to start your Znode.
 
 ### Step 7: Registering your Znode
 
+_**The registration process must be done on your local wallet, not on your VPS/Znode**_
+
 Once you have done all the above, you can now register your Znode with the following command:
+
 `protx register collateralHash collateralIndex ipAndPort ownerAddress operatorPubKey votingAddress operatorReward payoutAddress feeSourceAddress`
 
 where
-
-    `collateralHash: transaction ID of your 1000 XZC collateral (from "evoznode outputs")
+    
+    collateralHash: transaction ID of your 1000 XZC collateral (from "evoznode outputs")
     collateralIndex: transaction index of your 1000 XZC collateral (from "evoznode outputs")
     ipAndPort: the IP address and port of your Znode
     ownerAddress: the ownerAddress, generated in Step 3
@@ -254,9 +293,11 @@ where
     votingAddress: "" (defaults to ownerAddress)
     operatorReward: 0
     payoutAddress: A valid Zcoin address for your Znode payouts, generated in Step 3
-    feeSourceAddress: A valid Zcoin address with funds in it to fund the Znode registration, from Step 3`
+    feeSourceAddress: A valid Zcoin address with funds in it to fund the Znode registration, from Step 3
+	
 
 Before you are able to enter the command, you must first unlock your wallet:
+
 `walletpassphrase YOURPASSWORD 60`
 
 This command will unlock your wallet for 60 seconds and returns a (null) message when successfully executed. 
