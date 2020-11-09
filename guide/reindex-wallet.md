@@ -12,7 +12,7 @@ If you have trouble syncing your wallet and it appears to be stuck on a block, p
 
 If you suspect corrupted blocks, please run **\-reindex** instead. 
 
-Make sure you are always on the latest release by going to our [release page](https://github.com/zcoinofficial/zcoin/releases).
+Make sure you are always on the latest release by going to our [release page](https://github.com/firoorg/firo/releases).
 
 ## Windows
 
