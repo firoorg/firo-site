@@ -28,13 +28,13 @@ We are therefore very happy to announce that we believe we have found the answer
 
 In a nutshell, the **Sigma (Σ) protocol** does the following:
 
-** No more trusted setup
+* No more trusted setup
 
-** RSA accumulators are replaced with elliptic curve groups
+* RSA accumulators are replaced with elliptic curve groups
 
-** Reduction of Zerocoin proof sizes from 25 kb to around ~1kb allowing more Zerocoin transactions per block and making Zcoin much more scalable.
+* Reduction of Zerocoin proof sizes from 25 kb to around ~1kb allowing more Zerocoin transactions per block and making Zcoin much more scalable.
 
-** Higher security using 256-bit elliptic curves roughly equivalent to 3072 bit RSA (currently we are using 2048 bit RSA)
+* Higher security using 256-bit elliptic curves roughly equivalent to 3072 bit RSA (currently we are using 2048 bit RSA)
 
 We have also found the Sigma (Σ) protocol implemented in existing open source repositories greatly reducing the amount of work required to implement it in Zcoin. The Zcoin team will need to further examine its verification speed and computation time using the Sigma (Σ) protocol. We plan to implement the Sigma (Σ) protocol after MTP completion and Znodes. We are of the opinion that once Zcoin implements the Sigma (Σ) protocol, we would have a very compelling solution, offering the power and large anonymity sets of zero knowledge proofs with low proof size without having to trust anyone with the generation of initial parameters which is required in [other zero knowledge setups such as in Zcash.](https://petertodd.org/2016/cypherpunk-desert-bus-zcash-trusted-setup-ceremony)
 
