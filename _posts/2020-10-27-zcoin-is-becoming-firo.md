@@ -7,7 +7,7 @@ author: Reuben Yap
 img: "/blog/assets/introducing-firo.png"
 alt: "Zcoin is now Firo"
 ---
-Today, the team at Zcoin is pleased to announce its new name: Firo (ticker: FIRO, pronounced "fee-roh"). Firo is not a new blockchain, but a new identity to differentiate ourselves and make financial privacy more accessible to more people.
+Today, the team at Zcoin is pleased to announce its new name: **Firo** (ticker: **FIRO**, pronounced "fee-roh"). Firo is not a new blockchain, but a new identity to differentiate ourselves and make financial privacy more accessible to more people.
 
 ## Why is Zcoin changing its name to Firo?
 
