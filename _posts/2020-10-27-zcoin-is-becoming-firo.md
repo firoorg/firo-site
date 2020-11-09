@@ -52,8 +52,13 @@ Stakehound has confirmed that they are able to change the ticker to stakedFIRO w
 Our [branding page](https://firo.org/branding/) has all resources necessary together with [our logo kit.](https://firo.org/branding/firo-logo-files.zip)
 
 [Website](https://firo.org/)
+
 [Github](https://github.com/firoorg/firo)
+
 [Facebook](https://www.facebook.com/firoorg)
+
 [Twitter](https://twitter.com/firoorg/)
+
 [Telegram news channel](https://t.me/fironews)
+
 [Telegram group](https://t.me/firoproject)
