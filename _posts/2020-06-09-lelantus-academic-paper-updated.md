@@ -14,7 +14,7 @@ The original Lelantus paper used several modifications of cryptographic building
 
 ![](/blog/assets/lelantus-academic-paper-updated/oompdb.png) 
 
-It also combines our work on [direct anonymous payments](https://zcoin.io/direct-untraceable-anonymous-lelantus/) with review assistance from Sarang Noether of Monero Research Labs. 
+It also combines our work on [direct anonymous payments](https://firo.org/2019/10/03/direct-untraceable-anonymous-lelantus.html) with review assistance from Sarang Noether of Monero Research Labs. 
 
 We hope that this revised paper further ensures the security of Lelantus' cryptography and improves clarity of the different cryptographic building blocks. We invite cryptography researchers to give comments and feedback!
 

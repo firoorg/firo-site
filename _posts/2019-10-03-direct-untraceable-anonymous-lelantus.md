@@ -9,7 +9,7 @@ alt: ""
 ---
 Zcoin's privacy comes from its unique mechanism of allowing people to destroy coins and then allow them to redeem them for brand new coins with no previous transaction history which is in our opinion, is superior to other privacy methods which involve mixing or hiding in a crowd.
 
-An easy to visualize how the **"burn and redeem"** privacy mechanism works is imagine money disappearing from one wallet and then at any time after that, magically reappearing in another wallet without showing how it appeared there. This is the basic concept behind Zerocoin (no longer in use) and [Sigma]() (which is what Zcoin uses today).
+An easy to visualize how the **"burn and redeem"** privacy mechanism works is imagine money disappearing from one wallet and then at any time after that, magically reappearing in another wallet without showing how it appeared there. This is the basic concept behind Zerocoin (no longer in use) and [Sigma](https://firo.org/2019/03/20/what-is-sigma-and-why-is-it-replacing-zerocoin-in-zcoin.html) (which is what Zcoin uses today).
 
 When we revealed [Lelantus,](https://firo.org/2019/04/14/lelantus-firo.html) our next gen privacy protocol, we saw it as a matured version of this “burn and redeem” privacy approach combining
 
