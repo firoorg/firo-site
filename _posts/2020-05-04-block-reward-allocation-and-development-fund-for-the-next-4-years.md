@@ -11,7 +11,7 @@ We are pleased to announce the division of Zcoin's block reward for the next 4 y
 
 After [over a year of seeking community feedback via our forums](https://forum.zcoin.io/t/development-community-fund-percentage-after-block-halving/129) and numerous [community meetings](https://www.youtube.com/playlist?list=PL7I23ljcwIJXmvqh0zYBmmqRmPmsRRCPK) the block reward division has been decided and will be coded in upon the next wallet release together with deterministic Znodes and LLMQ. We would like to thank all the community members who took the time to share their views!
 
-## **Goals and Considerations**
+## Goals and Considerations
 
 Our main goals when considering the allocation of the block reward were:
 
@@ -24,7 +24,7 @@ The block reward allocation needed to ensure that current levels of development 
 
 To strike a balance between continued community building and distribution of Zcoin to new users via mining, the new block reward offers existing token holders incentives to host Znodes, especially with their increased role in securing the network alongside miners with LLMQ chain-locks.
 
-## **Block Reward Allocation**
+## Block Reward Allocation
 
 In line with the above goals and considerations, the community reached a consensus that the development reward should be extended with most members voting from 10-20% with the median vote being in favor of 15% with the more recent votes in favor of 20%. If you wish to view the factors that were taken into consideration in deciding this, you can view the [latest community meeting stream](https://youtu.be/7oGBIu_dLvE) and the [accompanying presentation](https://zcoin.io/wp-content/uploads/2020/04/Zcoin-Community-Meeting-25-April-Presentation.pdf). 
 
@@ -44,7 +44,7 @@ The Development Fund has additional limitations:
 
 In addition to the Development Fund from the block reward, the core team is exploring other sources of funding such as [OpenCollective](https://opencollective.com/zcoin) and greater use of the [Zcoin Crowdfunding System](https://zcs.zcoin.io) to diversify income streams and to reduce reliance on the block reward.
 
-## **Zcoin Reserve Fund**
+## Zcoin Reserve Fund
 
 The Zcoin Reserve Fund is a separate fund from the development reward that can only be called upon in specific circumstances or with community approval. It is designed to be a reserve to protect the project against market volatility and to make expenditure a collective decision with the community.
 
