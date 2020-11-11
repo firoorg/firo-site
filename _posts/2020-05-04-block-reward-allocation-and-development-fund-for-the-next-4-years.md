@@ -53,7 +53,7 @@ The Zcoin Reserve Fund is a separate fund from the development reward that can o
 *   No Znodes will be created from this fund.
 *   This fund shall not be utilized except in the following scenarios:
     *   The price of Zcoin falls below USD3.50 to cover any shortfall in the development fund should the core team require it.
-    *   To pay for [Zcoin Bug Bounties](https://zcoin.io/zcoin-vulnerability-bounty-program/)
+    *   To pay for [Zcoin Bug Bounties](https://firo.org/2018/07/15/firo-vulnerability-bounty-program.html)
     *   Code audits
     *   Any other expenditure that has community approval (for example events, listings, integrations). Such request would need to be via the [Zcoin Crowdfunding System](https://zcs.zcoin.io) and be discussed as an agenda item in a monthly community meeting for discussion.
 *   The cap of 100,000 USD/month shall be increased by 4% per annum each year to cover inflation.
