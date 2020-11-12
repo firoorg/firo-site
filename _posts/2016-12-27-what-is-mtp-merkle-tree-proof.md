@@ -8,7 +8,7 @@ img: ""
 alt: ""
 ---
 [![Merkle Tree Proof (MTP) Algorithm in Zcoin
-](https://img.youtube.com/vi/DAJirQaBIzYmaxresdefault.jpg)](https://youtu.be/DAJirQaBIzY)
+](https://img.youtube.com/vi/DAJirQaBIzY/maxresdefault.jpg)](https://youtu.be/DAJirQaBIzY)
 
 **Update:** This post has been updated as at 24 May 2018 to reflect new developments in MTP and the new memory requirements for our MTP implementation. 
 
@@ -18,7 +18,7 @@ The MTP algorithm was devised by Alex Biryukov and Dmitry Khovratovich from the 
 
 An updated paper which received funding from Zcoin introduced v.1.2 of the MTP algorithm was released in January 2018 which addressed attack vectors discovered by [academic peer review](https://eprint.iacr.org/2017/497) and also through the [MTP bounty program organized and funded by Zcoin](https://zcoin.io/mtp-audit-and-implementation-bounty/). 
 
-##Egalitarian Computing
+## Egalitarian Computing
 
 MTP was created as a way to remedy the disparity between ordinary users and adversaries/cheaters where the latter could use botnets, GPU, FPGA and ASICS to gain a significant advantage and mount a cheaper attack. The basic concept is that it should establish the same price/cost for a single computation unit on all platforms. This means that no single device should gain a significant advantage over another for the same price hence promoting egalitarian computing. With egalitarian computing, attackers would need to spend the same amount as ordinary users for equivalent ‘hashing’ power. As attackers need to usesimilar hardware as ordinary users, automated large-scale attacks become no longer possible. This combined with the fact hashing in MTP is highly memory intensive, users infected by trojans to participate in botnets would experience noticeable performance degradation and therefore more likely to suspect something is amiss. Botnet resistance is an important feature that was not addressed in previous ASIC resistant algorithms.
 
@@ -26,7 +26,7 @@ Massive centralization can be seen with many existing proof of work algorithms s
 
 This doesn’t mean that we discourage GPU mining, but with MTP it is foreseen that even with GPUs mining, CPU mining would still remain competitive. 
 
-##Fast and lightweight Verification
+## Fast and lightweight Verification
 
 MTP although it is computationally and memory intensive to find the solution, once found, its solution can be quickly and efficiently verified without requiring a lot of memory. Our MTP implementation will use 4GB of RAM making it noticeable on many CPUs thus discouraging botnets as it would be noticeable to the user, MTP proofs are designed to support RAM usage up to 8 gb while remaining quick to verify that is not possible with other existing PoW implementations. 
 
@@ -34,7 +34,7 @@ This is important since by keeping verification quick, this makes the network mo
 
 Source: [https://www.usenix.org/system/files/conference/usenixsecurity16/sec16\_paper\_biryukov.pdf](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_biryukov.pdf) There may also be a possibility that as MTP uses merkle-trees, merkle-tree optimizations may be possible and this is an area we are researching into. 
 
-##Progress Free
+## Progress Free
 
 A mining algorithm should be ‘progress-free’ meaning that mining must be a stochastic process where there is always a non-zero chance that the solution is found and being independent of any previous events. This prevents centralization and mitigates network delays. 
 
@@ -42,6 +42,6 @@ Therefore a mining algorithm with an ‘initialization phase’ is not truly pro
 
 It is believed that the shorter an initialization phase, the more decentralized mining can be since everyone starts from an even playing field and economies of scale or network location plays much less a role in mining efficiency.
 
-##Summary
+## Summary
 
 MTP is an amazing new mining algorithm that is high performance, high security and promotes egalitarian computing. Zcoin intends to be the first to implement this and we forsee that MTP will offer good future proofing. Being a privacy centric coin, it is even more important that mining power is decentralized and as such we are focusing on working on the very core of Zcoin’s security first before embarking on other features. We hope to finish MTP implementation in the coming months.
