@@ -10,7 +10,7 @@ Here’s a quick step-by-step guide to get your masternode up and running with t
 
 Please note that there is no reason to wait for a payout, as an update completed within a timeframe of 3 hours after first stopping the daemon, will not interfere with your qualification for a reward. 
 
-**Stuck at block 294522/294523:** please [reindex-chainstate.](https://zcoin.io/reindex-zcoin-wallet/)
+**Stuck at block 294522/294523:** please [reindex-chainstate.](https://firo.org/guide/reindex-wallet.html)
 
 **Stuck at block 296903:** `./zcoin-cli reconsiderblock ae237b8facac8562829dc7b875de910673e1d7812e7c06a27029a032e2988423`
 

@@ -7,7 +7,7 @@ author: Firo Team
 img: "/blog/assets/introducing-stakedxzc.jpg"
 alt: "Introducing stakedXZC"
 ---
-Starting today, Zcoin [(soon to be Firo)](https://zcoin.io/zcoin-is-becoming-firo/) is the first project to launch on [StakeHound's](http://stakehound.com/) liquidity bridge to the decentralized finance (DeFi) ecosystem on Ethereum. With the new stakedXZC token, all Zcoin holders will be able to generate yield through major DeFi applications while they continue to receive stable staking rewards.
+Starting today, Zcoin [(soon to be Firo)](https://firo.org/2020/10/27/zcoin-is-becoming-firo.html) is the first project to launch on [StakeHound's](http://stakehound.com/) liquidity bridge to the decentralized finance (DeFi) ecosystem on Ethereum. With the new stakedXZC token, all Zcoin holders will be able to generate yield through major DeFi applications while they continue to receive stable staking rewards.
 
 Roughly half of all the XZC in circulation are staked in Znodes. Due to the design of Zcoin’s blockchain, these coins are illiquid and are locked out from being actively traded unless they cease becoming Znodes. Using the StakeHound bridge, which has already onboarded ~$850,000 USD worth of Zcoin, investors no longer have to choose between staking or participating in the DeFi ecosystem such as decentralized exchanges or loans.
 
