@@ -26,7 +26,7 @@ If Zcoin were to reach the current volume of Bitcoin transactions, Zerocoin perf
 
 * **Trusted Setup**
 
-A trusted setup is a feature of both Zerocoin and Zerocash systems. It requires certain parameters to be generated, then destroyed. If not destroyed correctly, it allows someone to create coins out of thin air. While [Zcoin uses parameters from a 20 year old academic factoring challenge which reduces the chances of a backdoor,](https://zcoin.io/zcoin-moving-beyond-trusted-setup-in-zerocoin/) it is still an undesirable possibility which reduces trust in the system.
+A trusted setup is a feature of both Zerocoin and Zerocash systems. It requires certain parameters to be generated, then destroyed. If not destroyed correctly, it allows someone to create coins out of thin air. While [Zcoin uses parameters from a 20 year old academic factoring challenge which reduces the chances of a backdoor,](https://firo.org/2017/04/21/zcoin-moving-beyond-trusted-setup-in-zerocoin.html) it is still an undesirable possibility which reduces trust in the system.
 
 We have previously teased Sigma (set to go live soon) which has smaller proof sizes and no trusted setup, but it still did not address the fixed denominations issue.
 

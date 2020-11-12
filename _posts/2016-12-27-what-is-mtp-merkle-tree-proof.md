@@ -4,7 +4,7 @@ title: "What is MTP (Merkle Tree Proof) and why it is important to Zcoin"
 summary: "MTP was created as a way to remedy the disparity between ordinary users and adversaries/cheaters"
 tags: [news, dev]
 author: "Reuben Yap"
-img: "/blog/assets/newsoftwarelease.jpg"
+img: ""
 alt: ""
 ---
 [![Merkle Tree Proof (MTP) Algorithm in Zcoin

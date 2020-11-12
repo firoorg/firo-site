@@ -17,7 +17,7 @@ The halving refers to the planned halving of the block rewards which will drop f
 
 ## End of Founders’ Rewards and Adjustment of Block Rewards
 
-As from the results of [a year long discussion with the community](https://forum.zcoin.io/t/important-final-chance-to-weigh-in-on-development-community-funding-percentage/636), the block rewards are being adjusted as a balance between continuing development, Znodes and miners. You can read more about this [here.](https://zcoin.io/zcoin-block-reward-allocation-and-development-fund-for-the-next-4-years/)
+As from the results of [a year long discussion with the community](https://forum.zcoin.io/t/important-final-chance-to-weigh-in-on-development-community-funding-percentage/636), the block rewards are being adjusted as a balance between continuing development, Znodes and miners. You can read more about this [here.](https://firo.org/2020/05/04/block-reward-allocation-and-development-fund-for-the-next-4-years.html)
 
 ![Halving diagram](/blog/assets/first-halving/halving-diagram.jpg)
 
