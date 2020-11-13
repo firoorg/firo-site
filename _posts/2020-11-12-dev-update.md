@@ -14,10 +14,10 @@ November is an exciting month for Firo. Not only is the project completing its r
 ## Protocol
 
 * finalized emergency switch feature with one year validity
-  * Able to enable and disable features such as Lelantus
-  * Able to change parameters to reduce Lelantus spend limits.
-* Code refactor work
-* Bug fixes. Encrypted wallet now works with restoration of Lelantus mints.
+  * able to enable and disable features such as Lelantus
+  * able to change parameters to reduce Lelantus spend limits
+* code refactor work
+* bug fixes. Encrypted wallet now works with restoration of Lelantus mints
 
 ## Protocol to do:
 
@@ -32,22 +32,22 @@ November is an exciting month for Firo. Not only is the project completing its r
 * started to implement the BIP47 developers' tests
 * implement restoration of BIP47 from seed
 * testing wallet coin swap feature with Switchain on Electron wallet
-* rebranding and design work for Firo done.
+* rebranding and design work for Firo done
 
 ## Wallets to do:
 
 * finish BIP47 tests
 * finish redesigning
-* Test compatibility of BIP47 with Lelantus transactions
-* Research regarding web wallet
+* test compatibility of BIP47 with Lelantus transactions
+* research regarding web wallet
 * continue work on mobile wallets
 
 ## Other
 * new Firo website is live: [https://firo.org](https://firo.org)
-* Social media changed to new branding
-* Github repositories changed to [https://github.com/firoorg/](https://github.com/firoorg/)
-* Blockbook being updated
-* Electrum being updated
-* Explorer being rebranded and work to begin on updating it with latest upstream
+* social media changed to new branding
+* github repositories changed to [https://github.com/firoorg/](https://github.com/firoorg/)
+* blockbook being updated
+* electrum being updated
+* explorer being rebranded and work to begin on updating it with latest upstream
 
-This update is intended to give you an idea what’s happening behind the scenes. It is not a complete overview of what’s happening, some projects are worked on in private especially when it deals with new research or early work
+This update is intended to give you an idea what’s happening behind the scenes. It is not a complete overview of what’s happening, some projects are worked on in private especially when it deals with new research or early work.
