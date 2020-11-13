@@ -3,7 +3,7 @@ layout: post
 title: "Firo Dev Update - November 2020"
 summary: "To give you an idea of what’s happening behind the scenes, here is an overview that the Firo development team has shared"
 tags: [news, dev, community]
-author: "Reuben Yap"
+author: "Noah Pierau"
 img: ""
 alt: ""
 ---
