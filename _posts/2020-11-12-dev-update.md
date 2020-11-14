@@ -14,8 +14,8 @@ November is an exciting month for Firo. Not only is the project completing its r
 ## Protocol
 
 * finalized emergency switch feature with one year validity
-  * able to enable and disable features such as Lelantus
-  * able to change parameters to reduce Lelantus spend limits
+    * able to enable and disable features such as Lelantus
+    * able to change parameters to reduce Lelantus spend limits
 * code refactor work
 * bug fixes. Encrypted wallet now works with restoration of Lelantus mints
 
