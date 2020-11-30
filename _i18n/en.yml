@@ -108,6 +108,7 @@ tech:
   heading: Technology
   heading1: Privacy is about staying one step ahead. The team behind Firo is responsible for some of the most significant blockchain privacy protocols on record, and all that tech is distilled into Firo.
   academicpapers: Academic Papers
+  audits: Audits
   lelantus1: Lelantus Technology
   lelantus2: Lelantus is a next-generation privacy protocol developed by Aram Jivanyan at Firo. Lelantus allows you to burn your coins, which hides them in an anonymity set of over 65,000. The receiver can redeem it from this anonymity pool, which breaks the links from your transaction and all the previous ones it has been through.
   sigma1: Sigma Technology
