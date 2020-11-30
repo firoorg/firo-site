@@ -5,7 +5,7 @@ summary: ""
 tags: [guide]
 author: "Anwar P."
 img: ""
-permalink: /guide/how-to-mine.html
+permalink: /guide/how-to-mine-firo.html
 ---
 Currently [Firo](https://firo.org) can be mined by CPU and GPUs though are most efficient on GPUs. 
 
@@ -45,6 +45,8 @@ There are several pools running Firo on MTP (arranged in alphabetical order). Th
     * xzc.2miners.com:8080
 * [Solo Pool](https://xzc.solopool.org/)
     * s3.solopool.org:8014
+* [XpoolX](https://xpoolx.com/site/mining)
+    * mining.xpoolx.com:2260 c=FIRO
 
 Get yourself and account there and make sure you obtain a **username** and **worker** details and the **pool's address** and **port.**
 
