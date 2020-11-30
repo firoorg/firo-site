@@ -6,7 +6,7 @@ permalink: /about/tech/index.html
       <section class="page-intro section">
           <div class="row">
               <div class="col">
-                  <h1>Technology</h1>
+                  <h1>{% t tech.heading %}</h1>
               </div>
           </div>
       </section>
@@ -14,7 +14,7 @@ permalink: /about/tech/index.html
       <section class="container tech-section">
           <div class="row">
               <div class="col">
-                  <p class="intro-text">Privacy is about staying one step ahead. The team behind Firo is responsible for some of the most significant blockchain privacy protocols on record, and all that tech is distilled into Firo.</p>
+                  <p class="intro-text">{% t tech.heading1 %}</p>
               </div>
           </div>
       </section>
@@ -30,8 +30,8 @@ permalink: /about/tech/index.html
                   <div class="col tech">
                       <div class="row">
                           <div class="col">
-                              <h3>Lelantus Technology</h3>
-                              <p>Lelantus is a next-generation privacy protocol developed by Aram Jivanyan at Firo. Lelantus allows you to burn your coins, which hides them in an anonymity set of over 65,000. The receiver can redeem it from this anonymity pool, which breaks the links from your transaction and all the previous ones it has been through.</p>
+                              <h3>{% t tech.lelantus1 %}</h3>
+                              <p>{% t tech.lelantus2 %}</p>
                           </div>
                           <div class="col">
                               <img src="/img/lelantus.svg" alt=""/>
@@ -39,7 +39,7 @@ permalink: /about/tech/index.html
                       </div>
                       <div class="row">
                           <div class="col">
-                              <h3>Academic Papers</h3>
+                              <h3>{% t tech.academicpapers %}</h3>
                               <div class="row papers">
                                   <div class="col">
                                       <a href="https://eprint.iacr.org/2019/373" alt="" class="paper-title">Lelantus: Private transactions with hidden origins and amounts based on DDH (Aram Jivanyan)</a>
@@ -68,8 +68,9 @@ permalink: /about/tech/index.html
                   <div class="col tech">
                       <div class="row">
                           <div class="col">
-                              <h3>Sigma Technology</h3>
-                              <p>We believe the whole purpose of blockchain is to build systems that do not require trust, and that same principle applies to our privacy system itself. This is why we built Sigma for Firo in 2018. Sigma uses 256 bit ECC curves for proof sizes of just 1.5 kB - a 17x improvement on then-current technology. Sigma was a precursor to Lelantus, and set many stepping stones to get us where we are today.</p>
+                              <h3>{% t tech.sigma1 %}</h3>
+                              <p>{% t tech.sigma2 %}</p>
+
                           </div>
                           <div class="col">
                               <img src="/img/sigma.svg" alt=""/>
@@ -102,8 +103,8 @@ permalink: /about/tech/index.html
                   <div class="col tech">
                       <div class="row">
                           <div class="col">
-                              <h3>Dandelion Technology</h3>
-                              <p>Dandelion++ protects your IP address. Before Firo transactions are broadcast to the whole network, they’re shuffled between nodes a random number of steps. This way, the origin of the broadcast is decorrelated from your IP address.</p>
+                              <h3>{% t tech.dandelion1 %}</h3>
+                              <p>{% t tech.dandelion2 %}</p>
                           </div>
                           <div class="col">
                               <img src="/img/dandelion.svg" alt=""/>
@@ -111,7 +112,7 @@ permalink: /about/tech/index.html
                       </div>
                       <div class="row">
                           <div class="col">
-                              <h3>Academic Papers</h3>
+                              <h3>{% t tech.academicpapers %}</h3>
                               <div class="row papers">
                                   <div class="col">
                                       <a href="https://arxiv.org/pdf/1805.11060.pdf" alt="" class="paper-title">Dandelion++ Lightweight Cryptocurrency Networking with Formal Anonymity Guarantees (Giula Fanti et al)</a>
@@ -136,8 +137,9 @@ permalink: /about/tech/index.html
                   <div class="col tech">
                       <div class="row">
                           <div class="col">
-                              <h3>Decentralized and fair security</h3>
-                              <p>Firo’s Merkle Tree Proof (MTP) mining algorithm further strengthens the practical anonymity of transactions. MTP is memory-intensive, preventing miner centralization. Nodes, however, can bypass this memory requirement. A Firo-sponsored audit in 2017 proved the effectiveness of this two-pronged approach.</p>
+                              <h3>{% t tech.mtp1 %}</h3>
+                              <p>{% t tech.mtp2 %}</p>
+
                           </div>
                           <div class="col">
                               <img src="/img/mtp.svg" alt=""/>
@@ -145,7 +147,7 @@ permalink: /about/tech/index.html
                       </div>
                       <div class="row">
                           <div class="col">
-                              <h3>Academic Papers</h3>
+                              <h3>{% t home.academicpapers %}</h3>
                               <div class="row papers">
                                   <div class="col">
                                       <a href="https://arxiv.org/pdf/1606.03588.pdf" alt="" class="paper-title">MTP: Egalitarian Computing (Alex Biryukov, Dmitry Khovratovich) (revision and improvement funded by Firo)</a>
