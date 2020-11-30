@@ -2,7 +2,7 @@
 layout: post
 title: "We are now Firo!"
 summary: "Our rebrand is complete."
-tags: [news, community]
+tags: [news, community, dev]
 author: "Reuben Yap"
 img: "/blog/assets/20201130-rebrand-live/firo-rebrand-live.png"
 alt: ""
@@ -13,6 +13,8 @@ Our rebrand is complete.
 After following a phased approach to rebranding, our team is happy to announce that our rebrand to Firo is finally complete! As of today, users visiting zcoin.io will be redirected to firo.org.
 
 During the past few weeks, we've been working with wallets and exchanges, our marketing teams and influencers to ensure a smooth, gradual transition to the new name. We've also been hard at work preparing Lelantus for the release of the mainnet binaries.
+
+[Download the latest rebrand binaries here.](https://github.com/firoorg/firo/releases)
 
 ## What's new with Lelantus?
 
@@ -53,7 +55,7 @@ Exchange operators and crypto service providers are aware of the new ticker with
 
 If you were to head over to [StakeHound](https://stakehound.com/) right now, for instance, you'd see our new ticker stFIRO.
 
-We expect the new FIRO ticker to show up across exchanges over the next several months. We know you're all excited and don't want to wait; all we ask is for you to remain patient for the time being. The change will come.
+We expect the new FIRO ticker to show up across exchanges over the next several weeks. We know you're all excited and don't want to wait; all we ask is for you to remain patient for the time being. The change will come.
 
 ## Why 'Firo'?
 
