@@ -10,7 +10,7 @@ Here’s a quick step-by-step guide to get your masternode up and running with t
 
 Please note that if you did not update in time to a mandatory release or before the hard fork, your masternode will stop receiving rewards. It is highly advisable to update to the latest stable version as soon as possible.
 
-**Important notice for v0.14.1.2:** You can migrate your default data directory with the `-migratetofiro` flag, however this will not work if you are using a custom data directory in which case you need to rename the `zcoin.conf` in this directory to `firo.conf` in order for the daemon to pickup the settings.
+**Important notice for v0.14.1.2:** You can migrate your default data directory with the **-migratetofiro** flag, however this will not work if you are using a custom data directory in which case you need to rename the **zcoin.conf** in this directory to **firo.conf** in order for the daemon to pickup the settings.
 
 1.  Log on to your masternode
 
@@ -19,7 +19,6 @@ Please note that if you did not update in time to a mandatory release or before 
 3.  On the masternode’s command line, type **wget** and insert the copied link after it like so: 
 
 `cd ~`
-
 `wget https://github.com/firoorg/firo/releases/download/v0.14.1.2/firo-0.14.1.2-linux64.tar.gz` 
 
 This will download the archive to your masternode.
@@ -27,32 +26,24 @@ This will download the archive to your masternode.
 4.  Stop the old daemon 
 
 `cd ~/zcoin-0.14.0/bin` 
-
 (this is the folder of the major version you are upgrading _from_) 
-
 `./zcoin-cli stop` 
-
 and remove the old version 
-
 `cd ~` 
-
 `rm -rv zcoin-0.14.0` 
-
 (see above)
 
 5.  Unpack the downloaded archive by typing 
-
 `tar xvzf firo-0.14.1.2-linux64.tar.gz`
 
 6.  Now you can start your masternode again 
-
 `cd ~/firo-0.14.1/bin` 
-
 (new version) 
-
 `./firod -daemon`
 
-**Always check that your masternode is running normally after every upgrade** with `./firo-cli getinfo` and `./firo-cli evoznode status`.
+**Always check that your masternode is running normally after every upgrade** with 
+`./firo-cli getinfo`
+`./firo-cli evoznode status`
 
 Failure to check can cause your masternode to **get banned** some time later.
 
