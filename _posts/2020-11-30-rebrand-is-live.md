@@ -8,8 +8,6 @@ img: "/blog/assets/20201130-rebrand-live/firo-rebrand-live.png"
 alt: ""
 ---
 
-Our rebrand is complete.
-
 After following a phased approach to rebranding, our team is happy to announce that our rebrand to Firo is finally complete! As of today, users visiting zcoin.io will be redirected to firo.org.
 
 During the past few weeks, we've been working with wallets and exchanges, our marketing teams and influencers to ensure a smooth, gradual transition to the new name. We've also been hard at work preparing Lelantus for the release of the mainnet binaries.
