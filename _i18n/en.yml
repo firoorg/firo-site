@@ -1,0 +1,146 @@
+global:
+  date: '%Y/%m/%d'
+  firo: Firo
+  yeth: "yes"
+  noo: "no"
+  lelantus: Lelantus
+  
+  
+titles:
+  index: Home
+  
+navigation:
+  getfiro: Get Firo
+  about: About
+  community: Community
+  blog: Blog
+  crowdfunding: Crowdfunding
+  download: Download wallets
+  buyfiro: Buy Firo
+  earnfiro: Earn Firo
+  mine: Mine
+  tech: Tech
+  team: Team
+  roadmap: Roadmap
+  faq: FAQ
+  fcs: Firo Crowdfunding System
+  opencollective: Open Collective
+  
+footer:
+  resources: resources
+  branding: Branding
+  vuln: Vulnerability Program
+  explorer: Explorer
+  website: website
+  privacy: Privacy Policy
+  tos: Terms Of Service
+  newsletter: newsletter
+  ifsub: If you want to subscribe to our newsletter, please submit the form.
+  email: Email
+  sub: Subscribe
+  comm: communication
+  
+home:
+  heading: Financial Privacy Renewed
+  heading2: Firo is a digital currency with a focus on setting privacy standards.
+  cta1: Get Firo
+  cta2: Learn More
+  privacy: Privacy
+  privacy1: Firo, formerly Zcoin, has been the gold standard of trustless, on-chain privacy since 2016.
+  privacy2: anonymity set
+  privacy3: trustless setup
+  blockchain: Blockchain
+  blockchain1: Firo’s incentive infrastructure gives it the industry-leading practical anonymity set.
+  blockchain2: total supply
+  blockchain3: proof of work
+  blockchain4: master nodes
+  randd: Research and development
+  randd1: Firo is one of the few that actually contributes both independent research and development to blockchain privacy and decentralization technologies.
+  getfiro: get firo
+  getfiro1: Push the frontiers of digital privacy. Join the Firo ecosystem today.
+  getfiro2: Get a wallet
+  getfiro3: Buy Firo
+  getfiro4: Earn Firo
+  getfiro5: Start mining
+  
+download:
+  heading: Download a wallet
+  official: official desktop wallets
+  backup: Back up your wallet prior to updating
+  verify: Verify hashes using
+  verify1: this public key
+  guide: Use this official
+  guide1: wallet installation and usage guide
+  changelog: View changelog
+  option1: The high security option
+  option2: The user friendly option
+  option3: The fast, lightweight option
+  qt: QT Wallet
+  downloadqtw: Download QT for Windows
+  downloadqtm: Download QT for MacOS
+  downloadqtl: Download QT for Linux
+  electron: Electron
+  downloadelectronw: Download Electron for Windows
+  downloadelectronm: Download Electron for MacOS
+  downloadelectronl: Download Electron for Linux
+  electrum: Electrum
+  downloadelectrumw: Download Electrum for Windows
+  downloadelectrumm: Download Electrum for MacOS
+  downloadelectruml: Download Electrum for Linux
+  hasheswindows: Show SHA256 hashes for Windows
+  hashesmac: Show SHA256 hashes for MacOS
+  hasheslinux: Show SHA256 hashes for Linux
+  wallets: wallets
+
+buyfiro:
+  heading: Buy Firo
+  heading2: One of the ways to get Firo is to acquire it on one of the exchanges. Below you will find a list of exchanges and coin-swapping services that support Firo.
+  ff: "Firo / Fiat"
+  fc: "Firo / Crypto"
+  cs: "Coin-Swapping"
+  exchangeswith: exchanges with
+  ffhead1: "firo / fiat"
+  pairing: pairing
+  fchead1: "firo / crypto"
+  csservice: coin-swapping services
+  
+tech:
+  heading: Technology
+  heading1: Privacy is about staying one step ahead. The team behind Firo is responsible for some of the most significant blockchain privacy protocols on record, and all that tech is distilled into Firo.
+  academicpapers: Academic Papers
+  lelantus1: Lelantus Technology
+  lelantus2: Lelantus is a next-generation privacy protocol developed by Aram Jivanyan at Firo. Lelantus allows you to burn your coins, which hides them in an anonymity set of over 65,000. The receiver can redeem it from this anonymity pool, which breaks the links from your transaction and all the previous ones it has been through.
+  sigma1: Sigma Technology
+  sigma2: We believe the whole purpose of blockchain is to build systems that do not require trust, and that same principle applies to our privacy system itself. This is why we built Sigma for Zcoin in 2018. Sigma uses 256 bit ECC curves for proof sizes of just 1.5 kB - a 17x improvement on then-current technology. Sigma was a precursor to Lelantus, and set many stepping stones to get us where we are today.
+  dandelion1: Dandelion Technology
+  dandelion2: Dandelion++ protects your IP address. Before Firo transactions are broadcast to the whole network, they’re shuffled between nodes a random number of steps. This way, the origin of the broadcast is decorrelated from your IP address.
+  mtp1: Decentralized and fair security
+  mtp2: Firo’s Merkle Tree Proof (MTP) mining algorithm further strengthens the practical anonymity of transactions. MTP is memory-intensive, preventing miner centralization. Nodes, however, can bypass this memory requirement. A Zcoin-sponsored audit in 2017 proved the effectiveness of this two-pronged approach.
+  
+team:
+  heading: Team
+  coreteam: core team
+  research: research
+  ambassadors: ambassadors
+  community: community managers
+  
+roadmap:
+  heading: Roadmap
+  znodes: Deterministic Znodes
+  mnodesq: Long Lived Masternode Quorums
+  rap: RAP Addresses - PR Review
+  chainlocks: Chain-locks
+  rebrand: Rebrand
+  elysium: Elysium with Lelantus
+  defi: DeFi Integrations
+  instant: Instant Send
+  aura: Aura with direct anonymous payments
+  pow: PoW change
+  mobile: Mobile wallet and SDK with Lelantus/Aura support
+  fast: Fast sync clients
+  chainswap: Chain swap
+  research: Research
+  bridges: Cross chain bridges
+  mixnets: Mixnets
+  proofs: Hierarchical one-out-of-many proofs for Lelantus
+  learnmore: Learn more
