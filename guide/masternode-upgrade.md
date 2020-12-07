@@ -10,7 +10,9 @@ Here’s a quick step-by-step guide to get your masternode up and running with t
 
 Please note that if you did not update in time to a mandatory release or before the hard fork, your masternode will stop receiving rewards. It is highly advisable to update to the latest stable version as soon as possible.
 
-**Important notice for v0.14.1.2:** You can migrate your default data directory with the **-migratetofiro** flag, however this will not work if you are using a custom data directory in which case you need to rename the **zcoin.conf** in this directory to **firo.conf** in order for the daemon to pickup the settings.
+**Important notice for v0.14.1.2:** You can migrate your default data directory and zcoin.conf with the **-migratetofiro** flag. This only works if you are using the default data directory.
+
+If you are using a **custom data directory (-datadir), please migrate manually** by renaming your custom data directory/ zcoin.conf to firo.conf, and making sure that the `-datadir=` flag is pointing to the correct directory.
 
 1.  Log on to your masternode
 
