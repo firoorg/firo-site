@@ -13,9 +13,9 @@ Starting on the 16th December, LockTrip will be listing Firo as a direct payment
 
 The following screenshot illustrates the price savings when booking through LockTrip.com vs Booking.com. Both screenshots are for the same accommodation at the same time, but there is over 32% saving when booking through LockTrip.
 
-![](/blog/assets/locktrip/locktrip-booking.png)
+![](/blog/assets/locktrip/locktrip-booking.jpg)
 
-![](/blog/assets/locktrip/locktrip-locktrip.png)
+![](/blog/assets/locktrip/locktrip-locktrip.jpg)
 
 LockTrip values honesty and doesn’t pressure-sell with warnings like "only 1 room left" or present members "special deals" that are not special, and uses fully transparent booking smart contracts. Each booking also burns 3% of the booking value in LOC.
 
