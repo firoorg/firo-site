@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: "How to Mine Firo (FIRO) with MTP"
 summary: ""
 tags: [guide]
