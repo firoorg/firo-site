@@ -2,7 +2,7 @@
 layout: post
 title: "Firo Partners with Travel Booking Marketplace LockTrip"
 tags: [news, community]
-author: "Michael "Muggles" Bernhardt"
+author: Michael "Muggles" Bernhardt
 img: "/blog/assets/locktrip/locktrip-image.png"
 alt: ""
 ---
