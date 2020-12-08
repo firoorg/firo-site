@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: "How to backup your Firo wallet with a mnemonic seed phrase"
 summary: 
 tags: [guide]

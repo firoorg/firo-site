@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: Firo masternode setup guide
 summary: Follow this guide to setup your masternode from scratch
 tags: [guide]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: "How to Use Trezor With Firo (formerly Zcoin)"
 summary: 
 tags: [guide]

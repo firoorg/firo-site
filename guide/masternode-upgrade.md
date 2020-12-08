@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: Upgrading your Firo masternode
 summary: 
 tags: [guide]

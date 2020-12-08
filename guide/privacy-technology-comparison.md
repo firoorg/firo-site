@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: "How Firo's Privacy Technology Compares to the Competition"
 summary: ""
 tags: [news, dev, community]

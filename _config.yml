@@ -20,7 +20,7 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 # paginate
-paginate: 3
+paginate: 6
 paginate_path: "/blog/page:num/"
 
 # jekyll-multiple-languages-plugin settings:

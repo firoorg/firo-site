@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: "Reindexing your Firo wallet"
 summary: 
 tags: [guide]
