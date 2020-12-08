@@ -7,7 +7,7 @@ img: "/blog/assets/locktrip/locktrip-image.png"
 alt: ""
 ---
 
-Firo (formerly known as Zcoin) has partnered with LockTrip (https://locktrip.com/), a blockchain-based travel website which offers up to 60% discounts on more than 2 Million Hotels & Vacation Rentals thanks to its unique reverse-auctioning model. They achieve this by removing the hefty commissions imposed by intermediaries. As a result, the least discounted prices are still equal to booking.com!
+Firo (formerly known as Zcoin) has partnered with [LockTrip.com](https://www.locktrip.com "LockTrip.com"), a blockchain-based travel website which offers up to 60% discounts on more than 2 Million Hotels & Vacation Rentals thanks to its unique reverse-auctioning model. They achieve this by removing the hefty commissions imposed by intermediaries. As a result, the least discounted prices are still equal to booking.com!
 
 Starting on the 16th December, LockTrip will be listing Firo as a direct payment option, which in addition to the hotels and properties, will allow Firo users to book from over 1000 airlines.
 
@@ -27,4 +27,4 @@ Nikola Alexandrov, CEO of LockTrip says:
 
 To celebrate the Firo integration, Locktrip is running a promotion where you can use the code “VB7RV” when signing up to unlock an additional 6% savings! The code needs to be entered during the signup. It is not possible to enter it afterwards. The code will be valid for the first 100 sign-ups.
 
-LockTrip also have an affiliate program that allows people to earn additional income (https://academy.locktrip.com/)
+LockTrip also have an affiliate program that allows people to [earn additional income](https://academy.locktrip.com/)
