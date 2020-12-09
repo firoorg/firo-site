@@ -20,12 +20,13 @@ permalink: /about/faq/index.html
                   <li><a href="#technical">Technical</a></li>
                   <li><a href="#community">Community</a></li>
                   <li><a href="#resources">Resources</a></li>
+                  <li><a href="#masternodes">Masternodes</a></li>
                   <li><a href="#other">Anything else?</a></li>
               </ul>
           </div>
       </section>
       
-      <section class="faq-section" id="overview">
+       <section class="faq-section" id="overview">
          <div class="container">
               <div class="row">
                   <div class="col">
@@ -33,114 +34,68 @@ permalink: /about/faq/index.html
                         <div class="tabs">
                           <div class="tab">
                             <input type="checkbox" id="q1">
-                            <label class="tab-label" for="q1"><h4>What are the differences between Firo and Zcash?</h4></label>
+                            <label class="tab-label" for="q1"><h4>Where can I download Firo</h4></label>
                             <div class="tab-content">
-                              <p>A common misconception is that Firo is a fork of Zcash. Firo is based off the Zerocoin paper while Zcash is based off the Zerocash paper. While the Zerocoin paper and Zerocash paper share common authors and both use zero knowledge proofs, they rely on different cryptography. There is otherwise no relation between the two projects.</p>
-                                <h5>Cryptographic Implementations</h5>
-                                <p>Firo uses RSA accumulators which were introduced in 1993 as the foundation of our anonymity scheme while Zcash uses zk-SNARKs which was recently formulated in 2014 and very few ppl understand it. Comparatively, RSA cryptography is one of the earliest form of public key cryptography which was publicly described in 1977, has been battle tested and forms the basis of many encryption schemes in wide use today such as HTTPS, SSH logins and PGP for e-mail. It also uses the Fiat-Shamir transform scheme that was published in 1986.</p>
-                                <p>Peter Todd’s blog <a href="https://petertodd.org/2016/cypherpunk-desert-bus-zcash-trusted-setup-ceremony#zk-snarks" target="_blank">post</a> illustrates this perfectly in pointing out that if RSA breaks, Firo would probably be the least of your concerns.</p>
-                                <p>zk-SNARKs as used in Zcash requires on more novel <a href="https://en.wikipedia.org/wiki/Computational_hardness_assumption" target="_blank">cryptographic assumptions</a> which have not been really been put under serious scrutiny.</p>
-                                <p>It is a serious enough problem that the <a href="https://www.coindesk.com/zk-starks-new-take-on-zcash-tech-could-power-truly-private-blockchains/" target="_blank">Zcash devs themselves are trying to find alternatives to it in the form of zk-STARKs</a> which remain in research stage and are currently impractical to use. If these cryptographic assumptions do not hold, then the cryptography in Zcash breaks. This combined with an unauditable supply that may make it impossible to detect such problems means that zk-SNARKs although technologically advanced, is taking certain risks to achieve it.</p>
-                                <h5>Trusted Setup</h5>
-                                <p>While both Firo and Zcash uses trusted setups, they are implemented differently.</p>
-                                <p>Firo’s setup is conceptually very simple as it only involves taking two primes p and q, to generate a modulus n. p and q are then destroyed. Instead of generating these parameters ourselves, we use parameters that were generated from the RSA factoring challenge many years ago so there is no possibility that the devs of Firo know these parameters. In fact, successfully obtaining those parameters would have netted you a nice bounty from the RSA (before they discontinued the challenge)! You can read more on how these parameters were generated and destroyed <a href="https://github.com/Firoofficial/zcoin/wiki/Parameters-in-set-up-phase-for-Zerocoin-in-Zcoin" target="_blank">here</a>. Our opinion is that the simpler the setup process, the less things can go wrong.</p>
-                                <p>However are now positive that we can remove trusted setup completely using the <a href="https://firo.org/2017/04/21/zcoin-moving-beyond-trusted-setup-in-zerocoin.html" target="_blank">Sigma (Σ) protocol</a> that would allow us to continue using the high anonymity of zero knowledge proofs without worrying about trusted setup and this is currently in development.</p>
-                                <p>Zcash’s setup is more elaborate and involved 6 trusted people, and can be read <a href="https://z.cash/blog/the-design-of-the-ceremony.html" target="_blank">here</a>. But in short, all six participants need to collude or be compromised for the parameters to be leaked out.</p>
-                                <h5>Auditable Supply</h5>
-                                <p>The main risk of having trusted setups being broken is that an attacker can counterfeit coins out of thin air.</p>
-                                <p>Firo features a fully auditable coin supply. In our view, this is immensely important as in the event of any issues with our trusted setup or cryptographic implementation, this can be detected. No code is ever perfect even with the best of audits and new threats and vulnerabilities are constantly being found. For example, even <a href="https://en.bitcoin.it/wiki/Value_overflow_incident" target="_blank">Bitcoin suffered a serious flaw that resulted in 184.4 billion Bitcoin</a> being generated and an auditable supply allows such bugs to be found and fixed.</p>
-                                <p>With Zcash’s use of private transactions and addresses where amounts are also hidden, it is very difficult to detect if a vulnerability is exploited or a problem in their trusted setup. It is to be noted that Zcash’s own audit itself <a href="https://z.cash/blog/fixing-zcash-vulns.html" target="_blank">did discover vulnerabilities</a> and despite it being fixed, it is noted that in their own post that:</p>
-                                <p>“Building secure crypto protocols is hard, and even our team of world-class cryptographers and security engineers will make mistakes along the way. Despite the challenge, we’re optimistic that our practices of careful security review and transparency will lead to a secure product.</p>
-                                <p>At this point the Zcash protocol has been subjected to intense security review, first through scientific peer review, and then by our in-house team of experts. But we need even more scrutiny to gain assurance that the protocol is safe.”</p>
-                                <p>We applaud Zcash’s developments and highly value their work in the cryptocurrency space and look forward to seeing their advances. However, we feel Firo has a place in providing one of the best anonymity systems which is built on proven cryptography and is setup in such a way that flaws if exploited, can be detected.</p>
-                                <p>For further details, please read our <a href="https://zcoin.io/zcoin-and-zcash/" target="_blank">blog post</a>.</p>
+                              <p>The wallet is available for download from our <a href="https://firo.org/get-firo/download/" target="_blank">website</a> or <a href="https://github.com/zcoinofficial/zcoin/releases" target="_blank">Github Releases page</a>.</p>
                             </div>
                           </div>
                           <div class="tab">
                             <input type="checkbox" id="q2">
-                            <label class="tab-label" for="q2"><h4>Where can I download Firo?</h4></label>
+                            <label class="tab-label" for="q2"><h4>As a truly anonymous cryptocurrency, won’t Firo be used for terrible things?</h4></label>
                             <div class="tab-content">
-                              <p>The wallet is available for download from our <a href="https://github.com/zcoinofficial/zcoin/releases" target="_blank">Github Releases page</a>.</p>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q3">
-                            <label class="tab-label" for="q3"><h4>As a truly anonymous cryptocurrency, won’t Firo be used for terrible things?</h4></label>
-                            <div class="tab-content">
-                              <p>As with any other technology, Firo can be used for both good and evil. However, we are firm believers that the net good for Firo far outweighs the bad. Throughout history, freedom of commerce has been shown to prevent wars, promote prosperity, and increase cross-culture exchange.</p>
+                              <p>As with any other technology, Firo can be used for both good and evil. However, we are firm believers that the net good for Firo far outweighs the bad. Throughout history, freedom of commerce has been shown to prevent wars, promote prosperity, and increase cross-cultural exchange.</p>
                               <p>Firo is designed to benefit legitimate users who have realized the risk of using a cryptocurrency with a completely transparent public ledger, and the danger of having all their financial details made public with Bitcoin. Because there are already pre-existing mechanisms for such activities, Firo does not affect the status quo for such activities, while it provides notable benefits to legitimate users.</p>
                               <p>Even without Firo, such transactions can take place via existing financial systems (e.g. by using cash. Although not actually private, Bitcoin has faced the scrutiny of regulators with its potential use in money laundering.</p>
                             </div>
                           </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q4">
-                            <label class="tab-label" for="q4"><h4>Why create a new coin, when we already have Bitcoin?</h4></label>
-                            <div class="tab-content">
-                              <p>The&nbsp;<a href="http://zerocoin.org/media/pdf/ZerocoinOakland.pdf" target="_blank">Zerocoin Protocol</a>, created in 2013, was originally meant to be an extension on top of Bitcoin. There was a lot of&nbsp;<a href="https://zcoin.io/tech/" target="_blank">support</a>&nbsp;for Zerocoin from key members of the Bitcoin community. However, Bitcoin has the primary goal of ensuring stability in its money supply, by moving slowly with only unanimously agreed upon changes. As a result of the political deadlock, the Firo project was created.</p>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q5">
-                            <label class="tab-label" for="q5"><h4>What is Firo's mission?</h4></label>
+						  <div class="tab">
+                            <input type="checkbox" id="q3">
+                            <label class="tab-label" for="q3"><h4>What is Firo's mission?</h4></label>
                             <div class="tab-content">
                               <p>Firo strives to increase individual liberty. By guaranteeing financial privacy, Firo can help ensure freedom of commerce. People should be able to transact however they want, as long as it does not infringe on the well-being or individual liberty of others. We are also big believers that freedom of commerce also facilitates peace and prosperity across countries and cultures. By guaranteeing financial privacy, Firo can directly guarantee&nbsp;<a href="https://www.youtube.com/watch?v=3dAdI3Gzodo" target="_blank">fungibility</a>, an essential property for free commerce.</p>
-                              <p>Although there are many anonymity solutions out there for cryptocurrencies, it is our aim in providing the strongest level of anonymity that is possible without sacrificing usability, the auditability of our coin supply and relying on well established cryptographic protocols.</p>
+                              <p>Although there are many anonymity solutions out there for cryptocurrencies, it is our aim in providing the strongest level of anonymity that is possible without sacrificing usability, requiring trust and relying on well established cryptographic protocols.</p>
                             </div>
                           </div>
                         </div>
                   </div>
               </div>
           </div>
-      </section>
-      
-      <section class="faq-section" id="economics">
+  </section>
+  
+	  <section class="faq-section" id="economics">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Economics</h2>
                         <div class="tabs">
                           <div class="tab">
+                            <input type="checkbox" id="q4">
+                            <label class="tab-label" for="q4"><h4>Where can I buy Firo?</h4></label>
+                            <div class="tab-content">
+                              <p>You can see all the exchanges and/or swap services Firo is available here or on <a href="https://www.coingecko.com/en/coins/firo" target="_blank">Coingecko</a></p>
+                            </div>
+                          </div>
+                          <div class="tab">
+                            <input type="checkbox" id="q5">
+                            <label class="tab-label" for="q5"><h4>What will Firo's Development Reward be used for?</h4></label>
+                            <div class="tab-content">
+                              <p>15% of Firo’s block reward goes towards a <a href="https://explorer.firo.org/address/aFrAVZFr8pva5mG8XKaUH8EXcFVVNxLiuB">development fund</a> to fund development work and other efforts in promoting Firo’s adoption</p>
+							  <p>The fund pays primarily for coder and researcher salaries, community managers, translation work, audits, bug bounties, integration costs and infrastructure overheads.</p>
+							  <p>We are always actively looking for talent so please do reach out over <a href="mailto:team@firo.org">email</a> or our <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a>.</p>
+                            </div>
+                          </div>
+                          <div class="tab">
                             <input type="checkbox" id="q6">
-                            <label class="tab-label" for="q6"><h4>Where can I buy Firo?</h4></label>
-                            <div class="tab-content">
-                              <p>You can buy Firo at the following exchanges.</p>
-                              <ul>
-                                <li><a href="https://bittrex.com/Market/Index?MarketName=BTC-XZC">Bittrex</a></li>
-                                <li><a href="https://www.bitcoin.co.id/">Bitcoin.co.id (IDR pairing)</a></li>
-                                <li><a href="https://www.binance.com/trade.html?symbol=XZC_BTC">Binance</a></li>
-                                <li><a href="https://www.coinexchange.io/market/XZC/BTC">CoinExchange.io</a></li>
-                                <li><a href="https://market.bitsquare.io/?market=xzc_btc">Bitsquare</a></li>
-                                <li><a href="https://bx.in.th/THB/XZC/]">BX Thailand (THB pairing)</a></li>
-                                <li><a href="https://www.cryptopia.co.nz/Exchange?market=XZC_BTC">Cryptopia</a></li>
-                                <li><a href="https://www.litebit.eu/en">LiteBit.eu</a></li>
-                                <li><a href="https://novaexchange.com/market/BTC_XZC/">Nova Exchange</a></li>
-                                <li><a href="https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XZC">UPBit.com</a></li>
-                                <li><a href="https://www.aex.com/page/trade.html?trade_coin_name=XZC">AEX.com</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q7">
-                            <label class="tab-label" for="q7"><h4>What will Firo's Founders Reward be used for?</h4></label>
-                            <div class="tab-content">
-                              <p>The Founders Reward is to reward the funding given by early investors, the time invested by the developers and a bounty wallet used to fund the team and other Firo community efforts. Bounties are available for various tasks, such as Firo core development, web development, graphic design, marketing, etc. If you’d like to help out, please <a href="mailto:team@zcoin.io">email</a> or message us on <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a>.</p>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q8">
-                            <label class="tab-label" for="q8"><h4>What is the total supply and distribution of Firo?</h4></label>
+                            <label class="tab-label" for="q6"><h4>What is the total supply and distribution of Firo?</h4></label>
                             <div class="tab-content">
                                 <p>There will be 21.4 million Firos. Firo follows the same halving cycle as Bitcoin (every 4 years).</p>
-                                <p>It was originally planned that 20% of Firos (10 XFR per block) in the first 4 years will be distributed to the Founders’ Reward which is equivalent to 10% of total supply. The Founders’ Reward consists of Poramin Insom (lead dev and Founder) (4%), seed investors (12%) and the team wallet (4%).</p>
-                                <p>However upon the launch of Znodes, the Founders and the team have agreed to reduce this to 14% of the block reward: 2% Poramin Insom, seed investors (6%) and team wallet (6%).</p>
-                                <p>To find out how the Founder’s Rewards are used, see <a href="https://zcoin.io/ufaqs/what-will-zcoins-founders-reward-be-used-for/">here</a>.</p>
-                                <p>After the first 4 years and at the first halving expected in September 2020, the 12.5 XFR block reward will be divided as follows:</p>
+								<p>The current block reward of 12.5 FIRO/block is divided as follows:</p>
                                 <ul>
                                 <li>Miners (50%, 6.25 XFR)</li>
-                                <li>Znodes (34%, 4.375 XFR )</li>
+                                <li>Masternodes (34%, 4.375 XFR )</li>
                                 <li>Development Fund (15%, 1.875XFR)</li>
                                 </ul>
-                                <p>For more information about how we arrived at this new distribution and the development fund, please read this <a href="https://zcoin.io/zcoin-block-reward-allocation-and-development-fund-for-the-next-4-years/">blog post.</a></p>
+                                <p>For more information about how we arrived at this new distribution and the development fund, please read this <a href="https://firo.org/2020/05/04/block-reward-allocation-and-development-fund-for-the-next-4-years.html">blog post.</a></p>
                                 <p><img loading="lazy" class="aligncenter wp-image-146152 size-full" src="https://zcoin.io/storage/2020/05/blockreward-1-1024x408-3.png?_t=1592412893" alt="" srcset="https://zcoin.io/storage/2020/05/blockreward-1-1024x408-3.png 1024w, https://zcoin.io/storage/2020/05/blockreward-1-1024x408-3-300x120.png 300w, https://zcoin.io/storage/2020/05/blockreward-1-1024x408-3-768x306.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="408"></p>
                             </div>
                           </div>
@@ -149,16 +104,24 @@ permalink: /about/faq/index.html
               </div>
           </div>
       </section>
-      
-      <section class="faq-section" id="mining">
+	  
+	  <section class="faq-section" id="mining">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Mining</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q9">
-                            <label class="tab-label" for="q9"><h4>What is MTP?</h4></label>
+                            <input type="checkbox" id="q7">
+                            <label class="tab-label" for="q7"><h4>What mining algorithm does Firo use?</h4></label>
+                            <div class="tab-content">
+                                <p>Firo uses the MTP algorithm which aims for democratic mining without sacrificing quick validation.</p>
+								<p>Firo has plans to switch to a ProgPOW  variant in the near future to address the large proof sizes of MTP while remaining FPGA/ASIC resistant.</p>
+                            </div>
+                          </div>
+						  <div class="tab">
+                            <input type="checkbox" id="q8">
+                            <label class="tab-label" for="q8"><h4>What is MTP?</h4></label>
                             <div class="tab-content">
                                 <p>The MTP (Merkle Tree Proof) algorithm was devised by Alex Biryukov and Dmitry Khovratovich from the University of Luxembourg in their paper published on the 11 June 2016 titled <a href="https://arxiv.org/pdf/1606.03588v1.pdf">Egalitarian Computing</a>. These are the same researchers who came up with Equihash that is currently used in ZCash and the Argon2 key derivation function.</p>
                                 <p>MTP promotes fair and democratic mining by making ASIC development expensive. The key element of this approach is large (in size) and intensive (in bandwidth) use of RAM. RAM is expensive in both FPGA and ASIC and slow on GPU. Previous attempts in large and memory intensive proof of works were problematic. This is because to verify these memory intensive proof of works, the nodes had to also have that memory and spend a relatively long time calculating it. This made the network susceptible to transaction DoS attacks where nodes are constantly occupied in verifying transactions.</p>
@@ -167,21 +130,10 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q10">
-                            <label class="tab-label" for="q10"><h4>What mining algorythm does Firo use?</h4></label>
+                            <input type="checkbox" id="q9">
+                            <label class="tab-label" for="q9"><h4>How can I mine Firo?</h4></label>
                             <div class="tab-content">
-                                <p>Firo uses a temporary algorithm Lyra2z</p>
-                                <p>It is a chained algorithm with Blake256 first round and Lyra2 (timecost = 8, r=c=8) for the final round.</p>
-                                <p>It was designed to achieve a slight advantage to GPU while making it feasible for CPU mining.</p>
-                                <p>This algorithm will be replaced by MTP which aims for democratic mining without sacrificing performance. To read more on the MTP mining algorithm, click <a href="https://zcoin.io/what-is-mtp-merkle-tree-proof-and-why-it-is-important-to-zcoin/">here</a>.</p>
-                                <p>MTP is currently running our testnet and is expected to go live in September 2018.</p>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q11">
-                            <label class="tab-label" for="q11"><h4>How can I mine Firo?</h4></label>
-                            <div class="tab-content">
-                                <p>Do check out our <a href="https://zcoin.io/guide-on-how-to-mine-zcoin-xzc/">Zcoin mining guide</a>!</p>
+                                <p>Do check out our <a href="https://firo.org/guide/how-to-mine-firo.html">Firo mining guide</a>!</p>
                             </div>
                           </div>
                         </div>
@@ -189,16 +141,15 @@ permalink: /about/faq/index.html
               </div>
           </div>
       </section>
-      
-      <section class="faq-section" id="privacy">
+	  <section class="faq-section" id="privacy">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Privacy</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q12">
-                            <label class="tab-label" for="q12"><h4>How does Firo's privacy mechanism work?</h4></label>
+                            <input type="checkbox" id="q10">
+                            <label class="tab-label" for="q10"><h4>How does Firo's privacy mechanism work?</h4></label>
                             <div class="tab-content">
                                 <p>Blockchains without privacy like Bitcoin only offer pseudo-anonymity. In blockchains without complete privacy, it is the relationships and links between addresses that can reveal private information about you. Every single coin has an immutable history.</p>
                                 <p>This is why<a href="https://newconomy.media/news/the-premium-value-of-freshly-mined-virgin-bitcoin/"> freshly mined Bitcoins with no previous transaction history can command premiums of 20% or more</a> as the holder does not have to worry whether it has been tainted and also private.</p>
@@ -208,8 +159,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q13">
-                            <label class="tab-label" for="q13"><h4>What is trusted setup?</h4></label>
+                            <input type="checkbox" id="q11">
+                            <label class="tab-label" for="q11"><h4>What is trusted setup?</h4></label>
                             <div class="tab-content">
                                 <p>In cryptography, a trusted setup is used to create a cryptographic system by generating certain initial parameters which will later be destroyed. An easy analogy is to imagine creating a lockbox with a key and then throwing the key away.</p>
                                 <p>Why it is called trusted setup is that you must trust the person who created it, to actually destroy the parameters. Zero knowledge proof privacy systems such as the Zerocoin (as originally used in Firo and now deprecated) and Zerocash (as used in Zcash, Komodo and Horizen) protocol requires a trusted setup.</p>
@@ -223,8 +174,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q14">
-                            <label class="tab-label" for="q14"><h4>What is a zero-knowledge cryptographic proof, and how does it work?</h4></label>
+                            <input type="checkbox" id="q12">
+                            <label class="tab-label" for="q12"><h4>What is a zero-knowledge cryptographic proof, and how does it work?</h4></label>
                             <div class="tab-content">
                                 <p>A zero-knowledge proof is a cryptographic method to prove that you know something without giving any other details about it, except that the fact that you know it. For example, zero-knowledge proofs could be used to show you have assets of more than a million dollars, without showing the exact amount you own or the transactions that make it up.</p>
                                 <p>Zero-knowledge proofs are an ideal fit for providing privacy on blockchains. On a public blockchain, everyone has to be able to verify the authenticity of transactions and so every transaction is posted for everyone to see along with its entire history.</p>
@@ -233,8 +184,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q15">
-                            <label class="tab-label" for="q15"><h4>How does blockchain-tracking software work, and why is it so dangerous to anonymity?</h4></label>
+                            <input type="checkbox" id="q13">
+                            <label class="tab-label" for="q13"><h4>How does blockchain-tracking software work, and why is it so dangerous to anonymity?</h4></label>
                             <div class="tab-content">
                               <p>To best understand how blockchain-tracking software works, it helps to view Bitcoin as a kind of financial social network. The same kinds of mechanisms used to break privacy in social networks, by analyzing social network topology, can be used to break privacy in the Bitcoin network. By taking a pre-existing social network like Facebook, we can use that information to generate heuristics about who is transacting with whom on Bitcoin.</p>
                               <p>There is a relevant research paper that attempted to identify Twitter users by using data from Flickr. They took the twitter data, and stripped away all identifying information about the user such as name or username. Then, by looking at the social network topology of the anonymized twitter data and comparing it to the flickr data, they found that they could identify one third of twitter users, even though the twitter data was anonymized.</p>
@@ -247,42 +198,34 @@ permalink: /about/faq/index.html
               </div>
           </div>
       </section>
-      
-      <section class="faq-section" id="technical">
+	  
+	  <section class="faq-section" id="technical">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Technical</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q16">
-                            <label class="tab-label" for="q16"><h4>Where is your Testnet Explorer?</h4></label>
+                            <input type="checkbox" id="q14">
+                            <label class="tab-label" for="q14"><h4>Where is your Testnet Explorer?</h4></label>
                             <div class="tab-content">
-                                <p>Our testnet explorer can be found here: <a href="https://testexplorer.zcoin.io" target="_blank" rel="noopener noreferrer">https://testexplorer.zcoin.io</a></p>
+                                <p>Our testnet explorer can be found here: <a href="https://testexplorer.firo.org" target="_blank" rel="noopener noreferrer">https://testexplorer.firo.org</a></p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q17">
-                            <label class="tab-label" for="q17"><h4>Can I speed up the synchronization somehow?</h4></label>
-                            <div class="tab-content">
-                                <p>We have community-hosted bootstraps here:<br> <a href="http://zcoinbootstrap.moranilabs.org/">http://zcoinbootstrap.moranilabs.org/</a><br> <a href="http://files.privex.io/blockchains/zcoin/">http://files.privex.io/blockchains/zcoin/</a></p>
-                                <p>The page has instructions on how to use the files. This also works on Znodes.</p>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q18">
-                            <label class="tab-label" for="q18"><h4>Why do some blocks deviate significantly from the target block time?</h4></label>
+                            <input type="checkbox" id="q15">
+                            <label class="tab-label" for="q15"><h4>Why do some blocks deviate significantly from the target block time?</h4></label>
                             <div class="tab-content">
                                 <p>The chances of not getting a block in&nbsp;<i>blocktime * <b>K</b></i> is approximately <i>e<sup>(-<b>K</b>)</sup></i>.</p>
                                 <p>This means that the chance of getting a ≥30-minute block (<b>K</b>=6) is ≈0.25%. So even though our target block time is 5 minutes, roughly 1 in 400 blocks can take more than at least 30 minutes to find.</p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q19">
-                            <label class="tab-label" for="q19"><h4>How does Firo compare to other cryptocurrencies with anonymizing properties?</h4></label>
+                            <input type="checkbox" id="q16">
+                            <label class="tab-label" for="q16"><h4>How does Firo compare to other cryptocurrencies with anonymizing properties?</h4></label>
                             <div class="tab-content">
-                                <p>Bitcoin and preceding alternative cryptocurrencies have attempted to solve this problem through the use of transaction mixers or ring signatures. But they score very poorly on the metric called the traceability set. The traceability set is a key metric to understanding how private a cryptocurrency is. The traceability set in formerly proposed solutions is limited by the size of the mixing cycle or ring signature. Each mixing cycle or ring signature is limited by the number of transactions per cycle, which is transitively limited by the the block size of the cryptocurrency. Thus, the traceability set in previous attempts at privacy tends to only be a few hundred.</p>
-                                <p>With Firo, the traceability set is on a dramatically higher magnitude. Instead of having a traceability set limited to the few hundreds, Firo has a traceability set that encompasses all minted coins in an accumulator. Thus, the magnitude of the traceability could be in the order of&nbsp; many thousands rather than hundreds. So its privacy level is magnitudes higher than cryptocurrencies that rely on mixing or ring signatures.</p>
+                                <p>Bitcoin and preceding alternative cryptocurrencies have attempted to solve this problem through the use of transaction mixers or ring signatures. But they score very poorly on the metric called the traceability set. The traceability set is a key metric to understanding how private a cryptocurrency is. The traceability set in formerly proposed solutions is limited by the size of the mixing cycle or ring signature. Each mixing cycle or ring signature is limited by the number of transactions per cycle, which is transitively limited by the block size of the cryptocurrency. Thus, the traceability set in previous attempts at privacy tends to only be a few hundred.</p>
+                                <p>With Firo, the traceability set is on a dramatically higher magnitude. Instead of having a traceability set limited to a few hundreds, Firo has a traceability set that encompasses all minted coins in an accumulator. Thus, the magnitude of the traceability could be in the order of&nbsp; many thousands rather than hundreds. So its privacy level is magnitudes higher than cryptocurrencies that rely on mixing or ring signatures.</p>
                                 <p>The other problem is that tumbling methods are only secure under the assumption of a lack of topological analysis and pre-existing network data, which is an incorrect threat model. There have been multiple research papers demonstrating that taking a separate network topology like Facebook can be used to de-anonymize a cryptocurrency as long as a long chain of transaction history exists. With all previous cryptocurrencies, a long chain of transactions is publicly viewable on the blockchain and prone to topological analysis.</p>
                                 <p>With Firo, this long chain of transaction history simply does not exist, and there is zero information leakage about the sender and receiver of a transaction, so it is not prone to topological analysis and so the link between the sender and receiver disappears.</p>
                             </div>
@@ -292,25 +235,25 @@ permalink: /about/faq/index.html
               </div>
           </div>
       </section>
-      
-      <section class="faq-section" id="community">
+	  
+	  <section class="faq-section" id="community">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Community</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q20">
-                            <label class="tab-label" for="q20"><h4>Do you have a blog?</h4></label>
+                            <input type="checkbox" id="q17">
+                            <label class="tab-label" for="q17"><h4>Do you have a blog?</h4></label>
                             <div class="tab-content">
-                                <p>Yup! Visit <a href="https://zcoin.io/blog/">here</a>.</p>
+                                <p>Yup! Visit <a href="https://firo.org/blog/">here</a>.</p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q21">
-                            <label class="tab-label" for="q21"><h4>How can I get involved with the Firo community?</h4></label>
+                            <input type="checkbox" id="q18">
+                            <label class="tab-label" for="q18"><h4>How can I get involved with the Firo community?</h4></label>
                             <div class="tab-content">
-                                <p>You can join the community by following us on our social media or chatting with us in Slack/Riot/IRC (they’re all linked together!).<br> <a href="https://www.reddit.com/r/zcoin" target="_blank">Reddit&nbsp;</a><br> <a href="https://twitter.com/zcoinofficial" target="_blank">Twitter</a><br> <a href="http://invite.zcoin.finance" target="_blank">Slack </a><br> <a href="https://t.me/zcoinproject">Telegram</a><br> <a href="https://forum.bitcoin.com/zcoin-different-from-zcash-f115/" target="_blank">Bitcoin.com</a><br> <a href="https://riot.im/app/#/room/#zcoin:matrix.org">Matrix/Riot</a>: #zcoin:matrix.org<br> IRC: Freenode@#zcoinproject</p>
+                                <p>You can check out them <a href="https://firo.org/community/">here</a>.</p>
                             </div>
                           </div>
                         </div>
@@ -318,20 +261,19 @@ permalink: /about/faq/index.html
               </div>
           </div>
       </section>
-      
-      <section class="faq-section" id="resources">
+	  <section class="faq-section" id="resources">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Resources</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q22">
-                            <label class="tab-label" for="q22"><h4>Where can I find a Firo block explorer?</h4></label>
+                            <input type="checkbox" id="q19">
+                            <label class="tab-label" for="q19"><h4>Where can I find a Firo block explorer?</h4></label>
                             <div class="tab-content">
                                 <p>We have two primary block explorers:</p>
-                                <p>Official Firo explorer: <a href="http://explorer.zcoin.io">explorer.zcoin.io</a><br>
-                                CryptoID Explorer: <a href="https://chainz.cryptoid.info/xzc">chainz.cryptoid.info/xzc</a></p>
+                                <p>Official Firo explorer: <a href="https://explorer.firo.org/">explorer.firo.org</a><br>
+                                CryptoID Explorer: <a href="https://chainz.cryptoid.info/firo/">chainz.cryptoid.info/firo</a></p>
                             </div>
                           </div>
                         </div>
@@ -339,48 +281,58 @@ permalink: /about/faq/index.html
               </div>
           </div>
       </section>
-      
-      <section class="faq-section" id="znodes">
+	  
+	  <section class="faq-section" id="masternodes">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Znodes</h2>
                         <div class="tabs">
+						<div class="tab">
+                            <input type="checkbox" id="q20">
+                            <label class="tab-label" for="q20"><h4>What are Masternodes for</h4></label>
+                            <div class="tab-content">
+                                <p>Masternodes in Firo are incentivized nodes that host Firo’s infrastructure and provide additional services such as 51% mining attack protection via LLMQ chain locks and instant sends</p>
+								<p>To prevent Sybil attacks, each masternode requires a collateral of 1000 FIRO backing it to prove skin in the game and encourages honest behaviour.</p>
+								<p>In return for hosting Firo’s infrastructure and their added services, they earn 35% of the block reward. As incentivized infrastructure, masternode holders can invest in hardware that have higher specifications and are motivated to keep the node updated and running. This helps Firo’s blockchain scale and ensures a robust network of nodes.</p>
+                            </div>
+                          </div>
+                          <div class="tab">
+                            <input type="checkbox" id="q21">
+                            <label class="tab-label" for="q21"><h4>What happens if I don’t have 1000 FIRO? Can I share a masternode with someone else?</h4></label>
+                            <div class="tab-content">
+                                <p>The recommended way to do this is to just purchase <a href="https://stakehound.com/">stakedFIRO</a> which is a representation of a masternode on the Ethereum network and which will earn you masternode rewards automatically and allows you to participate in the DeFi ecosystem. Do note that as an ERC20 token, you won’t enjoy Firo’s privacy features though you can always redeem stakedFIRO back to native FIRO through Stakehound though we are working on more decentralized and private methods.</p>
+								<p>In the event people want to pool together their funds to make a masternode, please take note that you have to <strong>trust the person holding the funds for everyone<strong>.</p>
+								<p>This is because the <strong>1000 FIRO<strong> needs to be sent to a new address in one transaction and the custody is with one person. We ideally do not recommend such arrangements unless you really trust the person holding the funds on behalf of you. There is nothing to prevent the person holding the masternode funds from running away with your share.</p>
+								<p>This is not a problem if you have 1000 FIRO as you can still keep those funds in your own local wallet. A masternode hosting provider in such cases only requires your operator key and the transaction ID of your 1000 FIRO deposit.</p>
+                            </div>
+                          </div>
+                          <div class="tab">
+                            <input type="checkbox" id="q22">
+                            <label class="tab-label" for="q22"><h4>Are my coins safe on a Firo masternode?</h4></label>
+                            <div class="tab-content">
+                                <p>Masternodes do not hold any funds. They merely hold a masternode private key (not the same as your actual private key) which allows you to start and stop the masternode. There is a marker in your masternode configuration that links the masternode to your 1000 FIRO deposit. In the event of a masternode being hacked, all that will happen is that your masternode will go offline and you will lose your position in the payment queue.</p>
+                                <p>Your local Firo wallet still holds the 1000 FIRO so it is that wallet that will need to be secured. Ensure that your wallet is frequently backed up and encrypt your wallet.</p>
+                                <p>If you go with a masternode provider, all he requires is your masternode private key and the transaction ID of your 1000 FIRO deposit. The masternode provider does not need your private key to the funds. You also do not need to send any funds to him.</p>
+                            </div>
+                          </div>
                           <div class="tab">
                             <input type="checkbox" id="q23">
-                            <label class="tab-label" for="q23"><h4>What happens if I don’t have 1000 XFR? Can I share a Znode with someone else?</h4></label>
+                            <label class="tab-label" for="q23"><h4>How do I set up a Firo masternode?</h4></label>
                             <div class="tab-content">
-                                <p>In the event people want to pool together their funds to make a Znode, please take note that you have to <strong>trust the person holding the funds for everyone</strong>.</p>
-                                <p>This is because the <strong>1000 XFR</strong> needs to be sent to a new address in one transaction and the custody is with one person. We ideally do not recommend such arrangements unless you really trust the person holding the funds on behalf of you. There is nothing to prevent the person holding the Znode funds from running away with your share.</p>
-                                <p>This is not a problem if you have 1000 XFR as you can still keep those funds on your own local wallet. A Znode provider in such cases only requires your Znode private key (not the same as your funds private key) and the transaction ID of your 1000 XFR deposit.</p>
+                                <p>Please refer to this <a href="https://firo.org/guide/masternode-setup.html">masternode setup guide</a>.</p>
+                                <p>There will also be a number of Masternodes providers who can simplify the process for you for a fee.</p>
                             </div>
                           </div>
                           <div class="tab">
                             <input type="checkbox" id="q24">
-                            <label class="tab-label" for="q24"><h4>Are my coins safe on a Znode?</h4></label>
+                            <label class="tab-label" for="q24"><h4>How much are the rewards from hosting a masternode?</h4></label>
                             <div class="tab-content">
-                                <p>Znodes do not hold any funds. They merely hold a Znode private key (not the same as your actual private key) which allows you to start and stop the Znode. There is a marker in your Znode configuration that links the Znode to your 1000 XFR deposit. In the event of a Znode being hacked, all that will happen is that your Znode will go offline and you will lose your position in the payment queue.</p>
-                                <p>Your local Firo wallet still holds the 1000 XFR so it is that wallet that will need to be secured. Ensure that your wallet is frequently backed up and encrypt your wallet.</p>
-                                <p>If you go with a Znode provider, all he requires is your Znode private key and the transaction ID of your 1000 XFR deposit. The Znode provider does not need your private key to the funds. You also do not need to send any funds to him.</p>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q25">
-                            <label class="tab-label" for="q25"><h4>How do I set up a Znode?</h4></label>
-                            <div class="tab-content">
-                                <p>Please refer to this <a href="https://zcoin.io/zcoin-znode-setup-guide/">Znode setup guide</a>.</p>
-                                <p>There will also be a number of Znode providers who can simplify the process for you for a fee.</p>
-                            </div>
-                          </div>
-                          <div class="tab">
-                            <input type="checkbox" id="q26">
-                            <label class="tab-label" for="q26"><h4>How much are the rewards from hosting a Znode?</h4></label>
-                            <div class="tab-content">
-                                <p>A fixed amount (30%) of the block reward (7.5 XFR with current block reward) is paid to Znodes. Znodes are put in a queue and take turns to receive this block reward in return for hosting a Znode that hosts a complete copy of the blockchain and helps store and propagate blocks to the network.</p>
+                                <p>35%of the block reward is paid to masternodes. Masternodes are put in a queue and take turns to receive this block reward in return for hosting a masternodes that hosts a complete copy of the blockchain and helps store and propagate blocks to the network.</p>
                                 <p>Once they are in the top 10% of the queue, there is a degree of randomness in being selected as it uses the block hash entropy to pick the winner deterministically.</p>
-                                <p>The frequency of the block payout depend on how many active Znodes there are. The more Znodes there are, the longer it takes to receive the Znode block reward.</p>
-                                <p>To get a more in-depth understanding of the process, please read our article&nbsp;<a href="https://zcoin.io/understanding-znode-payments/" target="_blank" rel="noopener">Understanding Znode Payments</a>.</p>
-                                <p>There are third party tools that estimate the frequency of Znode block rewards payouts and other Znode statistics:</p>
+                                <p>The frequency of the block payout depend on how many active Masternodes there are. The more masternodes there are, the longer it takes to receive the masternode block reward.</p>
+                                <p>To get a more in-depth understanding of the process, please read our article&nbsp;<a href="https://zcoin.io/understanding-znode-payments/" target="_blank" rel="noopener">Understanding Masternodes Payments</a>.</p>
+                                <p>There are third party tools that estimate the frequency of masternode block rewards payouts and other masternode statistics:</p>
                                 <ul>
                                     <li><a href="https://zednode.com/znode-stats">Zednode</a></li>
                                     <li><a href="https://znodestatus.privex.io/">Privex</a></li>
@@ -389,26 +341,26 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q27">
-                            <label class="tab-label" for="q27"><h4>What do I need to host a Znode?</h4></label>
+                            <input type="checkbox" id="q25">
+                            <label class="tab-label" for="q25"><h4>What do I need to host a Firo masternode?</h4></label>
                             <div class="tab-content">
                                 <p>A Znode requires</p>
                                 <ul>
-                                    <li>1000 XFR (refundable at any time)</li>
+                                    <li>1000 FIRO (refundable at any time)</li>
                                     <li>A computer or VPS with a fixed IP address</li>
                                     <li>1 GB of RAM</li>
-                                    <li>Enough disk space to store the blockchain (25gb is recommended for the moment)</li>
+                                    <li>Enough disk space to store the blockchain (50gb is recommended for the moment)</li>
                                 </ul>
                                 <p>Typically a VPS of this specification costs around USD5 to run a month per node and you can head on to Amazon AWS, Google Cloud, Microsoft Azure, Leaseweb, <a href="https://www.vultr.com/?ref=6847471">Vultr,</a> <a href="https://www.linode.com/?r=af3000184137a5eedea8fcfd03fd48f36b8471a3">Linode</a>, or <a href="https://m.do.co/c/f89c8c2af033">DigitalOcean</a> to obtain a basic VPS when Znodes are launched. There will also be Znode providers who can assist you to set this up and/or maintain it for a small fee.</p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q28">
-                            <label class="tab-label" for="q28"><h4>What is a Znode?</h4></label>
+                            <input type="checkbox" id="q26">
+                            <label class="tab-label" for="q26"><h4>What is a masternode?</h4></label>
                             <div class="tab-content">
                                 <p>Nodes are computers that host a full copy of Firo’s blockchain and help to verify the validity of transactions.</p>
-                                <p>Znodes are a special type of node that earn part of Firo’s block reward (currently at 30% of the block reward) in return for hosting a reliable and powerful node that helps to support the network. Znodes require a refundable collateral of 1000 XFR to ensure Znode holders have a stake in the coin and are incentivized to keep it working honestly, updated often and have a high uptime.</p>
-                                <p>In the future, it is intended that Znodes serve as a building block for other services to be built on top of it including the delegation of Zerocoin transaction processing.</p>
+                                <p>Masternodes are a special type of node that earn part of Firo’s block reward (currently at 30% of the block reward) in return for hosting a reliable and powerful node that helps to support the network. Masternodes require a refundable collateral of 1000 FIRO to ensure masternode holders have a stake in the coin and are incentivized to keep it working honestly, updated often and have a high uptime.</p>
+                                <p>In the future, it is intended that masternode serve as a building block for other services to be built on top of it including the delegation of Zerocoin transaction processing.</p>
                             </div>
                           </div>
                         </div>
@@ -416,16 +368,16 @@ permalink: /about/faq/index.html
               </div>
           </div>
       </section>
-      
-      <section class="faq-section" id="other">
+	  
+	  <section class="faq-section" id="other">
          <div class="container">
               <div class="row">
                   <div class="col">
                         <h2>Anything else?</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q29">
-                            <label class="tab-label" for="q29"><h4>I have a question that is not listed here, please help!</h4></label>
+                            <input type="checkbox" id="q27">
+                            <label class="tab-label" for="q27"><h4>I have a question that is not listed here, please help!</h4></label>
                             <div class="tab-content">
                                 <p>Please drop by our <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a> or <a href="https://riot.im/app/#/room/#zcoin:matrix.org">Riot</a> to ask any questions!</p>
                             </div>
