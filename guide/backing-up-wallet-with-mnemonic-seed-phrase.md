@@ -4,9 +4,11 @@ title: "How to backup your Firo wallet with a mnemonic seed phrase"
 summary: 
 tags: [guide]
 author: "Anwar P."
-permalink: /guide/backing-up-wallet-with-mnemonic-seed-phrase.html
+permalink: /guide/backing-up-firo-wallet-with-mnemonic-seed-phrase.html
 ---
-The release of [Zcoin Core wallet v0.13.8.10](https://github.com/firoorg/firo/releases) introduces the mnemonic (seed phrase) backup feature following the [BIP39 standard](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki). This means that you can now easily store a backup of your wallet offline as well as restoring your Zcoin Core wallet to other compatible wallets that supports mnemonic words instead of only storing your wallet.dat file.
+Mnemonic (seed phrase) backup feature was introduced in December 2019 with version [0.13.8.10](https://github.com/firoorg/firo/releases), following the [BIP39 standard](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki). 
+
+This allows you to easily store a backup of your wallet offline as well as restoring it to other compatible wallets that supports mnemonic words, instead of just backing up your wallet.dat file previous.
 
 ## Creating a new wallet with a mnemonic seed phrase
 
@@ -34,7 +36,7 @@ You can also add a mnemonic passphrase by checking the "Use seed passphrase" box
 
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
 
-**Note: Electrum, from which Electrum-XZC was forked from uses a different seed phrase standard and thus cannot be imported.** 
+**Note:** Electrum-XZC uses a different seed phrase standard and thus **cannot be imported** into the QT or Electron wallet. You can import the QT/Electron seed into Electrum-XZC but ensure the **BIP39** option is checked.
 
 1. Select the "**Recover existing wallet**" and choose the number of words matching your backed up mnemonic words.
 
