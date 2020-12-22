@@ -2788,8 +2788,13 @@ a.btn-primary, a.btn-secondary {
 
 .blog-section .col.post-page .post-body ul {
     list-style: disc;
-    list-style-position: inside;
-    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.blog-section .col.post-page .post-body ul ul {
+    list-style: circle;
+    padding-top: 0;
 }
 
 .blog-section ol, .guide-section ol {
@@ -2799,7 +2804,6 @@ a.btn-primary, a.btn-secondary {
 }
 
 .blog-section .col.post-page .post-body ul li, .blog-section .col.post-page .post-body ol li {
-    padding-top: 1rem;
     font-size: 1.2rem;
 }
 
