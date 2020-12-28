@@ -12,7 +12,7 @@ Please note that if you did not update in time to a mandatory release or before 
 
 **Important notice for v0.14.1.2:** You can migrate your default data directory and zcoin.conf with the **-migratetofiro** flag. This only works if you are using the default data directory.
 
-If you are using a **custom data directory (-datadir), please migrate manually** by renaming your custom data directory/ zcoin.conf to firo.conf, and making sure that the `-datadir=` flag is pointing to the correct directory.
+If you are using a **custom data directory (-datadir), please migrate manually** by renaming your custom data directory/ zcoin.conf to firo.conf, and making sure that the **-datadir=** flag is pointing to the correct directory.
 
 1.  Log on to your masternode
 

@@ -6,17 +6,17 @@ tags: [guide]
 author: "Anwar P."
 permalink: /guide/masternode-setup.html
 ---
-**DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a Znode provider.
+**DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a masternode provider.
 
-## List of Znode Providers (arranged in alphabetical order)
+## List of masternode Providers (arranged in alphabetical order)
 
-These providers have informed us that they are hosting Zcoin Znode hosting services. These are recommended if you don't have the technical expertise to follow these instructions. 
+These providers have informed us that they are hosting Firo masternode hosting services. These are recommended if you don't have the technical expertise to follow these instructions. 
 
-**We do not endorse or recommend any particular Znode provider (even those run by team members)** and none of these are affiliated to Zcoin in anyway. 
+**We do not endorse or recommend any particular masternode provider (even those run by team members)** and none of these are affiliated to Firo in anyway. 
 
-Do your own due diligence when picking them. Some Znode providers may be run by team members in their own personal capacity but shall not be considered an official Zcoin provider. We will delist providers that are reported as scams or have acted irresponsibly but hold no responsibility for having them listed in this list as it is impossible for us to police. 
+Do your own due diligence when picking them. Some masternode providers may be run by team members in their own personal capacity but shall not be considered an official Firo provider. We will delist providers that are reported as scams or have acted irresponsibly but hold no responsibility for having them listed in this list as it is impossible for us to police. 
 
-You should only need to provide your address that you collateraled your XZC in or the transaction ID. You should **NEVER** need to collateral 1000 XZC to them or to an address outside your PC/mac wallet or to give any of your private keys (that is obtained via dumpprivkey). Here's an alphabetical list:
+You should only need to provide your address that you collateraled your FIRO in or the transaction ID. You should **NEVER** need to collateral 1000 FIRO to them or to an address outside your PC/mac wallet or to give any of your private keys (that is obtained via dumpprivkey). Here's an alphabetical list:
 
 *   [Allnodes](https://www.allnodes.com/?utm_source=zcoinio&utm_medium=setup-guide)
 *   [HostingKing](http://www.hostingking.com)  by [perrykmm#2742](mailto:hello@hostingking.com) (Discord)
@@ -33,7 +33,7 @@ You should only need to provide your address that you collateraled your XZC in o
 
 ## Getting Started
 
-Whether you are hosting with a Znode provider or doing it on your own, ensure you have the latest [Firo wallet](https://firo.org/get-firo/download/) and you have already obtained your **1000 XZC** (preferably just a bit more to cover fees when you're transferring around). **Steps 1 and 2 are still required** even if you are going for a Znode provider.
+Whether you are hosting with a masternode provider or doing it on your own, ensure you have the latest [Firo wallet](https://firo.org/get-firo/download/) and you have already obtained your **1000 FIRO** (preferably just a bit more to cover fees when you're transferring around). **Steps 1 and 2 are still required** even if you are going for a masternode provider.
 
 ### Step 1: Encrypt and Backup your wallet on your Desktop wallet
 
@@ -47,15 +47,15 @@ After you have encrypted your wallet, it is also recommended to do a backup via 
 
  **Please don't forget your password! No one can help you if you lose your password.** 
 
-### Step 2: collateral your 1000 XZC on your Desktop wallet
+### Step 2: collateral your 1000 FIRO on your Desktop wallet
 
-Your collateral address is where you will be storing your 1000 XZC. 
+Your collateral address is where you will be storing your 1000 FIRO. 
 
 You can create the collateral address in two ways: using the Receive tab, OR in the Debug Window
 
 #### Receive tab:
 
-Click on the Receive tab. Enter a label for your collateral address in the Label field and click on Request Payment. A window should pop up with a Zcoin address.
+Click on the Receive tab. Enter a label for your collateral address in the Label field and click on Request Payment. A window should pop up with a Firo address.
 
 #### Debug Window:
 
@@ -63,29 +63,29 @@ Go to Help > Debug Window > Console and type in
  
 `getnewaddress` 
 
-In one single transaction, send **exactly 1000 XZC** into the Znode collateral address that you created. Do not send 500 and then another 500. **It has to be in one single transaction. Do not tick subtract fee from amount.** 
+In one single transaction, send **exactly 1000 FIRO** into the masternode collateral address that you created. Do not send 500 and then another 500. **It has to be in one single transaction. Do not tick subtract fee from amount.** 
 
-It is not recommended to send it direct from an exchange as they might deduct certain withdrawal fees resulting in less than 1000 XZC in that transfer. 
+It is not recommended to send it direct from an exchange as they might deduct certain withdrawal fees resulting in less than 1000 FIRO in that transfer. 
 
-Wait **1 confirmation** for this transaction to be valid as your Znode collateral. When done correctly, the transaction id and transaction index will appear when you execute this command in the Debug Console:
+Wait **1 confirmation** for this transaction to be valid as your masternode collateral. When done correctly, the transaction id and transaction index will appear when you execute this command in the Debug Console:
 
 `evoznode outputs`
 
-#### Special Notes only for those who are creating more than one Znode:
+#### Special Notes only for those who are creating more than one masternode:
 
-If you are doing more than one Znode, special care is required to ensure that you are creating collaterals properly. You do not want to break the previous 1000 XZC collateral you just made by taking funds from that collateral. 
+If you are doing more than one masternode, special care is required to ensure that you are creating collaterals properly. You do not want to break the previous 1000 FIRO collateral you just made by taking funds from that collateral. 
 
-To do this, on your **local desktop wallet** turn on coin control by going to **Settings > Options > Wallet** and click on **Enable coin control features.** This will enable control of which funds you are using when making your next 1000 XZC collateral. 
+To do this, on your **local desktop wallet** turn on coin control by going to **Settings > Options > Wallet** and click on **Enable coin control features.** This will enable control of which funds you are using when making your next 1000 FIRO collateral. 
 
 ![](/guide/assets/masternode-setup/coincontrol.png) 
 
-Then go to your Send tab, and you will see **Coin Control Features**. Click on **Inputs**. You should see your 1000 XZC collateral there. Right click and click **Lock Unspent**. This means that when making your new collateral, your wallet will not touch these funds. 
+Then go to your Send tab, and you will see **Coin Control Features**. Click on **Inputs**. You should see your 1000 FIRO collateral there. Right click and click **Lock Unspent**. This means that when making your new collateral, your wallet will not touch these funds. 
 
 ![](/guide/assets/masternode-setup/lockunspent.png) 
 
-Once you have done this, you can make the next 1000 XZC collateral for your next Znode. Repeat this everytime you have made a new Znode. 
+Once you have done this, you can make the next 1000 FIRO collateral for your next masternode. Repeat this everytime you have made a new masternode. 
 
-You can always verify you're doing this correctly by going into **Help > Debug Window** and typing **evoznode outputs** which would display all znode capable collaterals.
+You can always verify you're doing this correctly by going into **Help > Debug Window** and typing **evoznode outputs** which would display all masternode capable collaterals.
 
 ### Step 3: Creating ownerAddress, payoutAddress, feeSourceAddress and operatorKey/operatorPubKey
 
@@ -93,19 +93,19 @@ _a, b, and c can be generated through Receive tab or the Debug Window, just like
 
 #### a. ownerAddress
 
-Proof that you own the Znode. Must be in the same wallet as collateral. **DON'T SEND COINS TO THE OWNERADDRESS. DON'T USE IT AS PAYOUT ADDRESS. DO NOT USE THIS ADDRESS FOR ANY OTHER PURPOSE!**
+Proof that you own the masternode. Must be in the same wallet as collateral. **DON'T SEND COINS TO THE OWNERADDRESS. DON'T USE IT AS PAYOUT ADDRESS. DO NOT USE THIS ADDRESS FOR ANY OTHER PURPOSE!**
 
 #### b. payoutAddress
 
-Address the Znode will pay out to. Can be inside the same wallet or an external address.
+Address the masternode will pay out to. Can be inside the same wallet or an external address.
 
 #### c. feeSourceAddress
 
-An address with funds to pay the transaction fee for registering your Znode. To get a list of addresses with funds, enter the following command in the Debug Window:
+An address with funds to pay the transaction fee for registering your masternode. To get a list of addresses with funds, enter the following command in the Debug Window:
  
 `listaddressbalances 0.01` 
 
-If you do not have any, you can create an address and send some Zcoins there. You can then use the address as feeSourceAddress.
+If you do not have any, you can create an address and send some Firos there. You can then use the address as feeSourceAddress.
 
 #### d. operatorKey/operatorPubKey
 
@@ -121,7 +121,7 @@ In Debug Console, enter bls generate. The output will be similar to this:
 
 **public**: This is your operatorPubKey (for protx) 
 
-You cannot **regenerate the same pair of keys,** but you can generate the public part from the secret part if you lose the public part.
+You cannot **regenerate the same pair of keys,** but you can generate the public key from the secret key if you lose the public key.
 
 ### Step 4: Get a VPS
 
@@ -135,11 +135,11 @@ There are many providers to choose out there.
 Select a VPS package that meets the minimum requirements:
 
 *   1 GB of RAM (2 GB recommended)
-*   55+ GB of disk space (blockchain is currently 40GB in November 2020)
+*   55+ GB of disk space (blockchain is currently 43GB in December 2020)
 
 **Note:** The blockchain will grow at a rate of about 20 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
-When choosing a server, please remember reliability is more important than price. If your Znode goes offline, you will potentially miss out on payouts which would be more than your VPS cost. 
+When choosing a server, please remember reliability is more important than price. If your masternode goes offline, you will potentially miss out on payouts which would be more than your VPS cost. 
 
 Pick **Ubuntu 18.04 64-bit** and install it. 
 
@@ -149,7 +149,7 @@ Once it is done, the VPS provider should give you a username (usually root) and 
 
 #### Creating a New User
 
-It is always good practice to create a new user to run the Znode so that the Znode application does not run with root access. 
+It is always good practice to create a new user to run the masternode so that the masternode application does not run with root access. 
 
 On your newly created **VPS**, Login **as root.** 
 
@@ -181,7 +181,7 @@ While still in root user on your VPS (or alternatively you can sudo within your 
  
 (press Y and Enter to confirm) 
 
-The next step opens port 8168 which is required for your Znode to communicate.
+The next step opens port 8168 which is required for your masternode to communicate.
  
 `ufw allow ssh/tcp`
  
@@ -223,23 +223,23 @@ then press Ctrl + X to close the editor, then Y and Enter save the file. Then re
 
 Your VPS is now ready for operation.
 
-### Step 6: Installing Zcoin in your VPS
+### Step 6: Installing Firo in your VPS
 
-After **logging into the new user** on your **VPS** you created in Step 5, type the following to **download the latest Zcoin Linux package**. 
+After **logging into the new user** on your **VPS** you created in Step 5, type the following to **download the latest Firo Linux package**. 
 
 `cd ~` 
 
-`wget https://downloads.sourceforge.net/project/zcoin/zcoin-0.14.0.5-linux64.tar.gz`
+`wget https://downloads.sourceforge.net/project/firoorg/firo-0.14.1.2-linux64.tar.gz`
  
-`tar xzvf zcoin-0.14.0.5-linux64.tar.gz` 
+`tar xzvf firo-0.14.1.2-linux64.tar.gz` 
 
-Create a new config file for your Znode. Type
+Create a new config file for your masternode. Type
  
-`mkdir ~/.zcoin`
+`mkdir ~/.firo`
 
-`nano ~/.zcoin/zcoin.conf` 
+`nano ~/.firo/firo.conf` 
 
-This will create a new directory and also open up a new text file called zcoin.conf in a text editor called nano. 
+This will create a new directory and also open up a new text file called firo.conf in a text editor called nano. 
 
 In that new file type the following and **change the bolded parts** to match your actual details. The rpc username and password can be anything you wish (try to make it longer a bit).
 
@@ -255,7 +255,7 @@ In that new file type the following and **change the bolded parts** to match you
     txindex=1
     #----
     znode=1
-    externalip=YOUR ZNODE IP:8168
+    externalip=YOUR MASTERNODE IP:8168
     znodeblsprivkey=YOUR SECRET OUTPUT FROM STEP 3 HERE
 
 
@@ -263,37 +263,37 @@ Press **Ctrl-X** to save and press **Y** to confirm it.
 
 
 
-Type following commands to start your zcoind daemon and let it sync. This will take a few hours. 
+Type following commands to start your firod daemon and let it sync. This will take a few hours. 
 
-`cd ~/zcoin-0.14.0/bin`
+`cd ~/firo-0.14.1/bin`
 
-`./zcoind -daemon`
+`./firo -daemon`
 
 You can always check the status of syncing by typing 
 
-`./zcoin-cli getinfo`
+`./firo-cli getinfo`
 
-and compare the blocks number with [our Block Explorer](https://explorer.zcoin.io). Once it has synced, it's now time to start your Znode.
+and compare the blocks number with [our Block Explorer](https://explorer.firo.org). Once it has synced, it's now time to start your masternode.
 
-### Step 7: Registering your Znode
+### Step 7: Registering your masternode
 
-_**The registration process must be done on your local wallet, not on your VPS/Znode**_
+_**The registration process must be done on your local wallet, not on your VPS/masternode**_
 
-Once you have done all the above, you can now register your Znode with the following command:
+Once you have done all the above, you can now register your masternode with the following command:
 
 `protx register collateralHash collateralIndex ipAndPort ownerAddress operatorPubKey votingAddress operatorReward payoutAddress feeSourceAddress`
 
 where
     
-    collateralHash: transaction ID of your 1000 XZC collateral (from "evoznode outputs")
-    collateralIndex: transaction index of your 1000 XZC collateral (from "evoznode outputs")
-    ipAndPort: the IP address and port of your Znode
+    collateralHash: transaction ID of your 1000 FIRO collateral (from "evoznode outputs")
+    collateralIndex: transaction index of your 1000 FIRO collateral (from "evoznode outputs")
+    ipAndPort: the IP address and port of your masternode
     ownerAddress: the ownerAddress, generated in Step 3
     operatorPubKey: the "public" part of the "bls generate" output, generated in Step 3
     votingAddress: "" (defaults to ownerAddress)
     operatorReward: 0
-    payoutAddress: A valid Zcoin address for your Znode payouts, generated in Step 3
-    feeSourceAddress: A valid Zcoin address with funds in it to fund the Znode registration, from Step 3
+    payoutAddress: A valid Firo address for your masternode payouts, generated in Step 3
+    feeSourceAddress: A valid Firo address with funds in it to fund the masternode registration, from Step 3
 	
 
 Before you are able to enter the command, you must first unlock your wallet:
@@ -322,11 +322,11 @@ payoutAddress: TEZ8M8Fgp8h4HvUjXtjz3krYraRtySiXdw
 feeSourceAddress: TQGmCxUQHK2xKGYNyeqGdSYQqfEAB2hjtd
 ```
 
-Registration is successful once the transaction containing your registration is mined and is included in a block. To check, copy the transaction ID and enter it here: [explorer.zcoin.io](https://explorer.zcoin.io) 
+Registration is successful once the transaction containing your registration is mined and is included in a block. To check, copy the transaction ID and enter it here: [explorer.firo.org](https://explorer.firo.org) 
 
-Once the transaction is mined, the nodes you just registered should appear in the Znodes tab in the wallet. 
+Once the transaction is mined, the nodes you just registered should appear in the masternodes tab in the wallet. 
 
-To check your Znode's status on the Znode itself, do ./zcoin-cli evoznode status. If everything was setup correctly, you should see your Znode's details along with these two lines at the bottom: 
+To check your masternode's status on the masternode itself, do ./firo-cli evoznode status. If everything was setup correctly, you should see your masternode's details along with these two lines at the bottom: 
 ```
 "state": "READY", 
 "status": "Ready
