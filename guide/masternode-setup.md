@@ -267,7 +267,7 @@ Type following commands to start your firod daemon and let it sync. This will ta
 
 `cd ~/firo-0.14.1/bin`
 
-`./firo -daemon`
+`./firod -daemon`
 
 You can always check the status of syncing by typing 
 
