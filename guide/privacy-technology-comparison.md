@@ -326,6 +326,6 @@ Every anonymity scheme has its own sets of benefits and trade-offs, and we belie
 
 A comparison chart of Zcoin's solutions with other leading privacy technologies can be found below. 
 
-![](/guide/assets/privacy-technology-comparison/comparison-table-coloured.png) 
+![](/guide/assets/privacy-technology-comparison/comparison-table-firo-updated.png) 
 
 We hope this article gives you a much better understanding of how various privacy tech works on the blockchain. An earlier version of this article was posted [here](https://steemit.com/zcoin/@zcoinofficial/an-overview-of-blockchain-privacy-mechanisms-and-how-zerocoin-in-zcoin-usdxzc-not-zcash-stacks-up).
