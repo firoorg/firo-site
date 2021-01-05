@@ -10,7 +10,7 @@ Here’s a quick step-by-step guide to get your masternode up and running with t
 
 Please note that if you did not update in time to a mandatory release or before the hard fork, your masternode will stop receiving rewards. It is highly advisable to update to the latest stable version as soon as possible.
 
-**Important notice for v0.14.2.1:** You can migrate your default data directory and zcoin.conf with the **-migratetofiro** flag. This only works if you are using the default data directory.
+**Important notice for v0.14.1.2:** You can migrate your default data directory and zcoin.conf with the **-migratetofiro** flag. This only works if you are using the default data directory.
 
 If you are using a **custom data directory (-datadir), please migrate manually** by renaming your custom data directory/ zcoin.conf to firo.conf, and making sure that the **-datadir=** flag is pointing to the correct directory.
 
@@ -21,7 +21,7 @@ If you are using a **custom data directory (-datadir), please migrate manually**
 3.  On the masternode’s command line, type **wget** and insert the copied link after it like so: 
 
 `cd ~`
-`wget https://github.com/firoorg/firo/releases/download/v0.14.2.1/firo-0.14.2.1-linux64.tar.gz` 
+`wget https://github.com/firoorg/firo/releases/download/v0.14.1.2/firo-0.14.1.2-linux64.tar.gz` 
 
 This will download the archive to your masternode.
 
@@ -36,10 +36,10 @@ and remove the old version
 (see above)
 
 5.  Unpack the downloaded archive by typing 
-`tar xvzf firo-0.14.2.1-linux64.tar.gz`
+`tar xvzf firo-0.14.1.2-linux64.tar.gz`
 
 6.  Now you can start your masternode again 
-`cd ~/firo-0.14.2/bin` 
+`cd ~/firo-0.14.1/bin` 
 (new version) 
 `./firod -daemon`
 
