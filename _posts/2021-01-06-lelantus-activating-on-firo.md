@@ -45,12 +45,12 @@ Alice burns 100 coins but wants to redeem only 30 anonymized coins to send to Bo
 Alice has to redeem the entire 100 coins first, sending the 30 coins to Bob while the change of 70 is burnt again.
 Third parties can narrow down the source of Bob’s coins to everyone else who burnt a 100 coins.
 
-![/blog/assets/lelantus-activating-on-firo/sigma-spend-mint.PNG]() 
+![](/blog/assets/lelantus-activating-on-firo/sigma-spend-mint.PNG) 
 
 ### In Lelantus
 Alice can redeem 30 coins to Bob’s address while keeping the change of 70 in the black box. Third parties do not know the amount of change and can only narrow it down to everyone else who burnt coins totaling to more than 30 coins which can be also a combination of smaller burns.
 
-![/blog/assets/lelantus-activating-on-firo/lelantus-jsplit-jmint.PNG]() 
+![](/blog/assets/lelantus-activating-on-firo/lelantus-jsplit-jmint.PNG) 
 
 ## Staying within the black box
 
