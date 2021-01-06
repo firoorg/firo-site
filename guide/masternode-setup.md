@@ -265,7 +265,7 @@ Press **Ctrl-X** to save and press **Y** to confirm it.
 
 Type following commands to start your firod daemon and let it sync. This will take a few hours. 
 
-`cd ~/firo-0.14.1/bin`
+`cd ~/firo-0.14.2/bin`
 
 `./firod -daemon`
 
