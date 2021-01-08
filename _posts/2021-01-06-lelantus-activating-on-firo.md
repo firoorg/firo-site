@@ -6,7 +6,7 @@ author: Reuben Yap
 img: "/blog/assets/lelantus-activating-on-firo/banner.png"
 alt: ""
 ---
-The activation of Lelantus on Firo’s (formerly Zcoin) mainnet is only a few days away and will occur on block 336888 — approximately 14 January 2021.
+The activation of Lelantus on Firo’s (formerly Zcoin) mainnet is only a few days away and will occur on block 336888 — approximately 14 January 2021, 00:18 AM UTC.
 
 Please ensure you’re on the [latest Firo release](https://github.com/firoorg/firo/releases/latest) before then!
 
