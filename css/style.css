@@ -529,7 +529,7 @@ h1, h2, h3 {
     display: none;
 }
 
-@media only screen and (max-width: 62rem) {
+@media only screen and (max-width: 75rem) {
     
 header .container {
     width: 100%;
@@ -2053,6 +2053,10 @@ a.btn-primary, a.btn-secondary {
     width: 46rem;
 }
     
+.faq-section .tab-label {
+    padding: 1rem 3rem 1rem 1.5rem;
+}
+    
 }
 
 @media only screen and (max-width: 48rem) {
@@ -2872,6 +2876,42 @@ a.btn-primary, a.btn-secondary {
 
 /*guide*/
 
+.guides-list a {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #e5eff4;
+    border-top: 1px solid #fefefe;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+.guides-list a:before, .guides-list a:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 1.5rem;
+    width: 3px;
+    height: 0.7rem;
+    background-color: #3d3939;
+    border-radius: 4px;
+}
+
+.guides-list a:before {
+    transform: rotate(-45deg);
+    top: 1.5rem;
+}
+
+.guides-list a:after {
+    transform: rotate(45deg);
+    top: 1.9rem;
+}
+
 .guide-section .container {
     width: 69.5rem;
 }
@@ -2901,6 +2941,14 @@ a.btn-primary, a.btn-secondary {
     
 .guide-section .container {
     width: 100%;
+}
+    
+}
+
+@media only screen and (max-width: 30rem) {
+    
+.guides-list a {
+    font-size: 1.1rem;
 }
     
 }
