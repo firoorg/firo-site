@@ -130,19 +130,32 @@ roadmap:
   heading: Roadmap
   znodes: Deterministic Znodes
   mnodesq: Long Lived Masternode Quorums
-  rap: RAP Addresses - PR Review
-  chainlocks: Chain-locks
   rebrand: Rebrand
-  elysium: Elysium with Lelantus
-  defi: DeFi Integrations
-  instant: Instant Send
-  aura: Aura with direct anonymous payments
-  pow: PoW change
-  mobile: Mobile wallet and SDK with Lelantus/Aura support
-  fast: Fast sync clients
-  chainswap: Chain swap
+  lelantus: Lelantus Activation
+  lelantusdesc: Lelantus is our next generation privacy protocol that offers the highest levels of practical privacy without trusted setup and only relying on solid cryptographic assumptions. Lelantus supports anonymity sets that are several magnitudes larger than other privacy systems that do not have trusted setup.
+  chainlocks: Chainlocks (almost complete)
+  chainlocksdesc: Chainlocks utilize Firo’s masternode network to protect against 51% attacks. Transactions achieve finality as soon as 1 block is confirmed.
+  rap: RAP Addresses (almost complete)
+  rapdesc: RAP addresses allow a publicly shareable address that does not allow third parties to see how much or when it has received funds.
+  instant: Instant Send (in progress)
+  instantdesc: Instant Send utilizes Firo’s masternode network to allow transactions to be confirmed within a few seconds allowing for practical use as a medium of exchange.
+  elysium: Elysium (in progress)
+  elysiumdesc: Elysium allows token (for e.g. stablecoins, asset backed coins) to be issued on Firo’s network that will benefit from Firo’s privacy technology.
+  lelantus2: Lelantus 2.0 (work started)
+  lelantus2desc: Lelantus 2.0 enables direct anonymous payments allowing users to transact with each other without revealing amounts or source. A new Lelantus address scheme will be deployed allowing users to keep their funds totally hidden.
+  mobile: Mobile Wallet and SDK (work started)
+  mobiledesc: A native, private by default mobile wallet that will have full Lelantus transaction support. The SDK will allow third party wallets to support Lelantus.
+  renfiro: renFIRO
+  renfirodesc: Firo is integrating with renVM to allow trustless bridging of Firo into Ethereum allowing users to enter and exit the defi ecosystem trustlessly and without KYC.
+  progpow: ProgPOW
+  progpowdesc: To further improve ASIC resistance, a ProgPOW variant will replace MTP. This will also allow for much smaller blocks that reduce the bandwidth and storage required of all nodes.
   research: Research
-  bridges: Cross chain bridges
+  aura: Aura
+  auradesc: Aura is the successor to Lelantus. We intend to improve proving times and increase the anonymity set utilizing our research on hierarchical one-out-of-many proofs. We also are researching various ways to improve the implementation of sliding windows in seeding new anonymity sets.
+  bridges: Cross-chain bridges
+  bridgesdesc: Cross chain bridges will allow tokens from other ecosystems to bridge in and out of Firo’s Elysium token layer to utilize our privacy infrastructure.
   mixnets: Mixnets
-  proofs: Hierarchical one-out-of-many proofs for Lelantus
+  mixnetsdesc: Tunnelling transactions and node communications into mixnets offer increased metadata protection even against state level adversaries.
+  syncclients: Fast sync clients
+  syncclientsdesc: Fast sync clients allow users to sync their wallets rapidly without needing to download the entire blockchain while supporting Lelantus transactions.
   learnmore: Learn more
