@@ -36,7 +36,7 @@ You can also add a mnemonic passphrase by checking the "Use seed passphrase" box
 
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
 
-**Note:** Electrum-XZC uses a different seed phrase standard and thus **cannot be imported** into the QT or Electron wallet. You can import the QT/Electron seed into Electrum-XZC but ensure the **BIP39** option is checked.
+**Note:** Electrum-Firo uses a different seed phrase standard and thus **cannot be imported** into the QT or Electron wallet. You can import the QT/Electron seed into Electrum-Firo but ensure the **BIP39** option is checked.
 
 1. Select the "**Recover existing wallet**" and choose the number of words matching your backed up mnemonic words.
 
