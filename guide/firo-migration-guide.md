@@ -42,25 +42,25 @@ MacOS:  /Users/YOURUSERNAME/Library/Application\ Support/zcoin/
 
 Download and install the latest version here:
 
-![](https://github.com/firoorg/firo/releases/latest)
+![https://github.com/firoorg/firo/releases/latest](https://github.com/firoorg/firo/releases/latest)
 
 ## Step 2
 
 On QT wallet's first startup, you will be presented with the following:
 
-**(If you are using a custom data directory)**
+### If you are using a custom data directory
 
 ![](/guide/assets/firo-migration-guide/datadir_select.PNG)
 
 The wallet will ask you to specify the data directory. Select the one you previously used for Zcoin and proceed. 
 
-**If it asks you to create a new wallet**, you did not specify the correct data directory. Close the wallet by clicking the 'Cancel' button at the bottom of the "Create and recover wallet", and follow the steps in **Resetting Options ** at the bottom of this guide.
+**If it asks you to create a new wallet**, you did not specify the correct data directory. Close the wallet by clicking the 'Cancel' button at the bottom of the "Create and recover wallet", and follow the steps in **Resetting Options** at the bottom of this guide.
 
-**(If you are using the default data directory)**
+### If you are using the default data directory
 
 ![](/guide/assets/firo-migration-guide/firo-qt-migrate.PNG)
 
-The wallet will ask you if you want to migrate the default data directory from `zcoin` to `firo`. Press Yes to proceed.
+The wallet will ask you if you want to migrate the default data directory from zcoin to firo. Press Yes to proceed.
 
 ## Step 3
 
@@ -70,11 +70,13 @@ The Firo QT wallet should now show your balance, transactions and masternode (if
 
 ![](/guide/assets/firo-migration-guide/use-transparent-balance.jpg)
 
-The new wallet defaults to Sending your private balance that were anonymised with the Lelantus protocol. This can cause the "The amount exceeds your balance" error to appear if you try to send your non-anonymised balance.
+The new wallet defaults to Sending your private balance that were anonymised with the Lelantus protocol. This can cause the **"The amount exceeds your balance"** error to appear if you try to send your non-anonymised balance.
 
-Click on the 'Use Transparent Balance' on the bottom right of the Send tab to switch to your non-private balance. You should now be able to send them out.
+Click on the **'Use Transparent Balance'** on the bottom right of the Send tab to switch to your non-private balance. You should now be able to send them out.
 
-## If you are stuck on block 336890, update to the latest version and do the following:
+## Stuck on block 336890
+
+If you are **stuck on block 336890**, update to the ![latest version](https://github.com/firoorg/firo/releases/latest) and do the following:
 
 ### Wallet: 
 
