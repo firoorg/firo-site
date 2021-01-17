@@ -8,26 +8,19 @@ permalink: /guide/reindex-wallet.html
 ---
 ## Reindexing your wallet
 
-If you have trouble syncing your wallet and it appears to be stuck on a block, please start it again with the **-reindex-chainstate flag**. This will start the Firo wallet and begin the blockchain reindex process and **will take several hours**. 
+**WARNING**: it is highly recommended that you **do not proceed** unless you are directed here by members of the Firo support team. Reindexing is very time-intensive and solutions sometimes exist for your problem that only takes several minutes to solve.
+
+Make sure you are always on the latest release by going to our [release page](https://github.com/firoorg/firo/releases/latest).
+
+If you suspect that the chainstate is corrupted, please start the wallet with the **-reindex-chainstate flag**. This will start the Firo wallet and begin the reindex-chainstate process and **will take several hours**. 
 
 If you suspect corrupted blocks, please run **\-reindex** instead. 
 
-Make sure you are always on the latest release by going to our [release page](https://github.com/firoorg/firo/releases).
-
 ## Windows
 
-
-Open the folder where the **firo-qt.exe** is located. Hold Shift, right-click inside the folder and select **'Open command window here'**. In the Command Prompt that appears, type: 
+Open the folder where the **firo-qt.exe** is located. Hold Shift, right-click inside the folder and select **'Open PowerShell window here'**.. In the PowerShell window that appears, type: 
 
 `firo-qt.exe -reindex-chainstate` 
-
-If you also want to rescan for Firo Sigma mints, do the following (which will also reindex) 
-
-`firo-qt.exe -zapwalletmints` 
-
-**Windows 10:** Windows 10 has changed the default Command Prompt to PowerShell. If this is the case, **Shift + right-click inside the folder** and click **'Open PowerShell window here'**. 
-
-Type .\\firo-qt.exe, add the **-reindex-chainstate** flag and press **Enter**. Note the period and backslash. 
 
 ![](/guide/assets/reindex-wallet/firo-qt-powershell.png)
 
@@ -37,11 +30,7 @@ Navigate to the directory where your **firo-qt** binary is. In the **Terminal**,
 
 `./firo-qt -reindex-chainstate` 
 
-If you also want to rescan for Firo Sigma mints, do the following (which will also reindex) 
-
-`./firo-qt -zapwalletmints` 
-
-If you want to **reindex your Znode:** 
+If you want to **reindex your masternode:** 
 
 `./firod -daemon -reindex-chainstate` 
 
@@ -53,10 +42,6 @@ Using the **Terminal**, enter the following command:
 
 `/Applications/firo-qt.app/Contents/MacOS/Firo-qt -reindex-chainstate` 
 
-And to do it with scanning of Firo Sigma mints, do the following (which will also reindex). 
-
-`/Applications/firo-qt.app/Contents/MacOS/Firo-qt -zapwalletmints`
-
 ## Firo Rich GUI client (Electron)
 
-To reindex the Electron client, open the firo.conf and add reindex=1. Save the file and start the client. Once the reindex has started, remove the reindex=1 line from the firo.conf file.
+To reindex the Electron client, edit the firo.conf that is located in the data directory and add reindex=1. Save the file and start the client. Once the reindex has started, remove the reindex=1 line from the firo.conf file.
