@@ -42,7 +42,7 @@ MacOS:  /Users/YOURUSERNAME/Library/Application\ Support/zcoin/
 
 Download and install the latest version here:
 
-![https://github.com/firoorg/firo/releases/latest](https://github.com/firoorg/firo/releases/latest)
+[https://github.com/firoorg/firo/releases/latest](https://github.com/firoorg/firo/releases/latest)
 
 ## Step 2
 
@@ -76,7 +76,7 @@ Click on the **'Use Transparent Balance'** on the bottom right of the Send tab t
 
 ## Stuck on block 336890
 
-If you are **stuck on block 336890**, update to the ![latest version](https://github.com/firoorg/firo/releases/latest) and do the following:
+If you are **stuck on block 336890**, update to the [latest version](https://github.com/firoorg/firo/releases/latest) and do the following:
 
 ### Wallet: 
 
