@@ -20,7 +20,7 @@ If you suspect corrupted blocks, please run **\-reindex** instead.
 
 Open the folder where the **firo-qt.exe** is located. Hold Shift, right-click inside the folder and select **'Open PowerShell window here'**.. In the PowerShell window that appears, type: 
 
-`firo-qt.exe -reindex-chainstate` 
+`.\firo-qt.exe -reindex-chainstate` 
 
 ![](/guide/assets/reindex-wallet/firo-qt-powershell.png)
 
