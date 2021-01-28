@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "ChainLocks activated on Firo that protects against 51% attacks"
+title: "ChainLocks activated on Firo, protects against 51% attacks"
 tags: [news, dev, community]
 author: Reuben Yap
 img: "/blog/assets/chainlocks-activated.png"
 alt: ""
 ---
-
-## ChainLocks activated on Firo that protects against 51% attacks
 
 As of [block 341100](https://explorer.firo.org/block/1ca6cbd9f6e13db8e0e1db0b77f8b1a037b01c69558214bc1ae2ce1f81da4890), [ChainLocks](https://github.com/dashpay/dips/blob/master/dip-0008.md) is now activated on Firo’s mainnet.
 
