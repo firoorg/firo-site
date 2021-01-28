@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Chainlocks Activated on Mainnet"
-tags: [news, dev]
+title: "ChainLocks activated on Firo that protects against 51% attacks"
+tags: [news, dev, community]
 author: Reuben Yap
 img: "/blog/assets/chainlocks-activated.png"
 alt: ""
