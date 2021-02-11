@@ -30,6 +30,8 @@ Navigate to the directory where your **firo-qt** binary is. In the **Terminal**,
 
 `./firo-qt -reindex-chainstate` 
 
+![](/guide/assets/reindex-wallet/firo-qt-linux-terminal.PNG)
+
 If you want to **reindex your masternode:** 
 
 `./firod -daemon -reindex-chainstate` 
@@ -42,6 +44,8 @@ Using the **Terminal**, enter the following command:
 
 `/Applications/firo-qt.app/Contents/MacOS/Firo-qt -reindex-chainstate` 
 
+![](/guide/assets/reindex-wallet/firo-qt-macos-terminal.png)
+
 ## Firo Rich GUI client (Electron)
 
-To reindex the Electron client, edit the firo.conf that is located in the data directory and add reindex=1. Save the file and start the client. Once the reindex has started, remove the reindex=1 line from the firo.conf file.
+To reindex the Electron client, edit the **firo.conf** that is located in the data directory and add **reindex=1**. Save the file and start the client. Once the reindex has started, remove the reindex=1 line from the firo.conf file.
