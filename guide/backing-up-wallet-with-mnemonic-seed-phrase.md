@@ -10,6 +10,8 @@ Mnemonic (seed phrase) backup feature was introduced in December 2019 with versi
 
 This allows you to easily store a backup of your wallet offline as well as restoring it to other compatible wallets that supports mnemonic words, instead of just backing up your wallet.dat file previous.
 
+**Warning:** Electrum-Firo uses a different seed phrase standard and thus **cannot be imported** into the QT or Electron wallet. You can import the QT/Electron seed into Electrum-Firo, but ensure the **BIP39** option is checked.
+
 ## Creating a new wallet with a mnemonic seed phrase
 
 ![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_01.png) 
@@ -22,7 +24,7 @@ This allows you to easily store a backup of your wallet offline as well as resto
 
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
 
-You can also add a mnemonic passphrase by checking the "Use seed passphrase" box to prevent easy access to your seed. However this means you should backup your mnemonic passphrase as well as the seed phrase. 
+You can also add a mnemonic passphrase by checking the "Use seed passphrase" box to prevent easy access to your seed. However this means you should backup your mnemonic passphrase as well as the seed phrase.
 
 3. Click on "**OK**". 
 
@@ -35,8 +37,6 @@ You can also add a mnemonic passphrase by checking the "Use seed passphrase" box
 ![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_03.png) 
 
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
-
-**Note:** Electrum-Firo uses a different seed phrase standard and thus **cannot be imported** into the QT or Electron wallet. You can import the QT/Electron seed into Electrum-Firo but ensure the **BIP39** option is checked.
 
 1. Select the "**Recover existing wallet**" and choose the number of words matching your backed up mnemonic words.
 
