@@ -37,16 +37,18 @@ There are several pools running Firo on MTP (arranged in alphabetical order). Th
 	* [Mintpond's Firo mining guide](https://mintpond.com/getting-started-guide/firo)
 * [ZelLabs](https://zellabs.net/coins/xzc)
     * us-zcoin.zellabs.net:7015 (USA)
-* [F2Pool (PPS Pool)](https://www.f2pool.com/)
-    * xzc.f2pool.com:5780 (Asia)
 * [Zergpool](http://zergpool.com)
     * mtp.mine.zergpool.com:3000 (Europe)
+* [dapool](https://dapool.io/)
+	* firo.dapool.io:3355
+* [F2Pool (PPS Pool)](https://www.f2pool.com/)
+    * xzc.f2pool.com:5780 (Asia)
+* [Whibbit](https://pool.whibbit.cn/)
+	* firo.whibbit.cn:30512
 * [2Miners](https://2miners.com/xzc-mining-pool)
     * xzc.2miners.com:8080
 * [Solo Pool](https://xzc.solopool.org/)
     * s3.solopool.org:8014
-* [XpoolX](https://xpoolx.com/site/mining)
-    * mining.xpoolx.com:2260 c=FIRO
 
 Get yourself and account there and make sure you obtain a **username** and **worker** details and the **pool's address** and **port.**
 
@@ -86,11 +88,11 @@ After pasting it in, save the file as a .bat file (for e.g. **miner.bat**) in th
 
 ### For Solo Mining
 
-You will need to edit **zcoin.conf** to allow rpc calls. Navigate to the location of the zcoin data files, default is **%appdata%\zcoin** 
+You will need to edit **firo.conf** to allow rpc calls. Navigate to the location of the firo data files, default is **%appdata%\firo** 
 
-Make a new file called zcoin.conf and add and adapt these lines:
+Make a new file called firo.conf and add and adapt these lines:
 
-    rpcuser=zcoin (up to you to change)`
+    rpcuser=firo (up to you to change)`
     rpcpassword=mtp (up to you to change)`
     rpcport=8382
     rpcallowip=127.0.0.1
@@ -100,7 +102,7 @@ Make a new file called zcoin.conf and add and adapt these lines:
 
 Once this is done, restart your Firo wallet and ensure it is synced. Then make a new file called miner.bat as below and save in the same folder as where you had extracted the miner binary to earlier.
 
-`ccminer.exe -a mtp http://127.0.0.1:8382 -u zcoin -p mtp --no-getwork --coinbase-addr YOURFIROADDRESS`
+`ccminer.exe -a mtp http://127.0.0.1:8382 -u firo -p mtp --no-getwork --coinbase-addr YOURFIROADDRESS`
 
 ## Step 4: Running the Miner
 
