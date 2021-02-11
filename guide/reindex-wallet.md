@@ -30,7 +30,7 @@ Navigate to the directory where your **firo-qt** binary is. In the **Terminal**,
 
 `./firo-qt -reindex-chainstate` 
 
-![](/guide/assets/reindex-wallet/firo-qt-linux-terminal.PNG)
+![](/guide/assets/reindex-wallet/firo-qt-linux-terminal.png)
 
 If you want to **reindex your masternode:** 
 
