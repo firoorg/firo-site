@@ -14,11 +14,11 @@ title: page.tag
     <section class="faq-nav">
           <div class="container">
               <ul class="row">
-                  <li><a href="/blog/">All</a></li>
-                  <li><a href="/tag/news/">News</a></li>
-                  <li><a href="/tag/dev/">Dev</a></li>
-                  <li><a href="/tag/community/">Community</a></li>
-                  <li><a href="/tag/guides/">Guides</a></li>
+                  <li><a href="{{ site.baseurl }}/blog/">All</a></li>
+                  <li><a href="{{ site.baseurl }}/tag/news/">News</a></li>
+                  <li><a href="{{ site.baseurl }}/tag/dev/">Dev</a></li>
+                  <li><a href="{{ site.baseurl }}/tag/community/">Community</a></li>
+                  <li><a href="{{ site.baseurl }}/tag/guides/">Guides</a></li>
               </ul>
           </div>
       </section>
@@ -44,7 +44,7 @@ title: page.tag
                         </a>
                         <p class="post-tag">
                             {% for tag in post.tags %}
-                            <a href="/tag/{{tag}}">#{{tag}}</a>
+                            <a href="{{ site.baseurl }}/tag/{{tag}}">#{{tag}}</a>
                             {% endfor %}
                         </p>
                   </div>
