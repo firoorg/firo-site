@@ -7,9 +7,17 @@ global:
   title: 飞熔币 - 财务隐私焕新
 
 titles:
-  index: 首页
+  home: 首页
   download: 下载
-  buy-firo: 买飞熔币
+  buyfiro: 买飞熔币
+  tech: 技术
+  team: 团队
+  roadmap: 路线图
+  faq: 常见问题
+  community: 社区
+  guides: 指南
+  blog: 博客
+  branding: 品牌
 
 navigation:
   getfiro: 获取飞熔币

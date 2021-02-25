@@ -7,7 +7,17 @@ global:
   title: Firo - Financial Privacy Renewed
   
 titles:
-  index: Home
+  home: Home
+  download: Download
+  buyfiro: Buy firo
+  tech: Tech
+  team: Team
+  roadmap: Roadmap
+  faq: FAQ
+  community: Community
+  guides: Guides
+  blog: Blog
+  branding: Branding
   
 navigation:
   getfiro: Get Firo
