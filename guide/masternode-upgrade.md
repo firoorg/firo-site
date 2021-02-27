@@ -27,12 +27,12 @@ This will download the archive to your masternode.
 
 4.  Stop the old daemon  
 
-`cd ~/zcoin-0.14.0/bin` 
+`cd ~/firo-0.14.5/bin` 
 (this is the folder of the major version you are upgrading _from_) 
-`./zcoin-cli stop` 
+`./firo-cli stop` 
 and remove the old version 
 `cd ~` 
-`rm -rv zcoin-0.14.0` 
+`rm -rv firo-0.14.5` 
 (see above)
 
 5.  Unpack the downloaded archive by typing 
