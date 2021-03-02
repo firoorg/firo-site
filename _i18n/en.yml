@@ -7,12 +7,23 @@ global:
   title: Firo - Financial Privacy Renewed
   
 titles:
-  index: Home
+  home: Home
+  download: Download
+  buyfiro: Buy firo
+  tech: Tech
+  team: Team
+  roadmap: Roadmap
+  faq: FAQ
+  community: Community
+  guides: Guides
+  blog: Blog
+  branding: Branding
   
 navigation:
   getfiro: Get Firo
   about: About
   community: Community
+  guides: Guides
   blog: Blog
   crowdfunding: Crowdfunding
   download: Download wallets
@@ -127,6 +138,7 @@ team:
   community: community managers
   
 roadmap:
+  development: Development
   heading: Roadmap
   znodes: Deterministic Znodes
   mnodesq: Long Lived Masternode Quorums

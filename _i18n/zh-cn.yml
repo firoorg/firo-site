@@ -1,0 +1,173 @@
+global:
+  date: '%Y/%m/%d'
+  firo: 飞熔币
+  yeth: "是"
+  noo: "否"
+  lelantus: Lelantus
+  title: 飞熔币 - 财务隐私焕新
+
+titles:
+  home: 首页
+  download: 下载
+  buyfiro: 买飞熔币
+  tech: 技术
+  team: 团队
+  roadmap: 路线图
+  faq: 常见问题
+  community: 社区
+  guides: 指南
+  blog: 博客
+  branding: 品牌
+
+navigation:
+  getfiro: 获取飞熔币
+  about: 关于
+  community: 社区
+  guides: 指南
+  blog: 博客
+  crowdfunding: 众筹
+  download: 下载钱包
+  buyfiro: 买飞熔币
+  earnfiro: 赚飞熔币
+  mine: 挖矿
+  tech: 技术
+  team: 团队
+  roadmap: 路线图
+  faq: 常问问题
+  fcs: 飞熔币众筹系统
+  opencollective: Open Collective
+
+footer:
+  resources: 资源
+  branding: 品牌
+  vuln: 漏洞计划
+  explorer: 区块链浏览器
+  website: 网站
+  privacy: 隐私政策
+  tos: 服务条款
+  newsletter: 新闻期刊
+  ifsub: 如果你想订阅我们的新闻期刊，请提交表格。
+  email: 邮箱
+  sub: 订阅
+  comm: 加入讨论
+
+home:
+  heading: 财务隐私焕新
+  heading2: 飞熔币是一种数字货币，专注于制定隐私标准。
+  cta1: 获取飞熔币
+  cta2: 了解更多
+  privacy: 隐私
+  privacy1: 飞熔币，原 Zcoin，自 2016 年以来一直是无需信任的链上隐私的黄金标准。
+  privacy2: 匿名集
+  privacy3: 无预信任机制
+  blockchain: 区块链
+  blockchain1: 飞熔币的激励基础设施使其拥有业界领先的实用匿名集。
+  blockchain2: 总供应量
+  blockchain3: 工作量证明
+  blockchain4: 主节点
+  randd: 研究与开发
+  randd1: 飞熔币是少数真正对区块链隐私和去中心化技术进行独立研究和开发的项目之一。
+  getfiro: 获取飞熔币
+  getfiro1: 挺进数字隐私的前沿。立即加入飞熔币生态系统。
+  getfiro2: 获取钱包
+  getfiro3: 买飞熔币
+  getfiro4: 赚飞熔币
+  getfiro5: 开始挖矿
+
+download:
+  heading: 下载钱包
+  official: 官方桌面钱包
+  backup: 在更新之前备份你的钱包
+  verify: 验证哈希使用
+  verify1: 此公钥
+  guide: 使用此官方
+  guide1: 钱包安装和使用指南
+  changelog: 查看变更日志
+  option1: 高安全性的选择
+  option2: 用户友好的选择
+  option3: 快速，轻巧的选择
+  qt: QT 钱包
+  downloadqtw: 下载 Windows 版 QT 钱包
+  downloadqtm: 下载 macOS 版 QT 钱包
+  downloadqtl: 下载 Linux 版 QT 钱包
+  electron: Electron
+  downloadelectronw: 下载 Windows 版 Electron 钱包
+  downloadelectronm: 下载 macOS 版 Electron 钱包
+  downloadelectronl: 下载 Linux 版 Electron 钱包
+  electrum: Electrum
+  downloadelectrumw: 下载 Windows 版 Electron 钱包
+  downloadelectrumm: 下载 macOS 版 Electron 钱包
+  downloadelectruml: 下载 Linux 版 Electron 钱包
+  hasheswindows: 显示 Windows 版钱包的 SHA256 哈希
+  hashesmac: 显示 macOS 版钱包的 SHA256 哈希
+  hasheslinux: 显示 Linux 版钱包的 SHA256 哈希
+  wallets: 钱包
+
+buyfiro:
+  heading: 买飞熔币
+  heading2: 获得飞熔币的方法之一是在其中一家交易所获得它。你将在下面找到支持飞熔币的交易所和币交换服务的列表。
+  ff: "飞熔币 / 法定货币"
+  fc: "飞熔币 / 加密货币"
+  cs: "币交换服务"
+  exchangeswith: 交易所
+  ffhead1: "飞熔币 / 法定货币"
+  pairing: 交易对
+  fchead1: "飞熔币 / 加密货币"
+  csservice: 币交换服务
+  liquidstaking: 流动性质押
+
+tech:
+  heading: 技术
+  heading1: 隐私快人一步。飞熔币背后的团队充分研究有史以来的一些最重要的区块链隐私协议，这些技术都被提炼到飞熔币中。
+  academicpapers: 学术论文
+  audits: 审核
+  lelantus1: Lelantus 技术
+  lelantus2: Lelantus 是飞熔币的 Aram Jivanyan 开发的下一代隐私协议。Lelantus 允许你烧掉你的币，它将币隐藏在一个超过 65000 个的匿名集中。接收者可以从这个匿名池中赎回它，它打破了你的交易和之前所有交易的链接。
+  sigma1: Sigma 技术
+  sigma2: 我们相信区块链的最终目的是建立不需要信任的系统，并且同样的原则也适用于我们的隐私系统本身。这就是为什么我们在 2018 年为 Zcoin 构建 Sigma 的原因。Sigma 使用 256 位 ECC 曲线，证明大小仅为 1.5 kB，是当时技术的 17 倍改进。Sigma 是 Lelantus 的前身，为我们今天的地位奠定了许多垫脚石。
+  dandelion1: Dandelion 技术
+  dandelion2: Dandelion++ 保护你的 IP 地址。在飞熔币交易广播到整个网络之前，它们会在节点之间随机洗牌几步。这样，广播的来源就与你的 IP 地址解除了关联。
+  mtp1: 分散和公平的安全
+  mtp2: 飞熔币的默克尔树证明（MTP）挖矿算法进一步增强了交易的实用匿名性。MTP 占用大量内存，阻止了矿工集中化。但是，普通节点可以绕过此内存要求。2017 年由 Zcoin 发起的审计证明了这种两管齐下的方法的有效性。
+
+team:
+  heading: 团队
+  coreteam: 核心团队
+  research: 研究
+  ambassadors: 大使
+  community: 社区经理
+
+roadmap:
+  development: 开发
+  heading: 路线图
+  znodes: 确定性主节点
+  mnodesq: 长效主节点仲裁链
+  rebrand: 品牌重塑
+  lelantus: Lelantus 激活
+  lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的加密假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
+  chainlocks: 链锁
+  chainlocksdesc: 链锁利用飞熔币的主节点网络来防止 51% 攻击。只要确认 1 个区块，交易就实现最终确定性。
+  rap: RAP 地址（接近完成）
+  rapdesc: RAP 地址允许一个可公开分享的地址，不允许第三方看到它收到了多少资金或何时收到资金。
+  instant: 即时发送（进行中）
+  instantdesc: 即时发送利用飞熔币的主节点网络，允许在几秒钟内确认交易，允许作为交易媒介实际使用。
+  elysium: Elysium（进行中）
+  elysiumdesc: Elysium 允许在飞熔币的网络上发行代币（如稳定币、资产支持币），将受益于飞熔币的隐私技术。
+  lelantus2: Lelantus 2.0（刚开始）
+  lelantus2desc: Lelantus 2.0 可以实现直接的匿名支付，让用户可以在不透露金额或来源的情况下进行交易。将部署一个新的 Lelantus 地址方案，允许用户完全隐藏其资金。
+  mobile: 移动钱包和 SDK（刚开始）
+  mobiledesc: 一个原生的、默认隐私移动钱包，将有完整的 Lelantus 交易支持。SDK 将允许第三方钱包支持 Lelantus。
+  renfiro: renFIRO
+  renfirodesc: 飞熔币正在与 renVM 整合，以允许飞熔币与以太坊的无信任桥接，允许用户无信任、无 KYC 地进入和退出 defi 生态系统。
+  progpow: ProgPOW
+  progpowdesc: 为了进一步提高 ASIC 抗性，ProgPOW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
+  research: 研究
+  aura: Aura
+  auradesc: Aura 是 Lelantus 的继承者。我们打算利用我们对分层的 one-out-of-many 证明的研究，改善证明时间并增加匿名集。我们还研究了各种方法来改进播种新匿名集的滑动窗口的实现。
+  bridges: 跨链桥
+  bridgesdesc: 跨链桥将允许来自其他生态系统的令牌桥接进出飞熔币的 Elysium 令牌层，以利用我们的隐私基础结构。
+  mixnets: 混合网
+  mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是针对国家级别的对手，也能提供更多的元数据保护。
+  syncclients: 快速同步客户端
+  syncclientsdesc: 快速同步客户端允许用户在支持 Lelantus 交易的同时，无需下载整个区块链就能快速同步钱包。
+  learnmore: 了解更多
