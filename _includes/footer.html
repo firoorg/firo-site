@@ -42,16 +42,25 @@
                       </div>
                   </div>
               </div>
-              <!--div class="row bottom">
+              <div class="row bottom">
                   <div class="col">
-                      <span>
-                          <select>
-                            <option>English</option>
-                            <option>Spanish</option>
-                            <option>Chinese</option>
-                          </select>
-                      </span>
+                      <div href="#" class="dropdown language-change">
+                            <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
+                            <label for="langdrop">{{ site.data.languages.langs.[site.lang] }}
+                           <div class="arrow-down"></div></label>
+                            <div class="dropdown-content text-center">
+                              {% for lang in site.languages %}
+                                {% unless site.lang == lang %}
+                                  {% if lang == site.default_lang %}
+                                    <a href="{{ site.baseurl_root }}{{ page.url }}" >{{ site.data.languages.langs.[lang] }}</a>
+                                  {% else %}
+                                    <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{{ site.data.languages.langs.[lang] }}</a>
+                                  {% endif %}
+                                {% endunless %}
+                              {% endfor %}
+                            </div>
+                      </div>
                   </div>
-              </div-->
+              </div>
           </div>
       </footer>
