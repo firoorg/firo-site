@@ -5,6 +5,7 @@ global:
   noo: "否"
   lelantus: Lelantus
   title: 飞熔币 - 财务隐私焕新
+  description: 飞熔币是一种专注于制定隐私标准的数字货币。
 
 titles:
   home: 首页
@@ -53,7 +54,7 @@ footer:
 
 home:
   heading: 财务隐私焕新
-  heading2: 飞熔币是一种数字货币，专注于制定隐私标准。
+  heading2: 飞熔币是一种专注于制定隐私标准的数字货币。
   cta1: 获取飞熔币
   cta2: 了解更多
   privacy: 隐私

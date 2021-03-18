@@ -5,6 +5,7 @@ global:
   noo: "no"
   lelantus: Lelantus
   title: Firo - Financial Privacy Renewed
+  description: Firo is a digital currency with a focus on setting privacy standards.
   
 titles:
   home: Home
