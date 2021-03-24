@@ -14,7 +14,9 @@ Make sure you are always on the latest release by going to our [release page](ht
 
 If you suspect that the chainstate is corrupted, please start the wallet with the **-reindex-chainstate flag**. This will start the Firo wallet and begin the reindex-chainstate process and **will take several hours**. 
 
-If you suspect corrupted blocks, please run **\-reindex** instead. 
+If you suspect corrupted blocks, please run **\-reindex** instead.
+
+If you need to rescan your wallet, please run with **\-rescan** instead. This can take between 5 to 30 minutes to run.
 
 ## Windows
 
@@ -49,3 +51,5 @@ Using the **Terminal**, enter the following command:
 ## Firo Rich GUI client (Electron)
 
 To reindex the Electron client, edit the **firo.conf** that is located in the data directory and add **reindex=1**. Save the file and start the client. Once the reindex has started, remove the reindex=1 line from the firo.conf file.
+
+If you need the other options, replace `reindex=1` with `reindex-chainstate=1` or `rescan=1`
