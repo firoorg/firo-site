@@ -11,7 +11,7 @@ We are happy to work together with Hummingbot to allow community members to prov
 
 Details: https://hummingbot.io/blog/2021-02-firo-liquidity-mining-campaign/
 
-# Campaign Terms²
+### Campaign Terms²
 * Start date: February 23, 2021 12:00 AM UTC
 * Total reward pool*: ~US$10,000 in Firo for 4 weeks (week)
 	* The 1st week: US$1,250 / week
