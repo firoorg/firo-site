@@ -9,7 +9,7 @@ alt: ""
 
 New software update Firo v0.14.5.3
 
-https://github.com/firoorg/firo/releases/tag/v0.14.5.3
+[https://github.com/firoorg/firo/releases/tag/v0.14.5.3](https://github.com/firoorg/firo/releases/tag/v0.14.5.3)
 
 This is a maintenance release that resolves some bugs. It is highly recommended to update for node stability
 
