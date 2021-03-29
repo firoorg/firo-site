@@ -9,7 +9,7 @@ alt: ""
 
 ### Firo is now trading on Binance under the new ticker $FIRO
 
-https://www.binance.com/en/support/articles/4a06d6ab6abb4f08b12bb93d6fec30ec
+[](https://www.binance.com/en/support/articles/4a06d6ab6abb4f08b12bb93d6fec30ec)
 
 * At 2021/01/20 00:00 AM (UTC), Binance will suspend XZC staking purchases. All XZC staked in Binance Staking accounts will be unstaked and automatically deposited into users’ spot accounts. At the same time, XZC staking rewards will be calculated and rewarded based on the amount and time that the XZC was staked up until 2021/01/20 00:00 AM (UTC).
 
