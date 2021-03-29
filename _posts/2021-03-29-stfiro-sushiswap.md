@@ -2,7 +2,7 @@
 layout: post
 title: "stFiro on Sushiswap"
 tags: [news, community]
-author: 
+author: Reuben Yap
 img: "blog/assets/stfiro-sushiswap.png"
 alt: ""
 ---
