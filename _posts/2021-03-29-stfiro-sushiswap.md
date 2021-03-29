@@ -7,8 +7,6 @@ img: "https://firo.org/blog/assets/stfiro-sushiswap.png"
 alt: ""
 ---
 
-![](https://firo.org/blog/assets/stfiro-sushiswap.png)
-
 stFIRO (wrapped masternoded $FIRO on ETH) has been approved for SushiSwap Onsen rewards!
 
 https://app.sushi.com/onsen
