@@ -9,7 +9,7 @@ alt: ""
 
 We are happy to work together with Hummingbot to allow community members to provide liquidity for $FIRO on Binance and earn rewards! 
 
-Details: https://hummingbot.io/blog/2021-02-firo-liquidity-mining-campaign/
+Details: [https://hummingbot.io/blog/2021-02-firo-liquidity-mining-campaign/](https://hummingbot.io/blog/2021-02-firo-liquidity-mining-campaign/)
 
 ### Campaign Terms²
 * Start date: February 23, 2021 12:00 AM UTC
