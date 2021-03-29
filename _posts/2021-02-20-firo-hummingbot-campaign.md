@@ -17,9 +17,8 @@ Details: https://hummingbot.io/blog/2021-02-firo-liquidity-mining-campaign/
 	* The 1st week: US$1,250 / week
 	* The 2nd week: US$ 2,500 / week
 	* The 3rd-4th weeks: US$3,125 / week
-
-*Reward token: Firo
-*Eligible token pairs:
+* Reward token: Firo
+* Eligible token pairs:
 	* FIRO/BTC
 	* FIRO/USDT
 	* FIRO/ETH
