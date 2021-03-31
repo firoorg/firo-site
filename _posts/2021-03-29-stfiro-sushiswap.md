@@ -15,4 +15,4 @@ Earn $SUSHI by providing liquidity on Sushiswap's DEX on top of Firo masternode 
 
 [https://coinmarketcap.com/alexandria/article/sushiswap-cookbook-a-complete-tutorial-on-sushi-defi-opportunities](https://coinmarketcap.com/alexandria/article/sushiswap-cookbook-a-complete-tutorial-on-sushi-defi-opportunities)
 
-Get stFIRO from 1inch exchange or Sushiswap!
+Get stFIRO from 1inch exchange or [Sushiswap!](https://st.firo.org)
