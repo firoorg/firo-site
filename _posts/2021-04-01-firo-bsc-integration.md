@@ -23,5 +23,7 @@ We continue to seek out integrations and bridges with other popular chains to in
 Those wanting to learn more about Firo, Binance Smartchain or Stakehound’s stFIRO can join the following Telegram channels:
 
 Firo: [https://t.me/firoproject](https://t.me/firoproject)
+
 BSC: [https://t.me/BinanceDEXchange](https://t.me/BinanceDEXchange)
+
 Stakehound: [https://t.me/stakehound](https://t.me/stakehound)
