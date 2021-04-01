@@ -20,6 +20,8 @@ While BEP-20 Firo on BSC does not enjoy the same privacy or decentralization of 
 
 We continue to seek out integrations and bridges with other popular chains to increase the utility of FIRO. This integration with BSC also adds to our existing Ethereum DeFi bridge via [Stakehound (stFIRO)](https://stakehound.com/docs/faq/stfiro/) which allows users to hold ERC20 tokens on Ethereum that represent Firo backed by masternodes and auto accrues masternode rewards on top of any other liquidity incentives.
 
+Stay tuned for activities involving BEP20 Firo!
+
 Those wanting to learn more about Firo, Binance Smartchain or Stakehound’s stFIRO can join the following Telegram channels:
 
 Firo: [https://t.me/firoproject](https://t.me/firoproject)
