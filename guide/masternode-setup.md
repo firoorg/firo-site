@@ -23,12 +23,9 @@ You should only need to provide your address that you collateraled your FIRO in 
 *   [Masternodes Germany](https://masternodes-germany.de)
 *   [Masternodehosting](https://masternodehosting.com/) (by Flare)
 *   [Nodehub](https://nodehub.io/ref/charybdis)
-*   [Nodesupply](https://nodesupply.com)
 *   [PDABase](http://pdabase.com.my/zcoin-znode-hosting/) (small provider by Reuben and his friend Hui Sing to cater to mainly friends)
-*   [Polis Nodes](https://polisnodes.io/home)
 *   [Satang Nodes](https://satang.com/nodes)
 *   [SetupMasternodes](https://www.setupmasternodes.com)
-*   [Westake](https://westake.io/)
 *   [ZCore Masternodes Hosting](https://central.zcore.cash/mn-coins)
 
 ## Getting Started
