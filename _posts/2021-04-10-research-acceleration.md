@@ -3,7 +3,7 @@ layout: post
 title: "Accelerating Firo's privacy research"
 tags: [news, dev, community]
 author: Reuben Yap
-img:
+img: "/blog/assets/firo-banner.jpg"
 alt: ""
 ---
 
