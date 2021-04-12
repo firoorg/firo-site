@@ -132,7 +132,7 @@ There are many providers to choose out there.
 Select a VPS package that meets the minimum requirements:
 
 *   1 GB of RAM (2 GB recommended)
-*   55+ GB of disk space (blockchain is currently 43GB in December 2020)
+*   100+ GB of disk space (blockchain is currently 49GB in April 2021)
 
 **Note:** The blockchain will grow at a rate of about 20 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
