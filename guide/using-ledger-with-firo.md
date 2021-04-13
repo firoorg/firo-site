@@ -9,11 +9,11 @@ img: ""
 ---
 ## Installing Firo (Zcoin) on your Leldger
 
-(Follow the guide on Ledger's site)[https://support.ledger.com/hc/en-us/articles/360006543693-Zcoin-Firo-XZC-] to install the Zcoin app on your Ledger. Note that you will need to **install the Bitcoin app first.**
+[Follow the guide on Ledger's site](https://support.ledger.com/hc/en-us/articles/360006543693-Zcoin-Firo-XZC-) to install the Zcoin app on your Ledger. Note that you will need to **install the Bitcoin app first.**
 
 ## Setting up Electrum-Firo with your Ledger
 
-Download the latest Electrum-Firo for your operating system and install these on your computer.
+[Download the latest Electrum-Firo](https://github.com/firoorg/electrum-firo/releases/latest) for your operating system.
 
 Go to File -> New/Restore. 
 
