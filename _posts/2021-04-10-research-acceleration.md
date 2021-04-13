@@ -2,6 +2,7 @@
 layout: post
 title: "Accelerating Firo's privacy research"
 tags: [news, dev, community]
+summary: "We are pleased to announce that Dr. Aaron Feickert will be joining the Firo research team."
 author: Reuben Yap
 img: "/blog/assets/firo-banner.jpg"
 alt: ""
