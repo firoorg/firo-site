@@ -226,9 +226,9 @@ After **logging into the new user** on your **VPS** you created in Step 5, type 
 
 `cd ~` 
 
-`wget https://downloads.sourceforge.net/project/firoorg/firo-0.14.5.3-linux64.tar.gz`
+`wget https://downloads.sourceforge.net/project/firoorg/firo-0.14.6.0-linux64.tar.gz`
  
-`tar xzvf firo-0.14.5.3-linux64.tar.gz` 
+`tar xzvf firo-0.14.6.0-linux64.tar.gz` 
 
 Create a new config file for your masternode. Type
  
