@@ -238,7 +238,7 @@ Create a new config file for your masternode. Type
 
 This will create a new directory and also open up a new text file called firo.conf in a text editor called nano. 
 
-In that new file type the following and **change the bolded parts** to match your actual details. The rpc username and password can be anything you wish (try to make it longer a bit).
+In that new file type the following and **change the capitalized parts** to match your actual details. The rpc username and password can be anything you wish (try to make it longer a bit).
 
     #----
     rpcuser=ANYUSERNAME
