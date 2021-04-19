@@ -87,16 +87,16 @@ At the 'Important Notice' screen, check both boxes and click on 'I Agree'
 
 ![](/guide/assets/liquidity-provider-firo-bnb/wbnbfiro_add_lp.png)
 
-Enter the amount of FIRO or BNB that you wish to add to the liquidity pool. The other value will automatically adjust to achieve a 70:30 ratio. Click on 'Approve FIRO' when done.
+Enter the amount of FIRO or BNB that you wish to add to the liquidity pool. The other value will automatically adjust to achieve a 70:30 ratio. Click on 'Approve FIRO' when done. Confirm the transaction on your wallet.
 
-Your Metamask wallet will pop up. Unlock the wallet if requested. Verify that all the details are correct and click on the 'Confirm' button. 
-
-Once done, you will return to the same page again. Click on the 'Supply' button, and in the pop up verify all details are correct, then click 'Confirm supply'.
+Once done, you will return to the same page again. Click on the 'Supply' button, and in the pop up verify all details are correct, then click 'Confirm supply' and confirm the transaction on your wallet.
 
 Once the transaction confirms, your FIRO and BNB will be added to the liquidity pool.
+
+You can also add liquidity even when you do not have the other pair, for example only have BNB and no FIRO. To do this, click on the 'Single' button on the 'Add liquidity' screen, choose the token you have, and enter the amount. It will automatically swap the token to the missing pair in the 70:30 ratio.
 
 ## Staking your WBNBFIRO LP token
 
 In order to be eligble for the rewards, you must also stake your WBNBFIRO LP token. 
 
-Navigate to the WBNBFIRO pair page. If you have added FIRO and BNB to the pool, the Stake button will be available. Click on it, set the amount of LP token you wish to stake and click on Approve. After you have approved the transaction on your Metamasks wallet, click on Stake to stake your LP token.
+Navigate to the WBNBFIRO pair page. If you have added FIRO and BNB to the pool, the 'Stake' button will be available. Click on it, set the amount of LP token you wish to stake and click on 'Approve'. After you have approved the transaction on your Metamask wallet, click on 'Stake' to stake your LP token.
