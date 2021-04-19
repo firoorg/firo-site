@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "How to provide liquidity for FIRO/BNB on ValueDeFi"
-summary: "Participapte in our first liquidity pool on BSC"
+summary: "Participate in our first liquidity pool on BSC"
 tags: [guide]
 author: "Anwar P."
 permalink: /guide/liquidity-provider-firo-bnb.html
