@@ -94,3 +94,9 @@ Your Metamask wallet will pop up. Unlock the wallet if requested. Verify that al
 Once done, you will return to the same page again. Click on the 'Supply' button, and in the pop up verify all details are correct, then click 'Confirm supply'.
 
 Once the transaction confirms, your FIRO and BNB will be added to the liquidity pool.
+
+## Staking your WBNBFIRO LP token
+
+In order to be eligble for the rewards, you must also stake your WBNBFIRO LP token. 
+
+Navigate to the WBNBFIRO pair page. If you have added FIRO and BNB to the pool, the Stake button will be available. Click on it, set the amount of LP token you wish to stake and click on Approve. After you have approved the transaction on your Metamasks wallet, click on Stake to stake your LP token.
