@@ -12,7 +12,7 @@ Users can earn BEP20 FIRO by providing liquidity to ValueDefi's vFarm pool on th
 
 This vFarm represents our first incentivized liquidity pool on BSC and will help us assess the community's interest in participating in DeFi. It will also help jumpstart the liquidity of BEP20 Firo on BSC.
 
-![](/guide/assets/liquidity-provider-firo-bnb/wbnbfiro_pair.png)
+![](/blog/assets/liquidity-provider-firo-bnb/wbnbfiro_pair.png)
 
 Those preferring to participate on the Ethereum network can do so on our [Sushiswap pair.](https://firo.org/2021/03/29/stfiro-sushiswap.html)
 
@@ -24,4 +24,4 @@ To provide liquidity you'll need to convert your native Firo to BEP20 Firo. You 
 
 ![](/guide/assets/liquidity-provider-firo-bnb/exchange_withdraw.png)
 
-Please refer to our guide for further instructions on how to provide liquidity to ValueDefi's vFarm to start earning rewards!
+[Please refer to our guide](https://firo.org/guide/liquidity-provider-firo-bnb.html) for further instructions on how to provide liquidity to ValueDefi's vFarm to start earning rewards!
