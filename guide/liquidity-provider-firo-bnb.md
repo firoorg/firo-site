@@ -89,6 +89,8 @@ At the 'Important Notice' screen, check both boxes and click on 'I Agree'
 
 Enter the amount of FIRO or BNB that you wish to add to the liquidity pool. The other value will automatically adjust to achieve a 70:30 ratio. Click on 'Approve FIRO' when done.
 
-Your Metamask wallet will pop up. Unlock the wallet if requested. Verify that all the details are correct and click on the 'Confirm' button.
+Your Metamask wallet will pop up. Unlock the wallet if requested. Verify that all the details are correct and click on the 'Confirm' button. 
 
-Your FIRO and BNB are now added to the liquidity pool.
+Once done, you will return to the same page again. Click on the 'Supply' button, and in the pop up verify all details are correct, then click 'Confirm supply'.
+
+Once the transaction confirms, your FIRO and BNB will be added to the liquidity pool.
