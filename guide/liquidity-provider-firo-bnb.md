@@ -75,25 +75,25 @@ Before starting, you must **have some BNB** in your wallet to pay the transactio
 
 This liquidity pool requires you to **have a ratio of 70% FIRO and 30% BNB.** This ratio was picked to minimise the risk of [impermanent loss](https://academy.binance.com/en/articles/impermanent-loss-explained) for liquidity providers.
 
-1. Navigate to the [WBNBFIRO pair page on ValueDeFi.](https://bsc.valuedefi.io/#/vfarm/0xffb62cebd566062991157ea7a24fff94d0a92b0c)
+Navigate to the [WBNBFIRO pair page on ValueDeFi.](https://bsc.valuedefi.io/#/vfarm/0xffb62cebd566062991157ea7a24fff94d0a92b0c)
 
-2. Click on the 'Connect Wallet' button on the top right of the page and choose the Metamask wallet you have setup earlier. Unlock the wallet if requested.
+Click on the 'Connect Wallet' button on the top right of the page and choose the Metamask wallet you have setup earlier. Unlock the wallet if requested.
 
   ![](/guide/assets/liquidity-provider-firo-bnb/wbnbfiro_pair.png)
 
-3. Click on 'Add liquidity'.
+Click on 'Add liquidity'.
 
-4. At the 'Important Notice' screen, check both boxes and click on 'I Agree'
+At the 'Important Notice' screen, check both boxes and click on 'I Agree'
 
   ![](/guide/assets/liquidity-provider-firo-bnb/wbnbfiro_add_lp.png)
 
-5. Enter the amount of FIRO or BNB that you wish to add to the liquidity pool. The other value will automatically adjust to achieve a 70:30 ratio. 
+Enter the amount of FIRO or BNB that you wish to add to the liquidity pool. The other value will automatically adjust to achieve a 70:30 ratio. 
 
-  Click on 'Approve FIRO' when done. Confirm the transaction on your wallet.
+Click on 'Approve FIRO' when done. Confirm the transaction on your wallet.
 
-6. Once done, you will return to the same page again. Click on the 'Supply' button, and in the pop up verify all details are correct, then click 'Confirm supply' and confirm the transaction on your wallet.
+Once done, you will return to the same page again. Click on the 'Supply' button, and in the pop up verify all details are correct, then click 'Confirm supply' and confirm the transaction on your wallet.
 
-7. Once the transaction confirms, your FIRO and BNB will be added to the liquidity pool.
+Once the transaction confirms, your FIRO and BNB will be added to the liquidity pool.
 
 You can also add liquidity even when you do not have the other pair, for example only have BNB and no FIRO. To do this, click on the 'Single' button on the 'Add liquidity' screen, choose the token you have, and enter the amount. It will automatically swap the token to the missing pair in the 70:30 ratio.
 
