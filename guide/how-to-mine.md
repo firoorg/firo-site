@@ -64,7 +64,7 @@ For cpuminer:
 
 If -t is not specified, it will use the maximum number of threads. It is recommended to have a computer with a decent amount of RAM for stability. For ccminer (Nvidia):
 
-`ccminer.exe -a mtp -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
+`ccminer.exe -a mtp -u username.worker -p password -o stratum+tcp://POOLADDRESS:PORT `
 
 For sgminer (AMD):
 
