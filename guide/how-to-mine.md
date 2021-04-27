@@ -33,21 +33,21 @@ Extract the exe binary into a folder of your choice.
 There are several pools running Firo on MTP (arranged in alphabetical order). The ones we recommend are as follows:
 
 * [Mintpond](https://mintpond.com/#!/firo)
-    * zcoin.mintpond.com:3000
+    * firo.mintpond.com:3000
 	* [Mintpond's Firo mining guide](https://mintpond.com/getting-started-guide/firo)
-* [ZelLabs](https://zellabs.net/coins/xzc)
+* [ZelLabs](https://fluxpools.net/coins/firo
     * us-zcoin.zellabs.net:7015 (USA)
 * [Zergpool](http://zergpool.com)
     * mtp.mine.zergpool.com:3000 (Europe)
 * [dapool](https://dapool.io/)
 	* firo.dapool.io:3355
 * [F2Pool (PPS Pool)](https://www.f2pool.com/)
-    * xzc.f2pool.com:5780 (Asia)
+    * firo.f2pool.com:5780 (Asia)
 * [Whibbit](https://pool.whibbit.cn/)
 	* firo.whibbit.cn:30512
-* [2Miners](https://2miners.com/xzc-mining-pool)
-    * xzc.2miners.com:8080
-* [Solo Pool](https://xzc.solopool.org/)
+* [2Miners](https://2miners.com/firo-mining-pool)
+    * firo.2miners.com:8080
+* [Solo Pool](https://firo.solopool.org/)
     * s3.solopool.org:8014
 
 Get yourself and account there and make sure you obtain a **username** and **worker** details and the **pool's address** and **port.**
