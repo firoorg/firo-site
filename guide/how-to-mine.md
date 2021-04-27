@@ -35,7 +35,7 @@ There are several pools running Firo on MTP (arranged in alphabetical order). Th
 * [Mintpond](https://mintpond.com/#!/firo)
     * firo.mintpond.com:3000
 	* [Mintpond's Firo mining guide](https://mintpond.com/getting-started-guide/firo)
-* [ZelLabs](https://fluxpools.net/coins/firo
+* [ZelLabs](https://fluxpools.net/coins/firo)
     * us-zcoin.zellabs.net:7015 (USA)
 * [Zergpool](http://zergpool.com)
     * mtp.mine.zergpool.com:3000 (Europe)
