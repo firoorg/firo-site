@@ -17,14 +17,14 @@ The guide is meant for Windows users though Linux users can easily adapt it.
 
 ## Step 1: Getting your Miners
 
-* [Nvidia GPU: Official Firo ccminer by djm34](https://github.com/firoorg/ccminer/releases)
+* [Nvidia GPU: Official Firo ccminer by djm34](https://github.com/firoorg/ccminer/releases) (open source, 0.25% fee. Fee can be turned off with  --no-donation flag)
 * [AMD GPU: Official Firo sgminer by djm34](https://github.com/firoorg/sgminer/releases)
 * [Nvidia GPU: T-Rex Miner](https://github.com/trexminer/T-Rex/releases) (closed source with 1% fee)
 * [Nvidia GPU: TT-Miner](https://bitcointalk.org/index.php?topic=5025783.0) (closed source with 1% fee)
 * [Nvidia GPU: Cryptodredge](https://github.com/technobyl/CryptoDredge/releases) (closed source with 2% fee)
 * [cpuminer by djm34](https://github.com/firoorg/cpuminer/releases)
 
-**Warning:** Miners are listed here for convenience but non-official miners have not been vetted. Use at your own risk. 
+**Warning:** Miners are listed here for convenience but non-official miners have not been vetted. Use at your own risk. All fees are to the developers of the miners.
 
 Extract the exe binary into a folder of your choice.
 
