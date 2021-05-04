@@ -18,10 +18,10 @@ Things to avoid:
 
 ## Prizes:
 
-1st Prize: 400 FIRO
-2nd Prize: 250 FIRO
-3rd to 10th prize: 25 FIRO
-11th to 25th prize: 10 FIRO
+1st Prize: 400 FIRO  
+2nd Prize: 250 FIRO  
+3rd to 10th prize: 25 FIRO  
+11th to 25th prize: 10 FIRO  
 
 We recommend using our official [QT wallet](https://github.com/firoorg/firo/releases) to anonymize. If you want more fine grained control over your Lelantus mints, you can go to *Settings>Options>Wallet>Enable lelantus manual-anonymize* page.
 
