@@ -8,7 +8,7 @@ img: "/blog/assets/anonymize-and-win.png"
 ---
 There is a huge random element to win but the more often you anonymize your funds with Lelantus and the bigger the amount, the higher the chance you stand to win. We will credit the prizes directly to the address that anonymized the funds so your privacy is retained!
 
-1. Only Lelantus mints from blocks 369,000 to 377,630 will be eligible for this contest. Lelantusjmints are not counted.
+1. Only [Lelantus mints](https://explorer.firo.org/address/Lelantusmint) from blocks 369,000 to 377,630 will be eligible for this contest. [Lelantusjmints](https://explorer.firo.org/address/Lelantusjmint) are not counted.
 2. **Only mints of size 1 FIRO** and above are factored in. This is to discourage spam transactions.
 3. Addresses that have multiple mints from a single address are excluded. This is to discourage address re-use which undermines privacy.
 
