@@ -5,7 +5,7 @@ tags: [news, community]
 author: "Reuben Yap"
 img: ""
 ---
-![](/assets/thai-election-blockchain/group_01.jpg)
+![](/blog/assets/thai-election-blockchain/group_01.jpg)
 
 Over the period of 1st to the 9th of November, some of you have noticed that we had a massive surge in transactions, with hundreds to thousands of transactions being posted each block on **Zcoin’s blockchain.** We are now finally able to reveal what these transactions were. In fact, [a hint on this was given back in October](https://siamblockchain.com/2018/10/17/blockchain-on-thai-party/) with Mr. Korn Chatikavanij, former Minister of Finance revealing that political parties in Thailand have started using blockchain technology to select party leaders.
 
@@ -31,7 +31,7 @@ The voting data or identification documents on their own, read without the other
 
 At the conclusion of the vote, despite a large number of voters from all over Thailand, the final results were available in just under 12 hours. We are incredibly proud to have played a part in enabling blockchain based e-voting to gain real-world adoption and learned many valuable lessons while carrying it out.
 
-![](/assets/thai-election-blockchain/group_02.jpg)
+![](/blog/assets/thai-election-blockchain/group_02.jpg)
 
 Despite the many challenges of e-voting, we believe it is important to pursue such endeavors to make voting or polling easier, cheaper to carry out and most importantly trusted by the voters. In this case, blockchain was a good fit, with the stakeholders’ emphasis on the integrity of the vote database with no central administrator, and also it being technology that they could understand and accept. We look forward to improving the system further such as with the use of zero-knowledge proof systems in facilitating [anonymous but verifiable voting on the blockchain.](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/217329/3/IEICE.tec.rep_IA2016-54.pdf)
 
