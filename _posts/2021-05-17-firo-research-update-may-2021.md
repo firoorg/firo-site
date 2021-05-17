@@ -16,7 +16,7 @@ For Lelantus only transactions, we are working on a design that would leverage F
 
 For transparent transactions, we find the Neutrino approach promising where all transactions in a block are compressed to be about 20 kB/block. This compressed data is then used by the client to determine whether that block has any of the client’s transactions.
 
-A work in progress draft of our proposed wallet design can be found here.
+A work in progress draft of our proposed wallet design can be found [here](/blog/assets/Lelantus_Light_Wallet_Design_Ideas_Draft006.pdf).
 
 ## LELANTUS
 
