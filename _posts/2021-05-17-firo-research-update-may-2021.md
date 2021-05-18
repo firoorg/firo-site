@@ -4,7 +4,7 @@ title: "Firo Research Update May 2021"
 summary: "An update on Firo's research in the past few months. Privacy preserving light wallets, security analysis of Lelantus v2, improved batched verification, proof of concept code for hierarchical one-out-of-many proofs, anonymous and end to end verifiable and self tallying voting protocol using Lelantus"
 tags: [news, dev, community]
 author: "Reuben Yap"
-img: ""
+img: "/blog/assets/firo_research_update.png"
 ---
 We would like to share what Firo’s research team has been working on over the past few months.
 
