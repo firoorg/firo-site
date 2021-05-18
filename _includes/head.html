@@ -4,7 +4,7 @@
     <title>{% if page.title contains "titles." %}{% t page.title %} | {% t global.title %}
       {% else %}{{ page.title }} | {% t global.title %}{% endif %}</title>
     <meta name="author" content="">
-    <meta name="description" content="Firo is a digital currency with a focus on setting privacy standards.">
+    <meta name="description" content="{% if page.summary %} {{page.summary}} {%else%}Firo is a digital currency with a focus on setting privacy standards.{% endif %}">
     <meta property="og:image" content="{{page.img}}">
     <meta property="og:description" content="{% if page.summary %} {{page.summary}} {%else%}Firo is a digital currency with a focus on setting privacy standards.{% endif %}">
     <meta property="og:title" content="{% if page.title contains "titles." %}{% t page.title %} | {% t global.title %}
