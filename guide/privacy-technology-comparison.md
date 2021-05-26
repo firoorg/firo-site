@@ -14,9 +14,11 @@ permalink: "/guide/privacy-technology-comparison.html"
 
 This post was last updated on the **15 July 2019** which includes write-ups on Sigma and Lelantus, covers the Zerocoin vulnerability, includes some new zkSNARKs variants and some additional information on Beam's MimbleWimble implementation.
 
+Post updated on the **26rd May 2021** includes rebrand from Zcoin to Firo according to context. Updated lelantus section
+
 ### Blockchain Privacy Mechanisms
 
-This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Sigma protocol used in Zcoin and also our next generation privacy protocol Lelantus stacks up. 
+This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Sigma protocol used in Zcoin (now Firo) and also our next generation privacy protocol Lelantus stacks up. 
 
 Blockchain privacy is particularly tricky to achieve as public blockchains are designed so that all transactions are transparent and the supply of coins can be publicly verified. Privacy mechanisms have to ensure that both these elements are preserved even though there is a conflict between protecting privacy and maintaining public verifiability. To understand the innovation behind Sigma and Lelantus, we first need to examine the history of blockchain privacy.
 
@@ -97,7 +99,7 @@ Using an entirely different codebase than Bitcoin also means third parties have 
 
 Despite these drawbacks, CryptoNote today has proven itself to be one of the better and well-reviewed privacy technologies out there and the only instances where it has been publicly deanonymized arose from improper implementation such as the ShadowCash fiasco or through the use of mixin-0 transaction in Monero which resulted in a cascade effect that [rendered 87% of inputs traceable](https://eprint.iacr.org/2017/338) (subsequently mitigated for newer transactions). However newer techniques in blockchain analysis may greatly reduce Cryptonote's anonymity as it is a ['decoy' based system](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy) which was recently demonstrated in the paper [FloodXMR](https://eprint.iacr.org/2019/455) which shows that a relatively cheap attack can be mounted by flooding transactions to remove mixins from transaction inputs. There is however some ongoing debate as to the cost and efficiency of such techniques.
 
-### Zerocoin and Zcoin
+### Zerocoin and Zcoin (now Firo)
 
 **As used in: Zcoin (prior to April 2019), PIVX (disabled), Veil (Disabled)** 
 
@@ -117,11 +119,11 @@ Despite these drawbacks, CryptoNote today has proven itself to be one of the bet
 *   Requires fix denominations
 *   Some care is required when doing Zerocoin mints and spends. Users have to keep coins minted before they intend to spend to prevent timing attacks.
 
-We now come to Zerocoin as implemented in Zcoin. Unlike the previous anonymity schemes which involve obscuring the real transactions with other inputs or transactions, the Zerocoin protocol completely breaks the transaction links between coins through the use of zero-knowledge proofs. 
+We now come to Zerocoin as implemented in Zcoin (now Firo). Unlike the previous anonymity schemes which involve obscuring the real transactions with other inputs or transactions, the Zerocoin protocol completely breaks the transaction links between coins through the use of zero-knowledge proofs. 
 
 In simple terms, a zero-knowledge proof is a proof you did something or know something without revealing any other information other than you did it. For example, proving that you know a password without actually telling the password. 
 
-Zerocoin works by allowing you to burn coins (otherwise known a Zerocoin mint) and then later redeem an equivalent number of brand new coins (known as a Zerocoin spend). These coins appear with no prior transaction history and are similar to newly mined coins. The zero-knowledge proof is used to prove that you indeed burnt coins without revealing the specific coins that you burnt. Using the proof you are furthermore entitled to redeem an equivalent number of new, clean coins. 
+Zerocoin works by allowing you to burn coins (otherwise known as a Zerocoin mint) and then later redeem an equivalent number of brand new coins (known as a Zerocoin spend). These coins appear with no prior transaction history and are similar to newly mined coins. The zero-knowledge proof is used to prove that you indeed burnt coins without revealing the specific coins that you burnt. Using the proof you are furthermore entitled to redeem an equivalent number of new, clean coins. 
 
 ![](/guide/assets/privacy-technology-comparison/zerocoin.png) 
 
@@ -143,12 +145,12 @@ Summing up, Zerocoin offers very strong anonymity with a huge anonymity set with
 
 ### [Sigma](https://firo.org/2019/03/20/what-is-sigma.html)
 
-**As used in: Zcoin, NIX** 
+**As used in: Zcoin (now Firo *until January 2021*), NIX** 
 
 **Pros:**
 
 *   No need for a mixer
-*   Very high anonymity with anonymity sets of up to around 100,000\. Mint and spend transactions and completely breaks transaction links between addresses.
+*   Very high anonymity with anonymity sets of up to around 100,000. Mint and spend transactions and completely breaks transaction links between addresses.
 *   Retains some degree of supply auditability since amounts are not hidden and coins have to be spent to base layer.
 *   Uses well-researched cryptography
 *   Small proof sizes of around 1.5 kB
@@ -160,7 +162,7 @@ Summing up, Zerocoin offers very strong anonymity with a huge anonymity set with
 *   Some care is required when doing Sigma mints and spends. Users have to keep coins minted before they intend to spend to prevent timing attacks
 *   Difficult to scale past anonymity sets of 100,000 without cryptographic breakthrough
 
-[Sigma](https://firo.org/2019/03/20/what-is-sigma.html) is a privacy protocol developed and pioneered by Zcoin and works very similarly to Zerocoin. It has two key differentiators: it doesn't require trusted setup and its proof sizes are significantly smaller at around 1.5 kB (compared to Zerocoin's 25 kB). 
+[Sigma](https://firo.org/2019/03/20/what-is-sigma.html) is a privacy protocol developed and pioneered by Zcoin (now Firo) and works very similarly to Zerocoin. It has two key differentiators: it doesn't require trusted setup and its proof sizes are significantly smaller at around 1.5 kB (compared to Zerocoin's 25 kB). 
 
 Sigma is based on the academic paper [One-Out-Of-Many-Proofs: Or How to Leak a Secret and Spend a Coin (Jens Groth and Markulf Kohlweiss)](https://eprint.iacr.org/2014/764.pdf) which replaces RSA accumulators by utilizing Pedersen commitments and other techniques which cryptographic construction does not require trusted setup. The only system parameters required in the Sigma setup are ECC group specifications and the group generators. This construction was further optimized in the paper [Short Accountable Ring Signatures based on DDH (Jonathan Bootle, Andrew Cerulli, Pyrros Chaidos, Essam Ghadafi, Jens Groth and Christophe Petit).](https://eprint.iacr.org/2015/643.pdf) 
 
@@ -170,30 +172,29 @@ Sigma is basically a greatly improved Zerocoin. Its only remaining weaknesses is
 
 ### [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html)
 
-**As used in: Zcoin (in development)** 
+**As used in: Firo (activated January 2021)** 
 
 **Pros:**
 
 *   No need for a mixer
-*   Very high anonymity with anonymity sets of up to around 100,000\. Mint and spend transactions and completely breaks transaction links between addresses.
+*   Very high anonymity with anonymity sets of up to around 65,536. Mint and spend transactions and completely breaks transaction links between addresses.
 *   Uses well-researched cryptography and only requiring DDH cryptographic assumptions
-*   Small proof sizes of around 1.5 kB
+*   Small proof sizes of around ~1.5 kB
 *   No trusted setup
 *   Doesn't use fixed denominations
-*   Can do direct anonymous payments without having to convert to base coin.
+*   Can do direct anonymous payments without having to convert to base coin (for Lelantus v2).
 *   Scalable enough to allow privacy on by default
 
 **Cons:**
 
-*   Difficult to scale past anonymity sets of 100,000 without cryptographic breakthrough
-*   Direct anonymous payments in current form require recipient to spend and remint the coin again to prevent the sender from finding out when that coin is spent
-*   Still in early development. Zcoin has completed its cryptographic libraries and Sarang Noether from Monero has also completed a proof of concept implementation.
+*   Difficult to scale past anonymity sets of 65,536 without cryptographic breakthrough
+*   Direct anonymous payments in current form require recipient spend and remint the coin again to prevent the sender from finding out when that coin is spent
 
-Lelantus further expands on Sigma by removing the requirement for fixed denominations and also allowing for direct anonymous payments that do not reveal amounts. Lelantus is a creation of Zcoin's cryptographer Aram Jivanyan as part of our efforts to continuously improve our privacy protocol and its full paper is available to read [here](https://eprint.iacr.org/2019/373). 
+Lelantus further expands on Sigma by removing the requirement for fixed denominations and also allowing for direct anonymous payments that do not reveal amounts. Lelantus is a creation of Firo's cryptographer Aram Jivanyan as part of our efforts to continuously improve our privacy protocol and its full paper is available to read [here](https://eprint.iacr.org/2019/373). 
 
 Lelantus retains all the benefits of Sigma of not requiring trusted setup, but removes the remaining weakness of requiring fixed denominations by utilizing double-blinded commitments and a modification of bullet-proofs to hide transaction amounts. Users can burn arbitrary amounts and redeem arbitrary amounts as well making it much harder to tie spends to mints. 
 
-If there is any weakness to Lelantus is that the anonymity set is still limited to about 100,000 before performance makes it impractical to implement however we believe that analysis of such large anonymity sets may prove to be impractical. This anonymity set is still magnitudes higher compared to almost all other privacy mechanisms with the exception of Zerocash with its own set of trade offs (trusted setup, complicated construction, etc) which we will explore further below. 
+If there is any weakness to Lelantus is that the anonymity set is still limited to about 65,536 before performance makes it impractical to implement however we believe that analysis of such large anonymity sets may prove to be impractical. This anonymity set is still magnitudes higher compared to almost all other privacy mechanisms with the exception of Zerocash with its own set of trade offs (trusted setup, complicated construction, etc) which we will explore further below. 
 
 Direct anonymous payments at the current state of research also require an additional spend and remint step to anonymize the coins from the original coin sender. We are still pursuing further research to improve and scale this  further. 
 
@@ -322,9 +323,9 @@ All of the blockchain privacy schemes listed here are well reviewed by researche
 
 ## Summary
 
-Every anonymity scheme has its own sets of benefits and trade-offs, and we believe that continuous exploration and research of these privacy schemes can only serve to improve blockchain privacy as a whole. We at Zcoin strongly believe that [Sigma](https://firo.org/2019/03/20/what-is-sigma.html) and [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html) compares very favorably to other anonymity schemes by providing a very well-rounded anonymity package, giving very strong anonymity using proven cryptography while remaining scalable and auditable. 
+Every anonymity scheme has its own sets of benefits and trade-offs, and we believe that continuous exploration and research of these privacy schemes can only serve to improve blockchain privacy as a whole. We at Firo strongly believe that [Sigma](https://firo.org/2019/03/20/what-is-sigma.html) and [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html) compares very favorably to other anonymity schemes by providing a very well-rounded anonymity package, giving very strong anonymity using proven cryptography while remaining scalable and auditable. 
 
-A comparison chart of Zcoin's solutions with other leading privacy technologies can be found below. 
+A comparison chart of Firo's solutions with other leading privacy technologies can be found below. 
 
 ![](/guide/assets/privacy-technology-comparison/comparison-table-firo-updated.png) 
 
