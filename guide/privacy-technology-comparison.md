@@ -18,9 +18,9 @@ Post updated on the **26rd May 2021** includes rebrand from Zcoin to Firo accord
 
 ### Blockchain Privacy Mechanisms
 
-This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Sigma protocol used in Zcoin (now Firo) and also our next generation privacy protocol Lelantus stacks up. 
+This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Lelantus protocol used in Firo stacks up.
 
-Blockchain privacy is particularly tricky to achieve as public blockchains are designed so that all transactions are transparent and the supply of coins can be publicly verified. Privacy mechanisms have to ensure that both these elements are preserved even though there is a conflict between protecting privacy and maintaining public verifiability. To understand the innovation behind Sigma and Lelantus, we first need to examine the history of blockchain privacy.
+Blockchain privacy is particularly tricky to achieve as public blockchains are designed so that all transactions are transparent and the supply of coins can be publicly verified. Privacy mechanisms have to ensure that both these elements are preserved even though there is a conflict between protecting privacy and maintaining public verifiability. To understand the innovation behind Sigma (previously used in Zcoin) and Lelantus, we first need to examine the history of blockchain privacy.
 
 ### Cryptocurrency Tumblers and CoinJoin
 
