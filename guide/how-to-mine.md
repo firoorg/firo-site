@@ -102,7 +102,7 @@ Make a new file called firo.conf and add and adapt these lines:
 
 Once this is done, restart your Firo wallet and ensure it is synced. Then make a new file called miner.bat as below and save in the same folder as where you had extracted the miner binary to earlier.
 
-`ccminer.exe -a mtp http://127.0.0.1:8382 -u firo -p mtp --no-getwork --coinbase-addr YOURFIROADDRESS`
+`ccminer.exe -a mtp -o http://127.0.0.1:8382 -u firo -p mtp --no-getwork --coinbase-addr YOURFIROADDRESS`
 
 ## Step 4: Running the Miner
 
