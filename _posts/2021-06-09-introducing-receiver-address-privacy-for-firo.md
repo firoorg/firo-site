@@ -22,7 +22,7 @@ Firo’s implementation is also the first complete implementation of BIP47 in C+
 
 ## How can Firo users access this feature?
 
-RAP addresses are currently accessible via Firo’s latest official QT wallet v14.7.0 and work is being done to integrate it into our desktop Electron wallet. RAP addresses are a soft fork so the upgrade and adoption of these addresses are optional.
+RAP addresses are currently accessible via Firo’s latest official [QT wallet v14.7.0](https://github.com/firoorg/firo/releases/tag/v0.14.7.0) and work is being done to integrate it into our desktop Electron wallet. RAP addresses are a soft fork so the upgrade and adoption of these addresses are optional.
 
 ![](/blog/assets/rap-launch/rap1.png)
 
