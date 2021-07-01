@@ -147,7 +147,7 @@ roadmap:
   lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的加密假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
   chainlocks: 链锁
   chainlocksdesc: 链锁利用飞熔币的主节点网络来防止 51% 攻击。只要确认 1 个区块，交易就实现最终确定性。
-  rap: RAP 地址（接近完成）
+  rap: RAP 地址
   rapdesc: RAP 地址允许一个可公开分享的地址，不允许第三方看到它收到了多少资金或何时收到资金。
   instant: 即时发送（进行中）
   instantdesc: 即时发送利用飞熔币的主节点网络，允许在几秒钟内确认交易，允许作为交易媒介实际使用。
@@ -159,7 +159,7 @@ roadmap:
   mobiledesc: 一个原生的、默认隐私移动钱包，将有完整的 Lelantus 交易支持。SDK 将允许第三方钱包支持 Lelantus。
   renfiro: renFIRO
   renfirodesc: 飞熔币正在与 renVM 整合，以允许飞熔币与以太坊的无信任桥接，允许用户无信任、无 KYC 地进入和退出 defi 生态系统。
-  progpow: ProgPOW
+  progpow: ProgPOW（进行中）
   progpowdesc: 为了进一步提高 ASIC 抗性，ProgPOW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
   research: 研究
   aura: Aura
