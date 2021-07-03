@@ -132,10 +132,11 @@ tech:
   
 team:
   heading: Team
-  coreteam: core team
+  founders: founders
+  coreteam: core developers
+  mobileteam: mobile development
   research: research
-  ambassadors: ambassadors
-  community: community managers
+  community: community
   
 roadmap:
   development: Development

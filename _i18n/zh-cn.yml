@@ -131,11 +131,12 @@ tech:
   mtp2: 飞熔币的默克尔树证明（MTP）挖矿算法进一步增强了交易的实用匿名性。MTP 占用大量内存，阻止了矿工集中化。但是，普通节点可以绕过此内存要求。2017 年由 Zcoin 发起的审计证明了这种两管齐下的方法的有效性。
 
 team:
-  heading: 团队
-  coreteam: 核心团队
-  research: 研究
-  ambassadors: 大使
-  community: 社区经理
+  heading: Team
+  founders: founders
+  coreteam: core developers
+  mobileteam: mobile development
+  research: research
+  community: community
 
 roadmap:
   development: 开发
