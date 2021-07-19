@@ -23,6 +23,8 @@ navigation:
   getfiro: 获取飞熔币
   about: 关于
   community: 社区
+  social: Social
+  merchants: Merchants
   guides: 指南
   blog: 博客
   crowdfunding: 众筹
@@ -172,3 +174,20 @@ roadmap:
   syncclients: 快速同步客户端
   syncclientsdesc: 快速同步客户端允许用户在支持 Lelantus 交易的同时，无需下载整个区块链就能快速同步钱包。
   learnmore: 了解更多
+  
+merchants:
+  introduction: Want to spend your Firo? Here are some places you can do so! This is a non-exhaustive list of places that accept Firo! If you have a business that would like to be featured here, let us know!
+  button1: Apparel
+  button2: Dating
+  button3: Donation
+  button4: Freelancing
+  button5: Gaming
+  button6: Health Products
+  button7: Hosting
+  button8: Legal Services
+  button9: Online Marketplaces
+  button10: P2P Lending
+  button11: Payment Solutions
+  button12: Software
+  button13: Travel
+  button14: VPN

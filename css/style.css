@@ -2085,6 +2085,10 @@ a.btn-primary, a.btn-secondary {
     display: none;
 }
     
+.faq-nav.disclaimer {
+    display: block;
+}
+    
 }
 
 @media only screen and (max-width: 30rem) {
@@ -2500,6 +2504,10 @@ a.btn-primary, a.btn-secondary {
     margin-top: 2rem;
 }
 
+.other-channels .col.extra {
+    opacity: 0;
+}
+
 .main-channels img, .other-channels img {
     width: 10rem;
     margin-left: auto;
@@ -2558,6 +2566,10 @@ a.btn-primary, a.btn-secondary {
     -ms-flex-preferred-size: 47%;
     flex-basis: 47%;
     max-width: 47%;   
+}
+    
+.other-channels .col.extra {
+    display: none;
 }
     
 .main-channels img, .other-channels img {
@@ -2964,6 +2976,269 @@ a.btn-primary, a.btn-secondary {
     
 .guides-list a {
     font-size: 1.1rem;
+}
+    
+}
+
+/* Merchants Page */
+
+.faq-nav .intro-p {
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.faq-nav .intro-p span {
+    font-weight: bold;
+}
+
+.merch-cats {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.merch-cats .between-xs {
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.merch-cats button.accordion {
+    background-color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(84,104,119,0.3);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(84,104,119,0.3);
+    box-shadow: 0px 0px 18px 0px rgba(84,104,119,0.3);
+    border: 3px solid transparent;
+    max-width: 16.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.merch-cats div.accordion.ghost {
+    opacity: 0;
+    max-width: 16.25rem;
+}
+
+.merch-cats button.accordion.click {
+    border: 3px solid #9B1C2E;
+}
+
+.merch-cats button.accordion:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -3.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    content: '';
+    padding-bottom: inherit;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #9b1c2e;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.2s linear, opacity 0.2s linear;
+}
+
+.merch-cats button.accordion.click:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.merch-cats button.accordion img {
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merch-cats button.accordion p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3d3939;
+}
+
+.merch-content .item-mob.col {
+    padding: 0;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.accordion-content.col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    background: #F4F8FB;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.accordion-content.col .row .col {
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%;
+    max-width: 24%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.accordion-content.col img {
+    height: auto;
+}
+
+#btn1-content, #btn2-content, #btn3-content, #btn4-content, #btn5-content, #btn6-content, #btn7-content, #btn8-content, #btn9-content, #btn10-content, #btn11-content, #btn12-content, #btn13-content, #btn14-content {
+    transition: max-height 0.2s ease-in-out;
+    display: none;
+}
+
+#btn1-content.openitup, #btn2-content.openitup, #btn3-content.openitup, #btn4-content.openitup, #btn5-content.openitup, #btn6-content.openitup, #btn7-content.openitup, #btn8-content.openitup, #btn9-content.openitup, #btn10-content.openitup, #btn11-content.openitup, #btn12-content.openitup, #btn13-content.openitup, #btn14-content.openitup {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.merch-content .item-mob input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.merch-content .item-mob label {
+    display: none;
+}
+
+@media only screen and (min-width: 62rem) and (max-width: 75rem) {
+
+.merch-cats button.accordion, .merch-cats div.accordion.ghost {
+    max-width: 13.75rem;
+}
+    
+.merch-cats button.accordion img {
+    width: 9rem;
+}
+
+}
+
+@media only screen and (max-width: 62rem) {
+
+.merch-cats button.accordion {
+    display: none;
+}
+    
+#btn1-content, #btn2-content, #btn3-content, #btn4-content, #btn5-content, #btn6-content, #btn7-content, #btn8-content, #btn9-content, #btn10-content, #btn11-content, #btn12-content, #btn13-content, #btn14-content {
+    display: block;
+}
+    
+.merch-content {
+    overflow: hidden;
+}
+    
+.merch-content .item-mob {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+    
+.merch-content .item-mob label {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    position: relative;
+    padding: 1rem 1.5rem;
+    background-color: #e5eff4;
+    border-top: 2px solid #fefefe;
+}
+    
+.merch-content .item-mob label:before, .merch-content .item-mob label:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    width: 3px;
+    height: 1rem;
+    background-color: #3d3939;
+    transition: all 0.2s;
+    border-radius: 4px;
+}
+    
+.merch-content .item-mob label:after {
+    transform: rotate(90deg);
+}
+    
+.merch-content .item-mob input:checked + label:before {
+    transform: rotate(90deg);
+}
+    
+#btn1-content, #btn2-content, #btn3-content, #btn4-content, #btn5-content, #btn6-content, #btn7-content, #btn8-content, #btn9-content, #btn10-content, #btn11-content, #btn12-content, #btn13-content, #btn14-content {
+    transition: none;
+}
+    
+.merch-content .item-mob .accordion-content {
+    max-height: 0;
+    padding: 0;
+    background-color: #f6f8fc;
+    border-radius: 0;
+}
+    
+.merch-content .item-mob input:checked ~ .accordion-content {
+    max-height: 100%;
+    padding: 2rem 1rem;
+}
+    
+.accordion-content.col .row .col {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+    max-width: 33%;   
+    padding: 0;
+}
+
+}
+
+@media only screen and (max-width: 48rem) {
+    
+.merch-content .item-mob.col {
+	padding: 0 1rem;
+}
+    
+}
+
+@media only screen and (max-width: 38rem) {
+    
+.accordion-content.col .row .col {
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 49%;
+    max-width: 49%;   
+}
+    
+}
+
+@media only screen and (max-width: 27rem) {
+    
+.accordion-content.col .row .col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;   
 }
     
 }
