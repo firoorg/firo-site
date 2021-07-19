@@ -19,7 +19,11 @@
                                <li><a class="sub-nav-item" href="{{ site.baseurl }}/about/faq/">{% t navigation.faq %}</a></li>
                            </ul>
                        </li>
-                       <li class="nav-item link"><a href="{{ site.baseurl }}/community/">{% t navigation.community %}</a>
+                       <li class="nav-item"><a href="#">{% t navigation.community %}</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="{{ site.baseurl }}/community/social/">{% t navigation.social %}</a></li>
+                               <li><a class="sub-nav-item" href="{{ site.baseurl }}/community/merchants/">{% t navigation.merchants %}</a></li>
+                           </ul>
                        </li>
                        <li class="nav-item link"><a href="{{ site.baseurl }}/guide/">{% t navigation.guides %}</a>
                        </li>
@@ -61,12 +65,19 @@
                               <li><a href="{{ site.baseurl }}/about/faq/">{% t navigation.faq %}</a></li>
                           </ul>
                        </li>
-                      <li class="mob-item"><a href="{{ site.baseurl }}/community/">{% t navigation.community %}</a></li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list3" type="checkbox" tabindex="0">
+                          <label for="list3">{% t navigation.community %}</label>
+                          <ul class="dropdown-content">
+                              <li><a href="{{ site.baseurl }}/community/social/">{% t navigation.social %}</a></li>
+                              <li><a href="{{ site.baseurl }}/community/merchants/">{% t navigation.merchants %}</a></li>
+                          </ul>
+                       </li>
                       <li class="mob-item"><a href="{{ site.baseurl }}/guide/">{% t navigation.guides %}</a></li>
                       <li class="mob-item"><a href="{{ site.baseurl }}/blog/">{% t navigation.blog %}</a></li>
                        <li class="mob-item">
-                          <input class="burger-checkdropdown" id="list3" type="checkbox" tabindex="0">
-                          <label for="list3">{% t navigation.crowdfunding %}</label>
+                          <input class="burger-checkdropdown" id="list4" type="checkbox" tabindex="0">
+                          <label for="list4">{% t navigation.crowdfunding %}</label>
                           <ul class="dropdown-content">
                               <li><a href="https://ccs.firo.org/">{% t navigation.fcs %}</a></li>
                               <li><a href="https://opencollective.com/firo">{% t navigation.opencollective %}</a></li>

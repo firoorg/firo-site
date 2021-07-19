@@ -1,0 +1,17 @@
+languages: ["en", "zh-cn"]
+
+document.getElementById('btn1').onclick = function(){
+  document.getElementById('btn1-content').classList.toggle("openitup");
+};
+
+document.getElementById('btn2').onclick = function(){
+  document.getElementById('btn2-content').classList.toggle("openitup");
+};
+
+document.getElementById('btn3').onclick = function(){
+  document.getElementById('btn3-content').classList.toggle("openitup");
+};
+
+document.getElementById('btn4').onclick = function(){
+  document.getElementById('btn4-content').classList.toggle("openitup");
+};

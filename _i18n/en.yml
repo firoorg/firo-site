@@ -23,6 +23,8 @@ navigation:
   getfiro: Get Firo
   about: About
   community: Community
+  social: Social
+  merchants: Merchants
   guides: Guides
   blog: Blog
   crowdfunding: Crowdfunding
@@ -172,3 +174,21 @@ roadmap:
   syncclients: Fast sync clients
   syncclientsdesc: Fast sync clients allow users to sync their wallets rapidly without needing to download the entire blockchain while supporting Lelantus transactions.
   learnmore: Learn more
+  
+merchants:
+  introduction: Want to spend your Firo? Here are some places you can do so! This is a non-exhaustive list of places that accept Firo! If you have a business that would like to be featured here, let us know!
+  button1: Apparel
+  button2: Dating
+  button3: Donation
+  button4: Freelancing
+  button5: Gaming
+  button6: Health Products
+  button7: Hosting
+  button8: Legal Services
+  button9: Online Marketplaces
+  button10: P2P Lending
+  button11: Payment Solutions
+  button12: Software
+  button13: Travel
+  button14: VPN
+  
