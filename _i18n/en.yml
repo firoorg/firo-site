@@ -10,7 +10,7 @@ titles:
   home: Home
   download: Download
   buyfiro: Buy firo
-  tech: Tech
+  tech: Research
   team: Team
   roadmap: Roadmap
   faq: FAQ
@@ -32,7 +32,7 @@ navigation:
   buyfiro: Buy Firo
   earnfiro: Earn Firo
   mine: Mine
-  tech: Tech
+  tech: Research
   team: Team
   roadmap: Roadmap
   faq: FAQ
@@ -119,7 +119,7 @@ buyfiro:
   liquidstaking: liquid staking
   
 tech:
-  heading: Technology
+  heading: Research
   heading1: Privacy is about staying one step ahead. The team behind Firo is responsible for some of the most significant blockchain privacy protocols on record, and all that tech is distilled into Firo.
   academicpapers: Academic Papers
   audits: Audits
