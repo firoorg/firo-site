@@ -15,6 +15,7 @@ titles:
   roadmap: Roadmap
   faq: FAQ
   community: Community
+  merchants: Merchants
   guides: Guides
   blog: Blog
   branding: Branding
@@ -139,6 +140,82 @@ team:
   mobileteam: mobile development
   research: research
   community: community
+  poramininsom:
+    name: Poramin Insom
+    title: Co-Founder
+    bio: Poramin Insom founded Zcoin (now Firo) in 2016, seeking to provide financial privacy and also more inclusive mining via ASIC resistant proof of work. He earned a masters degree in Information Security from Johns Hopkins University where he wrote a paper on a proposed practical implementation of the Zerocoin protocol. He laid the foundations of Zcoin's (now Firo) technology from coding the world's first implementation of Zerocoin and also pushing for the research and development into the MTP mining algorithm. Poramin has been focused on pushing for the adoption of Firo into the real world especially in his involvement in facilitating the Thai Democrat Party to conduct its primary elections to elect its party leader on Firo's blockchain in 2018 which is the world’s first large scale political election on a blockchain.
+  reubenyap:
+    name: Reuben Yap
+    title: Co-Founder & Project Steward
+    bio: Reuben Yap is the Project Steward of Firo and leads the project in its overall strategy, development goals and research efforts. Joining the team shortly after its inception, he has played a pivotal role in shaping Firo to where it is today. Reuben has been a vocal advocate of online and financial privacy having founded one of SE Asia’s earliest VPN services to combat his country’s censorship and is a well respected speaker on the topic, Reuben has been a vocal advocate of online and financial privacy, having founded one of SE Asia’s earliest VPN services to combat censorship and is a well-respected speaker on the topic, with featured interviews and commentary in BBC, Nasdaq Tradetalks, Forbes, Coindesk, Reuters and Cheddar News, among others. Prior to joining Firo, Reuben was a partner at a law firm with over ten years of practicing experience having specialized in doing advisory work in legal and institutional frameworks. In his spare time, he is the lead instructor of an Aikido dojo and also boxes as a hobby.
+  petershugalev:
+    name: Peter Shugalev
+    title: Lead Developer
+    bio: Peter is a highly skilled programmer and software architect with 20+ years of experience. He lives in Moscow, Russia, and graduated from Moscow State University magna cum laude with a Master's Degree in Computer Science and Mathematics. He has created network and security-related services, and has even created his own programming language and a cross-platform compiler for a signature-based intrusion detection system. His rare combination of cryptographic knowledge and programming has helped Firo stay at the forefront of on-chain privacy.
+  andreybezrukov:
+    name: Andrey Bezrukov
+    title: Developer
+    bio: Andrey has 17 years of experience in C++ and has worked for prestigious companies such as Deutsche Bank where he worked on an algorithmic trading platform and a flexible FX risk calculator. His tech stack includes C++11, C++14, Boost, STL, PostgreSQL and Linux. In his past time, Andrey also has experience in setting up cryptocurrency mining operations. As someone who has been involved with software development for forex, stock markets and algorithmic trading, Andrey has a keen interest in fintech and especially in cryptocurrencies which he believes will form the lifeblood of a new economy that enables free markets and economies. In that vein, he strongly believes in the need of privacy mechanisms on the blockchain. He was also behind Firo’s RAP address implementation with Lelantus support which is also the first C++ implementation of BIP47.
+  levonpetrosyan:
+    name: Levon Petrosyan
+    title: Developer
+    bio: Levon is a software engineer with Master's degrees in both Computing Sciences and Economics from the American University of Armenia. His background is in C++ programming and cryptography. He is one of Firo’s most prolific contributors having coded huge portions of Firo's Lelantus cryptographic library along with optimizations to support large anonymity sets.
+  sproxet:
+    name: Sproxet
+    title: Developer
+    bio: Sproxet is an anonymous developer that has worked on privacy preserving software for the past 15 years and has contributed significantly to Firo's Electron client. Sproxet is also the founder of Signal Eleven, an IT consultancy which focuses on computer security and auditing, software development and cryptographic systems architecture design.
+  hermeskhachatryan:
+    name: Hermes Khachatryan
+    title: Developer
+    bio: A software engineer with 3+years of experience. His background is in C++, C#, .Net programming. Hermes began his software engineering career in TeamViewer Armenia prior to joining Firo full time.
+  gevorgmirzoyan:
+    name: Gevorg Mirzoyan
+    title: Developer
+    bio: Gevorg is a software engineer who graduated from the Faculty of Applied Mathematics and Informatics,  Russian-Armenian (Slavonic) University. His tech stack includes C++, Unity and Linux. He has a passion for programming, hiking and games.
+  zorayrzakaryan:
+    name: Zorayr Zakaryan
+    title: Mobile Project Manager
+    bio: Zorayr is a software backend developer with more than 14 years of experience. Specialized in managing engineering teams and establishing proper development processes. Loves anything related to algorithms, cryptocurrencies and video games.
+  hakobkanoyan:
+    name: Hakob Kanoyan
+    title: Mobile Developer
+    bio: Hakob has more than 10 years of experience as a mobile, backend and game developer. He has a strong mathematical background including cryptography. Hakob is leading the technical development of Firo mobile wallet.
+  haykzakaryan:
+    name: Hayk Zakaryan
+    title: Mobile Developer
+    bio: With 11+ years of experience in software engineering, including 7+ years of native and cross-platform mobile development, Hayk joined the Firo team as a part time mobile engineer.
+  arminezakaryan:
+    name: Armine Zakaryan
+    title: UI/UX Designer
+    bio: A UX / UI designer with 5+ years of experience. She is a self-educated designer full of enthusiasm and motivation to create innovative, user-friendly experiences and creative user interfaces. Currently working on mostly B2B SAAS product designs.
+  anwarp:
+    name: Anwar P.
+    title: Senior Support
+    bio: Anwar majored in electrical and electronics engineering, with several years of experience of technical support at an IT company. He handles support queries, documentation, developer support and also assists the Project Steward with day to day matters.
+  ajaydono:
+    name: Ajaydono
+    title: Support
+    bio: Ajay assists the Project Steward in day-to-day operations as well as support enquiries. He has a Diploma in Information Technology majoring in Database Administration and has several years of experience of IT technical support.
+  michaelmugglesbernhardt:
+    name: Michael 'Muggles' Bernhardt
+    title: Community Manager
+    bio: A programmer by trade, he is running his own business to manage water projects via an online portal with installations throughout Africa. Michael has been consumed by crypto since 2013 and has a strong passion for privacy and freedom.
+  sebastianbausch:
+    name: Sebastian Bausch
+    title: Asian Operations
+    bio: Sebastian Bausch is a Bangkok-based angel investor and has been passionate about cryptocurrencies since 2011. He studied Mandarin at Xiamen University and holds a postgraduate degree from the University of Nottingham. He supports the team’s operations in the region and coordinates translations and meet-ups.
+  lemarlukebriones:
+    name: Lemar “Luke” Briones
+    title: Filipino Community Manager
+    bio: An Information Technology graduate from the Philippines, Lemar has been a cryptocurrency enthusiast since 2017 and is dedicated to spreading awareness of Firo across the Philippines.
+  aramjivanyan:
+    name: Aram Jivanyan
+    title: Cryptographer
+    bio: Aram is the creator of Firo’s Lelantus privacy protocol which has revived interest in one-out-of-many proofs and inspired other privacy protocols such as Triptych (Monero) and Lelantus-MW (Beam). He is also the founding CEO of Skycryptor, Techstars company pioneering the development of proxy re-encryption algorithms. Before founding Skycryptor, Aram worked as senior cryptography researcher and development team lead at the American University of Armenia where the scientific group conducted cryptography research for Fortune 1000 industrial partners. Aram's main research interest included white-box cryptography, searchable encryption methods, oblivious transfer protocols and cryptographic e-voting systems.
+  tigranmamikonyan:
+    name: Tigran Mamikonyan
+    title: Research
+    bio: Tigran holds a Master's Degree in Informatics and Applied Mathematics and Computer and Information Sciences. He is currently pursuing his PhD in Informatics and Applied Mathematics at Yerevan State University.
   
 roadmap:
   development: Development
@@ -176,6 +253,9 @@ roadmap:
   learnmore: Learn more
   
 merchants:
+  heading: Merchants
+  disclaimer: Disclaimer&#58;&nbsp;
+  disclaimertext: We do not make any warranties or representations on the services listed here.
   introduction: Want to spend your Firo? Here are some places you can do so! This is a non-exhaustive list of places that accept Firo! If you have a business that would like to be featured here, let us know!
   button1: Apparel
   button2: Dating
