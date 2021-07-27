@@ -237,8 +237,6 @@ roadmap:
   lelantus2desc: Lelantus 2.0 可以实现直接的匿名支付，让用户可以在不透露金额或来源的情况下进行交易。将部署一个新的 Lelantus 地址方案，允许用户完全隐藏其资金。
   mobile: 手机钱包和 SDK（刚开始）
   mobiledesc: 一个原生的、默认隐私手机钱包，将有完整的 Lelantus 交易支持。SDK 将允许第三方钱包支持 Lelantus。
-  renfiro: renFIRO
-  renfirodesc: Firo 正在与 renVM 整合，以允许 Firo 与以太坊的无信任桥接，允许用户无信任、无 KYC 地进入和退出 defi 生态系统。
   progpow: ProgPOW（进行中）
   progpowdesc: 为了进一步提高 ASIC 抗性，ProgPOW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
   research: 研究
