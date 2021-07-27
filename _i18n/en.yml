@@ -160,8 +160,6 @@ roadmap:
   lelantus2desc: Lelantus 2.0 enables direct anonymous payments allowing users to transact with each other without revealing amounts or source. A new Lelantus address scheme will be deployed allowing users to keep their funds totally hidden.
   mobile: Mobile Wallet and SDK (work started)
   mobiledesc: A native, private by default mobile wallet that will have full Lelantus transaction support. The SDK will allow third party wallets to support Lelantus.
-  renfiro: renFIRO
-  renfirodesc: Firo is integrating with renVM to allow trustless bridging of Firo into Ethereum allowing users to enter and exit the defi ecosystem trustlessly and without KYC.
   progpow: ProgPOW (in progress)
   progpowdesc: To further improve ASIC resistance, a ProgPOW variant will replace MTP. This will also allow for much smaller blocks that reduce the bandwidth and storage required of all nodes.
   research: Research
