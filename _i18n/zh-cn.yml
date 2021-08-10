@@ -18,6 +18,7 @@ titles:
   guides: 指南
   blog: 博客
   branding: 品牌
+  merchants: Merchants
 
 navigation:
   getfiro: 获取飞熔币
@@ -108,6 +109,8 @@ download:
 buyfiro:
   heading: 买飞熔币
   heading2: 获得飞熔币的方法之一是在其中一家交易所获得它。你将在下面找到支持飞熔币的交易所和币交换服务的列表。
+  predisclaimer: Disclaimer
+  disclaimer: Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
   ff: "飞熔币 / 法定货币"
   fc: "飞熔币 / 加密货币"
   cs: "币交换服务"
@@ -174,6 +177,7 @@ roadmap:
   learnmore: 了解更多
   
 merchants:
+  heading: Merchants
   introduction: Want to spend your Firo? Here are some places you can do so! This is a non-exhaustive list of places that accept Firo! If you have a business that would like to be featured here, let us know!
   button1: Apparel
   button2: Dating

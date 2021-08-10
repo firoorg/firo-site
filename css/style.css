@@ -1709,6 +1709,14 @@ a.btn-primary, a.btn-secondary {
     padding: 2rem;
 }
 
+#fiat .disclaimer {
+    margin-top: 2rem;
+}
+
+#fiat .disclaimer span {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 62rem) {
     
 .ex-list .row:nth-of-type(2) .col {
@@ -2983,7 +2991,7 @@ a.btn-primary, a.btn-secondary {
 /* Merchants Page */
 
 .faq-nav .intro-p {
-    padding: 1rem;
+    padding: 1rem 0;
     font-size: 1.2rem;
     line-height: 1.7;
 }
@@ -3211,6 +3219,10 @@ a.btn-primary, a.btn-secondary {
     flex-basis: 33%;
     max-width: 33%;   
     padding: 0;
+}
+    
+.faq-nav.disclaimer .row {
+    text-align: left;
 }
 
 }
