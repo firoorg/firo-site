@@ -18,6 +18,8 @@ Do your own due diligence when picking them. Some masternode providers may be ru
 
 You should only need to provide your address that you collateraled your FIRO in or the transaction ID. You should **NEVER** need to collateral 1000 FIRO to them or to an address outside your PC/mac wallet or to give any of your private keys (that is obtained via dumpprivkey). Here's an alphabetical list:
 
+**Disclosure:** Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
+
 *   [Allnodes](https://www.allnodes.com/?utm_source=zcoinio&utm_medium=setup-guide)
 *   [HostingKing](http://www.hostingking.com)  by [perrykmm#2742](mailto:hello@hostingking.com) (Discord)
 *   [Masternodes Germany](https://masternodes-germany.de)
