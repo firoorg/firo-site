@@ -15,10 +15,10 @@ titles:
   roadmap: Roadmap
   faq: FAQ
   community: Community
-  merchants: Merchants
   guides: Guides
   blog: Blog
   branding: Branding
+  merchants: Merchants
   
 navigation:
   getfiro: Get Firo
@@ -109,6 +109,8 @@ download:
 buyfiro:
   heading: Buy Firo
   heading2: One of the ways to get Firo is to acquire it on one of the exchanges. Below you will find a list of exchanges and coin-swapping services that support Firo.
+  predisclaimer: Disclaimer&#58;&nbsp;
+  disclaimer: Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
   ff: "Firo / Fiat"
   fc: "Firo / Crypto"
   cs: "Coin-Swapping"
@@ -252,8 +254,8 @@ roadmap:
   
 merchants:
   heading: Merchants
-  disclaimer: Disclaimer&#58;&nbsp;
-  disclaimertext: We do not make any warranties or representations on the services listed here.
+  predisclaimer: Disclaimer&#58;&nbsp;
+  disclaimer: Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
   introduction: Want to spend your Firo? Here are some places you can do so! This is a non-exhaustive list of places that accept Firo! If you have a business that would like to be featured here, let us know!
   button1: Apparel
   button2: Dating

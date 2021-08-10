@@ -109,6 +109,8 @@ download:
 buyfiro:
   heading: 买 Firo
   heading2: 获得 Firo 的方法之一是在其中一家交易所获得它。你将在下面找到支持 Firo 的交易所和币交换服务的列表。
+  predisclaimer: 免责声明：
+  disclaimer: 其中一些链接包含推荐链接，当你注册或使用他们的产品/服务时，我们可能会得到补偿。这些不构成对产品/服务的认可。
   ff: "Firo / 法定货币"
   fc: "Firo / 加密货币"
   cs: "币交换服务"
@@ -243,7 +245,7 @@ roadmap:
   aura: Aura
   auradesc: Aura 是 Lelantus 的继承者。我们打算利用我们对分层的 one-out-of-many 证明的研究，改善证明时间并增加匿名集。我们还研究了各种方法来改进播种新匿名集的滑动窗口的实现。
   bridges: 跨链桥
-  bridgesdesc: 跨链桥将允许来自其他生态系统的代币进出 Firo 的 Elysium 代币层，以利用我们的隐私基础设施。
+  bridgesdesc: 跨链桥将允许来自其他生态系统的代币桥接进出 Firo 的 Elysium 代币层，以利用我们的隐私基础设施。
   mixnets: 混合网
   mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是针对国家级别的对手，也能提供更多的元数据保护。
   syncclients: 快速同步客户端
@@ -252,8 +254,8 @@ roadmap:
   
 merchants:
   heading: 商户
-  disclaimer: 免责声明：
-  disclaimertext: 我们对这里列出的服务不做任何保证或陈述。
+  predisclaimer: 免责声明：
+  disclaimer: 其中一些链接包含推荐链接，当你注册或使用他们的产品/服务时，我们可能会得到补偿。这些不构成对产品/服务的认可。
   introduction: 想花掉你的 Firo 吗？这里有一些场所你可以这样做。这是一份不完全的接受 Firo 的场所的名单！如果你有一个企业想在这里展出，请让我们知道！
   button1: 服饰
   button2: 约会
