@@ -7,9 +7,9 @@ author: "Anwar P."
 permalink: /guide/using-ledger-with-firo.html
 img: ""
 ---
-## Installing Firo (Zcoin) on your Leldger
+## Installing Firo on your Ledger
 
-[Follow the guide on Ledger's site](https://support.ledger.com/hc/en-us/articles/360006543693-Zcoin-Firo-XZC-) to install the Zcoin app on your Ledger. Note that you will need to **install the Bitcoin app first.**
+[Follow the guide on Ledger's site](https://support.ledger.com/hc/en-us/articles/360006543693-Zcoin-Firo-XZC-) to install the Firo app on your Ledger. Note that you will need to **install the Bitcoin app first,** and the Firo app must be the same version as the Bitcoin app.
 
 ## Setting up Electrum-Firo with your Ledger
 
@@ -21,7 +21,7 @@ The Install Wizard will appear. Pick a name for a new wallet or keep the default
 
 Choose **Standard wallet**. Click Next.
 
-Make sure your Ledger is connected and the Zcoin app is open on the Ledger. Choose **Use a hardware device.** Click Next.
+Make sure your Ledger is connected and the Firo app is open on the Ledger. Choose **Use a hardware device.** Click Next.
 
 At Hardware Keystore, choose **[ledger, initialized, hid].** Click Next.
 
