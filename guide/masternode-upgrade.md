@@ -27,12 +27,12 @@ This will download the archive to your masternode.
 
 4.  Stop the old daemon  
 
-`cd ~/firo-0.14.5/bin` 
+`cd ~/firo-0.14.7/bin` 
 (this is the folder of the major version you are upgrading _from_) 
 `./firo-cli stop` 
 and remove the old version 
 `cd ~` 
-`rm -rv firo-0.14.5` 
+`rm -rv firo-0.14.7` 
 (see above)
 
 5.  Unpack the downloaded archive by typing 
