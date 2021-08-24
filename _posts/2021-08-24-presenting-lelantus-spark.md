@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Presenting Lelantus Spark"
-summary: "Firo’s Flexible New Privacy Protocol"
+title: "Presenting Lelantus Spark, Firo’s Flexible New Privacy Protocol"
+summary: "Firo unveils a protocol that introduces several new privacy-preserving features."
 tags: [news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/unveiling-lelantus-spark.png"
 ---
-
-*Firo unveils a protocol that introduces several new privacy-preserving features.*
-
 Privacy is about consent, and Firo protocols aim to provide users with clear and consistent transaction privacy. With past protocols, we have always sought to create innovative methods for protecting data and preventing prying eyes from monitoring spending patterns.
 
 That’s why we would like to introduce our new privacy protocol that we’ve been working on: **Lelantus Spark.**
@@ -33,7 +30,7 @@ More importantly, Spark introduces several exciting new privacy-preserving featu
 
 * Modular design
 
-[View Lelantus Spark’s official proposal.](/blog/assets/Lelantus_Spark_230821.pdf)
+[View Lelantus Spark's preprint paper.](/blog/assets/Lelantus_Spark_230821.pdf)
 
 ## Spark Addresses
 
@@ -103,3 +100,5 @@ We expect to begin coding certain components of Lelantus Spark in Q4 2021, with 
 We’d like to give Aram Jivanyan (Firo) and Dr. Aaron Feickert (Cypher Stack) special recognition for their hard work in creating and developing Lelantus Spark. We also would like to thank pseudonymous researcher koe for his helpful collaboration and discussion during the initial design process for Spark. We’re proud of their accomplishments and are thrilled to build a new protocol that furthers Firo’s mission of offering privacy-preserving solutions. 
 
 We hope that Lelantus Spark is a useful contribution to the ecosystem and welcome feedback from research and development communities!
+
+[View Lelantus Spark's preprint paper.](/blog/assets/Lelantus_Spark_230821.pdf)
