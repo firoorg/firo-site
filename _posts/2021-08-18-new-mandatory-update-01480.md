@@ -2,7 +2,7 @@
 layout: post
 title: "New mandatory update Firo v0.14.8.0"
 summary: "Hard Fork scheduled at block 401580"
-tags: [news, Dev]
+tags: [news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/firo-new-software-release.png"
 ---
