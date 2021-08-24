@@ -13,7 +13,7 @@ Privacy is about consent, and Firo protocols aim to provide users with clear and
 
 That’s why we would like to introduce our new privacy protocol that we’ve been working on: **Lelantus Spark.**
 
-Spark is a natural evolution of our work in Lelantus v1/v2 and retains many key benefits including:
+Spark is a natural evolution of our work in [Lelantus v1/v2](https://eprint.iacr.org/2019/373) and retains many key benefits including:
 
 * No trusted setup
 
@@ -50,7 +50,7 @@ Currently with Lelantus v1, users are required to anonymize any funds received, 
 
 Multisignature operations enable multiple mutually non-trusting parties to cooperatively generate, receive and authorize transactions associated with a multisig address.
 
-Spark through the use of a modified Chaum-Pedersen discrete logarithm proof. This has proven useful in custody and decentralized exchanges as well as any scenario since it stops malicious parties from seizing control and authorizing spends without the others’ approval.
+Spark supports efficient signing and multisignature operations through the use of a modified Chaum-Pedersen discrete logarithm proof. This has proven useful in custody and decentralized exchanges, as well as any scenarios where you want more than one party approving a transaction.
 
 ## View Keys
 
