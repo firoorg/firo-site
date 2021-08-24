@@ -2,7 +2,7 @@
 layout: post
 title: "Presenting Lelantus Spark"
 summary: "Firo’s Flexible New Privacy Protocol"
-tags: [news, Dev]
+tags: [news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/unveiling-lelantus-spark.png"
 ---
@@ -11,21 +11,29 @@ img: "/blog/assets/unveiling-lelantus-spark.png"
 
 Privacy is about consent, and Firo protocols aim to provide users with clear and consistent transaction privacy. With past protocols, we have always sought to create innovative methods for protecting data and preventing prying eyes from monitoring spending patterns.
 
-That’s why we would like to introduce our new privacy protocol that we’ve been working on: **Lelantus Spark**. 
+That’s why we would like to introduce our new privacy protocol that we’ve been working on: **Lelantus Spark.**
 
 Spark is a natural evolution of our work in Lelantus v1/v2 and retains many key benefits including:
-*No trusted setup
-*Straightforward construction
-*Relies on well established cryptographic assumptions
-*Efficient with support for batch verification
+
+* No trusted setup
+
+* Straightforward construction
+
+* Relies on well established cryptographic assumptions
+
+* Efficient with support for batch verification
 
 More importantly, Spark introduces several exciting new privacy-preserving features such as:
-*Spark addresses;
-*Efficient multisignature Operations;
-*Incoming and full view keys;
-*Modular design
 
-View Lelantus Spark’s official proposal [link paper](/blog/assets/Lelantus_Spark_230821.pdf)
+* Spark addresses;
+
+* Efficient multisignature Operations;
+
+* Incoming and full view keys;
+
+* Modular design
+
+View Lelantus Spark’s official proposal [link paper.](/blog/assets/Lelantus_Spark_230821.pdf)
 
 ## Spark Addresses
 
@@ -49,9 +57,12 @@ Spark through the use of a modified Chaum-Pedersen discrete logarithm proof. Thi
 Spark allows incoming and full view keys that provide flexibility in transaction visibility. With view keys, wallet owners can grant third parties opt-in visibility into incoming and/or outgoing transactions to their wallet addresses.
 
 This feature offers several practical use cases for individuals, organizations and charities:
-*Determining balance for accounting and auditing purposes
-*Offloaded scan services can be used on online and mobile wallets
-*Transparency for charities
+
+* Determining balance for accounting and auditing purposes
+
+* Offloaded scan services can be used on online and mobile wallets
+
+* Transparency for charities
 
 As we move to transition away from transparent addresses, this feature will become more important.
 
@@ -63,7 +74,7 @@ Lelantus Spark’s flexible key structure allows for offloading transaction crea
 
 Spark's modular design uses well-understood cryptographic building blocks like Pedersen commitments, range proofs, zero-knowledge one-of-many proofs, and discrete logarithm equality proofs that enable straightforward security analysis without the need for trusted setup processes.
 
-[Watch Firo’s Aram Jivanyan and Cypher Stack’s Aaron Feickert discuss Lelantus Spark’s advantages](https://www.youtube.com/watch?app=desktop&v=vEZC1fTYRZk)
+[Watch Firo’s Aram Jivanyan and Cypher Stack’s Aaron Feickert discuss Lelantus Spark’s advantages (Youtube link)](https://www.youtube.com/watch?app=desktop&v=vEZC1fTYRZk)
 
 ## How is this different from other privacy protocols?
 
@@ -84,7 +95,6 @@ We will be continuing to work on the Lelantus Spark paper and will be finalizing
 We are also exploring other useful functionality related to payment proofs, improved addressing, and protocol transitions that are relevant to Spark.
 
 We expect to begin coding certain components of Lelantus Spark in Q4 2021, with a release in Q2 2022 to give time for audits. This means that Firo will be skipping implementation of Lelantus v2 in favor of Lelantus Spark.
-.
 
 ## Credits
 
