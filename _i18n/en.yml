@@ -159,15 +159,17 @@ roadmap:
   instantdesc: Instant Send utilizes Firo’s masternode network to allow transactions to be confirmed within a few seconds allowing for practical use as a medium of exchange.
   elysium: Elysium (in progress)
   elysiumdesc: Elysium allows token (for e.g. stablecoins, asset backed coins) to be issued on Firo’s network that will benefit from Firo’s privacy technology.
-  lelantus2: Lelantus 2.0 (work started)
-  lelantus2desc: Lelantus 2.0 enables direct anonymous payments allowing users to transact with each other without revealing amounts or source. A new Lelantus address scheme will be deployed allowing users to keep their funds totally hidden.
-  mobile: Mobile Wallet and SDK (work started)
-  mobiledesc: A native, private by default mobile wallet that will have full Lelantus transaction support. The SDK will allow third party wallets to support Lelantus.
-  progpow: ProgPOW (in progress)
-  progpowdesc: To further improve ASIC resistance, a ProgPOW variant will replace MTP. This will also allow for much smaller blocks that reduce the bandwidth and storage required of all nodes.
+  lelantusspark: Lelantus Spark (undergoing peer review)
+  lelantussparkdesc: Lelantus Spark allows direct anonymous payments allowing users to transact with each other without revealing amounts, source and recipient. Spark introduces a new addressing system that will allow users to keep their funds totally hidden.
+  mobile: Mobile Wallet (in progress)
+  mobiledesc: A native, private by default mobile wallet that will have full Lelantus transaction support.
+  progpow: ProgPoW (in progress)
+  progpowdesc: To further improve ASIC resistance, a ProgPoW variant will replace MTP. This will also allow for much smaller blocks that reduce the bandwidth and storage required of all nodes.
   research: Research
-  aura: Aura
-  auradesc: Aura is the successor to Lelantus. We intend to improve proving times and increase the anonymity set utilizing our research on hierarchical one-out-of-many proofs. We also are researching various ways to improve the implementation of sliding windows in seeding new anonymity sets.
+  lelantussparkaddress: Lelantus Spark sub-addressing and payment proofs
+  lelantussparkaddressdesc: We are investigating ways to add sub-addresses to Lelantus Spark that will allow more efficient scanning and payment proofs that allow users to prove they made a payment.
+  atomicdex: AtomicDEX
+  atomicdexdesc: AtomicDEX allows for users to swap to and from Firo using decentralized infrastructure using atomic swap technology.
   bridges: Cross-chain bridges
   bridgesdesc: Cross chain bridges will allow tokens from other ecosystems to bridge in and out of Firo’s Elysium token layer to utilize our privacy infrastructure.
   mixnets: Mixnets
