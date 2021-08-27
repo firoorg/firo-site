@@ -17,4 +17,4 @@ By popular demand, there is also now a dark mode!
 
 ![](/blog/assets/firoclientdark.png)
 
-Head to Get Firo > Download Wallets > Electron, to download the new [Firo Client](https://github.com/firoorg/firo-client/releases)
+Head to Get Firo > Download Wallets > Electron to download the new [Firo Client](https://github.com/firoorg/firo-client/releases)
