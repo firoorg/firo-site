@@ -226,7 +226,7 @@ roadmap:
   mnodesq: 长效主节点仲裁链
   rebrand: 品牌重塑
   lelantus: Lelantus 激活
-  lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的加密假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
+  lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的密码学假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
   chainlocks: ChainLocks
   chainlocksdesc: ChainLocks 利用 Firo 的主节点网络来防止 51% 攻击。只要确认 1 个区块，交易就实现最终确定性。
   rap: RAP 地址
@@ -235,21 +235,23 @@ roadmap:
   instantdesc: 即时发送利用 Firo 的主节点网络，使交易在几秒钟内得到确认，从而可以作为一种交换媒介实际使用。
   elysium: Elysium（进行中）
   elysiumdesc: Elysium 允许在 Firo 的网络上发行代币（如稳定币、资产支持币），将受益于 Firo 的隐私技术。
-  lelantus2: Lelantus 2.0（刚开始）
-  lelantus2desc: Lelantus 2.0 可以实现直接的匿名支付，让用户可以在不透露金额或来源的情况下进行交易。将部署一个新的 Lelantus 地址方案，允许用户完全隐藏其资金。
-  mobile: 手机钱包和 SDK（刚开始）
-  mobiledesc: 一个原生的、默认隐私手机钱包，将有完整的 Lelantus 交易支持。SDK 将允许第三方钱包支持 Lelantus。
-  progpow: ProgPOW（进行中）
-  progpowdesc: 为了进一步提高 ASIC 抗性，ProgPOW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
+  lelantusspark: Lelantus Spark（正在接受同行评审）
+  lelantussparkdesc: Lelantus Spark 允许直接匿名支付，允许用户在不透露金额、来源和收款方的情况下相互交易。Spark 引入了一个新的地址系统，将允许用户完全隐藏他们的资金。
+  mobile: 手机钱包（进行中）
+  mobiledesc: 一个原生的、默认隐私手机钱包，将有完整的 Lelantus 交易支持。
+  progpow: ProgPoW（进行中）
+  progpowdesc: 为了进一步提高 ASIC 抗性，ProgPoW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
   research: 研究
-  aura: Aura
-  auradesc: Aura 是 Lelantus 的继承者。我们打算利用我们对分层的 one-out-of-many 证明的研究，改善证明时间并增加匿名集。我们还研究了各种方法来改进播种新匿名集的滑动窗口的实现。
+  lelantussparkaddress: Lelantus Spark 的子地址和付款证明
+  lelantussparkaddressdesc: 我们正在研究向 Lelantus Spark 添加子地址的方法，这将允许更高效的扫描和支付证明，让用户能够证明他们已付款。
+  atomicdex: AtomicDEX
+  atomicdexdesc: AtomicDEX 允许用户使用原子交换技术的去中心化基础设施与 Firo 进行交换。
   bridges: 跨链桥
   bridgesdesc: 跨链桥将允许来自其他生态系统的代币桥接进出 Firo 的 Elysium 代币层，以利用我们的隐私基础设施。
   mixnets: 混合网
-  mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是针对国家级别的对手，也能提供更多的元数据保护。
+  mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是面对国家级别的对手，也能提供更多的元数据保护。
   syncclients: 快速同步客户端
-  syncclientsdesc: 快速同步客户端允许用户在支持 Lelantus 交易的同时，无需下载整个区块链就能快速同步钱包。
+  syncclientsdesc: 快速同步客户端允许用户快速同步他们的钱包，而不需要下载整个区块链，同时支持 Lelantus 交易。
   learnmore: 了解更多
   
 merchants:
