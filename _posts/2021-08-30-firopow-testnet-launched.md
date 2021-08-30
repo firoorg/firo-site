@@ -63,6 +63,8 @@ There is also a [testnet mining pool](https://testnet.mintpond.com/#!/firo) onli
 
 We plan to launch FiroPoW on Firo’s mainnet in approximately a month to give time for our ecosystem partners to test and prepare for the transition.
 
+![](/blog/assets/firopow-testnet-stratum.png)
+
 ## Credits
 
 We would like to thank Kristy Leigh O’Minehan (one of the creators of ProgPoW of which FiroPoW is a variant) and Andrea Lanfranchi for their help, advice and input in implementing FiroPoW and its miner. A very big thank you to JC from [Mintpond](https://mintpond.com/) for provision of a [testnet stratum](https://testnet.mintpond.com/#!/firo) and his work on providing a [reference FiroPoW stratum.](https://github.com/MintPond/ref-stratum-firo) We would also like to thank and acknowledge the help and support received from Blondfrogs, Bigpiggy, Delgon and Greer.
