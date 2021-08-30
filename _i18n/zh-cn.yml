@@ -1,43 +1,43 @@
 global:
   date: '%Y/%m/%d'
-  firo: 飞熔币
+  firo: Firo
   yeth: "是"
   noo: "否"
   lelantus: Lelantus
-  title: 飞熔币 - 财务隐私焕新
+  title: Firo - 金融隐私焕新
 
 titles:
   home: 首页
   download: 下载
-  buyfiro: 买飞熔币
-  tech: 技术
+  buyfiro: 买 Firo
+  tech: 研究
   team: 团队
   roadmap: 路线图
   faq: 常见问题
   community: 社区
+  merchants: 商户
   guides: 指南
   blog: 博客
   branding: 品牌
-  merchants: Merchants
 
 navigation:
-  getfiro: 获取飞熔币
+  getfiro: 获取 Firo
   about: 关于
   community: 社区
-  social: Social
-  merchants: Merchants
+  social: 社交
+  merchants: 商户
   guides: 指南
   blog: 博客
   crowdfunding: 众筹
   download: 下载钱包
-  buyfiro: 买飞熔币
-  earnfiro: 赚飞熔币
+  buyfiro: 买 Firo
+  earnfiro: 赚 Firo
   mine: 挖矿
-  tech: 技术
+  tech: 研究
   team: 团队
   roadmap: 路线图
   faq: 常问问题
-  fcs: 飞熔币众筹系统
+  fcs: Firo 众筹系统
   opencollective: Open Collective
 
 footer:
@@ -55,26 +55,26 @@ footer:
   comm: 加入讨论
 
 home:
-  heading: 财务隐私焕新
-  heading2: 飞熔币是一种数字货币，专注于制定隐私标准。
-  cta1: 获取飞熔币
+  heading: 金融隐私焕新
+  heading2: Firo 是一种数字货币，专注于树立隐私标准。
+  cta1: 获取 Firo
   cta2: 了解更多
   privacy: 隐私
-  privacy1: 飞熔币，原 Zcoin，自 2016 年以来一直是无需信任的链上隐私的黄金标准。
+  privacy1: Firo，原 Zcoin，自 2016 年以来一直是无需信任的链上隐私的黄金标准。
   privacy2: 匿名集
   privacy3: 无预信任机制
   blockchain: 区块链
-  blockchain1: 飞熔币的激励基础设施使其拥有业界领先的实用匿名集。
+  blockchain1: Firo 的激励基础设施使其拥有业界领先的实用匿名集。
   blockchain2: 总供应量
   blockchain3: 工作量证明
   blockchain4: 主节点
   randd: 研究与开发
-  randd1: 飞熔币是少数真正对区块链隐私和去中心化技术进行独立研究和开发的项目之一。
-  getfiro: 获取飞熔币
-  getfiro1: 挺进数字隐私的前沿。立即加入飞熔币生态系统。
+  randd1: Firo 是少数真正对区块链隐私和去中心化技术进行独立研究和开发的项目之一。
+  getfiro: 获取 Firo
+  getfiro1: 挺进数字隐私的前沿。立即加入 Firo 生态系统。
   getfiro2: 获取钱包
-  getfiro3: 买飞熔币
-  getfiro4: 赚飞熔币
+  getfiro3: 买 Firo
+  getfiro4: 赚 Firo
   getfiro5: 开始挖矿
 
 download:
@@ -107,41 +107,117 @@ download:
   wallets: 钱包
 
 buyfiro:
-  heading: 买飞熔币
-  heading2: 获得飞熔币的方法之一是在其中一家交易所获得它。你将在下面找到支持飞熔币的交易所和币交换服务的列表。
-  predisclaimer: Disclaimer
-  disclaimer: Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
-  ff: "飞熔币 / 法定货币"
-  fc: "飞熔币 / 加密货币"
+  heading: 买 Firo
+  heading2: 获得 Firo 的方法之一是在其中一家交易所获得它。你将在下面找到支持 Firo 的交易所和币交换服务的列表。
+  predisclaimer: 免责声明：
+  disclaimer: 其中一些链接包含推荐链接，当你注册或使用他们的产品/服务时，我们可能会得到补偿。这些不构成对产品/服务的认可。
+  ff: "Firo / 法定货币"
+  fc: "Firo / 加密货币"
   cs: "币交换服务"
   exchangeswith: 交易所
-  ffhead1: "飞熔币 / 法定货币"
+  ffhead1: "Firo / 法定货币"
   pairing: 交易对
-  fchead1: "飞熔币 / 加密货币"
+  fchead1: "Firo / 加密货币"
   csservice: 币交换服务
   liquidstaking: 流动性质押
 
 tech:
-  heading: 技术
-  heading1: 隐私快人一步。飞熔币背后的团队充分研究有史以来的一些最重要的区块链隐私协议，这些技术都被提炼到飞熔币中。
+  heading: 研究
+  heading1: 隐私重在保持领先一步。Firo 背后的团队充分研究有史以来的一些最重要的区块链隐私协议，这些技术都被提炼到 Firo 中。
   academicpapers: 学术论文
   audits: 审核
   lelantus1: Lelantus 技术
-  lelantus2: Lelantus 是飞熔币的 Aram Jivanyan 开发的下一代隐私协议。Lelantus 允许你烧掉你的币，它将币隐藏在一个超过 65000 个的匿名集中。接收者可以从这个匿名池中赎回它，它打破了你的交易和之前所有交易的链接。
+  lelantus2: Lelantus 是 Firo 的 Aram Jivanyan 开发的下一代隐私协议。Lelantus 允许你烧掉你的币，它将币隐藏在一个超过 65000 个的匿名集中。接收者可以从这个匿名池中赎回它，它打破了你的交易和之前所有交易的链接。
   sigma1: Sigma 技术
   sigma2: 我们相信区块链的最终目的是建立不需要信任的系统，并且同样的原则也适用于我们的隐私系统本身。这就是为什么我们在 2018 年为 Zcoin 构建 Sigma 的原因。Sigma 使用 256 位 ECC 曲线，证明大小仅为 1.5 kB，是当时技术的 17 倍改进。Sigma 是 Lelantus 的前身，为我们今天的地位奠定了许多垫脚石。
   dandelion1: Dandelion 技术
-  dandelion2: Dandelion++ 保护你的 IP 地址。在飞熔币交易广播到整个网络之前，它们会在节点之间随机洗牌几步。这样，广播的来源就与你的 IP 地址解除了关联。
+  dandelion2: Dandelion++ 保护你的 IP 地址。在 Firo 交易广播到整个网络之前，它们会在节点之间随机洗牌几步。这样，广播的来源就与你的 IP 地址解除了关联。
   mtp1: 分散和公平的安全
-  mtp2: 飞熔币的默克尔树证明（MTP）挖矿算法进一步增强了交易的实用匿名性。MTP 占用大量内存，阻止了矿工集中化。但是，普通节点可以绕过此内存要求。2017 年由 Zcoin 发起的审计证明了这种两管齐下的方法的有效性。
+  mtp2: Firo 的默克尔树证明（MTP）挖矿算法进一步增强了交易的实用匿名性。MTP 占用大量内存，阻止了矿工集中化。但是，普通节点可以绕过此内存要求。2017 年由 Zcoin 发起的审计证明了这种两管齐下的方法的有效性。
 
 team:
-  heading: Team
-  founders: founders
-  coreteam: core developers
-  mobileteam: mobile development
-  research: research
-  community: community
+  heading: 团队
+  founders: 创始人
+  coreteam: 核心开发人员
+  mobileteam: 移动开发
+  research: 研究
+  community: 社区
+  poramininsom:
+    name: Poramin Insom
+    title: 联合创始人
+    bio: Poramin Insom 在 2016 年创立了 Zcoin（现在的 Firo），寻求提供金融隐私，同时通过抗 ASIC 工作量证明提供更多的包容性的挖矿。他在约翰霍普金斯大学获得了信息安全硕士学位，在那里他写了一篇关于 Zerocoin 协议的实际执行建议的论文。他为 Zcoin（现在的 Firo）的技术奠定了基础，编写了世界上第一个 Zerocoin 的实现，并推动了 MTP 挖矿算法的研究和开发。Poramin 一直专注于推动 Firo 在现实世界中的应用，特别是他参与促进泰国民主党在 2018 年在 Firo 的区块链上进行初选以选举其党魁，这是世界上第一次在区块链上进行大规模的政治选举。
+  reubenyap:
+    name: Reuben Yap
+    title: 联合创始人兼项目管理人
+    bio: Reuben Yap 是 Firo 的项目管理人，领导项目的整体战略、发展目标和研究工作。他在项目成立后不久就加入了团队，在塑造 Firo 的过程中发挥了关键作用。Reuben 一直是在线和金融隐私的积极倡导者，他创建了东南亚最早的 VPN 服务之一，以对抗他的国家的审查制度，并在这个主题上是一个备受尊敬的演讲者，在 BBC、纳斯达克 Tradetalks、福布斯、Coindesk、路透社和 Cheddar 新闻等都有专题采访和评论。在加入 Firo 之前，Reuben 是一家律师事务所的合伙人，拥有超过 10 年的执业经验，专门从事法律和制度框架的咨询工作。在业余时间，他是一个合气道道场的首席教练，同时也把拳击作为一种爱好。
+  petershugalev:
+    name: Peter Shugalev
+    title: 首席开发者
+    bio: Peter 是一位拥有 20 多年经验的高技能程序员和软件架构师。他住在俄罗斯的莫斯科，以优异的成绩毕业于莫斯科国立大学，获得了计算机科学和数学的硕士学位。他创建了网络和安全相关的服务，甚至为基于签名的入侵检测系统创建了自己的编程语言和一个跨平台的编译器。他在密码学知识和编程方面的罕见结合，帮助 Firo 站在链上隐私的最前沿。
+  andreybezrukov:
+    name: Andrey Bezrukov
+    title: 开发者
+    bio: Andrey 在 C++ 方面有 17 年的经验，他曾为著名的公司工作，如德意志银行，在那里他从事算法交易平台和一个灵活的外汇风险计算器的工作。他的技术栈包括 C++11、C++14、Boost、STL、PostgreSQL 和 Linux。在过去的时间里，Andrey 也有建立加密货币挖矿业务的经验。作为一个参与过外汇、股票市场和算法交易等软件开发的人，Andrey 对金融科技特别是加密货币有着浓厚的兴趣，他认为加密货币将形成新经济的命脉，使自由市场和经济成为可能。在这一点上，他坚信区块链上的隐私机制的必要性。他也是 Firo 的支持 Lelantus 的 RAP 地址的实现的背后的人，这也是 BIP47 的第一个 C++ 实现。
+  levonpetrosyan:
+    name: Levon Petrosyan
+    title: 开发者
+    bio: Levon 是一位软件工程师，拥有亚美尼亚美国大学计算科学和经济学的硕士学位。他的背景是 C++ 编程和密码学。他是 Firo 最多产的贡献者之一，他为 Firo 的 Lelantus 加密库编写了大量的代码，并进行了优化以支持大型匿名集。
+  sproxet:
+    name: Sproxet
+    title: 开发者
+    bio: Sproxet 是一位匿名的开发者，在过去的 15 年里一直从事隐私保护软件的工作，并为 Firo 的 Electron 客户端做出了重大贡献。Sproxet 也是 Signal Eleven 的创始人，这是一家 IT 咨询公司，专注于计算机安全和审计、软件开发和加密系统架构设计。
+  hermeskhachatryan:
+    name: Hermes Khachatryan
+    title: 开发者
+    bio: 一位有 3 年以上经验的软件工程师。他的背景是 C++、C#、.NET 编程。在全职加入 Firo 之前，Hermes 在 TeamViewer 亚美尼亚开始他的软件工程生涯。
+  gevorgmirzoyan:
+    name: Gevorg Mirzoyan
+    title: 开发者
+    bio: Gevorg 是一位软件工程师，毕业于俄罗斯-亚美尼亚（斯拉夫）大学应用数学和信息学系。他的技术栈包括 C++、Unity 和 Linux。他热衷于编程、徒步旅行和游戏。
+  zorayrzakaryan:
+    name: Zorayr Zakaryan
+    title: 移动项目经理
+    bio: Zorayr 是一位拥有超过 14 年经验的软件后端开发人员。擅长管理工程团队和建立适当的开发流程。喜欢任何与算法、加密货币和视频游戏有关的东西。
+  hakobkanoyan:
+    name: Hakob Kanoyan
+    title: 移动开发者
+    bio: Hakob 有超过 10 年的移动、后端和游戏开发经验。他有很强的数学背景，包括密码学。Hakob 正在领导 Firo 手机钱包的技术发展。
+  haykzakaryan:
+    name: Hayk Zakaryan
+    title: 移动开发者
+    bio: 拥有 11 年以上软件工程经验，包括 7 年以上原生和跨平台移动开发经验，Hayk 作为兼职移动工程师加入 Firo 团队。
+  arminezakaryan:
+    name: Armine Zakaryan
+    title: UI/UX 设计师
+    bio: 一位拥有 5 年以上经验的 UX / UI 设计师。她是一个自学成才的设计师，对创造创新的、用户友好的体验和创造性的用户界面充满了热情和动力。目前主要从事 B2B SAAS 产品的设计。
+  anwarp:
+    name: Anwar P.
+    title: 高级支持
+    bio: Anwar 主修电气和电子工程，在一家 IT 公司有多年的技术支持经验。他负责处理支持咨询、文档、开发人员支持，同时也协助项目管理人处理日常事务。
+  ajaydono:
+    name: Ajaydono
+    title: 支持
+    bio: Ajay 协助项目管理人处理日常工作以及支持咨询。他拥有信息技术文凭，主修数据库管理，有多年的 IT 技术支持经验。
+  michaelmugglesbernhardt:
+    name: Michael 'Muggles' Bernhardt
+    title: 社区管理者
+    bio: 作为一位职业程序员，他正在经营自己的业务，通过一个在线门户网站管理水务项目，其装置遍布非洲。自 2013 年以来，迈克尔一直被加密货币所吸引，并对隐私和自由有着强烈的热情。
+  sebastianbausch:
+    name: Sebastian Bausch
+    title: 亚洲业务
+    bio: Sebastian Bausch 是曼谷的一位天使投资人，自 2011 年以来一直对加密货币充满热情。他在厦门大学学习了普通话，并拥有诺丁汉大学的研究生学位。他支持团队在该地区的运作，并协调翻译和聚会。
+  lemarlukebriones:
+    name: Lemar “Luke” Briones
+    title: 菲律宾社区管理者
+    bio: Lemar 毕业于菲律宾的信息技术专业，自 2017 年以来一直是加密货币的爱好者，并致力于在菲律宾各地传播对 Firo 的认识。
+  aramjivanyan:
+    name: Aram Jivanyan
+    title: 密码学家
+    bio: Aram 是 Firo 的 Lelantus 隐私协议的创造者，该协议重新激发了人们对 one-out-of-many 证明的兴趣，并启发了其他隐私协议，如 Triptych（Monero）和 Lelantus-MW（Beam）。他也是 Skycryptor 的创始 CEO，Techstars 公司开创了代理重加密算法的发展。在创建 Skycryptor 之前，Aram 在亚美尼亚美国大学担任高级密码学研究员和开发团队负责人，该科学小组为财富 1000 强的商业伙伴进行密码学研究。Aram 的主要研究兴趣包括白盒密码学、可搜索加密方法、不经意传输协议和加密电子投票系统。
+  tigranmamikonyan:
+    name: Tigran Mamikonyan
+    title: 研究
+    bio: Tigran 拥有信息学和应用数学以及计算机和信息科学的硕士学位。他目前正在埃里温国立大学攻读信息学和应用数学的博士学位。
 
 roadmap:
   development: 开发
@@ -150,46 +226,50 @@ roadmap:
   mnodesq: 长效主节点仲裁链
   rebrand: 品牌重塑
   lelantus: Lelantus 激活
-  lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的加密假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
-  chainlocks: 链锁
-  chainlocksdesc: 链锁利用飞熔币的主节点网络来防止 51% 攻击。只要确认 1 个区块，交易就实现最终确定性。
+  lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的密码学假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
+  chainlocks: ChainLocks
+  chainlocksdesc: ChainLocks 利用 Firo 的主节点网络来防止 51% 攻击。只要确认 1 个区块，交易就实现最终确定性。
   rap: RAP 地址
   rapdesc: RAP 地址允许一个可公开分享的地址，不允许第三方看到它收到了多少资金或何时收到资金。
   instant: 即时发送（进行中）
-  instantdesc: 即时发送利用飞熔币的主节点网络，允许在几秒钟内确认交易，允许作为交易媒介实际使用。
+  instantdesc: 即时发送利用 Firo 的主节点网络，使交易在几秒钟内得到确认，从而可以作为一种交换媒介实际使用。
   elysium: Elysium（进行中）
-  elysiumdesc: Elysium 允许在飞熔币的网络上发行代币（如稳定币、资产支持币），将受益于飞熔币的隐私技术。
-  lelantus2: Lelantus 2.0（刚开始）
-  lelantus2desc: Lelantus 2.0 可以实现直接的匿名支付，让用户可以在不透露金额或来源的情况下进行交易。将部署一个新的 Lelantus 地址方案，允许用户完全隐藏其资金。
-  mobile: 移动钱包和 SDK（刚开始）
-  mobiledesc: 一个原生的、默认隐私移动钱包，将有完整的 Lelantus 交易支持。SDK 将允许第三方钱包支持 Lelantus。
-  progpow: ProgPOW（进行中）
-  progpowdesc: 为了进一步提高 ASIC 抗性，ProgPOW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
+  elysiumdesc: Elysium 允许在 Firo 的网络上发行代币（如稳定币、资产支持币），将受益于 Firo 的隐私技术。
+  lelantusspark: Lelantus Spark（正在接受同行评审）
+  lelantussparkdesc: Lelantus Spark 允许直接匿名支付，允许用户在不透露金额、来源和收款方的情况下相互交易。Spark 引入了一个新的地址系统，将允许用户完全隐藏他们的资金。
+  mobile: 手机钱包（进行中）
+  mobiledesc: 一个原生的、默认隐私手机钱包，将有完整的 Lelantus 交易支持。
+  progpow: ProgPoW（进行中）
+  progpowdesc: 为了进一步提高 ASIC 抗性，ProgPoW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
   research: 研究
-  aura: Aura
-  auradesc: Aura 是 Lelantus 的继承者。我们打算利用我们对分层的 one-out-of-many 证明的研究，改善证明时间并增加匿名集。我们还研究了各种方法来改进播种新匿名集的滑动窗口的实现。
+  lelantussparkaddress: Lelantus Spark 的子地址和付款证明
+  lelantussparkaddressdesc: 我们正在研究向 Lelantus Spark 添加子地址的方法，这将允许更高效的扫描和支付证明，让用户能够证明他们已付款。
+  atomicdex: AtomicDEX
+  atomicdexdesc: AtomicDEX 允许用户使用原子交换技术的去中心化基础设施与 Firo 进行交换。
   bridges: 跨链桥
-  bridgesdesc: 跨链桥将允许来自其他生态系统的令牌桥接进出飞熔币的 Elysium 令牌层，以利用我们的隐私基础结构。
+  bridgesdesc: 跨链桥将允许来自其他生态系统的代币桥接进出 Firo 的 Elysium 代币层，以利用我们的隐私基础设施。
   mixnets: 混合网
-  mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是针对国家级别的对手，也能提供更多的元数据保护。
+  mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是面对国家级别的对手，也能提供更多的元数据保护。
   syncclients: 快速同步客户端
-  syncclientsdesc: 快速同步客户端允许用户在支持 Lelantus 交易的同时，无需下载整个区块链就能快速同步钱包。
+  syncclientsdesc: 快速同步客户端允许用户快速同步他们的钱包，而不需要下载整个区块链，同时支持 Lelantus 交易。
   learnmore: 了解更多
   
 merchants:
-  heading: Merchants
-  introduction: Want to spend your Firo? Here are some places you can do so! This is a non-exhaustive list of places that accept Firo! If you have a business that would like to be featured here, let us know!
-  button1: Apparel
-  button2: Dating
-  button3: Donation
-  button4: Freelancing
-  button5: Gaming
-  button6: Health Products
-  button7: Hosting
-  button8: Legal Services
-  button9: Online Marketplaces
-  button10: P2P Lending
-  button11: Payment Solutions
-  button12: Software
-  button13: Travel
+  heading: 商户
+  predisclaimer: 免责声明：
+  disclaimer: 其中一些链接包含推荐链接，当你注册或使用他们的产品/服务时，我们可能会得到补偿。这些不构成对产品/服务的认可。
+  introduction: 想花掉你的 Firo 吗？这里有一些场所你可以这样做。这是一份不完全的接受 Firo 的场所的名单！如果你有一个企业想在这里展出，请让我们知道！
+  button1: 服饰
+  button2: 约会
+  button3: 捐款
+  button4: 自由职业
+  button5: 游戏
+  button6: 保健品
+  button7: 托管
+  button8: 法律服务
+  button9: 在线市场
+  button10: P2P 借贷
+  button11: 支付解决方案
+  button12: 软件
+  button13: 旅行
   button14: VPN
