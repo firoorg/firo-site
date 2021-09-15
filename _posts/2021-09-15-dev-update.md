@@ -18,7 +18,7 @@ Significant improvements have been made in performance and [proof of concept cod
 
 We continue to explore further optimizations and improvements in addressing.
 
-We are also doing preliminary investigation of [hardware acceleration](https://en.wikipedia.org/wiki/Hardware_acceleration) of Lelantus Spark to improve scalability.
+We are also doing a preliminary investigation of [hardware acceleration](https://en.wikipedia.org/wiki/Hardware_acceleration) of Lelantus Spark to improve scalability.
 
 ## FiroPoW
 
@@ -46,17 +46,18 @@ After completing [our GUI revamp,](https://firo.org/2021/08/27/firo-client-relea
 
 ## Trezor Firo support
 
-Firo support for Trezor is [set to be re-enabled](https://github.com/trezor/trezor-firmware/issues/1767) at the next Trezor firmware release allowing users now to directly do Lelantus spends to Trezor.
+Firo support for Trezor is [set to be re-enabled](https://github.com/trezor/trezor-firmware/issues/1767) at the next Trezor firmware release allowing users to now directly do Lelantus spends to Trezor.
+
 
 # OTHER UPDATES
 
 ## Light Node Media Advisory
 
-We have entered into an advisory arrangement with Light Node Media that has worked with well known projects such as Yubico and WAX to assist Firo with partnerships, expansion of the team and listing strategy especially in the US market.
+We have entered into an advisory arrangement with Light Node Media that has worked with well known projects such as Yubico and WAX to assist Firo with partnerships, expansion of the team and listing strategies especially in the US market.
 
 ## TikTok 
 
-We have begun filming a series of 12 videos to be posted over a month educating generally people on cryptocurrency and privacy. The aim is to be accessible and establish Firo as an authority on the subject and privacy to a more general audience.
+We have begun filming a series of 12 videos to be posted over the course of a month targeted at educating people on cryptocurrency and privacy. The aim is to be accessible and establish Firo as an authority on the subject of privacy to a more general audience.
 
 ## DeFi Bridges and Privacy DEXes
 
