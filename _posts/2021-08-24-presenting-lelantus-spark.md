@@ -103,5 +103,3 @@ We expect to begin coding certain components of Lelantus Spark in Q4 2021, with 
 We’d like to give Aram Jivanyan (Firo) and Dr. Aaron Feickert (Cypher Stack) special recognition for their hard work in creating and developing Lelantus Spark. We also would like to thank pseudonymous researcher koe for his helpful collaboration and discussion during the initial design process for Spark. We’re proud of their accomplishments and are thrilled to build a new protocol that furthers Firo’s mission of offering privacy-preserving solutions. 
 
 We hope that Lelantus Spark is a useful contribution to the ecosystem and welcome feedback from research and development communities!
-
-[View Lelantus Spark's preprint paper.](/blog/assets/Lelantus_Spark_230821.pdf)
