@@ -72,4 +72,4 @@ We are exploring ways to improve liquidity and the experience on AtomicDEX along
 
 As a fun side project, we have an alpha version of an endless runner game that will allow users to compete with each other on the leaderboards to win Firo.
 
-![](firoorg/firo-site/blog/assets/firo-runner.jpg)
+![](/blog/assets/firo-runner.jpg)
