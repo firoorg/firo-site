@@ -6,6 +6,9 @@ tags: [news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/unveiling-lelantus-spark.png"
 ---
+
+**Update:** Lelantus paper is now available on IACR eprint with full security proofs. Read here: [https://eprint.iacr.org/2021/1173](https://eprint.iacr.org/2021/1173)
+
 Privacy is about consent, and Firo protocols aim to provide users with clear and consistent transaction privacy. With past protocols, we have always sought to create innovative methods for protecting data and preventing prying eyes from monitoring spending patterns.
 
 That’s why we would like to introduce our new privacy protocol that we’ve been working on: **Lelantus Spark.**
