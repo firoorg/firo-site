@@ -48,8 +48,7 @@ After completing [our GUI revamp,](https://firo.org/2021/08/27/firo-client-relea
 
 Firo support for Trezor is [set to be re-enabled](https://github.com/trezor/trezor-firmware/issues/1767) at the next Trezor firmware release allowing users to now directly do Lelantus spends to Trezor.  
 
-
-# OTHER UPDATES
+## OTHER UPDATES
 
 ## Light Node Media Advisory
 
