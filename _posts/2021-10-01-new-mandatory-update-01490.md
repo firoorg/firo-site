@@ -24,7 +24,7 @@ Instant Send allows transactions to be safely considered final within seconds ev
 
 Once Firo reaches **block 421150**, Instant Send transactions will be default for all wallet transactions including Lelantus transactions and we will be working with ecosystem players such as exchanges to allow for fast recognition of Firo deposits.
 
-##What’s Next?
+## What’s Next?
 
 FiroPoW is a significant improvement that reinforces our commitment to making Firo mineable with consumer hardware and levelling the playing field. It also greatly improves Firo’s scalability by reducing storage and network requirements. 
 
