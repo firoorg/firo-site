@@ -50,10 +50,18 @@ Using the **Terminal**, enter the following command:
 
 ## Firo Rich GUI client (Electron)
 
-To reindex the Electron client, go to the Debug Console, enter the following command and press Enter:
+To reindex the Electron client, go to the **Debug Console**, enter the following command and press Enter:
 
 `setargsfornextrun -reindex`
 
 Restart the wallet. The reindex process will start. Once completed, the wallet's main interface will be displayed.
 
 If you need the other options, replace `-reindex` with `-reindex-chainstate` or `-rescan`
+
+If you were unable to start the Electron client for some reason, edit the **firo.conf** in [the data directory](https://github.com/firoorg/firo/wiki/Default-data-directories) and add one of these options that you require. **Do not** add all options.
+
+`reindex=1`
+
+`reindex-chainstate=1`
+
+`rescan=1`
