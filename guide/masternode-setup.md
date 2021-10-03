@@ -303,7 +303,8 @@ This command will unlock your wallet for 60 seconds and returns a (null) message
 
 If everything is correct, you should get a transaction ID.
 
-#### Example
+#### **Example**
+
 ```
 protx register 4950f88867b69760d3cd7c1f53531340f6723eb8f7d7f00730abfa12c5fe10e0 0 207.148.122.12:8168 TRVDAxJwaZYFfmti4aTeKCByz1jbMq8Jy4 995b3e1e2a65ce960a8cc7d305c5914b7f60e888c338c1f3317efbdcac58e82ecc110315ce03f49d9d387ff35c2796ad "" 0 TEZ8M8Fgp8h4HvUjXtjz3krYraRtySiXdw TQGmCxUQHK2xKGYNyeqGdSYQqfEAB2hjtd` 
 ```
@@ -330,3 +331,23 @@ To check your masternode's status on the masternode itself, do ./firo-cli evozno
 "state": "READY", 
 "status": "Ready
 ```
+
+### Unbanning your masternode
+
+Your masternode is banned if it has the **POSE_BANNED** status. You can unban your masternode by [following this guide.](https://github.com/firoorg/firo/wiki/Troubleshooting-masternode%3A-PoSe-score-and-PoSe-ban)
+
+Please ensure that you have fixed the problem that caused the ban before unbanning your masternode otherwise it will get banned again.
+
+After unbanning, ensure that you check the status of the masternode in both the wallet and the masternode itself.
+
+### Additional tips
+
+The following tips are not covered by this guide but can ensure smoother running of your masternode.
+
+* Ensure that your masternode is automatically started after a VPS reboot using [monit](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-monit) or [systemd](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-systemd)
+
+* Set Ubuntu to automatically download and install new upgrades
+
+* Further secure your masternode by modifying the SSH configuration file and/or install and configure fail2ban
+
+* [Prevent the debug.log from getting too big by rotating it](https://github.com/firoorg/firo/wiki/Configuring-logrotate-for-Firo%27s-debug.log)
