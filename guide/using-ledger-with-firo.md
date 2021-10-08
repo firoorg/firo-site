@@ -31,6 +31,8 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 
 4. Find Firo in app catalog.
 
+![](/guide/assets/ledger/electrum-ledger-install-02.png)
+
 5. Click the Install button of the app.
 
     Your device will display **Processing…**
