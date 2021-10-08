@@ -83,11 +83,11 @@ Your Balance is displayed at the bottom left of the Electrum-Firo window.
 
 3. To verify the address on your device, click on **Wallet -> Find** and **View -> Show Addresses.**
 
-![](/guide/assets/ledger/electrum-ledger-receive-04.png)
-
 4. Copy the address generated earlier and paste it into the **Find** field.
 
 5. Right-click on the results and choose **Show on Ledger.**
+
+![](/guide/assets/ledger/electrum-ledger-receive-04.png)
 
 6. The address should appear on your device, and you can scroll and **Approve** to continue.
 
