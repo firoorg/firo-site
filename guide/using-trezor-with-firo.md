@@ -8,7 +8,7 @@ permalink: /guide/using-trezor-with-firo.html
 img: "/guide/assets/using-trezor-with-firo/a_trezor.jpg"
 ---
 
-# How to use Trezor with Firo
+## How to use Trezor with Firo
 
 This guide is correct for Trezor One and Trezor T with firmwares 1.10.3 or 2.4.2. 
 
