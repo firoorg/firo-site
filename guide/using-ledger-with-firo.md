@@ -7,7 +7,7 @@ author: "Anwar P."
 permalink: /guide/using-ledger-with-firo.html
 img: ""
 ---
-A Ledger Device is a hardware wallet that is considered one of the most secure ways to store your digital assets. Ledger uses an offline, or cold storage, method of generating private keys, making it a preferred method for many crypto users. This guide will help you to connect your Ledger device to the Electrum Firo light wallet. The Electrum Firo light wallet enables you to Send and Receive FIRO, and setup Firo masternodes with the Ledger Device with the assistance of the Firo Masternode Tool.
+A Ledger Device is a hardware wallet that is considered one of the most secure ways to store your digital assets. Ledger uses an offline, or cold storage, method of generating private keys, making it a preferred method for many crypto users. This guide will help you to connect your Ledger device to the Electrum Firo light wallet. Electrum Firo enables you to Send and Receive FIRO, and setup Firo masternodes with the Ledger Device with the assistance of the Firo Masternode Tool.
 
 **Firo accounts cannot be added to the Ledger Live app.**
 
