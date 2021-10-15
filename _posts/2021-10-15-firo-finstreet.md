@@ -9,7 +9,7 @@ img: "/blog/assets/firo-finstreet-partners.png"
 
 We are pleased to partner with [Finstreet](https://finstreet.in/) as our Official Education Partner to create educational awareness for the Indian community. They are India’s first Cryptocurrency Education Platform and focus on blockchain and crypto education.
 
-Finstreet leverages their large audience on social media platforms such as Youtube, to engage with the Indian community and have run successful campaigns with prominent projects such as Algorand, Polygon(formerly Matic), Animoca Brands, Wazirx, Huobi and Many more 
+Finstreet leverages their large audience on social media platforms such as Youtube, to engage with the Indian community and have run successful campaigns with prominent projects such as Algorand, Polygon(formerly Matic), Animoca Brands, Wazirx, Huobi and many more.
 
 With this partnership, we introduce Firo and the importance of cryptocurrency privacy to one of the fastest growing crypto communities with India ranking consistently in the top 2 countries in the terms of crypto adoption and percentage of population owning crypto. 
 
