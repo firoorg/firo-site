@@ -33,7 +33,7 @@ More importantly, Spark introduces several exciting new privacy-preserving featu
 
 * Modular design
 
-[View Lelantus Spark's preprint paper.](/blog/assets/Lelantus_Spark_230821.pdf)
+[View Lelantus Spark's preprint paper.](https://eprint.iacr.org/2021/1173)
 
 ## Spark Addresses
 
