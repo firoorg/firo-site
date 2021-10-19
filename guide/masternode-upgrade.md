@@ -15,9 +15,7 @@ Please note that if you did not update in time to a mandatory release or before 
 If you are using a **custom data directory (-datadir), please migrate manually** by renaming your custom data directory/ zcoin.conf to firo.conf, and making sure that the **-datadir=** flag is pointing to the correct directory.
 
 1.  Log on to your masternode
-
 2.  Copy a link to the Linux archive from [GitHub](https://github.com/firoorg/firo/releases/latest) or [Sourceforge](https://sourceforge.net/projects/firoorg/files/) by right-clicking the file name (e.g. firo-0.14.9.0-linux64.tar.gz) and selecting the copy link menu item in your browser.
-
 3.  On the masternode’s command line, type **wget** and insert the copied link after it like so: 
 
 `cd ~`
