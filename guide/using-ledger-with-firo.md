@@ -33,6 +33,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 
 ![](/guide/assets/ledger/electrum-ledger-install-02.png)
 
+{:start="5"}
 5. Click the Install button of the app.
 
     Your device will display **Processing…**
@@ -51,18 +52,22 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 
 ![](/guide/assets/ledger/electrum-ledger-create-02.png)
 
+{:start="5"}
 5. Make sure your device is connected and the Firo app is open on the device. Choose **Use a hardware device.** Click **Next.**
 
 ![](/guide/assets/ledger/electrum-ledger-create-03.png)
 
+{:start="6"}
 6. At Hardware Keystore, choose **[ledger, initialized, hid].** Click **Next.**
 
 ![](/guide/assets/ledger/electrum-ledger-create-04.png)
 
+{:start="7"}
 7. At Script type and Derivation path, leave everything on default. Click **Next.**
 
 ![](/guide/assets/ledger/electrum-ledger-create-05.png)
 
+{:start="8"}
 8. You will be prompted to encrypt the wallet file. Encrypting your wallet will mean that you will need your device just to view the balance. You will still be prompted to confirm your transaction on the device if you choose not to encrypt the wallet file. If you are unsure, do not encrypt the wallet. Click **Next** when done.
 
 ## Connecting Ledger device to Electrum Firo
@@ -89,6 +94,7 @@ Your Balance is displayed at the bottom left of the Electrum-Firo window.
 
 ![](/guide/assets/ledger/electrum-ledger-receive-04.png)
 
+{:start="6"}
 6. The address should appear on your device, and you can scroll and **Approve** to continue.
 
 ## How to send FIRO
@@ -99,6 +105,7 @@ Your Balance is displayed at the bottom left of the Electrum-Firo window.
 
 ![](/guide/assets/ledger/electrum-ledger-send-02.png)
 
+{:start="2"}
 2. Verify the amount and address to send to on your device and **Accept** to confirm the transaction.
 
 3. The transaction should now be broadcasted. It will take about five minutes on average to confirm.
