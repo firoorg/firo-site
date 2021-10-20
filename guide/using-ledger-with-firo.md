@@ -111,11 +111,8 @@ Your Balance is displayed at the bottom left of the Electrum-Firo window.
 3. The transaction should now be broadcasted. It will take about five minutes on average to confirm.
 
 ## Support
-
 * Subreddit: [r/firoproject](https://www.reddit.com/r/FiroProject/)
-
 * Telegram: [@firosupport](https://t.me/firosupport)
-
 * Forum: [https://forum.firo.org](https://forum.firo.org)
 
 Administrators and team members **will never message you first.** Please be wary of impersonators.
