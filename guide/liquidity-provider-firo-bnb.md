@@ -100,7 +100,7 @@ Navigate to [the PancakeSwap Liquidity page](https://pancakeswap.finance/liquidi
 1. Navigate to [the PancakeSwap Liquidity page.](https://pancakeswap.finance/liquidity)
 2. (Skip this step if your wallet is already connected) Click on the 'Connect Wallet' button on the top right of the page and choose the Metamask wallet you have setup earlier. Unlock the wallet if requested.
 
-![](wbnbfiro_remove_lp.png)
+![](/guide/assets/wbnbfiro_remove_lp.png)
 
 {:start="3"}
 3. Locate the pair that you wish to remove liquidity from. Click on 'Remove' button
