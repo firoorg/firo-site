@@ -17,13 +17,13 @@ Finstreet will be releasing a series of videos showcasing Firo, tutorial videos,
 
 You can find Finstreet's content linked below:
 
-[YouTube Channel](www.youtube.com/c/Finstreet)  
+[YouTube Channel](https://www.youtube.com/c/Finstreet)  
 [Instagram](https://instagram.com/finstreet.in?igshid=6aqw0n2l60nq)  
 [Twitter](https://twitter.com/Finstreet1)  
 [Dailyhunt Josh](https://share.myjosh.in/profile/a1d3a003-0db0-41ed-abfc-fe28e6b76a7a)  
 [MX Takatak](https://usr.mxtakatak.com/vQZT/2d9f74c2)  
-[Tiktok](www.tiktok.com/@finstreet.in)  
+[Tiktok](https://www.tiktok.com/@finstreet.in)  
 [Trell](https://trell.co/@Finstreet)  
-[Bolo Indya](www.boloindya.com/user/14906060/finstreet/)  
+[Bolo Indya](https://www.boloindya.com/user/14906060/finstreet/)  
 [Chingari](https://chingari.io/finstreet)  
 [Mitron TV](https://api.mitron.tv/v1/share?id=u-AQGnwbzM4uLBABjOFQ)  
