@@ -1,7 +1,7 @@
 ---
 layout: guide
-title: "How to provide liquidity for FIRO/BNB on ValueDeFi"
-summary: "Participate in our first liquidity pool on BSC"
+title: "How to provide liquidity for FIRO/BNB on PancakeSwap"
+summary: "Participate in our liquidity pool on BSC"
 tags: [guide]
 author: "Anwar P."
 permalink: /guide/liquidity-provider-firo-bnb.html
@@ -69,13 +69,11 @@ For 'Transfer network', choose 'Binance Smart Chain (BSC)' and enter the amount 
 
 Your withdrawal request will be submitted. Once processed, you will receive the FIRO in your Metamask wallet.
 
-## Adding liquidity to Value DeFi
+## Adding liquidity to PancakeSwap
 
 Before starting, you must **have some BNB** in your wallet to pay the transaction fees.
 
-This liquidity pool requires you to **have a ratio of 70% FIRO and 30% BNB.** This ratio was picked to minimise the risk of [impermanent loss](https://academy.binance.com/en/articles/impermanent-loss-explained) for liquidity providers.
-
-Navigate to the [WBNBFIRO pair page on ValueDeFi.](https://bsc.valuedefi.io/#/vfarm/0xffb62cebd566062991157ea7a24fff94d0a92b0c)
+Navigate to the [WBNBFIRO pair page on PancakeSwap.](https://pancakeswap.finance/info/pool/0xd4de573f4af499b28ac387fac607f1bb819eca10)
 
 Click on the 'Connect Wallet' button on the top right of the page and choose the Metamask wallet you have setup earlier. Unlock the wallet if requested.
 
@@ -83,22 +81,30 @@ Click on the 'Connect Wallet' button on the top right of the page and choose the
 
 Click on 'Add liquidity'.
 
-At the 'Important Notice' screen, check both boxes and click on 'I Agree'
-
   ![](/guide/assets/liquidity-provider-firo-bnb/wbnbfiro_add_lp.png)
 
-Enter the amount of FIRO or BNB that you wish to add to the liquidity pool. The other value will automatically adjust to achieve a 70:30 ratio. 
+Enter the amount of FIRO and WBNB that you wish to add to the liquidity pool.
 
-Click on 'Approve FIRO' when done. Confirm the transaction on your wallet.
+Click on 'Supply' when done. Confirm the transaction on your wallet.
 
 Once done, you will return to the same page again. Click on the 'Supply' button, and in the pop up verify all details are correct, then click 'Confirm supply' and confirm the transaction on your wallet.
 
-Once the transaction confirms, your FIRO and BNB will be added to the liquidity pool.
+Once the transaction confirms, your FIRO and WBNB will be added to the liquidity pool.
 
-You can also add liquidity even when you do not have the other pair, for example only have BNB and no FIRO. To do this, click on the 'Single' button on the 'Add liquidity' screen, choose the token you have, and enter the amount. It will automatically swap the token to the missing pair in the 70:30 ratio.
+## Checking your liquidity on PancakeSwap
 
-## Staking your WBNBFIRO LP token
+Navigate to [the PancakeSwap Liquidity page](https://pancakeswap.finance/liquidity) and ensure that your wallet is connected. Your liquidity information will be displayed.
 
-In order to be eligble for the rewards, you must also stake your WBNBFIRO LP token. 
+## Removing liquidity from PancakeSwap
 
-Navigate to the WBNBFIRO pair page. If you have added FIRO and BNB to the pool, the 'Stake' button will be available. Click on it, set the amount of LP token you wish to stake and click on 'Approve'. After you have approved the transaction on your Metamask wallet, click on 'Stake' to stake your LP token.
+1. Navigate to [the PancakeSwap Liquidity page.](https://pancakeswap.finance/liquidity)
+2. (Skip this step if your wallet is already connected) Click on the 'Connect Wallet' button on the top right of the page and choose the Metamask wallet you have setup earlier. Unlock the wallet if requested.
+
+![](wbnbfiro_remove_lp.png)
+
+{:start="3"}
+3. Locate the pair that you wish to remove liquidity from. Click on 'Remove' button
+4. At next page, set the amount of Liquidity to be removed
+5. Click on the 'Enable' button. Sign the request on your wallet
+6. Once done, you will return to the same page again. Click on the 'Remove' button, and in the pop up verify all details are correct, then click 'Confirm' and confirm the transaction on your wallet.
+7. Once the transaction confirms, your FIRO and BNB will be returned to your wallet along with any fees you have earned from providing liquidity to the pool.
