@@ -1,10 +1,10 @@
 ---
 layout: guide
-title: "How to provide liquidity for FIRO/WBNB on PancakeSwap"
-summary: "Participate in our liquidity pool on BSC"
+title: "How to Provide Liquidity for Firo on Pancakeswap"
+summary: "How to become a liquidity provider for Firo on Pancakeswap on Binance Smart Chain (BSC)"
 tags: [guide]
 author: "Anwar P."
-permalink: /guide/liquidity-provider-firo-bnb.html
+permalink: /guide/liquidity-firo-pancakeswap.html
 img: ""
 ---
 ## Connecting Metamask to Binance Smart Chain
