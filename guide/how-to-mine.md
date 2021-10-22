@@ -1,15 +1,17 @@
 ---
 layout: guide
-title: "How to Mine Firo (FIRO) with MTP"
+title: "How to Mine Firo (FIRO) with FiroPoW"
 summary: ""
 tags: [guide]
 author: "Anwar P."
 img: ""
 permalink: /guide/how-to-mine-firo.html
 ---
-Currently [Firo](https://firo.org) can be mined by CPU and GPUs though are most efficient on GPUs. 
+Firo is designed to be mined by GPUs.
 
-We use the MTP algorithm which is designed to be ASIC-resistant to lengthen fair distribution and allow home miners to participate for as long as possible. 
+The FiroPoW mining algorithm (a modified version of ProgPoW 0.9.4) is designed to utilize all parts of a GPU and includes a random sequence that changes every block to add further ASIC and FPGA resistance.
+
+We believe in the importance of fair distribution in FIRO and remain committed to having it mineable using commodity hardware like GPUs.
 
 Before you begin, make sure you have a Firo (FIRO) address where you want your mining payouts to go to. To get one, download a [Firo wallet](https://firo.org/get-firo/download/) and sync it with the network. 
 
@@ -17,20 +19,18 @@ The guide is meant for Windows users though Linux users can easily adapt it.
 
 ## Step 1: Getting your Miners
 
-* [Nvidia GPU: Official Firo ccminer by djm34](https://github.com/firoorg/ccminer/releases) (open source, 0.25% fee. Fee can be turned off with  --no-donation flag)
-* [AMD GPU: Official Firo sgminer by djm34](https://github.com/firoorg/sgminer/releases)
-* [Nvidia GPU: T-Rex Miner](https://github.com/trexminer/T-Rex/releases) (closed source with 1% fee)
-* [Nvidia GPU: TT-Miner](https://bitcointalk.org/index.php?topic=5025783.0) (closed source with 1% fee)
-* [Nvidia GPU: Cryptodredge](https://github.com/technobyl/CryptoDredge/releases) (closed source with 2% fee)
-* [cpuminer by djm34](https://github.com/firoorg/cpuminer/releases)
+* [Official reference miner](https://github.com/firoorg/firominer/releases) (open source, no fee. Performance on newer AMD cards is poor on the reference miner) 
+* [Nvidia GPU: T-Rex Miner](https://github.com/trexminer/T-Rex/releases) (closed source, 1% fee)
+* [AMD GPU: Team Red Miner](https://github.com/todxx/teamredminer/releases) (closed source, 2% fee)
+* [AMD GPU: SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi/releases) (closed source, 0.85% fee)
 
-**Warning:** Miners are listed here for convenience but non-official miners have not been vetted. Use at your own risk. All fees are to the developers of the miners.
+**Warning:** Miners are listed here for convenience. Non-official miners have not been vetted. Use at your own risk. All fees are to the developers of the miners.
 
 Extract the exe binary into a folder of your choice.
 
 ## Step 2: Registering with a Pool (if not solo mining)
 
-There are several pools running Firo on MTP (arranged in alphabetical order). The ones we recommend are as follows:
+There are several pools running Firo on FiroPoW. The ones we recommend are as follows but please try to spread the hashrate around!
 
 * [Mintpond](https://mintpond.com/#!/firo)
     * firo.mintpond.com:3000
@@ -39,18 +39,16 @@ There are several pools running Firo on MTP (arranged in alphabetical order). Th
     * us-zcoin.zellabs.net:7015 (USA)
 * [Zergpool](http://zergpool.com)
     * mtp.mine.zergpool.com:3000 (Europe)
-* [dapool](https://dapool.io/)
-	* firo.dapool.io:3355
 * [F2Pool (PPS Pool)](https://www.f2pool.com/)
     * firo.f2pool.com:5780 (Asia)
-* [Whibbit](https://pool.whibbit.cn/)
-	* firo.whibbit.cn:30512
+* [WoolyPooly](https://woolypooly.com/en/coin/firo)
+	* pool.woolypooly.com:3104
 * [2Miners](https://2miners.com/firo-mining-pool)
     * firo.2miners.com:8080
 * [Solo Pool](https://firo.solopool.org/)
     * s3.solopool.org:8014
 
-Get yourself and account there and make sure you obtain a **username** and **worker** details and the **pool's address** and **port.**
+Most of the pools listed here do not require registration, only a valid **Firo address** as username and **worker** details. Ensure that you also get the **pool's address** and **port.**
 
 ## Step 3: Configuring your Miner
 
@@ -58,58 +56,50 @@ Open your favourite text editor, cut and paste the following line corresponding 
 
 ### For Pool Mining
 
-For cpuminer:
+Firominer:
+ 
+* Nvidia:
+ 
+`firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
 
-`cpuminer.exe -a mtp -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password -t numberofthreads`
+* AMD:
 
-If -t is not specified, it will use the maximum number of threads. It is recommended to have a computer with a decent amount of RAM for stability. For ccminer (Nvidia):
+`firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
 
-`ccminer.exe -a mtp -u username.worker -p password -o stratum+tcp://POOLADDRESS:PORT `
+T-Rex Miner (Nvidia):
 
-For sgminer (AMD):
+`t-rex.exe -a mtp -o stratum+ssl://POOLADDRESS:PORT -u username.worker -p password --fork-at firopow=time:2021-10-26T06:00:00`
 
-`sgminer.exe --kernel mtp -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p 0,strict,verbose,d=700 --worksize 256 --intensity 18`
+Team Red Miner (AMD):
 
-For T-Rex Miner (Nvidia):
+`teamredminer.exe -a mtp_firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
 
-`t-rex.exe -a mtp -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
+SRBMiner-Multi (AMD):
 
-For CryptoDredge (Nvidia):
+`SRBMiner-MULTI.exe --disable-cpu --algorithm firopow --pool POOLADDRESS:PORT --wallet username.worker --gpu-boost 3`
 
-`CryptoDredge.exe -a mtp -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p x`
-
-For TT-Miner (Nvidia):
-
-`TT-MinerCmd.exe -A MTP-100 -P username.worker@POOLADDRESS:PORT`
-
-After pasting it in, save the file as a .bat file (for e.g. **miner.bat**) in the same folder where you had extracted the miner binary to earlier. 
-
-![](/guide/assets/how-to-mine/minerbat.png)
+After pasting it in, save the file as a .bat file (for e.g. **miner.bat**) in the same folder where you had extracted the miner binary earlier. 
 
 ### For Solo Mining
 
-You will need to edit **firo.conf** to allow rpc calls. Navigate to the location of the firo data files, default is **%appdata%\firo** 
-
-Make a new file called firo.conf and add and adapt these lines:
+You will need to edit **firo.conf** to allow RPC calls. Navigate to the [default data directory](https://github.com/firoorg/firo/wiki/Default-data-directories), create a file called **firo.conf,** and add and modify these lines:
 
     rpcuser=firo (up to you to change)`
-    rpcpassword=mtp (up to you to change)`
+    rpcpassword=firopow (up to you to change)`
     rpcport=8382
     rpcallowip=127.0.0.1
     listen=1
     server=1
     daemon=1
 
-Once this is done, restart your Firo wallet and ensure it is synced. Then make a new file called miner.bat as below and save in the same folder as where you had extracted the miner binary to earlier.
+Once this is done, restart your Firo wallet and ensure it is synced to the latest block. Then make a new file called miner.bat as below and save it in the same folder as where you had extracted the miner binary earlier.
 
-`ccminer.exe -a mtp -o http://127.0.0.1:8382 -u firo -p mtp --no-getwork --coinbase-addr YOURFIROADDRESS`
+`./firominer -P http://firo:firopow@127.0.0.1:8382 --reward-address YOURFIROADDRESS`
 
 ## Step 4: Running the Miner
 
-Once you are done, run the bat file you created. You should see a window similar to this (will differ from miner to miner). Note for solo-mining you need to wait for your Firo wallet to be synced. 
+Once you are done, run the bat file you created. You should see a window similar to this which will differ depending on the miner you are using. For solo mining, your Firo wallet needs to be synced. 
 
-If you're seeing your shares as accepted, you should be good to go! Note that it may take a few minutes for the correct speed to be reflected on your pool's website and your mining command line. 
+If you're seeing your shares as accepted, you should be good to go. It may take a few minutes for the correct speed to be reflected on the pool's website and your miner.
 
 Happy mining!
-
-![](/guide/assets/how-to-mine/mtpmining.png)
