@@ -38,7 +38,8 @@ There are several pools running Firo on FiroPoW. The ones we recommend are as fo
 * [ZelLabs](https://fluxpools.net/coins/firo)
     * us-zcoin.zellabs.net:7015 (USA)
 * [Zergpool](http://zergpool.com)
-    * mtp.mine.zergpool.com:3000 (Europe)
+    * firopow.mine.zergpool.com:3001
+    * firopow.eu.mine.zergpool.com:3001
 * [F2Pool (PPS Pool)](https://www.f2pool.com/)
     * firo.f2pool.com:5780 (Asia)
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
