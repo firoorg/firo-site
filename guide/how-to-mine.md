@@ -7,6 +7,8 @@ author: "Anwar P."
 img: ""
 permalink: /guide/how-to-mine-firo.html
 ---
+![](/guide/assets/how-to-mine/firopow-banner.png)
+
 Firo is designed to be mined by GPUs.
 
 The FiroPoW mining algorithm (a modified version of ProgPoW 0.9.4) is designed to utilize all parts of a GPU and includes a random sequence that changes every block to add further ASIC and FPGA resistance.
