@@ -62,23 +62,18 @@ Open your favourite text editor, cut and paste the following line corresponding 
 Firominer:
  
 * Nvidia:
- 
-`firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
+ `firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
 
 * AMD:
-
 `firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
 
 T-Rex Miner (Nvidia):
-
 `t-rex.exe -a mtp -o stratum+ssl://POOLADDRESS:PORT -u username.worker -p password --fork-at firopow=time:2021-10-26T06:00:00`
 
 Team Red Miner (AMD):
-
 `teamredminer.exe -a mtp_firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
 
 SRBMiner-Multi (AMD):
-
 `SRBMiner-MULTI.exe --disable-cpu --algorithm firopow --pool POOLADDRESS:PORT --wallet username.worker --gpu-boost 3`
 
 After pasting it in, save the file as a .bat file (for e.g. **miner.bat**) in the same folder where you had extracted the miner binary earlier. 
