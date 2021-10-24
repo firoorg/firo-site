@@ -60,10 +60,8 @@ Open your favourite text editor, cut and paste the following line corresponding 
 ### For Pool Mining
 
 Firominer:
- 
 * Nvidia:
  `firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
-
 * AMD:
 `firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
 
@@ -81,15 +79,15 @@ After pasting it in, save the file as a .bat file (for e.g. **miner.bat**) in th
 ### For Solo Mining
 
 You will need to edit **firo.conf** to allow RPC calls. Navigate to the [default data directory](https://github.com/firoorg/firo/wiki/Default-data-directories), create a file called **firo.conf,** and add and modify these lines:
-
-    rpcuser=firo (up to you to change)`
-    rpcpassword=firopow (up to you to change)`
-    rpcport=8382
-    rpcallowip=127.0.0.1
-    listen=1
-    server=1
-    daemon=1
-
+```
+rpcuser=firo (up to you to change)`
+rpcpassword=firopow (up to you to change)`
+rpcport=8382
+rpcallowip=127.0.0.1
+listen=1
+server=1
+daemon=1
+```
 Once this is done, restart your Firo wallet and ensure it is synced to the latest block. Then make a new file called miner.bat as below and save it in the same folder as where you had extracted the miner binary earlier.
 
 `./firominer -P http://firo:firopow@127.0.0.1:8382 --reward-address YOURFIROADDRESS`
