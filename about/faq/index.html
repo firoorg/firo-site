@@ -114,17 +114,17 @@ permalink: /about/faq/index.html
                             <input type="checkbox" id="q7">
                             <label class="tab-label" for="q7"><h4>What mining algorithm does Firo use?</h4></label>
                             <div class="tab-content">
-                                <p>Firo uses the MTP algorithm which aims for democratic mining without sacrificing quick validation.</p>
-								<p>Firo has plans to switch to a ProgPOW  variant in the near future to address the large proof sizes of MTP while remaining FPGA/ASIC resistant.</p>
+                                <p>Firo uses the FiroPOW algorithm targeted at GPUs that keeps mining accessible to everyone.</p>
+								<p>FFiro has always been a strong believer in the power of Proof-of-Work (PoW). PoW enables community building, fair distribution and ties the value of Firo to the physical world with energy.</p>
                             </div>
                           </div>
 						  <div class="tab">
                             <input type="checkbox" id="q8">
-                            <label class="tab-label" for="q8"><h4>What is MTP?</h4></label>
+                            <label class="tab-label" for="q8"><h4>What is FiroPow?</h4></label>
                             <div class="tab-content">
-                                <p>The MTP (Merkle Tree Proof) algorithm was devised by Alex Biryukov and Dmitry Khovratovich from the University of Luxembourg in their paper published on the 11 June 2016 titled <a href="https://arxiv.org/pdf/1606.03588v1.pdf">Egalitarian Computing</a>. These are the same researchers who came up with Equihash that is currently used in ZCash and the Argon2 key derivation function.</p>
-                                <p>MTP promotes fair and democratic mining by making ASIC development expensive. The key element of this approach is large (in size) and intensive (in bandwidth) use of RAM. RAM is expensive in both FPGA and ASIC and slow on GPU. Previous attempts in large and memory intensive proof of works were problematic. This is because to verify these memory intensive proof of works, the nodes had to also have that memory and spend a relatively long time calculating it. This made the network susceptible to transaction DoS attacks where nodes are constantly occupied in verifying transactions.</p>
-                                <p>MTP’s advancement means that hard memory intensive proof of works can be verified quickly with low resources. MTP was designed to be able to require miners to utilize large amounts of RAM up to potentially <strong>10 GB</strong> while remaining fast to verify! This can potentially revolutionize PoW mining by bringing it closer to the original vision of Satoshi where one CPU = one vote and democratizing mining instead of keeping it within a handful of powerful miners while maintaining a resilient and low resource network of nodes.</p>
+                                <p>FiroPoW is Firo's new mining algorithm that will replace Firo’s current mining algorithm: MTP (Merkle Tree Proof). It is highly optimized for GPU mining and designed to be both FPGA and ASIC resistant to even the playing field and allow people to mine from their own consumer hardware. We have always been big fans of Proof of Work’s ability to tie the value of a virtual currency to the real world along with a way to distribute Firo’s supply in a fair and decentralized manner free from restrictions.</p>
+                                <p>FiroPoW follows <a href="https://github.com/ifdefelse/ProgPOW">ProgPoW’s 0.9.4</a> spec with a small change to have the algorithm randomly change with every block. The starting DAG size will be slightly over 4GB and will increase by 8MB every 1300 blocks (~4.5 days). This DAG size has been chosen to support most modern graphics cards.</p>
+                                <p>FiroPoW blocks (excluding transactions) are ~500x smaller than MTP which greatly reduces blockchain bloat and network bandwidth requirements. The gap between Nvidia and AMD graphics cards is also narrowed allowing more users to mine competitively.</p>
                                 <div class="iframe-embed"><iframe src="https://www.youtube.com/embed/DAJirQaBIzY?feature=oembed&amp;wmode=transparent" allowfullscreen="" data-aspectratio="0.562962962962963" style="width: 0px; height: 0px; opacity: 1; visibility: visible;" frameborder="0"></iframe></div>
                             </div>
                           </div>
