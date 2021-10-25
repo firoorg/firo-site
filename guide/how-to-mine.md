@@ -66,7 +66,7 @@ Firominer:
 `firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
 
 T-Rex Miner (Nvidia):
-`t-rex.exe -a mtp -o stratum+ssl://POOLADDRESS:PORT -u username.worker -p password --fork-at firopow=time:2021-10-26T06:00:00`
+`t-rex.exe -a mtp -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password --fork-at firopow=time:2021-10-26T06:00:00`
 
 Team Red Miner (AMD):
 `teamredminer.exe -a mtp_firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
