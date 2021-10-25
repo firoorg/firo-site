@@ -10,7 +10,7 @@ Here’s an update of what Firo has been researching over the past few months. M
 
 We also have been doing research into privacy preserving methods to do light wallets.
 
-# LELANTUS SPARK
+## LELANTUS SPARK
 
 ## Lelantus Spark: Diversified Addresses
 
@@ -36,7 +36,7 @@ Anyone is welcome to read or review the preprint updates, which are contained in
 
 The authors hope these updates will prove useful to the ecosystem, and look forward to updating the Spark preprint with the results of review!
 
-# LIGHT WALLETS
+## LIGHT WALLETS
 
 Lelantus Spark is designed to be efficiently used in light wallets and we will be publishing a note on this soon. Firo still retains a transparent layer for legacy and interoperability and until that is phased out, efficient ways to sync a wallet while preserving privacy is required.
  
