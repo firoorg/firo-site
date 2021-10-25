@@ -47,7 +47,7 @@ There are several pools running Firo on FiroPoW. The ones we recommend are as fo
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
 * [2Miners](https://2miners.com/firo-mining-pool)
-    * firo.2miners.com:8080
+    * firo.2miners.com:8008
 * [Solo Pool](https://firo.solopool.org/)
     * s3.solopool.org:8014
 
