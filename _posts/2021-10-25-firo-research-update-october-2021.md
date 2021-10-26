@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Firo Research Update October 2021"
-summary: "An update about Lelantus Spark and Light wallets"
+summary: "An update about Lelantus Spark, MTP stripping and Light wallets"
 tags: [news, dev, community]
 author: "Reuben Yap"
 img: "/blog/assets/firo_research_update.png"
