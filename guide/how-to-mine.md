@@ -47,7 +47,7 @@ There are several pools running Firo on FiroPoW. The ones we recommend are as fo
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
 * [2Miners](https://2miners.com/firo-mining-pool)
-    * firo.2miners.com:8008
+    * firo.2miners.com:8181
 * [Solo Pool](https://firo.solopool.org/)
     * s3.solopool.org:8014
 
@@ -66,10 +66,10 @@ Firominer:
 `firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
 
 T-Rex Miner (Nvidia):
-`t-rex.exe -a mtp -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password --fork-at firopow=time:2021-10-26T06:00:00`
+`t-rex.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
 
 Team Red Miner (AMD):
-`teamredminer.exe -a mtp_firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
+`teamredminer.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
 
 SRBMiner-Multi (AMD):
 `SRBMiner-MULTI.exe --disable-cpu --algorithm firopow --pool POOLADDRESS:PORT --wallet username.worker --gpu-boost 3`
