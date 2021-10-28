@@ -48,6 +48,11 @@ There are several pools running Firo on FiroPoW. The ones we recommend are as fo
     * firo.2miners.com:8181
 * [Solo Pool](https://firo.solopool.org/)
     * s3.solopool.org:8014
+* [Nanopool's Picopool](https://picopool.org/)
+    * firo-eu1.picopool.org:22222
+* [SpeedPool](https://equihash.speedpool.top/)
+    * equihash.speedpool.top:7000
+* For detailed stratum information, please visit the pool's own site.
 
 Most of the pools listed here do not require registration, only a valid **Firo address** as username and **worker** details. Ensure that you also get the **pool's address** and **port.**
 
