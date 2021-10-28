@@ -30,14 +30,14 @@ Blockchain privacy is particularly tricky to achieve as public blockchains are d
 
 **Cons:**
 
-*   	Amounts are still completely invisible
-*	Anonymity sets are generally low and reliant on the number of mixers
-*	Coins that are mixed can be ‘flagged’ as going through a coin mixer.
-*	Needs time for mixes to happen
-*  	Requires mixers to be online
-*  	Difficult to use correctly and cumbersome requiring careful UTXO management
-*	Increases blockchain bloat with many transactions required to do mixes
-*	Earlier implementations involve trust in a third party mixer
+*   	Amounts are still completely visible
+*	   Anonymity sets are generally low and reliant on the number of mixers
+*	   Coins that are mixed can be ‘flagged’ as going through a coin mixer.
+*	   Needs time for mixes to happen
+*  	 Requires mixers to be online
+*  	 Difficult to use correctly and cumbersome requiring careful UTXO management
+*	   Increases blockchain bloat with many transactions required to do mixes
+*	   Earlier implementations involve trust in a third party mixer
 
 One of the first methods people sought to achieve this was through the use of cryptocurrency tumblers. These work based on the principle of mixing funds with others by sending your coins to other people and then giving their coins to you. An easy way to visualize this is a group of people each putting the same number of coins into a pot, mixing it up and then each taking out the same amount of coins. The idea is that it is now hard to prove whose coin formerly belonged to whom thus providing plausible deniability. Early tumblers required you to trust the tumbler not to steal your coins or log how the mixes are done.
 
@@ -61,9 +61,9 @@ The main benefit of mixer type schemes is that they are relatively simple and wo
 
 Coins that go through mixers are also often ‘flagged’ with a higher risk meaning that your coins can be tainted just by going through this process. This can be exacerbated if coins that are tainted from illicit activity are mixed together with yours further making your coins difficult to use on exchanges. The freezing of coins connected to CoinJoins have been happening on a regular basis:
 
-[Binance Returns Frozen BTC After User ‘Promises’ Not to Use CoinJoin](https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)
-[BlockFi considered CoinJoin as ‘prohibited activities’](https://twitter.com/BlockFiZac/status/1234531935038341120)
-[Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services](https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/)
+[Binance Returns Frozen BTC After User ‘Promises’ Not to Use CoinJoin](https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)  
+[BlockFi considered CoinJoin as ‘prohibited activities’](https://twitter.com/BlockFiZac/status/1234531935038341120)  
+[Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services](https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/)  
 
 With appropriate precautions and correct use, CoinJoin and similar systems can provide some privacy to defend against trivial chain analysis but shouldn’t be considered as a sufficient privacy solution nor does it solve the issue of fungibility given that CoinJoined coins are treated negatively.
 
@@ -194,6 +194,7 @@ The primary advantage of Spark and Lelantus based systems are its simple design 
 Also as all amounts would be hidden with Spark, supply isn’t transparently auditable and rely on zero knowledge proofs to preserve supply like in RingCT and Zerocash. A nuanced argument on supply auditability in privacy enhancing cryptocurrencies can be found in Riccardo Spagni's presentation [On Privacy Enhancing Currencies & Supply Auditability](https://youtu.be/QAmOn8X-eKk).
 
 The biggest criticism that can be said of Spark is because of its current reliance on Groth-Bootle proofs, the anonymity set still cannot be made a global anonymity set and verification performance is still lower than zkSNARKs. 
+
 While practical anonymity might be in practice equivalent, we are keeping a close eye on improvements in membership proofs that might replace Groth-Bootle to allow Spark to have global anonymity sets.
 
 Spark's cryptography is currently undergoing two independent audits.
@@ -377,11 +378,11 @@ Sigma is basically a greatly improved Zerocoin. It however still requires fixed 
 
 All of the blockchain privacy schemes listed here are well reviewed by researchers and the concepts well understood. However, there are many coins in the privacy space but only a handful that really protect it. These are the key factors when coming across a new privacy mechanism:
 
-*   **Does it offer privacy on the blockchain?** Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
-*   **Is the privacy mechanism written by experts and reviewed?** Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
-*   **Is it merely a rebrand of existing technology? **Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
-*   **Does it involve centralized trust? **If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
-*   **Does the team understand the cryptography behind these schemes? **This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
+*   **Does it offer privacy on the blockchain?**Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
+*   **Is the privacy mechanism written by experts and reviewed?**Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
+*   **Is it merely a rebrand of existing technology?**Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
+*   **Does it involve centralized trust?**If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
+*   **Does the team understand the cryptography behind these schemes?**This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
 
 ## Summary
 
