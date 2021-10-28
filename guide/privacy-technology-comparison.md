@@ -30,14 +30,14 @@ Blockchain privacy is particularly tricky to achieve as public blockchains are d
 
 **Cons:**
 
-*   	Amounts are still completely visible
-*	   Anonymity sets are generally low and reliant on the number of mixers
-*	   Coins that are mixed can be ‘flagged’ as going through a coin mixer.
-*	   Needs time for mixes to happen
-*  	 Requires mixers to be online
-*  	 Difficult to use correctly and cumbersome requiring careful UTXO management
-*	   Increases blockchain bloat with many transactions required to do mixes
-*	   Earlier implementations involve trust in a third party mixer
+* Amounts are still completely visible
+* Anonymity sets are generally low and reliant on the number of mixers
+* Coins that are mixed can be ‘flagged’ as going through a coin mixer.
+* Needs time for mixes to happen
+* Requires mixers to be online
+* Difficult to use correctly and cumbersome requiring careful UTXO management
+* Increases blockchain bloat with many transactions required to do mixes
+* Earlier implementations involve trust in a third party mixer
 
 One of the first methods people sought to achieve this was through the use of cryptocurrency tumblers. These work based on the principle of mixing funds with others by sending your coins to other people and then giving their coins to you. An easy way to visualize this is a group of people each putting the same number of coins into a pot, mixing it up and then each taking out the same amount of coins. The idea is that it is now hard to prove whose coin formerly belonged to whom thus providing plausible deniability. Early tumblers required you to trust the tumbler not to steal your coins or log how the mixes are done.
 
