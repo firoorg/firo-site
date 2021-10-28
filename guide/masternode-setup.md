@@ -334,20 +334,28 @@ To check your masternode's status on the masternode itself, do ./firo-cli evozno
 
 ### Unbanning your masternode
 
-Your masternode is banned if it has the **POSE_BANNED** status. You can unban your masternode by [following this guide.](https://github.com/firoorg/firo/wiki/Troubleshooting-masternode%3A-PoSe-score-and-PoSe-ban)
+_**The ubanning process must be done on your local wallet, not on your VPS/masternode**_
 
-Please ensure that you have fixed the problem that caused the ban before unbanning your masternode otherwise it will get banned again.
+Your masternode is banned if it has the **POSE_BANNED** status. You can unban your masternode by entering this command in your local wallet's Debug Console:
+`protx update_service proTxHash ipAndPort operatorKey operatorPayoutAddress feeSourceAddress`
+
+Details:
+```
+proTxHash: the proTxHash of your masternode. In the Masternodes tab on your local wallet, right-click on the banned node and choose 'Copy Protx hash'
+ipAndPort: ipAndPort of banned masternode
+operatorKey: znodeblsprivkey of the masternode, usually inside firo.conf on the masternode. This is different than the operatorPubKey!
+operatorPayoutAddress: "" , if you set your operatorReward to 0 during registration
+feeSourceAddress: an address in the local wallet that has FIRO to fund the transaction. Can be obtained with the listaddressbalances command
+```
+
+Please ensure that you have fixed the problem that caused the ban before unbanning your masternode otherwise it will get banned again. [A more detailed guide is here.](https://github.com/firoorg/firo/wiki/Troubleshooting-masternode%3A-PoSe-score-and-PoSe-ban)
 
 After unbanning, ensure that you check the status of the masternode in both the wallet and the masternode itself.
 
 ### Additional tips
 
 The following tips are not covered by this guide but can ensure smoother running of your masternode.
-
 * Ensure that your masternode is automatically started after a VPS reboot using [monit](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-monit) or [systemd](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-systemd)
-
 * Set Ubuntu to automatically download and install new upgrades
-
 * Further secure your masternode by modifying the SSH configuration file and/or install and configure fail2ban
-
 * [Prevent the debug.log from getting too big by rotating it](https://github.com/firoorg/firo/wiki/Configuring-logrotate-for-Firo%27s-debug.log)
