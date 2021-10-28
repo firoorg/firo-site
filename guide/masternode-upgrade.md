@@ -19,7 +19,7 @@ If you are using a **custom data directory (-datadir), please migrate manually**
 3.  On the masternode’s command line, type **wget** and insert the copied link after it like so: 
 
 `cd ~`
-`wget https://github.com/firoorg/firo/releases/download/v0.14.9.1/firo-0.14.9.1-win64.zip` 
+`wget https://github.com/firoorg/firo/releases/download/v0.14.9.1/firo-0.14.9.1-linux64.tar.gz` 
 
 This will download the archive to your masternode.
 
