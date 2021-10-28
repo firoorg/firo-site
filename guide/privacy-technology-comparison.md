@@ -378,11 +378,11 @@ Sigma is basically a greatly improved Zerocoin. It however still requires fixed 
 
 All of the blockchain privacy schemes listed here are well reviewed by researchers and the concepts well understood. However, there are many coins in the privacy space but only a handful that really protect it. These are the key factors when coming across a new privacy mechanism:
 
-*   **Does it offer privacy on the blockchain?**Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
-*   **Is the privacy mechanism written by experts and reviewed?**Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
-*   **Is it merely a rebrand of existing technology?**Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
-*   **Does it involve centralized trust?**If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
-*   **Does the team understand the cryptography behind these schemes?**This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
+*   **Does it offer privacy on the blockchain?** Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
+*   **Is the privacy mechanism written by experts and reviewed?** Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
+*   **Is it merely a rebrand of existing technology?** Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
+*   **Does it involve centralized trust?** If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
+*   **Does the team understand the cryptography behind these schemes?** This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
 
 ## Summary
 
