@@ -231,7 +231,7 @@ roadmap:
   chainlocksdesc: Chainlocks utilize Firo’s masternode network to protect against 51% attacks. Transactions achieve finality as soon as 1 block is confirmed.
   rap: RAP Addresses
   rapdesc: RAP addresses allow a publicly shareable address that does not allow third parties to see how much or when it has received funds.
-  instant: Instant Send (in progress)
+  instant: Instant Send
   instantdesc: Instant Send utilizes Firo’s masternode network to allow transactions to be confirmed within a few seconds allowing for practical use as a medium of exchange.
   elysium: Elysium (in progress)
   elysiumdesc: Elysium allows token (for e.g. stablecoins, asset backed coins) to be issued on Firo’s network that will benefit from Firo’s privacy technology.
@@ -239,7 +239,7 @@ roadmap:
   lelantussparkdesc: Lelantus Spark allows direct anonymous payments allowing users to transact with each other without revealing amounts, source and recipient. Spark introduces a new addressing system that will allow users to keep their funds totally hidden.
   mobile: Mobile Wallet (in progress)
   mobiledesc: A native, private by default mobile wallet that will have full Lelantus transaction support.
-  progpow: ProgPoW (in progress)
+  progpow: FiroPoW
   progpowdesc: To further improve ASIC resistance, a ProgPoW variant will replace MTP. This will also allow for much smaller blocks that reduce the bandwidth and storage required of all nodes.
   research: Research
   lelantussparkaddress: Lelantus Spark sub-addressing and payment proofs

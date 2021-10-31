@@ -231,7 +231,7 @@ roadmap:
   chainlocksdesc: ChainLocks 利用 Firo 的主节点网络来防止 51% 攻击。只要确认 1 个区块，交易就实现最终确定性。
   rap: RAP 地址
   rapdesc: RAP 地址允许一个可公开分享的地址，不允许第三方看到它收到了多少资金或何时收到资金。
-  instant: 即时发送（进行中）
+  instant: 即时发送
   instantdesc: 即时发送利用 Firo 的主节点网络，使交易在几秒钟内得到确认，从而可以作为一种交换媒介实际使用。
   elysium: Elysium（进行中）
   elysiumdesc: Elysium 允许在 Firo 的网络上发行代币（如稳定币、资产支持币），将受益于 Firo 的隐私技术。
@@ -239,7 +239,7 @@ roadmap:
   lelantussparkdesc: Lelantus Spark 允许直接匿名支付，允许用户在不透露金额、来源和收款方的情况下相互交易。Spark 引入了一个新的地址系统，将允许用户完全隐藏他们的资金。
   mobile: 手机钱包（进行中）
   mobiledesc: 一个原生的、默认隐私手机钱包，将有完整的 Lelantus 交易支持。
-  progpow: ProgPoW（进行中）
+  progpow: FiroPoW
   progpowdesc: 为了进一步提高 ASIC 抗性，ProgPoW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
   research: 研究
   lelantussparkaddress: Lelantus Spark 的子地址和付款证明
