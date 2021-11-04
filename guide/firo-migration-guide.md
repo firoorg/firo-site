@@ -12,9 +12,9 @@ permalink: /guide/firo-migration-guide.html
 
 * You **do not need to send Zcoin** from the Zcoin wallet to the Firo wallet.
 
-* You can continue using Electrum-xzc as long as you are on **version 3.3.8a9**
+* You will need to **update to the latest Electrum-Firo** to continue using your hardware wallet.
 
-* Ledger and Trezor users can **continue using the Zcoin app**
+* Ledger and Trezor users will need to **update their firmware to a version that supports Firo.**
 
 ## Things to do before updating
 
