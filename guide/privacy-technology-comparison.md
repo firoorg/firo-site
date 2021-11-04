@@ -8,15 +8,14 @@ img: "/guide/assets/privacy-technology-comparison/banner.png"
 alt: ""
 permalink: "/guide/privacy-technology-comparison.html"
 ---
-## Changelog
-
-This post was originally written in November 2017 but will be updated from time to time with recent events and cryptographic innovations.
 
 ### Blockchain Privacy Mechanisms
 
 This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Lelantus protocol used in Firo and the upcoming Lelantus Spark protocol stacks up.
 
-Blockchain privacy is particularly tricky to achieve as public blockchains are designed so that all transactions are transparent and the supply of coins can be publicly verified. Privacy mechanisms have to ensure that both these elements are preserved even though there is a conflict between protecting privacy and maintaining public verifiability. To understand the innovation behind Lelantus and Lelantus Spark, we need to also understand how other privacy systems work.
+Blockchain privacy is particularly tricky to achieve as public blockchains are designed so that all transactions are transparent and coin amounts are public. This is because everyone has to be able to validate the state of the chain and balances. Balancing privacy with the requirement for public verifiability in blockchains is not a trivial problem.
+
+To understand the innovation behind Lelantus and Lelantus Spark, we need to also understand how other privacy systems work.
 
 ### Cryptocurrency Tumblers and CoinJoin
 
@@ -24,13 +23,13 @@ Blockchain privacy is particularly tricky to achieve as public blockchains are d
 
 **Pros:**
 
-*   Works on top of most cryptocurrencies without the need for specific consensus rules
-*   Relatively simple to implement
-*   Transactions are regular transactions introducing no additional overhead
+* Works on top of most cryptocurrencies without the need for specific consensus rules
+* Relatively simple to implement
+* Transactions are regular transactions introducing no additional overhead
 
 **Cons:**
 
-* Amounts are still completely visible
+* Amounts are still completely invisible
 * Anonymity sets are generally low and reliant on the number of mixers
 * Coins that are mixed can be ‘flagged’ as going through a coin mixer.
 * Needs time for mixes to happen
@@ -61,14 +60,13 @@ The main benefit of mixer type schemes is that they are relatively simple and wo
 
 Coins that go through mixers are also often ‘flagged’ with a higher risk meaning that your coins can be tainted just by going through this process. This can be exacerbated if coins that are tainted from illicit activity are mixed together with yours further making your coins difficult to use on exchanges. The freezing of coins connected to CoinJoins have been happening on a regular basis:
 
-[Binance Returns Frozen BTC After User ‘Promises’ Not to Use CoinJoin](https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)  
-[BlockFi considered CoinJoin as ‘prohibited activities’](https://twitter.com/BlockFiZac/status/1234531935038341120)  
-[Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services](https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/)  
+[Binance Returns Frozen BTC After User ‘Promises’ Not to Use CoinJoin](https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)
+[BlockFi considered CoinJoin as ‘prohibited activities](https://twitter.com/BlockFiZac/status/1234531935038341120)
+[Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services](https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/)
 
-With appropriate precautions and correct use, CoinJoin and similar systems can provide some privacy to defend against trivial chain analysis but shouldn’t be considered as a sufficient privacy solution nor does it solve the issue of fungibility given that CoinJoined coins are treated negatively.
+With appropriate precautions and correct use, CoinJoin and similar systems can provide some privacy to defend against trivial chain analysis but shouldn’t be considered as a sufficient privacy solution nor does it solve the issue of fungibility given that CoinJoined coins are often treated differently.
 
-Even Wasabi wallet's creator admits that it is a [temporary hack](https://en.cryptonomist.ch/2019/07/08/wasabi-wallet-privacy-2/) and that without confidential transactions, privacy will be priced out of Bitcoin's main chain. 
-
+Even Wasabi wallet's creator admits that it is a [temporary hack](https://en.cryptonomist.ch/2019/07/08/wasabi-wallet-privacy-2/) and that without confidential transactions, privacy will be priced out of Bitcoin's main chain. This makes sense given the large number of transactions required to do CoinJoin along with the additional transactions required to break amounts into fixed denominations.
 
 ### CryptoNote, Ring Signatures, RingCT
 
@@ -76,17 +74,17 @@ Even Wasabi wallet's creator admits that it is a [temporary hack](https://en.cry
 
 **Pros:**
 
-*   No need for a mixer and mixing is done automatically
-*   Can be implemented with privacy on by default
-*   Anonymity increases as time passes as outputs become the new inputs of new mixes
-*   Hides transaction amounts when implemented with RingCT
-*   Well understood cryptography
+* No need for a mixer and mixing is done automatically
+* Can be implemented with privacy on by default
+* Anonymity increases as time passes as outputs become the new inputs of new mixes
+* Hides transaction amounts when implemented with RingCT
+* Well understood cryptography
 
 **Cons:**
 
-*   Does not break transaction links, merely obscures them, hence a ['decoy' model](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy).
-*   Selecting the right decoys can be tricky and incorrect input selection algorithms can lead to loss of privacy
-*	Low anonymity set per transaction due to practically limited ring sizes
+* Does not break transaction links, merely obscures them, hence a ['decoy' model](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy).
+* Selecting the right decoys can be tricky and incorrect input selection algorithms can lead to loss of privacy
+* Low anonymity set per transaction due to practically limited ring sizes
 
 The next anonymity scheme we will explore is ring signatures as used in CryptoNote currencies such as Monero which significantly improves anonymity over regular mixer type schemes. A ring signature works by proving someone signed the transaction from a group of people without revealing which person it was. One common proposed use case of ring signatures is for it to be used to provide an anonymous signature from a “high-ranking White House official” without revealing which official signed the message. 
 
@@ -96,9 +94,9 @@ CryptoNote/ring signatures when combined with confidential transactions also hid
 
 ![](/guide/assets/privacy-technology-comparison/cryptonote.png) 
 
-RingCT currencies also have limitations concerning practical ring size (the number of other outputs you are taking) as the size of a transaction grows linearly as the ring size increases. This is why Monero has a relatively small ring size of 11 though it is set to increase this to 16 in an upcoming hard fork. This means on a per transaction basis, the anonymity is limited by the number of inputs in the ring. While the possibilities start to fan out increasing the practical anonymity set, the real transaction link is still somewhere  in there hiding among the decoys and there are methods to narrow the range of possibilities down such as theorized [Flashlight](https://www.zfnd.org/blog/blockchain-privacy/#flashlight), [Overseer](https://www.zfnd.org/blog/blockchain-privacy/#overseer) and [Tainted Dust](https://www.zfnd.org/blog/blockchain-privacy/#dust) attacks.
+RingCT currencies also have limitations concerning practical ring size (the number of other outputs you are taking) as the size of a transaction grows linearly as the ring size increases. This is why Monero has a relatively small ring size of 11 though it is set to increase this to 16 in an upcoming hard fork. This means on a per transaction basis, the anonymity is limited by the number of inputs in the ring. While the possibilities start to fan out increasing the practical anonymity set, the real transaction link is still somewhere in there hiding among the decoys and there are methods to narrow the range of possibilities down such as theorized [Flashlight](https://www.zfnd.org/blog/blockchain-privacy/#flashlight), [Overseer](https://www.zfnd.org/blog/blockchain-privacy/#overseer) and [Tainted Dust](https://www.zfnd.org/blog/blockchain-privacy/#dust) attacks.
 
-Also, security researchers have on numerous occasions found numerous ways to make educated guesses as to which transaction is the real one by using statistical analysis and the age of the inputs. For example, a [2017 study](https://arxiv.org/abs/1704.04299) demonstrated that in any mix of one real coin and a set of fake coins bundled up in a transaction, the real one is very likely to have been the most recent coin to have moved prior to that transaction. That timing analysis correctly identified the real coin more than 90 percent of the time, virtually nullifying Monero's privacy safeguards.
+Also, security researchers have on numerous occasions found numerous ways to make educated guesses as to which transaction is the real one by using statistical analysis and the age of the inputs. Picking the right decoys to form your ring can be tricky. For example, a [2017 study](https://arxiv.org/abs/1704.04299) demonstrated that in any mix of one real coin and a set of fake coins bundled up in a transaction, the real one is very likely to have been the most recent coin to have moved prior to that transaction due to the way the decoy selection algorithm picked its inputs. That timing analysis correctly identified the real coin more than 90 percent of the time, virtually nullifying Monero's privacy safeguards.
 
 To combat this, the Monero developers have changed the algorithm on how the wallet picks its mix-ins several times and have also increased the number of mix-ins. Despite such changes, while improving resistance against previous methods, they still can be narrowed down as highlighted in the 2018 version of the same study and even in 2021, there remain known [drawbacks](https://github.com/monero-project/research-lab/issues/86).
 
@@ -116,20 +114,20 @@ In RingCT, someone who breaks the discrete logarithm that underpins RingCT can f
 
 Privacy coins ultimately need to hide amounts transacted to provide the highest level of privacy and the trade off is the loss of supply auditability. RingCT in particular requires mandatory privacy and full hidden amounts to achieve high levels of privacy. A lack of supply auditability can complicate detecting hidden inflation. [A bug in Cryptonote that allowed unlimited inflation was indeed discovered](https://www.getmonero.org/2017/05/17/disclosure-of-a-major-bug-in-cryptonote-based-currencies.html) but was patched before anyone could take advantage of it. A nuanced argument on supply auditability in privacy enhancing cryptocurrencies can be found in Riccardo Spagni's presentation [On Privacy Enhancing Currencies & Supply Auditability](https://youtu.be/QAmOn8X-eKk).
 
-Despite these drawbacks, RingCT has proven itself to be one of the better and well-reviewed privacy technologies out there and the only instances where it has been publicly and completely deanonymized arose from improper implementation such as the ShadowCash fiasco or through the use of mixin-0 transaction in Monero which resulted in a cascade effect that [rendered 87% of inputs traceable](https://eprint.iacr.org/2017/338) (subsequently mitigated for newer transactions).
+Despite these drawbacks, RingCT has proven itself to be one of the better and well-reviewed privacy technologies out there that is still evolving and improving to deal with new threats and advancements.
 
 It is worth noting that Monero Research Labs are looking into alternative privacy protocols to help scale their ring sizes such as Seraphis, Lelantus Spark and Triptych to increase its effective anonymity set and complicate statistical analysis.
 
 ### [Lelantus v1/v2](https://firo.org/2019/04/14/lelantus-firo.html)
 
-**As used in: Firo (activated Lelantus v1 in January 2021)** 
+**As used in: Firo (activated Lelantus v1 from January 2021)** 
 
 **Pros:**
 
 *   No need for a mixer
-*   Very high anonymity with anonymity sets of up to around 65,536. Mint and spend transactions and completely break transaction links between addresses.
+*   High anonymity sets up to around 65,000. 
 *   Uses well-researched cryptography and only requiring DDH cryptographic assumptions
-*   Small proof sizes of around ~1.5 kB
+*   Small proof sizes of around ~1.5 kB per proof
 *   No trusted setup
 *   Doesn't use fixed denominations
 *   Can do direct anonymous payments without having to convert to base coin (for Lelantus v2).
@@ -137,7 +135,7 @@ It is worth noting that Monero Research Labs are looking into alternative privac
 
 **Cons:**
 
-*   Difficult to scale past anonymity sets of 65,536 without cryptographic breakthrough
+*   Anonymity sets cannot scale into the millions without cryptographic breakthrough
 *	Lelantus v1 still does not fully hide amounts as only source and change amounts are hidden (Lelantus v2 fully hides amounts)
 *   No stealth addressing support meaning users are still recommended to supply fresh addresses
 *	Lelantus v1/v2 balance security lacks a formal security proof and is challenging to formulate one
@@ -158,7 +156,7 @@ Lelantus hides the transaction amounts of the inputs and also the change amount.
 
 Lelantus v2 expands Lelantus v1 functionality and allows for direct anonymous payments and fully hides amounts. This means users don't need to redeem the coins which expose its amounts but instead can pass these coins to a third party without ever revealing the amount to third parties.
 
-A limitation of Lelantus v1/v2 is due to the usage of Groth-Bootle proofs, anonymity sets are limited to about 65,000 before verification and proving performance become unacceptable. This anonymity set is still magnitudes higher compared to almost all other privacy mechanisms with the exception of Zerocash with its own set of trade offs (trusted setup, complicated construction, etc) which we will explore further below.
+A limitation of Lelantus v1/v2 is due to the usage of Groth-Bootle proofs, anonymity sets are limited to the high thousands before verification and proving performance become unacceptable. This anonymity set is still magnitudes higher compared to almost all other privacy mechanisms with the exception of Zerocash with its own set of trade offs (trusted setup, complicated construction, etc) which we will explore further below.
 
 Lelantus also lacks stealth addressing support meaning that while users cannot see the source or amounts or when funds are spent, it can tell that a particular address has received some funds which reveals timing information.
 
@@ -242,33 +240,31 @@ Another drawback of Zerocash in its original form, the generation of a private t
 
 Zerocash offers the highest theoretical anonymity and relatively good performance but requires a complicated cryptographic construction, trusted setup, the use of new experimental cryptography and computational complexity when creating private transactions. 
 
-Electric Coin Company has produced a modification to the Halo proving system called Halo 2 that it intends to deploy to the Zcash codebase and network, along with a compatible transaction protocol called Orchard. Compared to the existing Sapling protocol (which uses a different proving system), Orchard on Halo 2 removes the need for a trusted setup process. However, we do not know of specific benchmarks for expected transaction size or generation/verification times that users might expect to see in this deployment. The Halo 2 and Orchard implementations are licensed under [BOSL](https://electriccoin.co/blog/introducing-tgppl-a-radically-new-type-of-open-source-license/), a renaming of the existing TGPPL license, that permits certain restrictions under a specified grace period. While the original Halo proving system came equipped with a traditional academic-style preprint, we do not know of any corresponding literature for Halo 2 that is publicly available. The Orchard protocol with Halo2 is promising if it lives up to its claims but is hard to evaluate conclusively at this point in time and remains a very complex construction.
+Electric Coin Company has produced a modification to the Halo proving system called Halo 2 that it intends to deploy to the Zcash codebase and network, along with a compatible transaction protocol called Orchard. Compared to the existing Sapling protocol (which uses a different proving system), Orchard on Halo 2 removes the need for a trusted setup process. However, we do not know of specific benchmarks for expected transaction size or generation/verification times that users might expect to see in this deployment. The Halo 2 and Orchard implementations are licensed under [BOSL](https://electriccoin.co/blog/introducing-tgppl-a-radically-new-type-of-open-source-license/), a renaming of the existing TGPPL license, that [does not allow third parties to use the Halo2 code](https://github.com/zcash/halo2/blob/main/COPYING) until after the grace period expires. While the original Halo proving system came equipped with a traditional academic-style preprint, we do not know of any corresponding literature for Halo 2 that is publicly available. The Orchard protocol with Halo2 is promising if it lives up to its claims but is hard to evaluate conclusively at this point in time and remains a very complex construction.
 
 ### **Mimblewimble**
 
-**As used in: Grin, Beam** 
+**As used in: Grin, Beam, Litecoin MWEB Sidechain** 
 
 **Pros:**
 
 *   All amounts are hidden
-*   Uses well established cryptography
+*   Simple lightweight cryptographic construction
 *   Hides transaction amounts
 *   Blockchain can reduce in size as it only retains UTXOs
 *   No re-use of address problems
 
 **Cons:**
 
-*   Needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction. Mitigated somewhat with [SBBS](https://github.com/BeamMW/beam/wiki/Secure-bulletin-board-system-(SBBS)) and/or [one side payments](https://github.com/BeamMW/beam/wiki/One-side-payments) which comes at the cost of some privacy.
+*   Vanilla Mimblewimble needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction. David Burkett’s one-sided transactions solves this but is only implemented in Litecoin’s upcoming MWEB sidechain. Beam uses [SBBS](https://github.com/BeamMW/beam/wiki/Secure-bulletin-board-system-(SBBS)) and/or [one side payments](https://github.com/BeamMW/beam/wiki/One-side-payments) which comes at the cost of some privacy.
 *   Does not break transaction links, merely obscures them, hence a ['decoy' model](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy).
-*   Monitoring the network can reveal details as to how the transactions are joined.
-*   If a block doesn't have many transactions, anonymity is significantly reduced since it relies on other transactions to join with. Beam introduces additional decoys outputs if needed if insufficient transactions happen.
+*   Monitoring the network can reveal details as to how the transactions are joined meaning the transaction graph is revealed
+*   If a block doesn't have many transactions, anonymity is significantly reduced since it relies on other transactions to join with. Beam introduces additional decoys outputs if needed if insufficient transactions happen but remains unclear how much it improves privacy
 *   Cold storage in hardware wallets are tricky to implement
-*   Smart contracts are harder on Mimblewimble since no scripting language but some functionality can be done through development in "Scriptless Scripts"
-*   Relatively early in development and doesn't share Bitcoin core code making building and integrating it into the infrastructure would need independent development.
 
 Grin and Beam are both implementations of MimbleWimble. Mimblewimble works via two primary methods, by hiding all transaction values and secondly by aggregating all transactions into one big transaction so that in a block, it appears as a giant transaction of many inputs with many outputs. Just looking at it from the blockchain alone, you can only guess which outputs came from which inputs provided that there are a few transactions in the same block. Mimblewimble also allows another feature called cut-through whereby if A pays to B who then pays it entirely to C, the blockchain can record A to C without even showing B. 
 
-An easy way to imagine this is comparing how transactions look like in Bitcoin vs how a transaction looks like once it's aggregated in Mimblewimble. 
+An easy way to imagine this is comparing how transactions look like in Bitcoin vs how a transaction looks once it's aggregated in Mimblewimble. 
 
 Imagine A sends to B and C. In a separate transaction D sends to E and F.  
 In Bitcoin this would be seen as  
@@ -285,15 +281,19 @@ Now it is unclear who sent to who!
  
 ![](/guide/assets/privacy-technology-comparison/btcmw.png) 
  
-However the big assumption is that no one is monitoring the network as these transactions propagate and before they are recorded onto the blockchain. With vanilla Mimblewimble, someone could create a malicious node that connects to all other nodes in the network and record the transactions before they are combined together thus able to deanonymize the transactions meaning it would have the same privacy as Bitcoin except that addresses are used only once and transaction values are hidden. 
+However the big assumption is that no one is monitoring the network as these transactions propagate and before they are recorded onto the blockchain. With vanilla Mimblewimble, someone could create a malicious node that connects to all other nodes in the network and record the transactions before they are combined together. This completely reveals the transaction graph. 
 
-To mitigate this, both Grin and Beam use Dandelion technology which changes the way transactions are propagated. Instead of broadcasting each transaction to all peers, the transaction is first sent through a series of randomly selected peers (stem phase) and only then diffused to the entire network (fluff phase). Each succeeding node rolls a dice to determine whether to continue the stem phase (90% change) or switch to fluff phase (10% chance). While the transactions are in the stem phase, they are also joined together with other transactions before being broadcasted widely. This makes it much harder for a node to have a full picture of how the transactions are joined together. It is however not a perfect solution and clues can still be gleaned by the way the transactions are bunched together before they are added to the block. Beam's implementation does make this harder by introducing decoy outputs when needed in the dandelion stem. 
+To mitigate this, both Grin and Beam use Dandelion++ technology which changes the way transactions are propagated. Instead of broadcasting each transaction to all peers, the transaction is first sent through a series of randomly selected peers (stem phase) and only then diffused to the entire network (fluff phase). Each succeeding node rolls a dice to determine whether to continue the stem phase (90% change) or switch to fluff phase (10% chance). While the transactions are in the stem phase, they are also joined together with other transactions before being broadcasted widely. In theory, this makes it harder for a node to have a full picture of how the transactions are joined together.
+
+In practice, the use of Dandelion++ doesn’t mitigate this sufficiently. A [2019 study](https://medium.com/dragonfly-research/breaking-mimblewimble-privacy-model-84bcd67bfe52) showed that with a specially configured node, the researcher was able to uncover the senders and receivers of 96% of Grin transactions in real time even with the existence of Dandelion++. Beam's implementation does make this harder by introducing decoy outputs when needed in the dandelion stem but it remains to be formally analysed to see how much practical privacy it adds.
 
 This combined with the fact that  Mimblewimble is also a decoy-based system similar to Cryptonote (although it achieves it using different methods), it still suffers the [same drawbacks as other 'decoy' based privacy systems where repeated transactions can further reduce the anonymity as taint trees still remain](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy). Additionally, if there are not many transactions in a block, this reduces privacy greatly while Beam's implementation of MW attempts to mitigate this by introducing decoys where needed. As explained before, active monitoring of the network can dilute this even further. 
 
 ![Image result for mimblewimble transaction](/guide/assets/privacy-technology-comparison/mwtx.png) Example of a transaction graph that can be built by tracing the MimbleWimble transactions. 
 
-A big drawback of MimbleWimble is the need for interaction between the receiver and sender (meaning the receiver and sender need to communicate directly to communicate a blinding factor) and a massively different scheme that does away with addresses. This means you cannot just post an address on a website and have to give a new value all the time. This also complicates multi party transactions, for example A sending money to B, C, D, E in one transaction would require each of these parties to communicate to A before the send can happen. Beam's implementation addresses this through the use of a Secure Bulletin Board system which allows people to post their messages to Beam's full nodes so that the blinding factor can be communicated once the user comes online though further research is required if this compromises privacy. 
+A big drawback of traditional MimbleWimble is the need for interaction between the receiver and sender (meaning the receiver and sender need to communicate directly to communicate a blinding factor) and a massively different scheme that does away with addresses. This means you cannot just post an address on a website and have to give a new value all the time. This also complicates multi party transactions, for example A sending money to B, C, D, E in one transaction would require each of these parties to communicate to A before the send can happen. Beam's implementation addresses this through the use of a Secure Bulletin Board system which allows people to post their messages to Beam's full nodes so that the blinding factor can be communicated once the user comes online though further research is required if this leaks any information.
+
+Another more neat approach is David Burkett’s [one sided transactions](https://github.com/DavidBurkett/lips/blob/master/lip-0004.mediawiki) that is being implemented in Litecoin’s Mimblewimble Extension Block sidechain that removes the requirement for interactivity. 
 
 Also although there are no addresses, the Pedersen commitments are still unique and therefore on its own MimbleWimble does not hide the transaction graph meaning you can still see how the funds flow, and thus can be considered 'one time' addresses. This means that without the added workarounds of Dandelion and Coinjoin, Mimblewimble's privacy is equivalent to Bitcoin except that addresses are only used once and transaction values are hidden. 
 
@@ -373,16 +373,15 @@ Sigma is basically a greatly improved Zerocoin. It however still requires fixed 
 
 ![](/guide/assets/privacy-technology-comparison/oneoutofmanyproofs.png)
 
-
 ## Evaluating Other Privacy Schemes and Why Isn’t My Favorite Privacy Coin Featured in This Article?
 
 All of the blockchain privacy schemes listed here are well reviewed by researchers and the concepts well understood. However, there are many coins in the privacy space but only a handful that really protect it. These are the key factors when coming across a new privacy mechanism:
 
 *   **Does it offer privacy on the blockchain?** Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
 *   **Is the privacy mechanism written by experts and reviewed?** Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
-*   **Is it merely a rebrand of existing technology?** Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
-*   **Does it involve centralized trust?** If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
-*   **Does the team understand the cryptography behind these schemes?** This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
+*   **Is it merely a rebrand of existing technology? **Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
+*   **Does it involve centralized trust? **If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
+*   **Does the team understand the cryptography behind these schemes? **This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
 
 ## Summary
 
@@ -392,4 +391,4 @@ A comparison chart of Firo's solutions with other leading privacy technologies c
 
 ![](/guide/assets/privacy-technology-comparison/comparison-table-firo-updated.png) 
 
-We hope this article gives you a much better understanding of how various privacy tech works on the blockchain. An earlier version of this article was posted [here](https://steemit.com/zcoin/@zcoinofficial/an-overview-of-blockchain-privacy-mechanisms-and-how-zerocoin-in-zcoin-usdxzc-not-zcash-stacks-up).
+We hope this article gives you a much better understanding of how various privacy tech works on the blockchain.
