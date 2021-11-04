@@ -6,7 +6,7 @@ tags: [news, dev, community]
 author: "Reuben Yap"
 img: "/guide/assets/privacy-technology-comparison/banner.png"
 alt: ""
-permalink: "/guide/privacy-technology-comparison.html"
+permalink: "/guide/privacy-coin-comparison.html"
 ---
 
 ### Blockchain Privacy Mechanisms
