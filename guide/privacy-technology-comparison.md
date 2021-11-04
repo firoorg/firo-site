@@ -29,7 +29,7 @@ To understand the innovation behind Lelantus and Lelantus Spark, we need to also
 
 **Cons:**
 
-* Amounts are still completely invisible
+* Amounts are still completely visible
 * Anonymity sets are generally low and reliant on the number of mixers
 * Coins that are mixed can be ‘flagged’ as going through a coin mixer.
 * Needs time for mixes to happen
