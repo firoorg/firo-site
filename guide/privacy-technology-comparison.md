@@ -44,11 +44,11 @@ CoinJoin is an improvement of this mixing idea and removes the possibility for t
 
 ![](/guide/assets/privacy-technology-comparison/coinjoin.png)
 
-*   You need to trust the tumbler for your anonymity as the mixer can log identifiable information and knows how the mix is happening along with each user’s input address and the address they are receiving coins to. This issue can be avoided by using blind digital signatures but then the anonymity of CoinJoin relies strongly on the possibility to connect to the tumbler in an anonymous manner, e.g., via the Tor network.
-*   It requires people involved in the mixing to be online for a mixing transaction to happen. If no one wants to mix for the right denominations, your mix can be delayed.
-*   The anonymity is limited by the amount of people you mix with. A typical round of Dash’s Privatesend mixing involves 3 participants only though this can be repeated.
-*   Even with multiple rounds of CoinJoin mixing, [recent research](https://arxiv.org/pdf/1708.04748.pdf) shows that a user’s wallet can be identified if they are not careful with browser cookies when making payments because mixing only obscures the transaction links between addresses but does not break them completely.
-*   It is easy to disrupt a run of CoinJoin and delay the completion of the transaction for the other participants.
+* You need to trust the tumbler for your anonymity as the mixer can log identifiable information and knows how the mix is happening along with each user’s input address and the address they are receiving coins to. This issue can be avoided by using blind digital signatures but then the anonymity of CoinJoin relies strongly on the possibility to connect to the tumbler in an anonymous manner, e.g., via the Tor network.
+* It requires people involved in the mixing to be online for a mixing transaction to happen. If no one wants to mix for the right denominations, your mix can be delayed.
+* The anonymity is limited by the amount of people you mix with. A typical round of Dash’s Privatesend mixing involves 3 participants only though this can be repeated.
+* Even with multiple rounds of CoinJoin mixing, [recent research](https://arxiv.org/pdf/1708.04748.pdf) shows that a user’s wallet can be identified if they are not careful with browser cookies when making payments because mixing only obscures the transaction links between addresses but does not break them completely.
+* It is easy to disrupt a run of CoinJoin and delay the completion of the transaction for the other participants.
 
 What's more, Dash's implementation, previously called PrivateSend, is susceptible to [cluster intersection attacks](https://arxiv.org/pdf/1709.02489.pdf). 
 
@@ -60,9 +60,9 @@ The main benefit of mixer type schemes is that they are relatively simple and wo
 
 Coins that go through mixers are also often ‘flagged’ with a higher risk meaning that your coins can be tainted just by going through this process. This can be exacerbated if coins that are tainted from illicit activity are mixed together with yours further making your coins difficult to use on exchanges. The freezing of coins connected to CoinJoins have been happening on a regular basis:
 
-[Binance Returns Frozen BTC After User ‘Promises’ Not to Use CoinJoin](https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)
-[BlockFi considered CoinJoin as ‘prohibited activities](https://twitter.com/BlockFiZac/status/1234531935038341120)
-[Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services](https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/)
+* [Binance Returns Frozen BTC After User ‘Promises’ Not to Use CoinJoin](https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)
+* [BlockFi considered CoinJoin as ‘prohibited activities](https://twitter.com/BlockFiZac/status/1234531935038341120)
+* [Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services](https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/)
 
 With appropriate precautions and correct use, CoinJoin and similar systems can provide some privacy to defend against trivial chain analysis but shouldn’t be considered as a sufficient privacy solution nor does it solve the issue of fungibility given that CoinJoined coins are often treated differently.
 
@@ -124,21 +124,21 @@ It is worth noting that Monero Research Labs are looking into alternative privac
 
 **Pros:**
 
-*   No need for a mixer
-*   High anonymity sets up to around 65,000. 
-*   Uses well-researched cryptography and only requiring DDH cryptographic assumptions
-*   Small proof sizes of around ~1.5 kB per proof
-*   No trusted setup
-*   Doesn't use fixed denominations
-*   Can do direct anonymous payments without having to convert to base coin (for Lelantus v2).
-*   Efficient batch verification
+* No need for a mixer
+* High anonymity sets up to around 65,000. 
+* Uses well-researched cryptography and only requiring DDH cryptographic assumptions
+* Small proof sizes of around ~1.5 kB per proof
+* No trusted setup
+* Doesn't use fixed denominations
+* Can do direct anonymous payments without having to convert to base coin (for Lelantus v2).
+* Efficient batch verification
 
 **Cons:**
 
-*   Anonymity sets cannot scale into the millions without cryptographic breakthrough
-*	Lelantus v1 still does not fully hide amounts as only source and change amounts are hidden (Lelantus v2 fully hides amounts)
-*   No stealth addressing support meaning users are still recommended to supply fresh addresses
-*	Lelantus v1/v2 balance security lacks a formal security proof and is challenging to formulate one
+* Anonymity sets cannot scale into the millions without cryptographic breakthrough
+* Lelantus v1 still does not fully hide amounts as only source and change amounts are hidden (Lelantus v2 fully hides amounts)
+* No stealth addressing support meaning users are still recommended to supply fresh addresses
+* Lelantus v1/v2 balance security lacks a formal security proof and is challenging to formulate one
 
 Lelantus is a creation of Firo's cryptographer Aram Jivanyan as part of our continuous efforts to improve our privacy protocol and its full paper is available to read [here](https://eprint.iacr.org/2019/373).
 
@@ -174,16 +174,16 @@ Our work in Lelantus has also revived interest in the use of Groth-Bootle proofs
 
 **Pros:**
 
-*	Retains all the pros of Lelantus v1/v2 using well researched cryptography, no trusted setup and having efficient batch verification
-*	Full support of stealth addressing, efficient multi-sig and view key functionality via Spark addresses
-*	Modular design which allows easier upgrade of components
-*	Unlike Lelantus v1/v2 a security proof for the balance is available
-*	Relatively simple cryptographic design compared to circuit-based zero-knowledge proof systems making it easier to implement and less room for error.
+* Retains all the pros of Lelantus v1/v2 using well researched cryptography, no trusted setup and having efficient batch verification
+* Full support of stealth addressing, efficient multi-sig and view key functionality via Spark addresses
+* Modular design which allows easier upgrade of components
+* Unlike Lelantus v1/v2 a security proof for the balance is available
+* Relatively simple cryptographic design compared to circuit-based zero-knowledge proof systems making it easier to implement and less room for error.
 
 **Cons:**
 
-*   Difficult to scale past anonymity sets of 65,536 without cryptographic breakthrough or replacement of underlying Groth-Bootle proofs.
-*	Verification of proofs are still slower than Groth16 zkSNARKs but are mitigated with efficient batch verification
+* Difficult to scale past anonymity sets of 65,536 without cryptographic breakthrough or replacement of underlying Groth-Bootle proofs.
+* Verification of proofs are still slower than Groth16 zkSNARKs but are mitigated with efficient batch verification
 
 Lelantus Spark is the work of Firo's research team and is slated to be launched on Firo's mainnet in 2022. Lelantus Spark builds on the work of Lelantus v1/v2, and like Lelantus v2 hides the sender and fully hides amounts but greatly improves recipient privacy with the introduction of Spark addresses. The efficient and trustless Groth-Bootle one-out-of-many proofs still form the foundation of Spark as it did with Lelantus v1/v2 and Sigma.
 
@@ -205,17 +205,17 @@ Spark's cryptography is currently undergoing two independent audits and has full
 
 **Pros:**
 
-*   Theoretically the best anonymity set encompassing all coins minted and breaks transaction links between addresses.
-*   Proof sizes are small and fast to verify
-*   Hides transaction amounts
+* Theoretically the best anonymity set encompassing all coins minted and breaks transaction links between addresses.
+* Proof sizes are small and fast to verify
+* Hides transaction amounts
 
 **Cons:**
 
-*   Private transactions are computationally intensive (though much improved with Sapling upgrade)
-*   Complicated trusted setup that has to be arranged by the team
-*   Incorrect implementation or leakage of trusted setup parameters can lead to forgery of coins.
-*   Uses relatively new cryptography and based on less standard cryptographic assumptions (KEA)
-*   Complicated construction and difficult to understand in full meaning that only a handful of people can grasp the cryptography and code and may be prone to errors.
+* Private transactions are computationally intensive (though much improved with Sapling upgrade)
+* Complicated trusted setup that has to be arranged by the team
+* Incorrect implementation or leakage of trusted setup parameters can lead to forgery of coins.
+* Uses relatively new cryptography and based on less standard cryptographic assumptions (KEA)
+* Complicated construction and difficult to understand in full meaning that only a handful of people can grasp the cryptography and code and may be prone to errors.
 
 One of the leading privacy schemes is the Zerocash protocol as used in ZCash. Zerocash builds on the work of Zerocoin and seeks to address the shortcomings of Zerocoin. With Zerocash and its use of zkSNARKs, proof sizes are small and are very fast to verify. Furthermore, all transaction amounts are hidden and there is no longer a need to use fixed denominations when doing a minting transaction. Zerocash also allows people to transfer anonymous coins to each other without the need to convert back into the base coin. Its anonymity set is also the largest among all previous anonymity schemes involving all minted coins regardless of the denomination on the blockchain. 
 
@@ -233,10 +233,10 @@ Another trade-off is the use of new experimental cryptography. Unlike well estab
 
 Zerocash is also highly complex and has been described as 'moon math', meaning that only a handful of people can properly understand and audit it and even can be challenging to spot bugs to its complexity. In fact, with the [Zcash counterfeiting bug](https://z.cash/blog/zcash-counterfeiting-vulnerability-successfully-remediated/), the following was quoted:
 
-*   _Discovery of the vulnerability would have required a high level of technical and cryptographic sophistication that very few people possess._
-*   _The vulnerability had existed for years but was undiscovered by numerous expert cryptographers, scientists, third-party auditors, and third-party engineering teams who initiated new projects based upon the Zcash code._
+* _Discovery of the vulnerability would have required a high level of technical and cryptographic sophistication that very few people possess._
+* _The vulnerability had existed for years but was undiscovered by numerous expert cryptographers, scientists, third-party auditors, and third-party engineering teams who initiated new projects based upon the Zcash code._
 
-This is effectively a form of '[security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity)'. Lelantus, Lelantus Spark, RingCT and Mimblewimble constructions in comparison are much easier to understand. 
+This is effectively a form of ['security through obscurity'.](https://en.wikipedia.org/wiki/Security_through_obscurity) Lelantus, Lelantus Spark, RingCT and Mimblewimble constructions in comparison are much easier to understand. 
 
 Another drawback of Zerocash in its original form, the generation of a private transaction takes significantly longer than any of the previous privacy schemes approaching a minute on a powerful computer and much longer on slower systems while requiring several gigabytes of RAM. This resulted in very few people using its privacy features and also may exclude less powerful systems such as mobile devices. Zcash has made substantial improvements on this in their latest Sapling upgrade through the use of new BLS12-381 curves bringing down generation time down to several seconds and requiring around 40 mb of memory making it finally feasible for mobile devices.
 
@@ -252,19 +252,19 @@ While the original Halo proving system came equipped with a traditional academic
 
 **Pros:**
 
-*   All amounts are hidden
-*   Simple lightweight cryptographic construction
-*   Hides transaction amounts
-*   Blockchain can reduce in size as it only retains UTXOs
-*   No re-use of address problems
+* All amounts are hidden
+* Simple lightweight cryptographic construction
+* Hides transaction amounts
+* Blockchain can reduce in size as it only retains UTXOs
+* No re-use of address problems
 
 **Cons:**
 
-*   Monitoring the network can reveal details as to how the transactions are joined meaning the transaction graph is revealed
-*   Does not break transaction links, merely obscures them, hence a ['decoy' model](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy).
-*   Vanilla Mimblewimble needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction. David Burkett’s one-sided transactions solves this but is only implemented in Litecoin’s upcoming MWEB sidechain. Beam uses [SBBS](https://github.com/BeamMW/beam/wiki/Secure-bulletin-board-system-(SBBS)) and/or [one side payments](https://github.com/BeamMW/beam/wiki/One-side-payments) which comes at the cost of some privacy.
-*   If a block doesn't have many transactions, anonymity is significantly reduced since it relies on other transactions to join with. Beam introduces additional decoys outputs if needed if insufficient transactions happen but remains unclear how much this improves privacy
-*   Cold storage in hardware wallets are tricky to implement
+* Monitoring the network can reveal details as to how the transactions are joined meaning the transaction graph is revealed
+* Does not break transaction links, merely obscures them, hence a ['decoy' model](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy).
+* Vanilla Mimblewimble needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction. David Burkett’s one-sided transactions solves this but is only implemented in Litecoin’s upcoming MWEB sidechain. Beam uses [SBBS](https://github.com/BeamMW/beam/wiki/Secure-bulletin-board-system-(SBBS)) and/or [one side payments](https://github.com/BeamMW/beam/wiki/One-side-payments) which comes at the cost of some privacy.
+* If a block doesn't have many transactions, anonymity is significantly reduced since it relies on other transactions to join with. Beam introduces additional decoys outputs if needed if insufficient transactions happen but remains unclear how much this improves privacy
+* Cold storage in hardware wallets are tricky to implement
 
 Grin and Beam are both implementations of MimbleWimble. Mimblewimble works via two primary methods, by hiding all transaction values and secondly by aggregating all transactions into one big transaction so that in a block, it appears as a giant transaction of many inputs with many outputs. Just looking at it from the blockchain alone, you can only guess which outputs came from which inputs provided that there are a few transactions in the same block. Mimblewimble also allows another feature called cut-through whereby if A pays to B who then pays it entirely to C, the blockchain can record A to C without even showing B. 
 
@@ -311,11 +311,11 @@ For example coins such as Verge or DeepOnion do not have any onchain privacy mec
 
 These are the key factors when coming across a new privacy mechanism:
 
-*   **Does it offer privacy on the blockchain?** Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
-*   **Is the privacy mechanism written by experts and reviewed?** Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
-*   **Is it merely a rebrand of existing technology? **Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
-*   **Does it involve centralized trust? **If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
-*   **Does the team understand the cryptography behind these schemes? **This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
+* **Does it offer privacy on the blockchain?** Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
+* **Is the privacy mechanism written by experts and reviewed?** Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
+* **Is it merely a rebrand of existing technology?** Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
+* **Does it involve centralized trust?** If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
+* **Does the team understand the cryptography behind these schemes?** This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
 
 ## Summary
 
