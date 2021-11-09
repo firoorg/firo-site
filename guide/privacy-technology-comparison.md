@@ -11,7 +11,7 @@ permalink: "/guide/privacy-coin-comparison.html"
 
 ### Blockchain Privacy Mechanisms
 
-This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Lelantus protocol used in Firo and the upcoming Lelantus Spark protocol stacks up.
+This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Lelantus protocol used in Firo and the upcoming Lelantus Spark protocol stacks up. This is a living document that would be updated from time to time with recent developments.
 
 Blockchain privacy is particularly tricky to achieve as public blockchains are designed so that all transactions are transparent and coin amounts are public. This is because everyone has to be able to validate the state of the chain and balances. Balancing privacy with the requirement for public verifiability in blockchains is not a trivial problem.
 
@@ -142,15 +142,17 @@ It is worth noting that Monero Research Labs are looking into alternative privac
 
 Lelantus is a creation of Firo's cryptographer Aram Jivanyan as part of our continuous efforts to improve our privacy protocol and its full paper is available to read [here](https://eprint.iacr.org/2019/373).
 
-Lelantus v1 uses a burn and redeem model whereby coins are burnt and then later redeemed for brand new ones that do not contain transaction history nor an identifiable source.
+Lelantus v1 uses a burn and redeem model that was first pioneered by the Zerocoin protocol whereby coins are burnt and then later redeemed for brand new ones that do not contain transaction history nor an identifiable source.
 
-A simple way to imagine this is throwing coins into a black box. Those that throw coins into the black box retain a special receipt that allows them to prove that they did throw coins in the black box without having to show exactly which coins were burnt.
+A simple way to imagine this is throwing coins into a black box. Those that throw coins into the black box retain a special receipt that allows them to prove that they did throw coins in the black box without having to show exactly which coins were burnt. This receipt or proof is built from a trustless zero-knowledge proof called [one-out-of-many proofs aka Groth-Bootle proofs](https://eprint.iacr.org/2014/764.pdf) that does not require trusted setup. This construction was further optimized in the paper [Short Accountable Ring Signatures based on DDH (Jonathan Bootle, Andrew Cerulli, Pyrros Chaidos, Essam Ghadafi, Jens Groth and Christophe Petit).](https://eprint.iacr.org/2015/643.pdf).
 
-Previous burn and redeem schemes such as Zerocoin and Sigma required users to burn and redeem in fixed denominations and also did not allow partial redemptions. For example if I burnt 10 coins but wanted to spend 3 of them, I would need to redeem 10 fully, send the three and then reburn the 7. This is inefficient and involves several steps.
+![](/guide/assets/privacy-technology-comparison/oneoutofmanyproofs.png)
+
+Previous burn and redeem schemes such as Zerocoin and Sigma (which were also previously used in Zcoin) required users to burn and redeem in fixed denominations and also did not allow partial redemptions. For example if I burnt 10 coins but wanted to spend 3 of them, I would need to redeem 10 fully, send the three and then reburn the 7. This is inefficient and involves several steps.
 
 Lelantus allows burns and redemptions of arbitrary amounts along with the ability to do partial redemptions. For e.g. this means I can burn 9.23 coins and can redeem 1.7 coins partially and have the change amount hidden.
 
-This makes it much harder to do analysis based on time or amount correlation. It also greatly simplifies the handling of UTXOs since there are no leftover dust amounts that you would need to keep separately.
+This makes it much harder to do analysis based on time or amount correlation. It also greatly simplifies the handling of UTXOs since there are no leftover dust amounts that a user would need to keep separately.
 
 Lelantus hides the transaction amounts of the inputs and also the change amount. It achieves this by utilizing double-blinded commitments and a modification of bulletproofs to hide transaction amounts.
 
@@ -191,13 +193,13 @@ The primary advantage of Spark and Lelantus based systems are its simple design 
 
 Also as all amounts would be hidden with Spark, supply isn’t transparently auditable and rely on zero knowledge proofs to preserve supply like in RingCT and Zerocash. A nuanced argument on supply auditability in privacy enhancing cryptocurrencies can be found in Riccardo Spagni's presentation [On Privacy Enhancing Currencies & Supply Auditability](https://youtu.be/QAmOn8X-eKk).
 
-The biggest criticism that can be said of Spark is because of its current reliance on Groth-Bootle proofs, the anonymity set still cannot be made a global anonymity set and verification performance is still lower than zkSNARKs. 
+The biggest criticism that can be said of Spark is because of its current reliance on Groth-Bootle proofs, the anonymity set still cannot be made a global anonymity set and verification performance is still lower than Groth16 zkSNARKs used in the Zerocash protocol. 
 
 While practical anonymity might be in practice equivalent, we are keeping a close eye on improvements in membership proofs that might replace Groth-Bootle to allow Spark to have global anonymity sets.
 
-Spark's cryptography is currently undergoing two independent audits.
+Spark's cryptography is currently undergoing two independent audits and has full security proofs for its design.
 
-## **Zerocash and Zcash**
+## **Zerocash**
 
 **As used in: Zcash, PirateChain, Horizen, Komodo, PIVX** 
 
@@ -215,36 +217,38 @@ Spark's cryptography is currently undergoing two independent audits.
 *   Uses relatively new cryptography and based on less standard cryptographic assumptions (KEA)
 *   Complicated construction and difficult to understand in full meaning that only a handful of people can grasp the cryptography and code and may be prone to errors.
 
-One of the leading privacy schemes is the Zerocash protocol as used in ZCash. Zerocash builds on the work of Zerocoin and seeks to address the perceived shortcomings of Zerocoin. With Zerocash and its use of zkSNARKs, proof sizes are now only 1 kb and are very fast to verify. Furthermore, all transaction amounts are hidden and there is no longer a need to use fixed denominations when doing a minting transaction. Zerocash also allows people to transfer Zerocash’s equivalent of ‘Zerocoins’ to each other without the need to convert back into the base coin. Its anonymity set is also the largest among all previous anonymity schemes involving all minted coins regardless of the denomination on the blockchain. 
+One of the leading privacy schemes is the Zerocash protocol as used in ZCash. Zerocash builds on the work of Zerocoin and seeks to address the shortcomings of Zerocoin. With Zerocash and its use of zkSNARKs, proof sizes are small and are very fast to verify. Furthermore, all transaction amounts are hidden and there is no longer a need to use fixed denominations when doing a minting transaction. Zerocash also allows people to transfer anonymous coins to each other without the need to convert back into the base coin. Its anonymity set is also the largest among all previous anonymity schemes involving all minted coins regardless of the denomination on the blockchain. 
 
-Like Zerocoin, Zerocash requires a trusted setup, but Zerocash’s setup is much more complicated. Zcash utilized a multi-party ceremony involving six people set up in a way that the only way these parameters could be leaked is if all six in the ceremony colluded to retain the keys. In other words, you have to trust all of these six people that they destroyed the initial parameters and also that the ceremony was carried out correctly. This is a serious enough problem that Zcash is organizing a [new trusted setup ceremony.](https://z.cash.foundation/blog/powers-of-tau/) 
+Like its predecessor Zerocoin, Zerocash requires a trusted setup, but Zerocash’s setup is much more complicated. For its initial deployment of Sprout, Zcash utilized a multi-party ceremony involving six people set up in a way that the only way these parameters could be leaked is if all six in the ceremony colluded to retain the keys. In other words, you have to trust all of these six people that they destroyed the initial parameters and also that the ceremony was carried out correctly. Weaknesses and flaws in the initial setup led to Zcash organizing a [new trusted setup ceremony](https://z.cash.foundation/blog/powers-of-tau/) that involved 88 participants and addressed other weaknesses in the original Sprout ceremony.
 
 ![](/guide/assets/privacy-technology-comparison/grinder.png) 
 
-If there is a bug in the code, or a cryptographic flaw or an issue with the multi-party trusted setup, an attacker can possibly generate unlimited Zcash and unlike in Zerocoin, this additional supply <span style="text-decoration: underline;">**cannot be detected**</span>. 
+If there is a bug in the code, or a cryptographic flaw or an issue with the multi-party trusted setup, an attacker can possibly generate unlimited Zcash and this additional supply <span style="text-decoration: underline;">**cannot be detected**</span>. 
 
-Zcash actually had one of these [bugs live on its mainnet from launch until the 28 October 2018, a period of two years, before it was patched](http://fortune.com/2019/02/05/zcash-vulnerability-cryptocurrency/) arising from a [cryptographic flaw](https://z.cash/blog/zcash-counterfeiting-vulnerability-successfully-remediated/). There is no way to tell whether this bug was taken advantage of prior to being patched and there was a gap of 8 months from the time of finding the bug till it was patched. This wasn't the first time such a bug was discovered. Zerocash early in its development also had the [InternalH Collision Vulnerability](https://blog.z.cash/fixing-zcash-vulns/) which would have allowed forging of coins as well. Although this bug never made it to production, it highlights the potential risks. 
+Zcash actually had one of these [bugs live on its Sprout mainnet from launch until the 28 October 2018, a period of two years, before it was patched in Sapling](http://fortune.com/2019/02/05/zcash-vulnerability-cryptocurrency/) arising from a [cryptographic flaw](https://z.cash/blog/zcash-counterfeiting-vulnerability-successfully-remediated/). There is no way to tell whether this bug was taken advantage of prior to being patched and there was a gap of 8 months from the time of finding the bug till it was patched. This wasn't the first time such a bug was discovered. Zerocash early in its development also had the [InternalH Collision Vulnerability](https://blog.z.cash/fixing-zcash-vulns/) which would have allowed forging of coins as well. Although this bug never made it to production, it highlights the potential risks. 
 
 [BTCP, a fork-merge of Zcash and Bitcoin also suffered hidden inflation](https://coinmetrics.io/bitcoin-private/) which went undetected for over almost ten months. This inflation was only detected by examining the UTXO import process when they were importing over the Bitcoin UTXOs. This wasn't due to a flaw in the cryptography but rather a covert premine. 
 
-Another trade-off is the use of new experimental cryptography. Unlike well established cryptography stalwarts like the [discrete log assumption](https://en.wikipedia.org/wiki/Discrete_logarithm#Algorithms) or [factorization hardness](https://en.wikipedia.org/wiki/Integer_factorization), zkSNARKs security is based on variants of the Knowledge Of Exponent (KEA) assumption for bilinear groups (instantiated via certain pairing-friendly elliptic curves). KEA has not been well researched or deployed and is also [subject to criticism](https://www.iacr.org/cryptodb/archive/2003/CRYPTO/1571/1571.ps).  Some experts believe the cryptography behind [zkSNARKs to be relatively weak](https://petertodd.org/2016/cypherpunk-desert-bus-zcash-trusted-setup-ceremony). 
+Another trade-off is the use of new experimental cryptography. Unlike well established cryptography stalwarts like the [discrete log assumption](https://en.wikipedia.org/wiki/Discrete_logarithm#Algorithms) or [factorization hardness](https://en.wikipedia.org/wiki/Integer_factorization), zkSNARKs security is based on variants of the Knowledge Of Exponent (KEA) assumption for bilinear groups (instantiated via certain pairing-friendly elliptic curves). KEA is much newer and is also [subject to criticism](https://www.iacr.org/cryptodb/archive/2003/CRYPTO/1571/1571.ps).  Some experts believe the cryptography behind [zkSNARKs to be relatively weak](https://petertodd.org/2016/cypherpunk-desert-bus-zcash-trusted-setup-ceremony). 
 
 Zerocash is also highly complex and has been described as 'moon math', meaning that only a handful of people can properly understand and audit it and even can be challenging to spot bugs to its complexity. In fact, with the [Zcash counterfeiting bug](https://z.cash/blog/zcash-counterfeiting-vulnerability-successfully-remediated/), the following was quoted:
 
 *   _Discovery of the vulnerability would have required a high level of technical and cryptographic sophistication that very few people possess._
 *   _The vulnerability had existed for years but was undiscovered by numerous expert cryptographers, scientists, third-party auditors, and third-party engineering teams who initiated new projects based upon the Zcash code._
 
-This is effectively '[security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity)'. Lelantus, Lelantus Spark, RingCT and Mimblewimble constructions in comparison are much easier to understand. 
+This is effectively a form of '[security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity)'. Lelantus, Lelantus Spark, RingCT and Mimblewimble constructions in comparison are much easier to understand. 
 
 Another drawback of Zerocash in its original form, the generation of a private transaction takes significantly longer than any of the previous privacy schemes approaching a minute on a powerful computer and much longer on slower systems while requiring several gigabytes of RAM. This resulted in very few people using its privacy features and also may exclude less powerful systems such as mobile devices. Zcash has made substantial improvements on this in their latest Sapling upgrade through the use of new BLS12-381 curves bringing down generation time down to several seconds and requiring around 40 mb of memory making it finally feasible for mobile devices.
 
-Zerocash offers the highest theoretical anonymity and relatively good performance but requires a complicated cryptographic construction, trusted setup, the use of new experimental cryptography and computational complexity when creating private transactions. 
+Zerocash offers the highest theoretical anonymity and excellent performance but requires a complicated cryptographic construction, trusted setup, the use of new experimental cryptography and computational complexity when creating private transactions. 
 
-Electric Coin Company has produced a modification to the Halo proving system called Halo 2 that it intends to deploy to the Zcash codebase and network, along with a compatible transaction protocol called Orchard. Compared to the existing Sapling protocol (which uses a different proving system), Orchard on Halo 2 removes the need for a trusted setup process. However, we do not know of specific benchmarks for expected transaction size or generation/verification times that users might expect to see in this deployment. The Halo 2 and Orchard implementations are licensed under [BOSL](https://electriccoin.co/blog/introducing-tgppl-a-radically-new-type-of-open-source-license/), a renaming of the existing TGPPL license, that [does not allow third parties to use the Halo2 code](https://github.com/zcash/halo2/blob/main/COPYING) until after the grace period expires. While the original Halo proving system came equipped with a traditional academic-style preprint, we do not know of any corresponding literature for Halo 2 that is publicly available. The Orchard protocol with Halo2 is promising if it lives up to its claims but is hard to evaluate conclusively at this point in time and remains a very complex construction.
+Electric Coin Company has recently produced a modification to the Halo proving system called Halo 2 that it intends to deploy to the Zcash codebase and network, along with a compatible transaction protocol called Orchard. Compared to the existing Sapling protocol (which uses a different proving system), Orchard on Halo 2 removes the need for a trusted setup process. Benchmarks on testnet code indicate that performance would be slower than Sapling-based zkSNARKs but remain highly competitive.  The Halo 2 and Orchard implementations are licensed under [BOSL](https://electriccoin.co/blog/introducing-tgppl-a-radically-new-type-of-open-source-license/), that [does not allow third parties to use the Halo2 code](https://github.com/zcash/halo2/blob/main/COPYING) until after the grace period expires.
+
+While the original Halo proving system came equipped with a traditional academic-style preprint, we do not know of any corresponding literature for Halo 2 that is publicly available. The [latest audit done by QEDIT](https://hackmd.io/@qedit/zcash-nu5-audit) also commented that unlike Sapling, [Orchard does not have an overarching proof of security or a high level sketch of the proof yet](https://hackmd.io/@qedit/zcash-nu5-audit#QZ1-401-Lack-of-Orchard-Shielded-Protocol-Proof-of-Security). The audit also commented that reviewing such a complex system and its implementation is challenging and that many components of the protocol remain not well documented. The Orchard protocol with a Halo 2 proving system is a promising new development but remains a very complex construction that will take time for the wider technical and academic community to vet and understand fully. Combined with a more restrictive software license and less than complete documentation, anyone that uses Orchard or Halo 2 would need to trust and rely on the Electric Coin Company for its security or develop significant parallel resources to develop it independently.
 
 ### **Mimblewimble**
 
-**As used in: Grin, Beam, Litecoin MWEB Sidechain** 
+**As used in: Grin, Beam, Litecoin MWEB Sidechain, MimbleWimble Coin** 
 
 **Pros:**
 
@@ -256,10 +260,10 @@ Electric Coin Company has produced a modification to the Halo proving system cal
 
 **Cons:**
 
-*   Vanilla Mimblewimble needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction. David Burkett’s one-sided transactions solves this but is only implemented in Litecoin’s upcoming MWEB sidechain. Beam uses [SBBS](https://github.com/BeamMW/beam/wiki/Secure-bulletin-board-system-(SBBS)) and/or [one side payments](https://github.com/BeamMW/beam/wiki/One-side-payments) which comes at the cost of some privacy.
-*   Does not break transaction links, merely obscures them, hence a ['decoy' model](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy).
 *   Monitoring the network can reveal details as to how the transactions are joined meaning the transaction graph is revealed
-*   If a block doesn't have many transactions, anonymity is significantly reduced since it relies on other transactions to join with. Beam introduces additional decoys outputs if needed if insufficient transactions happen but remains unclear how much it improves privacy
+*   Does not break transaction links, merely obscures them, hence a ['decoy' model](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy).
+*   Vanilla Mimblewimble needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction. David Burkett’s one-sided transactions solves this but is only implemented in Litecoin’s upcoming MWEB sidechain. Beam uses [SBBS](https://github.com/BeamMW/beam/wiki/Secure-bulletin-board-system-(SBBS)) and/or [one side payments](https://github.com/BeamMW/beam/wiki/One-side-payments) which comes at the cost of some privacy.
+*   If a block doesn't have many transactions, anonymity is significantly reduced since it relies on other transactions to join with. Beam introduces additional decoys outputs if needed if insufficient transactions happen but remains unclear how much this improves privacy
 *   Cold storage in hardware wallets are tricky to implement
 
 Grin and Beam are both implementations of MimbleWimble. Mimblewimble works via two primary methods, by hiding all transaction values and secondly by aggregating all transactions into one big transaction so that in a block, it appears as a giant transaction of many inputs with many outputs. Just looking at it from the blockchain alone, you can only guess which outputs came from which inputs provided that there are a few transactions in the same block. Mimblewimble also allows another feature called cut-through whereby if A pays to B who then pays it entirely to C, the blockchain can record A to C without even showing B. 
@@ -297,85 +301,15 @@ Another more neat approach is David Burkett’s [one sided transactions](https:/
 
 Also although there are no addresses, the Pedersen commitments are still unique and therefore on its own MimbleWimble does not hide the transaction graph meaning you can still see how the funds flow, and thus can be considered 'one time' addresses. This means that without the added workarounds of Dandelion and Coinjoin, Mimblewimble's privacy is equivalent to Bitcoin except that addresses are only used once and transaction values are hidden. 
 
-Grin doesn't have a scripting language so implementing smart contracts can be challenging though developments in "Scriptless Scripts" may enable similar functionality for a reduced set. 
-
-With full hidden values, [Mimblewimble doesn't have supply auditability as it relies on Bulletproofs/Confidential Transactions](https://medium.com/@nopara73/confidential-transactions-bulletproofs-the-elephant-in-the-room-cfdb37ce509) to check whether any additional coins have been created out of thin air. However the cryptography behind it is well understood and therefore is not as a huge a problem as with the Zerocash protocol.
-
-### Zerocoin
-
-Zerocoin is deprecated and this post is maintained for posterity.
-
-**Pros:**
-
-*   No need for a mixer
-*   Very high anonymity in the many thousands (if not more) with a single mint and spend transaction and completely breaks transaction links between addresses.
-*   Retains some degree of supply auditability since amounts are not hidden and coins have to be spent to base layer.
-*   Uses well-researched cryptography
-
-**Cons:**
-
-*   **Zerocoin is currently broken due to a [cryptographic flaw in one of its proofs](https://zcoin.io/cryptographic-description-of-zerocoin-attack/).** Although it can be fixed, better implementations have replaced it.
-*   Proof sizes are currently large (10-25 kB)
-*   Requires a trusted setup
-*   Incorrect implementation or leakage of trusted setup parameters can lead to forgery of coins.
-*   Requires fixed denominations
-*   Some care is required when doing Zerocoin mints and spends. Users have to keep coins minted before they intend to spend to prevent timing attacks.
-
-Zerocoin was the privacy protocol that Zcoin pioneered. Unlike in CoinJoin or RingCT systems which involve obscuring the real transactions with other inputs or transactions, the Zerocoin protocol completely breaks the transaction links between coins through the use of zero-knowledge proofs. 
-
-In simple terms, a zero-knowledge proof is a proof you did something or know something without revealing any other information other than you did it. For example, proving that you know a password without actually telling the password. 
-
-Zerocoin works by allowing you to burn coins (otherwise known as a Zerocoin mint) and then later redeem an equivalent number of brand new coins (known as a Zerocoin spend). These coins appear with no prior transaction history and are similar to newly mined coins. The zero-knowledge proof is used to prove that you indeed burnt coins without revealing the specific coins that you burnt. Using the proof you are furthermore entitled to redeem an equivalent number of new, clean coins. 
-
-![](/guide/assets/privacy-technology-comparison/zerocoin.png) 
-
-This means that unlike in CoinJoin and CryptoNote where the anonymity set is limited by either the number of participants or the ring size, Zerocoin would provide a larger anonymity set. Your anonymity set is with every other person who has done a Zerocoin mint of a particular denomination. This set is created appended immediately without waiting. This allows the anonymity set to scale into the many thousands with a single Zerocoin mint and spend cycle. Also, the coins truly have their transaction links broken as they appear as completely brand new coins compared to merely being obscured through previous methods. 
-
-This anonymity scheme is not without some drawbacks. In return for the huge anonymity set and breaking of transaction links, Zerocoin requires a one time trusted setup to generate initial parameters. In Zerocoin these are two very large prime numbers that need to be destroyed. Knowledge of these two large prime numbers would allow someone to forge Zerocoin spends and create coins out of thin air. To mitigate this, Zcoin used parameters from the RSA Factoring Challenge held in 1991 where they took special steps to destroy the prime numbers and had a USD200,000 bounty to successfully factor it for 16 years before the challenge was ended. Till today the RSA-2048 parameters used remain, to the best of our knowledge, unfactored and 2048-bit RSA remains widely used today having stood the test of time and will be practically unbreakable at least until the advent of quantum computing. 
-
-![](/guide/assets/privacy-technology-comparison/rsa-factoring-challenge.png) 
-
-It is worth noting that the knowledge of these two primes or successful factoring will not compromise the anonymity of Zerocoin but will merely allow the forging of coins. 
-
-Another limitation of Zerocoin is that fixed denominations need to be used for minting and spending and the zero-knowledge proof sizes for a Zerocoin spend are relatively large at 25 kB (can be reduced to around 10 kB with lowered parameters), comparable to a classic Cryptonote RingCT transaction. Unlike CryptoNote where all transactions are of this size, only Zerocoin spend transactions occupy this amount of space. Normal transactions still occupy the same size as Bitcoin transactions. Compared to other transactions, Zerocoin spend transactions are also computationally intensive to verify, taking about half a second to do so. 
-
-Also, incorrect use or predictable use of Zerocoin mint and spend transactions such as always minting and spending at regular intervals, or doing mints and spends immediately or using the same IP address for a mint and spend can possibly compromise anonymity thus some care is required. It is recommended that users mint coins in reserve before they even want to spend. The longer the coin stays in a minted form, the better the anonymity.
-
-Unfortunately, [a cryptographic flaw discovered by the Zcoin team](https://zcoin.io/cryptographic-description-of-zerocoin-attack/) that allows forgery of coins has rendered Zerocoin unusable until it is fixed. As the Zcoin team have moved away from Zerocoin as part of their long term roadmap they have decided not to expend the resources to design a fix.
-
-Summing up, if fixed, Zerocoin offers a huge anonymity set with no transaction linking but currently requires a trusted setup, additional storage on the blockchain and additional computational resources to verify.
-
-### [Sigma](https://firo.org/2019/03/20/what-is-sigma.html)
-
-Sigma is no longer in active use in Firo and this is maintained for posterity.
-
-**Pros:**
-
-*   No need for a mixer
-*   Very high anonymity with anonymity sets of up to around 100,000. Mint and spend transactions and completely breaks transaction links between addresses.
-*   Retains some degree of supply auditability since amounts are not hidden and coins have to be spent to base layer.
-*   Uses well-researched cryptography
-*   Small proof sizes of around 1.5 kB
-*   No trusted setup
-
-**Cons:**
-
-*   Still uses fixed denominations as in Zerocoin
-*	Doesn't hide amounts
-*   Some care is required when doing Sigma mints and spends. Users have to keep coins minted before they intend to spend to prevent timing attacks
-*   Difficult to scale past anonymity sets of 100,000 without cryptographic breakthrough
-
-[Sigma](https://firo.org/2019/03/20/what-is-sigma.html) is a privacy protocol developed and pioneered by Zcoin (now Firo) and works very similarly to Zerocoin. It has two key differentiators: it doesn't require trusted setup and its proof sizes are significantly smaller at around 1.5 kB (compared to Zerocoin's 25 kB). 
-
-Sigma is based on the academic paper [One-Out-Of-Many-Proofs: Or How to Leak a Secret and Spend a Coin (Jens Groth and Markulf Kohlweiss)](https://eprint.iacr.org/2014/764.pdf) which replaces RSA accumulators by utilizing Pedersen commitments and other techniques which cryptographic construction does not require trusted setup. The only system parameters required in the Sigma setup are ECC group specifications and the group generators. This construction was further optimized in the paper [Short Accountable Ring Signatures based on DDH (Jonathan Bootle, Andrew Cerulli, Pyrros Chaidos, Essam Ghadafi, Jens Groth and Christophe Petit).](https://eprint.iacr.org/2015/643.pdf) 
-
-Sigma is basically a greatly improved Zerocoin. It however still requires fixed denominations and doesn't hide amounts meaning that it can be easier to discern patterns of mints and spends if one is not careful and anonymity sets are limited to practically around 100,000 before performance degrades. 
-
-![](/guide/assets/privacy-technology-comparison/oneoutofmanyproofs.png)
+With full hidden values, [Mimblewimble doesn't have supply auditability as it relies on Bulletproofs/Confidential Transactions](https://medium.com/@nopara73/confidential-transactions-bulletproofs-the-elephant-in-the-room-cfdb37ce509) to check whether any additional coins have been created out of thin air. However the cryptography behind it is well understood.
 
 ## Evaluating Other Privacy Schemes and Why Isn’t My Favorite Privacy Coin Featured in This Article?
 
-All of the blockchain privacy schemes listed here are well reviewed by researchers and the concepts well understood. However, there are many coins in the privacy space but only a handful that really protect it. These are the key factors when coming across a new privacy mechanism:
+All of the blockchain privacy schemes listed here are well reviewed by researchers and the concepts well understood. However, there are many coins in the privacy space but only a handful that really protect it.
+
+For example coins such as Verge or DeepOnion do not have any onchain privacy mechanisms to hide the transaction graph or the amounts transacted and only have [stealth addresses](https://hackernoon.com/blockchain-privacy-enhancing-technology-series-stealth-address-i-c8a3eb4e4e43) that prevent address re-use and TOR/i2p integration that only prevents your IP address from being associated to a transaction. Identical levels of privacy can be obtained by using Bitcoin through TOR/i2p and using new addresses making their claims that they are "privacy coins" spurious. 
+
+These are the key factors when coming across a new privacy mechanism:
 
 *   **Does it offer privacy on the blockchain?** Some privacy coins market themselves as providing privacy but completely don't offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.
 *   **Is the privacy mechanism written by experts and reviewed?** Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
