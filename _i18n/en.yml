@@ -126,6 +126,8 @@ tech:
   heading1: Privacy is about staying one step ahead. The team behind Firo is responsible for some of the most significant blockchain privacy protocols on record, and all that tech is distilled into Firo.
   academicpapers: Academic Papers
   audits: Audits
+  sparklelantus1: Lelantus Spark Technology
+  sparklelantus2: Lelantus Spark greatly improves over its predecessor Lelantus with flexible Spark addresses that hide all transaction amounts, are not searchable on the blockchain while allowing efficient threshold signatures and both incoming and outgoing view key support. Spark also has a modular structure allowing components to be upgraded as better technology arises while simplifying security analysis. It retains the benefits of Lelantus with no trusted setup, an easy to understand construction and based on well established cryptographic assumptions.
   lelantus1: Lelantus Technology
   lelantus2: Lelantus is a next-generation privacy protocol developed by Aram Jivanyan at Firo. Lelantus allows you to burn your coins, which hides them in an anonymity set of over 65,000. The receiver can redeem it from this anonymity pool, which breaks the links from your transaction and all the previous ones it has been through.
   sigma1: Sigma Technology

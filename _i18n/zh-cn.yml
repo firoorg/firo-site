@@ -126,6 +126,8 @@ tech:
   heading1: 隐私重在保持领先一步。Firo 背后的团队充分研究有史以来的一些最重要的区块链隐私协议，这些技术都被提炼到 Firo 中。
   academicpapers: 学术论文
   audits: 审核
+  ssparklelantus1: Lelantus Spark Technology
+  sparklelantus2: Lelantus Spark greatly improves over its predecessor Lelantus with flexible Spark addresses that hide all transaction amounts, are not searchable on the blockchain while allowing efficient threshold signatures and both incoming and outgoing view key support. Spark also has a modular structure allowing components to be upgraded as better technology arises while simplifying security analysis. It retains the benefits of Lelantus with no trusted setup, an easy to understand construction and based on well established cryptographic assumptions.
   lelantus1: Lelantus 技术
   lelantus2: Lelantus 是 Firo 的 Aram Jivanyan 开发的下一代隐私协议。Lelantus 允许你烧掉你的币，它将币隐藏在一个超过 65000 个的匿名集中。接收者可以从这个匿名池中赎回它，它打破了你的交易和之前所有交易的链接。
   sigma1: Sigma 技术
