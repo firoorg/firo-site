@@ -2126,11 +2126,11 @@ a.btn-primary, a.btn-secondary {
     max-width: 63%;
 }
 
-.tech-section .tech > .row:last-of-type > .col {
-    padding: 0;
-    -ms-flex-preferred-size: 63%;
-    flex-basis: 63%;
-    max-width: 63%;
+.tech-section .tech > .row > .col {
+    padding-left: 0;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
 }
 
 .tech-section .tech > .row:first-of-type > .col:last-of-type {
