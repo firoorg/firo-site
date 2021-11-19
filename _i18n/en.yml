@@ -216,6 +216,10 @@ team:
     name: Aram Jivanyan
     title: Cryptographer
     bio: Aram is the creator of Firo's Lelantus and Lelantus Spark privacy protocols which has revived interest in one-out-of-many proofs and inspired other privacy protocols such as Triptych (Monero) and Lelantus-MW (Beam). He is also the founding CEO of Skycryptor, Techstars company pioneering the development of proxy re-encryption algorithms. Before founding Skycryptor, Aram worked as senior cryptography researcher and development team lead at the American University of Armenia where the scientific group conducted cryptography research for Fortune 1000 industrial partners. Aram's main research interest included white-box cryptography, searchable encryption methods, oblivious transfer protocols and cryptographic e-voting systems.
+  aregvrtanesyan:
+    name: Areg Vrtanesyan
+    title: Cryptography Researcher / Developer
+    bio: Areg is a cryptography engineer in firo and is currently majoring in Cybersecurity at YSU. Has experience in software engineering and back end programming in C++. His current interests are cryptography, information security and music.
   tigranmamikonyan:
     name: Tigran Mamikonyan
     title: Research
