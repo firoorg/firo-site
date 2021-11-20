@@ -216,6 +216,10 @@ team:
     name: Aram Jivanyan
     title: 密码学家
     bio: Aram 是 Firo 的 Lelantus 隐私协议的创造者，该协议重新激发了人们对 one-out-of-many 证明的兴趣，并启发了其他隐私协议，如 Triptych（Monero）和 Lelantus-MW（Beam）。他也是 Skycryptor 的创始 CEO，Techstars 公司开创了代理重加密算法的发展。在创建 Skycryptor 之前，Aram 在亚美尼亚美国大学担任高级密码学研究员和开发团队负责人，该科学小组为财富 1000 强的商业伙伴进行密码学研究。Aram 的主要研究兴趣包括白盒密码学、可搜索加密方法、不经意传输协议和加密电子投票系统。
+  aregvrtanesyan:
+    name: Areg Vrtanesyan
+    title: Cryptography Researcher / Developer
+    bio: Areg is a cryptography engineer in firo and is currently majoring in Cybersecurity at YSU. Has experience in software engineering and back end programming in C++. His current interests are cryptography, information security and music.
   tigranmamikonyan:
     name: Tigran Mamikonyan
     title: 研究
