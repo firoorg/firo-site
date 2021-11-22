@@ -4,7 +4,7 @@ title: "Firo's Future and Direction"
 summary: "Looking ahead to 2022"
 tags: [news, dev, community]
 author: "Reuben Yap"
-img: ""
+img: "/blog/assets/firo_looking_ahead_2022.png"
 ---
 As we approach the end of 2021, we wanted to share what Firo’s core team plans are for the upcoming year along with the general project direction.
 
