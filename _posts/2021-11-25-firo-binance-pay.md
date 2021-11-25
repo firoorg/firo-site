@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Firo integration into Binance Pay"
-summary: "Shop with crypto or send crypto to friends and family worldwide"
+summary: "Shop with Firo or send Firo to friends and family worldwide"
 tags: [news, dev, community]
 author: "Reuben Yap"
 img: "/blog/assets/firo_binance_pay_integration.png"
