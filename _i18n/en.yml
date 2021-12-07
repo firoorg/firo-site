@@ -156,10 +156,6 @@ team:
     name: Peter Shugalev
     title: Lead Developer
     bio: Peter is a highly skilled programmer and software architect with 20+ years of experience. He lives in Moscow, Russia, and graduated from Moscow State University magna cum laude with a Master's Degree in Computer Science and Mathematics. He has created network and security-related services, and has even created his own programming language and a cross-platform compiler for a signature-based intrusion detection system. His rare combination of cryptographic knowledge and programming has helped Firo stay at the forefront of on-chain privacy.
-  andreybezrukov:
-    name: Andrey Bezrukov
-    title: Developer
-    bio: Andrey has 17 years of experience in C++ and has worked for prestigious companies such as Deutsche Bank where he worked on an algorithmic trading platform and a flexible FX risk calculator. His tech stack includes C++11, C++14, Boost, STL, PostgreSQL and Linux. In his past time, Andrey also has experience in setting up cryptocurrency mining operations. As someone who has been involved with software development for forex, stock markets and algorithmic trading, Andrey has a keen interest in fintech and especially in cryptocurrencies which he believes will form the lifeblood of a new economy that enables free markets and economies. In that vein, he strongly believes in the need of privacy mechanisms on the blockchain. He was also behind Firo’s RAP address implementation with Lelantus support which is also the first C++ implementation of BIP47.
   levonpetrosyan:
     name: Levon Petrosyan
     title: Developer
@@ -168,14 +164,18 @@ team:
     name: Sproxet
     title: Developer
     bio: Sproxet is an anonymous developer that has worked on privacy preserving software for the past 15 years and has contributed significantly to Firo's Electron client. Sproxet is also the founder of Signal Eleven, an IT consultancy which focuses on computer security and auditing, software development and cryptographic systems architecture design.
-  hermeskhachatryan:
-    name: Hermes Khachatryan
-    title: Developer
-    bio: A software engineer with 3+years of experience. His background is in C++, C#, .Net programming. Hermes began his software engineering career in TeamViewer Armenia prior to joining Firo full time.
   gevorgmirzoyan:
     name: Gevorg Mirzoyan
     title: Developer
     bio: Gevorg is a software engineer who graduated from the Faculty of Applied Mathematics and Informatics,  Russian-Armenian (Slavonic) University. His tech stack includes C++, Unity and Linux. He has a passion for programming, hiking and games.
+  lc:
+    name: LC
+    title: Developer
+    bio: LC is an anonymous developer that is interested in the cross-section between government, politics, state power, and technology.  Drawing from philosophers like Foucault, Fisher, Ellul, Ranciere, he is interested in individual human freedom, so he naturally gravitates to crypto anarchy.  He focuses on computer security, philosophy, and Python software development.  He follows the cypherpunk Bitstream Podcast by Frank Braun & Jonathan 'smuggler' Logan. 
+  levonh: 
+    name: Levon Hovhannisyan
+    title: Developer
+    bio: Levon Hovhannisyan has over 6 years of professional experience, specifically in C++, algorithms and data structures. His tech stack includes but is not limited to the latest C++ standards, Python, Lua, Windows/Linux. During his professional career, Levon has also had experience in games and backend development. He graduated from Russian-Armenian (Slavonic) University and while studying Levon was involved in the competitive programming contests, including ACM ICPC, and the knowledge gained from them has helped him to become a professional lecturer and learning courses creator. He is also passionate about learning new technologies and software development practices, problem-solving and video games. 
   zorayrzakaryan:
     name: Zorayr Zakaryan
     title: Mobile Project Manager
