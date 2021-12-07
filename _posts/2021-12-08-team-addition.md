@@ -16,6 +16,6 @@ LC is an anonymous developer that is interested in the cross-section between gov
 
 Levon Hovhannisyan has over 6 years of professional experience, specifically in C++, algorithms and data structures. His tech stack includes but is not limited to the latest C++ standards, Python, Lua, Windows/Linux. During his professional career, Levon has also had experience in games and backend development. He graduated from Russian-Armenian (Slavonic) University and while studying Levon was involved in the competitive programming contests, including ACM ICPC, and the knowledge gained from them has helped him to become a professional lecturer and learning courses creator. He is also passionate about learning new technologies and software development practices, problem-solving and video games.
 
-![](/img/team/Areg-Vrtanesyan.png)
+![](/img/team/Areg.png)
 
 Areg is a cryptography engineer in Firo and is currently majoring in Cybersecurity at Yerevan State University. Has experience in software engineering and back end programming in C++. His current interests are cryptography, information security and music. 
