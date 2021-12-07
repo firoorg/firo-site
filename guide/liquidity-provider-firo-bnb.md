@@ -34,6 +34,8 @@ There are two ways to convert FIRO to BEP20 FIRO: Binance Bridge and Binance Exc
 
 ### Binance Bridge
 
+_**December 2021: Binance Bridge has been retired. You can convert native FIRO to BEP20 FIRO through FiroDEX or Binance Exchange**_
+
 1. Navigate to [Binance Bridge.](https://www.binance.org/en/bridge)
 
 2. Click on the Connect Wallet button and choose the Metamask wallet you have setup earlier. Unlock the wallet if requested.
