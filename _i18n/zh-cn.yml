@@ -156,10 +156,6 @@ team:
     name: Peter Shugalev
     title: 首席开发者
     bio: Peter 是一位拥有 20 多年经验的高技能程序员和软件架构师。他住在俄罗斯的莫斯科，以优异的成绩毕业于莫斯科国立大学，获得了计算机科学和数学的硕士学位。他创建了网络和安全相关的服务，甚至为基于签名的入侵检测系统创建了自己的编程语言和一个跨平台的编译器。他在密码学知识和编程方面的罕见结合，帮助 Firo 站在链上隐私的最前沿。
-  andreybezrukov:
-    name: Andrey Bezrukov
-    title: 开发者
-    bio: Andrey 在 C++ 方面有 17 年的经验，他曾为著名的公司工作，如德意志银行，在那里他从事算法交易平台和一个灵活的外汇风险计算器的工作。他的技术栈包括 C++11、C++14、Boost、STL、PostgreSQL 和 Linux。在过去的时间里，Andrey 也有建立加密货币挖矿业务的经验。作为一个参与过外汇、股票市场和算法交易等软件开发的人，Andrey 对金融科技特别是加密货币有着浓厚的兴趣，他认为加密货币将形成新经济的命脉，使自由市场和经济成为可能。在这一点上，他坚信区块链上的隐私机制的必要性。他也是 Firo 的支持 Lelantus 的 RAP 地址的实现的背后的人，这也是 BIP47 的第一个 C++ 实现。
   levonpetrosyan:
     name: Levon Petrosyan
     title: 开发者
@@ -168,14 +164,18 @@ team:
     name: Sproxet
     title: 开发者
     bio: Sproxet 是一位匿名的开发者，在过去的 15 年里一直从事隐私保护软件的工作，并为 Firo 的 Electron 客户端做出了重大贡献。Sproxet 也是 Signal Eleven 的创始人，这是一家 IT 咨询公司，专注于计算机安全和审计、软件开发和加密系统架构设计。
-  hermeskhachatryan:
-    name: Hermes Khachatryan
-    title: 开发者
-    bio: 一位有 3 年以上经验的软件工程师。他的背景是 C++、C#、.NET 编程。在全职加入 Firo 之前，Hermes 在 TeamViewer 亚美尼亚开始他的软件工程生涯。
   gevorgmirzoyan:
     name: Gevorg Mirzoyan
     title: 开发者
     bio: Gevorg 是一位软件工程师，毕业于俄罗斯-亚美尼亚（斯拉夫）大学应用数学和信息学系。他的技术栈包括 C++、Unity 和 Linux。他热衷于编程、徒步旅行和游戏。
+  lc:
+    name: LC
+    title: Developer
+    bio: LC is an anonymous developer that is interested in the cross-section between government, politics, state power, and technology.  Drawing from philosophers like Foucault, Fisher, Ellul, Ranciere, he is interested in individual human freedom, so he naturally gravitates to crypto anarchy.  He focuses on computer security, philosophy, and Python software development.  He follows the cypherpunk Bitstream Podcast by Frank Braun & Jonathan 'smuggler' Logan. 
+  levonh: 
+    name: Levon Hovhannisyan
+    title: Developer
+    bio: Levon Hovhannisyan has over 6 years of professional experience, specifically in C++, algorithms and data structures. His tech stack includes but is not limited to the latest C++ standards, Python, Lua, Windows/Linux. During his professional career, Levon has also had experience in games and backend development. He graduated from Russian-Armenian (Slavonic) University and while studying Levon was involved in the competitive programming contests, including ACM ICPC, and the knowledge gained from them has helped him to become a professional lecturer and learning courses creator. He is also passionate about learning new technologies and software development practices, problem-solving and video games. 
   zorayrzakaryan:
     name: Zorayr Zakaryan
     title: 移动项目经理
