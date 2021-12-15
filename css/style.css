@@ -1275,6 +1275,34 @@ a.btn-primary, a.btn-secondary {
     justify-content: space-between;
 }
 
+.desk-wallets.mob {
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 62rem) {
+    
+.desk-wallets.mob {
+    margin-top: 1rem;
+}   
+    
+}
+
+@media only screen and (max-width: 38rem) {
+    
+.desk-wallets.mob {
+    margin-top: 0rem;
+}   
+    
+}
+
+@media only screen and (max-width: 30rem) {
+    
+.desk-wallets.mob {
+    margin-top: 1rem;
+}   
+    
+}
+
 .desk-wallets .col {
     -ms-flex-preferred-size: 32%;
     flex-basis: 32%;
@@ -1283,6 +1311,10 @@ a.btn-primary, a.btn-secondary {
     padding: 0;
     border-radius: 10px;
     margin-bottom: 1rem;
+}
+
+.desk-wallets .col.ghost {
+    opacity: 0;
 }
 
 .desk-wallets p.tagline {
@@ -1347,6 +1379,10 @@ a.btn-primary, a.btn-secondary {
 
 .desk-wallets .col .inner .system.linux:before {
     background-image: url(../img/linux.svg);
+}
+
+.desk-wallets .col .inner .system.android:before {
+    background-image: url(../img/android.svg);
 }
     
 
