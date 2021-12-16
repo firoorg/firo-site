@@ -104,7 +104,16 @@ download:
   hasheswindows: 显示 Windows 版钱包的 SHA256 哈希
   hashesmac: 显示 macOS 版钱包的 SHA256 哈希
   hasheslinux: 显示 Linux 版钱包的 SHA256 哈希
-  wallets: 钱包
+  officialmobile: official mobile wallets
+  optionmob1: Android
+  androidmob: Android Wallet
+  downloadmobandroid: Download wallet
+  hashesandroid: Show SHA256 hashes for Android
+  optionmob2: iOS
+  iosmob: iOS Wallet
+  downloadmobios: Coming soon
+  hashesios: Show SHA256 hashes for iOS
+  wallets: third-party wallets
 
 buyfiro:
   heading: 买 Firo

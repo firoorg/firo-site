@@ -104,7 +104,16 @@ download:
   hasheswindows: Show SHA256 hashes for Windows
   hashesmac: Show SHA256 hashes for MacOS
   hasheslinux: Show SHA256 hashes for Linux
-  wallets: wallets
+  officialmobile: official mobile wallets
+  optionmob1: Android
+  androidmob: Android Wallet
+  downloadmobandroid: Download wallet
+  hashesandroid: Show SHA256 hashes for Android
+  optionmob2: iOS
+  iosmob: iOS Wallet
+  downloadmobios: Coming soon
+  hashesios: Show SHA256 hashes for iOS
+  wallets: third-party wallets
 
 buyfiro:
   heading: Buy Firo
