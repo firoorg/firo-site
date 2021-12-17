@@ -15,3 +15,7 @@ We are happy to release a refresh to our QT GUI to be more in line with Firo bra
 ![](/blog/assets/gui-refresh/qt-refresh-debug.png)
 
 A more modern looking simplified interface is also available via our Electron wallet and is the one we recommend to most users. We are working on bringing RAP address support to the Electron wallet soon!
+
+![](/blog/assets/electronpreview1.png)
+
+![](/blog/assets/electronpreview2.png)
