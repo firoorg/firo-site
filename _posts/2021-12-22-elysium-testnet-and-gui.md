@@ -13,7 +13,7 @@ We are also in the process of finalising the architecture for bridging assets fr
 
 To use Elysium on Testnet, see the instructions below. We are still fine tuning Elysium and appreciate any feedback or bug reports on [our Github.](https://github.com/firoorg/firo/issues)
 
-To start the wallet with Elysium on testnet
+## Starting the wallet with Elysium on testnet
 
 Windows:
 
@@ -26,6 +26,10 @@ Linux:
 MacOS:
 
 `./firo-qt -testnet -elysium`
+
+Please use the [testnet faucet](https://testexplorer.firo.org/faucet) to obtain testnet FIROs. If you require more, please contact Anwawar in the public Telegram or Discord channels.
+
+Transparent Elysium operations requires transparent FIRO while private Elysium operations requires private FIRO. Please anonymise as necessary.
 
 ![](/blog/assets/elysium-testnet/elysium-testnet-01.png)
 
