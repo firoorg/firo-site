@@ -27,9 +27,11 @@ MacOS:
 
 `./firo-qt -testnet -elysium`
 
-Please use the [testnet faucet](https://testexplorer.firo.org/faucet) to obtain testnet FIROs. If you require more, please contact Anwawar in the public Telegram or Discord channels.
+If you have trouble with MacOS security settings, please modify your **firo.conf** and add **testnet=1**
 
-Transparent Elysium operations requires transparent FIRO while private Elysium operations requires private FIRO. Please anonymise as necessary.
+Please use the [testnet faucet](https://testexplorer.firo.org/faucet) to obtain testnet FIROs. If you require more, please contact Anwar in the public Telegram or Discord channels.
+
+Transparent Elysium operations requires transparent FIRO in the address used while private Elysium operations requires private FIRO. Please anonymise as necessary.
 
 ![](/blog/assets/elysium-testnet/elysium-testnet-01.png)
 
