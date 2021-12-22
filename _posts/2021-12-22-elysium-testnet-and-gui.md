@@ -13,6 +13,8 @@ We are also in the process of finalising the architecture for bridging assets fr
 
 To use Elysium on Testnet, see the instructions below. We are still fine tuning Elysium and appreciate any feedback or bug reports on [our Github.](https://github.com/firoorg/firo/issues)
 
+**This release is for testnet only. DO NOT USE WITH YOUR MAINNET WALLET**
+
 ## Starting the wallet with Elysium on testnet
 
 Windows:
