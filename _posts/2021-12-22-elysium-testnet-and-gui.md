@@ -29,9 +29,15 @@ MacOS:
 
 If you have trouble with MacOS security settings, please modify your **firo.conf** and add **testnet=1**
 
+## Requirements
+
 Please use the [testnet faucet](https://testexplorer.firo.org/faucet) to obtain testnet FIROs. If you require more, please contact Anwar in the public Telegram or Discord channels.
 
 Transparent Elysium operations requires transparent FIRO in the address used while private Elysium operations requires private FIRO. Please anonymise as necessary.
+
+## Guide
+
+A rough guide to Elysium is [available here.](https://gist.github.com/sproxet/a39e152fdbc4e7d552d09bdbba881ad5) A more comprehensive guide is being worked on.
 
 ![](/blog/assets/elysium-testnet/elysium-testnet-01.png)
 
