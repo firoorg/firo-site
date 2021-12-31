@@ -23,7 +23,7 @@ Now is also a good time to have a quick recap of the many exciting things we ach
 [MTP Data Stripping](https://firo.org/2021/12/19/mtp-stripping-live-on-firo.html)
 [New wallet GUIs for Electron and QT](https://firo.org/2021/08/27/firo-client-release-210.html)
 [Elysium Privacy Infrastructure Layer Testnet](https://firo.org/2021/12/22/elysium-testnet-and-gui.html)
-[FiroDex Beta launch](https://githubplus.com/firoorg/FiroDEX-Desktop)
+[FiroDex Beta launch](https://github.com/firoorg/FiroDEX-Desktop)
 
 ## Community and Partnerships
 
