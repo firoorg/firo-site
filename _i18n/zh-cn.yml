@@ -60,16 +60,17 @@ home:
   cta1: 获取 Firo
   cta2: 了解更多
   privacy: 隐私
-  privacy1: Firo，原 Zcoin，自 2016 年以来一直是无需信任的链上隐私的黄金标准。
+  privacy1: Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.
   privacy2: 匿名集
   privacy3: 无预信任机制
   blockchain: 区块链
-  blockchain1: Firo 的激励基础设施使其拥有业界领先的实用匿名集。
+  blockchain1: Firo uses a hybrid PoW and LLMQ Chainlocks system combining fair distribution of supply with protection against 51% attacks and quick finality of transactions.
   blockchain2: 总供应量
   blockchain3: 工作量证明
   blockchain4: 主节点
+  privacyin1: Firo's Elysium tokenization layer allows users to create their own privacy-enabled tokens with use-cases from private stablecoins or voting tokens and in the future offer privacy for bridged assets from other chains.
   randd: 研究与开发
-  randd1: Firo 是少数真正对区块链隐私和去中心化技术进行独立研究和开发的项目之一。
+  randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies  such as Sigma, Lelantus, Lelantus Spark and MTP Our work has played a pivotal role in the space having influenced or been adopted in other projects.
   getfiro: 获取 Firo
   getfiro1: 挺进数字隐私的前沿。立即加入 Firo 生态系统。
   getfiro2: 获取钱包

@@ -60,16 +60,18 @@ home:
   cta1: Get Firo
   cta2: Learn More
   privacy: Privacy
-  privacy1: Firo, formerly Zcoin, has been the gold standard of trustless, on-chain privacy since 2016.
+  privacy1: Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.
   privacy2: anonymity set
   privacy3: trustless setup
   blockchain: Blockchain
-  blockchain1: Firo’s incentive infrastructure gives it the industry-leading practical anonymity set.
+  blockchain1: Firo uses a hybrid PoW and LLMQ Chainlocks system combining fair distribution of supply with protection against 51% attacks and quick finality of transactions.
   blockchain2: total supply
   blockchain3: proof of work
   blockchain4: master nodes
-  randd: Research and development
-  randd1: Firo is one of the few that actually contributes both independent research and development to blockchain privacy and decentralization technologies.
+  privacyin: Privacy Infrastructure
+  privacyin1: Firo's Elysium tokenization layer allows users to create their own privacy-enabled tokens with use-cases from private stablecoins or voting tokens and in the future offer privacy for bridged assets from other chains.
+  randd: Research and Development
+  randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies  such as Sigma, Lelantus, Lelantus Spark and MTP Our work has played a pivotal role in the space having influenced or been adopted in other projects.
   getfiro: get firo
   getfiro1: Push the frontiers of digital privacy. Join the Firo ecosystem today.
   getfiro2: Get a wallet
