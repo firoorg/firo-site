@@ -8,7 +8,7 @@ alt: ""
 ---
 We are excited to join the [Binance Smart Chain](https://www.binance.org/en/smartChain) DeFi ecosystem with the introduction of BEP-20 FIRO and its support in [Binance Bridge](https://www.binance.org/en/bridge) which provides access to inter-blockchain liquidity. 
 
-_**December 2021: Binance Bridge has been retired. You can convert native FIRO to BEP20 FIRO through FiroDEX or Binance Exchange**_
+_**December 2021: Binance Bridge has been retired. You can convert native FIRO to BEP20 FIRO through [FiroDEX](https://github.com/firoorg/FiroDEX-Desktop/releases/tag/0.5.2-beta) or Binance Exchange**_
 
 Binance Bridge provides a seamless platform where native FIRO can be converted into BEP-20 FIRO or vice versa. You can learn more about Binance Bridge with [this video.](https://fast.wistia.net/embed/iframe/fhip2z4nth)
 
