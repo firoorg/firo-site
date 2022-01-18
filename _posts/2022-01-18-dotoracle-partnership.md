@@ -26,7 +26,7 @@ Telegram https://t.me/dotoracle
 Twitter https://twitter.com/DotOracle  
 Medium https://medium.com/@dotoracle.network  
 
-##About Firo  
+## About Firo  
 
 Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.Firo uses a hybrid PoW and LLMQ Chainlocks system combining the fair distribution of supply with protection against 51% attacks and quick finality of transactions  
 
