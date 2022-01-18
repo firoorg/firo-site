@@ -6,7 +6,7 @@ tags: [news, dev, community]
 author: "Reuben Yap"
 img: "/blog/assets/firo-dotoracle-elysium-upd.png"
 ---
-We are pleased to announce the partnership between Firo & [DotOracle Network](https://dotoracle.network/)that opens up the door for assets from other chains to be bridged over to Elysium. 
+We are pleased to announce the partnership between Firo & [DotOracle Network](https://dotoracle.network/) that opens up the door for assets from other chains to be bridged over to Elysium. 
 
 One of DotOracle’s aims is to create a liquidity network layer that transfers digital assets back-and-forth between various blockchains such as Ethereum, Polkadot, Avalanche, Moonbeam, BSC, Polygon, Fantom and Tomochain. With our partnership, a privacy stablecoin bridge will be established on Firo’s Elysium layer. Elysium’s purpose within the DotOracle Ecosystem will be to act as a privacy enabler for the integrated L1s on DotOracle with an initial focus on stable-coins. 
 
