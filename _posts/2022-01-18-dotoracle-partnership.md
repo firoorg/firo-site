@@ -21,13 +21,13 @@ We expect Elysium’s integration into DotOracle to be completed in the coming w
 DotOracle is a real-time decentralized Oracle and Cross-chain liquidity network for the Polkadot Ecosystem. DotOracle allows the real world to be connected to the Polkadot ecosystem by providing a decentralized oracle service to transfer information faster and more efficiently from the real world to Polkadot in real-time. Also, DotOracle bridges liquidity and digital assets from different blockchains to the Polkadot ecosystem through the MoonBeam parachain. Read more about our docs: https://docs.dotoracle.network/
 
 Find out more about DotOracle on:
-Website https://dotoracle.network/  
-Telegram https://t.me/dotoracle  
-Twitter https://twitter.com/DotOracle  
-Medium https://medium.com/@dotoracle.network  
+Website: [](https://dotoracle.network/)  
+Telegram: [](https://t.me/dotoracle)  
+Twitter: [](https://twitter.com/DotOracle)  
+Medium: [](https://medium.com/@dotoracle.network)  
 
 ## About Firo  
 
 Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.Firo uses a hybrid PoW and LLMQ Chainlocks system combining the fair distribution of supply with protection against 51% attacks and quick finality of transactions  
 
-Read more: https://firo.org/
+Read more:[](https://firo.org/)
