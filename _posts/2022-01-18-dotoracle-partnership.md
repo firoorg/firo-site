@@ -18,7 +18,7 @@ We expect Elysium’s integration into DotOracle to be completed in the coming w
 
 ## About DotOracle  
 
-DotOracle is a real-time decentralized Oracle and Cross-chain liquidity network for the Polkadot Ecosystem. DotOracle allows the real world to be connected to the Polkadot ecosystem by providing a decentralized oracle service to transfer information faster and more efficiently from the real world to Polkadot in real-time. Also, DotOracle bridges liquidity and digital assets from different blockchains to the Polkadot ecosystem through the MoonBeam parachain. Read more about our docs: https://docs.dotoracle.network/
+DotOracle is a real-time decentralized Oracle and Cross-chain liquidity network for the Polkadot Ecosystem. DotOracle allows the real world to be connected to the Polkadot ecosystem by providing a decentralized oracle service to transfer information faster and more efficiently from the real world to Polkadot in real-time. Also, DotOracle bridges liquidity and digital assets from different blockchains to the Polkadot ecosystem through the MoonBeam parachain. Read more about our docs: [https://docs.dotoracle.network/](https://docs.dotoracle.network/)  
 
 Find out more about DotOracle on:  
 Website: [https://dotoracle.network/](https://dotoracle.network/)  
