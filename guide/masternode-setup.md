@@ -21,6 +21,7 @@ You should only need to provide your address that you collateraled your FIRO in 
 **Disclosure:** Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
 
 *   [Allnodes](https://www.allnodes.com/?utm_source=zcoinio&utm_medium=setup-guide)
+*   [Flux](https://home.runonflux.io/apps/marketplace)
 *   [HostingKing](http://www.hostingking.com)  by [perrykmm#2742](mailto:hello@hostingking.com) (Discord)
 *   [Masternodes Germany](https://masternodes-germany.de)
 *   [Masternodehosting](https://masternodehosting.com/) (by Flare)
