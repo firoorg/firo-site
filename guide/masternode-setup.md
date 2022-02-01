@@ -93,7 +93,9 @@ _a, b, and c can be generated through Receive tab or the Debug Window, just like
 
 #### a. ownerAddress
 
-Proof that you own the masternode. Must be in the same wallet as collateral. **DON'T SEND COINS TO THE OWNERADDRESS. DON'T USE IT AS PAYOUT ADDRESS. DO NOT USE THIS ADDRESS FOR ANY OTHER PURPOSE!**
+Proof that you own the masternode. Must be in the same wallet as collateral. **DO NOT USE THE COLLATERAL ADDRESS AS OWNER ADDRESS.**
+
+**DO NOT SEND COINS TO THE OWNER ADDRESS. DO NOT USE IT AS PAYOUT ADDRESS. DO NOT USE THIS ADDRESS FOR ANY OTHER PURPOSE.**
 
 #### b. payoutAddress
 
