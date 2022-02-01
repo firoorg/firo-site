@@ -93,7 +93,9 @@ _a, b, and c can be generated through Receive tab or the Debug Window, just like
 
 #### a. ownerAddress
 
-Proof that you own the masternode. Must be in the same wallet as collateral. **DON'T SEND COINS TO THE OWNERADDRESS. DON'T USE IT AS PAYOUT ADDRESS. DO NOT USE THIS ADDRESS FOR ANY OTHER PURPOSE!**
+Proof that you own the masternode. Must be in the same wallet as collateral. **DO NOT USE THE COLLATERAL ADDRESS AS OWNER ADDRESS.**
+
+**DO NOT SEND COINS TO THE OWNER ADDRESS. DO NOT USE IT AS PAYOUT ADDRESS. DO NOT USE THIS ADDRESS FOR ANY OTHER PURPOSE.**
 
 #### b. payoutAddress
 
@@ -135,13 +137,13 @@ There are many providers to choose out there.
 Select a VPS package that meets the minimum requirements:
 
 *   1 GB of RAM (2 GB recommended)
-*   100+ GB of disk space (blockchain is currently 49GB in April 2021)
+*   25 GB of disk space (blockchain size is currently 4GB in February 2022)
 
-**Note:** The blockchain will grow at a rate of about 20 GB per year. Please make sure you pick a VPS with sufficient disk space. 
+**Note:** With FiroPoW, the blockchain grows at a rate of about 1 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
 When choosing a server, please remember reliability is more important than price. If your masternode goes offline, you will potentially miss out on payouts which would be more than your VPS cost. 
 
-Pick **Ubuntu 18.04 64-bit** and install it. 
+Pick **Ubuntu 20.04 64-bit** and install it. 
 
 Once it is done, the VPS provider should give you a username (usually root) and a password. Use a SSH client like [Putty](http://www.putty.org/) or if the VPS provider provides, it open up a console window.
 
@@ -265,7 +267,7 @@ Press **Ctrl-X** to save and press **Y** to confirm it.
 
 Type following commands to start your firod daemon and let it sync. This will take a few hours. 
 
-`cd ~/firo-2e2c2ff059ef/bin`
+`cd ~/firo-82a9a564c0a1/bin`
 
 `./firod -daemon`
 
