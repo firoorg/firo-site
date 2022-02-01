@@ -143,7 +143,7 @@ Select a VPS package that meets the minimum requirements:
 
 When choosing a server, please remember reliability is more important than price. If your masternode goes offline, you will potentially miss out on payouts which would be more than your VPS cost. 
 
-Pick **Ubuntu 18.04 64-bit** and install it. 
+Pick **Ubuntu 20.04 64-bit** and install it. 
 
 Once it is done, the VPS provider should give you a username (usually root) and a password. Use a SSH client like [Putty](http://www.putty.org/) or if the VPS provider provides, it open up a console window.
 
