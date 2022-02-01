@@ -137,9 +137,9 @@ There are many providers to choose out there.
 Select a VPS package that meets the minimum requirements:
 
 *   1 GB of RAM (2 GB recommended)
-*   100+ GB of disk space (blockchain is currently 49GB in April 2021)
+*   25 GB of disk space (blockchain size is currently 4GB in February 2022)
 
-**Note:** The blockchain will grow at a rate of about 20 GB per year. Please make sure you pick a VPS with sufficient disk space. 
+**Note:** With FiroPoW, the blockchain grows at a rate of about 1 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
 When choosing a server, please remember reliability is more important than price. If your masternode goes offline, you will potentially miss out on payouts which would be more than your VPS cost. 
 
