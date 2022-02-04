@@ -2803,6 +2803,10 @@ a.btn-primary, a.btn-secondary {
     margin-top: 3rem;
 }
 
+.blog-section .col.post-page.policy .post-body {
+    margin-top: 0;
+}
+
 .blog-section .col.post-page .post-body img {
     max-width: 100%;
     width: auto;
