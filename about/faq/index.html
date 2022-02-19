@@ -122,9 +122,8 @@ permalink: /about/faq/index.html
                             <input type="checkbox" id="q8">
                             <label class="tab-label" for="q8"><h4>What is FiroPoW?</h4></label>
                             <div class="tab-content">
-                                <p>FiroPoW is Firo's new mining algorithm that will replace Firo’s current mining algorithm: MTP (Merkle Tree Proof). It is highly optimized for GPU mining and designed to be both FPGA and ASIC resistant to even the playing field and allow people to mine from their own consumer hardware. We have always been big fans of Proof of Work’s ability to tie the value of a virtual currency to the real world along with a way to distribute Firo’s supply in a fair and decentralized manner free from restrictions.</p>
+                                <p>FiroPoW is a mining algorithm that&nbsp;is highly optimized for GPU mining and designed to be both FPGA and ASIC resistant to even the playing field and allow people to mine from their own consumer hardware. We have always been big fans of Proof of Work’s ability to tie the value of a virtual currency to the real world along with a way to distribute Firo’s supply in a fair and decentralized manner free from restrictions.</p>
                                 <p>FiroPoW follows <a href="https://github.com/ifdefelse/ProgPOW">ProgPoW’s 0.9.4</a> spec with a small change to have the algorithm randomly change with every block. The starting DAG size will be slightly over 4GB and will increase by 8MB every 1300 blocks (~4.5 days). This DAG size has been chosen to support most modern graphics cards.</p>
-                                <p>FiroPoW blocks (excluding transactions) are ~500x smaller than MTP which greatly reduces blockchain bloat and network bandwidth requirements. The gap between Nvidia and AMD graphics cards is also narrowed allowing more users to mine competitively.</p>
                                 <div class="iframe-embed"><iframe src="https://www.youtube.com/embed/DAJirQaBIzY?feature=oembed&amp;wmode=transparent" allowfullscreen="" data-aspectratio="0.562962962962963" style="width: 0px; height: 0px; opacity: 1; visibility: visible;" frameborder="0"></iframe></div>
                             </div>
                           </div>
@@ -155,6 +154,18 @@ permalink: /about/faq/index.html
                                 <p>Firo allows you to burn your coins to destroy them so that they stop existing and then redeem them later for coins that have no previous transaction history. The process of burning and redeeming breaks the links between addresses making transaction graph analysis very difficult.</p>
                                 <p>The burning process destroys the coin so that they stop existing and therefore their transaction history stops there and cannot be traced.</p>
                                 <p>The redemption process involves giving a zero-knowledge proof that you previously burnt coins, without having to show which were the coins you burnt. The freshly redeemed coins appear as new coins with no previous transaction history and hence have no linkage with the original coins that were burnt.</p>
+                            </div>
+                          </div>
+						  <div class="tab">
+                            <input type="checkbox" id="q11">
+                            <label class="tab-label" for="q11"><h4>Why aren't Firo transactions private by default?</h4></label>
+                            <div class="tab-content">
+                                <p>The short answer is that previous, our earlier privacy protocols made this difficult but we are moving towards it especially with the deployment of Lelantus Spark! All our official wallets already anonymize or prompt you to do so using Lelantus v1 by default but Lelantus Spark with its new private Spark address system makes it much easier to fully transition to privacy by default.</p>
+                                <p>When the project first launched in 2016, it used the Zerocoin privacy protocol, originally a proposal for Bitcoin which used regular transparent addresses and therefore did not hide amounts. With zero knowledge proof technology in its infancy, back then we felt it was prudent to balance privacy with supply auditability to ensure we could detect inflation should there be a flaw in the technology.</p>
+								<p>We then dedicated development to removing trusted setup from Zerocoin and did so with our Sigma privacy protocol but it retained the same limitations of Zerocoin with regards to hiding amounts. With the development of Lelantus, our current privacy protocol, input and change amounts are hidden but the output amount remains exposed. Additionally, the anonymization function in Lelantus requires the users private key and therefore required user input to anonymize.</p>
+                                <p>With the development of Lelantus Spark, this new scheme retained all the benefits of our previous schemes namely high anonymity sets, small proof sizes, high efficiency, no trusted setup, well understood cryptographic building blocks and added Spark addresses which allows funds to be kept privately without revealing amounts and can be freely shared without compromising privacy. Users can send funds directly to Spark addresses and have them anonymized immediately without needing recipient interaction.</p>
+								<p>With the deployment of Lelantus Spark later this year (2022), all our official wallets will by default use Spark addresses and all mining rewards will mandatorily go to Spark addresses increasing the anonymity set. We will also approach exchanges to support withdrawals to Spark addresses. Some time after Spark deployment, Helsing (our private masternode staking) will then be launched allowing masternode collateral to be held in Spark addresses and for masternode rewards to go into Spark addresses directly. We are hopeful with these changes that the vast majority of transactions will become private.</p>
+								<p>During the interim, transparent addresses still have a role to play in enabling easier interoperability with other chains where those ecosystems already have implemented support for Bitcoin addresses for e.g. with cross-chain bridges. Eventually as the ecosystem catches up to using Spark addresses, transparent addresses can be phased out completely.</p>
                             </div>
                           </div>
                           <div class="tab">
@@ -252,7 +263,7 @@ permalink: /about/faq/index.html
                             <input type="checkbox" id="q18">
                             <label class="tab-label" for="q18"><h4>How can I get involved with the Firo community?</h4></label>
                             <div class="tab-content">
-                                <p>You can check out them <a href="https://firo.org/community/social/">here.</a></p>
+                                <p>We have active communities on our <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a>, <a href="https://t.me/firoorg">Telegram</a> and <a href="https://forum.firo.org">Forums</a>! You can check out all our social links <a href="https://firo.org/community/social/">here.</a></p>
                             </div>
                           </div>
                         </div>
@@ -319,35 +330,28 @@ permalink: /about/faq/index.html
                             <label class="tab-label" for="q23"><h4>How do I set up a Firo masternode?</h4></label>
                             <div class="tab-content">
                                 <p>Please refer to this <a href="https://firo.org/guide/masternode-setup.html">masternode setup guide</a>.</p>
-                                <p>There will also be a number of Masternodes providers who can simplify the process for you for a fee.</p>
+                                <p>There will also be a number of masternode hosting providers who can simplify the process for you for a fee.</p>
                             </div>
                           </div>
                           <div class="tab">
                             <input type="checkbox" id="q24">
                             <label class="tab-label" for="q24"><h4>How much are the rewards from hosting a masternode?</h4></label>
                             <div class="tab-content">
-                                <p>35%of the block reward is paid to masternodes. Masternodes are put in a queue and take turns to receive this block reward in return for hosting a masternodes that hosts a complete copy of the blockchain and helps store and propagate blocks to the network.</p>
-                                <p>Once they are in the top 10% of the queue, there is a degree of randomness in being selected as it uses the block hash entropy to pick the winner deterministically.</p>
-                                <p>The frequency of the block payout depend on how many active Masternodes there are. The more masternodes there are, the longer it takes to receive the masternode block reward.</p>
-                                <p>To get a more in-depth understanding of the process, please read our article&nbsp;<a href="https://zcoin.io/understanding-znode-payments/" target="_blank" rel="noopener">Understanding Masternodes Payments</a>.</p>
-                                <p>There are third party tools that estimate the frequency of masternode block rewards payouts and other masternode statistics:</p>
-                                <ul>
-                                    <li><a href="https://zednode.com/znode-stats">Zednode</a></li>
-                                    <li><a href="https://znodestatus.privex.io/">Privex</a></li>
-                                    <li><a href="https://masternodes.online/currencies/FIRO/">Masternodes Online</a></li>
-                                </ul>
+                                <p>35% of the block reward is paid to masternodes.</p>
+                              <p>Masternodes are selected for payment in each block (approximately every 5 minutes) from a deterministic masternode list, and moved to the back of the list after payment. As more masternodes are created, the duration between payments increases. If the collateral behind a masternode is spent, or if a masternode stops providing services to the network for more than one hour, it is removed from the list until normal service resumes. In this way, masternodes are given incentive to provide efficient and reliable services to the network.                              </p>
+                              <p>The frequency of the block payout depend on how many active Masternodes there are. The more masternodes there are, the longer it takes to receive the masternode block reward.                            </p>
                             </div>
                           </div>
                           <div class="tab">
                             <input type="checkbox" id="q25">
                             <label class="tab-label" for="q25"><h4>What do I need to host a Firo masternode?</h4></label>
                             <div class="tab-content">
-                                <p>A masternode requires</p>
+                                <p>A Firo masternode requires</p>
                                 <ul>
                                     <li>1000 FIRO (refundable at any time)</li>
-                                    <li>A computer or VPS with a fixed IP address</li>
+                                    <li>A fixed IP address</li>
                                     <li>1 GB of RAM</li>
-                                    <li>Enough disk space to store the blockchain (50gb is recommended for the moment)</li>
+                                    <li>Enough disk space to store the blockchain (&gt;10 gb is recommended for the moment)</li>
                                 </ul>
                                 <p>Typically a VPS of this specification costs around USD5 to run a month per node and you can head on to Amazon AWS, Google Cloud, Microsoft Azure, Leaseweb, <a href="https://www.vultr.com/?ref=6847471">Vultr,</a> <a href="https://www.linode.com/?r=af3000184137a5eedea8fcfd03fd48f36b8471a3">Linode</a>, or <a href="https://m.do.co/c/f89c8c2af033">DigitalOcean</a> to obtain a basic VPS when masternodes are launched. There will also be masternodes providers who can assist you to set this up and/or maintain it for a small fee.</p>
                             </div>
@@ -377,7 +381,7 @@ permalink: /about/faq/index.html
                             <input type="checkbox" id="q27">
                             <label class="tab-label" for="q27"><h4>I have a question that is not listed here, please help!</h4></label>
                             <div class="tab-content">
-                                <p>Please drop by our <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a> or <a href="https://riot.im/app/#/room/#zcoin:matrix.org">Riot</a> to ask any questions!</p>
+                                <p>Please drop by our <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a> or <a href="https://t.me/firoorg">Telegram</a> to ask any questions!</p>
                             </div>
                           </div>
                         </div>
