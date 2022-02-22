@@ -18,4 +18,8 @@ FiroDEX also enables Liquidity Multiplication, a protocol that allows the same f
 
 You can download the latest FiroDEX on the [Github Release page](https://github.com/firoorg/FiroDEX-Desktop/releases)! Mobile versions are also coming soon and are in testing now! While FiroDEX is still in beta stage, all core functionality is there. The underlying DEX infrastructure has been [stress tested](https://komodoplatform.com/en/blog/atomicdex-stress-test-initial-results/) and has seen peak swaps of 10,000 swaps per minute. We are proud to be working with the AtomicDEX team to support and build decentralized crypto infrastructure.  
 
+![](/blog/assets/firodexa.png)  
+
+![](/blog/assets/firodexb.png)
+
 We encourage our community to provide liquidity to FiroDEX by placing buy/sell orders on FIRO pairs!  
