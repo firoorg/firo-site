@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FiroDEX: Atomic swap powered DEX release"
+title: "FiroDEX: Atomic swap powered DEX released"
 summary: "Trustless decentralized swaps using atomic swaps with FiroDEX!"
 tags: [news, dev, community]
 author: "Reuben Yap"
