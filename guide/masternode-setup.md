@@ -41,7 +41,7 @@ If you haven't done so already, make sure you encrypt your wallet on your **loca
 
 Go to **Settings > Encrypt Wallet.** 
 
-![](/guide/assets/masternode-setup/encryptwallet.png) 
+![](/guide/assets/masternode-setup/encryptwallet_firo.png) 
 
 After you have encrypted your wallet, it is also recommended to do a backup via **File > Backup Wallet**. It is recommended to store this wallet on a separate physical drive or pen drive. The wallet.dat is encrypted so even if the wallet.dat is exposed, if your password is long enough, it will be secure.
 
@@ -77,7 +77,7 @@ If you are doing more than one masternode, special care is required to ensure th
 
 To do this, on your **local desktop wallet** turn on coin control by going to **Settings > Options > Wallet** and click on **Enable coin control features.** This will enable control of which funds you are using when making your next 1000 FIRO collateral. 
 
-![](/guide/assets/masternode-setup/coincontrol.png) 
+![](/guide/assets/masternode-setup/coincontrol_firo.png) 
 
 Then go to your Send tab, and you will see **Coin Control Features**. Click on **Inputs**. You should see your 1000 FIRO collateral there. Right click and click **Lock Unspent**. This means that when making your new collateral, your wallet will not touch these funds. 
 
