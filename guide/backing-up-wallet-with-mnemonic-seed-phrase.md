@@ -14,13 +14,13 @@ This allows you to easily store a backup of your wallet offline as well as resto
 
 ## Creating a new wallet with a mnemonic seed phrase
 
-![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_01.png) 
+![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_firo01.png) 
 
 1. Select "**Create a new wallet**". 
 
 2. Choose either 12 or 24 words seed. 24 words seed is selected by default although 12 word seed is also available for compatibility reasons. A 24 word seed provides 256-bit security while a 12 word seed provides 128-bit security.
 
-![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_02.png)
+![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_firo02.png)
 
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
 
@@ -34,7 +34,7 @@ You can also add a mnemonic passphrase by checking the "Use seed passphrase" box
 
 ## Restoring wallet from seed phrase
 
-![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_03.png) 
+![](/guide/assets/backing-up-wallet-with-mnemonic-seed-phrase/seed_firo03.png) 
 
 **WARNING:** Do not use the mnemonic words in the example above! If you do, your funds will be gone!
 
