@@ -1393,6 +1393,20 @@ a.btn-primary, a.btn-secondary {
     font-size: 1.1rem;
 }
 
+.desk-wallets .col .inner .system.camp {
+    padding-left: 5rem;
+    padding-top: 0;
+}
+
+.desk-wallets .col .inner .system.camp:before {
+    left: 2rem;
+    top: 0.5rem;
+}
+
+.desk-wallets .col .inner .system.camp > a {
+    line-height: 3rem;
+}
+
 .desk-wallets .col .inner .system input {
   position: absolute;
   opacity: 0;
@@ -1638,6 +1652,18 @@ a.btn-primary, a.btn-secondary {
     font-size: 1.2rem;
 }
     
+.desk-wallets .col .inner .system.camp > a {
+    line-height: 4rem;
+}
+    
+.desk-wallets .col .inner .system.camp::before {
+    left: 0;
+}
+    
+.desk-wallets .col .inner .system.camp {
+    padding-left: 4rem;
+}
+    
 }
 
 @media only screen and (max-width: 48rem) {   
@@ -1716,6 +1742,14 @@ a.btn-primary, a.btn-secondary {
     left: 1rem;
     width: 2.3rem;
     height: 2.3rem;
+}
+    
+.desk-wallets .col .inner .system.camp > a {
+    line-height: 3rem;
+}
+    
+.desk-wallets .col .inner .system.camp::before {
+    left: 1rem;
 }
     
 } 

@@ -115,6 +115,9 @@ download:
   iosmob: iOS Wallet
   downloadmobios: Coming soon
   hashesios: Show SHA256 hashes for iOS
+  optionmob3: Android
+  campfiremob: Campfire Wallet
+  downloadmobcamp: Download Android wallet
   wallets: third-party wallets
 
 buyfiro:
