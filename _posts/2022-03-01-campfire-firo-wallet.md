@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Campfire, a private by default, open source Firo mobile wallet ""
+title: "Campfire, a private by default, open source Firo mobile wallet"
 summary: ""
 tags: [news, dev, community]
 author: "Reuben Yap"
