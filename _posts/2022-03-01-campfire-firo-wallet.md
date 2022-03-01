@@ -12,6 +12,6 @@ Campfire anonymizes all FIRO by default and works with both Android and IOS. Cam
 
 The Firo core team would like to extend thanks to Cypher Stack and The Arcadia Group for funding this wallet development and developing an excellent third party open sourced wallet to join the Firo ecosystem.  
 
-[](/blog/assets/campfirescreens.png)
+![](/blog/assets/campfirescreens.png)
 
 The Android version is available on the [Google PlayStore](https://play.google.com/store/apps/details?id=com.cypherstack.campfire) today. IOS support is coming soon. Code can be viewed on their [Github](https://github.com/cypherstack/Campfire).  
