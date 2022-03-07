@@ -60,19 +60,20 @@ home:
   cta1: 获取 Firo
   cta2: 了解更多
   privacy: 隐私
-  privacy1: Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.
+  privacy1: Firo 处于加密货币隐私的最前沿，Lelantus 和 Lelantus Spark 提供具有高匿名集的无需信任的链上隐私。Dandelion++ 技术还提供网络层隐私。
   privacy2: 匿名集
   privacy3: 无预信任机制
   blockchain: 区块链
-  blockchain1: Firo uses a hybrid PoW and LLMQ Chainlocks system combining fair distribution of supply with protection against 51% attacks and quick finality of transactions.
+  blockchain1: Firo 使用混合 PoW 和 LLMQ ChainLocks 系统，将供应的公平分发与对 51% 攻击的保护和交易的快速最终确定相结合。
   blockchain2: 总供应量
   blockchain3: 工作量证明
   blockchain4: 主节点
-  privacyin1: Firo's Elysium tokenization layer allows users to create their own privacy-enabled tokens with use-cases from private stablecoins or voting tokens and in the future offer privacy for bridged assets from other chains.
+  privacyin: 隐私基础设施
+  privacyin1: Firo 的 Elysium 代币化层允许用户创建自己的具有隐私功能的代币，其用途包括隐私稳定币或投票代币，并在未来为来自其他链的桥接资产提供隐私。
   randd: 研究与开发
-  randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies  such as Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
+  randd1: Firo 是为数不多的对区块链隐私和去中心化技术（如 Sigma、Lelantus、Lelantus Spark 和 MTP）贡献独立研究的项目之一。我们的工作在这一领域发挥了关键作用，影响了其他项目或被其他项目采用。
   getfiro: 获取 Firo
-  getfiro1: 挺进数字隐私的前沿。立即加入 Firo 生态系统。
+  getfiro1: 开拓数字隐私前沿。立即加入 Firo 生态系统。
   getfiro2: 获取钱包
   getfiro3: 买 Firo
   getfiro4: 赚 Firo
@@ -105,16 +106,19 @@ download:
   hasheswindows: 显示 Windows 版钱包的 SHA256 哈希
   hashesmac: 显示 macOS 版钱包的 SHA256 哈希
   hasheslinux: 显示 Linux 版钱包的 SHA256 哈希
-  officialmobile: official mobile wallets
+  officialmobile: 官方手机钱包
   optionmob1: Android
-  androidmob: Android Wallet
-  downloadmobandroid: Download wallet
-  hashesandroid: Show SHA256 hashes for Android
+  androidmob: Android 钱包
+  downloadmobandroid: 下载钱包
+  hashesandroid: 显示 Android 版钱包的 SHA256 哈希
   optionmob2: iOS
-  iosmob: iOS Wallet
-  downloadmobios: Coming soon
-  hashesios: Show SHA256 hashes for iOS
-  wallets: third-party wallets
+  iosmob: iOS 钱包
+  downloadmobios: 即将推出
+  hashesios: 显示 iOS 版钱包的 SHA256 哈希
+  optionmob3: Android
+  campfiremob: Campfire 钱包
+  downloadmobcamp: 下载 Android 钱包
+  wallets: 第三方钱包
 
 buyfiro:
   heading: 买 Firo
@@ -133,11 +137,11 @@ buyfiro:
 
 tech:
   heading: 研究
-  heading1: 隐私重在保持领先一步。Firo 背后的团队充分研究有史以来的一些最重要的区块链隐私协议，这些技术都被提炼到 Firo 中。
+  heading1: 隐私重在保持领先一步。Firo 背后的团队负责有史以来的一些最重要的区块链隐私协议，这些技术都被提炼到 Firo 中。
   academicpapers: 学术论文
   audits: 审核
-  ssparklelantus1: Lelantus Spark Technology
-  sparklelantus2: Lelantus Spark greatly improves over its predecessor Lelantus with flexible Spark addresses that hide all transaction amounts, are not searchable on the blockchain while allowing efficient threshold signatures and both incoming and outgoing view key support. Spark also has a modular structure allowing components to be upgraded as better technology arises while simplifying security analysis. It retains the benefits of Lelantus with no trusted setup, an easy to understand construction and based on well established cryptographic assumptions.
+  sparklelantus1: Lelantus Spark 技术
+  sparklelantus2: Lelantus Spark 与其前身 Lelantus 相比有了很大改进，其灵活的 Spark 地址隐藏了所有交易金额，在区块链上不可搜索，同时允许高效的阈值签名以及传入和传出的查看密钥支持。Spark 还具有模块化结构，允许组件随着更好的技术的出现而升级，同时简化安全性分析。它保留了 Lelantus 的优点，没有预信任机制，结构简单易懂，并基于成熟的密码学假设。
   lelantus1: Lelantus 技术
   lelantus2: Lelantus 是 Firo 的 Aram Jivanyan 开发的下一代隐私协议。Lelantus 允许你烧掉你的币，它将币隐藏在一个超过 65000 个的匿名集中。接收者可以从这个匿名池中赎回它，它打破了你的交易和之前所有交易的链接。
   sigma1: Sigma 技术
@@ -173,19 +177,19 @@ team:
   sproxet:
     name: Sproxet
     title: 开发者
-    bio: Sproxet 是一位匿名的开发者，在过去的 15 年里一直从事隐私保护软件的工作，并为 Firo 的 Electron 客户端做出了重大贡献。Sproxet 也是 Signal Eleven 的创始人，这是一家 IT 咨询公司，专注于计算机安全和审计、软件开发和加密系统架构设计。
+    bio: Sproxet 是一位匿名开发者，在过去的 15 年里一直从事隐私保护软件的工作，并为 Firo 的 Electron 客户端做出了重大贡献。Sproxet 也是 Signal Eleven 的创始人，这是一家 IT 咨询公司，专注于计算机安全和审计、软件开发和加密系统架构设计。
   gevorgmirzoyan:
     name: Gevorg Mirzoyan
     title: 开发者
     bio: Gevorg 是一位软件工程师，毕业于俄罗斯-亚美尼亚（斯拉夫）大学应用数学和信息学系。他的技术栈包括 C++、Unity 和 Linux。他热衷于编程、徒步旅行和游戏。
   lc:
     name: LC
-    title: Developer
-    bio: LC is an anonymous developer that is interested in the cross-section between government, politics, state power, and technology.  Drawing from philosophers like Foucault, Fisher, Ellul, Ranciere, he is interested in individual human freedom, so he naturally gravitates to crypto anarchy.  He focuses on computer security, philosophy, and Python software development.  He follows the cypherpunk Bitstream Podcast by Frank Braun & Jonathan 'smuggler' Logan. 
-  levonh: 
+    title: 开发者
+    bio: LC 是一位匿名开发者，对政府、政治、国家权力和技术之间的交叉领域感兴趣。他从福柯、费舍尔、埃卢尔、朗西埃等哲学家那里汲取灵感，对人类的个人自由感兴趣，所以他自然而然地倾向于加密无政府状态。他专注于计算机安全、哲学和 Python 软件开发。他关注 Frank Braun 和 Jonathan 'smuggler' Logan 的 Cypherpunk Bitstream Podcast。
+  levonh:
     name: Levon Hovhannisyan
-    title: Developer
-    bio: Levon Hovhannisyan has over 6 years of professional experience, specifically in C++, algorithms and data structures. His tech stack includes but is not limited to the latest C++ standards, Python, Lua, Windows/Linux. During his professional career, Levon has also had experience in games and backend development. He graduated from Russian-Armenian (Slavonic) University and while studying Levon was involved in the competitive programming contests, including ACM ICPC, and the knowledge gained from them has helped him to become a professional lecturer and learning courses creator. He is also passionate about learning new technologies and software development practices, problem-solving and video games. 
+    title: 开发者
+    bio: Levon Hovhannisyan 有超过 6 年的专业经验，特别是在 C++、算法和数据结构方面。他的技术栈包括但不限于最新的 C++ 标准、Python、Lua、Windows/Linux。在他的职业生涯中，Levon 在游戏和后台开发方面也有经验。他毕业于俄罗斯-亚美尼亚（斯拉夫）大学，在学习期间，Levon 参与了竞争性的编程比赛，包括 ACM ICPC，从中获得的知识帮助他成为专业讲师和学习课程的创造者。他还热衷于学习新技术和软件开发实践、解决问题和视频游戏。
   zorayrzakaryan:
     name: Zorayr Zakaryan
     title: 移动项目经理
@@ -210,6 +214,10 @@ team:
     name: Ajaydono
     title: 支持
     bio: Ajay 协助项目管理人处理日常工作以及支持咨询。他拥有信息技术文凭，主修数据库管理，有多年的 IT 技术支持经验。
+  lucasfullam:
+    name: Lucas Fullam
+    title: 社区管理
+    bio: Lucas Fullam 过去曾从事过以客户为中心的工作，从客户服务代表到场馆和会议的活动设置。他第一次听说加密货币是在 2012 年，但直到进入 2017 年，他的一个朋友带他深入到加密货币的世界，他终于看到了其中的巨大潜力，才真正深入了解。一件事导致另一件事，最后他找到了 Firo，剩下的就是历史。
   michaelmugglesbernhardt:
     name: Michael 'Muggles' Bernhardt
     title: 社区管理者
@@ -225,11 +233,11 @@ team:
   aramjivanyan:
     name: Aram Jivanyan
     title: 密码学家
-    bio: Aram 是 Firo 的 Lelantus 隐私协议的创造者，该协议重新激发了人们对 one-out-of-many 证明的兴趣，并启发了其他隐私协议，如 Triptych（Monero）和 Lelantus-MW（Beam）。他也是 Skycryptor 的创始 CEO，Techstars 公司开创了代理重加密算法的发展。在创建 Skycryptor 之前，Aram 在亚美尼亚美国大学担任高级密码学研究员和开发团队负责人，该科学小组为财富 1000 强的商业伙伴进行密码学研究。Aram 的主要研究兴趣包括白盒密码学、可搜索加密方法、不经意传输协议和加密电子投票系统。
+    bio: Aram 是 Firo 的 Lelantus 和 Lelantus Spark 隐私协议的创造者，该协议重新唤起了人们对 one-out-of-many 证明的兴趣，并启发了其他隐私协议，如 Triptych（Monero）和 Lelantus-MW（Beam）。他也是 Skycryptor（Techstars 公司）的创始 CEO，开创了代理重加密算法的开发。在创立 Skycryptor 之前，Aram 在亚美尼亚美国大学担任高级密码学研究员和开发团队负责人，该科学小组为财富 1000 强的工业合作伙伴进行密码学研究。Aram 的主要研究兴趣包括白盒密码学、可搜索加密方法、不经意传输协议和加密电子投票系统。
   aregvrtanesyan:
     name: Areg Vrtanesyan
-    title: Cryptography Researcher / Developer
-    bio: Areg is a cryptography engineer in firo and is currently majoring in Cybersecurity at YSU. Has experience in software engineering and back end programming in C++. His current interests are cryptography, information security and music.
+    title: 密码学研究员/开发者
+    bio: Areg 是 Firo 的一位密码学工程师，目前在埃里温国立大学主修网络安全。有软件工程和 C++ 后端编程的经验。他目前的兴趣是密码学、信息安全和音乐。
   tigranmamikonyan:
     name: Tigran Mamikonyan
     title: 研究
