@@ -4,7 +4,7 @@ title: "Spats: Confidential Assets powered by Spark"
 summary: ""
 tags: [news, dev, community]
 author: "Reuben Yap"
-img: "/blog/assets/spats-paper.png"
+img: "/blog/assets/spark-assets.png"
 ---
 We are proud to reveal Firo’s research paper [Spats (short for Spark Assets)](https://eprint.iacr.org/2022/288) that extends [Lelantus Spark](https://eprint.iacr.org/2021/1173) to support confidential assets in line with Firo’s focus on providing privacy to the wider cryptocurrency ecosystem.
 
