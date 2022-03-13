@@ -244,36 +244,44 @@ team:
     bio: Tigran 拥有信息学和应用数学以及计算机和信息科学的硕士学位。他目前正在埃里温国立大学攻读信息学和应用数学的博士学位。
 
 roadmap:
+  aura: Aura 隐私投票 (定稿论文中)
+  auradesc: Aura 是我们为 DAO 提供的隐私投票机制，其灵感来自于我们的 Lelantus 技术，它允许匿名但可验证的投票，同时隐藏投票进度。我们打算以此为基础，朝着正式的去中心化治理迈进。
+  avalanche: Avalanche
+  avalanchedesc: Avalanche 是一种共识算法，可以实现即时交易，增强安全性和无分叉升级。我们正在探索将 Avalanche 共识作为我们主节点的潜在替代品。
   development: 开发
   heading: 路线图
-  znodes: 确定性主节点
-  mnodesq: 长效主节点仲裁链
-  rebrand: 品牌重塑
-  lelantus: Lelantus 激活
+  mnodes: 确定性主节点（已完成）
+  mnodesq: 长效主节点仲裁链（已完成）
+  rebrand: 品牌重塑（已完成）
+  lelantus: Lelantus 激活（已完成）
   lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的密码学假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
-  chainlocks: ChainLocks
+  chainlocks: ChainLocks（已完成）
   chainlocksdesc: ChainLocks 利用 Firo 的主节点网络来防止 51% 攻击。只要确认 1 个区块，交易就实现最终确定性。
-  rap: RAP 地址
+  rap: RAP 地址（已完成）
   rapdesc: RAP 地址允许一个可公开分享的地址，不允许第三方看到它收到了多少资金或何时收到资金。
-  instant: 即时发送
+  instant: 即时发送（已完成）
   instantdesc: 即时发送利用 Firo 的主节点网络，使交易在几秒钟内得到确认，从而可以作为一种交换媒介实际使用。
-  elysium: Elysium（进行中）
+  elysium: Elysium（在测试网上）
   elysiumdesc: Elysium 允许在 Firo 的网络上发行代币（如稳定币、资产支持币），将受益于 Firo 的隐私技术。
-  lelantusspark: Lelantus Spark（正在接受同行评审）
-  lelantussparkdesc: Lelantus Spark 允许直接匿名支付，允许用户在不透露金额、来源和收款方的情况下相互交易。Spark 引入了一个新的地址系统，将允许用户完全隐藏他们的资金。
-  mobile: 手机钱包（进行中）
+  elysiumv2: Elysium v2
+  elysiumv2desc: Elysium v2 扩展了 Elysium 的功能，使其更容易实现桥接和 DeFi 功能。Elysium v2 还将实现 Spats，隐藏传输的资产类型。
+  lelantusspark: Lelantus Spark（进行中）
+  lelantussparkdesc: Lelantus Spark 允许直接匿名支付，允许用户在不透露金额、来源和接收方的情况下相互交易。Spark 引入了一个 Spark 地址，允许用户将他们的资金完全隐藏起来，同时还支持全查看密钥和阈值多重签名。
+  mobile: 手机钱包（已完成）
   mobiledesc: 一个原生的、默认隐私手机钱包，将有完整的 Lelantus 交易支持。
-  progpow: FiroPoW
-  progpowdesc: 为了进一步提高 ASIC 抗性，ProgPoW 变体将取代 MTP。这也将允许更小的区块，减少所有节点所需的带宽和存储。
+  firopow: FiroPoW（已完成）
+  firopowdesc: FiroPoW 是 ProgPoW 的一个变体，是为 GPU 设计的，具有很强的抗 ASIC 能力。
   research: 研究
-  lelantussparkaddress: Lelantus Spark 的子地址和付款证明
-  lelantussparkaddressdesc: 我们正在研究向 Lelantus Spark 添加子地址的方法，这将允许更高效的扫描和支付证明，让用户能够证明他们已付款。
-  atomicdex: AtomicDEX
-  atomicdexdesc: AtomicDEX 允许用户使用原子交换技术的去中心化基础设施与 Firo 进行交换。
+  lelantussparkaddress: Lelantus Spark 的子地址和付款证明（已完成）
+  lelantussparkaddressdesc: Lelantus Spark 将支持子地址，允许更高效的扫描和付款证明，允许用户证明他们已付款。
+  firodex: FiroDEX（已完成）
+  firodexdesc: FiroDEX 允许用户使用原子交换技术的去中心化基础设施与 Firo 进行交换。
   bridges: 跨链桥
   bridgesdesc: 跨链桥将允许来自其他生态系统的代币桥接进出 Firo 的 Elysium 代币层，以利用我们的隐私基础设施。
   mixnets: 混合网
   mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是面对国家级别的对手，也能提供更多的元数据保护。
+  spats: Spark Assets（已完成）
+  spatsdesc: Spark Assets 扩展了 Spark 的功能，以隐藏传输的资产类型。Spats 计划在 Elysium v2 中实现。
   syncclients: 快速同步客户端
   syncclientsdesc: 快速同步客户端允许用户快速同步他们的钱包，而不需要下载整个区块链，同时支持 Lelantus 交易。
   learnmore: 了解更多
