@@ -244,36 +244,44 @@ team:
     bio: Tigran holds a Master's Degree in Informatics and Applied Mathematics and Computer and Information Sciences. He is currently pursuing his PhD in Informatics and Applied Mathematics at Yerevan State University.
   
 roadmap:
+  aura: Aura Private Voting (finalizing paper)
+  auradesc: Aura is our private voting mechanism for DAOs inspired by our Lelantus technology that allows anonymous but verifiable voting that also hides ballot progress. We intend to use this as the foundation of moving towards formalized decentralized governance.
+  avalanche: Avalanche
+  avalanchedesc: Avalanche is a consensus algorithm that enables instant transactions, enhanced security and fork-free upgrades. We are exploring Avalanche consensus as a potential replacement our masternodes.
   development: Development
   heading: Roadmap
-  znodes: Deterministic Znodes
-  mnodesq: Long Lived Masternode Quorums
-  rebrand: Rebrand
-  lelantus: Lelantus Activation
+  mnodes: Deterministic Masternodes (done)
+  mnodesq: Long Lived Masternode Quorums  (done)
+  rebrand: Rebrand  (done)
+  lelantus: Lelantus Activation  (done)
   lelantusdesc: Lelantus is our next generation privacy protocol that offers the highest levels of practical privacy without trusted setup and only relying on solid cryptographic assumptions. Lelantus supports anonymity sets that are several magnitudes larger than other privacy systems that do not have trusted setup.
-  chainlocks: Chainlocks
+  chainlocks: Chainlocks  (done)
   chainlocksdesc: Chainlocks utilize Firo’s masternode network to protect against 51% attacks. Transactions achieve finality as soon as 1 block is confirmed.
-  rap: RAP Addresses
+  rap: RAP Addresses  (done)
   rapdesc: RAP addresses allow a publicly shareable address that does not allow third parties to see how much or when it has received funds.
-  instant: Instant Send
+  instant: Instant Send  (done)
   instantdesc: Instant Send utilizes Firo’s masternode network to allow transactions to be confirmed within a few seconds allowing for practical use as a medium of exchange.
-  elysium: Elysium (in progress)
+  elysium: Elysium (on Testnet)
   elysiumdesc: Elysium allows token (for e.g. stablecoins, asset backed coins) to be issued on Firo’s network that will benefit from Firo’s privacy technology.
-  lelantusspark: Lelantus Spark (undergoing peer review)
-  lelantussparkdesc: Lelantus Spark allows direct anonymous payments allowing users to transact with each other without revealing amounts, source and recipient. Spark introduces a new addressing system that will allow users to keep their funds totally hidden.
-  mobile: Mobile Wallet (in progress)
+  elysiumv2: Elysium v2
+  elysiumv2desc: Elysium v2 expands the capabilities of Elysium with easier bridging and DeFi capabilities. Elysium v2 will also implement Spats that will hide the asset type being transferred.
+  lelantusspark: Lelantus Spark (in progress)
+  lelantussparkdesc: Lelantus Spark allows direct anonymous payments allowing users to transact with each other without revealing amounts, source and recipient. Spark introduces a Spark addresses that will allow users to keep their funds totally hidden along with full view key and threshold multisig support.
+  mobile: Mobile Wallet  (done)
   mobiledesc: A native, private by default mobile wallet that will have full Lelantus transaction support.
-  progpow: FiroPoW
-  progpowdesc: To further improve ASIC resistance, a ProgPoW variant will replace MTP. This will also allow for much smaller blocks that reduce the bandwidth and storage required of all nodes.
+  firopow: FiroPoW  (done)
+  firopowdesc: FiroPoW is a ProgPOW variant that is designed for GPUs and has strong ASIC resistance.
   research: Research
-  lelantussparkaddress: Lelantus Spark sub-addressing and payment proofs
+  lelantussparkaddress: Lelantus Spark sub-addressing and payment proofs (done)
   lelantussparkaddressdesc: We are investigating ways to add sub-addresses to Lelantus Spark that will allow more efficient scanning and payment proofs that allow users to prove they made a payment.
-  atomicdex: AtomicDEX
-  atomicdexdesc: AtomicDEX allows for users to swap to and from Firo using decentralized infrastructure using atomic swap technology.
+  firodex: FiroDEX  (done)
+  firodexdesc: FiroDEX allows for users to swap to and from Firo using decentralized infrastructure using atomic swap technology.
   bridges: Cross-chain bridges
   bridgesdesc: Cross chain bridges will allow tokens from other ecosystems to bridge in and out of Firo’s Elysium token layer to utilize our privacy infrastructure.
   mixnets: Mixnets
   mixnetsdesc: Tunnelling transactions and node communications into mixnets offer increased metadata protection even against state level adversaries.
+  spats: Spark Assets (done)
+  spatsdesc: Spark Assets extends the functionality of Spark to hide the asset type being transferred. Spats is planned to be implemented in Elysium v2.
   syncclients: Fast sync clients
   syncclientsdesc: Fast sync clients allow users to sync their wallets rapidly without needing to download the entire blockchain while supporting Lelantus transactions.
   learnmore: Learn more
