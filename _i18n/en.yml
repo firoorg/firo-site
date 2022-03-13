@@ -273,7 +273,7 @@ roadmap:
   firopowdesc: FiroPoW is a ProgPOW variant that is designed for GPUs and has strong ASIC resistance.
   research: Research
   lelantussparkaddress: Lelantus Spark sub-addressing and payment proofs (done)
-  lelantussparkaddressdesc: We are investigating ways to add sub-addresses to Lelantus Spark that will allow more efficient scanning and payment proofs that allow users to prove they made a payment.
+  lelantussparkaddressdesc: Lelantus Spark will support sub-addresses that allow more efficient scanning and payment proofs that allow users to prove they made a payment.
   firodex: FiroDEX  (done)
   firodexdesc: FiroDEX allows for users to swap to and from Firo using decentralized infrastructure using atomic swap technology.
   bridges: Cross-chain bridges
