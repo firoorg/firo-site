@@ -92,6 +92,8 @@ CryptoNote uses ring signatures in a way whereby a user can craft a transaction 
 
 CryptoNote/ring signatures when combined with confidential transactions also hide amounts and used together they're called Ring Confidential Transactions (RingCT). Most implementations using this privacy mechanism also now use RingCT after Monero implemented it in 2017.
 
+Another great feature of this protocol is that most implementations have mandatory stealth addressing which solve the address re-use problem and protects the receiver's privacy.
+
 ![](/guide/assets/privacy-technology-comparison/cryptonote.png) 
 
 RingCT currencies also have limitations concerning practical ring size (the number of other outputs you are taking) as the size of a transaction grows linearly as the ring size increases. This is why Monero has a relatively small ring size of 11 though it is set to increase this to 16 in an upcoming hard fork. This means on a per transaction basis, the anonymity is limited by the number of inputs in the ring. While the possibilities start to fan out increasing the practical anonymity set, the real transaction link is still somewhere in there hiding among the decoys and there are methods to narrow the range of possibilities down such as theorized [Flashlight](https://www.zfnd.org/blog/blockchain-privacy/#flashlight), [Overseer](https://www.zfnd.org/blog/blockchain-privacy/#overseer) and [Tainted Dust](https://www.zfnd.org/blog/blockchain-privacy/#dust) attacks.
@@ -106,7 +108,7 @@ A [recent submission to Monero's Vulnerability Response Process](https://repo.ge
 
 In short, the strength of the decoy selection algorithm has been a constant weakness in RingCT type of systems and fixing it conclusively has proven challenging though it can be partially mitigated with large increases in ring size.
 
-Another issue with decoy based systems are 'flooding' attacks where an attacker can flood the network with their own transactions to remove mixins from transaction inputs. This was documented in the paper [FloodXMR](https://eprint.iacr.org/2019/455) which shows that a relatively cheap attack can be mounted by flooding transactions to remove mixins from transaction inputs. There is however ongoing debate as to the cost and efficiency of such techniques.
+Another issue with decoy based systems are 'flooding' attacks where an attacker can flood the network with their own transactions to remove mixins from transaction inputs. This was documented in the paper [FloodXMR](https://eprint.iacr.org/2019/455) which shows that an attack can be mounted by flooding transactions to remove mixins from transaction inputs. There is however ongoing debate as to the cost and efficiency of such techniques as the authors of that paper made several wrong assumptions on fees.
 
 Another criticism of RingCT is that if there’s a weakness in its ring signature implementation or a reasonably powerful quantum computer becomes feasible, the entire blockchain history is deanonymized and retroactively exposed. This cannot be fixed after the fact. In fact, [a flawed implementation in a CryptoNote currency called ShadowCash](https://github.com/shadowproject/shadow/issues/25) allowed for its blockchain to be deanonymized in its entirety. However, a practical quantum computer is still quite some time off, and it boils down to whether several-year-old transactions data are still valuable. For this data to be useful, it will most likely need to be combined with external data. 
 
@@ -116,7 +118,7 @@ Privacy coins ultimately need to hide amounts transacted to provide the highest 
 
 Despite these drawbacks, RingCT has proven itself to be one of the better and well-reviewed privacy technologies out there that is still evolving and improving to deal with new threats and advancements.
 
-It is worth noting that Monero Research Labs are looking into alternative privacy protocols to help scale their ring sizes such as Seraphis, Lelantus Spark and Triptych to increase its effective anonymity set and complicate statistical analysis.
+It is worth noting that Monero Research Labs are looking into alternative privacy protocols to help scale their ring sizes such as Lelantus Spark and Seraphis to increase its effective anonymity set and complicate statistical analysis.
 
 ### [Lelantus v1/v2](https://firo.org/2019/04/14/lelantus-firo.html)
 
@@ -175,21 +177,23 @@ Our work in Lelantus has also revived interest in the use of Groth-Bootle proofs
 **Pros:**
 
 * Retains all the pros of Lelantus v1/v2 using well researched cryptography, no trusted setup and having efficient batch verification
-* Full support of stealth addressing, efficient multi-sig and view key functionality via Spark addresses
+* Full support of stealth addressing, efficient multi/threshold signatures and view key functionality via Spark addresses
 * Modular design which allows easier upgrade of components
 * Unlike Lelantus v1/v2 a security proof for the balance is available
 * Relatively simple cryptographic design compared to circuit-based zero-knowledge proof systems making it easier to implement and less room for error.
 
 **Cons:**
 
-* Difficult to scale past anonymity sets of 65,536 without cryptographic breakthrough or replacement of underlying Groth-Bootle proofs.
+* Difficult to scale past anonymity sets larger than 100,000 without cryptographic breakthrough, huge optimizations or replacement of underlying Groth-Bootle proofs.
 * Verification of proofs are still slower than Groth16 zkSNARKs but are mitigated with efficient batch verification
 
 Lelantus Spark is the work of Firo's research team and is slated to be launched on Firo's mainnet in 2022. Lelantus Spark builds on the work of Lelantus v1/v2, and like Lelantus v2 hides the sender and fully hides amounts but greatly improves recipient privacy with the introduction of Spark addresses. The efficient and trustless Groth-Bootle one-out-of-many proofs still form the foundation of Spark as it did with Lelantus v1/v2 and Sigma.
 
 Spark addresses work similarly to stealth addresses by allowing people to publicly share their address without it being searchable on the blockchain. Spark addresses instead automatically allows senders to generate one-time addresses on behalf of the recipient, which then designates who can spend the funds in the transaction. Additionally, third parties then are unable to easily link the recipient’s wallet address to a transaction on the blockchain without the assistance of additional external information.
 
-The primary advantage of Spark and Lelantus based systems are its simple design and reliance on standard cryptographic assumptions while offering high anonymity along with flexible addressing systems. This offers a real alternative to those who may not be comfortable with more complicated constructions where there are much more moving parts, use more experimental math or require a trusted setup. 
+Spark addresses also has full view key support meaning it can track both incoming and outgoing funds should you choose to reveal it. In comparison, Monero's stealth addresses only support incoming view keys making it hard to disclose balances even if you wanted to. Spark addresses also has efficient multi-sig and threshold signature support.
+
+The primary advantage of Spark and Lelantus based systems are its simple design and reliance on standard cryptographic assumptions while offering very high anonymity sets along with flexible addressing system. This offers a real alternative to those who may not be comfortable with more complicated constructions where there are much more moving parts, use more experimental math or require a trusted setup. 
 
 Also as all amounts would be hidden with Spark, supply isn’t transparently auditable and rely on zero knowledge proofs to preserve supply like in RingCT and Zerocash. A nuanced argument on supply auditability in privacy enhancing cryptocurrencies can be found in Riccardo Spagni's presentation [On Privacy Enhancing Currencies & Supply Auditability](https://youtu.be/QAmOn8X-eKk).
 
@@ -197,7 +201,9 @@ The biggest criticism that can be said of Spark is because of its current relian
 
 While practical anonymity might be in practice equivalent, we are keeping a close eye on improvements in membership proofs that might replace Groth-Bootle to allow Spark to have global anonymity sets.
 
-Spark's cryptography is currently undergoing two independent audits and has full security proofs for its design.
+Spark's cryptography has completed two independent audits and has full security proofs for its design.
+
+Seraphis, a privacy framework in consideration by Monero to replace RingCT shares many similarities with Lelantus Spark and derives many key parts of its design from our work such as the use of one-out-of-many proofs and our approach to addressing. However its proposed implementation would still use a decoy model and increase its ring size rather than Firo's use of pools of anonymity combined with our sliding window approach.
 
 ## **Zerocash**
 
@@ -315,14 +321,10 @@ These are the key factors when coming across a new privacy mechanism:
 * **Is the privacy mechanism written by experts and reviewed?** Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.
 * **Is it merely a rebrand of existing technology?** Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.
 * **Does it involve centralized trust?** If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.
-* **Does the team understand the cryptography behind these schemes?** This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials on their team.
+* **Does the team understand the cryptography behind these schemes?** This is hard to determine unless you're an expert yourself. Check their team to see if there is anyone with cryptography credentials or experience on their team.
 
 ## Summary
 
-Every anonymity scheme has its own sets of benefits and trade-offs, and we believe that continuous exploration and research of these privacy schemes can only serve to improve blockchain privacy as a whole. We at Firo strongly believe that [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html) and Lelantus Spark compares very favorably to other anonymity schemes by providing a very well-rounded anonymity package, giving very strong anonymity using proven cryptography while remaining scalable and auditable. 
-
-A comparison chart of Firo's solutions with other leading privacy technologies can be found below. 
-
-![](/guide/assets/privacy-technology-comparison/comparison-table-firo-updated.png) 
+Every anonymity scheme has its own sets of benefits and trade-offs, and we believe that continuous exploration and research of these privacy schemes can only serve to improve blockchain privacy as a whole. We at Firo strongly believe that [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html) and Lelantus Spark compares very favorably to other anonymity schemes by providing a very well-rounded anonymity package, giving very strong anonymity using proven cryptography while remaining scalable and optionally auditable.
 
 We hope this article gives you a much better understanding of how various privacy tech works on the blockchain.
