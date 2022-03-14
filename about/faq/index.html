@@ -103,13 +103,13 @@ permalink: /about/faq/index.html
                             <div class="tab-content">
                                 <p>The short answer is that our earlier privacy protocols made this difficult but we are moving towards it especially with the deployment of Lelantus Spark! All our official wallets already anonymize or prompt you to do so using Lelantus by default but Lelantus Spark with its new private Spark address system makes it much easier to fully transition to privacy by default.</p>
                                 <p>When the project first launched in 2016, it used the Zerocoin privacy protocol, originally a proposal for Bitcoin which used regular transparent addresses and therefore did not hide amounts. With zero knowledge proof technology in its infancy, back then we felt it was prudent to balance privacy with supply auditability to ensure we could detect inflation should there be a flaw in the technology.</p>
-								                <p>We then dedicated development to removing trusted setup from Zerocoin and did so with our Sigma privacy protocol but it retained the same limitations of Zerocoin with regards to hiding amounts. With the development of Lelantus, our current privacy protocol, input and change amounts are hidden but the output amount remains exposed. Additionally, the anonymization function in Lelantus requires the users private key and therefore required user input to anonymize.</p>
+								<p>We then dedicated development to removing trusted setup from Zerocoin and did so with our Sigma privacy protocol but it retained the same limitations of Zerocoin with regards to hiding amounts. With the development of Lelantus, our current privacy protocol, input and change amounts are hidden but the output amount remains exposed. Additionally, the anonymization function in Lelantus requires the users private key and therefore required user input to anonymize.</p>
                                 <p>With the development of Lelantus Spark, this new scheme retained all the benefits of our previous schemes namely high anonymity sets, small proof sizes, high efficiency, no trusted setup, well understood cryptographic building blocks and added Spark addresses which allows funds to be kept privately without revealing amounts and can be freely shared without compromising privacy. Users can send funds directly to Spark addresses and have them anonymized immediately without needing recipient interaction.</p>
-								                <p>With the deployment of Lelantus Spark later this year (2022), all our official wallets will by default use Spark addresses and all mining rewards will mandatorily go to Spark addresses increasing the anonymity set. We will also approach exchanges to support withdrawals to Spark addresses. Some time after Spark deployment, Helsing (our private masternode staking) will then be launched allowing masternode collateral to be held in Spark addresses and for masternode rewards to go into Spark addresses directly. We are hopeful with these changes that the vast majority of transactions will become private.</p>
+								<p>With the deployment of Lelantus Spark later this year (2022), all our official wallets will by default use Spark addresses and all mining rewards will mandatorily go to Spark addresses increasing the anonymity set. We will also approach exchanges to support withdrawals to Spark addresses. Some time after Spark deployment, Helsing (our private masternode staking) will then be launched allowing masternode collateral to be held in Spark addresses and for masternode rewards to go into Spark addresses directly. We are hopeful with these changes that the vast majority of transactions will become private.</p>
 								                <p>During the interim, transparent addresses still have a role to play in enabling easier interoperability with other chains where those ecosystems already have implemented support for Bitcoin addresses for e.g. with cross-chain bridges. Eventually as the ecosystem catches up to using Spark addresses, transparent addresses can be phased out completely.</p>
                             </div>
                           </div>
-						            <div class="tab">
+						  <div class="tab">
                             <input type="checkbox" id="q7">
                             <label class="tab-label" for="q7">
                             <h4>What are sliding windows as used in Lelantus and Lelantus Spark?</h4></label>
@@ -118,9 +118,19 @@ permalink: /about/faq/index.html
                                 <p>Think of each Spark transaction as a coin inside a large bucket with tons of other coins. These coins all have different values but they look the same. Whenever you spend, you're taking coins from the bucket but outsiders can't really tell which coins you're taking since they all look the same. When the bucket becomes full, the protocol opens a new bucket for people to start placing their coins in. However, we don't want to start with a totally empty bucket otherwise they would need to wait for other people to throw their coins into the bucket before they can pull coins out of it for good anonymity. As such, we take 16,000 coins from the previous bucket and dump it into the new bucket so that there's already a big 'crowd' in the new set. Hence each bucket has some overlapping coins and this is what we call sliding windows!</p>
                             </div>
                           </div>
-                          <div class="tab">
+						  <div class="tab">
                             <input type="checkbox" id="q8">
-                            <label class="tab-label" for="q8"><h4>What is trusted setup?</h4></label>
+                            <label class="tab-label" for="q8">
+                            <h4>What is the relationship between Lelantus Spark and Seraphis?</h4></label>
+                            <div class="tab-content">
+                                <p>Seraphis was previously named ZCT and was a framework developed independently by Koe that did not have exact implementation details that would fit into it such as choice of proofs or addressing structures.</p>
+                                <p>We shared our work on Lelantus Spark with Koe and our innovations with Spark addresses solved an open problem with ZCT's addressing system which then lead to Seraphis. This is why the addressing structures are quite similar. While similar to Spark, Seraphis is a framework rather than a protocol with full implementation details and does not yet have an academic style paper with full security proofs unlike Lelantus Spark.</p>
+								<p>Seraphis makes design choices for Monero by using it to scale ring sizes. Lelantus Spark on the other hand doesn't use decoy sampling and instead relies on large pools of anonymity combined with sliding windows between the pools. This offers much greater anonymity per transaction and avoids many of the problems with decoy selection algorithms at the cost of performance which can be mitigated with batching techniques.</p>
+                            </div>
+                          </div>
+                          <div class="tab">
+                            <input type="checkbox" id="q9">
+                            <label class="tab-label" for="q9"><h4>What is trusted setup?</h4></label>
                             <div class="tab-content">
                                 <p>In cryptography, a trusted setup is used to create a cryptographic system by generating certain initial parameters which will later be destroyed. An easy analogy is to imagine creating a lockbox with a key and then throwing the key away.</p>
                                 <p>Why it is called trusted setup is that you must trust the person who created it, to actually destroy the parameters. Zero knowledge proof privacy systems such as the Zerocoin (as originally used in Firo and now deprecated) and Zerocash (as used in Zcash, PirateChain, Komodo and Horizen) protocol requires a trusted setup.</p>
@@ -134,8 +144,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q9">
-                            <label class="tab-label" for="q9"><h4>What is a zero-knowledge cryptographic proof, and how does it work?</h4></label>
+                            <input type="checkbox" id="q10">
+                            <label class="tab-label" for="q10"><h4>What is a zero-knowledge cryptographic proof, and how does it work?</h4></label>
                             <div class="tab-content">
                                 <p>A zero-knowledge proof is a cryptographic method to prove that you know something without giving any other details about it, except that the fact that you know it. For example, zero-knowledge proofs could be used to show you have assets of more than a million dollars, without showing the exact amount you own or the transactions that make it up.</p>
                                 <p>Zero-knowledge proofs are an ideal fit for providing privacy on blockchains. On a public blockchain, everyone has to be able to verify the authenticity of transactions and so every transaction is posted for everyone to see along with its entire history.</p>
@@ -144,8 +154,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q10">
-                            <label class="tab-label" for="q10"><h4>How does blockchain-tracking software work, and why is it so dangerous to anonymity?</h4></label>
+                            <input type="checkbox" id="q11">
+                            <label class="tab-label" for="q11"><h4>How does blockchain-tracking software work, and why is it so dangerous to anonymity?</h4></label>
                             <div class="tab-content">
                               <p>To best understand how blockchain-tracking software works, it helps to view Bitcoin as a kind of financial social network. The same kinds of mechanisms used to break privacy in social networks, by analyzing social network topology, can be used to break privacy in the Bitcoin network. By taking a pre-existing social network like Facebook, we can use that information to generate heuristics about who is transacting with whom on Bitcoin.</p>
                               <p>There is a relevant research paper that attempted to identify Twitter users by using data from Flickr. They took the twitter data, and stripped away all identifying information about the user such as name or username. Then, by looking at the social network topology of the anonymized twitter data and comparing it to the flickr data, they found that they could identify one third of twitter users, even though the twitter data was anonymized.</p>
@@ -153,9 +163,9 @@ permalink: /about/faq/index.html
                               <p>The converse is also true where <a href="https://arxiv.org/pdf/1801.07501.pdf">Bitcoin’s network can also deanonymize TOR users</a>.</p>
                             </div>
                           </div>
-							            <div class="tab">
-                            <input type="checkbox" id="q11">
-                            <label class="tab-label" for="q11">
+							<div class="tab">
+                            <input type="checkbox" id="q12">
+                            <label class="tab-label" for="q12">
                             <h4>How does Firo protect transactions on a network level?</h4></label>
                             <div class="tab-content">
                               <p>Firo was the first cryptocurrency to go live with <a href="https://arxiv.org/abs/1805.11060">Dandelion++</a> on mainnet. Most other cryptocurrencies use a gossip model whereby when they receive a transaction, they tell all other nodes connected to it about the transaction. As a result the transaction propagates quickly through the network. The downside is that an adversary who can monitor the network can see this chain reaction happening and can <a href="https://arxiv.org/abs/1405.7418">approximate with a high degree of accuracy</a> which node the transaction originated from.</p>
@@ -176,15 +186,15 @@ permalink: /about/faq/index.html
                         <h2>Economics</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q12">
-                            <label class="tab-label" for="q12"><h4>Where can I buy Firo?</h4></label>
+                            <input type="checkbox" id="q13">
+                            <label class="tab-label" for="q13"><h4>Where can I buy Firo?</h4></label>
                             <div class="tab-content">
                               <p>You can see all the exchanges and/or swap services Firo is available <a href="https://firo.org/get-firo/buy-firo/">here</a> or on <a href="https://www.coingecko.com/en/coins/firo" target="_blank">Coingecko</a></p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q13">
-                            <label class="tab-label" for="q13"><h4>What will Firo's Development Reward be used for?</h4></label>
+                            <input type="checkbox" id="q14">
+                            <label class="tab-label" for="q14"><h4>What will Firo's Development Reward be used for?</h4></label>
                             <div class="tab-content">
                               <p>15% of Firo’s block reward goes towards a <a href="https://explorer.firo.org/address/aFrAVZFr8pva5mG8XKaUH8EXcFVVNxLiuB">development fund</a> to fund development work and other efforts in promoting Firo’s adoption.</p>
 							  <p>The fund pays primarily for coders and cryptography researchers, community managers, audits, bug bounties, integration costs and infrastructure overheads.We regularly publish summaries of how these funds are being spent on <a href="https://forum.firo.org">our forums</a>.</p>
@@ -192,8 +202,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q14">
-                            <label class="tab-label" for="q14"><h4>What is the total supply and distribution of Firo?</h4></label>
+                            <input type="checkbox" id="q15">
+                            <label class="tab-label" for="q15"><h4>What is the total supply and distribution of Firo?</h4></label>
                             <div class="tab-content">
                                 <p>There will be 21.4 million Firos. Firo follows the same distribution and halving cycle as Bitcoin (every 4 years).</p>
 								<p>The current block reward of 12.5 FIRO/block is divided as follows:</p>
@@ -218,16 +228,16 @@ permalink: /about/faq/index.html
                         <h2>Mining</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q15">
-                            <label class="tab-label" for="q15"><h4>What mining algorithm does Firo use?</h4></label>
+                            <input type="checkbox" id="q16">
+                            <label class="tab-label" for="q16"><h4>What mining algorithm does Firo use?</h4></label>
                             <div class="tab-content">
                                 <p>Firo uses the FiroPoW algorithm targeted at GPUs that keeps mining accessible to everyone.</p>
 								<p>Firo has always been a strong believer in the power of Proof-of-Work (PoW). PoW enables community building, fair distribution and ties the value of Firo to the physical world with energy.</p>
                             </div>
                           </div>
 						  <div class="tab">
-                            <input type="checkbox" id="q16">
-                            <label class="tab-label" for="q16"><h4>What is FiroPoW?</h4></label>
+                            <input type="checkbox" id="q17">
+                            <label class="tab-label" for="q17"><h4>What is FiroPoW?</h4></label>
                             <div class="tab-content">
                                 <p>FiroPoW is a mining algorithm that&nbsp;is highly optimized for GPU mining and designed to be both FPGA and ASIC resistant to even the playing field and allow people to mine from their own consumer hardware. We have always been big fans of Proof of Work’s ability to tie the value of a virtual currency to the real world along with a way to distribute Firo’s supply in a fair and decentralized manner free from restrictions.</p>
                                 <p>FiroPoW follows <a href="https://github.com/ifdefelse/ProgPOW">ProgPoW’s 0.9.4</a> spec with a small change to have the algorithm randomly change with every block. The starting DAG size will be slightly over 4GB and will increase by 8MB every 1300 blocks (~4.5 days). This DAG size has been chosen to support most modern graphics cards.</p>
@@ -235,8 +245,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q17">
-                            <label class="tab-label" for="q17"><h4>How can I mine Firo?</h4></label>
+                            <input type="checkbox" id="q18">
+                            <label class="tab-label" for="q18"><h4>How can I mine Firo?</h4></label>
                             <div class="tab-content">
                                 <p>Do check out our <a href="https://firo.org/guide/how-to-mine-firo.html">Firo mining guide</a>!</p>
                             </div>
@@ -253,16 +263,16 @@ permalink: /about/faq/index.html
                         <h2>Technical</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q18">
-                            <label class="tab-label" for="q18">
+                            <input type="checkbox" id="q19">
+                            <label class="tab-label" for="q19">
                             <h4>Where are your blockchain explorers?</h4></label>
                             <div class="tab-content">
                                 <p>Our explorer can be found on <a href="https://explorer.firo.org">https://explorer.firo.org</a> and our testnet explorer can be found here: <a href="https://testexplorer.firo.org" target="_blank" rel="noopener noreferrer">https://testexplorer.firo.org</a></p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q19">
-                            <label class="tab-label" for="q19"><h4>Why do some blocks deviate significantly from the target block time?</h4></label>
+                            <input type="checkbox" id="q20">
+                            <label class="tab-label" for="q20"><h4>Why do some blocks deviate significantly from the target block time?</h4></label>
                             <div class="tab-content">
                                 <p>Our target block time is 5 minutes.</p>
                                 <p>The chances of not getting a block in&nbsp;<i>blocktime * <b>K</b></i> is approximately <i>e<sup>(-<b>K</b>)</sup></i>.</p>
@@ -282,15 +292,15 @@ permalink: /about/faq/index.html
                         <h2>Community</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q20">
-                            <label class="tab-label" for="q20"><h4>Do you have a blog?</h4></label>
+                            <input type="checkbox" id="q21">
+                            <label class="tab-label" for="q21"><h4>Do you have a blog?</h4></label>
                             <div class="tab-content">
                                 <p>Yup! Visit <a href="https://firo.org/blog/">here</a>.</p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q21">
-                            <label class="tab-label" for="q21"><h4>How can I get involved with the Firo community?</h4></label>
+                            <input type="checkbox" id="q22">
+                            <label class="tab-label" for="q22"><h4>How can I get involved with the Firo community?</h4></label>
                             <div class="tab-content">
                                 <p>We have active communities on our <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a>, <a href="https://t.me/firoorg">Telegram</a> and <a href="https://forum.firo.org">Forums</a>! You can check out all our social links <a href="https://firo.org/community/social/">here.</a></p>
                             </div>
@@ -307,8 +317,8 @@ permalink: /about/faq/index.html
                         <h2>Resources</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q22">
-                            <label class="tab-label" for="q22"><h4>Where can I find a Firo block explorer?</h4></label>
+                            <input type="checkbox" id="q23">
+                            <label class="tab-label" for="q23"><h4>Where can I find a Firo block explorer?</h4></label>
                             <div class="tab-content">
                                 <p>We have two primary block explorers:</p>
                                 <p>Official Firo explorer: <a href="https://explorer.firo.org/">explorer.firo.org</a><br>
@@ -328,8 +338,8 @@ permalink: /about/faq/index.html
                         <h2>Masternodes</h2>
                         <div class="tabs">
 						<div class="tab">
-                            <input type="checkbox" id="q23">
-                            <label class="tab-label" for="q23"><h4>What are Masternodes for</h4></label>
+                            <input type="checkbox" id="q24">
+                            <label class="tab-label" for="q24"><h4>What are Masternodes for</h4></label>
                             <div class="tab-content">
                                 <p>Masternodes in Firo are incentivized nodes that host Firo’s infrastructure and provide additional services such as 51% mining attack protection via LLMQ chain locks and instant sends</p>
 								<p>To prevent Sybil attacks, each masternode requires a collateral of 1000 FIRO backing it to prove skin in the game and encourages honest behaviour.</p>
@@ -337,8 +347,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q24">
-                            <label class="tab-label" for="q24"><h4>What happens if I don’t have 1000 FIRO? Can I share a masternode with someone else?</h4></label>
+                            <input type="checkbox" id="q25">
+                            <label class="tab-label" for="q25"><h4>What happens if I don’t have 1000 FIRO? Can I share a masternode with someone else?</h4></label>
                             <div class="tab-content">
 								<p>In the event people want to pool together their funds to make a masternode, please take note that you have to <strong>trust the person holding the funds for everyone</strong>.</p>
 								<p>This is because the <strong>1000 FIRO</strong> needs to be sent to a new address in one transaction and the custody is with one person. We ideally do not recommend such arrangements unless you really trust the person holding the funds on behalf of you. There is nothing to prevent the person holding the masternode funds from running away with your share.</p>
@@ -346,8 +356,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q25">
-                            <label class="tab-label" for="q25"><h4>Are my coins safe on a Firo masternode?</h4></label>
+                            <input type="checkbox" id="q26">
+                            <label class="tab-label" for="q26"><h4>Are my coins safe on a Firo masternode?</h4></label>
                             <div class="tab-content">
                                 <p>Masternodes do not hold any funds. They merely hold a masternode private key (not the same as your actual private key) which allows you to start and stop the masternode. There is a marker in your masternode configuration that links the masternode to your 1000 FIRO deposit. In the event of a masternode being hacked, all that will happen is that your masternode will go offline and you will lose your position in the payment queue.</p>
                                 <p>Your local Firo wallet still holds the 1000 FIRO so it is that wallet that will need to be secured. Ensure that your wallet is frequently backed up and encrypt your wallet.</p>
@@ -355,16 +365,16 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q26">
-                            <label class="tab-label" for="q26"><h4>How do I set up a Firo masternode?</h4></label>
+                            <input type="checkbox" id="q27">
+                            <label class="tab-label" for="q27"><h4>How do I set up a Firo masternode?</h4></label>
                             <div class="tab-content">
                                 <p>Please refer to this <a href="https://firo.org/guide/masternode-setup.html">masternode setup guide</a>.</p>
                                 <p>There will also be a number of masternode hosting providers who can simplify the process for you for a fee.</p>
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q27">
-                            <label class="tab-label" for="q27"><h4>How much are the rewards from hosting a masternode?</h4></label>
+                            <input type="checkbox" id="q28">
+                            <label class="tab-label" for="q28"><h4>How much are the rewards from hosting a masternode?</h4></label>
                             <div class="tab-content">
                                 <p>35% of the block reward is paid to masternodes.</p>
                               <p>Masternodes are selected for payment in each block (approximately every 5 minutes) from a deterministic masternode list, and moved to the back of the list after payment. As more masternodes are created, the duration between payments increases. If the collateral behind a masternode is spent, or if a masternode stops providing services to the network for more than one hour, it is removed from the list until normal service resumes. In this way, masternodes are given incentive to provide efficient and reliable services to the network.                              </p>
@@ -372,8 +382,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q28">
-                            <label class="tab-label" for="q28"><h4>What do I need to host a Firo masternode?</h4></label>
+                            <input type="checkbox" id="q29">
+                            <label class="tab-label" for="q29"><h4>What do I need to host a Firo masternode?</h4></label>
                             <div class="tab-content">
                                 <p>A Firo masternode requires</p>
                                 <ul>
@@ -386,8 +396,8 @@ permalink: /about/faq/index.html
                             </div>
                           </div>
                           <div class="tab">
-                            <input type="checkbox" id="q29">
-                            <label class="tab-label" for="q29"><h4>What is a masternode?</h4></label>
+                            <input type="checkbox" id="q30">
+                            <label class="tab-label" for="q30"><h4>What is a masternode?</h4></label>
                             <div class="tab-content">
                                 <p>Nodes are computers that host a full copy of Firo’s blockchain and help to verify the validity of transactions.</p>
                                 <p>Masternodes are a special type of node that earn part of Firo’s block reward (currently at 35% of the block reward) in return for hosting a reliable and powerful node that helps to support the network along with providing additional services to the network. For example, masternodes form themselves into long living masternode quorums (LLMQs) that provide ChainLocks which secures the chain against 51% mining attacks with single block finality and InstantSend which allows transactions to be finalized within a few seconds even before block confirmation.</p>
@@ -407,17 +417,17 @@ permalink: /about/faq/index.html
                         <h2>Anything else?</h2>
                         <div class="tabs">
                           <div class="tab">
-                            <input type="checkbox" id="q30">
-                            <label class="tab-label" for="q30"><h4>What is BEP20 Firo or Binance-Pegged Firo?</h4></label>
+                            <input type="checkbox" id="q31">
+                            <label class="tab-label" for="q31"><h4>What is BEP20 Firo or Binance-Pegged Firo?</h4></label>
                             <div class="tab-content">
                               <p>Binance-Pegged Firo also know as BEP20 Firo is a token issued by the Binance exchange on Binance Smart Chain (BSC). It is a custodial wrapped form of Firo whereby BEP20 Firo is backed by native Firo that is custodied by Binance. The core team has no control over this token.&nbsp;</p>
                               <p>Being a BSC token, BEP20 Firo does not utilize the privacy technology of Firo but can instead interact with defi protocol, AMM DEXes and other smart contracts on the BSC network.</p>
-                              <p>You can obtain BEP20 Firo either by withdrawing from Binance and selecting the BSC network instead of the Firo network or by swapping it on FiroDEX.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                              <p>You can obtain BEP20 Firo either by withdrawing from Binance and selecting the BSC network instead of the Firo network or by swapping it on FiroDEX.</p>
                             </div>
                           </div>
 						  <div class="tab">
-                            <input type="checkbox" id="q31">
-                            <label class="tab-label" for="q31"><h4>I have a question that is not listed here, please help!</h4></label>
+                            <input type="checkbox" id="q32">
+                            <label class="tab-label" for="q32"><h4>I have a question that is not listed here, please help!</h4></label>
                             <div class="tab-content">
                                 <p>Please drop by our <a href="https://discordapp.com/invite/4FjnQ2q">Discord</a> or <a href="https://t.me/firoorg">Telegram</a> to ask any questions!</p>
                             </div>
