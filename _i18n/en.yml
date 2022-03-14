@@ -4,7 +4,7 @@ global:
   yeth: "yes"
   noo: "no"
   lelantus: Lelantus
-  title: Firo - Financial Privacy Renewed
+  title: Firo - Privacy-preserving cryptocurrency
   
 titles:
   home: Home
@@ -55,8 +55,8 @@ footer:
   comm: communication
   
 home:
-  heading: Financial Privacy Renewed
-  heading2: Firo is a digital currency with a focus on setting privacy standards.
+  heading: Privacy is consent
+  heading2: Firo is a privacy preserving cryptocurrency and ecosystem.
   cta1: Get Firo
   cta2: Learn More
   privacy: Privacy
@@ -64,7 +64,7 @@ home:
   privacy2: anonymity set
   privacy3: trustless setup
   blockchain: Blockchain
-  blockchain1: Firo uses a hybrid PoW and LLMQ Chainlocks system combining fair distribution of supply with protection against 51% attacks and quick finality of transactions.
+  blockchain1: Firo uses a hybrid PoW and LLMQ Chainlocks system combining fair distribution of supply with protection against 51% attacks and quick finality of blocks and transactions.
   blockchain2: total supply
   blockchain3: proof of work
   blockchain4: master nodes
@@ -123,8 +123,8 @@ download:
 buyfiro:
   heading: Buy Firo
   heading2: One of the ways to get Firo is to acquire it on one of the exchanges. Below you will find a list of exchanges and coin-swapping services that support Firo.
-  predisclaimer: Disclaimer&#58;&nbsp;
-  disclaimer: Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
+  predisclaimer: Disclaimer
+  disclaimer: Some of these links contain referral links whereby the Firo core team may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
   ff: "Firo / Fiat"
   fc: "Firo / Crypto"
   cs: "Coin-Swapping"
@@ -145,11 +145,11 @@ tech:
   lelantus1: Lelantus Technology
   lelantus2: Lelantus is a next-generation privacy protocol developed by Aram Jivanyan at Firo. Lelantus allows you to burn your coins, which hides them in an anonymity set of over 65,000. The receiver can redeem it from this anonymity pool, which breaks the links from your transaction and all the previous ones it has been through.
   sigma1: Sigma Technology
-  sigma2: We believe the whole purpose of blockchain is to build systems that do not require trust, and that same principle applies to our privacy system itself. This is why we built Sigma for Zcoin in 2018. Sigma uses 256 bit ECC curves for proof sizes of just 1.5 kB - a 17x improvement on then-current technology. Sigma was a precursor to Lelantus, and set many stepping stones to get us where we are today.
+  sigma2: We believe the whole purpose of blockchain is to build systems that do not require trust, and that same principle applies to our privacy systems. This is why we built Sigma for Zcoin in 2018 which removes the requirement of a trusted setup in Zerocoin. Sigma uses 256 bit ECC curves for proof sizes of just 1.5 kB - a 17x improvement on then-current technology. Sigma was a precursor to Lelantus, and set many stepping stones to get us where we are today.
   dandelion1: Dandelion Technology
   dandelion2: Dandelion++ protects your IP address. Before Firo transactions are broadcast to the whole network, they’re shuffled between nodes a random number of steps. This way, the origin of the broadcast is decorrelated from your IP address.
   mtp1: Decentralized and fair security
-  mtp2: Firo’s Merkle Tree Proof (MTP) mining algorithm further strengthens the practical anonymity of transactions. MTP is memory-intensive, preventing miner centralization. Nodes, however, can bypass this memory requirement. A Zcoin-sponsored audit in 2017 proved the effectiveness of this two-pronged approach.
+  mtp2: Firo’s Merkle Tree Proof (MTP) mining algorithm was designed to democratize mining. The MTP algorithm is memory-intensive increasing the costs of building ASICs and keeping the chain mineable by commodity hardware such as GPUs. Nodes, however, can bypass this memory requirement and verify these proofs efficiently. A Firo-sponsored audit in 2017 proved the effectiveness of this two-pronged approach. MTP has since been replaced by FiroPoW which has smaller proofs and additional ASIC resistant strategies.
   
 team:
   heading: Team
@@ -279,7 +279,7 @@ roadmap:
   bridges: Cross-chain bridges
   bridgesdesc: Cross chain bridges will allow tokens from other ecosystems to bridge in and out of Firo’s Elysium token layer to utilize our privacy infrastructure.
   mixnets: Mixnets
-  mixnetsdesc: Tunnelling transactions and node communications into mixnets offer increased metadata protection even against state level adversaries.
+  mixnetsdesc: Tunnelling transactions and node communications into mixnets offer increased metadata protection even against state level adversaries. We are investigating the Meson mixnet that is built on Katzenpost software libraries.
   spats: Spark Assets (done)
   spatsdesc: Spark Assets extends the functionality of Spark to hide the asset type being transferred. Spats is planned to be implemented in Elysium v2.
   syncclients: Fast sync clients
