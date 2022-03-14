@@ -86,10 +86,9 @@ permalink: /about/faq/index.html
                                 <p>Firo's upcoming privacy protocol Lelantus Spark takes this idea further with all amounts being hidden and removing the need to 'redeem'. Users can now pass these coins directly between each other without having to expose the output amount. It also adds Spark addresses that are public shareable but cannot be looked up on the blockchain. </p>
                             </div>
                           </div>
-						  <div class="tab">
+						            <div class="tab">
                             <input type="checkbox" id="q5">
-                            <label class="tab-label" for="5">
-                            <h4>How does Firo compare to other privacy preserving cryptocurrencies?</h4></label>
+                            <label class="tab-label" for="5"><h4>How does Firo compare to other privacy preserving cryptocurrencies?</h4></label>
                             <div class="tab-content">
                                 <p>Firo's privacy protocols <a href="https://eprint.iacr.org/2019/373">Lelantus</a> and <a href="https://eprint.iacr.org/2021/1173">Lelantus Spark</a> combines very high anonymity sets (~65,000) while relying on well tested cryptographic building blocks that do not require trusted setup.</p>
                                 <p>This compares very favorably to existing solutions like mixers or even ring signatures that typically have limited anonymity sets per transaction (for e.g. Monero has a ring size of 11). Models that rely on decoys also have weaknesses where deanonymization becomes easier when <a href="https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy">paying repeatedly to the same entity</a>. <a href="https://arxiv.org/abs/1704.04299">Decoy selection algorithms have to be also carefully selected</a> to avoid reducing the effective anonymity set and if ring sizes are not large enough, can be subject to <a href="https://eprint.iacr.org/2019/455">Sybil attacks</a>. Similarly, Mimblewimble based coins rely highly on high transaction volumes in a block and also have <a href="https://medium.com/beam-mw/on-linkability-of-mimblewimble-da9ba71e83b4">limited resistance towards Sybil attacks</a>. Firo's use of large anonymity pools and sliding windows greatly alleviate these problems.</p>
@@ -99,19 +98,18 @@ permalink: /about/faq/index.html
                                 <p>You can view a more detailed comparison and analysis on our <a href="https://firo.org/guide/privacy-coin-comparison.html">privacy comparison guide</a>. </p>
                             </div>
                           </div>
-						  <div class="tab">
-                            <input type="checkbox" id="q6">
-                            <label class="tab-label" for="q6"><h4>Why aren't Firo transactions private by default?</h4></label>
+						            <div class="tab">
+                            <input type="checkbox" id="q6"><label class="tab-label" for="q6"><h4>Why aren't Firo transactions private by default?</h4></label>
                             <div class="tab-content">
                                 <p>The short answer is that our earlier privacy protocols made this difficult but we are moving towards it especially with the deployment of Lelantus Spark! All our official wallets already anonymize or prompt you to do so using Lelantus by default but Lelantus Spark with its new private Spark address system makes it much easier to fully transition to privacy by default.</p>
                                 <p>When the project first launched in 2016, it used the Zerocoin privacy protocol, originally a proposal for Bitcoin which used regular transparent addresses and therefore did not hide amounts. With zero knowledge proof technology in its infancy, back then we felt it was prudent to balance privacy with supply auditability to ensure we could detect inflation should there be a flaw in the technology.</p>
-								<p>We then dedicated development to removing trusted setup from Zerocoin and did so with our Sigma privacy protocol but it retained the same limitations of Zerocoin with regards to hiding amounts. With the development of Lelantus, our current privacy protocol, input and change amounts are hidden but the output amount remains exposed. Additionally, the anonymization function in Lelantus requires the users private key and therefore required user input to anonymize.</p>
+								                <p>We then dedicated development to removing trusted setup from Zerocoin and did so with our Sigma privacy protocol but it retained the same limitations of Zerocoin with regards to hiding amounts. With the development of Lelantus, our current privacy protocol, input and change amounts are hidden but the output amount remains exposed. Additionally, the anonymization function in Lelantus requires the users private key and therefore required user input to anonymize.</p>
                                 <p>With the development of Lelantus Spark, this new scheme retained all the benefits of our previous schemes namely high anonymity sets, small proof sizes, high efficiency, no trusted setup, well understood cryptographic building blocks and added Spark addresses which allows funds to be kept privately without revealing amounts and can be freely shared without compromising privacy. Users can send funds directly to Spark addresses and have them anonymized immediately without needing recipient interaction.</p>
-								<p>With the deployment of Lelantus Spark later this year (2022), all our official wallets will by default use Spark addresses and all mining rewards will mandatorily go to Spark addresses increasing the anonymity set. We will also approach exchanges to support withdrawals to Spark addresses. Some time after Spark deployment, Helsing (our private masternode staking) will then be launched allowing masternode collateral to be held in Spark addresses and for masternode rewards to go into Spark addresses directly. We are hopeful with these changes that the vast majority of transactions will become private.</p>
-								<p>During the interim, transparent addresses still have a role to play in enabling easier interoperability with other chains where those ecosystems already have implemented support for Bitcoin addresses for e.g. with cross-chain bridges. Eventually as the ecosystem catches up to using Spark addresses, transparent addresses can be phased out completely.</p>
+								                <p>With the deployment of Lelantus Spark later this year (2022), all our official wallets will by default use Spark addresses and all mining rewards will mandatorily go to Spark addresses increasing the anonymity set. We will also approach exchanges to support withdrawals to Spark addresses. Some time after Spark deployment, Helsing (our private masternode staking) will then be launched allowing masternode collateral to be held in Spark addresses and for masternode rewards to go into Spark addresses directly. We are hopeful with these changes that the vast majority of transactions will become private.</p>
+								                <p>During the interim, transparent addresses still have a role to play in enabling easier interoperability with other chains where those ecosystems already have implemented support for Bitcoin addresses for e.g. with cross-chain bridges. Eventually as the ecosystem catches up to using Spark addresses, transparent addresses can be phased out completely.</p>
                             </div>
                           </div>
-						  <div class="tab">
+						            <div class="tab">
                             <input type="checkbox" id="q7">
                             <label class="tab-label" for="q7">
                             <h4>What are sliding windows as used in Lelantus and Lelantus Spark?</h4></label>
@@ -154,7 +152,8 @@ permalink: /about/faq/index.html
                               <p>This research also applies to Bitcoin. If we take an anonymous network such as Bitcoin, and use data from a social network from Facebook or Bitcointalk, we can use topological analysis to identify a lot of users. <a href="https://eprint.iacr.org/2012/596.pdf">A comprehensive study on Bitcoin’s privacy</a> also shows that even with best practices, a significant proportion of users can be identified from their behaviour.</p>
                               <p>The converse is also true where <a href="https://arxiv.org/pdf/1801.07501.pdf">Bitcoin’s network can also deanonymize TOR users</a>.</p>
                             </div>
-							<div class="tab">
+                          </div>
+							            <div class="tab">
                             <input type="checkbox" id="q11">
                             <label class="tab-label" for="q11">
                             <h4>How does Firo protect transactions on a network level?</h4></label>
@@ -162,7 +161,7 @@ permalink: /about/faq/index.html
                               <p>Firo was the first cryptocurrency to go live with <a href="https://arxiv.org/abs/1805.11060">Dandelion++</a> on mainnet. Most other cryptocurrencies use a gossip model whereby when they receive a transaction, they tell all other nodes connected to it about the transaction. As a result the transaction propagates quickly through the network. The downside is that an adversary who can monitor the network can see this chain reaction happening and can <a href="https://arxiv.org/abs/1405.7418">approximate with a high degree of accuracy</a> which node the transaction originated from.</p>
                               <p>Dandelion++ obfuscates these type of analysis by changing the way the transactions are broadcasted by randomly choosing to tell one other node about the transaction or to switch to gossip mode. This makes it harder to associate a node with a particular transaction.</p>
                               <p>Firo also fully supports the use of the Tor network that can work alongside with Dandelion++.</p>
-                              <p>Firo is intending to move to a <a href="https://en.wikipedia.org/wiki/Mix_network">mixnet</a> model in the future. </p>
+                              <p>Firo is intending to move to a <a href="https://en.wikipedia.org/wiki/Mix_network">mixnet</a> model in the future.</p>
                             </div>
                           </div>
                         </div>
