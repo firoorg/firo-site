@@ -4,7 +4,7 @@ global:
   yeth: "是"
   noo: "否"
   lelantus: Lelantus
-  title: Firo - 金融隐私焕新
+  title: Firo - 保护隐私的加密货币
 
 titles:
   home: 首页
@@ -55,8 +55,8 @@ footer:
   comm: 加入讨论
 
 home:
-  heading: 金融隐私焕新
-  heading2: Firo 是一种数字货币，专注于树立隐私标准。
+  heading: 隐私是同意
+  heading2: Firo 是一种保护隐私的加密货币和生态系统。
   cta1: 获取 Firo
   cta2: 了解更多
   privacy: 隐私
@@ -64,7 +64,7 @@ home:
   privacy2: 匿名集
   privacy3: 无预信任机制
   blockchain: 区块链
-  blockchain1: Firo 使用混合 PoW 和 LLMQ ChainLocks 系统，将供应的公平分发与对 51% 攻击的保护和交易的快速最终确定相结合。
+  blockchain1: Firo 使用混合的 PoW 和 LLMQ ChainLocks 系统，将供应的公平分发与防止 51% 攻击以及区块和交易的快速最终确定相结合。
   blockchain2: 总供应量
   blockchain3: 工作量证明
   blockchain4: 主节点
@@ -124,7 +124,7 @@ buyfiro:
   heading: 买 Firo
   heading2: 获得 Firo 的方法之一是在其中一家交易所获得它。你将在下面找到支持 Firo 的交易所和币交换服务的列表。
   predisclaimer: 免责声明：
-  disclaimer: 其中一些链接包含推荐链接，当你注册或使用他们的产品/服务时，我们可能会得到补偿。这些不构成对产品/服务的认可。
+  disclaimer: 其中一些链接包含推荐链接，当你注册或使用他们的产品/服务时，Firo 核心团队可能会得到补偿。这些不构成对产品/服务的认可。
   ff: "Firo / 法定货币"
   fc: "Firo / 加密货币"
   cs: "币交换服务"
@@ -145,11 +145,11 @@ tech:
   lelantus1: Lelantus 技术
   lelantus2: Lelantus 是 Firo 的 Aram Jivanyan 开发的下一代隐私协议。Lelantus 允许你烧掉你的币，它将币隐藏在一个超过 65000 个的匿名集中。接收者可以从这个匿名池中赎回它，它打破了你的交易和之前所有交易的链接。
   sigma1: Sigma 技术
-  sigma2: 我们相信区块链的最终目的是建立不需要信任的系统，并且同样的原则也适用于我们的隐私系统本身。这就是为什么我们在 2018 年为 Zcoin 构建 Sigma 的原因。Sigma 使用 256 位 ECC 曲线，证明大小仅为 1.5 kB，是当时技术的 17 倍改进。Sigma 是 Lelantus 的前身，为我们今天的地位奠定了许多垫脚石。
+  sigma2: 我们相信区块链的最终目的是建立不需要信任的系统，并且同样的原则也适用于我们的隐私系统。这就是为什么我们在 2018 年为 Zcoin 构建 Sigma 的原因，它消除了 Zerocoin 中预信任机制的要求。Sigma 使用 256 位 ECC 曲线，证明大小仅为 1.5 kB，是当时技术的 17 倍改进。Sigma 是 Lelantus 的前身，为我们今天的地位奠定了许多垫脚石。
   dandelion1: Dandelion 技术
   dandelion2: Dandelion++ 保护你的 IP 地址。在 Firo 交易广播到整个网络之前，它们会在节点之间随机洗牌几步。这样，广播的来源就与你的 IP 地址解除了关联。
   mtp1: 分散和公平的安全
-  mtp2: Firo 的默克尔树证明（MTP）挖矿算法进一步增强了交易的实用匿名性。MTP 占用大量内存，阻止了矿工集中化。但是，普通节点可以绕过此内存要求。2017 年由 Zcoin 发起的审计证明了这种两管齐下的方法的有效性。
+  mtp2: Firo 的默克尔树证明（MTP）挖矿算法旨在使挖矿民主化。MTP 算法是内存密集型的，增加了构建 ASIC 的成本，并保持链可通过 GPU 等商品硬件进行挖矿。而节点可以绕过这种内存要求，有效地验证这些证明。2017 年 Firo 赞助的审计证明了这种双管齐下的方法的有效性。此后，MTP 已被 FiroPoW 取代，FiroPoW 具有更小的证明和额外的抗 ASIC 策略。
 
 team:
   heading: 团队
@@ -279,7 +279,7 @@ roadmap:
   bridges: 跨链桥
   bridgesdesc: 跨链桥将允许来自其他生态系统的代币桥接进出 Firo 的 Elysium 代币层，以利用我们的隐私基础设施。
   mixnets: 混合网
-  mixnetsdesc: 将交易和节点通信穿插到混合网中，即使是面对国家级别的对手，也能提供更多的元数据保护。
+  mixnetsdesc: 将交易和节点通信接入混合网，即使面对国家层面的对手，也能提供更多的元数据保护。我们正在研究基于 Katzenpost 软件库的 Meson 混合网。
   spats: Spark Assets（已完成）
   spatsdesc: Spark Assets 扩展了 Spark 的功能，以隐藏传输的资产类型。Spats 计划在 Elysium v2 中实现。
   syncclients: 快速同步客户端
