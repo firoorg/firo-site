@@ -64,7 +64,7 @@ home:
   privacy2: 匿名集
   privacy3: 无预信任机制
   blockchain: 区块链
-  blockchain1: Firo 使用混合的 PoW 和 LLMQ ChainLocks 系统，将供应的公平分发与防止 51% 攻击以及区块和交易的快速最终确定相结合。
+  blockchain1: Firo 使用混合 PoW 和 LLMQ ChainLocks 系统，将供应的公平分发与防止 51% 攻击以及区块和交易的快速最终确定相结合。
   blockchain2: 总供应量
   blockchain3: 工作量证明
   blockchain4: 主节点
@@ -145,7 +145,7 @@ tech:
   lelantus1: Lelantus 技术
   lelantus2: Lelantus 是 Firo 的 Aram Jivanyan 开发的下一代隐私协议。Lelantus 允许你烧掉你的币，它将币隐藏在一个超过 65000 个的匿名集中。接收者可以从这个匿名池中赎回它，它打破了你的交易和之前所有交易的链接。
   sigma1: Sigma 技术
-  sigma2: 我们相信区块链的最终目的是建立不需要信任的系统，并且同样的原则也适用于我们的隐私系统。这就是为什么我们在 2018 年为 Zcoin 构建 Sigma 的原因，它消除了 Zerocoin 中预信任机制的要求。Sigma 使用 256 位 ECC 曲线，证明大小仅为 1.5 kB，是当时技术的 17 倍改进。Sigma 是 Lelantus 的前身，为我们今天的地位奠定了许多垫脚石。
+  sigma2: 我们相信区块链的所有目的最终都是为了建立不需要信任的系统，并且同样的原则也适用于我们的隐私系统。这就是为什么我们在 2018 年为 Zcoin 构建 Sigma 的原因，它消除了 Zerocoin 中预信任机制的要求。Sigma 使用 256 位 ECC 曲线，证明大小仅为 1.5 kB，是当时技术的 17 倍改进。Sigma 是 Lelantus 的前身，为我们今天的成就奠定了许多垫脚石。
   dandelion1: Dandelion 技术
   dandelion2: Dandelion++ 保护你的 IP 地址。在 Firo 交易广播到整个网络之前，它们会在节点之间随机洗牌几步。这样，广播的来源就与你的 IP 地址解除了关联。
   mtp1: 分散和公平的安全
