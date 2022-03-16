@@ -45,4 +45,4 @@ Failure to check can cause your masternode to **get banned** some time later.
 
 While you're at it, don't forget to upgrade your local wallet too! Just [download](https://firo.org/get-firo/download/) from our website and install replacing the old version. Just make sure to always have a backup of your wallet.dat! 
 
-If you have any questions, feel free to join our [Discord](https://discordapp.com/invite/4FjnQ2q) or [Telegram](https://t.me/firoorg) groups.
+If you have any questions, feel free to join our [Discord](https://discord.com/invite/TGZPRbRT3Y) or [Telegram](https://t.me/firoorg) groups.
