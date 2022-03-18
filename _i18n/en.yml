@@ -133,6 +133,7 @@ buyfiro:
   pairing: pairing
   fchead1: "firo / crypto"
   csservice: coin-swapping services
+  dex: dex
   liquidstaking: liquid staking
   
 tech:

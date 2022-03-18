@@ -133,6 +133,7 @@ buyfiro:
   pairing: 交易对
   fchead1: "Firo / 加密货币"
   csservice: 币交换服务
+  dex: dex
   liquidstaking: 流动性质押
 
 tech:
