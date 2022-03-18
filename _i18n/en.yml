@@ -253,6 +253,8 @@ roadmap:
   heading: Roadmap
   mnodes: Deterministic Masternodes (done)
   mnodesq: Long Lived Masternode Quorums  (done)
+  mtpstrip: MTP Strip (done)
+  mtpstripdesc: MTP stripping reduces the size of Firo's blockchain from 60GB to 4GB by stripping MTP proofs from older blocks.
   rebrand: Rebrand  (done)
   lelantus: Lelantus Activation  (done)
   lelantusdesc: Lelantus is our next generation privacy protocol that offers the highest levels of practical privacy without trusted setup and only relying on solid cryptographic assumptions. Lelantus supports anonymity sets that are several magnitudes larger than other privacy systems that do not have trusted setup.
