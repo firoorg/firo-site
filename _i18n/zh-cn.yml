@@ -115,9 +115,10 @@ download:
   iosmob: iOS 钱包
   downloadmobios: 即将推出
   hashesios: 显示 iOS 版钱包的 SHA256 哈希
-  optionmob3: Android
+  optionmob3: Android & iOS
   campfiremob: Campfire 钱包
-  downloadmobcamp: 下载 Android 钱包
+  downloadmobcamp: Download for Android
+  downloadioscamp: Download for iOS
   wallets: 第三方钱包
 
 buyfiro:
