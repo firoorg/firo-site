@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dog coins have become increasingly popular and it’s easy to see why"
+title: "Firo rebrands to Shhh-iba $FIDO"
 summary: ""
 tags: [news, community]
 author: "Reuben Yap"
