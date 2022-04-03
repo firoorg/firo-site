@@ -6,6 +6,9 @@ tags: [news, community]
 author: "Reuben Yap"
 img: "/blog/assets/shhhiba-rebrand.png"
 ---
+
+**This is an April Fool's 2022 joke.**
+
 Dog coins have become increasingly popular and it’s easy to see why! While apes rule over the NFT space, it is the dogs that rule over coins. Cute, loyal and furry, dog coins have captured the imagination of some of the most powerful and influential people on the planet such as Elon Musk, Mark Cuban and Snoop Dogg.
 
 The Firo Core team has realised that is no longer enough to be building some of the most important privacy protocols in the cryptocurrency space. The market wants dogs and we need to answer!
