@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hummingbot Firo Liquidity Campaign on Binance and Gate.io launched"
-summary: ""
+summary: "Get $FIRO and $HBOT rewards!"
 tags: [news, community]
 author: "Reuben Yap"
 img: "/blog/assets/humming-bot-binance-gateio"
