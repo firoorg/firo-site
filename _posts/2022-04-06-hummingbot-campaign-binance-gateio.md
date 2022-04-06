@@ -4,7 +4,7 @@ title: "Hummingbot Firo Liquidity Campaign on Binance and Gate.io launched"
 summary: "Get $FIRO and $HBOT rewards!"
 tags: [news, community]
 author: "Reuben Yap"
-img: "/blog/assets/humming-bot-binance-gateio"
+img: "/blog/assets/humming-bot-binance-gateio.png"
 ---
 We are happy to announce the restart of the Firo Hummingbot liquidity mining program. This time in addition to rewards in $FIRO, you’ll also be receiving [$HBOT tokens](https://support.hummingbot.io/hc/en-us/articles/5440378738713-Launching-HBOT-Rewards-on-Hummingbot-Miner). The program rewards users who provide liquidity to the following pairs:
 
