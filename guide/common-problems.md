@@ -50,7 +50,10 @@ If you frequently encounter this problem, some recommendations are:
 
 When using a hardware wallet as the receiving address for mining pools' payout, the amount of input transactions can overwhelm the hardware limitations of the hardware wallet.
 
-1. In Electrum-Firo, select **View -> Show coins**. 
+![](/guide/assets/common-problems/electrum-firo-ledger-select.png)
+
+1. In Electrum-Firo, select **View -> Show coins**.
+
 2. Right-click on only one entry and select **Spend**, then use the **Send tab** to send the selected inputs. Your hardware wallet should prompt you almost immediately.
 
 3. If that is successful, try **Ctrl + Left Click** in the Coins tab to select a maximum of five inputs. Then right-click and select **Spend**, again using the **Send tab** to send the FIRO out.
