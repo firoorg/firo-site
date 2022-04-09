@@ -1,6 +1,6 @@
 ---
 layout: guide
-title: "Common Problems and Solutions"
+title: "Common Wallet Problems and Solutions"
 summary: ""
 tags: [news, dev, community]
 author: "Anwar P."
