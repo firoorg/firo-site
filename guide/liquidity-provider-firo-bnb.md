@@ -30,37 +30,7 @@ Before starting, you will need a wallet that works with the Binance Smart Chain 
 
 ## Converting FIRO to BEP20 FIRO
 
-There are two ways to convert FIRO to BEP20 FIRO: Binance Bridge and Binance Exchange. Converting through Bridge does not require a Binance account, but converting through the Exchange does.
-
-### Binance Bridge
-
-_**December 2021: Binance Bridge has been retired. You can convert native FIRO to BEP20 FIRO through FiroDEX or Binance Exchange**_
-
-1. Navigate to [Binance Bridge.](https://www.binance.org/en/bridge)
-
-2. Click on the Connect Wallet button and choose the Metamask wallet you have setup earlier. Unlock the wallet if requested.
-
-![](/guide/assets/liquidity-provider-firo-bnb/bridge_01.png)
-
-{:start="3"}
-3. Choose FIRO from the 'Asset' dropdown menu.
-
-4. Enter the amount of FIRO that you want to convert to BEP20 FIRO. The 'Destination' address should be the same as the address in your Metamask wallet. Click on Next.
-
-![](/guide/assets/liquidity-provider-firo-bnb/bridge_02.png)
-
-{:start="5"}
-5. Choose 'I will send the tokens from my own wallet.' At the next screen, verify that all the information is correct and check the 'I have read and agree to the terms of use' box. Click on Confirm.
-
-![](/guide/assets/liquidity-provider-firo-bnb/bridge_03.png)
-
-{:start="6"}
-6. Send the **exact** amount of FIRO that you entered earlier to the displayed FIRO address.
-
-![](/guide/assets/liquidity-provider-firo-bnb/bridge_04.png)
-
-{:start="7"}
-7. Once enough confirmations has been reached, you will receive the FIRO in your Metamask wallet.
+There are two ways to convert FIRO to BEP20 FIRO: FiroDEX and Binance Exchange. Converting through Binance Exchange requires a Binance account. No account is required for converting through FiroDEX.
 
 ### Binance Exchange
 
