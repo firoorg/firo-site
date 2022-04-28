@@ -38,7 +38,7 @@ navigation:
   roadmap: Roadmap
   faq: FAQ
   fcs: Sistem Penggalangan Dana Firo
-  opencollective: Open Collective (or “Kolektif Terbuka” if it needs to be translated, but I think better use opencollective since its a name of a website)
+  opencollective: Open Collective
   
 footer:
   resources: Sumber daya
@@ -143,7 +143,8 @@ tech:
   academicpapers: Makalah Academik
   audits: Audit
   sparklelantus1: Teknologi Lelantus Spark
-  sparklelantus2: Lelantus Spark sangat meningkat dibandingkan pendahulunya, Lelantus dengan alamat Spark fleksibel yang mampu membuat informasi jumlah transaksi menjadi privat dan tidak dapat dilacak dengan sistem tanda tangan digital yang efisien serta dukungan tampilan input dan output. Spark juga memiliki struktur modular yang memungkinkan komponen untuk ditingkatkan seiring dengan munculnya teknologi yang lebih baik sambil menyederhanakan analisis keamanan. Teknologi ini mempertahankan keunggulan Lelantus sebagai mekanisme tanpa trusted setup, serta konstruksi yang mudah dipahami dan berdasarkan asumsi kriptografi yang kokoh.  lelantus1: Teknologi Lelantus
+  sparklelantus2: Lelantus Spark sangat meningkat dibandingkan pendahulunya, Lelantus dengan alamat Spark fleksibel yang mampu membuat informasi jumlah transaksi menjadi privat dan tidak dapat dilacak dengan sistem tanda tangan digital yang efisien serta dukungan tampilan input dan output. Spark juga memiliki struktur modular yang memungkinkan komponen untuk ditingkatkan seiring dengan munculnya teknologi yang lebih baik sambil menyederhanakan analisis keamanan. Teknologi ini mempertahankan keunggulan Lelantus sebagai mekanisme tanpa trusted setup, serta konstruksi yang mudah dipahami dan berdasarkan asumsi kriptografi yang kokoh.
+  lelantus1: Teknologi Lelantus
   lelantus2: Lelantus adalah protokol privasi generasi selanjutnya yang dikembangkan oleh Aram Jivanyan di Firo. Lelantus memungkinkan Anda untuk melakukan pembakaran koin untuk menciptakan koin sama yang sepenuhnya baru dan menyembunyikannya diantara set anonimitas sebesar lebih dari 65,000. Penerima menerima koin Anda dari kumpulan anonimitas ini, yang telah memutuskan tautan dari transaksi yang Anda buat dan semua transaksi sebelumnya yang telah dilakukan jika ada.
   sigma1: Teknologi Sigma
   sigma2: Kami percaya seluruh tujuan blockchain adalah untuk membangun sistem yang tidak memerlukan kepercayaan, dan prinsip yang sama berlaku untuk sistem privasi kami. Inilah sebabnya kami membangun Sigma untuk Zcoin pada tahun 2018 yang menghilangkan persyaratan pengaturan terpercaya di Zerocoin. Sigma menggunakan kurva ECC 256 bit dengan ukuran proof hanya 1,5 kB - 17x yang merupakan peningkatan pada teknologi saat itu. Sigma adalah pendahulu Lelantus, dan menetapkan banyak batu loncatan untuk membawa kita ke tempat kita sekarang ini.
