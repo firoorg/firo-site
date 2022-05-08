@@ -50,10 +50,10 @@ There are of course other reasons raised by the team and community members which
 
 An initial [poll was created](https://forum.firo.org/t/poll-on-firo-block-reward-division/2150) to gauge community sentiment for a block reward division change. As the vote was pretty tight, the top two voted options were then taken and several intermediate options were also added which eventually evolved into the [final poll](https://forum.firo.org/t/final-poll-on-firo-block-reward-division/2369). The top voted option which will be implemented are as follows:
 
-50% Masternodes (previously 35%)
-25% Miners (previously 50%)
-15% Dev reward (no change)
-10% Community Fund (previously 0%)
+50% Masternodes (previously 35%)  
+25% Miners (previously 50%)  
+15% Dev reward (no change)  
+10% Community Fund (previously 0%)  
 
 Miners will continue to have a strong stake in Firo with an agreed-upon 25% block reward, meaning that effectively we are freeing up a new 25% reward which will be re-allocated to Masternodes (+15%) and a brand new community fund (+10%).  
 
