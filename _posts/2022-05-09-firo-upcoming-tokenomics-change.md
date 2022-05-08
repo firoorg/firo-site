@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Community Fund Block Rewards Incoming"
-summary: "FIRO's Upcoming Block Reward Division Set to Change in 3…2…1…"
+title: "FIRO upcoming tokenomics change"
+summary: "Community Fund Block Rewards Incoming"
 tags: [news, dev, community]
-author: "Andrei Rotariu"
+author: "Andrei Rotariu aka Crypto Fireside"
 img: "/blog/assets/park-troopers.png"
 ---
 ### The upcoming block reward change to FIRO will be one of the biggest changes and in our eyes one of the biggest improvements to the FIRO project to date. We are empowering our community more so than ever before! Put your party hats on and get ready to celebrate!
