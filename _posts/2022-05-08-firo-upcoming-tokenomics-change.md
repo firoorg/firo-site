@@ -38,7 +38,7 @@ Our community is not just important to us, it is us.
 
 We recognize that there is a need for a community fund, to reward and incentivize the community in a similar way to how we reward core developers, miners, and masternodes. Firo has a large and vibrant community that is simply not being rewarded and hence, not being leveraged, and yet it is our biggest strength by far. Leveraging and empowering our community lies at the heart of this solution.  
 
-FIRO’s amazing, dedicated community consists of 81 thousand followers on [Twitter](https://twitter.com/firoorg), 32 thousand followers on [Facebook](https://www.facebook.com/firoorg/), 4.5 thousand active members on [Telegram](https://t.me/firoorg), 11 thousand active members on [Discord](https://discord.gg/DsqrhmH7), and of course a [YouTube](https://www.youtube.com/c/firoorg) channel, [Subreddit](https://www.reddit.com/r/FiroProject/), and more.  
+FIRO’s amazing, dedicated community consists of 81 thousand followers on [Twitter](https://twitter.com/firoorg), 32 thousand followers on [Facebook](https://www.facebook.com/firoorg/), 4.5 thousand active members on [Telegram](https://t.me/firoorg), 11 thousand active members on [Discord](https://discord.com/invite/TGZPRbRT3Y), and of course a [YouTube](https://www.youtube.com/c/firoorg) channel, [Subreddit](https://www.reddit.com/r/FiroProject/), and more.  
 
 These are enviable community figures.  
 
