@@ -4,7 +4,7 @@ title: "Announcement of Firo's Acceptance into the BPSAA"
 summary: "Firo accepted into the BPSAA"
 tags: [announcement, news, dev, community]
 author: "Lucas Fullam"
-img: ""
+img: "/blog/assets/firo-joins-bpsaa.png"
 ---
 ### Firo has been accepted into the BPSAA!
 
