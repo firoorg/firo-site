@@ -6,8 +6,6 @@ tags: [announcement, news, dev, community]
 author: "Lucas Fullam"
 img: ""
 ---
-
-
 ### Firo has been accepted into the BPSAA!
 
 Firo is proud to announce that we have been accepted and added as a member of the BPSAA! The acronym BPSAA stands for "Blockchain Privacy, Security, & Adoption Alliance". They are a think-tank of privacy-focused projects focused on collaborative efforts for privacy innovation.
@@ -34,5 +32,5 @@ Firo has long held the view that we cannot create everything, or even go it alon
 
 The expertise provided by our fellow members will be incomprehensible, and this will only become better as time goes on and more projects are accepted into the alliance. The expertise from these other communities is sure to shore up the weak points that Firo may have, just as we can strengthen their communities. 
 
-[BPSAA Firo Announcement](https://bpsaa.vision/firo-joins-the-bpsaa) 
+[BPSAA Firo Announcement](https://bpsaa.vision/firo-joins-the-bpsaa)  
 [BPSAA Members](https://bpsaa.vision/members) 
