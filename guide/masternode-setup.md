@@ -329,7 +329,7 @@ Registration is successful once the transaction containing your registration is 
 
 Once the transaction is mined, the nodes you just registered should appear in the masternodes tab in the wallet. 
 
-To check your masternode's status on the masternode itself, do ./firo-cli evoznode status. If everything was setup correctly, you should see your masternode's details along with these two lines at the bottom: 
+**Do not skip this step.** To check your masternode's status on the masternode itself, do **./firo-cli evoznode status**. If everything was setup correctly, you should see your masternode's details along with these two lines at the bottom: 
 ```
 "state": "READY", 
 "status": "Ready
