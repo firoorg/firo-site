@@ -674,7 +674,7 @@ label[for="mobile-burger"] {
     display: none;
 }
     
-#list1:checked ~ .dropdown-content, #list2:checked ~ .dropdown-content, #list3:checked ~ .dropdown-content {
+#list1:checked ~ .dropdown-content, #list2:checked ~ .dropdown-content, #list3:checked ~ .dropdown-content, #list4:checked ~ .dropdown-content {
     display: block;
     position: inherit;
     opacity: 1;
