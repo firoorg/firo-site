@@ -6,7 +6,7 @@ tags: [announcement, news, community]
 author: "Reuben Yap"
 img: "/blog/assets/cfc-vote-completed.png"
 ---
-The [election of the 7 member Community Fund Committee] (https://forum.firo.org/t/firo-community-fund-committee-elections/2509) (“CFC”) to oversee the newly formed Firo Community Fund (“FCF”) has been completed!  
+The [election of the 7 member Community Fund Committee](https://forum.firo.org/t/firo-community-fund-committee-elections/2509) (“CFC”) to oversee the newly formed Firo Community Fund (“FCF”) has been completed!  
 
 The following community members will serve as CFC members for a period of 6 months:
 * [RyanApeFiro](https://forum.firo.org/t/nomination-for-community-fund-committee/2380/22)  
