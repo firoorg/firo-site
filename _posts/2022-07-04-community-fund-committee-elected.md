@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Community Fund Committee Elected"
-summary: "The newly formed community fund has been completed"
+summary: "Empowering the community for a more decentralized Firo"
 tags: [announcement, news, community]
 author: "Reuben Yap"
 img: "/blog/assets/cfc-vote-completed.png"
