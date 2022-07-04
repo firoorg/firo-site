@@ -46,7 +46,8 @@ The Community Fund Committee can also independently initiate proposals to be fun
 4. FCF funds should not be used to host purely social events. Educational or awareness events are acceptable but must be the primary component of the event.
 5. FCF funds should be used and while there shouldn’t be a pressure to spend funds, the FCF should not be hoarded.
 6. CFC can choose to use the FCF to employ contractors to embark on specific tasks or roles that will report directly to the CFC.
-7. Should the CFC deem fit, FCF funds can be burnt by sending it to this [burn address](https://explorer.firo.org/address/aFiroBurningAddressDoNotSendrPtjYA).  
+7. Should the CFC deem fit, FCF funds can be burnt by sending it to this [burn address](https://explorer.firo.org/address/aFiroBurningAddressDoNotSendrPtjYA).
+8. FCF funds address can be viewed here: https://explorer.firo.org/address/aFA2TbqG9cnhhzX5Yny2pBJRK5EaEqLCH7  
 
 ### Where can I see the deliberations of the Community Fund Committee?  
 
