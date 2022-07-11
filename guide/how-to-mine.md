@@ -48,6 +48,10 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
     * firopow.eu.mine.zergpool.com:3001
 * [Solo Pool](https://firo.solopool.org/)
     * s3.solopool.org:8014
+* [Cruxpool](https://www.cruxpool.com/firo)
+    * firo.cruxpool.com:2222
+* [Speedpool](https://mining.speedpool.top/pool/firo)
+    * mining.speedpool.top:7000
 * For detailed stratum information, please visit the pool's own site.
 
 Most of the pools listed here do not require registration, only a valid **Firo address** as username and **worker** details. Ensure that you also get the **pool's address** and **port.**
