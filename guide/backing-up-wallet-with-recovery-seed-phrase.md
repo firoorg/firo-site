@@ -38,7 +38,7 @@ Optional: You can also add an additional passphrase by checking the "Use additio
 
 ## Restoring wallet from seed phrase
 
-![](/guide/assets/backing-up-wallet-with-recovery-seed-phrase/seed_firo02.png) 
+![](/guide/assets/backing-up-wallet-with-recovery-seed-phrase/seed_firo03.png) 
 
 **WARNING:** Do not use the seed phrase in the example above! If you do, your funds will be gone!
 
