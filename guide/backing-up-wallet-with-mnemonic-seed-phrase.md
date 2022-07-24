@@ -4,7 +4,7 @@ title: "How to backup your Firo wallet with a mnemonic seed phrase"
 summary: 
 tags: [guide]
 author: "Anwar P."
-permalink: /guide/backing-up-firo-wallet-with-mnemonic-seed-phrase.html
+permalink: /guide/backing-up-firo-wallet-with-recovery-seed-phrase.html
 ---
 Mnemonic (seed phrase) backup feature was introduced in December 2019 with version [0.13.8.10](https://github.com/firoorg/firo/releases), following the [BIP39 standard](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki). 
 
