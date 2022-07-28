@@ -80,9 +80,8 @@ Optional: You can also add an additional passphrase by checking the "Use additio
 
 ![](/guide/assets/backing-up-wallet-with-recovery-seed-phrase/firo-client/firo-client-05.png)
 
-**WARNING:** Do not use the seed phrase in the example above! If you do, your funds will be gone!
-
 1. Click on the **"Recover from a Seed Phrase"** button.
+
 2. At the next screen, select **12** or **24 words** and enter your seed phrase. If you have a protective passphrase, check the box and enter it here as well. If you never created a protective passphrase before, do not enter a protective passphrase **otherwise the wrong wallet might be restored.**
 
 **CAUTION:** This protective passphrase is not the same as your wallet's passphrase that you use to unlock your wallet or send a transaction.
