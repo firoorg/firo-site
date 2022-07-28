@@ -11,7 +11,7 @@ permalink: "/guide/common-problems.html"
 
 This guide lists the common problems you might face while using the Firo wallets. If your problem is not listed here, please visit the #support channel on [Discord](https://discord.com/invite/TGZPRbRT3Y) or [Telegram.](https://t.me/firoorg)
 
-## Firo-QT
+## Firo QT
 
 ### Breaking masternode collateral
 
@@ -43,6 +43,22 @@ Example: you receive a lot of 0.1 FIRO transactions. Use Coin Control to combine
 
 If you frequently encounter this problem, some recommendations are:
 * regularly combine these mining payouts instead of waiting until you want to send them out.
+
+## Firo Client (Electron)
+
+### Breaking masternode collateral
+
+If you wish to stop your masternode and break the 1000 FIRO masternode collateral, you must first enable Coin Control.
+
+1. **Settings -> Allow Coin Control to Break Masternodes**
+
+2. In the Send screen,set the toggle from **Private** to **Public**
+
+3. Click on **"Custom Inputs (Coin Control)"**
+
+4. Find your 1000 FIRO collateral and click its checkbox.
+
+The 1000 FIRO should now be available for you to send.
 
 ## Electrum Firo
 
