@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CFC grants 10% Block Reward Bonus to decentralize hashrate"
-summary: "Incentive for pool that has <30% of total hashrate"
+summary: "Pools with <30% of total hashrate receive a bonus"
 tags: [announcement, news]
 author: "Reuben Yap"
 img: "/blog/assets/minerbonus.png"
