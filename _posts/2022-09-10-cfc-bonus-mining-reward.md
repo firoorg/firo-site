@@ -12,7 +12,7 @@ Firo utilizes a hybrid PoW/Chainlocks consensus mechanism which allows for insta
 
 To encourage miners to spread out their hashrate over other pools, the CFC has approved a proposal for an incentive to be provided to pool operators that have less than 30% total hashrate. In return, the pools get a subsidy to reward their miners and they help spread the word about FIRO. 
 
-How does the campaign work?  
+### How does the campaign work?  
 * A 10% bonus over the block reward to any pool operator that has < 30% total hashrate and has opted into the campaign
 * Rewards will be disbursed weekly based on the number of blocks each pool has solved during the week
 * Campaign period starts from the 12th September and ends on 12th October 2022.
