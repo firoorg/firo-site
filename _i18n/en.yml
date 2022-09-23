@@ -184,14 +184,6 @@ team:
     name: Gevorg Mirzoyan
     title: Developer
     bio: Gevorg is a software engineer who graduated from the Faculty of Applied Mathematics and Informatics,  Russian-Armenian (Slavonic) University. His tech stack includes C++, Unity and Linux. He has a passion for programming, hiking and games.
-  lc:
-    name: LC
-    title: Developer
-    bio: LC is an anonymous developer that is interested in the cross-section between government, politics, state power, and technology.  Drawing from philosophers like Foucault, Fisher, Ellul, Ranciere, he is interested in individual human freedom, so he naturally gravitates to crypto anarchy.  He focuses on computer security, philosophy, and Python software development.  He follows the cypherpunk Bitstream Podcast by Frank Braun & Jonathan 'smuggler' Logan. 
-  levonh: 
-    name: Levon Hovhannisyan
-    title: Developer
-    bio: Levon Hovhannisyan has over 6 years of professional experience, specifically in C++, algorithms and data structures. His tech stack includes but is not limited to the latest C++ standards, Python, Lua, Windows/Linux. During his professional career, Levon has also had experience in games and backend development. He graduated from Russian-Armenian (Slavonic) University and while studying Levon was involved in the competitive programming contests, including ACM ICPC, and the knowledge gained from them has helped him to become a professional lecturer and learning courses creator. He is also passionate about learning new technologies and software development practices, problem-solving and video games. 
   zorayrzakaryan:
     name: Zorayr Zakaryan
     title: Mobile Project Manager
@@ -220,10 +212,6 @@ team:
     name: Lucas Fullam
     title: Community Manager
     bio: Lucas Fullam has a history of working customer focused jobs in the past ranging from customer service representative to event setups at venues and conferences. He first heard about cryptocurrency back in 2012, but did not truly delve into until well into 2017 when one of his friends brought him deeper into the world of crypto where he finally got to see how much potential there was. One thing led to another and finally he found Firo and the rest is history.
-  michaelmugglesbernhardt:
-    name: Michael 'Muggles' Bernhardt
-    title: Community Manager
-    bio: A programmer by trade, he is running his own business to manage water projects via an online portal with installations throughout Africa. Michael has been consumed by crypto since 2013 and has a strong passion for privacy and freedom.
   sebastianbausch:
     name: Sebastian Bausch
     title: Asian Operations
