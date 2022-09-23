@@ -55,6 +55,8 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
 * [Minerpool](https://firo.minerpool.org/)
     * firo-us-east.minerpool.org:14058
     * firo-eu.minerpool.org:14058
+* [BadHasher](https://badhasher.com/pool/Firo)
+    * us-stratum.badhasher.com:3318	
 * For detailed stratum information, please visit the pool's own site.
 
 Most of the pools listed here do not require registration, only a valid **Firo address** as username and **worker** details. Ensure that you also get the **pool's address** and **port.**
