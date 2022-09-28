@@ -35,9 +35,9 @@ Firo was launched as Zcoin on 28 September 2016 and our project is now 6 years o
 
 ### NEW LISTINGS AND TRADE PAIRS  
 
-* New listings on Tokocrypto, BitMart, TradeOgre, Incognito DEX, Tip.cc, BingX and Bitwell
-* New trading pairs with Binance (BUSD), Bittrex (USDT).
-* Firo can be purchased with fiat using Visa or MasterCard through Binance and the 7b app.
+* New listings on [Tokocrypto](https://www.tokocrypto.com/trade/FIRO_USDT), [BitMart](https://www.bitmart.com/trade/en?symbol=FIRO_USDT&layout=basic), [TradeOgre](https://tradeogre.com/exchange/BTC-FIRO), [Incognito DEX](https://we.incognito.org/t/new-coin-pools-firo-prv-firo-bnb-bsc/16188), Tip.cc, [BingX](https://bingx.com/en-us/spot/FIROUSDT/) and [Bitwell](https://www.bitwellex.com/trade/spot/FIRO_USDT).  
+* New trading pairs with Binance ([BUSD](https://www.binance.com/en/trade/FIRO_BUSD)), Bittrex ([USDT](https://global.bittrex.com/trade/firo-usdt)).  
+* Firo can be purchased with fiat using Visa or MasterCard through [Binance](https://www.binance.com/en/buy-sell-crypto) and the [7b app](https://sevenb.io/currencies/firo).  
 
 ### NEW MINING POOLS  
 
