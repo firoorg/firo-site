@@ -2,7 +2,7 @@
 layout: post
 title: "HAPPY BIRTHDAY FIRO! WE ARE SIX!"
 summary: "A look at what have we done in the past year"
-tags: [announcement, news]
+tags: [announcement, news, community]
 author: "Reuben Yap"
 img: "/blog/assets/happy-birthday-firo.png"
 ---
