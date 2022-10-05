@@ -162,6 +162,33 @@ sup {
 .icon-desktop:before { content: '\e80f'; } /* '' */
 .icon-language:before { content: '\f1ab'; } /* '' */
 
+@font-face {
+    font-family: 'icon-addon';
+    src: url('../fonts/icon-addon.eot?99781827');
+    src: url('../fonts/icon-addon.eot?99781827#iefix') format('embedded-opentype'),
+         url('../fonts/icon-addon.woff2?99781827') format('woff2'),
+         url('../fonts/icon-addon.woff?99781827') format('woff'),
+         url('../fonts/icon-addon.ttf?99781827') format('truetype'),
+         url('../fonts/icon-addon.svg?99781827#icon-addon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icona-"]:before, [class*=" icona-"]:before {
+    font-family: "icon-addon";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+  }
+
+.icona-discord:before { content: '\e800'; } /* '' */
+
 
 a, button {
     cursor: pointer;
@@ -3367,6 +3394,23 @@ footer p {
     padding-top: 0.5rem;
 }
 
+footer .btn-text {
+    color: #9b1c2e;
+    margin-top: 0;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+
+footer .btn-text:hover, footer .btn-text:active, footer .btn-text:focus {
+    color: #7c1624;
+}
+
 footer form {
     margin-top: 1rem;
 }
@@ -3424,6 +3468,10 @@ footer .social li i {
 
 footer .social li:hover i {
     color: #9b1c2e;
+}
+
+footer .social svg {
+
 }
 
 footer .row.bottom {
