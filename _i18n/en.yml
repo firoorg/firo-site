@@ -48,10 +48,9 @@ footer:
   website: website
   privacy: Privacy Policy
   tos: Terms Of Service
-  newsletter: newsletter
-  ifsub: If you want to subscribe to our newsletter, please submit the form.
-  email: Email
-  sub: Subscribe
+  newsletter: news
+  ifsub: Check out our Telegram channel to stay up to date on Firo news.
+  newsbutton: Read news
   comm: communication
   
 home:

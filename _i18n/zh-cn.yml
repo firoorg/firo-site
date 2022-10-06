@@ -48,10 +48,9 @@ footer:
   website: 网站
   privacy: 隐私政策
   tos: 服务条款
-  newsletter: 新闻期刊
-  ifsub: 如果你想订阅我们的新闻期刊，请提交表格。
-  email: 邮箱
-  sub: 订阅
+  newsletter: news
+  ifsub: Check out our Telegram channel to stay up to date on Firo news.
+  newsbutton: Read news
   comm: 加入讨论
 
 home:
