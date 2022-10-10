@@ -52,6 +52,7 @@ We advise using testnet to test Elysium for yourself.
 ![](/blog/assets//elysium-post/Elysium2.jpg)
 
 3) You can choose to create a new token or add an existing one
+	
 	a) To create a token, Select the Create Token button. You can fill in the desired information in the text box. 
 		You will be required to have some transparent testnet Firo in your wallet to create tokens. You can obtain testnet Firo by visiting the Firo testnet faucet at https://testexplorer.firo.org/faucet
 		Once you have created the token, It will begin adding the token to the blockchain. 
@@ -60,9 +61,9 @@ We advise using testnet to test Elysium for yourself.
 
 ![](/blog/assets//elysium-post/Elysium4.jpg)
 
-![](/blog/assets//elysium-post/Elysium5.jpg)
+![](/blog/assets//elysium-post/Elysium5.jpg)  
 
-	b) To add an existing token to your wallet, Select the “Add existing token”. Enter the Token ID and press enter to search for its existence in the blockchain.  
+b) To add an existing token to your wallet, Select the “Add existing token”. Enter the Token ID and press enter to search for its existence in the blockchain.  
 
 ![](/blog/assets//elysium-post/Elysium6.jpg)
 
