@@ -15,9 +15,9 @@ Elysium is Firo’s tokenisation layer that provides a platform for anyone to cr
 Fees for transacting with these tokens are paid in Firo that have been anonymised using Lelantus. Unlike other tokenisation platforms, the fee payer’s identity is hidden when transacting with these tokens. The tokens are, by default, sent using Lelantus technology and are anonymised when received.  
 
 Some of the potential use cases where Elysium can be used are:  
-a) anonymous voting tokens,
-b) private stablecoins,
-c) asset-backed tokens,
+a) anonymous voting tokens,  
+b) private stablecoins,  
+c) asset-backed tokens,  
 d) fun meme or community coins with privacy.  
 
 The launch of Elysium expands the use cases of Firo not only to be a privacy coin but also a utility token for a privacy ecosystem.
