@@ -45,29 +45,29 @@ We advise using testnet to test Elysium for yourself.
 
 1) Launch the Firo Client in testnet
 
-[](/blog/assets//elysium-post/Elysium1.jpg)
+![](/blog/assets//elysium-post/Elysium1.jpg)
 
 2) After the main screen appears, head over to Settings and enable Elysium. The client will restart and let it sync to the latest block.
 
-[](/blog/assets//elysium-post/Elysium2.jpg)
+![](/blog/assets//elysium-post/Elysium2.jpg)
 
 3) You can choose to create a new token or add an existing one
 	a) To create a token, Select the Create Token button. You can fill in the desired information in the text box. 
 		You will be required to have some transparent testnet Firo in your wallet to create tokens. You can obtain testnet Firo by visiting the Firo testnet faucet at https://testexplorer.firo.org/faucet
 		Once you have created the token, It will begin adding the token to the blockchain. 
 
-[](/blog/assets//elysium-post/Elysium3.jpg)
+![](/blog/assets//elysium-post/Elysium3.jpg)
 
-[](/blog/assets//elysium-post/Elysium4.jpg)
+![](/blog/assets//elysium-post/Elysium4.jpg)
 
-[](/blog/assets//elysium-post/Elysium5.jpg)
+![](/blog/assets//elysium-post/Elysium5.jpg)
 
 	b) To add an existing token to your wallet, Select the “Add existing token”. Enter the Token ID and press enter to search for its existence in the blockchain.  
 
-[](/blog/assets//elysium-post/Elysium6.jpg)
+![](/blog/assets//elysium-post/Elysium6.jpg)
 
 4) Finally, you have added a token to your wallet. You can send the tokens from the Send tab. You can secure your tokens by clicking the anonymization button at the top to anonymize your Firo/tokens.  
 
-[](/blog/assets//elysium-post/Elysium7.jpg)
+![](/blog/assets//elysium-post/Elysium7.jpg)
 
-[](/blog/assets//elysium-post/Elysium8.jpg)
+![](/blog/assets//elysium-post/Elysium8.jpg)
