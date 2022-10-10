@@ -55,7 +55,7 @@ We advise using testnet to test Elysium for yourself.
 	
 	a) To create a token, Select the Create Token button. You can fill in the desired information in the text box. 
 		
-	You will be required to have some transparent testnet Firo in your wallet to create tokens. You can obtain testnet Firo by visiting the Firo testnet faucet at https://testexplorer.firo.org/faucet
+	You will be required to have some transparent testnet Firo in your wallet to create tokens. You can obtain testnet Firo by visiting the Firo testnet faucet at https://testexplorer.firo.org/faucet.  
 	Once you have created the token, It will begin adding the token to the blockchain. 
 
 ![](/blog/assets//elysium-post/Elysium3.jpg)
