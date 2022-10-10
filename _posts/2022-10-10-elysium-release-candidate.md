@@ -27,7 +27,7 @@ Our partners at [DotOracle are working to bridge assets from other chains into E
 
 ## Elysium Release Candidate
 
-Before trying out the release candidate, **please remember that this is a beta release and should not be meant to be used in production wallets**.  
+Before trying out the release candidate, **please remember that this is a release candidate and should not be meant to be used in production wallets**.  
 
 Download links are available below
 
