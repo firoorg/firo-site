@@ -4,7 +4,7 @@ title: "Lelantus Spark code audit begins"
 summary: ""
 tags: [announcement, news, development]
 author: "Reuben Yap"
-img: "/blog/assets/"
+img: "/blog/assets/spark-audit-begins.png"
 ---
 
 ## Lelantus Spark code audit begins
