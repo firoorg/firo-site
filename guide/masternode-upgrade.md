@@ -14,27 +14,27 @@ Please note that if you did not update in time to a mandatory release or before 
 2.  Copy a link to the Linux archive from [GitHub](https://github.com/firoorg/firo/releases/latest) or [Sourceforge](https://sourceforge.net/projects/firoorg/files/) by right-clicking the file name (e.g. firo-0.14.11.2-linux64.tar.gz) and selecting the copy link menu item in your browser.
 3.  On the masternode’s command line, type **wget** and insert the copied link after it like so: 
 
-`cd ~`  
+`cd ~` 
 `wget https://github.com/firoorg/firo/releases/download/v0.14.11.2/firo-0.14.11.2-linux64.tar.gz` 
 
 This will download the archive to your masternode.
 
 4.  Stop the old daemon  
 
-`cd ~/firo-1e9bad81f3dd/bin`  
-(this is the folder of the major version you are upgrading _from_)  
-`./firo-cli stop`  
-and remove the old version  
-`cd ~`  
-`rm -rv firo-1e9bad81f3dd`  
-(see above)  
+`cd ~/firo-1e9bad81f3dd/bin` 
+(this is the folder of the major version you are upgrading _from_) 
+`./firo-cli stop` 
+and remove the old version 
+`cd ~` 
+`rm -rv firo-1e9bad81f3dd` 
+(see above) 
 
 5.  Unpack the downloaded archive by typing 
 `tar xvzf firo-0.14.11.2-linux64.tar.gz` 
 
 6.  Now you can start your masternode again 
 `cd ~/firo-40e8fe01e381/bin` 
-(new version) 
+(new version)
 `./firod -daemon` 
 
 **Always check that your masternode is running normally after every upgrade** with 
