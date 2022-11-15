@@ -30,12 +30,12 @@ and remove the old version
 (see above)
 
 5.  Unpack the downloaded archive by typing 
-`tar xvzf firo-0.14.11.2-linux64.tar.gz`
+`tar xvzf firo-0.14.11.2-linux64.tar.gz` 
 
 6.  Now you can start your masternode again 
 `cd ~/firo-40e8fe01e381/bin` 
 (new version) 
-`./firod -daemon`
+`./firod -daemon` 
 
 **Always check that your masternode is running normally after every upgrade** with 
 `./firo-cli getinfo`
