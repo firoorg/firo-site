@@ -197,13 +197,9 @@ The next step opens port 8168 which is required for your masternode to communica
 
 (press Y and Enter to confirm) You now have a firewall setup!
 
-#### Allocating a Swap File (Optional if your VPS/server has 2gb or more RAM)
+#### Allocating a Swap File
 
-Allocating a swap file can guard your VPS server against out of memory errors in the event your RAM is fully utilized. **This step is optional** if your VPS / remote server has a lot of RAM. It is generally not needed if you have 2 gb of RAM or more. It may work with 1 gb of RAM as well. 
-
-**Swap** is an area on a hard drive that has been designated as a place where the operating system can temporarily store data that it can no longer hold in RAM. Basically, this gives you the ability to increase the amount of information that your server can keep in its working “memory”, with some caveats. The swap space on the hard drive will be used mainly when there is no longer sufficient space in RAM to hold in-use application data. 
-
-The information written to disk will be significantly slower than information kept in RAM, but the operating system will prefer to keep running application data in memory and use swap for the older data. Overall, having swap space as a fall back for when your system’s RAM is depleted can be a good safety net against out-of-memory exceptions on systems. 
+_You can skip this step if your VPS provider has automatically allocated swap for you. Use the **free** command to check if swap exists._
 
 `fallocate -l 4G /swapfile`
 
