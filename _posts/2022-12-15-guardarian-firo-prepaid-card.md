@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pay using FIRO with Guardarian Prepaid Card"
-summary: "More ways to use your FIRO"
+summary: "Additional ways to use your FIRO"
 tags: [announcement, news]
 author: "AJay"
 img: "/blog/assets/guardarian-prepaid-visa.png"
