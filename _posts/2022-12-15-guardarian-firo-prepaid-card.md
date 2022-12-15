@@ -11,7 +11,7 @@ We are excited to announce that you can spend your FIRO using the new [Guardaria
 
 ##Guardarian
 
-[Guardarian](https://guardarian.com/)makes purchasing crypto easy and convenient through multiple payment methods, including Visa, Mastercard, UnionPay and bank transfers. You can buy or sell Firo in just 10 minutes with some of the best exchange rates and fees offered on the market.
+[Guardarian](https://guardarian.com/) makes purchasing crypto easy and convenient through multiple payment methods, including Visa, Mastercard, UnionPay and bank transfers. You can buy or sell Firo in just 10 minutes with some of the best exchange rates and fees offered on the market.
 
 ![](/blog/assets/guardarian/guardarian-firo-swap.png)
 
