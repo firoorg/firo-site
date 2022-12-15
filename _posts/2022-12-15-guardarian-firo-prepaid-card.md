@@ -9,6 +9,8 @@ img: "/blog/assets/guardarian-prepaid-visa.png"
 
 We are excited to announce that you can spend your FIRO using the new [Guardarian prepaid VISA crypto card](https://guardarian.com/crypto-card)! You can top-up the card with FIRO to pay for your purchases wherever they accept VISA.
 
+This includes both physical locations – like restaurants and shops, as well any online vendors accepting Visa payments. Just top it up with Firo and use it as a regular bank card anywhere in the world!
+
 ## Guardarian
 
 [Guardarian](https://guardarian.com/) makes purchasing crypto easy and convenient through multiple payment methods, including Visa, Mastercard, UnionPay and bank transfers. You can buy or sell Firo in just 10 minutes with some of the best exchange rates and fees offered on the market.
