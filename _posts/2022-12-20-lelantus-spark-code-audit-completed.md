@@ -8,9 +8,9 @@ img: "/blog/assets/spark-completed.png"
 ---
 [HashCloak](https://hashcloak.com/) has just concluded the audit of Firo’s [Lelantus Spark](https://firo.org/2021/08/24/presenting-lelantus-spark.html) implementation! 
 
-The audit ran from 24 October 2022 until 28 November 2022, with an initial report delivered on 9 December 2022. The final report taking note of all fixes done by the core team, was delivered on 19 December 2022 and is available [here](https://github.com/firoorg/audits/blob/main/lelantus_spark_code_audit_report.pdf).
+The audit ran from 24 October 2022 until 28 November 2022, with an initial report delivered on 9 December 2022. The final report taking note of all fixes done by the core team, was delivered on 19 December 2022 and is available [here](https://firo.org/about/research/papers/lelantus_spark_code_audit_report.pdf).
 
-The audit found no critical or high severity issues. The report's other findings have all been [resolved in the updated codebase](https://github.com/firoorg/firo/commit/60dba45a8aee17cae0bc24d12d4071b39583781b). A copy of the report is available [here](https://github.com/firoorg/audits/blob/main/lelantus_spark_code_audit_report.pdf).
+The audit found no critical or high severity issues. The report's other findings have all been [resolved in the updated codebase](https://github.com/firoorg/firo/commit/60dba45a8aee17cae0bc24d12d4071b39583781b). A copy of the report is available [here](https://firo.org/about/research/papers/lelantus_spark_code_audit_report.pdf).
 
 We would like to thank HashCloak and [Cypher Stack](https://www.cypherstack.com/) for their fantastic work on the audit and [MAGIC Grants](https://magicgrants.org/MAGIC-Grants-Saves-Firo-Community-8000-Lelantus-Spark-Audit/) for assisting with the milestone payments to HashCloak.
 
