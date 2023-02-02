@@ -8,6 +8,7 @@ img: "/blog/assets/cfcnomination.jpg"
 ---
 In June 2022 Firo implemented the [tokenomics change](https://www.firo.org/2022/05/08/firo-upcoming-tokenomics-change.html) that the community voted for which created the Firo Community Fund. 
 The Firo Community Fund was created to bring greater decentralization in funding to the project by creating an independent fund from the block reward and which would be run by community elected members. 
+
 In July 2022 the Firo community [elected the first Community Fund Committee](https://www.firo.org/2022/07/04/community-fund-committee-elected.html) which was made up of the following members: 
 
 @RyanApeFiro
@@ -58,6 +59,7 @@ This is merely preliminary information!
 
 ### How to Run for Election
 
-Everything mentioned above is merely preliminary information! Head on over to the [nomination thread](https://forum.firo.org/t/cfc-nomination-thread-february-2023/2842) on the Firo Forum 
-to read the rest! After reading the requirements, responsibilities, and how the CFC operates you can nominate yourself or someone else you think may be good for the role. 
+Everything mentioned above is merely preliminary information! Head on over to the [nomination thread](https://forum.firo.org/t/cfc-nomination-thread-february-2023/2842) on the Firo Forum to read the rest! 
+After reading the requirements, responsibilities, and how the CFC operates you can nominate yourself or someone else you think may be good for the role.
+
 The nomination period will last for **1 month**! We look forward to seeing who all will pursue becoming a Community Fund Committee member! 
