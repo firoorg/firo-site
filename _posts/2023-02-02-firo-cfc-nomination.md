@@ -4,7 +4,7 @@ title: "Nomination Thread for a New Community Fund Committee"
 summary: "A new nomination thread for a new CFC election"
 tags: [announcement, news, communinity]
 author: "Lucas Fullam"
-img: "![image](https://user-images.githubusercontent.com/96499553/216413785-9d11b225-c3e7-462e-af39-6901c359b529.png)"
+img: "/blog/assets/cfcnomination.jpg"
 ---
 In June 2022 Firo implemented the [tokenomics change](https://www.firo.org/2022/05/08/firo-upcoming-tokenomics-change.html) that the community voted for which created the Firo Community Fund. 
 The Firo Community Fund was created to bring greater decentralization in funding to the project by creating an independent fund from the block reward and which would be run by community elected members. 
