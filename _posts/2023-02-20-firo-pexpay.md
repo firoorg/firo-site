@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "FIRO Now Listed on Pexpay Exchange"
-summary: ""
+title: "FIRO to be Listed on Pexpay Exchange"
+summary: "Spot trading opens on the 22nd February 00:00 UTC"
 tags: [announcement, news]
 author: "AJay"
 img: "/blog/assets/firoxpexpay.jpg"
 ---
 
-We are thrilled to announce that FIRO is now listed on Pexpay!
+We are thrilled to announce that FIRO is to be listed on Pexpay!
 
 ## What is Pexpay?
 
