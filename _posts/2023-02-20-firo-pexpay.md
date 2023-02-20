@@ -19,14 +19,14 @@ Pexpay has partnered with Binance as a part of its Binance Broker Partner Progra
 To introduce Firo to the Pexpay community, there will be a new listing campaign with a total prize pool up to $11,000
 
 **2023-02-20 00:00 - 2023-03-01 23:59 (UTC)**  
-Activity 1: Deposit & Win ($5,000 prize pool)  
-Q&A Airdrop: Exclusive on Pexpay Twitter ($100 prize pool)  
+**Activity 1**: Deposit & Win ($5,000 prize pool)  
+**Q&A Airdrop**: Exclusive on Pexpay Twitter ($100 prize pool)  
 
 **2023-02-22 12:00 - 2023-03-01 23:59 (UTC)**  
-Activity 2: Trade & Win ($5,000 prize pool)  
-Activity 3: New Users Welcoming Bonus ($10/ each)  
+**Activity 2**: Trade & Win ($5,000 prize pool)  
+**Activity 3**: New Users Welcoming Bonus ($10/ each)  
 
-More information can be found here:  https://support.pexpay.com/hc/en-us/articles/15547453854489
+More information can be found here: [https://support.pexpay.com/hc/en-us/articles/15547453854489](https://support.pexpay.com/hc/en-us/articles/15547453854489)
 
 [Pexpay](https://accounts.pexpay.com/en/register?ref=13270340)  
 Pexpay twitter: [@pexpay](https://twitter.com/Pexpay_official)  
