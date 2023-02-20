@@ -28,7 +28,7 @@ To introduce Firo to the Pexpay community, there will be a new listing campaign 
 
 More information can be found here: [https://support.pexpay.com/hc/en-us/articles/15547453854489](https://support.pexpay.com/hc/en-us/articles/15547453854489)
 
-[Pexpay](https://accounts.pexpay.com/en/register?ref=13270340)  
+[Pexpay Exchange](https://accounts.pexpay.com/en/register?ref=13270340)  
 Pexpay twitter: [@pexpay](https://twitter.com/Pexpay_official)  
 Pexpay Facebook: [Pexpay official facebook](https://www.facebook.com/pexpay.official/)  
-Pexpay Telegram: [Pexpay official] https://www.facebook.com/pexpay.official/  
+Pexpay Telegram: [Pexpay official](https://www.facebook.com/pexpay.official/)
