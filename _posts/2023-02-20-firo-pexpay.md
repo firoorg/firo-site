@@ -7,7 +7,7 @@ author: "AJay"
 img: "/blog/assets/firoxpexpay.jpg"
 ---
 
-We are thrilled to announce that FIRO is now listed on Pexpay. Pexpay focuses on providing a safe and reliable trading experience for users in the Commonwealth of Independent States (CIS), Asia, and Europe regions, making it a great addition to our list of exchange partners.
+We are thrilled to announce that FIRO is now listed on Pexpay!
 
 ## What is Pexpay?
 
