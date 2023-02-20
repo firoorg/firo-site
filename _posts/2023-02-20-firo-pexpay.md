@@ -12,7 +12,7 @@ We are thrilled to announce that FIRO is now listed on Pexpay!
 ## What is Pexpay?
 
 Pexpay is a platform for trading cryptocurrencies that focuses on offering a secure and dependable trading environment. Pexpay, a business with Seychelles registration, has become well-known in the CIS as one of the top P2P (Peer-To-Peer) trading platforms available. Pexpay has created a variety of trading products for users in addition to spot trading, such as futures trading, convertible trading, savings, and fiat on and off-ramp services. To guarantee that users' private information and money are always protected, the platform has been designed with the most recent security protocols in mind.
-Pexpay has partnered with Binance as a part of its Binance Broker Partner Program to provide better liquidity and more trading options. The team behind Pexpay was operating as the technical service provider for Binance P2P prior to Pexpay's official launch in November 2021.
+Pexpay has partnered with Binance as a part of its Binance Broker Partner Program which allows it to share liquidity and order books with Binance.
 
 ## New listing Campaign
 
