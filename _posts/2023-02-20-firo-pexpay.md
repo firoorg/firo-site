@@ -16,6 +16,8 @@ Pexpay has partnered with Binance as a part of its Binance Broker Partner Progra
 
 ## New listing Campaign
 
+![](/img/P2PxFIRO-main.png)  
+
 To introduce Firo to the Pexpay community, there will be a new listing campaign with a total prize pool up to $11,000
 
 **2023-02-20 00:00 - 2023-03-01 23:59 (UTC)**  
