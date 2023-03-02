@@ -49,4 +49,4 @@ The requirements for someone to be able to vote in the election are as follows:
 * The election will run for ONE (1) month!
 
 If you have donated, but your forum status has not been given a Donor status, please DM @Ajaydono, @DinkBlitz, or @anwar for a status upgrade.
-This vote is critical, so we urge you all to do the research before casting your votes. These members of the Firo community will be serving this role for 1 year - do not take your responsibility of voting lightly! You are playing a critical part in the future of Firo! Please head on over to the CFC General Election (March 2023) thread! (link)
+This vote is critical, so we urge you all to do the research before casting your votes. These members of the Firo community will be serving this role for 1 year - do not take your responsibility of voting lightly! You are playing a critical part in the future of Firo! Please head on over to the [CFC General Election March 2023](https://forum.firo.org/t/community-fund-committee-election-march-2023/2877) thread!
