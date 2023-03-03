@@ -2,7 +2,7 @@
 layout: post
 title: "Community Fund Committee Election"
 summary: "CFC Election Begins"
-tags: [announcement, news]
+tags: [announcement, news, community]
 author: "Lucas Fullam"
 img: "/blog/assets/cfcelection.jpg"
 ---
@@ -37,6 +37,15 @@ I hoped that the Firo community will take their time and carefully consider the 
 
 Their terms were for 6 months (which has lasted a little over that), but the new CFC will be elected for a term of 1 year. Thank you all for taking the time to serve the Firo community! Thank you to those who have been nominated and accepted a nomination to do the same! 
 There will be a brief informal interview with each of the nominees, the transcripts of which will be made available in the thread for this CFC General Election. 
+
+### Responsibilities of CFC Members
+
+* To decide along with taking into account community feedback on how the community fund should be utilized.
+* To help evaluate community requests for funding, do due diligence on applicants applying for funding, and obtain all necessary information to ensure sufficient detail for the scope of work.
+* To evaluate and approve payment of milestone requests
+* To make all reasoning of the CFC for approval/rejection public
+* CFC can request for core team’s feedback and opinion on proposals.
+* To always conduct themselves with professionalism without resorting to personal attacks or insults.
 
 ### Requirements for voting 
 
