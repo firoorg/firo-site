@@ -16,10 +16,10 @@ Campaign terms:
 	* Total reward pool*: US$2,000 (FIRO 194 per week) 
 
 ### What is Hummingbot? 
-Hummingbot Liquidity Mining is a decentralized, community-based market making. It allows anyone (communities, the general market) to participate in market making for a token and contribute to its liquidity and improve the tradability of that token. By participating, users are not only helping to support the token and the project, but through liquidity mining, they are able to earn token rewards based on their trading activity.
+[Hummingbot](https://hummingbot.org/) Liquidity Mining is a decentralized, community-based market making. It allows anyone (communities, the general market) to participate in market making for a token and contribute to its liquidity and improve the tradability of that token. By participating, users are not only helping to support the token and the project, but through liquidity mining, they are able to earn token rewards based on their trading activity.
 
 ### How Does the Campaign Work? 
-During the campaign, users who provide liquidity to the WBNB/FIRO pool on PancakeSwap will earn rewards in FIRO. The rewards are calculated based on the user's proportion of the total liquidity provided to the pool.
+During the campaign, users who provide liquidity to the WBNB/FIRO pool on [PancakeSwap](https://pancakeswap.finance/) will earn rewards in FIRO. The rewards are calculated based on the user's proportion of the total liquidity provided to the pool.
 
 ### How to Get Started? 
 To participate in the campaign, you'll need to set up your wallet on the [dMiner Hummingbot app](https://dminer.hummingbot.io/). Hummingbot has provided a detailed guide on how to set up the app on their website. Once you've set it up, you can follow the steps to connect it to the PancakeSwap exchange and start providing liquidity to the WBNB/FIRO pool.  
