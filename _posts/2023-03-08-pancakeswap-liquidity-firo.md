@@ -24,9 +24,9 @@ During the campaign, users who provide liquidity to the WBNB/FIRO pool on Pancak
 ### How to Get Started? 
 To participate in the campaign, you'll need to set up your wallet on the [dMiner Hummingbot app](https://dminer.hummingbot.io/). Hummingbot has provided a detailed guide on how to set up the app on their website. Once you've set it up, you can follow the steps to connect it to the PancakeSwap exchange and start providing liquidity to the WBNB/FIRO pool.  
 
-Participating in liquidity mining campaigns can be a great way to earn rewards while helping to provide liquidity to cryptocurrency exchanges. Firo's new campaign on PancakeSwap is an excellent opportunity for users to get involved in the Firo ecosystem while earning rewards. If you're interested in participating, head over to the dMiner Hummingbot app and follow the setup guide to get started!
+Participating in liquidity mining campaigns can be a great way to earn rewards while helping to provide liquidity to cryptocurrency exchanges. Firo's new campaign on PancakeSwap is an excellent opportunity for users to get involved in the Firo ecosystem while earning rewards. If you're interested in participating, head over to the dMiner Hummingbot app and follow the setup guide to get started! 
 
-Source: [Hummingbot New dMiner campaigns](https://support.hummingbot.io/hc/en-us/articles/16245946186649) 
-[Hummingbot dMiner App](https://dminer.hummingbot.io/) 
-[Hummingbot Academy](https://hummingbot.io/academy/) 
-[Hummingbot 24/7 Support](https://discord.hummingbot.io/) 
+Source: [Hummingbot New dMiner campaigns](https://support.hummingbot.io/hc/en-us/articles/16245946186649)  
+[Hummingbot dMiner App](https://dminer.hummingbot.io/)  
+[Hummingbot Academy](https://hummingbot.io/academy/)  
+[Hummingbot 24/7 Support](https://discord.hummingbot.io/)  
