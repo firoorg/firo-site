@@ -227,9 +227,9 @@ After **logging into the new user** on your **VPS** you created in Step 5, type 
 
 `cd ~` 
 
-`wget https://downloads.sourceforge.net/project/firoorg/firo-0.14.12.0-linux64.tar.gz`
+`wget https://downloads.sourceforge.net/project/firoorg/firo-0.14.12.1-linux64.tar.gz`
  
-`tar xzvf firo-0.14.12.0-linux64.tar.gz` 
+`tar xzvf firo-0.14.12.1-linux64.tar.gz` 
 
 Create a new config file for your masternode. Type
  
@@ -263,7 +263,7 @@ Press **Ctrl-X** to save and press **Y** to confirm it.
 
 Type following commands to start your firod daemon and let it sync. This will take a few hours. 
 
-`cd ~/firo-b8abba9ee8b8/bin`
+`cd ~/firo-c7e3ef0e6af6/bin`
 
 `./firod -daemon`
 
