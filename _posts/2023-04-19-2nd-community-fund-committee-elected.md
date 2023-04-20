@@ -1,11 +1,12 @@
---
+---
 layout: post
 title: "The 2nd Community Fund Committee Elected"
 summary: "Empowering the community"
 tags: [announcement, news, community]
 author: "Lucas Fullam"
 img: "/blog/assets/cfc-vote-completed.png"
---
+alt: ""
+---
 
 The [election for the second Community Fund Committee](https://forum.firo.org/t/community-fund-committee-election-march-2023/2877) has been completed! I would like to take the time to thank everyone who has served on the first CFC! 
 Further still, I would like to say a special thank you to those who have served but whose seats at the council are now held by new members. You were part of a crucial foundational period for the CFC that will continue to guide the future of the CFC. 
