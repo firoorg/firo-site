@@ -12,7 +12,7 @@ Trocador is an exchange aggregator with a strong focus on privacy. The team behi
 
 Trocador offers a service that helps users find the most favorable rates by connecting to trusted instant exchanges at no additional cost. The platform does not intervene in the transaction process and does not have access to the user's funds. 
 
-![](/img/firo-trocadorexchange.png)  
+![](/img/firo-trocadorexchange.jpg)  
 
 ## How does Trocador work? 
 
