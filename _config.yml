@@ -6,18 +6,14 @@ baseurl: ""
 url: "https://firo.org"
 
 markdown: kramdown
-
-# Kramdown was using smart quotes, which messes up CLI examples
-# TODO: smart quotes are actually quite pretty, so this is perhaps better handled via a plugin that reverts them for CLI blocks
-kramdown:
-    smart_quotes: ["apos", "apos", "quot", "quot"]
-    input: GFM
-
 exclude: ["README.md"]
 
 plugins:
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
+  - jekyll-feed
+  - jekyll-sitemap
+  - emoji_for_jekyll
 
 # paginate
 paginate: 6
