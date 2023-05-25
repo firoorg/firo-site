@@ -52,6 +52,7 @@ footer:
   ifsub: Check out our Telegram channel to stay up to date on Firo news.
   newsbutton: Read news
   comm: communication
+  feed: Feed RSS
   
 home:
   heading: Privacy is consent
