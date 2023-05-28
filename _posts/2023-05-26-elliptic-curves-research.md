@@ -27,6 +27,6 @@ In addition to the Lelantus Spark research, the funding will support Aram's ongo
 
 We are grateful to MAGIC Grants and Arcadia for their generous support, which enables us to further push the boundaries of privacy and advance the field of cryptocurrency research. Stay tuned for exciting updates on the progress of this collaboration! 
 
-Related article: 
+Related article:  
 [MAGIC Firo Fund](https://magicgrants.org/funds/firo/)  
 [MAGIC Grants Receives $200,000 Donation from Arcadia for Firo Ecosystem](https://magicgrants.org/200000-Donation-from-Arcadia-for-Firo/) 
