@@ -28,8 +28,6 @@ You should only need to provide your address that you collateraled your FIRO in 
 *   [Nodehub](https://nodehub.io/ref/charybdis)
 *   [PDABase](http://pdabase.com.my/zcoin-znode-hosting/) (small provider by Reuben and his friend Hui Sing to cater to mainly friends)
 *   [Satang Nodes](https://satang.com/nodes)
-*   [SetupMasternodes](https://www.setupmasternodes.com)
-*   [ZCore Masternodes Hosting](https://central.zcore.cash/mn-coins)
 
 ## Getting Started
 
