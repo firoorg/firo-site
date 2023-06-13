@@ -4,7 +4,7 @@ title: "New FIRO Liquidity campaign on Binance"
 summary: "Liquidity mining campaign extended for another 12 months!"
 tags: [announcement, news, community]
 author: "AJay"
-img: "/blog/assets/firohummingbinance.jpg"
+img: "/blog/assets/firohummingbinance.jpeg"
 ---
 We're thrilled to share that Firo is extending its liquidity mining campaign on Binance for an additional 12 weeks, funded by the Firo Community Fund! With a total reward pool of approximately US$10,800 up for grabs! 
 
