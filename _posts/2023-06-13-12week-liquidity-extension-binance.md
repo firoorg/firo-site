@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New FIRO Liquidity campaign on Binance"
-summary: "Liquidity mining campaign extended for another 12 months!"
+summary: "Liquidity mining campaign extended for another 12 weeks!"
 tags: [announcement, news, community]
 author: "AJay"
 img: "/blog/assets/firohummingbinance.jpeg"
