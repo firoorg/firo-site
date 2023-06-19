@@ -1,12 +1,12 @@
-
----
+--- 
 layout: post
 title: "Firo: Empowering Privacy and Security"
 summary: "Newcomer-friendly blog post about Firo and its privacy technology!”
 tags: [news, community]
 author: "Lucas Fullam"
 img: "/blog/assets/Article01.jpg"
----
+--- 
+
 ### What is Firo? 
 
 In today's digital age, privacy and security have become increasingly important concerns for individuals and businesses alike. With the rise of surveillance, data breaches, and privacy infringements, there is a growing need for innovative solutions that can safeguard our sensitive information. 
