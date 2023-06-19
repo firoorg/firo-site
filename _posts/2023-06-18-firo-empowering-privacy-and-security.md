@@ -1,4 +1,4 @@
----
+--
 layout: post
 title: "Firo: Empowering Privacy and Security"
 summary: "Newcomer-friendly blog post about Firo and its privacy technology!”
