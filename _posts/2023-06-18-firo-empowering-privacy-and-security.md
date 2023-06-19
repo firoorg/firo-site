@@ -4,7 +4,7 @@ title: "Firo: Empowering Privacy and Security"
 summary: "Newcomer-friendly blog post about Firo and its privacy technology!”
 tags: [news, community]
 author: "Lucas Fullam"
-img:
+img: "/blog/assets/Article01.jpg"
 ---
 ### What is Firo? 
 
