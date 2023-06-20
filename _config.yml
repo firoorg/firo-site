@@ -13,7 +13,6 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-feed
   - jekyll-sitemap
-  - emoji_for_jekyll
 
 # paginate
 paginate: 6
