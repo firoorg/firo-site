@@ -8,7 +8,6 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    emoji_for_jekyll (0.2.3)
     eventmachine (1.2.7)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
@@ -74,7 +73,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  emoji_for_jekyll (~> 0.2.3)
   jekyll (~> 4.3)
   jekyll-feed (~> 0.17.0)
   jekyll-multiple-languages-plugin (~> 1.8)
