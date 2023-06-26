@@ -1814,6 +1814,15 @@ a.btn-primary, a.btn-secondary {
     font-weight: bold;
 }
 
+.exch-logos img {
+    max-height: 100px;
+}
+
+.exch-logos img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 62rem) {
     
 .ex-list .row:nth-of-type(2) .col {
