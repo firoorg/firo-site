@@ -4,7 +4,7 @@ title: "Unveiling Spark: Public Testnet Launch Date confirmed"
 summary: "Spart testnet launching on 31st July 2023"
 tags: [news, community,development] 
 author: "Reuben Yap" 
-img: "/blog/assets/spark-testnet-launching.png"
+img: "/blog/assets/spark-testnet-launching.jpg"
 --- 
 
 ### Unveiling Spark: Public Testnet Launch Date confirmed
