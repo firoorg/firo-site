@@ -27,7 +27,7 @@ Spark offers full sender, receiver, amount and transaction graph privacy giving 
 
 One of the biggest changes that Sparks brings is Spark addresses: a powerful new stealth addressing system. These addresses allow users to share their addresses publicly without revealing any of their transaction activity or the assets they hold. They are also flexible and allow people to selectively disclose their transactions through the use of full incoming and outgoing view keys.
 
-[https://www.youtube.com/watch?v=aBh8nUTiy_A](https://www.youtube.com/watch?v=aBh8nUTiy_A)
+[![](/img/sparkaddressYT.jpg)](https://www.youtube.com/watch?v=aBh8nUTiy_A)
 
 Additionally, Spark’s construction is modular which offers a degree of future proofing. What this means is that as better tech comes along, individual components can be upgraded. Research is already being undertaken to use [curve trees to scale Spark’s anonymity set](https://magicgrants.org/Aram-Jivanyan-to-Research-Firo-Curves/) and performance.
 
@@ -53,7 +53,11 @@ Following the testnet launch, we plan to launch the mainnet in a few months. Mea
 
 We encourage everyone to read the Lelantus Spark paper [here](https://eprint.iacr.org/2021/1173) or watch our [recent presentation at Monerokon](https://youtu.be/Tjh9yjnogpQ) for a more in-depth understanding of the protocol.
 
+[![](/img/aram-lelantusspark-monerokon.jpg)](https://www.youtube.com/watch?v=Tjh9yjnogpQ)
+
 You can also learn more about [Spark Assets (Spats) here](https://firo.org/2022/03/07/spats-confidential-assets-lelantus-spark.html) or at the [presentation video](https://youtu.be/thjykhNW1Nk) for an idea of what’s coming next!
+
+[![](/img/aaron-spats-monerokon.jpg)](https://www.youtube.com/watch?v=thjykhNW1Nk)
 
 Stay tuned for more updates and thank you for your continued support and patience!
 
