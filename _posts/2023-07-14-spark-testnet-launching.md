@@ -27,7 +27,7 @@ Spark offers full sender, receiver, amount and transaction graph privacy giving 
 
 One of the biggest changes that Sparks brings is Spark addresses: a powerful new stealth addressing system. These addresses allow users to share their addresses publicly without revealing any of their transaction activity or the assets they hold. They are also flexible and allow people to selectively disclose their transactions through the use of full incoming and outgoing view keys.
 
-[https://www.youtube.com/watch?v=aBh8nUTiy_A](https://www.youtube.com/watch?v=aBh8nUTiy_A)
+[![](/img/sparkaddressYT.jpg)](https://www.youtube.com/watch?v=aBh8nUTiy_A)
 
 Additionally, Spark’s construction is modular which offers a degree of future proofing. What this means is that as better tech comes along, individual components can be upgraded. Research is already being undertaken to use [curve trees to scale Spark’s anonymity set](https://magicgrants.org/Aram-Jivanyan-to-Research-Firo-Curves/) and performance.
 
