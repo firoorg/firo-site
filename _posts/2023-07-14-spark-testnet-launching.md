@@ -53,7 +53,11 @@ Following the testnet launch, we plan to launch the mainnet in a few months. Mea
 
 We encourage everyone to read the Lelantus Spark paper [here](https://eprint.iacr.org/2021/1173) or watch our [recent presentation at Monerokon](https://youtu.be/Tjh9yjnogpQ) for a more in-depth understanding of the protocol.
 
+[![](/img/aram-lelantusspark-monerokon.jpg)](https://www.youtube.com/watch?v=Tjh9yjnogpQ)
+
 You can also learn more about [Spark Assets (Spats) here](https://firo.org/2022/03/07/spats-confidential-assets-lelantus-spark.html) or at the [presentation video](https://youtu.be/thjykhNW1Nk) for an idea of what’s coming next!
+
+[![](/img/aaron-spats-monerokon.jpg)](https://www.youtube.com/watch?v=thjykhNW1Nk)
 
 Stay tuned for more updates and thank you for your continued support and patience!
 
