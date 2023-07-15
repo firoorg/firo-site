@@ -2,7 +2,7 @@
 layout: post 
 title: "Building a Safer Firo: MAGIC approves Security Retainer with HashCloak" 
 summary: "Testing infrastructure, expand unit test coverage, and improve the PR review process"
-tags: [news, community,development] 
+tags: [news, community, development] 
 author: "Reuben Yap" 
 img: "/blog/assets/security-retainer/banner.jpg"
 --- 
