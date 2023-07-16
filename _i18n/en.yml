@@ -48,7 +48,7 @@ footer:
   website: website
   privacy: Privacy Policy
   newsletter: news
-  ifsub: Check out our Telegram channel to stay up to date on Firo news.
+  ifsub: Check out our <a href="/blog/">Blog</a> and Telegram channel to stay up to date on Firo news.
   newsbutton: Read news
   comm: communication
   feed: Feed RSS
