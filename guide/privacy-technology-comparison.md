@@ -42,7 +42,7 @@ One of the first methods people sought to achieve this was through the use of cr
 
 CoinJoin is an improvement of this mixing idea and removes the possibility for the tumbler to steal the coins. It is used in Dash and also forms the basis of many coin tumblers. However, there are many drawbacks to the system.
 
-![](/guide/assets/privacy-technology-comparison/coinjoin.png)
+<img src="/guide/assets/privacy-technology-comparison/coinjoin.png" alt="Graphical comparison between a coinjoin and non-coinjoin transaction between two individuals" loading="lazy"/>
 
 * You need to trust the tumbler for your anonymity as the mixer can log identifiable information and knows how the mix is happening along with each user’s input address and the address they are receiving coins to. This issue can be avoided by using blind digital signatures but then the anonymity of CoinJoin relies strongly on the possibility to connect to the tumbler in an anonymous manner, e.g., via the Tor network.
 * It requires people involved in the mixing to be online for a mixing transaction to happen. If no one wants to mix for the right denominations, your mix can be delayed.
@@ -94,7 +94,7 @@ CryptoNote/ring signatures when combined with confidential transactions also hid
 
 Another great feature of this protocol is that most implementations have mandatory stealth addressing which solve the address re-use problem and protects the receiver's privacy.
 
-![](/guide/assets/privacy-technology-comparison/cryptonote.png) 
+<img src="/guide/assets/privacy-technology-comparison/cryptonote.png" alt="Graphical representation of the way inputs are managed in a RingCT transaction" loading="lazy"/>
 
 RingCT currencies also have limitations concerning practical ring size (the number of other outputs you are taking) as the size of a transaction grows linearly as the ring size increases. This is why Monero has a relatively small ring size of 11 though it is set to increase this to 16 in an upcoming hard fork. This means on a per transaction basis, the anonymity is limited by the number of inputs in the ring. While the possibilities start to fan out increasing the practical anonymity set, the real transaction link is still somewhere in there hiding among the decoys and there are methods to narrow the range of possibilities down such as theorized [Flashlight](https://www.zfnd.org/blog/blockchain-privacy/#flashlight), [Overseer](https://www.zfnd.org/blog/blockchain-privacy/#overseer) and [Tainted Dust](https://www.zfnd.org/blog/blockchain-privacy/#dust) attacks.
 
@@ -148,7 +148,7 @@ Lelantus v1 uses a burn and redeem model that was first pioneered by the Zerocoi
 
 A simple way to imagine this is throwing coins into a black box. Those that throw coins into the black box retain a special receipt that allows them to prove that they did throw coins in the black box without having to show exactly which coins were burnt. This receipt or proof is built from a trustless zero-knowledge proof called [one-out-of-many proofs aka Groth-Bootle proofs](https://eprint.iacr.org/2014/764.pdf) that does not require trusted setup. This construction was further optimized in the paper [Short Accountable Ring Signatures based on DDH (Jonathan Bootle, Andrew Cerulli, Pyrros Chaidos, Essam Ghadafi, Jens Groth and Christophe Petit).](https://eprint.iacr.org/2015/643.pdf).
 
-![](/guide/assets/privacy-technology-comparison/oneoutofmanyproofs.png)
+<img src="/guide/assets/privacy-technology-comparison/oneoutofmanyproofs.png" alt="Image showing the text 'Membership proof' with a graphical representation of the comparison" loading="lazy"/>
 
 Previous burn and redeem schemes such as Zerocoin and Sigma (which were also previously used in Zcoin) required users to burn and redeem in fixed denominations and also did not allow partial redemptions. For example if I burnt 10 coins but wanted to spend 3 of them, I would need to redeem 10 fully, send the three and then reburn the 7. This is inefficient and involves several steps.
 
@@ -166,9 +166,9 @@ Lelantus also lacks stealth addressing support meaning that while users cannot s
 
 Our work in Lelantus has also revived interest in the use of Groth-Bootle proofs and has lead to a new breed of privacy protocols such as [Triptych](https://eprint.iacr.org/2020/018) (Monero Research Labs), [Lelantus-MW](https://github.com/BeamMW/beam/wiki/Lelantus-MW) (Beam) and [Lelantus-CLA](https://eprint.iacr.org/2021/1036.pdf) (Beam).
 
-![](/guide/assets/privacy-technology-comparison/lelantusmint.png) 
+<img src="/guide/assets/privacy-technology-comparison/lelantusmint.png" alt="Mathematical scheme of a mint transaction" loading="lazy"/>
 
-![](/guide/assets/privacy-technology-comparison/lelantuspend.png)
+<img src="/guide/assets/privacy-technology-comparison/lelantuspend.png" alt="Mathematical scheme of a spend transaction" loading="lazy"/>
 
 ### [Lelantus Spark](https://firo.org/2021/08/24/presenting-lelantus-spark.html)
 
@@ -227,7 +227,7 @@ One of the leading privacy schemes is the Zerocash protocol as used in ZCash. Ze
 
 Like its predecessor Zerocoin, Zerocash requires a trusted setup, but Zerocash’s setup is much more complicated. For its initial deployment of Sprout, Zcash utilized a multi-party ceremony involving six people set up in a way that the only way these parameters could be leaked is if all six in the ceremony colluded to retain the keys. In other words, you have to trust all of these six people that they destroyed the initial parameters and also that the ceremony was carried out correctly. Weaknesses and flaws in the initial setup led to Zcash organizing a [new trusted setup ceremony](https://z.cash.foundation/blog/powers-of-tau/) that involved 88 participants and addressed other weaknesses in the original Sprout ceremony.
 
-![](/guide/assets/privacy-technology-comparison/grinder.png) 
+<img src="/guide/assets/privacy-technology-comparison/grinder.png" alt="Photo showing a man opening the back of a computer case using a grinder" loading="lazy"/>
 
 If there is a bug in the code, or a cryptographic flaw or an issue with the multi-party trusted setup, an attacker can possibly generate unlimited Zcash and this additional supply <span style="text-decoration: underline;">**cannot be detected**</span>. 
 
@@ -289,7 +289,7 @@ In Mimblewimble, all transactions values are hidden and these transactions are a
 
 Now it is unclear who sent to who! 
  
-![](/guide/assets/privacy-technology-comparison/btcmw.png) 
+<img src="/guide/assets/privacy-technology-comparison/btcmw.png" alt="Comparison between inputs and output of a bitcoin and MimbleWimble based transaction" loading="lazy"/>
  
 However the big assumption is that no one is monitoring the network as these transactions propagate and before they are recorded onto the blockchain. With vanilla Mimblewimble, someone could create a malicious node that connects to all other nodes in the network and record the transactions before they are combined together. This completely reveals the transaction graph. 
 
@@ -299,7 +299,7 @@ In practice, the use of Dandelion++ doesn’t mitigate this sufficiently. A [201
 
 This combined with the fact that  Mimblewimble is also a decoy-based system similar to Cryptonote (although it achieves it using different methods), it still suffers the [same drawbacks as other 'decoy' based privacy systems where repeated transactions can further reduce the anonymity as taint trees still remain](https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy). Additionally, if there are not many transactions in a block, this reduces privacy greatly while Beam's implementation of MW attempts to mitigate this by introducing decoys where needed. As explained before, active monitoring of the network can dilute this even further. 
 
-![Image result for mimblewimble transaction](/guide/assets/privacy-technology-comparison/mwtx.png) Example of a transaction graph that can be built by tracing the MimbleWimble transactions. 
+<img src="/guide/assets/privacy-technology-comparison/mwtx.png" alt="Example of a transaction graph that can be built by tracing the MimbleWimble transactions" loading="lazy"/> Example of a transaction graph that can be built by tracing the MimbleWimble transactions. 
 
 A big drawback of traditional MimbleWimble is the need for interaction between the receiver and sender (meaning the receiver and sender need to communicate directly to communicate a blinding factor) and a massively different scheme that does away with addresses. This means you cannot just post an address on a website and have to give a new value all the time. This also complicates multi party transactions, for example A sending money to B, C, D, E in one transaction would require each of these parties to communicate to A before the send can happen. Beam's implementation addresses this through the use of a Secure Bulletin Board system which allows people to post their messages to Beam's full nodes so that the blinding factor can be communicated once the user comes online though further research is required if this leaks any information.
 
