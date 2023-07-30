@@ -41,6 +41,7 @@ Linux:
 
 ![](/blog/assets/spark-testnet/step2.png)
 
+You can get testnet coins via the [Firo Faucet](https://testexplorer.firo.org/faucet) or asking from the community via [Firo's Telegram group](https://t.me/firoorg) or [Discord](https://discord.com/invite/TGZPRbRT3Y)  
 
 ## Testnet Activities
 
