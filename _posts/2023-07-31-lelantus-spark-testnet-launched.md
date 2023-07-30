@@ -42,3 +42,22 @@ Linux:
 ![](/blog/assets/spark-testnet/step2.png)
 
 
+## Testnet Activities
+
+As part of this exciting launch, we have prepared a series of events! We will have a bug bounty event, a Spark Address event, and live events! Stay tuned as we continue to announce the events! First up, we have a bug bounty program! 
+
+Your valuable feedback plays a crucial role in enhancing the Firo experience. As we gear up for the testnet launch, we invite you to contribute by reporting any issues or bugs you encounter. We wholeheartedly encourage every member of our Firofam community to participate in this endeavor. Not only will you help us identify and address potential bugs, but you will also earn Firo rewards in the process. Let's collaborate to make this testnet launch an astounding success!
+
+## Bug Bounty
+
+As a token of appreciation for your assistance, we have an exciting reward system in place. The first to report any issues on Firo’s GitHub with a clear, detailed, and repeatable description will be generously rewarded. Here's a breakdown of the rewards:
+
+**Cosmetic/UI issues:** Up to 5 Firo rewards!  
+**Minor issues:** Grab up to 50 Firo rewards!  
+**Major issues:** Score a whopping 1000 Firo rewards!  
+
+**Where to Report Bugs**
+
+To get started, simply head to our GitHub repository at [GitHub Repository](https://github.com/firoorg/firo/issues) and submit your bug reports. We value your contributions and look forward to your active involvement in shaping Firo's future. Don't miss out on this opportunity to earn rewards while being a crucial part of our community-driven development process.
+
+
