@@ -41,7 +41,17 @@ Linux:
 
 ![](/blog/assets/spark-testnet/step2.png)
 
-You can get testnet coins via the [Firo Faucet](https://testexplorer.firo.org/faucet) or asking from the community via [Firo's Telegram group](https://t.me/firoorg) or [Discord](https://discord.com/invite/TGZPRbRT3Y)  
+3) Firo-QT (testnet) will launch and bring up the new wallet creation window
+
+![](/blog/assets/spark-testnet/step3.png)
+
+4) Make sure you are on the Firo Core - Wallet testnet. And let the wallet sync to the latest block.
+
+![](/blog/assets/spark-testnet/step4.png)
+
+5) Once synced, You are ready to use your testnet wallet. 
+
+You can get testnet coins via the [Firo testnet Faucet](https://testexplorer.firo.org/faucet) or asking from the community via Firo [Telegram group](https://t.me/firoorg) or [Discord](https://discord.com/invite/TGZPRbRT3Y)  
 
 ## Testnet Activities
 
