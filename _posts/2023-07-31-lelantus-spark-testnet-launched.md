@@ -52,10 +52,11 @@ Your valuable feedback plays a crucial role in enhancing the Firo experience. As
 
 As a token of appreciation for your assistance, we have an exciting reward system in place. The first to report any issues on Firo’s GitHub with a clear, detailed, and repeatable description will be generously rewarded. Here's a breakdown of the rewards:
 
-**Cosmetic/UI issues:** Up to 5 Firo rewards!
-**Minor issues:** Grab up to 50 Firo rewards!
-**Major issues:** Score a whopping 1000 Firo rewards!
+**Cosmetic/UI issues:** Up to 5 Firo rewards!  
+**Minor issues:** Grab up to 50 Firo rewards!  
+**Major issues:** Score a whopping 1000 Firo rewards!  
 
 **Where to Report Bugs**
 
 To get started, simply head to our GitHub repository at [GitHub Repository](https://github.com/firoorg/firo/issues) and submit your bug reports. We value your contributions and look forward to your active involvement in shaping Firo's future. Don't miss out on this opportunity to earn rewards while being a crucial part of our community-driven development process.
+
