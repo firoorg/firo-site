@@ -51,7 +51,7 @@ Linux:
 
 5) Once synced, You are ready to use your testnet wallet. 
 
-You can get testnet coins via the [Firo testnet Faucet](https://testexplorer.firo.org/faucet) or asking from the community via Firo [Telegram group](https://t.me/firoorg) or [Discord](https://discord.com/invite/TGZPRbRT3Y)  
+You can get testnet coins via the [Firo testnet Faucet](https://testexplorer.firo.org/faucet) or asking from the community via Firo [Telegram](https://t.me/firoorg) group or [Discord](https://discord.com/invite/TGZPRbRT3Y)  
 
 ## Testnet Activities
 
