@@ -33,9 +33,9 @@ We will **NOT** be responsible for any wallet corruption.
 
 1) Download the testnet binary <binary link to be edited in later>
 
-Windows: 
-Mac: 
-Linux: 
+Windows:  
+Mac:  
+Linux:  
 
 2) Open command prompt/Terminal and launch firo-qt/firo-qt.exe with "-testnet" parameters
 
