@@ -38,10 +38,9 @@ Linux:
 
 2) Open command prompt/Terminal and launch firo-qt/firo-qt.exe with "-testnet" parameters. 
 
-   Windows: `firo-qt.exe -testnet` 
-   MAC: `open -a Firo-Qt --args -testnet` 
-   Linux: `firo-qt -testnet` 
-
+   Windows: `firo-qt.exe -testnet`  
+   MAC: `open -a Firo-Qt --args -testnet`  
+   Linux: `firo-qt -testnet`  
 
 ![](/blog/assets/spark-testnet/step2.png)
 
