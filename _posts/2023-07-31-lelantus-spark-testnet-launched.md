@@ -46,6 +46,10 @@ Linux:
 
 ![](/blog/assets/spark-testnet/step2mac.png)
 
+Alternatively you can edit `firo.conf` in your FIRO directory and add the `testnet=1` argument. Launching the Firo-QT application will automatically launch testnet instead of mainnet.
+
+![](/blog/assets/spark-testnet/firoconf.png)
+
 3) Firo-QT (testnet) will launch and bring up the new wallet creation window
 
 ![](/blog/assets/spark-testnet/step3.png)
