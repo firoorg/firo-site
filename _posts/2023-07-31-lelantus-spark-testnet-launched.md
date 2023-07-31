@@ -96,8 +96,8 @@ Upon receiving your testnet Firo through your Spark Address, make sure to take n
 
 Finally, join us for a live event that will showcase the exciting features of Spark and test your knowledge about Firo's tech and history! Prepare for an engaging quiz night that promises fun and knowledge galore with an opportunity to win exclusive Firo merchandise that will only be available during the testnet period.
 
- Date: August 6th, 2023
- Time: 14:30-15:30 UTC
+ Date: August 6th, 2023  
+ Time: 14:30-15:30 UTC  
 
 Mark your calendars, invite your friends, and be part of this grand event as we dive deep into the new features of Firo!
 
