@@ -53,22 +53,43 @@ Linux:
 
 You can get testnet coins via the [Firo testnet Faucet](https://testexplorer.firo.org/faucet) or asking from the community via Firo [Telegram](https://t.me/firoorg) group or [Discord](https://discord.com/invite/TGZPRbRT3Y)  
 
-## Testnet Activities
+## Testnet Activities: Get Ready for an Action-Packed Firo Launch!  
 
-As part of this exciting launch, we have prepared a series of events! We will have a bug bounty event, a Spark Address event, and live events! Stay tuned as we continue to announce the events! First up, we have a bug bounty program! 
+To celebrate this significant milestone, we have prepared a series of thrilling events that will bring us all together as a community, and ensured everyone at every level has a chance to participate! We look forward to all of your participation, as you play a crucial role in enhancing the Firo experience. Join us to make this testnet launch for Spark an astounding success! 
 
-Your valuable feedback plays a crucial role in enhancing the Firo experience. As we gear up for the testnet launch, we invite you to contribute by reporting any issues or bugs you encounter. We wholeheartedly encourage every member of our Firofam community to participate in this endeavor. Not only will you help us identify and address potential bugs, but you will also earn Firo rewards in the process. Let's collaborate to make this testnet launch an astounding success!
+ ## Bug Bounty: Your Feedback Matters!  
 
-## Bug Bounty
 
-As a token of appreciation for your assistance, we have an exciting reward system in place. The first to report any issues on Firo’s GitHub with a clear, detailed, and repeatable description will be generously rewarded. Here's a breakdown of the rewards:
+As we prepare for the testnet launch, we invite each and every member of our community to actively participate in our Bug Bounty program. As a token of our appreciation, you'll have the opportunity to earn Firo rewards for your contributions. 
+
+The first to report any issues on Firo's GitHub with a clear, detailed, and repeatable description will be generously rewarded. Reports that do not have a clear, detailed, and repeatable description will not be considered.
 
 **Cosmetic/UI issues:** Up to 5 Firo rewards!  
 **Minor issues:** Grab up to 50 Firo rewards!  
 **Major issues:** Score a whopping 1000 Firo rewards!  
 
-**Where to Report Bugs**
+ ## How to Participate:  
 
-To get started, simply head to our GitHub repository at [GitHub Repository](https://github.com/firoorg/firo/issues) and submit your bug reports. We value your contributions and look forward to your active involvement in shaping Firo's future. Don't miss out on this opportunity to earn rewards while being a crucial part of our community-driven development process.
+ To take part in our Bug Bounty program, simply visit our GitHub repository at [GitHub Repository](https://github.com/firoorg/firo/issues) and submit your bug reports. Your involvement in shaping Firo's future is highly valued, and we can't wait to see your contributions!
+
+ ## Spark Mayhem: Unleash the Power of Spark Addresses!
+
+Prepare for a thrilling event centered around Spark Addresses - a two-part extravaganza on Facebook, Twitter, and CoinMarketCap!
+
+
+**On Facebook:** Like our launch announcement post, comment with your Spark Address, and share the post!  
+**On Twitter:** Like, retweet, and comment with your Spark Address!  
+**On CoinMarketCap:** React, comment with your Spark Address, and repost!  
+
+Upon receiving your testnet Firo through your Spark Address, make sure to take note of your TX-ID and the amount you received. These details will be crucial for claiming your rewards later!
+
+ ## Live Event: Spark Unveiled!
+
+Finally, join us for a live event that will showcase the exciting features of Spark! Prepare for an engaging quiz night that promises fun and knowledge galore.
+
+ Date: August 5th, 2023 (DRAFT)  
+ Time: 15:30-16:30 UTC (DRAFT)  
+
+Mark your calendars, invite your friends, and be part of this grand event as we dive deep into the new features of Firo!
 
 
