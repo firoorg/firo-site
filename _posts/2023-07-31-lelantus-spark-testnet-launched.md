@@ -30,10 +30,10 @@ Note: Please backup your mainnet **wallet.dat** BEFORE testing Spark testnet!!!
 
 We will **NOT** be responsible for any wallet corruption.
 
-1) Download the testnet binary
+1) Download the testnet binary 
 
-a) [Windows](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-win64.zip) 
-b) [Mac](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-osx-unsigned.dmg) 
+a) [Windows](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-win64.zip)  
+b) [Mac](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-osx-unsigned.dmg)  
 c) [Linux](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-x86_64-linux-gnu.tar.gz)  
 
 2) Open command prompt/Terminal and launch firo-qt/firo-qt.exe with "-testnet" parameters. 
