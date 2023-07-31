@@ -46,7 +46,9 @@ c) [Linux](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f2
 
 ![](/blog/assets/spark-testnet/step2mac.png)
 
-Alternatively you can edit `firo.conf` in your FIRO [data directory](https://github.com/firoorg/firo/wiki/Default-data-directories) and add the `testnet=1` argument. Launching the Firo-QT application will automatically launch testnet instead of mainnet.
+Alternatively you can edit `firo.conf` in your FIRO [data directory](https://github.com/firoorg/firo/wiki/Default-data-directories) and add `testnet=1`
+
+Launching the Firo-QT application will automatically launch testnet instead of mainnet.
 
 ![](/blog/assets/spark-testnet/firoconf.png)
 
@@ -66,7 +68,7 @@ You can get testnet coins via the [Firo testnet Faucet](https://testexplorer.fir
 
 To celebrate this significant milestone, we have prepared a series of fun events that will bring us all together as a community, and ensure everyone at every level has a chance to participate! We look forward to all of your participation, as you play a crucial role in enhancing the Firo experience. Join us to make this testnet launch for Spark an astounding success! 
 
- ## Bug Bounty: Your Feedback Matters!  
+## Bug Bounty: Your Feedback Matters!  
 
 As we prepare for the testnet launch, we invite each and every member of our community to actively participate in our Bug Bounty program. As a token of our appreciation, you'll have the opportunity to earn mainnet Firo rewards for your contributions. 
 
@@ -78,11 +80,11 @@ The first to report any issues on Firo's GitHub with a clear, detailed, and repe
 
 The Firo core team will have final discretion in determining the severity of issues.  
 
- ## How to Participate:  
+## How to Participate:  
 
 To take part in our Testnet Bug Bounty program, simply visit our GitHub repository at [GitHub Repository](https://github.com/firoorg/firo/issues) and submit your bug reports. Your involvement in shaping Firo's future is highly valued, and we can't wait to see your contributions!
 
- ## Spark Mayhem: Unleash the Power of Spark Addresses!
+## Spark Mayhem: Unleash the Power of Spark Addresses!
 
 Prepare for a fun event centered around Spark Addresses - a two-part extravaganza on Facebook, Twitter, and CoinMarketCap!
 
@@ -92,9 +94,9 @@ Prepare for a fun event centered around Spark Addresses - a two-part extravaganz
 
 Upon receiving your testnet Firo through your Spark Address, make sure to take note of your transaction id (txid) and the amount you received. These details will be crucial for claiming some exclusive mystery rewards later!
 
- ## Live Event: Firo Trivia on Kahoot!
+## Live Event: Firo and Spark trivia
 
-Finally, join us for a live event that will showcase the exciting features of Spark and test your knowledge about Firo's tech and history! Prepare for an engaging quiz night that promises fun and knowledge galore with an opportunity to win exclusive Firo merchandise that will only be available during the testnet period.
+Finally, join us for a live event that will showcase the exciting features of Spark and test your knowledge about Firo's tech and history! Prepare for an engaging quiz session that promises fun and knowledge galore with an opportunity to win exclusive Firo merchandise that will only be available during the testnet period. More information will be revealed later.
 
  Date: August 6th, 2023  
  Time: 14:30-15:30 UTC  
