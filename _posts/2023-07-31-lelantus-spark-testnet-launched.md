@@ -44,7 +44,7 @@ Linux:
 
 ![](/blog/assets/spark-testnet/step2.png)
 
-![](blog/assets/spark-testnet/step2mac.png)
+![](/blog/assets/spark-testnet/step2mac.png)
 
 3) Firo-QT (testnet) will launch and bring up the new wallet creation window
 
