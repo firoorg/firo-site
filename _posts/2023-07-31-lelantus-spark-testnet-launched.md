@@ -72,7 +72,7 @@ The Firo core team will have final discretion in determining the severity of iss
 
 To take part in our Testnet Bug Bounty program, simply visit our GitHub repository at [GitHub Repository](https://github.com/firoorg/firo/issues) and submit your bug reports. Your involvement in shaping Firo's future is highly valued, and we can't wait to see your contributions!
 
- ## Spark Mayhem: Unleash the Power of Spark Addresses!@
+ ## Spark Mayhem: Unleash the Power of Spark Addresses!
 
 Prepare for a fun event centered around Spark Addresses - a two-part extravaganza on Facebook, Twitter, and CoinMarketCap!
 
