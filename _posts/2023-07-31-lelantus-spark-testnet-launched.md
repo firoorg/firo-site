@@ -42,6 +42,7 @@ Linux:
    MAC: `open -a Firo-Qt --args -testnet` 
    Linux: `firo-qt -testnet` 
 
+
 ![](/blog/assets/spark-testnet/step2.png)
 
 ![](/blog/assets/spark-testnet/step2mac.png)
