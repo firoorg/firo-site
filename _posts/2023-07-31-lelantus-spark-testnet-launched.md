@@ -30,11 +30,11 @@ Note: Please backup your mainnet **wallet.dat** BEFORE testing Spark testnet!!!
 
 We will **NOT** be responsible for any wallet corruption.
 
-1) Download the testnet binary <binary link to be edited in later>
+1) Download the testnet binary
 
-Windows:  
-Mac:  
-Linux:  
+a) [Windows](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-win64.zip) 
+b) [Mac](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-osx-unsigned.dmg) 
+c) [Linux](https://github.com/firoorg/firo/releases/download/v0.14.12.4/firo-0f292f6f0390-x86_64-linux-gnu.tar.gz)  
 
 2) Open command prompt/Terminal and launch firo-qt/firo-qt.exe with "-testnet" parameters. 
 
@@ -46,7 +46,7 @@ Linux:
 
 ![](/blog/assets/spark-testnet/step2mac.png)
 
-Alternatively you can edit `firo.conf` in your FIRO directory and add the `testnet=1` argument. Launching the Firo-QT application will automatically launch testnet instead of mainnet.
+Alternatively you can edit `firo.conf` in your FIRO [data directory](https://github.com/firoorg/firo/wiki/Default-data-directories) and add the `testnet=1` argument. Launching the Firo-QT application will automatically launch testnet instead of mainnet.
 
 ![](/blog/assets/spark-testnet/firoconf.png)
 
@@ -96,8 +96,8 @@ Upon receiving your testnet Firo through your Spark Address, make sure to take n
 
 Finally, join us for a live event that will showcase the exciting features of Spark and test your knowledge about Firo's tech and history! Prepare for an engaging quiz night that promises fun and knowledge galore with an opportunity to win exclusive Firo merchandise that will only be available during the testnet period.
 
- Date:  
- Time:  
+ Date: August 6th, 2023
+ Time: 14:30-15:30 UTC
 
 Mark your calendars, invite your friends, and be part of this grand event as we dive deep into the new features of Firo!
 
