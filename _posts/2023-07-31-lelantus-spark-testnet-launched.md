@@ -53,12 +53,11 @@ Linux:
 
 You can get testnet coins via the [Firo testnet Faucet](https://testexplorer.firo.org/faucet) or asking from the community via Firo [Telegram](https://t.me/firoorg) group or [Discord](https://discord.com/invite/TGZPRbRT3Y)  
 
-## Testnet Activities: Get Ready for an Action-Packed Firo Launch!  
+## Join the Excitement: Firo's Spark Testnet Launch is Unleashing Thrilling Events! 
 
-To celebrate this significant milestone, we have prepared a series of thrilling events that will bring us all together as a community, and ensured everyone at every level has a chance to participate! We look forward to all of your participation, as you play a crucial role in enhancing the Firo experience. Join us to make this testnet launch for Spark an astounding success! 
+To celebrate this significant milestone, we have prepared a series of thrilling events that will bring us all together as a community, and ensure everyone at every level has a chance to participate! We look forward to all of your participation, as you play a crucial role in enhancing the Firo experience. Join us to make this testnet launch for Spark an astounding success! 
 
  ## Bug Bounty: Your Feedback Matters!  
-
 
 As we prepare for the testnet launch, we invite each and every member of our community to actively participate in our Bug Bounty program. As a token of our appreciation, you'll have the opportunity to earn Firo rewards for your contributions. 
 
@@ -76,7 +75,6 @@ The first to report any issues on Firo's GitHub with a clear, detailed, and repe
 
 Prepare for a thrilling event centered around Spark Addresses - a two-part extravaganza on Facebook, Twitter, and CoinMarketCap!
 
-
 **On Facebook:** Like our launch announcement post, comment with your Spark Address, and share the post!  
 **On Twitter:** Like, retweet, and comment with your Spark Address!  
 **On CoinMarketCap:** React, comment with your Spark Address, and repost!  
@@ -87,8 +85,8 @@ Upon receiving your testnet Firo through your Spark Address, make sure to take n
 
 Finally, join us for a live event that will showcase the exciting features of Spark! Prepare for an engaging quiz night that promises fun and knowledge galore.
 
- Date: August 5th, 2023 (DRAFT)  
- Time: 15:30-16:30 UTC (DRAFT)  
+ Date:  
+ Time:  
 
 Mark your calendars, invite your friends, and be part of this grand event as we dive deep into the new features of Firo!
 
