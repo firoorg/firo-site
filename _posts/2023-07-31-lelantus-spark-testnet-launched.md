@@ -10,11 +10,11 @@ img: "/blog/assets/spark-testnet/banner.jpg"
 
 As Firo continues to push the boundaries of privacy technology, we are excited to announce the launch of our Lelantus Spark Testnet to the public. This testnet provides an environment where developers and users can experiment, evaluate, and refine the Lelantus Spark protocol before its official release on mainnet. It allows us to identify and address any potential issues, fine-tune performance, and gather valuable feedback from the community. With this, we can ensure that Lelantus Spark is robust, reliable, and ready to deliver the next level of privacy to Firo users worldwide. 
 
-## Simplfying Privacy with Spark addresses
+## Simplifying Privacy with Spark addresses
 
-Lelantus Spark introduces a flexible, privacy-preserving stealth addressing system that enhances privacy for recipients of transactions. Spark addresses are not searchable on the blockchain, so that no one can look up your addresss to see how much you hold or the timing of your transactions. Additionally, sender, receiver and amounts are completely hidden when transacting between Spark addresses. More traditional addressing systems such as used in Bitcoin and Ethereum allow anyone to look up the entire history of an address by putting them into a blockchain explorer. Spark addresses completely replace our previous (Receiver Address Privacy) RAP address system which will be sunsetting.
+Lelantus Spark introduces a flexible, privacy-preserving stealth addressing system that enhances privacy for recipients of transactions. Spark addresses are not searchable on the blockchain, so that no one can look up your address to see how much you hold or the timing of your transactions. Additionally, sender, receiver, and amounts are completely hidden when transacting between Spark addresses. More traditional addressing systems such as those used in Bitcoin and Ethereum allow anyone to look up the entire history of an address by putting them into a blockchain explorer. Spark addresses completely replace our previous (Receiver Address Privacy) RAP address system which will be sunsetting.
 
-Unlike Firo's current privacy protocol Lelantus, users can send transparent funds directly into private Spark addresses without requiring the user to perform an additional anonymisation action, greatly simplifying the use of privacy preserving transactions and its user experience. This also marks the first step of Firo's transition into mandatory privacy on all transactions.
+Unlike Firo's current privacy protocol Lelantus, users can send transparent funds directly into private Spark addresses without requiring the user to perform an additional anonymisation action, greatly simplifying the use of privacy-preserving transactions and its user experience. This also marks the first step of Firo's transition into mandatory privacy on all transactions.
 
 ![](/blog/assets/spark-testnet/spark-address.jpg)
 
@@ -90,7 +90,6 @@ Prepare for a fun event centered around Spark Addresses - a two-part extravaganz
 
 **On Facebook:** Like our launch announcement post, comment with your testnet Spark Address, and share the post!  
 **On Twitter:** Like, retweet, and comment with your testnet Spark Address!  
-**On CoinMarketCap:** React, comment with your testnet Spark Address, and repost!  
 
 Upon receiving your testnet Firo through your Spark Address, make sure to take note of your transaction id (txid) and the amount you received. These details will be crucial for claiming some exclusive mystery rewards later!
 
