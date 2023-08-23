@@ -121,75 +121,6 @@ sup {
        url('../fonts/source-sans-pro-v13-latin-700.svg#SourceSansPro') format('svg'); /* Legacy iOS */
 }
 
-@font-face {
-  font-family: 'icons';
-  src: url('../fonts/icons.eot?10062167');
-  src: url('../fonts/icons.eot?10062167#iefix') format('embedded-opentype'),
-       url('../fonts/icons.woff2?10062167') format('woff2'),
-       url('../fonts/icons.woff?10062167') format('woff'),
-       url('../fonts/icons.ttf?10062167') format('truetype'),
-       url('../fonts/icons.svg?10062167#icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
- 
- [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "icons";
-  font-style: normal;
-  font-weight: normal;
-  speak: never;
- 
-  display: inline-block;
-  text-decoration: inherit;
-  text-align: center;
-  font-variant: normal;
-  text-transform: none;
-}
-
-.icon-android:before { content: '\e800'; } /* '' */
-.icon-apple:before { content: '\e801'; } /* '' */
-.icon-down:before { content: '\e802'; } /* '' */
-.icon-facebook:before { content: '\e803'; } /* '' */
-.icon-facebook2:before { content: '\e804'; } /* '' */
-.icon-github:before { content: '\e805'; } /* '' */
-.icon-sourceforge:before { content: '\e807'; } /* '' */
-.icon-telegram:before { content: '\e808'; } /* '' */
-.icon-twitter:before { content: '\e809'; } /* '' */
-.icon-web:before { content: '\e80a'; } /* '' */
-.icon-youku:before { content: '\e80b'; } /* '' */
-.icon-youtube:before { content: '\e80c'; } /* '' */
-.icon-reddit:before { content: '\e80e'; } /* '' */
-.icon-desktop:before { content: '\e80f'; } /* '' */
-.icon-language:before { content: '\f1ab'; } /* '' */
-
-@font-face {
-    font-family: 'icon-addon';
-    src: url('../fonts/icon-addon.eot?99781827');
-    src: url('../fonts/icon-addon.eot?99781827#iefix') format('embedded-opentype'),
-         url('../fonts/icon-addon.woff2?99781827') format('woff2'),
-         url('../fonts/icon-addon.woff?99781827') format('woff'),
-         url('../fonts/icon-addon.ttf?99781827') format('truetype'),
-         url('../fonts/icon-addon.svg?99781827#icon-addon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icona-"]:before, [class*=" icona-"]:before {
-    font-family: "icon-addon";
-    font-style: normal;
-    font-weight: normal;
-    speak: never;
-   
-    display: inline-block;
-    text-decoration: inherit;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-  }
-
-.icona-discord:before { content: '\e800'; } /* '' */
-
-
 a, button {
     cursor: pointer;
 }
@@ -3468,30 +3399,21 @@ footer .col:nth-of-type(3) .social h4 {
     margin-top: 2rem;
 }
 
-footer .social li {
-    display: inline-block;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
+footer .social img {
+    width: 2.5rem;
 }
 
-footer .social li i {
-    display: block;
-    font-size: 2.5rem;
-    color: #8c939a;
-    -webkit-transition: all ease-out .2s;
-    -moz-transition: all ease-out .2s;
-    -o-transition: all ease-out .2s;
-    transition: all ease-out .2s;
-    line-height: 1;
-    margin-right: 1rem;
+footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
 
-footer .social li:hover i {
-    color: #9b1c2e;
-}
-
-footer .social svg {
-
+footer .social-icons img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 footer .row.bottom {
@@ -3527,27 +3449,25 @@ footer .bottom .col {
   background-color: #d3dbe3;
   border-radius: 40px;
 }
-.language-change label:before, .language-change label:after {
-  content: "";
-  position: absolute;
+
+.language-change img {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 2rem;
 }
 
-.language-change label:before {
-    content: '\f1ab';
-    font-family: "icons";
-    font-size: 1.5rem;
-    left: 1.9rem;
-    top: 0.2rem;
+.language-change img:first-of-type {
+    padding-right: 0.6rem;
 }
 
-.language-change label:after {
-  color: #7e848a;
-  font-family: "icons";
-  font-size: inherit;
-  content: "\e802";
-  pointer-events: none;
-  right: 1.9rem;
-  top: 0.5rem;
+.language-change img:last-of-type {
+    padding-left: 0.6rem;
+}
+
+.language-change img#arrow {
+    width: 1.5rem;
+    bottom: 0.1rem;
 }
 
 .language-change .dropdown-content {
@@ -3580,7 +3500,7 @@ footer .bottom .col {
     display: block;
 }
 
-.language-change input:checked + label:after {
+.language-change input:checked + label #arrow {
     transform: rotate(180deg);
 }
 
@@ -3631,7 +3551,7 @@ footer .bottom .col {
     max-width: 100%;
     text-align: left;
 }   
-    
+
 }
 
 @media only screen and (max-width: 38rem) {
@@ -3660,10 +3580,12 @@ footer form button {
     margin: 1rem 0 0 0;
 }
     
-footer .social li i {
-    margin-right: 0;
-    font-size: 2.2rem;
+}
+
+@media only screen and (min-width: 48rem) {
+
+footer .social-icons {
+    width: 80%;
 }
     
 }
-
