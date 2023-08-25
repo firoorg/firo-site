@@ -3458,15 +3458,15 @@ footer .bottom .col {
 }
 
 .language-change img:first-of-type {
-    padding-right: 0.6rem;
+    margin-right: 0.6rem;
 }
 
 .language-change img:last-of-type {
-    padding-left: 0.6rem;
+    margin-left: 0.6rem;
 }
 
 .language-change img#arrow {
-    width: 1.5rem;
+    width: 1rem;
     bottom: 0.1rem;
 }
 
