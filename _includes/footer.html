@@ -26,14 +26,14 @@
                       </div>
                       <div class="social">
                           <h4>{% t footer.comm %}</h4>
-                          <ul>
-                              <li><a href="https://discord.gg/TGZPRbRT3Y" target="_blank"><i class="icona-discord"></i></a></li>
-                              <li><a href="https://t.me/firoorg" target="_blank"><i class="icon-telegram"></i></a></li>
-                              <li><a href="https://twitter.com/firoorg" target="_blank"><i class="icon-twitter"></i></a></li>
-                              <li><a href="https://www.facebook.com/firoorg/" target="_blank"><i class="icon-facebook"></i></a></li>
-                              <li><a href="https://www.youtube.com/c/firoorg" target="_blank"><i class="icon-youtube"></i></a></li>
-                              <li><a href="https://www.reddit.com/r/firoproject/" target="_blank"><i class="icon-reddit"></i></a></li>
-                          </ul>
+                          <div class="social-icons">
+                            <a href="https://discord.gg/TGZPRbRT3Y" target="_blank"><img src="/img/site-icons/footer/discord.svg" title="Discord" alt="Discord logo"></a>
+                            <a href="https://t.me/firoorg" target="_blank"><img src="/img/site-icons/footer/telegram.svg" title="Telegram" alt="Telegram logo"></a>
+                            <a href="https://twitter.com/firoorg" target="_blank"><img src="/img/site-icons/footer/twitter.svg" title="Twitter" alt="Twitter logo"></a>
+                            <a href="https://www.facebook.com/firoorg/" target="_blank"><img src="/img/site-icons/footer/facebook.svg" title="Facebook" alt="Facebook logo"></a>
+                            <a href="https://www.youtube.com/c/firoorg" target="_blank"><img src="/img/site-icons/footer/youtube.svg" title="Youtube" alt="Youtube logo"></a>
+                            <a href="https://www.reddit.com/r/firoproject/" target="_blank"><img src="/img/site-icons/footer/reddit.svg" title="Reddit" alt="Reddit logo"></a>
+                          </div>
                       </div>
                   </div>
               </div>
@@ -41,8 +41,11 @@
                   <div class="col">
                       <div href="#" class="dropdown language-change">
                             <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
-                            <label for="langdrop">{{ site.data.languages.langs.[site.lang] }}
-                           <div class="arrow-down"></div></label>
+                            <label for="langdrop">
+                              <img src="/img/site-icons/footer/language.svg" alt="Language icon">
+                              {{ site.data.languages.langs.[site.lang] }}
+                              <img id="arrow" src="/img/site-icons/footer/down.svg" alt="Clickable arrow">
+                            </label>
                             <div class="dropdown-content text-center">
                               {% for lang in site.languages %}
                                 {% unless site.lang == lang %}
