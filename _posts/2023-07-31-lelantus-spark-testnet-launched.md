@@ -64,6 +64,8 @@ Launching the Firo-QT application will automatically launch testnet instead of m
 
 You can get testnet coins via the [Firo testnet Faucet](https://testexplorer.firo.org/faucet) or asking from the community via Firo [Telegram](https://t.me/firoorg) group or [Discord](https://discord.com/invite/TGZPRbRT3Y) You can lookup testnet transactions using our [testnet explorer](https://testexplorer.firo.org).
 
+Note: Faucet currently only works with **Transparent-type** addresses. Please choose this type of address in the **Address** dropdown menu in the Receive tab.
+
 ## Join the Excitement: Firo's Spark Testnet Launch Events! 
 
 To celebrate this significant milestone, we have prepared a series of fun events that will bring us all together as a community, and ensure everyone at every level has a chance to participate! We look forward to all of your participation, as you play a crucial role in enhancing the Firo experience. Join us to make this testnet launch for Spark an astounding success! 
