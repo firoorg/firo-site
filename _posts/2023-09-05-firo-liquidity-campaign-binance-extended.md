@@ -13,14 +13,16 @@ Since the launch of our liquidity mining campaign for FIRO, it's been exciting t
 ![](/blog/assets/firo-hummingbot-extend/screen1.jpg)
 
 ## Campaign Terms
-Start date: September 05, 2023, 12:00 AM UTC  
+Start date: **September 05, 2023, 12:00 AM UTC**  
 Total reward pool*: ~US$10,800 (FIRO 300 + HBOT 5,000 per week)  
 Reward token: FIRO  
-Eligible token pair: FIRO/BTC & FIRO/USDT  
+Eligible token pair: **FIRO/BTC** & **FIRO/USDT**  
 Eligible orders: maker orders placed with spreads of 2.0% or lower  
 Exchange: [Binance](https://accounts.binance.com/en/register?ref=37748947)  
 
-* The links above contain referral links which would help support Firo’s core team’s efforts if you sign up to those exchanges through the link. 
+*The links above contain referral links which would help support Firo’s core team’s efforts if you sign up to those exchanges through the link.* 
+
+### Getting Started
 
 To get started:
 1. Sign up on [Hummingbot Miner](https://miner.hummingbot.io/) with your email address.
