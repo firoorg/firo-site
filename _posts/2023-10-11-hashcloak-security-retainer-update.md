@@ -43,7 +43,7 @@ We look forward to continuing the security retainer with HashCloak to further in
 
 We would like to extend special thanks to [MAGIC](https://magicgrants.org/) for facilitating this and the generous donations from the Firo community and [Arcadia Group](https://arcadia.agency/) that made this possible.
 
-Full article: https://magicgrants.org/Progress-on-Firo's-Security-Retainer-with-HashCloak/
-Hashcloak: https://hashcloak.com/
-MAGIC Grants: https://magicgrants.org/
+Full article: https://magicgrants.org/Progress-on-Firo's-Security-Retainer-with-HashCloak/  
+Hashcloak: https://hashcloak.com/  
+MAGIC Grants: https://magicgrants.org/  
 
