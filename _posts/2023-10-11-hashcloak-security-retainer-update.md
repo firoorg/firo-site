@@ -4,7 +4,7 @@ title: "Update on Firo’s Security Retainer with HashCloak"
 summary: "HashCloak's Fuzzing Expands Firo's Code Coverage"
 tags: [announcement, news]
 author: "Reuben Yap"
-img: "/blog/assets/hashcloak-update/banner.png"
+img: "/blog/assets/hashcloak-update/banner2.png"
 ---
 We are happy to share the progress of the [security retainer](https://magicgrants.org/Security-Retainer-with-HashCloak/) we have with [HashCloak](https://hashcloak.com/). HashCloak’s expertise has significantly improved the security and robustness of Firo’s Spark codebase.
 
