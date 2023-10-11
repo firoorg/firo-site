@@ -43,7 +43,16 @@ We look forward to continuing the security retainer with HashCloak to further in
 
 We would like to extend special thanks to [MAGIC](https://magicgrants.org/) for facilitating this and the generous donations from the Firo community and [Arcadia Group](https://arcadia.agency/) that made this possible.
 
-Full article: https://magicgrants.org/Progress-on-Firo's-Security-Retainer-with-HashCloak/  
-Hashcloak: https://hashcloak.com/  
-MAGIC Grants: https://magicgrants.org/  
+### About HashCloak
+HashCloak Inc. is an R&D lab and consultancy focused on privacy, anonymity and scalability for blockchains and cryptocurrencies. Founded in 2019, the Toronto-based team specialises in ZKPs, anonymous networks, MPCs and other privacy-enhancing techniques. HashCloak has previously worked with Firo in auditing both the design and implementation of Lelantus Spark.
+
+### About MAGIC Grants
+MAGIC Grants is a 501(c)(3) public charity that supports cryptocurrency networks, which they believe are essential public payment infrastructure and also supports privacy. MAGIC Grants empowers communities to set up MAGIC Funds for various projects deemed essential. These Funds are semi-autonomous and can choose to fund various qualifying activities, including educational materials, essential developer maintenance, research, and security audits.
+
+### About MAGIC Firo Fund
+The MAGIC Firo Fund was established in December 2022 and is administered by the MAGIC Board independently from the Firo Core team. The MAGIC Firo Fund is funded by generous donations from Firo supporters such as Arcadia. Donations to the fund are tax deductible for US individuals and businesses
+
+Full article: [https://magicgrants.org/Progress-on-Firo's-Security-Retainer-with-HashCloak/](https://magicgrants.org/Progress-on-Firo's-Security-Retainer-with-HashCloak/)  
+Hashcloak: [https://hashcloak.com/](https://hashcloak.com/)  
+MAGIC Grants: [https://magicgrants.org/](https://magicgrants.org/)  
 
