@@ -3154,7 +3154,8 @@ a.btn-primary, a.btn-secondary {
 }
 
 .accordion-content.col img {
-    height: auto;
+    max-height: 5rem;
+    object-fit: scale-down;
 }
 
 #btn1-content, #btn2-content, #btn3-content, #btn4-content, #btn5-content, #btn6-content, #btn7-content, #btn8-content, #btn9-content, #btn10-content, #btn11-content, #btn12-content, #btn13-content, #btn14-content {
