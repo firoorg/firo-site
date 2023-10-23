@@ -8,7 +8,7 @@ img: "/blog/assets/letsexchange/banner.png"
 ---
 FIRO is now available on [LetsExchange](https://letsexchange.io/), a crypto exchange platform supporting over 3,800 digital coins and tokens. Now, the Firo community can conveniently swap to FIRO from thousands of other cryptocurrencies at competitive rates on an easy-to-use widget. 
 
-![](/blog/assets/letsexchange/preview1.png) 
+![](/blog/assets/letsexchange/preview1.jpg) 
 
 Moreover, LetsExchange and FIRO are planning a joint marketing activities that include an AMA sessions, promotional codes, and more. LetsExchange offers extensive marketing support to newly listed cryptocurrencies on our platform to boost Firo's popularity in the crypto space, which ultimately helps us to grow and thrive. More info to come. So stay tuned! 
 
