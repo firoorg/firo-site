@@ -1469,10 +1469,14 @@ a.btn-primary, a.btn-secondary {
 }
 
 .tech-section .mob-wallets > .col img {
-    height: 6rem;
+    height: 1.8rem;
     width: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tech-section .mob-wallets .col img.ext-wallets {
+    height: 6rem;
     margin-top: 2rem;
 }
 
@@ -1527,7 +1531,7 @@ a.btn-primary, a.btn-secondary {
     background-color: rgba(201,211,220,.7);
 }
 
-.tech-section .mob-wallets .col li a i {
+.tech-section .mob-wallets .col li a {
     font-size: 1.8rem;
     vertical-align: middle;
     color: #8c939a;
@@ -1538,7 +1542,7 @@ a.btn-primary, a.btn-secondary {
     line-height: 1;
 }
 
-.tech-section .mob-wallets .col li a:hover i {
+.tech-section .mob-wallets .col li a:hover {
     color: #9b1c2e;
 }
 
