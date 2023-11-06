@@ -32,8 +32,9 @@ As such there needs to be a pragmatic approach for Firo to remain listed on cent
 
 While there are multiple ways to interpret the MiCA regulations, the way that some key exchanges are interpreting it is that they need to be able to 
 
-i) identify the depositor; and   
-ii) be able to see the depositor’s transaction history
+i) identify the depositor; and  
+
+ii) be able to see the depositor’s transaction history  
 
 which will allow them to satisfy the second limb of Article 76(3) which states that privacy assets can be traded if the exchange can “identify” the holders of those crypto-assets and their transaction history.
 
