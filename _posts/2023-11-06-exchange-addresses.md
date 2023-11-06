@@ -70,3 +70,5 @@ After these phases, we expect to further improve Firo’s anonymity set by the i
 ## Invitation for Feedback
 
 We invite our Firo Fam to comment and give feedback on this in our [forums](https://forum.firo.org/t/firo-private-transactions-balancing-with-mica-regulations/3010)! The core team serves as stewards of the project and places high importance on our community to guide Firo’s direction. We hope that this post explains core team’s recommendation and proposed direction and are excited to finally bring Spark to fruition!
+
+Youtube video: [Exchange Addresses, A Pragmatic Approach balancing privacy and adoption](https://youtu.be/C0UB6AKfIlA)
