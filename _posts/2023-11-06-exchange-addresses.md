@@ -12,7 +12,7 @@ A month ago, we opened up to the community [a discussion of upcoming MiCA regula
 
 MiCA Regulations that come into force next year, introduce under [Article 76(3)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1114) a requirement for exchanges to prevent trading of crypto-assets that have “inbuilt” anonymization functions unless the holders of the crypto-assets and their transaction history can be identified by the crypto-asset service providers operating a trading platform for crypto-assets.
 
-![](/blog/assets/exchangeaddresses/article76-3.png")
+![](/blog/assets/exchangeaddresses/article76-3.png)
 
 Firo’s core team objects to the vague wording employed by the regulations and whether it’s a meaningful distinction between assets with “inbuilt” anonymization functions such as Firo, Monero and Zcash vs chains that have privacy tools (for e.g. Tornado Cash/Railgun on Ethereum, Samourai Whirpool, Wasabi Wallet on Bitcoin, CashFusion on Bitcoin Cash and Coinshuffle++ on Decred). Furthermore, no distinction is being made between chains that have mandatory privacy and those that still retain their transparent layers.
 
