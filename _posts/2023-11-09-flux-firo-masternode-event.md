@@ -6,7 +6,7 @@ tags: [community, news]
 author: "Augustus Jong"
 img: "/blog/assets/fluxfiroevent/banner.png"
 ---
-Beginning on **November 13, 2023** till **December 13, 2023**, Flux extend an invitation to take part in this fantastic opportunity. Flux Cloud proudly presents the Firofam with the chance to operate Firo Masternode on their platform for a period of 3 months, and the best part? They are fully reimbursing your deployment costs!
+Beginning on **November 13, 2023** till **December 13, 2023**, Flux extend an invitation to the Firo community take part in this fantastic opportunity. Flux Cloud proudly presents the Firofam with the chance to operate Firo Masternode on their platform for a period of 3 months, and the best part? They are fully reimbursing your deployment costs!
 
 ## What is Flux?
 
@@ -18,7 +18,7 @@ Flux is a tech company focusing on enterprise-ready solutions in the crypto and 
 
 2. **Automatic Reimbursement:** They understand the importance of trust, and have made the reimbursement process seamless. They will handle reimbursements from their end, so you don't need to reach out to any support desk. Expect your reimbursement to be processed within one week of your deployment, to the same address you used for the initial payment.
 
-3. **Effortless Setup Guides:** Whether you're just gotten enough Firo to make a Masternodes or an experienced operator, they have got you covered. They will provide comprehensive setup guides to walk you through the process of deploying a new Masternode or migrating your existing one from your current setup.
+3. **Effortless Setup Guides:** Whether you're just gotten enough Firo to make a Masternodes or an experienced operator, they have got you covered. They will provide comprehensive [setup guides](https://help.runonflux.io/categories/firo/) to walk you through the process of deploying a new Masternode or migrating your existing one from your current setup.
 
 Flux is also introducing a special raffle event!
 
@@ -26,7 +26,7 @@ Flux is also introducing a special raffle event!
 
 ### How to Participate:
 
-1. **Deploy or Migrate Your Firo Masternode:** Follow their setup guides to deploy a new Masternode on Flux Cloud or migrate your existing one. Ensure you choose the right 3-month subscription plan Masternode on the Flux Marketplace, named: FiroMN3!
+1. **Deploy or Migrate Your Firo Masternode:** Follow their [setup guides](https://help.runonflux.io/categories/firo/) to deploy a new Masternode on Flux Cloud or migrate your existing one. Ensure you choose the right 3-month subscription plan Masternode on the Flux Marketplace, named: FiroMN3!
 
 2. **Wait for Reimbursement & Earn Rewards:** Sit back and relax while they reimburse your costs and begin monitoring your incoming Masternode block rewards.
 
