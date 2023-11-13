@@ -34,4 +34,4 @@ Flux is also introducing a special raffle event!
 
 3. **Participate in the Raffle:** With each additional Masternode you deploy, your odds in the raffle improve. The raffle winners will be announced on December 14, 2023.
 
-Learn more about Flux at [www.runonflux.io](www.runonflux.io)
+Learn more about Flux at [www.runonflux.io](https://www.runonflux.io/)
