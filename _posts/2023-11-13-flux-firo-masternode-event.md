@@ -4,7 +4,7 @@ title: "Free Firo Masternode hosting on Flux Cloud"
 summary: "A promotional event"
 tags: [community, news]
 author: "Augustus Jong"
-img: "/blog/assets/fluxfiroevent/banner.png"
+img: "/blog/assets/fluxfiroevent/banner2.png"
 ---
 Beginning on **November 13, 2023** till **December 13, 2023** Flux extends an invitation to the Firo community to take part in this fantastic opportunity. Flux Cloud proudly presents the Firofam with the chance to operate Firo Masternode on their platform for a period of 3 months, and the best part? They are fully reimbursing your deployment costs!
 
