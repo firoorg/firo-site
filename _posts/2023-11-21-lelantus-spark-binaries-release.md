@@ -41,11 +41,11 @@ Eprint: [https://eprint.iacr.org/2021/1173](https://eprint.iacr.org/2021/1173)
 
 You must upgrade your wallets and masternodes before mainnet activation on **Block 819300** (**approximately 18 January 2024**).
 
-Download the binary release from the following links:
+Download the binary release from the following links: 
 
-Windows: 
-MacOS: 
-Linux: 
+Windows:  
+MacOS:  
+Linux:  
 
 As always, Be sure to **back up your wallet** before upgrading.
 
