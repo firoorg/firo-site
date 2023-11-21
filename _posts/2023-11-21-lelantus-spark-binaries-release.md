@@ -18,19 +18,19 @@ If you haven't been keeping up with Firo, let's briefly overview Lelantus Spark.
 
 Key features include:
 
-1. Spark Addresses
+1. **Spark Addresses**  
 Lelantus Spark introduces a new, non-interactive addressing system that greatly enhances the privacy of the transaction recipient. Funds kept in Spark addresses are hidden, meaning no one will know how much you hold and when you send funds from it—enabling private storage of your Firo. Spark addresses also cannot be looked up on a blockchain explorer!
 
-2. View Keys for Enhanced Visibility
+2. **View Keys for Enhanced Visibility**  
 With Lelantus Spark, users have the flexibility of view keys. Wallet owners can grant third parties opt-in visibility into incoming and/or outgoing transactions, offering practical use cases for accounting, auditing, and more.
 
-3. Computation offloading
+3. **Computation offloading**  
 Lelantus Spark’s flexible key structure allows for offloading transaction creation, chain scanning and balance computation without delegating spend authority. This means that low-powered devices like hardware wallets can support Lelantus Spark transactions by offloading the heavy computation to your PC or phone.
 
-4. Multisignature
+4. **Multisignature**  
 Spark supports efficient signing and multisignature operations through the use of a modified Chaum-Pedersen discrete logarithm proof. This has proven useful in custody and decentralized exchanges, as well as in any scenario where you want more than one party to approve a transaction.
 
-5. Modular design
+5. **Modular design**  
 Spark’s modular design uses well-understood cryptographic building blocks like Pedersen commitments, range proofs, zero-knowledge one-of-many proofs, and discrete logarithm equality proofs that enable straightforward security analysis without the need for a trusted setup.
 
 You can read more about Lelantus Spark below: 
