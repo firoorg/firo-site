@@ -43,9 +43,11 @@ You must upgrade your wallets and masternodes before mainnet activation on **Blo
 
 Download the binary release from the following links: 
 
-Windows:  
-MacOS:  
-Linux:  
+Windows: 
+
+MacOS: 
+
+Linux: 
 
 As always, Be sure to **back up your wallet** before upgrading.
 
