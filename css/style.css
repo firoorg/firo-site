@@ -819,11 +819,15 @@ a.btn-primary, a.btn-secondary {
 }
     
 #intro .intro-info a.btn-secondary {
-    margin-left: 0;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 #intro .intro-info a.btn-secondary, #intro .intro-info a.btn-primary {
     margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 }
@@ -852,12 +856,8 @@ a.btn-primary, a.btn-secondary {
     padding: 0;
 }
     
-#intro a.btn-secondary {
-    display: none;
-}
-    
 #intro a.btn-primary {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -3554,7 +3554,6 @@ footer .bottom .col {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%;
-    text-align: left;
 }   
 
 }
