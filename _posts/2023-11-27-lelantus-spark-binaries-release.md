@@ -43,11 +43,11 @@ You must upgrade your wallets and masternodes before mainnet activation on **Blo
 
 Download the binary release from the following links: 
 
-Windows: 
+Windows: [https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-win64-setup.exe](https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-win64-setup.exe) 
 
-MacOS: 
+MacOS: [https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-macos.dmg](https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-macos.dmg) 
 
-Linux: 
+Linux: [https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-linux64.tar.gz](https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-linux64.tar.gz)
 
 As always, Be sure to **back up your wallet** before upgrading.
 
