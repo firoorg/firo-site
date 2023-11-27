@@ -63,9 +63,9 @@ EX-addresses operate similarly to transparent addresses, with the distinction th
 Even as we launch Spark, we are already researching upgrades to Spark, such as [curve trees](https://firo.org/2023/05/26/elliptic-curves-research.html) and expanding its functionality with [Spats](https://firo.org/2022/03/07/spats-confidential-assets-lelantus-spark.html)! We will also be implementing [Helsing](https://firo.org/2022/01/28/helsing-private-firo-masternode.html) to allow masternodes to use Spark addresses to hold their collateral.
 
 You can stay tuned on these developments by following our socials below:
-[Twitter/X](https://twitter.com/firoorg)
-[Youtube](https://www.youtube.com/@Firoorg) (please subscribe)
-[Blog](https://firo.org/blog/)
-[Facebook](https://www.facebook.com/firoorg)
-[Telegram](https://t.me/firoorg)
-[Discord](https://discord.gg/TGZPRbRT3Y)
+[Twitter/X](https://twitter.com/firoorg) 
+[Youtube](https://www.youtube.com/@Firoorg) (please subscribe) 
+[Blog](https://firo.org/blog/) 
+[Facebook](https://www.facebook.com/firoorg) 
+[Telegram](https://t.me/firoorg) 
+[Discord](https://discord.gg/TGZPRbRT3Y) 
