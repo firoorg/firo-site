@@ -64,8 +64,14 @@ Even as we launch Spark, we are already researching upgrades to Spark, such as [
 
 You can stay tuned on these developments by following our socials below:
 [Twitter/X](https://twitter.com/firoorg) 
+
 [Youtube](https://www.youtube.com/@Firoorg) (please subscribe) 
+
 [Blog](https://firo.org/blog/) 
+
 [Facebook](https://www.facebook.com/firoorg) 
+
 [Telegram](https://t.me/firoorg) 
+
 [Discord](https://discord.gg/TGZPRbRT3Y) 
+
