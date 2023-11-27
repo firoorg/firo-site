@@ -34,7 +34,8 @@ Spark supports efficient signing and multisignature operations through the use o
 Spark’s modular design uses well-understood cryptographic building blocks like Pedersen commitments, range proofs, zero-knowledge one-of-many proofs, and discrete logarithm equality proofs that enable straightforward security analysis without the need for a trusted setup.
 
 You can read more about Lelantus Spark below: 
-Blog Post: [https://firo.org/2021/08/24/presenting-lelantus-spark.html](https://firo.org/2021/08/24/presenting-lelantus-spark.html)
+Blog Post: [https://firo.org/2021/08/24/presenting-lelantus-spark.html](https://firo.org/2021/08/24/presenting-lelantus-spark.html) 
+
 Eprint: [https://eprint.iacr.org/2021/1173](https://eprint.iacr.org/2021/1173)
 
 ## Download Links
