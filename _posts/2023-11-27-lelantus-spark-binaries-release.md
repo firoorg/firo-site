@@ -67,7 +67,7 @@ Even as we launch Spark, we are already researching upgrades to Spark, such as [
 
 Spark is the combined work of many talented people and also made possible by everyone's support. 
 
-Firstly we would like to thank Aram Jivanyan and Aaron Feickert (CypherStack) for coming up with this amazing privacy protocol and Levon Petrosyan and Petr Shugalev for bringing Spark to reality.  
+Firstly we would like to thank Aram Jivanyan and Aaron Feickert (CypherStack) for coming up with this amazing privacy protocol and Levon Petrosyan and Peter Shugalev for bringing Spark to reality.  
 
 We would also like to thank all Firofam that made this possible, from the generous donations from [Arcadia](https://arcadia.agency/) and other community members, [HashCloak](https://hashcloak.com/) for their security support and audits, [CypherStack](https://cypherstack.com/) for playing a key role in our work and building [StackWallet](https://stackwallet.com/) and members of the Monero community including koe, kayabanerve and Nikolas Kratzschmar whose discussions and disclosures helped make Spark better and lastly but not least, everyone of you who have cheered us on and made our work meaningful.
 
