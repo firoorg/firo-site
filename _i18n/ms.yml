@@ -90,15 +90,15 @@ download:
   option1: pilihan keselamatan yang tinggi
   option2: pilihan mesra pengguna
   option3: pilihan cepat dan ringan
-  Qt: Qt Wallet
+  qt: Dompet Qt 
   downloadqtw: muat turun QT Untuk Windows
   downloadqtm: muat turun QT untuk MacOS
   downloadqtl: muat turun QT Untuk Linux
-  electron: elektron
+  electron: electron
   downloadelectronw: Muat Turun Electron Untuk Windows
   downloadelectronm: Muat Turun Electron untuk MacOS
   downloadelectronl: Muat Turun Electron Untuk Linux
-  elektrum: Elektrum
+  electrum: Electrum
   downloadelectrumw: Muat Turun Electrum Untuk Windows
   downloadelectrumm: Muat Turun Electrum untuk MacOS
   downloadelectruml: Muat Turun Electrum Untuk Linux
@@ -108,7 +108,7 @@ download:
   officialmobile: dompet mudah alih rasmi
   optionmob1: Android
   androidmob: Android Wallet
-  muat turunmobandroid: muat turun wallet
+  downloadmobandroid: muat turun wallet
   hashesandroid: Show SHA256 hash untuk Android
   optionmob2: iOS
   iosmob: iOS Wallet
@@ -125,7 +125,7 @@ buyfiro:
 heading: Beli Firo
 heading2: salah satu cara untuk mendapatkan Firo adalah untuk memperolehnya di salah satu bursa. Di bawah ini anda akan dapati senarai pertukaran dan perkhidmatan pertukaran duit syiling yang menyokong Firo.
 predisclaimer: Penafian & kolon; & # x20;
-penafian: sesetengah pautan ini mengandungi pautan rujukan di mana pasukan teras Firo mungkin menerima pampasan apabila anda mendaftar atau menggunakan produk/perkhidmatan mereka. Ini bukan merupakan pengesahan produk / perkhidmatan.
+disclaimer: sesetengah pautan ini mengandungi pautan rujukan di mana pasukan teras Firo mungkin menerima pampasan apabila anda mendaftar atau menggunakan produk/perkhidmatan mereka. Ini bukan merupakan pengesahan produk / perkhidmatan.
 FF: "Firo / Fiat"
 fc: "Firo / Crypto"
 cs: "pertukaran duit syiling"
@@ -244,7 +244,7 @@ roadmap:
   mnodesq: Kuorum Masternode lama (selesai)
   mtpstrip: jalur MTP (selesai)
   mtpstripdesc: pelucutan MTP mengurangkan saiz blockchain Firo dari 60GB hingga 4GB dengan melucutkan bukti MTP dari blok lama.
-  penjenamaan semula: penjenamaan semula (selesai)
+  rebrand: penjenamaan semula (selesai)
   lelantus: pengaktifan Lelantus (selesai)
   lelantusdesc: Lelantus ialah protokol privasi generasi akan datang kami yang menawarkan tahap privasi praktikal tertinggi tanpa persediaan yang dipercayai dan hanya bergantung pada andaian kriptografi yang kukuh. Lelantus menyokong set anonimiti yang beberapa magnitud lebih besar daripada sistem Privasi lain yang tidak mempunyai persediaan yang dipercayai.
   chainlocks: Chainlocks (selesai)
