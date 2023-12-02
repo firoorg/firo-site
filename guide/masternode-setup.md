@@ -6,6 +6,7 @@ tags: [guide]
 author: "Anwar P."
 permalink: /guide/masternode-setup.html
 ---
+
 **DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a masternode provider.
 
 ## List of masternode Providers (arranged in alphabetical order)
@@ -225,9 +226,9 @@ After **logging into the new user** on your **VPS** you created in Step 5, type 
 
 `cd ~` 
 
-`wget https://downloads.sourceforge.net/project/firoorg/firo-0.14.13.0-linux64.tar.gz`
+`wget https://downloads.sourceforge.net/project/firoorg/firo-{{ site.data.downloads.firo_new_commit }}-linux64.tar.gz`
  
-`tar xzvf firo-0.14.13.0-linux64.tar.gz` 
+`tar xzvf firo-{{ site.data.downloads.firo_new_commit }}-linux64.tar.gz` 
 
 Create a new config file for your masternode. Type
  
@@ -261,7 +262,7 @@ Press **Ctrl-X** to save and press **Y** to confirm it.
 
 Type following commands to start your firod daemon and let it sync. This will take a few hours. 
 
-`cd ~/firo-39c41e5e7ec6/bin`
+`cd ~/firo-{{ site.data.downloads.firo_new_commit }}/bin`
 
 `./firod -daemon`
 
