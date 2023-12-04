@@ -34,35 +34,35 @@ permalink: /get-firo/download/index.html
                         <p class="tagline">{% t download.option1 %}</p>
                         <div class="inner">
                             <h3>{% t download.qt %}</h3>
-                            <p class="wversion">v0.14.13.0</p>
+                            <p class="wversion">v{{ site.data.downloads.firo_qt_version }}</p>
                             <p class="changelog"><a href="https://github.com/firoorg/firo/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system win">
-                                <a href="https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-win64-setup.exe">{% t download.downloadqtw %}</a>
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-win64-setup.exe">{% t download.downloadqtw %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="wh1">
                                     <label class="tab-label" for="wh1">{% t download.hasheswindows %}</label>
                                     <div class="tab-content">
-                                      <p>5b625d895a1b5d9d6e2c5c56df8be31bb8726b861f520e2cc34a6bd504a0b4d3</p>
+                                      <p>{{ site.data.downloads.qt_hashes_win }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="system mac">
-                                <a href="https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-macos.dmg">{% t download.downloadqtm %}</a>
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-macos.dmg">{% t download.downloadqtm %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="mh1">
                                     <label class="tab-label" for="mh1">{% t download.hashesmac %}</label>
                                     <div class="tab-content">
-                                      <p>a2e407c3ba40f9c36d402f03afe663b4e94afc22b536325d675cfd66939f49a5</p>
+                                      <p>{{ site.data.downloads.qt_hashes_mac }}</p>
                                     </div>
                               </div>
                             </div>
                             <div class="system linux">
-                                <a href="https://github.com/firoorg/firo/releases/download/v0.14.13.0/firo-0.14.13.0-linux64.tar.gz">{% t download.downloadqtl %}</a>
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz">{% t download.downloadqtl %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="lh1">
                                     <label class="tab-label" for="lh1">{% t download.hasheslinux %}</label>
                                     <div class="tab-content">
-                                      <p>bbf0b8d7ae6490404c01bbb9141f5786844f8678df3cd486cee81e689ba15a1a</p>
+                                      <p>{{ site.data.downloads.qt_hashes_lin }}</p>
                                     </div>
                               </div>
                             </div>
@@ -77,35 +77,35 @@ permalink: /get-firo/download/index.html
                         <p class="tagline">{% t download.option2 %}</p>
                         <div class="inner">
                             <h3>{% t download.electron %}</h3>
-                            <p class="wversion">3.0.1</p>
+                            <p class="wversion">{{ site.data.downloads.firo_electron_version }}</p>
                             <p class="changelog"><a href="https://github.com/firoorg/firo-client/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system win">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v3.0.1/Firo-Client-3.0.1.exe">{% t download.downloadelectronw %}</a>
+                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.exe">{% t download.downloadelectronw %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="wh3">
                                     <label class="tab-label" for="wh3">{% t download.hasheswindows %}</label>
                                     <div class="tab-content">
-                                      <p>8bf4c55ee68c4ad871f2031d1f0401ba805582cca07e947f47c27a8afdabca00</p>
+                                      <p>{{ site.data.downloads.electron_hashes_win }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="system mac">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v3.0.1/Firo-Client-3.0.1.dmg">{% t download.downloadelectronm %}</a>
+                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.dmg">{% t download.downloadelectronm %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="mh2">
                                     <label class="tab-label" for="mh2">{% t download.hashesmac %}</label>
                                     <div class="tab-content">
-                                      <p>20819718fbc194c56dfa07186f94eac176fe1a0294479076d83c529ebf900c5f</p>
+                                      <p>{{ site.data.downloads.electron_hashes_mac }}</p>
                                     </div>
                               </div>
                             </div>
                             <div class="system linux">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v3.0.1/Firo-Client-3.0.1.AppImage">{% t download.downloadelectronl %}</a>
+                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.AppImage">{% t download.downloadelectronl %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="lh2">
                                     <label class="tab-label" for="lh2">{% t download.hasheslinux %}</label>
                                     <div class="tab-content">
-                                      <p>76cc4cca7b8922a606a351b0343bcc440551dd341529e24611031fe3b0d73b6e</p>
+                                      <p>{{ site.data.downloads.electron_hashes_lin }}</p>
                                     </div>
                               </div>
                             </div>
@@ -120,37 +120,37 @@ permalink: /get-firo/download/index.html
                         <p class="tagline">{% t download.option3 %}</p>
                         <div class="inner">
                             <h3>{% t download.electrum %}</h3>
-                            <p class="wversion">4.1.5.2</p>
+                            <p class="wversion">{{ site.data.downloads.firo_electrum_version }}</p>
                             <p class="changelog"><a href="https://github.com/firoorg/electrum-firo/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system win">
-                                <a href="https://github.com/firoorg/electrum-firo/releases/download/4.1.5.2/Firo-Electrum-4.1.5.2-setup-win64.exe">{% t download.downloadelectrumw %}</a>
+                                <a href="https://github.com/firoorg/electrum-firo/releases/download/{{ site.data.downloads.firo_electrum_version }}/Firo-Electrum-{{ site.data.downloads.firo_electrum_version }}-setup-win64.exe">{% t download.downloadelectrumw %}</a>
 
                                 <div class="tab">
                                     <input type="checkbox" id="wh5">
                                     <label class="tab-label" for="wh5">{% t download.hasheswindows %}</label>
                                     <div class="tab-content">
-                                      <p>bf33d4f0c02c30fd498812821fa0c23f4f9965d18ea446509eedf43e57dbc76e</p>
+                                      <p>{{ site.data.downloads.electrum_hashes_win }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="system mac">
-                                <a href="https://github.com/firoorg/electrum-firo/releases/download/4.1.5.2/Firo-Electrum-4.1.5.2-macosx.dmg">{% t download.downloadelectrumm %}</a>
+                                <a href="https://github.com/firoorg/electrum-firo/releases/download/{{ site.data.downloads.firo_electrum_version }}/Firo-Electrum-{{ site.data.downloads.firo_electrum_version }}-macosx.dmg">{% t download.downloadelectrumm %}</a>
 
                                 <div class="tab">
                                     <input type="checkbox" id="mh3">
                                     <label class="tab-label" for="mh3">{% t download.hashesmac %}</label>
                                     <div class="tab-content">
-                                      <p>dfac5ba20767e023282283fe98057cd0095071acbfe299ab7f1c7bf8797acca0</p>
+                                      <p>{{ site.data.downloads.electrum_hashes_mac }}</p>
                                     </div>
                               </div>
                             </div>
                             <div class="system linux">
-                                <a href="https://github.com/firoorg/electrum-firo/releases/download/4.1.5.2/Firo-Electrum-4.1.5.2-x86_64.AppImage">{% t download.downloadelectruml %}</a>
+                                <a href="https://github.com/firoorg/electrum-firo/releases/download/{{ site.data.downloads.firo_electrum_version }}/Firo-Electrum-{{ site.data.downloads.firo_electrum_version }}-x86_64.AppImage">{% t download.downloadelectruml %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="lh3">
                                     <label class="tab-label" for="lh3">{% t download.hasheslinux %}</label>
                                     <div class="tab-content">
-                                      <p>e2ec9b882559abc6132658bc8e047ac9c0006450128bed0da9b542f8403e7520</p>
+                                      <p>{{ site.data.downloads.electrum_hashes_lin }}</p>
                                     </div>
                               </div>
                             </div>
@@ -184,7 +184,7 @@ permalink: /get-firo/download/index.html
                                     <input type="checkbox" id="an1">
                                     <label class="tab-label" for="an1">{% t download.hashesandroid %}</label>
                                     <div class="tab-content">
-                                      <p>b48f82597299a649558fc46d59b548408b4c57407efa547b50f8bb9bf89a3287</p>
+                                      <p>{{ site.data.downloads.firo_mobile }}</p>
                                     </div>
                                 </div>
                             </div>
