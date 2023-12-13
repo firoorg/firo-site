@@ -10,9 +10,9 @@ As we approach the end of 2021, we wanted to share what Firo’s core team plans
 
 ## A quick look at our achievements in 2021
 
-2021 was a pivotal year as we rolled out [Lelantus,](https://firo.org/2021/01/06/lelantus-activating-on-firo.html) [ChainLocks](https://firo.org/2021/01/28/chainlocks-activated-mainnet.html) for 51% attack protection and instant block finality, [InstantSend and FiroPoW.](https://firo.org/2021/10/01/firopow-and-instantsend-release.html) Elysium is also just around the corner along with our mobile wallet with full Lelantus support which we hope to complete by year end.
+2021 was a pivotal year as we rolled out [Lelantus,]({{ site.baseurl }}/2021/01/06/lelantus-activating-on-firo.html) [ChainLocks]({{ site.baseurl }}/2021/01/28/chainlocks-activated-mainnet.html) for 51% attack protection and instant block finality, [InstantSend and FiroPoW.]({{ site.baseurl }}/2021/10/01/firopow-and-instantsend-release.html) Elysium is also just around the corner along with our mobile wallet with full Lelantus support which we hope to complete by year end.
 
-We also came up with groundbreaking research with [Lelantus Spark](https://firo.org/2021/08/24/presenting-lelantus-spark.html) that greatly improves privacy and flexibility without sacrificing trustlessness along with Helsing, our upcoming private masternode staking mechanism.
+We also came up with groundbreaking research with [Lelantus Spark]({{ site.baseurl }}/2021/08/24/presenting-lelantus-spark.html) that greatly improves privacy and flexibility without sacrificing trustlessness along with Helsing, our upcoming private masternode staking mechanism.
 
 We expanded our utility with integration with Binance Smart Chain via a [Binance-Pegged BEP20 FIRO token](https://www.coingecko.com/en/coins/binance-peg-firo) and also have a well funded pair on [Pancakeswap DEX.](https://pancakeswap.finance/swap?inputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c&outputCurrency=0xd5d0322b6bab6a762c79f8c81a0b674778e13aed) More decentralized options with [FiroDEX](https://github.com/firoorg/FiroDEX-Desktop) that would allow atomic swaps across multiple chains are coming in December 2021 as well.
 

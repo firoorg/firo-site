@@ -10,7 +10,7 @@ Here's a quick update on what Firo has been working behind the scenes:
 
 ## Lelantus Spark
 
-We have made significant headway in our next generation privacy protocol [Lelantus Spark!](https://firo.org/2021/08/24/presenting-lelantus-spark.html)
+We have made significant headway in our next generation privacy protocol [Lelantus Spark!]({{ site.baseurl }}/2021/08/24/presenting-lelantus-spark.html)
 
 Lelantus Spark's security proofs have been completed and the paper has been [uploaded to IACR's preprint archive.](https://eprint.iacr.org/2021/1173.pdf) We are in the process of seeking cryptographic audits.
 
@@ -22,7 +22,7 @@ We are also doing a preliminary investigation of [hardware acceleration](https:/
 
 ## FiroPoW
 
-[FiroPoW is on testnet](https://firo.org/2021/08/30/firopow-testnet-launched.html) and is ready for deployment. We are waiting for InstantSend to be completed before deployment on mainnet so both FiroPoW and InstantSend can be rolled out together in one hard fork.
+[FiroPoW is on testnet]({{ site.baseurl }}/2021/08/30/firopow-testnet-launched.html) and is ready for deployment. We are waiting for InstantSend to be completed before deployment on mainnet so both FiroPoW and InstantSend can be rolled out together in one hard fork.
 
 Our reference miner is out and from our talks with third party miner devs, both AMD and Nvidia cards will have miners available upon release to mainnet.
 
@@ -42,7 +42,7 @@ Internal development build of our mobile wallet with Lelantus support is almost 
 
 ## Firo Client (Electron Wallet)
 
-After completing [our GUI revamp,](https://firo.org/2021/08/27/firo-client-release-210.html) significant performance improvements have been made. We are also working on streamlining the GUI further especially when it relates to address book functionality.
+After completing [our GUI revamp,]({{ site.baseurl }}/2021/08/27/firo-client-release-210.html) significant performance improvements have been made. We are also working on streamlining the GUI further especially when it relates to address book functionality.
 
 ## Trezor Firo support
 

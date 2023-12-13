@@ -11,7 +11,7 @@ img: "/blog/assets/spark-audit-begins.png"
 
 [Lelantus Spark,](https://eprint.iacr.org/2021/1173) our next-generation privacy protocol, is now undergoing a code security audit by Hashcloak, an independent research lab focused on privacy technology. The audit started on 31 October 2022 and is set to run for six weeks total, with an initial report available by the end of November and the remaining two weeks used to rectify any issues identified in the report.
 
-Hashcloak had previously audited [Lelantus Spark’s cryptographic construction](https://firo.org/about/research/papers/Lelantus_Spark_Audit_Report.pdf) and worked with prominent clients such as the Ethereum Foundation, Flashbots, Fuel Labs, Railgun and Panther Protocol. The quality of their work on the prior audit, their deep involvement in the privacy space and the continued interest and support they have paid to our research and developments made them obvious candidates for this audit.
+Hashcloak had previously audited [Lelantus Spark’s cryptographic construction]({{ site.baseurl }}/about/research/papers/Lelantus_Spark_Audit_Report.pdf) and worked with prominent clients such as the Ethereum Foundation, Flashbots, Fuel Labs, Railgun and Panther Protocol. The quality of their work on the prior audit, their deep involvement in the privacy space and the continued interest and support they have paid to our research and developments made them obvious candidates for this audit.
 
 The following people will be working on the audit:
 

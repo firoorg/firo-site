@@ -32,7 +32,7 @@ You should only need to provide your address that you collateraled your FIRO in 
 
 ## Getting Started
 
-Whether you are hosting with a masternode provider or doing it on your own, ensure you have the latest [Firo wallet](https://firo.org/get-firo/download/) and you have already obtained your **1000 FIRO** (preferably just a bit more to cover fees when you're transferring around). **Steps 1 and 2 are still required** even if you are going for a masternode provider.
+Whether you are hosting with a masternode provider or doing it on your own, ensure you have the latest [Firo wallet]({{ site.baseurl }}/get-firo/download/) and you have already obtained your **1000 FIRO** (preferably just a bit more to cover fees when you're transferring around). **Steps 1 and 2 are still required** even if you are going for a masternode provider.
 
 ### Step 1: Encrypt and Backup your wallet on your Desktop wallet
 

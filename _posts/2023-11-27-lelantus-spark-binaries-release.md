@@ -34,7 +34,7 @@ Spark supports efficient signing and multisignature operations through the use o
 Spark’s modular design uses well-understood cryptographic building blocks like Pedersen commitments, range proofs, zero-knowledge one-of-many proofs, and discrete logarithm equality proofs that enable straightforward security analysis without the need for a trusted setup.
 
 You can read more about Lelantus Spark below: 
-Blog Post: [https://firo.org/2021/08/24/presenting-lelantus-spark.html](https://firo.org/2021/08/24/presenting-lelantus-spark.html) 
+Blog Post: [https://firo.org/2021/08/24/presenting-lelantus-spark.html]({{ site.baseurl }}/2021/08/24/presenting-lelantus-spark.html) 
 
 Eprint: [https://eprint.iacr.org/2021/1173](https://eprint.iacr.org/2021/1173)
 
@@ -61,7 +61,7 @@ EX-addresses operate similarly to transparent addresses, with the distinction th
 
 ## What’s Next?
 
-Even as we launch Spark, we are already researching upgrades to Spark, such as [curve trees](https://firo.org/2023/05/26/elliptic-curves-research.html) and expanding its functionality with [Spats](https://firo.org/2022/03/07/spats-confidential-assets-lelantus-spark.html)! We will also be implementing [Helsing](https://firo.org/2022/01/28/helsing-private-firo-masternode.html) to allow masternodes to use Spark addresses to hold their collateral.
+Even as we launch Spark, we are already researching upgrades to Spark, such as [curve trees]({{ site.baseurl }}/2023/05/26/elliptic-curves-research.html) and expanding its functionality with [Spats]({{ site.baseurl }}/2022/03/07/spats-confidential-assets-lelantus-spark.html)! We will also be implementing [Helsing]({{ site.baseurl }}/2022/01/28/helsing-private-firo-masternode.html) to allow masternodes to use Spark addresses to hold their collateral.
 
 ## Thanks
 
@@ -79,7 +79,7 @@ You can stay tuned on these developments by following our socials below:
 
 [Youtube](https://www.youtube.com/@Firoorg) (please subscribe) 
 
-[Blog](https://firo.org/blog/) 
+[Blog]({{ site.baseurl }}/blog/) 
 
 [Facebook](https://www.facebook.com/firoorg) 
 

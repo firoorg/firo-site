@@ -63,7 +63,7 @@ Phase 2 (Q2 2024):
 * A few months after Spark mainnet launch, we plan to make all mining and masternode rewards go mandatorily into Spark addresses. This will significantly increase the anonymity set as new issuance enters into the Spark pool.
 
 Phase 3 (Q3 2024): 
-* Later in 2024, we plan to launch [Helsing](https://firo.org/2022/01/28/helsing-private-firo-masternode.html) which allows masternode collateral to be held in Spark addresses further reducing the need for transparent addresses.
+* Later in 2024, we plan to launch [Helsing]({{ site.baseurl }}/2022/01/28/helsing-private-firo-masternode.html) which allows masternode collateral to be held in Spark addresses further reducing the need for transparent addresses.
 
 After these phases, we expect to further improve Firo’s anonymity set by the introduction of Spark Assets which allow the creation of private assets that all share a common anonymity pool and further DEX integrations to further bolster the resiliency of Firo’s ecosystem and reduce reliance on CEXes.
 

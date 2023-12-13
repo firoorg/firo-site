@@ -6,7 +6,7 @@ tags: [news, dev, community]
 author: "Reuben Yap"
 img: "/blog/assets/firo-helsing.png"
 ---
-We are proud to unveil our proposal for [Helsing](https://firo.org/blog/assets/helsing-1049371.pdf), a method to enable private masternode staking in Firo. Masternodes in Firo perform several important functions such as securing the chain against 51% attacks via ChainLocks and also enabling quick finality of transactions within a few seconds.
+We are proud to unveil our proposal for [Helsing]({{ site.baseurl }}/blog/assets/helsing-1049371.pdf), a method to enable private masternode staking in Firo. Masternodes in Firo perform several important functions such as securing the chain against 51% attacks via ChainLocks and also enabling quick finality of transactions within a few seconds.
 
 To provide resistance against [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack), a collateral of 1000 FIRO is staked to encourage honest behaviour of the masternode and this needs to be verified by the rest of the network. Our upcoming privacy protocol, Lelantus Spark, greatly improves privacy by hiding amounts, when funds come in and also when they are moved out. Therefore there needs to be a different method of determining whether the collateral is present while preserving privacy.
 

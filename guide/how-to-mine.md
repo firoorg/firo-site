@@ -15,7 +15,7 @@ The FiroPoW mining algorithm (a modified version of ProgPoW 0.9.4) is designed t
 
 We believe in the importance of fair distribution in FIRO and remain committed to having it mineable using commodity hardware like GPUs.
 
-Before you begin, make sure you have a Firo (FIRO) address where you want your mining payouts to go to. To get one, download a [Firo wallet](https://firo.org/get-firo/download/) and sync it with the network. 
+Before you begin, make sure you have a Firo (FIRO) address where you want your mining payouts to go to. To get one, download a [Firo wallet]({{ site.baseurl }}/get-firo/download/) and sync it with the network. 
 
 The guide is meant for Windows users though Linux users can easily adapt it.
 
