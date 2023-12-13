@@ -4,7 +4,8 @@ title: "Firo is Now Integrated into BasicSwap Installer (.exe)"
 summary: "Compatible with Bidirectional Adaptor Signature Atomic Swaps"
 tags: [news, dev]
 author: "Augustus Jong"
-img: "/blog/assets/basicswapdexblog/banner.JPG"
+img: "/blog/assets/basicswapdexblog/banner.jpg"
+---
 
 We are thrilled to announce that the [BasicSwap](https://basicswapdex.com/) installation wizard now comes with complete Firo compatibility! This means you can easily install Firo, featuring our recent groundbreaking [Lelantus Spark update](https://firo.org/2023/11/27/lelantus-spark-binaries-release.html), directly from the automated installer (remember to run it as an administrator).
 
@@ -20,7 +21,7 @@ To learn more head to [Particl's blog](https://particl.news/firo-now-compatible-
 
 ### How to Download
 
-![](/blog/assets/basicswapdexblog/installer.PNG)
+![](/blog/assets/basicswapdexblog/installer.png)
 
 Currently BasicSwapDEX is only avaliable for Windows users but will come to other operating systems (MacOS, Linux) shortly.
 
