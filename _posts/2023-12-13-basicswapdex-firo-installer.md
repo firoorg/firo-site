@@ -7,7 +7,8 @@ author: "Augustus Jong"
 img: "/blog/assets/basicswapdexblog/banner.jpg"
 ---
 
-We are thrilled to announce that the [BasicSwap](https://basicswapdex.com/) installation wizard now comes with complete Firo compatibility! This means you can easily install Firo, featuring our recent groundbreaking [Lelantus Spark update](https://firo.org/2023/11/27/lelantus-spark-binaries-release.html), directly from the automated installer (remember to run it as an administrator).
+We are thrilled to announce that the [BasicSwap](https://basicswapdex.com/) installation wizard now comes with complete Firo compatibility! This means you can easily install Firo, featuring our recent groundbreaking [Lelantus Spark update]({{ site.baseurl_root }}/2023/11/27/lelantus-spark-binaries-release.html), directly from the automated installer (remember to run it as an administrator).
+
 
 ## About Basicswap
 
