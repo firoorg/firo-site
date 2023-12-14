@@ -196,6 +196,18 @@ The next step opens port 8168 which is required for your masternode to communica
 
 (press Y and Enter to confirm) You now have a firewall setup!
 
+**Note:** If you are self-hosting a Firo masternode you will need to port forward an inbound connection to port `8168` on your router. You will also need to configure the NAT on your server to point to your 
+
+Public IP. To do this run the command `iptables -t nat -A output -d YOURPUBLICIP -s LOCALSUBNET -j DNAT --to-destination YOURLOCALIP` followed by `iptables-persistent` on Debian based
+
+systems or `iptables-services` on RPM based systems otherwise you will need to enter the command after each reboot. If you already have Iptables-persistent installed use `iptables-save`.
+
+This command will create a NAT `-t` table rule that `-A` Appends to iptables_output to the `-d` destination of your Public IP from the `-s` source of your local subnet (usually 192.168.0.0/24 or 192.168.1.0/24)
+
+which will then `-j` jump to the `DNAT` Destination NAT that directs traffic `--to-destination` YOURLOCALIP (you can acquire this with the command `ip -a`). 
+
+The full command should look something like this `iptables -t nat -A output -d 207.148.122.12 -s 192.168.1.0/24 -j DNAT --to-destination 192.168.1.100`
+
 #### Allocating a Swap File
 
 _You can skip this step if your VPS provider has automatically allocated swap for you. Use the **free** command to check if swap exists._
@@ -357,3 +369,4 @@ The following tips are not covered by this guide but can ensure smoother running
 * Set Ubuntu to automatically download and install new upgrades
 * Further secure your masternode by modifying the SSH configuration file and/or install and configure fail2ban
 * [Prevent the debug.log from getting too big by rotating it](https://github.com/firoorg/firo/wiki/Configuring-logrotate-for-Firo%27s-debug.log)
+  
