@@ -22,7 +22,8 @@ To learn more head to [Particl's blog](https://particl.news/firo-now-compatible-
 
 ### How to Download
 
-![](/blog/assets/basicswapdexblog/installer.png)
+![Screenshot of basicswap's installation wizard listing Firo](/blog/assets/basicswapdexblog/installer.png)
+
 
 Currently BasicSwapDEX is only avaliable for Windows users but will come to other operating systems (MacOS, Linux) shortly.
 
