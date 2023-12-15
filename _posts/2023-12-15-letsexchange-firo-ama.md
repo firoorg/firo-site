@@ -72,17 +72,17 @@ We have mentioned that 3 questions from the audience will have a chance to win s
 1) [charlie](https://twitter.com/charlie61792968/status/1732705579020210558)  
 Q: *Security and anonymity are always prioritized by BlockChain projects in the development of project platforms and technologies. So, does @firoorg have any technological solutions or plans to enhance user trust in these issues?*
 
-  A: On top of Lelantus Spark, which we just released (activating in January 2024), you can read about it [here](https://firo.org/2023/11/27/lelantus-spark-binaries-release.html), The integration of technologies such as Dandelion++ and LLMQ ChainLocks enhances the overall security of both Firo's blockchain and network. Dandelion++ helps obscure the originating IP of transactions, and LLMQ ChainLocks provide additional security against potential attacks. These measures collectively reflect Firo's commitment to maintaining high standards of security and anonymity.
+A: On top of Lelantus Spark, which we just released (activating in January 2024), you can read about it [here](https://firo.org/2023/11/27/lelantus-spark-binaries-release.html), The integration of technologies such as Dandelion++ and LLMQ ChainLocks enhances the overall security of both Firo's blockchain and network. Dandelion++ helps obscure the originating IP of transactions, and LLMQ ChainLocks provide additional security against potential attacks. These measures collectively reflect Firo's commitment to maintaining high standards of security and anonymity.
 
-2) [120 W](https://twitter.com/W120VOLT/status/1732703818272665927)
+2) [120 W](https://twitter.com/W120VOLT/status/1732703818272665927)  
 Q: *In what ways does Firo address the challenges posed by the increasing digitization of fiat currencies and the potential loss of control over personal finances?*
 
-  A: For the most part the digitization of fiat currencies have already happened but is evolving into something else which is a digital currency that is directly controlled by a Central Bank. While often touted for its benefits, we are already seeing the beginnings of the impacts of CBDCs which is setting rules and limits as to how you can spend your money and the ability for governments to cut you off from the financial system.  
+A: For the most part the digitization of fiat currencies have already happened but is evolving into something else which is a digital currency that is directly controlled by a Central Bank. While often touted for its benefits, we are already seeing the beginnings of the impacts of CBDCs which is setting rules and limits as to how you can spend your money and the ability for governments to cut you off from the financial system.  
 
 Firo in particular was designed to address these type of concerns as with privacy, our transactions are uncensorable and even the core developers cannot break that privacy or choose what you can or cannot use your money for. This is exactly the ethos of what cryptocurrency set out to do and one that is often overlooked and arguably even abandoned by Bitcoin.  
 
-3) [Noble](https://twitter.com/Boa_Noble/status/1732707001082184115)
+3) [Noble](https://twitter.com/Boa_Noble/status/1732707001082184115)  
 Q: *Many day-to-day projects promise great utility and functionality, but end up throwing the rug out a few days later. How do you really know that your project won't throw the rug out? What guarantees do investors have?*
 
-  A: We've been around since 2016 and constantly developing and delivering updates :). If this is a rug, it's a pretty long one ;)  
+A: We've been around since 2016 and constantly developing and delivering updates :). If this is a rug, it's a pretty long one ;)  
 
