@@ -73,7 +73,7 @@ We have mentioned that 3 questions from the audience will have a chance to win s
 
 Q: *Security and anonymity are always prioritized by BlockChain projects in the development of project platforms and technologies. So, does @firoorg have any technological solutions or plans to enhance user trust in these issues?* 
 
-A: On top of Lelantus Spark, which we just released (activating in January 2024), you can read about it [here]({{ site.baseurl_root }}/2023/11/27/lelantus-spark-binaries-release.html), The integration of technologies such as Dandelion++ and LLMQ ChainLocks enhances the overall security of both Firo's blockchain and network. Dandelion++ helps obscure the originating IP of transactions, and LLMQ ChainLocks provide additional security against potential attacks. These measures collectively reflect Firo's commitment to maintaining high standards of security and anonymity.
+A: On top of Lelantus Spark, which we just released (activating in January 2024), you can read about it [Here]({{ site.baseurl_root }}/2023/11/27/lelantus-spark-binaries-release.html), The integration of technologies such as Dandelion++ and LLMQ ChainLocks enhances the overall security of both Firo's blockchain and network. Dandelion++ helps obscure the originating IP of transactions, and LLMQ ChainLocks provide additional security against potential attacks. These measures collectively reflect Firo's commitment to maintaining high standards of security and anonymity.
 
 2) [@W120VOLT](https://twitter.com/W120VOLT/status/1732703818272665927)  
 
