@@ -6,7 +6,7 @@ tags: [news, dev, community]
 author: "Reuben Yap"
 img: "/blog/assets/firopow-instantsend-release.png"
 ---
-We are proud to announce the release of **Firo v0.14.9.0** that will enable FiroPoW and Instant Send. This is a **mandatory update** that will come into force on mainnet on **October 26th, 6:00 UTC** so you must [update your wallet and nodes to v0.14.9.0](https://firo.org/get-firo/download/) prior to this date for a seamless transition.
+We are proud to announce the release of **Firo v0.14.9.0** that will enable FiroPoW and Instant Send. This is a **mandatory update** that will come into force on mainnet on **October 26th, 6:00 UTC** so you must [update your wallet and nodes to v0.14.9.0]({{ site.baseurl }}/get-firo/download/) prior to this date for a seamless transition.
 
 ## What is FiroPoW
 

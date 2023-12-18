@@ -30,4 +30,4 @@ More information [here](https://guardarian.com/blog/guardarian-crypto-card-is-he
 
 ## Firo Merchants
 
-There are many other ways to spend your FIRO too. Our [merchant page](https://firo.org/community/merchants/) offers a variety of merchants that accept FIRO as payment. From apparels to travel deals like [Travala](https://www.travala.com/) and [LockTrip](https://locktrip.com/). 
+There are many other ways to spend your FIRO too. Our [merchant page]({{ site.baseurl }}/community/merchants/) offers a variety of merchants that accept FIRO as payment. From apparels to travel deals like [Travala](https://www.travala.com/) and [LockTrip](https://locktrip.com/). 

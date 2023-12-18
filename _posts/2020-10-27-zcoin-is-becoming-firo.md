@@ -25,9 +25,9 @@ If you are interested into a deep dive into the rationale and considerations beh
 
 Today is the reveal of the rebrand to give time to the ecosystem and community to be aware of the change and to make the necessary preparations. This is especially due to the ticker change to FIRO which some exchanges require a longer heads up. 
 
-On the **30 November 2020 UTC 0800**, the rebrand will take effect and [zcoin.io](https://zcoin.io) will redirect to [firo.org](https://firo.org) At that time, our wallet and exchange partners will replace the Zcoin name, symbol and logo with that of Firo. We believe this phased approach will minimize any confusion. 
+On the **30 November 2020 UTC 0800**, the rebrand will take effect and [zcoin.io](https://zcoin.io) will redirect to [firo.org]({{ site.baseurl }}) At that time, our wallet and exchange partners will replace the Zcoin name, symbol and logo with that of Firo. We believe this phased approach will minimize any confusion. 
 
-Between now and then, we’re working with wallets, exchanges, PR companies and social media influencers to spread the announcement and ensure a smooth transition. The Firo website at [firo.org](https://firo.org) will launch fully in the next few days, and we will also transition our social media accounts from Zcoin to Firo.
+Between now and then, we’re working with wallets, exchanges, PR companies and social media influencers to spread the announcement and ensure a smooth transition. The Firo website at [firo.org]({{ site.baseurl }}) will launch fully in the next few days, and we will also transition our social media accounts from Zcoin to Firo.
 
 ## What does this mean for Zcoin holders?
 
@@ -35,7 +35,7 @@ Firo will use the same blockchain as Zcoin. **There is no chain swap.** Current 
 
 If you’re holding in an exchange, just pay attention to their announcements. We’ll be working directly with key exchanges to make the transition as seamless as possible. 
 
-If you’re holding in a wallet, just make sure you’re using the [latest version.](https://firo.org/get-firo/download/) If you forget to update your wallet, no problem! Until Lelantus is fully activated in January 2021 you can continue to send and receive Zcoin/Firo with the outdated wallet (though we don’t recommend it).
+If you’re holding in a wallet, just make sure you’re using the [latest version.]({{ site.baseurl }}/get-firo/download/) If you forget to update your wallet, no problem! Until Lelantus is fully activated in January 2021 you can continue to send and receive Zcoin/Firo with the outdated wallet (though we don’t recommend it).
 
 ## What about Lelantus?
 
@@ -49,9 +49,9 @@ Stakehound has confirmed that they are able to change the ticker to stakedFIRO w
 
 ## Where can I get the new logo/resources/updated links for Firo?
 
-Our [branding page](https://firo.org/branding/) has all resources necessary together with [our logo kit.](https://firo.org/branding/firo-logo-files.zip)
+Our [branding page]({{ site.baseurl }}/branding/) has all resources necessary together with [our logo kit.]({{ site.baseurl }}/branding/firo-logo-files.zip)
 
-[Website](https://firo.org/)
+[Website]({{ site.baseurl }}/)
 
 [Github](https://github.com/firoorg/firo)
 

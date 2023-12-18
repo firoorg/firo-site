@@ -43,7 +43,7 @@ November is an exciting month for Firo. Not only is the project completing its r
 * continue work on mobile wallets
 
 ## Other
-* new Firo website is live: [https://firo.org](https://firo.org)
+* new Firo website is live: [{{ site.baseurl }}]({{ site.baseurl }})
 * social media changed to new branding
 * github repositories changed to [https://github.com/firoorg/](https://github.com/firoorg/)
 * blockbook being updated

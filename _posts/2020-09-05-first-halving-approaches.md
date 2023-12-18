@@ -17,7 +17,7 @@ The halving refers to the planned halving of the block rewards which will drop f
 
 ## End of Founders’ Rewards and Adjustment of Block Rewards
 
-As from the results of [a year long discussion with the community](https://forum.zcoin.io/t/important-final-chance-to-weigh-in-on-development-community-funding-percentage/636), the block rewards are being adjusted as a balance between continuing development, Znodes and miners. You can read more about this [here.](https://firo.org/2020/05/04/block-reward-allocation-and-development-fund-for-the-next-4-years.html)
+As from the results of [a year long discussion with the community](https://forum.zcoin.io/t/important-final-chance-to-weigh-in-on-development-community-funding-percentage/636), the block rewards are being adjusted as a balance between continuing development, Znodes and miners. You can read more about this [here.]({{ site.baseurl }}/2020/05/04/block-reward-allocation-and-development-fund-for-the-next-4-years.html)
 
 ![Halving diagram](/blog/assets/first-halving/halving-diagram.jpg)
 
@@ -27,7 +27,7 @@ We are confident that the new block reward division will serve Zcoin well for th
 
 ## What happens after halving?
 
-In the weeks following halving, Lelantus, our next-gen privacy protocol that doesn’t require a trusted setup will be ready for release. This will also [enables privacy on by default with transparent opt-in.](https://firo.org/2020/06/11/paving-the-way-to-privacy-on-by-default-with-opt-out-with-lelantus.html) We are undergoing final reviews before pushing it to our testnet. Also, [the Trail of Bits audit for the cryptographic library has been completed]() and the ABDK Consulting review of the protocol is wrapping up with only minor modifications needed to address its findings.
+In the weeks following halving, Lelantus, our next-gen privacy protocol that doesn’t require a trusted setup will be ready for release. This will also [enables privacy on by default with transparent opt-in.]({{ site.baseurl }}/2020/06/11/paving-the-way-to-privacy-on-by-default-with-opt-out-with-lelantus.html) We are undergoing final reviews before pushing it to our testnet. Also, [the Trail of Bits audit for the cryptographic library has been completed]() and the ABDK Consulting review of the protocol is wrapping up with only minor modifications needed to address its findings.
 
 In October, [our integrations to DeFi will be ready to go live.]() Chain-locks code is undergoing final touch-ups and [integration of spork functionality,](https://forum.zcoin.io/t/should-we-enable-spork-functionality-temporarily-until-lelantus-matures/835) which adds further security to the network, is nearly complete. We also expect Receiver Address Privacy to be ready over the coming weeks.
 

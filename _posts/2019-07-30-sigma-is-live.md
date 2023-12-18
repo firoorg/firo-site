@@ -10,7 +10,7 @@ alt: ""
 
 We are proud to announce that Zcoin's [Sigma privacy protocol]() is now live! Sigma enables ZKP type privacy without trusted setup and using cryptography with standard assumptions. We are already seeing wide use of our Sigma privacy features and are excited to continue our mission in making Zcoin a private, uncensorable and free currency! 
 
-Ensure that your wallet and Znodes are updated to [Zcoin 13.8.2](https://firo.org/get-firo/download/)! 
+Ensure that your wallet and Znodes are updated to [Zcoin 13.8.2]({{ site.baseurl }}/get-firo/download/)! 
 
 Also, during such upgrade windows, this is a particularly attractive time for scammers to come and try to 'help you' with your upgrade. Our team members will never initiate a PM or offer to help. Also be wary of giving remote access or being asked to dump any sort of logs! 
 

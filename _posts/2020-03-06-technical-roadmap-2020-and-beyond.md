@@ -22,7 +22,7 @@ The Zcoin core team aims to complete the items listed below in 2020.
 
 ![](/blog/assets/technical-roadmap-2020-and-beyond/01-lelantus.png)
 
-[Lelantus is our next generation privacy protocol](https://firo.org/2019/04/14/lelantus-firo.html) named after the Titan God of air and moving unseen.
+[Lelantus is our next generation privacy protocol]({{ site.baseurl }}/2019/04/14/lelantus-firo.html) named after the Titan God of air and moving unseen.
 
 It allows users to burn any number of coins and redeem them for brand new coins with no transaction history.
 

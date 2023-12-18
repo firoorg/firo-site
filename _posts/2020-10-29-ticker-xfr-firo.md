@@ -9,7 +9,7 @@ alt: " XFR vs FIRO"
 ---
 ## Pick the right exchange ticker: XFR vs FIRO
 
-On the 27th of October [Zcoin announced](https://firo.org/2020/10/27/zcoin-is-becoming-firo.html) its new name: Firo (pronounced “fee-roh”). The new identity was chosen to differentiate from competitors and to make financial privacy more accessible to more people.
+On the 27th of October [Zcoin announced]({{ site.baseurl }}/2020/10/27/zcoin-is-becoming-firo.html) its new name: Firo (pronounced “fee-roh”). The new identity was chosen to differentiate from competitors and to make financial privacy more accessible to more people.
 
 The ticker name we initially chose was XFR, but we are receiving community feedback that many prefer Firo's ticker to be FIRO. We therefore recommend all journalists, exchange operators and crypto service providers to use FIRO as the main ticker.
 
@@ -44,4 +44,4 @@ Final results of the ticker poll.
 The message from the community is clear: FIRO is the preferred choice. We therefore recommend all journalists, exchange operators and crypto service providers to use FIRO as the main ticker. With the FIRO currency code, Firo is ready for the future.
 
 What do you think about the rebranding to Firo?
-Let us know on social media: <https://firo.org/community/>
+Let us know on social media: <{{ site.baseurl }}/community/>

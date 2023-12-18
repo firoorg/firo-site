@@ -10,7 +10,7 @@ We are pleased to announce that the MAGIC Board  has approved a security retaine
 
 The security retainer focuses on building out Firo’s fuzz testing infrastructure, expanding unit test coverage and augmenting Firo’s existing PR review process. Additionally, the retainer also ensures Firo is abreast of the latest vulnerabilities and security techniques along with assessing vulnerabilities in other chains and their applicability to Firo.
 
-Fuzz testing uses the same tools that threat actors use to find exploits and helps to find bugs and vulnerabilities that are not covered by unit tests or even manual audits. Firo’s fuzz testing infrastructure will be extended and built out especially those concerning [Lelantus Spark](https://firo.org/2021/08/24/presenting-lelantus-spark.html), which is expected to go live on mainnet later this year. Once set-up it can run for as long as required in the background and extended to cover new code.
+Fuzz testing uses the same tools that threat actors use to find exploits and helps to find bugs and vulnerabilities that are not covered by unit tests or even manual audits. Firo’s fuzz testing infrastructure will be extended and built out especially those concerning [Lelantus Spark]({{ site.baseurl }}/2021/08/24/presenting-lelantus-spark.html), which is expected to go live on mainnet later this year. Once set-up it can run for as long as required in the background and extended to cover new code.
 
 HashCloak will also examine Firo’s existing unit test coverage and extend them beyond the standard ones covering newer test cases and edge cases. 
 
@@ -18,7 +18,7 @@ As part of the security retainer, HashCloak will also augment Firo’s existing 
 
 ## About HashCloak
 
-HashCloak Inc. is an R&D lab and consultancy focused on privacy, anonymity and scalability for blockchains and cryptocurrencies. Founded in 2019, the Toronto-based team specialises  in ZKPs, anonymous networks, MPCs and other privacy-enhancing techniques. HashCloak has previously worked with Firo in auditing both the [design](https://firo.org/2022/01/04/lelantus-spark-audit-complete.html) and [implementation of Lelantus Spark](https://firo.org/2022/12/20/lelantus-spark-code-audit-completed.html). 
+HashCloak Inc. is an R&D lab and consultancy focused on privacy, anonymity and scalability for blockchains and cryptocurrencies. Founded in 2019, the Toronto-based team specialises  in ZKPs, anonymous networks, MPCs and other privacy-enhancing techniques. HashCloak has previously worked with Firo in auditing both the [design]({{ site.baseurl }}/2022/01/04/lelantus-spark-audit-complete.html) and [implementation of Lelantus Spark]({{ site.baseurl }}/2022/12/20/lelantus-spark-code-audit-completed.html). 
 
 ## About MAGIC Grants
 

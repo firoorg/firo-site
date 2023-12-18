@@ -22,7 +22,7 @@ d) fun meme or community coins with privacy.
 
 The launch of Elysium expands the use cases of Firo not only to be a privacy coin but also a utility token for a privacy ecosystem.
 
-Our partners at [DotOracle are working to bridge assets from other chains into Elysium](https://firo.org/2022/01/18/dotoracle-partnership.html) to take advantage of the privacy feature that Firo has with cheap fees. Using DotOracle, you can bridge ERC20, BEP20, TRC20, etc, tokens into Elysium to transact privately.
+Our partners at [DotOracle are working to bridge assets from other chains into Elysium]({{ site.baseurl }}/2022/01/18/dotoracle-partnership.html) to take advantage of the privacy feature that Firo has with cheap fees. Using DotOracle, you can bridge ERC20, BEP20, TRC20, etc, tokens into Elysium to transact privately.
 
 
 ## Elysium Release Candidate

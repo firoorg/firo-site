@@ -38,7 +38,7 @@ The authors hope these updates will prove useful to the ecosystem, and look forw
 
 ## MTP Stripping
 
-As Firo has successfully migrated to [FiroPoW](https://firo.org/2021/10/01/firopow-and-instantsend-release.html), the size of our blockchain will grow at a slower pace keeping node requirements in check. However there remains the issue of existing MTP proofs which occupy 200 kB per block regardless of the transactions within it. We are working on a way to strip such MTP proofs so that they need not be retained which would allow much faster full node syncing and further lower node requirements.
+As Firo has successfully migrated to [FiroPoW]({{ site.baseurl }}/2021/10/01/firopow-and-instantsend-release.html), the size of our blockchain will grow at a slower pace keeping node requirements in check. However there remains the issue of existing MTP proofs which occupy 200 kB per block regardless of the transactions within it. We are working on a way to strip such MTP proofs so that they need not be retained which would allow much faster full node syncing and further lower node requirements.
 
 ## LIGHT WALLETS
 

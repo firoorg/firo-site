@@ -38,7 +38,7 @@ Our implementation also uses Pippenger and Straus' multi exponentiation algorith
 
 ## Opens the way to Lelantus
 
-Sigma is a precursor to our next gen privacy protocol [Lelantus](https://eprint.iacr.org/2019/373) developed by our cryptographer Aram Jivanyan which further builds on Sigma and greatly expands its functionality and privacy features by removing the need for fixed denominations in minting and spending. Deploying Sigma gives us the necessary time to develop Lelantus properly while it undergoes academic peer review and further improvements. To learn more about Lelantus, you can go [here](https://firo.org/2019/04/14/lelantus-firo.html).
+Sigma is a precursor to our next gen privacy protocol [Lelantus](https://eprint.iacr.org/2019/373) developed by our cryptographer Aram Jivanyan which further builds on Sigma and greatly expands its functionality and privacy features by removing the need for fixed denominations in minting and spending. Deploying Sigma gives us the necessary time to develop Lelantus properly while it undergoes academic peer review and further improvements. To learn more about Lelantus, you can go [here]({{ site.baseurl }}/2019/04/14/lelantus-firo.html).
 
 ## Quick Comparison
 

@@ -120,7 +120,7 @@ Despite these drawbacks, RingCT has proven itself to be one of the better and we
 
 It is worth noting that Monero Research Labs are looking into alternative privacy protocols to help scale their ring sizes such as Lelantus Spark and Seraphis to increase its effective anonymity set and complicate statistical analysis.
 
-### [Lelantus v1/v2](https://firo.org/2019/04/14/lelantus-firo.html)
+### [Lelantus v1/v2]({{ site.baseurl }}/2019/04/14/lelantus-firo.html)
 
 **As used in: Firo (activated Lelantus v1 from January 2021)** 
 
@@ -170,7 +170,7 @@ Our work in Lelantus has also revived interest in the use of Groth-Bootle proofs
 
 <img src="/guide/assets/privacy-technology-comparison/lelantuspend.png" alt="Mathematical scheme of a spend transaction" loading="lazy"/>
 
-### [Lelantus Spark](https://firo.org/2021/08/24/presenting-lelantus-spark.html)
+### [Lelantus Spark]({{ site.baseurl }}/2021/08/24/presenting-lelantus-spark.html)
 
 **As used in: Firo (to go live in 2022)** 
 
@@ -325,6 +325,6 @@ These are the key factors when coming across a new privacy mechanism:
 
 ## Summary
 
-Every anonymity scheme has its own sets of benefits and trade-offs, and we believe that continuous exploration and research of these privacy schemes can only serve to improve blockchain privacy as a whole. We at Firo strongly believe that [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html) and Lelantus Spark compares very favorably to other anonymity schemes by providing a very well-rounded anonymity package, giving very strong anonymity using proven cryptography while remaining scalable and optionally auditable.
+Every anonymity scheme has its own sets of benefits and trade-offs, and we believe that continuous exploration and research of these privacy schemes can only serve to improve blockchain privacy as a whole. We at Firo strongly believe that [Lelantus]({{ site.baseurl }}/2019/04/14/lelantus-firo.html) and Lelantus Spark compares very favorably to other anonymity schemes by providing a very well-rounded anonymity package, giving very strong anonymity using proven cryptography while remaining scalable and optionally auditable.
 
 We hope this article gives you a much better understanding of how various privacy tech works on the blockchain.
