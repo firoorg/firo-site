@@ -6,7 +6,8 @@ tags: [news, community]
 author: "Augustus Jong"
 img: "/blog/assets/letsexchangefiroama/banner.png"
 ---
-Let'sExchange, a leading instant crypto-exchange service with over 3,900 coins and tokens, has invited us to hold an AMA (Ask Me Anything) session with Firo on December 7, 2023. The AMA session took place on both [Firo's](https://twitter.com/firoorg/status/1732701777655632368) and [Let'sExchange's](https://twitter.com/letsexchange_io/status/1732701505516658830) X/Twitter page. 
+Let'sExchange, a leading instant crypto-exchange service with over 3,900 coins and tokens, has invited us to hold an AMA (Ask Me Anything) session with Firo on December 7, 2023. The AMA session took place on both [Firo's](https://twitter.com/firoorg/status/1732701777655632368) and [Let'sExchange's  X/Twitter page.](https://twitter.com/letsexchange_io/status/1732701505516658830)
+
 
 To learn more about LetsExchange, we have posted a blog about regarding the partnership between LetsExchange here.
 
