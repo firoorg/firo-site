@@ -13,14 +13,14 @@ To learn more about LetsExchange, we have posted a blog about regarding the part
 
 Below, you will find a recap of the AMA questions answered by the Let'sExchange team.
 
-**1) Can you explain how http://LetsExchange.io can enhance #Firo's accessibility to a wider user base?** 
+**1) Can you explain how [LetsExchange.io](https://LetsExchange.io) can enhance #Firo's accessibility to a wider user base?** 
 
 With LetsExchange, users can exchange FIRO for any of the 3,900 coins and tokens supported by our platform. For example, users who have received rare coins in airdrops, or as a result of their affiliate activities, or bought them, can swap them to FIRO with no issues. Users who believe that the future of cryptocurrency is in privacy-focused coins can exchange their crypto holdings to FIRO.
 
 Our business tools help provide access to FIRO to thousands of users worldwide. For example, our API will make the asset available in many crypto wallets.
 Additionally, the project can count on our extensive marketing support, such as reviews, AMA sessions (like the one we are having, and in the voice format), and cross-promo activities such as joint quests, among others. We believe all these things can benefit the project and the FIRO community and will serve new users by helping them explore the project’s benefits and perspectives.
 
-**2) What measures does http://LetsExchange.io have in place to ensure #privacy and security for #Firo users during transactions?** 
+**2) What measures does [LetsExchange.io](https://LetsExchange.io) have in place to ensure #privacy and security for #Firo users during transactions?** 
 
 Privacy and user security are our main priorities. The platform allows users to swap funds without account registration (even though this option is available and offers more benefits, including access to the affiliate program). Thus, all your swaps are absolutely private.
 
@@ -30,11 +30,11 @@ Non-custodial security is another feature that allows us to ensure the security 
 
 LetsExchange was launched in 2021 by a team of experts in blockchain and crypto. In just a year, the platform has become one of the top 5 services that provide instant crypto swaps. Now, LetsExchange is ahead of most competitors in many parameters, including presence in the key markets, number of supported assets, etc.
 
-**4) What makes http://LetsExchange.io different from the other similar services out in the market?** 
+**4) What makes [LetsExchange.io](https://LetsExchange.io) different from the other similar services out in the market?** 
 
 Our main advantage is the number of supported coins and tokens (over 3,800) and an extensive range of tools for our partners. A widget with Swap and DEX modes and an off-ramp and on-ramp functionality, affiliate links, and a customized Telegram bot are just some of the solutions that we offer. We are constantly implementing new features and functionalities to ensure that our users and partners can benefit from the latest trends in the market.
 
-**5) Will http://LetsExchange.io support Lelantus Spark transaction if one were to buy/sell FIRO?** 
+**5) Will [LetsExchange.io](https://LetsExchange.io) support Lelantus Spark transaction if one were to buy/sell FIRO?** 
 
 LetsExchange is one of the leading exchanges in supported coins, and we are working constantly to improve our services. We believe that anonymity and privacy are two of the core elements of the crypto world. This is why account registration is not mandatory, and even if our users decide to open an account, they can do it only with a valid email address.
 
@@ -50,7 +50,7 @@ We believe that legislative regulation will ultimately stimulate the industry's 
 
 Simultaneously, we are confident that privacy is one of the key elements of the crypto ecosystem. Without it, cryptocurrency would lose its meaning. That's why, while complying with regulatory requirements, especially regarding AML policies and blocking transactions from sanctioned countries, we maintain support for anonymous cryptocurrencies and the option to exchange funds without registration.
 
-**7) Where is http://LetsExchange.io based?**
+**7) Where is [LetsExchange.io](https://LetsExchange.io) based?**
 
 LetsExchange is registered in Seychelles. But being real crypto enthusiasts, our team is spread worldwide. Our team members work from the USA, the UK, Ukraine, Mexico, and other countries.
 
@@ -58,7 +58,7 @@ LetsExchange is registered in Seychelles. But being real crypto enthusiasts, our
 
 We offer a lot of joint marketing activities, with AMA sessions being just one of the possible options. Other popular marketing activities among our partners are reviews, quests, and interviews, among others. Also, we are open to any suggestions that will help our partnership with FIRO grow and mutually benefit both communities.
 
-**9) How does http://LetsExchange.io align with Firo's values and vision, particularly in terms of financial privacy and decentralization?** 
+**9) How does [LetsExchange.io](https://LetsExchange.io) align with Firo's values and vision, particularly in terms of financial privacy and decentralization?** 
 
 LetsExchange is a privacy-focused platform. It doesn’t ask for mandatory account registration. Users who opt to register an account with us need to provide only a valid email address, and that’s it. We don’t ask for personal or financial information other than the information needed for a swap. Soon, we will support z-addresses for swaps. In the future, the implementation of Lelantus Spark technology or another technology that enables private transactions is possible.
 
@@ -74,7 +74,7 @@ We have mentioned that 3 questions from the audience will have a chance to win s
 
 Q: *Security and anonymity are always prioritized by BlockChain projects in the development of project platforms and technologies. So, does @firoorg have any technological solutions or plans to enhance user trust in these issues?* 
 
-A: On top of Lelantus Spark, which we just released (activating in January 2024), you can read about it [Here]({{ site.baseurl }}/2023/11/27/lelantus-spark-binaries-release.html), The integration of technologies such as Dandelion++ and LLMQ ChainLocks enhances the overall security of both Firo's blockchain and network. Dandelion++ helps obscure the originating IP of transactions, and LLMQ ChainLocks provide additional security against potential attacks. These measures collectively reflect Firo's commitment to maintaining high standards of security and anonymity.
+A: On top of Lelantus Spark, which we just released (activating in January 2024), you can read about it [Here]({{ site.baseurl_root }}/2023/11/27/lelantus-spark-binaries-release.html), The integration of technologies such as Dandelion++ and LLMQ ChainLocks enhances the overall security of both Firo's blockchain and network. Dandelion++ helps obscure the originating IP of transactions, and LLMQ ChainLocks provide additional security against potential attacks. These measures collectively reflect Firo's commitment to maintaining high standards of security and anonymity.
 
 
 2) [@W120VOLT](https://twitter.com/W120VOLT/status/1732703818272665927)  
