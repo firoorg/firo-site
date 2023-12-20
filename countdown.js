@@ -38,13 +38,13 @@ function calculateTimeDifference() {
     const minutesLabel = minutes === 1 ? "minute" : "minutes";
     const secondsLabel = seconds === 1 ? "second" : "seconds";
 
-    document.getElementById("days").innerHTML = `${days} ${daysLabel}`;
+    document.getElementById("days").innerHTML = `${days}`;
     document.getElementById("daysLabel").innerHTML = `${daysLabel}`;
-    document.getElementById("hours").innerHTML = `${hours} ${hoursLabel}`;
+    document.getElementById("hours").innerHTML = `${hours}`;
     document.getElementById("hoursLabel").innerHTML = `${hoursLabel}`;
-    document.getElementById("minutes").innerHTML = `${minutes} ${minutesLabel}`;
+    document.getElementById("minutes").innerHTML = `${minutes}`;
     document.getElementById("minutesLabel").innerHTML = `${minutesLabel}`;
-    document.getElementById("seconds").innerHTML = `${seconds} ${secondsLabel}`;
+    document.getElementById("seconds").innerHTML = `${seconds}`;
     document.getElementById("secondsLabel").innerHTML = `${secondsLabel}`;
   }
 }
