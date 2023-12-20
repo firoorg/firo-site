@@ -26,7 +26,7 @@ function calculateTimeDifference() {
 
   if (timeDifference <= 0) {
     clearInterval(timerInterval);
-    document.getElementById("countdown").innerHTML = activationMessage;
+    document.getElementById("activationMessage").innerHTML = activationMessage;
   } else {
     const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -39,9 +39,13 @@ function calculateTimeDifference() {
     const secondsLabel = seconds === 1 ? "second" : "seconds";
 
     document.getElementById("days").innerHTML = `${days} ${daysLabel}`;
+    document.getElementById("daysLabel").innerHTML = `${daysLabel}`;
     document.getElementById("hours").innerHTML = `${hours} ${hoursLabel}`;
+    document.getElementById("hoursLabel").innerHTML = `${hoursLabel}`;
     document.getElementById("minutes").innerHTML = `${minutes} ${minutesLabel}`;
+    document.getElementById("minutesLabel").innerHTML = `${minutesLabel}`;
     document.getElementById("seconds").innerHTML = `${seconds} ${secondsLabel}`;
+    document.getElementById("secondsLabel").innerHTML = `${secondsLabel}`;
   }
 }
 
@@ -55,7 +59,16 @@ function queryBlockHeight() {
 
       if (latestBlockHeight >= targetBlockHeight) {
         clearInterval(timerInterval);
-        document.getElementById("countdown").innerHTML = activationMessage;
+        document.getElementById("activationMessage").innerHTML = activationMessage;
+
+        document.getElementById("days").innerHTML = 0;
+        document.getElementById("daysLabel").innerHTML = "days";
+        document.getElementById("hours").innerHTML = 0;
+        document.getElementById("hoursLabel").innerHTML = "hours";
+        document.getElementById("minutes").innerHTML = 0;
+        document.getElementById("minutesLabel").innerHTML = "minutes";
+        document.getElementById("seconds").innerHTML = 0;
+        document.getElementById("secondsLabel").innerHTML = "seconds";
       } else {
         // Determine the next query interval based on block height difference.
         let nextQueryInterval = queryIntervals.highDiff;
