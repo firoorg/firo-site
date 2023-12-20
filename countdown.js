@@ -32,8 +32,16 @@ function calculateTimeDifference() {
     const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-    
-    document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+    const daysLabel = days === 1 ? "day" : "days";
+    const hoursLabel = hours === 1 ? "hour" : "hours";
+    const minutesLabel = minutes === 1 ? "minute" : "minutes";
+    const secondsLabel = seconds === 1 ? "second" : "seconds";
+
+    document.getElementById("days").innerHTML = `${days} ${daysLabel}`;
+    document.getElementById("hours").innerHTML = `${hours} ${hoursLabel}`;
+    document.getElementById("minutes").innerHTML = `${minutes} ${minutesLabel}`;
+    document.getElementById("seconds").innerHTML = `${seconds} ${secondsLabel}`;
   }
 }
 
