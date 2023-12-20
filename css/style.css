@@ -3593,3 +3593,205 @@ footer .social-icons {
 }
     
 }
+
+/*spark banner*/
+
+label[for="mobile-burger"] {
+    top: 4.5rem;
+    right: 0.5rem;
+}
+
+header .spark-banner {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+header .spark-banner a {
+    display: block;
+    padding: 0.75rem;
+    background-color: #9b1c2e;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+
+header .spark-banner a:hover, header .spark-banner a:focus, header .spark-banner a:active {
+    background-color: #7c1624;
+    box-shadow: 0px 2px 8px 0px rgba(158,158,158,0.75);
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(158,158,158,0.75);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(158,158,158,0.75);
+}
+
+/*countdown page*/
+
+#countdownpage {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    background-image: url(../img/countdown-to-spark/stage1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#countdownpage main {
+    width: 100%;
+    height: 100%;
+}
+
+#countdownpage section {
+    height: 100%;
+}
+
+#countdownpage .row {
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#countdownpage h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    line-height: 1.3;
+}
+
+#countdownpage .row.count-items {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#countdownpage .row.count-items .col {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#countdownpage .row.count-items .col .count-item {
+    color: #fff;
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    background-color: #560f19;
+    border-radius: 20px;
+}
+
+#countdownpage .row.count-items .col .count-item-desc {
+    color: #ffffff;
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#countdownpage .count-float-button a.btn-secondary {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: auto;
+    font-size: 1.2rem;
+    text-transform: none;
+    padding: 0.5rem 2rem;
+    border: none;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 62rem) {
+
+#countdownpage h1 {
+    font-size: 2.5rem;
+}
+
+#countdownpage .row.count-items {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+#countdownpage .row.count-items .col {
+    margin: 0;
+    padding: 0;
+    -ms-flex-preferred-size: 23%;
+    flex-basis: 23%;
+    max-width: 23%;
+}
+
+#countdownpage .row.count-items .col .count-item-desc {
+    font-size: 2.5rem;
+}
+
+}
+
+@media only screen and (max-width: 48rem) {
+
+#countdownpage {
+    width: 100%;
+    height: 100%;
+}
+
+#countdownpage h1 {
+    margin-top: 5rem;
+}
+
+#countdownpage .count-float-button {
+    text-align: center;
+}
+
+#countdownpage .count-float-button a.btn-secondary {
+    position: initial;
+    display: inline-block;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+@media only screen and (max-width: 40rem) {
+
+#countdownpage .row.count-items .col .count-item {
+    font-size: 6rem;
+}
+
+#countdownpage .row.count-items .col .count-item-desc {
+    font-size: 1.8rem;
+}
+
+}
+
+@media only screen and (max-width: 30rem) {
+
+#countdownpage .row.count-items {
+    -webkit-box-pack: distribute;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+#countdownpage .row.count-items .col {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    max-width: 45%;
+    margin-top: 2rem;
+}
+
+}

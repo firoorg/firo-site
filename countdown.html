@@ -1,0 +1,50 @@
+---
+title: Countdown to Spark!
+permalink: /countdown.html
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="countdownpage">
+    <main>
+        
+      <section class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Igniting a new era of privacy</h1>
+                <div class="row count-items">
+                  <div class="col">
+                      <p class="count-item" id="days">13</p>
+                      <p class="count-item-desc" id="daysLabel">days</p>
+                  </div>
+                  <div class="col">
+                    <p class="count-item" id="hours">14</p>
+                    <p class="count-item-desc" id="hoursLabel">hours</p>
+                  </div>
+                  <div class="col">
+                    <p class="count-item" id="minutes">15</p>
+                    <p class="count-item-desc" id="minutesLabel">minutes</p>
+                  </div>
+                  <div class="col">
+                    <p class="count-item" id="seconds">16</p>
+                    <p class="count-item-desc" id="secondsLabel">seconds</p>
+                  </div>
+                </div>
+                <!-- Uncomment this to show activation message after countdown. 
+                <p id="activationMessage" class="count-item-desc"></p>
+                -->
+            </div>
+        </div>
+      </section>
+
+      <div class="count-float-button">
+         <a class="btn-secondary" href="{{ site.baseurl }}/index.html">Learn more on Firo.org</a>
+      </div>
+
+    </main>
+    <script src="./countdown.js"></script> 
+  </body>
+</html>
