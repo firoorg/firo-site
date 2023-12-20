@@ -16,7 +16,7 @@ RAP addresses solve this by serving as a special type of address you can safely 
 
 RAP addresses are an adaptation of [BIP47 Reusable Payment Codes](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki) by Justus Ranvier and also popularized by [Samourai wallet for Bitcoin.](https://blog.samouraiwallet.com/post/137698771697/why-were-bringing-reusable-payment-codes-to-the) They work by sending a one-time notification transaction on-chain to the receiver which establishes a payment channel between the sender and receiver. The sender can then automatically derive new addresses without the receiver’s further input. This all happens using the existing blockchain network without requiring any third party servers. Unfortunately, due to the lack of on-chain privacy mechanisms on Bitcoin, this notification transaction can be a privacy leak as it establishes a relationship between one of the sender’s addresses with the receiver.
 
-Firo’s implementation of BIP47 in RAP addresses differs in one significant way: the sender sends the notification transaction in a [private Lelantus transaction](https://firo.org/2021/01/06/lelantus-activating-on-firo.html) so that the source of the notification transaction is unknown which solves this privacy leak.
+Firo’s implementation of BIP47 in RAP addresses differs in one significant way: the sender sends the notification transaction in a [private Lelantus transaction]({{ site.baseurl }}/2021/01/06/lelantus-activating-on-firo.html) so that the source of the notification transaction is unknown which solves this privacy leak.
 
 Firo’s implementation is also the first complete implementation of BIP47 in C++ and on a desktop wallet.
 

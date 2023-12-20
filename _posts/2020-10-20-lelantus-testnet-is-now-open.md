@@ -7,7 +7,7 @@ author: Michael Bernhardt
 img: "/blog/assets/lelantus-testnet-open.jpg"
 alt: "Lelantus testnete is now open"
 ---
-We are happy to open our [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html) testnet to the public!
+We are happy to open our [Lelantus]({{ site.baseurl }}/2019/04/14/lelantus-firo.html) testnet to the public!
 
 We would like to thank Mintpond for all their assistance and for providing the [testnet pool](https://testnet.mintpond.com/#!/firo).
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 1000"
+   version="1.1"
+   id="svg510"
+   sodipodi:docname="reddit.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs514" />
+  <sodipodi:namedview
+     id="namedview512"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.779"
+     inkscape:cx="500"
+     inkscape:cy="499.35815"
+     inkscape:window-width="1920"
+     inkscape:window-height="959"
+     inkscape:window-x="0"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg510" />
+  <path
+     d="M388 602q-21 0-36-15-15-15-15-36 0-21 15-36 15-15 36-15 21 0 36 15 15 15 15 36 0 21-15 36-15 15-36 15z m214 65q-15 15-47 22-27 7-55.5 7-28.5 0-54.5-7-32-7-47-22-4-5-9.5-5-5.5 0-9.5 4.5-4 4.5-4 9.5 0 5 4 9 23 23 67 32 26 6 54 6 28 0 55-6 43-9 66-32 4-4 4-9 0-5-4-9.5-4-4.5-9.5-4.5-5.5 0-9.5 5z m386-167q0 133-67 247-64 110-174 174-114 67-247 67-133 0-247-67-110-64-174-175-67-114-67-246 0-132 67-246 64-111 174-175 114-67 247-67 133 0 247 67 110 64 174 174 67 114 67 247z m-162 0q0-30-21-50.5-21-20.5-50.5-20.5-29.5 0-49.5 20-37-27-86-43-49-16-104-18l32-152 106 22q1 20 16 34.5 15 14.5 35.5 14.5 20.5 0 35.5-15 15-15 15-36 0-21-15-36-15-15-36-15-15 0-27 8-12 8-19 20l-118-25q-5-2-10 1.5-5 3.5-5 8.5l-36 167 0 3q-56 1-106 17-50 16-88 44-20-20-49-20-29 0-50 20.5-21 20.5-21 50.5 0 22 11.5 39.5 11.5 17.5 30.5 25.5-2 14-2 21 0 54 38.5 99.5 38.5 45.5 104 72.5 65.5 27 142.5 27 77 0 142.5-27 65.5-27 104-72.5 38.5-45.5 38.5-99.5 0-7-2-21 19-8 30.5-25.5 11.5-17.5 12.5-39.5z m-214 0q-21 0-36 15-15 15-15 36 0 21 15 36 15 15 36 15 21 0 36-15 15-15 15-36 0-21-15-36-15-15-36-15z"
+     id="path508"
+     style="fill:#8c939a;fill-opacity:1" />
+</svg>

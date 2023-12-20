@@ -4,7 +4,12 @@
       </div>
       <div class="container">
                <nav class="row" role='navigation'>
-                   <a class="logo col" href="{{ site.baseurl }}/index.html" aria-label="Firo Cryptocurrency"><img src="/img/firo-logo.svg" alt="Firo Cryptocurrency logo"></a>
+                   <a class="logo col" href="{% if site.lang == 'en' %}
+                       {{ site.baseurl_root }}/
+                   {% else %}
+                       {{ site.baseurl_root }}/{{site.lang}}
+                   {% endif %}"
+                   aria-label="Firo Cryptocurrency"><img src="/img/firo-logo.svg" alt="Firo Cryptocurrency logo"></a>
                    <ul class="main-menu col">
                        <li class="nav-item"><a href="#">{% t navigation.getfiro %}</a>
                            <ul class="dropdown" aria-label="submenu">

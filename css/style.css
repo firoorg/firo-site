@@ -121,75 +121,6 @@ sup {
        url('../fonts/source-sans-pro-v13-latin-700.svg#SourceSansPro') format('svg'); /* Legacy iOS */
 }
 
-@font-face {
-  font-family: 'icons';
-  src: url('../fonts/icons.eot?10062167');
-  src: url('../fonts/icons.eot?10062167#iefix') format('embedded-opentype'),
-       url('../fonts/icons.woff2?10062167') format('woff2'),
-       url('../fonts/icons.woff?10062167') format('woff'),
-       url('../fonts/icons.ttf?10062167') format('truetype'),
-       url('../fonts/icons.svg?10062167#icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
- 
- [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "icons";
-  font-style: normal;
-  font-weight: normal;
-  speak: never;
- 
-  display: inline-block;
-  text-decoration: inherit;
-  text-align: center;
-  font-variant: normal;
-  text-transform: none;
-}
-
-.icon-android:before { content: '\e800'; } /* '' */
-.icon-apple:before { content: '\e801'; } /* '' */
-.icon-down:before { content: '\e802'; } /* '' */
-.icon-facebook:before { content: '\e803'; } /* '' */
-.icon-facebook2:before { content: '\e804'; } /* '' */
-.icon-github:before { content: '\e805'; } /* '' */
-.icon-sourceforge:before { content: '\e807'; } /* '' */
-.icon-telegram:before { content: '\e808'; } /* '' */
-.icon-twitter:before { content: '\e809'; } /* '' */
-.icon-web:before { content: '\e80a'; } /* '' */
-.icon-youku:before { content: '\e80b'; } /* '' */
-.icon-youtube:before { content: '\e80c'; } /* '' */
-.icon-reddit:before { content: '\e80e'; } /* '' */
-.icon-desktop:before { content: '\e80f'; } /* '' */
-.icon-language:before { content: '\f1ab'; } /* '' */
-
-@font-face {
-    font-family: 'icon-addon';
-    src: url('../fonts/icon-addon.eot?99781827');
-    src: url('../fonts/icon-addon.eot?99781827#iefix') format('embedded-opentype'),
-         url('../fonts/icon-addon.woff2?99781827') format('woff2'),
-         url('../fonts/icon-addon.woff?99781827') format('woff'),
-         url('../fonts/icon-addon.ttf?99781827') format('truetype'),
-         url('../fonts/icon-addon.svg?99781827#icon-addon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icona-"]:before, [class*=" icona-"]:before {
-    font-family: "icon-addon";
-    font-style: normal;
-    font-weight: normal;
-    speak: never;
-   
-    display: inline-block;
-    text-decoration: inherit;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-  }
-
-.icona-discord:before { content: '\e800'; } /* '' */
-
-
 a, button {
     cursor: pointer;
 }
@@ -888,11 +819,15 @@ a.btn-primary, a.btn-secondary {
 }
     
 #intro .intro-info a.btn-secondary {
-    margin-left: 0;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 #intro .intro-info a.btn-secondary, #intro .intro-info a.btn-primary {
     margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 }
@@ -921,12 +856,8 @@ a.btn-primary, a.btn-secondary {
     padding: 0;
 }
     
-#intro a.btn-secondary {
-    display: none;
-}
-    
 #intro a.btn-primary {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1538,10 +1469,14 @@ a.btn-primary, a.btn-secondary {
 }
 
 .tech-section .mob-wallets > .col img {
-    height: 6rem;
+    height: 1.8rem;
     width: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tech-section .mob-wallets .col img.ext-wallets {
+    height: 6rem;
     margin-top: 2rem;
 }
 
@@ -1596,7 +1531,7 @@ a.btn-primary, a.btn-secondary {
     background-color: rgba(201,211,220,.7);
 }
 
-.tech-section .mob-wallets .col li a i {
+.tech-section .mob-wallets .col li a {
     font-size: 1.8rem;
     vertical-align: middle;
     color: #8c939a;
@@ -1607,7 +1542,7 @@ a.btn-primary, a.btn-secondary {
     line-height: 1;
 }
 
-.tech-section .mob-wallets .col li a:hover i {
+.tech-section .mob-wallets .col li a:hover {
     color: #9b1c2e;
 }
 
@@ -1812,6 +1747,15 @@ a.btn-primary, a.btn-secondary {
 
 #fiat .disclaimer span {
     font-weight: bold;
+}
+
+.exch-logos img {
+    max-height: 100px;
+}
+
+.exch-logos img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 62rem) {
@@ -2774,18 +2718,18 @@ a.btn-primary, a.btn-secondary {
 /*blog*/
 
 .blog-section .container {
-    width: 43rem;
+    width: 71rem;
 }
 
 .blog-section .col.post-section {
     background-color: #ffffff;
-    margin-top: 2rem;
+    margin: 2rem 1rem 0 1rem;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(84,104,119,0.3);
     -moz-box-shadow: 0px 1px 4px 0px rgba(84,104,119,0.3);
     box-shadow: 0px 1px 4px 0px rgba(84,104,119,0.3);
     border-radius: 10px;
     padding: 2rem;
-    
+    min-width: 40%;
 }
 
 .blog-section .col.post-section .post-meta {
@@ -2969,12 +2913,23 @@ a.btn-primary, a.btn-secondary {
     text-align: center;
 }
 
+@media only screen and (max-width: 61rem) {
+
+.blog-section .container {
+    width: 45rem;
+}
+}
+
 @media only screen and (max-width: 48rem) {
     
     
 .blog-section .container {
     width: 100%;
-}  
+}
+
+.blog-section .row {
+    flex-direction: column;
+}
     
 .blog-section .col.post-section {
     box-shadow: none;
@@ -2982,7 +2937,7 @@ a.btn-primary, a.btn-secondary {
     padding-bottom: 0;
     margin-top: 6rem;
 }
-    
+
 .blog-section .row:first-child .col.post-section {
     margin-top: 0;
 }
@@ -3007,7 +2962,7 @@ a.btn-primary, a.btn-secondary {
 .blog-section .col.post-section a.post-link h2, .blog-section .post-page h1 {
     font-size: 2rem;
 }
-    
+
 }
 
 /*guide*/
@@ -3203,7 +3158,8 @@ a.btn-primary, a.btn-secondary {
 }
 
 .accordion-content.col img {
-    height: auto;
+    max-height: 5rem;
+    object-fit: scale-down;
 }
 
 #btn1-content, #btn2-content, #btn3-content, #btn4-content, #btn5-content, #btn6-content, #btn7-content, #btn8-content, #btn9-content, #btn10-content, #btn11-content, #btn12-content, #btn13-content, #btn14-content {
@@ -3448,30 +3404,21 @@ footer .col:nth-of-type(3) .social h4 {
     margin-top: 2rem;
 }
 
-footer .social li {
-    display: inline-block;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
+footer .social img {
+    width: 2.5rem;
 }
 
-footer .social li i {
-    display: block;
-    font-size: 2.5rem;
-    color: #8c939a;
-    -webkit-transition: all ease-out .2s;
-    -moz-transition: all ease-out .2s;
-    -o-transition: all ease-out .2s;
-    transition: all ease-out .2s;
-    line-height: 1;
-    margin-right: 1rem;
+footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
 
-footer .social li:hover i {
-    color: #9b1c2e;
-}
-
-footer .social svg {
-
+footer .social-icons img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 footer .row.bottom {
@@ -3507,27 +3454,25 @@ footer .bottom .col {
   background-color: #d3dbe3;
   border-radius: 40px;
 }
-.language-change label:before, .language-change label:after {
-  content: "";
-  position: absolute;
+
+.language-change img {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 2rem;
 }
 
-.language-change label:before {
-    content: '\f1ab';
-    font-family: "icons";
-    font-size: 1.5rem;
-    left: 1.9rem;
-    top: 0.2rem;
+.language-change img:first-of-type {
+    margin-right: 0.6rem;
 }
 
-.language-change label:after {
-  color: #7e848a;
-  font-family: "icons";
-  font-size: inherit;
-  content: "\e802";
-  pointer-events: none;
-  right: 1.9rem;
-  top: 0.5rem;
+.language-change img:last-of-type {
+    margin-left: 0.6rem;
+}
+
+.language-change img#arrow {
+    width: 1rem;
+    bottom: 0.1rem;
 }
 
 .language-change .dropdown-content {
@@ -3560,7 +3505,7 @@ footer .bottom .col {
     display: block;
 }
 
-.language-change input:checked + label:after {
+.language-change input:checked + label #arrow {
     transform: rotate(180deg);
 }
 
@@ -3609,9 +3554,8 @@ footer .bottom .col {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%;
-    text-align: left;
 }   
-    
+
 }
 
 @media only screen and (max-width: 38rem) {
@@ -3640,9 +3584,12 @@ footer form button {
     margin: 1rem 0 0 0;
 }
     
-footer .social li i {
-    margin-right: 0;
-    font-size: 2.2rem;
+}
+
+@media only screen and (min-width: 48rem) {
+
+footer .social-icons {
+    width: 80%;
 }
     
 }

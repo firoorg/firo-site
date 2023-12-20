@@ -12,17 +12,17 @@ Now is also a good time to have a quick recap of the many exciting things we ach
 
 ## Tech
 
-* [Lelantus launched and activated](https://firo.org/2021/01/15/lelantus-activated-mainnet.html)
-* [Chainlocks activated](https://firo.org/2021/01/28/chainlocks-activated-mainnet.html)
-* [Binance Smart Chain integration](https://firo.org/2021/04/01/firo-bsc-integration.html)
-* [RAP addresses launched](https://firo.org/2021/06/09/introducing-receiver-address-privacy-for-firo.html)
-* [Lelantus Spark, our next gen privacy protocol revealed](https://firo.org/2021/08/24/presenting-lelantus-spark.html)
-* [FiroPoW launched](https://firo.org/2021/10/01/firopow-and-instantsend-release.html)
-* [Instant Send activated](https://firo.org/2021/10/01/firopow-and-instantsend-release.html)
-* [Firo Mobile Wallet with Lelantus by default](https://firo.org/2021/12/16/firo-mobile-wallet-release-with-lelantus.html)
-* [MTP Data Stripping](https://firo.org/2021/12/19/mtp-stripping-live-on-firo.html)
-* [New wallet GUIs for Electron and QT](https://firo.org/2021/08/27/firo-client-release-210.html)
-* [Elysium Privacy Infrastructure Layer Testnet](https://firo.org/2021/12/22/elysium-testnet-and-gui.html)
+* [Lelantus launched and activated]({{ site.baseurl }}/2021/01/15/lelantus-activated-mainnet.html)
+* [Chainlocks activated]({{ site.baseurl }}/2021/01/28/chainlocks-activated-mainnet.html)
+* [Binance Smart Chain integration]({{ site.baseurl }}/2021/04/01/firo-bsc-integration.html)
+* [RAP addresses launched]({{ site.baseurl }}/2021/06/09/introducing-receiver-address-privacy-for-firo.html)
+* [Lelantus Spark, our next gen privacy protocol revealed]({{ site.baseurl }}/2021/08/24/presenting-lelantus-spark.html)
+* [FiroPoW launched]({{ site.baseurl }}/2021/10/01/firopow-and-instantsend-release.html)
+* [Instant Send activated]({{ site.baseurl }}/2021/10/01/firopow-and-instantsend-release.html)
+* [Firo Mobile Wallet with Lelantus by default]({{ site.baseurl }}/2021/12/16/firo-mobile-wallet-release-with-lelantus.html)
+* [MTP Data Stripping]({{ site.baseurl }}/2021/12/19/mtp-stripping-live-on-firo.html)
+* [New wallet GUIs for Electron and QT]({{ site.baseurl }}/2021/08/27/firo-client-release-210.html)
+* [Elysium Privacy Infrastructure Layer Testnet]({{ site.baseurl }}/2021/12/22/elysium-testnet-and-gui.html)
 * [FiroDex Beta launch](https://github.com/firoorg/FiroDEX-Desktop)
 
 ## Community and Partnerships

@@ -7,7 +7,7 @@ img: "/blog/assets/Lelantus-activated-mainnet.jpg"
 alt: ""
 ---
 
-We are proud to announce that Firo's [Lelantus](https://firo.org/2019/04/14/lelantus-firo.html) privacy protocol has successfully activated on Firo’s Mainnet.
+We are proud to announce that Firo's [Lelantus]({{ site.baseurl }}/2019/04/14/lelantus-firo.html) privacy protocol has successfully activated on Firo’s Mainnet.
 
 Lelantus introduces a burn-and-redeem model that allows users to burn (or destroy) coins of arbitrary amounts — even partial ones — and redeem brand new coins that do not appear to have previous transaction histories associated with them. This technique provides unparalleled levels of practical privacy and greatly differs from decoy methods currently out there.
 
@@ -19,4 +19,4 @@ We will be hosting some events with prizes shortly to encourage Lelantus use, so
 
 The chart below shows how Lelantus stacks against its competition. 
 
-![](https://firo.org/guide/assets/privacy-technology-comparison/comparison-table-firo-updated.png)
+![]({{ site.baseurl }}/guide/assets/privacy-technology-comparison/comparison-table-firo-updated.png)

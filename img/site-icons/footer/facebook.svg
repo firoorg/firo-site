@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 1000"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="facebook.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.779"
+     inkscape:cx="500"
+     inkscape:cy="499.35815"
+     inkscape:window-width="1920"
+     inkscape:window-height="959"
+     inkscape:window-x="0"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M988 503q0-133-67-247-64-110-174-174-114-67-247-67-133 0-247 67-110 64-174 174-67 114-67 247 0 120 55 225 53 103 147 171 94 68 210 86l0-341-124 0 0-141 124 0 0-108q0-90 49.5-140 49.5-50 134.5-50 34 0 75 5l34 5 0 120-61 0q-42 0-63 24-17 19-17 52l0 92 136 0-22 141-114 0 0 341q116-18 210-86 94-68 147-171 55-105 55-225z"
+     id="path2"
+     style="fill:#8c939a;fill-opacity:1" />
+</svg>

@@ -47,11 +47,11 @@ footer:
   explorer: Explorer
   website: website
   privacy: Privacy Policy
-  tos: Terms Of Service
   newsletter: news
-  ifsub: Check out our Telegram channel to stay up to date on Firo news.
+  ifsub: Check out our <a href="/blog/">Blog</a> and Telegram channel to stay up to date on Firo news.
   newsbutton: Read news
   comm: communication
+  feed: Feed RSS
   
 home:
   heading: Privacy is consent
@@ -118,6 +118,7 @@ download:
   campfiremob: Campfire Wallet
   downloadmobcamp: Download for Android
   downloadioscamp: Download for iOS
+  stackwalletmob: Stack Wallet
   wallets: third-party wallets
 
 buyfiro:
@@ -296,4 +297,8 @@ merchants:
   button12: Software
   button13: Travel
   button14: VPN
+  nothing: Nothing to see here. Do you know a merchant listing Firo? Let us know!
   
+social:
+  community: Community
+  findus: You can also find us here
