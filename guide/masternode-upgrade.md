@@ -19,6 +19,7 @@ Please note that if you did not update in time to a mandatory release or before 
 
 This will download the archive to your masternode.
 
+{:start="4"}
 4.  Stop the old daemon  
 
 `cd ~/firo-{{ site.data.downloads.firo_old_commit }}/bin` 
@@ -29,9 +30,11 @@ and remove the old version
 `rm -rv firo-{{ site.data.downloads.firo_old_commit }}` 
 (see above) 
 
+{:start="5"}
 5.  Unpack the downloaded archive by typing 
 `tar xvzf firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz` 
 
+{:start="6"}
 6.  Now you can start your masternode again 
 `cd ~/firo-{{ site.data.downloads.firo_new_commit }}/bin` 
 (new version)
