@@ -7,7 +7,7 @@ author: "Reuben Yap"
 img: ""
 alt: ""
 ---
-[MTP (Merkle Tree Proof)](https://firo.org/2016/12/27/what-is-mtp-merkle-tree-proof.html) is a new proof of work algorithm that was presented at the USENIX Security Symposium 2016 and has attracted substantial attention from the cryptocurrency and academic community. To further encourage research and scrutiny into MTP, we are sponsoring two bounties. These are separate bounty challenges from the [MTP miner development competition](https://zcoin.io/mtp-open-source-miner-bounty-challenge/). 
+[MTP (Merkle Tree Proof)]({{ site.baseurl }}/2016/12/27/what-is-mtp-merkle-tree-proof.html) is a new proof of work algorithm that was presented at the USENIX Security Symposium 2016 and has attracted substantial attention from the cryptocurrency and academic community. To further encourage research and scrutiny into MTP, we are sponsoring two bounties. These are separate bounty challenges from the [MTP miner development competition](https://zcoin.io/mtp-open-source-miner-bounty-challenge/). 
 
 [![](/blog/assets/mtp-audit-and-implementation-bounty/Zcoin-iconpack.png)](https://zcoin.io/what-is-mtp-merkle-tree-proof-and-why-it-is-important-to-zcoin/)
 

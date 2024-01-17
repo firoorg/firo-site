@@ -26,7 +26,7 @@ permalink: /get-firo/download/index.html
                         <p>{% t download.verify %} <a href="https://github.com/firoorg/firo/blob/master/reuben.asc" target="_blank">{% t download.verify1 %}</a></p>
                     </div>
                     <div class="col">
-                        <p>{% t download.guide %} <a href="" target="_blank">{% t download.guide1 %}</a></p>
+                        <p>{% t download.guide %} <a href="{{ site.baseurl }}/guide/" target="_blank">{% t download.guide1 %}</a></p>
                     </div>
               </div>
               <div class="row desk-wallets">
@@ -34,35 +34,35 @@ permalink: /get-firo/download/index.html
                         <p class="tagline">{% t download.option1 %}</p>
                         <div class="inner">
                             <h3>{% t download.qt %}</h3>
-                            <p class="wversion">v0.14.11.1</p>
+                            <p class="wversion">v{{ site.data.downloads.firo_qt_version }}</p>
                             <p class="changelog"><a href="https://github.com/firoorg/firo/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system win">
-                                <a href="https://github.com/firoorg/firo/releases/download/v0.14.11.1/firo-0.14.11.1-win64-setup.exe">{% t download.downloadqtw %}</a>
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-win64-setup.exe">{% t download.downloadqtw %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="wh1">
                                     <label class="tab-label" for="wh1">{% t download.hasheswindows %}</label>
                                     <div class="tab-content">
-                                      <p>edc6916f85c3afa743a5c007fdfcdfed29171e8aa3633db3f25a0d647888efaa</p>
+                                      <p>{{ site.data.downloads.qt_hashes_win }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="system mac">
-                                <a href="https://github.com/firoorg/firo/releases/download/v0.14.11.1/firo-0.14.11.1-macos.dmg">{% t download.downloadqtm %}</a>
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-macos.dmg">{% t download.downloadqtm %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="mh1">
                                     <label class="tab-label" for="mh1">{% t download.hashesmac %}</label>
                                     <div class="tab-content">
-                                      <p>f04b2d125acab9cbdf5cc6c364b960ee86289b779dd1cf1b23c87bfe5ea6a601</p>
+                                      <p>{{ site.data.downloads.qt_hashes_mac }}</p>
                                     </div>
                               </div>
                             </div>
                             <div class="system linux">
-                                <a href="https://github.com/firoorg/firo/releases/download/v0.14.11.1/firo-0.14.11.1-linux64.tar.gz">{% t download.downloadqtl %}</a>
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz">{% t download.downloadqtl %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="lh1">
                                     <label class="tab-label" for="lh1">{% t download.hasheslinux %}</label>
                                     <div class="tab-content">
-                                      <p>8669ae8ce3356deee2512a4da133eab347c704cf47c865caf9ea10b46ba8b477</p>
+                                      <p>{{ site.data.downloads.qt_hashes_lin }}</p>
                                     </div>
                               </div>
                             </div>
@@ -77,35 +77,35 @@ permalink: /get-firo/download/index.html
                         <p class="tagline">{% t download.option2 %}</p>
                         <div class="inner">
                             <h3>{% t download.electron %}</h3>
-                            <p class="wversion">2.2.2</p>
+                            <p class="wversion">{{ site.data.downloads.firo_electron_version }}</p>
                             <p class="changelog"><a href="https://github.com/firoorg/firo-client/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system win">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v2.2.2/Firo-ClientSetup-2.2.2.exe">{% t download.downloadelectronw %}</a>
+                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.exe">{% t download.downloadelectronw %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="wh3">
                                     <label class="tab-label" for="wh3">{% t download.hasheswindows %}</label>
                                     <div class="tab-content">
-                                      <p>2c9fdb1ba55c2cd4cf935d0063173cb3d8f4c5af5d5721f331e8995e093e612e</p>
+                                      <p>{{ site.data.downloads.electron_hashes_win }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="system mac">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v2.2.2/Firo-Client-2.2.2.dmg">{% t download.downloadelectronm %}</a>
+                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.dmg">{% t download.downloadelectronm %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="mh2">
                                     <label class="tab-label" for="mh2">{% t download.hashesmac %}</label>
                                     <div class="tab-content">
-                                      <p>3aa8acf6987518dcfee871abed8a0ca7d904717f76ada310dda30e66900bacd4</p>
+                                      <p>{{ site.data.downloads.electron_hashes_mac }}</p>
                                     </div>
                               </div>
                             </div>
                             <div class="system linux">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v2.2.2/Firo-Client-2.2.2.AppImage">{% t download.downloadelectronl %}</a>
+                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.AppImage">{% t download.downloadelectronl %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="lh2">
                                     <label class="tab-label" for="lh2">{% t download.hasheslinux %}</label>
                                     <div class="tab-content">
-                                      <p>020424ff35555a9e57db31d9c1c4af55d985bd08ee649c28a02e7cfaea8bc3da</p>
+                                      <p>{{ site.data.downloads.electron_hashes_lin }}</p>
                                     </div>
                               </div>
                             </div>
@@ -120,37 +120,37 @@ permalink: /get-firo/download/index.html
                         <p class="tagline">{% t download.option3 %}</p>
                         <div class="inner">
                             <h3>{% t download.electrum %}</h3>
-                            <p class="wversion">4.1.5.1</p>
+                            <p class="wversion">{{ site.data.downloads.firo_electrum_version }}</p>
                             <p class="changelog"><a href="https://github.com/firoorg/electrum-firo/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system win">
-                                <a href="https://github.com/firoorg/electrum-firo/releases/download/4.1.5.1/Firo-Electrum-4.1.5.1-setup-win64.exe">{% t download.downloadelectrumw %}</a>
+                                <a href="https://github.com/firoorg/electrum-firo/releases/download/{{ site.data.downloads.firo_electrum_version }}/Firo-Electrum-{{ site.data.downloads.firo_electrum_version }}-setup-win64.exe">{% t download.downloadelectrumw %}</a>
 
                                 <div class="tab">
                                     <input type="checkbox" id="wh5">
                                     <label class="tab-label" for="wh5">{% t download.hasheswindows %}</label>
                                     <div class="tab-content">
-                                      <p>fe64c5bab45cccf5af3e802ee5f98b0887e9c86c27f0869579467ff4c4f5f322</p>
+                                      <p>{{ site.data.downloads.electrum_hashes_win }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="system mac">
-                                <a href="https://github.com/firoorg/electrum-firo/releases/download/4.1.5.1/Firo-Electrum-4.1.5.1-macosx.dmg">{% t download.downloadelectrumm %}</a>
+                                <a href="https://github.com/firoorg/electrum-firo/releases/download/{{ site.data.downloads.firo_electrum_version }}/Firo-Electrum-{{ site.data.downloads.firo_electrum_version }}-macosx.dmg">{% t download.downloadelectrumm %}</a>
 
                                 <div class="tab">
                                     <input type="checkbox" id="mh3">
                                     <label class="tab-label" for="mh3">{% t download.hashesmac %}</label>
                                     <div class="tab-content">
-                                      <p>9f2ea17dc5331167dc2191eb23d96711a919955962d61583c53d6bc54e34edc9</p>
+                                      <p>{{ site.data.downloads.electrum_hashes_mac }}</p>
                                     </div>
                               </div>
                             </div>
                             <div class="system linux">
-                                <a href="https://github.com/firoorg/electrum-firo/releases/download/4.1.5.1/Firo-Electrum-4.1.5.1-x86_64.AppImage">{% t download.downloadelectruml %}</a>
+                                <a href="https://github.com/firoorg/electrum-firo/releases/download/{{ site.data.downloads.firo_electrum_version }}/Firo-Electrum-{{ site.data.downloads.firo_electrum_version }}-x86_64.AppImage">{% t download.downloadelectruml %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="lh3">
                                     <label class="tab-label" for="lh3">{% t download.hasheslinux %}</label>
                                     <div class="tab-content">
-                                      <p>8fe48aeb32f030118acecf1889ffd0eb3de15af892c82dcc35c8f61b866fd97b</p>
+                                      <p>{{ site.data.downloads.electrum_hashes_lin }}</p>
                                     </div>
                               </div>
                             </div>
@@ -176,7 +176,7 @@ permalink: /get-firo/download/index.html
                         <p class="tagline">{% t download.optionmob1 %}</p>
                         <div class="inner">
                             <h3>{% t download.androidmob %}</h3>
-                            <p class="wversion">v0.1.21</p>
+                            <p class="wversion">v0.1.23</p>
                             <p class="changelog"><a href="https://github.com/firoorg/mobile/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system android">
                                 <a href="https://github.com/firoorg/mobile/releases/latest" target="_blank">{% t download.downloadmobandroid %}</a>
@@ -184,7 +184,7 @@ permalink: /get-firo/download/index.html
                                     <input type="checkbox" id="an1">
                                     <label class="tab-label" for="an1">{% t download.hashesandroid %}</label>
                                     <div class="tab-content">
-                                      <p>f4189ec73b1bc6277f90253b3c0206231b63353402a9c75d35ce933727681c4e</p>
+                                      <p>{{ site.data.downloads.firo_mobile }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -196,11 +196,18 @@ permalink: /get-firo/download/index.html
                     </div>
                     
                     <div class="col">
-                        <p class="tagline">{% t download.optionmob2 %}</p>
+                        <p class="tagline">{% t download.optionmob3 %}</p>
                         <div class="inner">
-                            <h3>{% t download.iosmob %}</h3>
-                            <p class="wversion">Coming soon</p>
-                            <!--p class="changelog"><a href="https://github.com/firoorg/mobile/releases/latest" target="_blank">{% t download.changelog %}</a></p-->
+                            <h3>{% t download.stackwalletmob %}</h3>
+                            <div class="system android camp">
+                                <a href="https://play.google.com/store/apps/details?id=com.cypherstack.stackwallet" target="_blank">{% t download.downloadmobcamp %}</a>
+                            </div>
+                            <div class="system mac camp">
+                                <a href="https://apps.apple.com/us/app/stack-wallet-by-cypher-stack/id1634811534" target="_blank">{% t download.downloadioscamp %}</a>
+                            </div>
+                            <div class="source">
+                                <a href="https://github.com/cypherstack/stack_wallet/" target="_blank"><i class="icon-github"></i></a>
+                            </div>
                         </div>
                     </div>
                     
@@ -233,189 +240,151 @@ permalink: /get-firo/download/index.html
                   </div>
               </div>
               <div class="row mob-wallets">
+		      <div class="col">
+                              <img class="ext-wallets" src="/img/mobile-wallets/now-wallet-logo.png" alt="NOW Wallet logo" loading="lazy"/>
+                              <h4>NOW Wallet</h4>
+                              <ul class="row">
+                                 <li class="col">
+                                    <a href="https://play.google.com/store/apps/details?id=com.nowwallet" target="_blank">
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
+                                    </a>
+                                 </li>
+                                  <li class="col">
+                                     <a href="https://apps.apple.com/app/now-wallet-bitcoin-crypto/id1591216386" target="_blank">
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
+                                      </a>
+                                 </li>
+                              </ul>
+                          </div>
                           <div class="col">
-                              <img src="/img/mobile-wallets/zelcore.png" alt="" />
+                              <img class="ext-wallets" src="/img/mobile-wallets/zelcore.png" alt="ZelCore Wallet Logo" loading="lazy"/>
                               <h4>ZelCore Wallet</h4>
                               <ul class="row">
                                  <li class="col">
                                     <a href="https://play.google.com/store/apps/details?id=com.zelcash.zelcore" target="_blank">
-                                         <i class="icon-android"></i>
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
                                     </a>
                                  </li>
                                   <li class="col">
                                      <a href="https://itunes.apple.com/us/app/zelcore/id1436296839?mt=8" target="_blank">
-                                          <i class="icon-apple"></i>
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
                                       </a>
                                  </li>
                                  <li class="col">
                                      <a href="https://zel.network/zelcore" target="_blank">
-                                          <i class="icon-desktop"></i>
+                                        <img src="/img/site-icons/footer/desktop.svg" title="Desktop" alt="desktop logo">
                                       </a>
                                  </li>
                               </ul>
                           </div>
                           <div class="col">
-                              <img src="/img/mobile-wallets/guarda-new.png" alt="" />
+                              <img class="ext-wallets" src="/img/mobile-wallets/guarda-new.png" alt="Guarda Wallet logo" loading="lazy"/>
                               <h4>Guarda Wallet</h4>
                               <ul class="row">
                                  <li class="col">
                                     <a href="https://play.google.com/store/apps/details?id=com.crypto.multiwallet&hl=ru&ah=lGdAjI0WLmNFP29e2FB3-G6hW6I" target="_blank">
-                                         <i class="icon-android"></i>
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
                                     </a>
                                  </li>
                                   <li class="col">
                                      <a href="https://itunes.apple.com/app/apple-store/id1442083982?pt=118900606&ct=frommainpage&mt=8" target="_blank">
-                                          <i class="icon-apple"></i>
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
                                       </a>
                                  </li>
                                  <li class="col">
                                      <a href="https://guarda.com/desktop" target="_blank">
-                                          <i class="icon-desktop"></i>
+                                        <img src="/img/site-icons/footer/desktop.svg" title="Desktop" alt="desktop logo">
                                       </a>
                                  </li>
                                  <li class="col">
                                      <a href="https://guarda.com/web-wallet" target="_blank">
-                                          <i class="icon-web"></i>
+                                        <img src="/img/site-icons/footer/web.svg" title="Web" alt="web logo">
                                       </a>
                                  </li>
                               </ul>
                           </div>
                           <div class="col">
-                              <img src="/img/mobile-wallets/trust.png" alt="" />
+                              <img class="ext-wallets" src="/img/mobile-wallets/trust.png" alt="Trust Wallet logo" loading="lazy"/>
                               <h4>Trust Wallet</h4>
                               <ul class="row">
                                  <li class="col">
                                     <a href="https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&hl=en" target="_blank">
-                                         <i class="icon-android"></i>
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
                                     </a>
                                  </li>
                                   <li class="col">
                                      <a href="https://itunes.apple.com/us/app/trust-ethereum-wallet/id1288339409" target="_blank">
-                                          <i class="icon-apple"></i>
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
                                       </a>
                                  </li>
                               </ul>
                           </div>
                           <div class="col">
-                              <img src="/img/mobile-wallets/coinomi.png" alt="" />
+                              <img class="ext-wallets" src="/img/mobile-wallets/coinomi.png" alt="Coinomi Wallet logo" loading="lazy"/>
                               <h4>Coinomi Wallet</h4>
                               <ul class="row">
                                  <li class="col">
                                     <a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet" target="_blank">
-                                         <i class="icon-android"></i>
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
                                     </a>
                                  </li>
                                   <li class="col">
                                      <a href="https://itunes.apple.com/us/app/coinomi-wallet/id1333588809" target="_blank">
-                                          <i class="icon-apple"></i>
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
                                       </a>
                                  </li>
                                  <li class="col">
                                      <a href="https://www.coinomi.com/en/downloads/" target="_blank">
-                                          <i class="icon-desktop"></i>
+                                        <img src="/img/site-icons/footer/desktop.svg" title="Desktop" alt="desktop logo">
                                       </a>
                                  </li>
                               </ul>
                           </div>
                           <div class="col">
-                              <img src="/img/mobile-wallets/edge.png" alt="" />
+                              <img class="ext-wallets" src="/img/mobile-wallets/edge.png" alt="Wdge Wallet logo" loading="lazy"/>
                               <h4>Edge Wallet</h4>
                               <ul class="row">
                                  <li class="col">
                                     <a href="https://play.google.com/store/apps/details?id=co.edgesecure.app" target="_blank">
-                                         <i class="icon-android"></i>
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
                                     </a>
                                  </li>
                                   <li class="col">
                                      <a href="https://itunes.apple.com/us/app/edge-bitcoin-wallet/id1344400091?mt=8" target="_blank">
-                                          <i class="icon-apple"></i>
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
                                       </a>
                                  </li>
                               </ul>
                           </div>
                           <div class="col">
-                              <img src="/img/mobile-wallets/midas.png" alt="" />
-                              <h4>Midas Protocol Wallet</h4>
-                              <ul class="row">
-                                 <li class="col">
-                                    <a href="https://play.google.com/store/apps/details?id=com.midasprotocol.wallet.android" target="_blank">
-                                         <i class="icon-android"></i>
-                                    </a>
-                                 </li>
-                                  <li class="col">
-                                     <a href="https://itunes.apple.com/us/app/midas-protocol-crypto-wallet/id1436698193?ls=1&mt=8" target="_blank">
-                                          <i class="icon-apple"></i>
-                                      </a>
-                                 </li>
-                              </ul>
-                          </div>
-                          <div class="col">
-                              <img src="/img/mobile-wallets/cobo.png" alt="" />
+                              <img class="ext-wallets" src="/img/mobile-wallets/cobo.png" alt="Cobo Wallet logo" loading="lazy"/>
                               <h4>Cobo Wallet</h4>
                               <ul class="row">
                                  <li class="col">
                                     <a href="https://play.google.com/store/apps/details?id=cobo.wallet" target="_blank">
-                                         <i class="icon-android"></i>
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
                                     </a>
                                  </li>
                                   <li class="col">
                                      <a href="https://apps.apple.com/us/app/cobo-crypto-portfolio-wallet/id1406282615" target="_blank">
-                                          <i class="icon-apple"></i>
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
                                       </a>
                                  </li>
                               </ul>
                           </div>
                           <div class="col">
-                              <img src="/img/mobile-wallets/paytomat.png" alt="" />
-                              <h4>Paytomat Wallet</h4>
-                              <ul class="row">
-                                 <li class="col">
-                                    <a href="https://play.google.com/store/apps/details?id=com.paytomat" target="_blank">
-                                         <i class="icon-android"></i>
-                                    </a>
-                                 </li>
-                                  <li class="col">
-                                     <a href="https://itunes.apple.com/us/app/paytomat-wallet/id1415300709?l=ru&ls=1&mt=8" target="_blank">
-                                          <i class="icon-apple"></i>
-                                      </a>
-                                 </li>
-                              </ul>
-                          </div>
-                          <div class="col">
-                              <img src="/img/mobile-wallets/ownbit.png" alt="" />
+                              <img class="ext-wallets" src="/img/mobile-wallets/ownbit.png" alt="Ownbit Wallet logo" loading="lazy"/>
                               <h4>Ownbit Wallet</h4>
                               <ul class="row">
                                  <li class="col">
                                     <a href="https://play.google.com/store/apps/details?id=com.bitbill.www&hl=en" target="_blank">
-                                         <i class="icon-android"></i>
+                                        <img src="/img/site-icons/footer/android.svg" title="Android" alt="android logo">
                                     </a>
                                  </li>
                                   <li class="col">
                                      <a href="https://itunes.apple.com/us/app/bitbill-blockchain-wallet/id1321798216?mt=8" target="_blank">
-                                          <i class="icon-apple"></i>
+                                        <img src="/img/site-icons/footer/apple.svg" title="Apple" alt="apple logo">
                                       </a>
-                                 </li>
-                              </ul>
-                          </div>
-                          <div class="col">
-                              <img src="/img/mobile-wallets/magnum.png" alt="" />
-                              <h4>Magnum Wallet</h4>
-                              <ul class="row">
-                                 <li class="col">
-                                    <a href="https://app.magnumwallet.co/?coin=xzc" target="_blank">
-                                         <i class="icon-web"></i>
-                                    </a>
-                                 </li>
-                              </ul>
-                          </div>
-						  <div class="col">
-							  <img src="/img/mobile-wallets/dove-wallet-icon.svg" alt="" />
-                              <h4>Dove Wallet</h4>
-                              <ul class="row">
-                                 <li class="col">
-                                    <a href="https://dovewallet.com/en/wallet" target="_blank">
-                                         <i class="icon-web"></i>
-                                    </a>
                                  </li>
                               </ul>
                           </div>

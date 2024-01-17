@@ -39,7 +39,7 @@ As mentioned in our [initial announcement,](https://www.firo.org/2020/10/27/zcoi
 
 The only change you will see is an adjustment from a Zcoin balance to an identical Firo balance.
 
-For those holding a wallet, we recommend updating to the [latest version](https://firo.org/get-firo/download/) before Lelantus is fully activated in January 2021. Until then, you can still continue to send and receive Zcoin/Firo with an outdated wallet. (Although it isn't recommended!)
+For those holding a wallet, we recommend updating to the [latest version]({{ site.baseurl }}/get-firo/download/) before Lelantus is fully activated in January 2021. Until then, you can still continue to send and receive Zcoin/Firo with an outdated wallet. (Although it isn't recommended!)
 
 If you are holding Zcoin in an exchange, keep paying attention to their announcements. We are working directly with key exchanges to ensure the transition is seamless.
 
@@ -68,7 +68,7 @@ This explanation from Diego Salazar, the designer behind our new logo and name, 
 [![Behind the Rebrand - Zcoin to FIRO
 ](https://img.youtube.com/vi/W433zQ61YEM/maxresdefault.jpg)](https://youtu.be/W433zQ61YEM)
 
-Don't forget to visit our [branding page](https://firo.org/branding/) for the latest resources and [Firo logos](https://firo.org/branding/firo-logo-files.zip), and follow our social pages below:
+Don't forget to visit our [branding page]({{ site.baseurl }}/branding/) for the latest resources and [Firo logos]({{ site.baseurl }}/branding/firo-logo-files.zip), and follow our social pages below:
  
 [Github](https://github.com/firoorg/firo)
  

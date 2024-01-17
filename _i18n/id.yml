@@ -10,61 +10,61 @@ titles:
   home: Beranda
   download: Unduh
   buyfiro: Beli Firo
-  tech: Teknologi
+  tech: Riset
   team: Tim
-  roadmap: Roadmap
+  roadmap: Peta Jalan
   faq: FAQ
   community: Komunitas
   guides: Panduan
   blog: Blog
-  branding: Branding
-  merchants: Toko
+  branding: Merek
+  merchants: Para Pedagang
   
 navigation:
   getfiro: Dapatkan Firo
   about: Tentang
   community: Komunitas
   social: Sosial
-  merchants: Toko
+  merchants: Para Pedagang
   guides: Panduan
   blog: Blog
   crowdfunding: Penggalangan Dana
   download: Unduh Dompet
   buyfiro: Beli Firo
   earnfiro: Dapatkan Firo
-  mine: Penambangan
-  tech: Teknologi
+  mine: Tambang
+  tech: Riset
   team: Tim
-  roadmap: Roadmap
+  roadmap: Peta Jalan
   faq: FAQ
   fcs: Sistem Penggalangan Dana Firo
-  opencollective: Open Collective
+  opencollective: Kolektif Terbuka
   
 footer:
   resources: Sumber daya
-  branding: Branding
+  branding: Merek
   vuln: Program Kerentanan
   explorer: Penjelajah
   website: situs web
   privacy: Kebijakan Privasi
-  tos: Syarat Pelayanan
-  newsletter: news
-  ifsub: Check out our Telegram channel to stay up to date on Firo news.
-  newsbutton: Read news
+  newsletter: Berita
+  ifsub: Kunjungi kanal Telegram kami untuk mendapatkan informasi terbaru tentang berita Firo.
+  newsbutton: Baca Berita
   comm: komunikasi
+  feed: Umpan RSS
   
 home:
-  heading: Privasi harus merupakan sebuah persetujuan
-  heading2: Firo adalah aset kripto dan ekosistem yang menjaga privasi.
+  heading: Privasi adalah persetujuan
+  heading2: Firo adalah mata uang kripto dan ekosistem yang menjaga privasi.
   cta1: Dapatkan Firo
   cta2: Pelajari Lebih Lanjut
   privacy: Privasi
-  privacy1: Firo berada di garis depan aset kripto privasi dengan Lelantus dan Lelantus Spark tanpa pengguna perlu mempercayai pihak sentral tertentu. Privasi pada blockchain dengan standar anonimitas yang tinggi. Dandelion++ teknologi juga memberikan privasi pada lapisan-jaringan.
+  privacy1: Firo berada di garis depan dalam privasi mata uang kripto dengan Lelantus dan Lelantus Spark yang menyediakan privasi on-chain yang tidak dapat dipercaya dengan set anonimitas yang tinggi. Teknologi Dandelion++ juga menyediakan privasi lapisan jaringan.
   privacy2: pengaturan anonimitas
-  privacy3: aturan tanpa memerlukan kepercayaan terhadap pihak sentral manapun
+  privacy3: pengaturan tanpa kepercayaan
   blockchain: Blockchain
   blockchain1: Firo menggunakan hybrid PoW dan sistem Chainlock LLMQ yang mengkombinasikan distribusi pasokan yang adil dengan perlindungan terhadap serangan 51% dan penyelesaian blok dan transaksi yang cepat.
-  blockchain2: jumlah pasokan
+  blockchain2: Jumlah pasokan
   blockchain3: proof of work
   blockchain4: masternodes
   privacyin: Infrastruktur Privasi
@@ -84,8 +84,8 @@ download:
   backup: Cadangkan dompet Anda sebelum memperbarui
   verify: Verifikasi hash menggunakan
   verify1: kunci publik ini
-  guide: Gunakan panduan
-  guide1: pemasangan dan penggunaan dompet resmi ini
+  guide: Gunakan panduan resmi 
+  guide1: panduan pemasangan dan penggunaan dompet
   changelog: Lihat log perubahan
   option1: Opsi keamanan tingkat tinggi
   option2: Opsi penggunaan mudah
@@ -118,6 +118,7 @@ download:
   campfiremob: Dompet Campfire
   downloadmobcamp: Unduh untuk Android
   downloadioscamp: Unduh untuk iOS
+  stackwalletmob: Stack Wallet
   wallets: dompet pihak ketiga
 
 buyfiro:
@@ -130,7 +131,7 @@ buyfiro:
   cs: "Penukaran-Koin"
   exchangeswith: bertukar dengan
   ffhead1: "firo / fiat"
-  pairing: pairing
+  pairing: pasangan
   fchead1: "firo / kripto"
   csservice: layanan penukaran-koin
   dex: dex
@@ -154,7 +155,7 @@ tech:
   
 team:
   heading: Tim
-  founders: para pendiri
+  founders: Para Pendiri
   coreteam: pengembang inti
   mobileteam: pengembang
   research: riset
@@ -250,7 +251,7 @@ roadmap:
   avalanche: Avalanche
   avalanchedesc: Avalanche adalah algoritma konsensus yang memungkinkan transaksi instan, keamanan yang ditingkatkan, dan peningkatan tanpa fork. Kami sedang menjajaki konsensus Avalanche sebagai pengganti potensial masternode kami.
   development: Pengembangan
-  heading: Roadmap
+  heading: Peta Jalan
   mnodes: Masternodes Deterministik (selesai)
   mnodesq: Masternode Long Lived Quorums (selesai)
   mtpstrip: MTP Strip (selesai)
@@ -290,21 +291,25 @@ roadmap:
   learnmore: Pelajari Lebih Lanjut
   
 merchants:
-  heading: Toko
+  heading: Para Pedagang
   predisclaimer: Disclaimer&colon;&#x20;
   disclaimer: Beberapa tautan ini berisi tautan rujukan di mana kami dapat menerima kompensasi ketika Anda mendaftar atau menggunakan produk/layanan mereka. Ini bukan merupakan dukungan dari produk/layanan.
   introduction: Anda Ingin menghabiskan Firo Anda? Berikut adalah beberapa tempat yang dapat Anda kunjungi! Ini adalah daftar tempat yang menerima Firo! Jika Anda memiliki bisnis yang ingin ditampilkan di sini, beri tahu kami!
   button1: Pakaian
   button2: Biro Jodoh
   button3: Donasi
-  button4: Freelancing
+  button4: Pekerja Lepas
   button5: Permainan
   button6: Produk Kesehatan
   button7: Hosting
   button8: Layanan Hukum
-  button9: Marketplace Online
+  button9: Pasar Online
   button10: Pinjaman P2P
   button11: Solusi Pembayaran
   button12: Perangkat Lunak
   button13: Bepergian
   button14: VPN
+
+  social:
+  community: Komunitas
+  findus: Anda juga dapat menemukan kami di sini
