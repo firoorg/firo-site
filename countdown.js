@@ -3,7 +3,7 @@ const targetBlockHeight = 819300; // Target block height.
 const updateInterval = 1000; // Update every second (1000ms).
 const activationMessage = "Firo Spark has been activated!"; // Countdown ending message.
 const explorerURL = "https://explorer.firo.org";
-const defaultRemainingTime = 525.5 * 60 * 1000; // Default remaining time in milliseconds (525.5 minutes).
+let remainingTime = 525.5 * 60 * 1000; // Remaining time in milliseconds (525.5 minutes).
 
 // Constants for block height difference intervals and query intervals.
 const blockDiffs = {
@@ -19,35 +19,36 @@ const queryIntervals = {
 };
 
 // Calculate the time difference based on blocks remaining.
-function calculateTimeDifference(blocksRemaining) {
-  const timeDifference = blocksRemaining > 0 ? blocksRemaining * 2.5 * 60 * 1000 : 0;
+function calculateTimeDifference() {
+  remainingTime -= updateInterval; // Decrement the remaining time by one second.
 
-  if (timeDifference <= 0) {
+  if (remainingTime <= 0) {
     clearInterval(timerInterval);
     document.getElementById("activationMessage").innerHTML = activationMessage;
-  } else {
-    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-    const daysLabel = days === 1 ? "day" : "days";
-    const hoursLabel = hours === 1 ? "hour" : "hours";
-    const minutesLabel = minutes === 1 ? "minute" : "minutes";
-    const secondsLabel = seconds === 1 ? "second" : "seconds";
-
-    document.getElementById("days").innerHTML = `${days}`;
-    document.getElementById("daysLabel").innerHTML = `${daysLabel}`;
-    document.getElementById("hours").innerHTML = `${hours}`;
-    document.getElementById("hoursLabel").innerHTML = `${hoursLabel}`;
-    document.getElementById("minutes").innerHTML = `${minutes}`;
-    document.getElementById("minutesLabel").innerHTML = `${minutesLabel}`;
-    document.getElementById("seconds").innerHTML = `${seconds}`;
-    document.getElementById("secondsLabel").innerHTML = `${secondsLabel}`;
+    remainingTime = 0; // Ensure the remaining time does not go negative.
   }
+
+  const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+  const daysLabel = days === 1 ? "day" : "days";
+  const hoursLabel = hours === 1 ? "hour" : "hours";
+  const minutesLabel = minutes === 1 ? "minute" : "minutes";
+  const secondsLabel = seconds === 1 ? "second" : "seconds";
+
+  document.getElementById("days").innerHTML = `${days}`;
+  document.getElementById("daysLabel").innerHTML = `${daysLabel}`;
+  document.getElementById("hours").innerHTML = `${hours}`;
+  document.getElementById("hoursLabel").innerHTML = `${hoursLabel}`;
+  document.getElementById("minutes").innerHTML = `${minutes}`;
+  document.getElementById("minutesLabel").innerHTML = `${minutesLabel}`;
+  document.getElementById("seconds").innerHTML = `${seconds}`;
+  document.getElementById("secondsLabel").innerHTML = `${secondsLabel}`;
 }
 
-// Query the current block height and calculate the time difference.
+// Query the current block height and update the time difference.
 function queryBlockHeight() {
   fetch(explorerURL + "/api/status?q=getInfo")
     .then(response => response.json())
@@ -56,7 +57,9 @@ function queryBlockHeight() {
       console.log("Latest Block Height:", latestBlockHeight);
 
       const blocksRemaining = targetBlockHeight - latestBlockHeight;
-      calculateTimeDifference(blocksRemaining);
+      if (blocksRemaining > 0) {
+        remainingTime = blocksRemaining * 2.5 * 60 * 1000; // Update the remaining time based on blocks remaining.
+      }
 
       if (blocksRemaining <= 0) {
         clearInterval(timerInterval);
@@ -76,18 +79,19 @@ function queryBlockHeight() {
         }
 
         // Schedule the next block height query.
-        setTimeout(queryBlockHeight, nextQueryInterval);
+        // setTimeout(queryBlockHeight, nextQueryInterval);
+        // Uncomment this line to periodically re-query the block height.
+        // This should make the timer more accurate, but could cause the countdown to jump by 2.5 minute intervals.
       }
     })
     .catch(error => {
       console.error("Error fetching data:", error);
-      // Use default remaining time if there's an error fetching data.
-      calculateTimeDifference(Math.round(defaultRemainingTime / (2.5 * 60 * 1000)));
+      // If there's an error, continue counting down with the current remaining time.
     });
 }
 
 // Start the initial query.
 queryBlockHeight();
 
-// Update the countdown at the specified interval.
-const timerInterval = setInterval(queryBlockHeight, updateInterval);
+// Update the countdown every second.
+const timerInterval = setInterval(calculateTimeDifference, updateInterval);
