@@ -11,7 +11,7 @@ We are happy to launch a beta release of our new wallet interface. We want to ma
 
 ## Anonymity Loves Company
 
-The more people keep their funds anonymized in [Sigma](https://firo.org/2019/03/20/what-is-sigma.html), the more anonymous everyone becomes! Our wallet now prompts to keep a certain percentage of your funds anonymized in Sigma, and this setting is configurable. 
+The more people keep their funds anonymized in [Sigma]({{ site.baseurl }}/2019/03/20/what-is-sigma.html), the more anonymous everyone becomes! Our wallet now prompts to keep a certain percentage of your funds anonymized in Sigma, and this setting is configurable. 
 
 ![](/blog/assets/new-wallet-beta-release/privacy.png) 
 

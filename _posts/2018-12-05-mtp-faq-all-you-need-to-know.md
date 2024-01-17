@@ -14,7 +14,7 @@ Make sure you're updated to the [latest Zcoin release](https://github.com/firoor
 
 **UPDATE: Please update to 0.13.7.5 before December 17th! From this date on only clients with version 0.13.7.5 or higher will be able to connect to the right chain** 
 
-If you're hosting a Znode, make sure [that's updated](https://firo.org/guide/masternode-upgrade.html) as well. 
+If you're hosting a Znode, make sure [that's updated]({{ site.baseurl }}/guide/masternode-upgrade.html) as well. 
 
 It is recommended to use the latest release which contains important bug fixes along with huge performance improvements and bandwidth savings. 
 

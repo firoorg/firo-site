@@ -6,6 +6,7 @@ tags: [guide]
 author: "Anwar P."
 permalink: /guide/masternode-setup.html
 ---
+
 **DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a masternode provider.
 
 ## List of masternode Providers (arranged in alphabetical order)
@@ -28,12 +29,10 @@ You should only need to provide your address that you collateraled your FIRO in 
 *   [Nodehub](https://nodehub.io/ref/charybdis)
 *   [PDABase](http://pdabase.com.my/zcoin-znode-hosting/) (small provider by Reuben and his friend Hui Sing to cater to mainly friends)
 *   [Satang Nodes](https://satang.com/nodes)
-*   [SetupMasternodes](https://www.setupmasternodes.com)
-*   [ZCore Masternodes Hosting](https://central.zcore.cash/mn-coins)
 
 ## Getting Started
 
-Whether you are hosting with a masternode provider or doing it on your own, ensure you have the latest [Firo wallet](https://firo.org/get-firo/download/) and you have already obtained your **1000 FIRO** (preferably just a bit more to cover fees when you're transferring around). **Steps 1 and 2 are still required** even if you are going for a masternode provider.
+Whether you are hosting with a masternode provider or doing it on your own, ensure you have the latest [Firo wallet]({{ site.baseurl }}/get-firo/download/) and you have already obtained your **1000 FIRO** (preferably just a bit more to cover fees when you're transferring around). **Steps 1 and 2 are still required** even if you are going for a masternode provider.
 
 ### Step 1: Encrypt and Backup your wallet on your Desktop wallet
 
@@ -136,8 +135,8 @@ There are many providers to choose out there.
 
 Select a VPS package that meets the minimum requirements:
 
-*   1 GB of RAM (2 GB recommended)
-*   25 GB of disk space (blockchain size is currently 4GB in February 2022)
+*   1.5 GB of RAM (2 GB with swap on recommended)
+*   25 GB of disk space (blockchain size is currently 5.3GB in May 2023)
 
 **Note:** With FiroPoW, the blockchain grows at a rate of about 1 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
@@ -197,13 +196,9 @@ The next step opens port 8168 which is required for your masternode to communica
 
 (press Y and Enter to confirm) You now have a firewall setup!
 
-#### Allocating a Swap File (Optional if your VPS/server has 2gb or more RAM)
+#### Allocating a Swap File
 
-Allocating a swap file can guard your VPS server against out of memory errors in the event your RAM is fully utilized. **This step is optional** if your VPS / remote server has a lot of RAM. It is generally not needed if you have 2 gb of RAM or more. It may work with 1 gb of RAM as well. 
-
-**Swap** is an area on a hard drive that has been designated as a place where the operating system can temporarily store data that it can no longer hold in RAM. Basically, this gives you the ability to increase the amount of information that your server can keep in its working “memory”, with some caveats. The swap space on the hard drive will be used mainly when there is no longer sufficient space in RAM to hold in-use application data. 
-
-The information written to disk will be significantly slower than information kept in RAM, but the operating system will prefer to keep running application data in memory and use swap for the older data. Overall, having swap space as a fall back for when your system’s RAM is depleted can be a good safety net against out-of-memory exceptions on systems. 
+_You can skip this step if your VPS provider has automatically allocated swap for you. Use the **free** command to check if swap exists._
 
 `fallocate -l 4G /swapfile`
 
@@ -231,9 +226,9 @@ After **logging into the new user** on your **VPS** you created in Step 5, type 
 
 `cd ~` 
 
-`wget https://downloads.sourceforge.net/project/firoorg/firo-0.14.11.1-linux64.tar.gz`
+`wget https://downloads.sourceforge.net/project/firoorg/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz`
  
-`tar xzvf firo-0.14.11.1-linux64.tar.gz` 
+`tar xzvf firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz` 
 
 Create a new config file for your masternode. Type
  
@@ -267,7 +262,7 @@ Press **Ctrl-X** to save and press **Y** to confirm it.
 
 Type following commands to start your firod daemon and let it sync. This will take a few hours. 
 
-`cd ~/firo-1e9bad81f3dd/bin`
+`cd ~/firo-{{ site.data.downloads.firo_new_commit }}/bin`
 
 `./firod -daemon`
 

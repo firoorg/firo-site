@@ -15,7 +15,7 @@ We are proud to release Zcoin v14.0.0. This is a **mandatory upgrade and a major
 *Deterministic Znode Lists
 *Long-lived masternode quorums (LLMQ)
 
-This upgrade builds a much more solid codebase and with the move to Deterministic Znodes, ensures a much more reliable Znode network. To find out more about deterministic Znodes and LLMQ, [read here.](https://firo.org/2020/05/26/what-you-need-to-know-about-deterministic-masternodes-and-llmq.html)
+This upgrade builds a much more solid codebase and with the move to Deterministic Znodes, ensures a much more reliable Znode network. To find out more about deterministic Znodes and LLMQ, [read here.]({{ site.baseurl }}/2020/05/26/what-you-need-to-know-about-deterministic-masternodes-and-llmq.html)
 
 Issues such as out of sync Znode lists, false alarms of **NEW_START_REQUIRED**, variance in Znode payments and micro chain splits should be a thing of the past.
 

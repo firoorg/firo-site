@@ -21,10 +21,10 @@ Users will need to update their existing wallets and Znodes to 13.8.2 before the
 ![](/blog/assets/sigma-is-released/backup.png)
 
 2.  Close your wallet.
-3.  Download the new wallet [here](https://firo.org/get-firo/download/).
+3.  Download the new wallet [here]({{ site.baseurl }}/get-firo/download/).
 4.  Run the installation or if you prefer just replace the zcoin-qt file.
 5.  If you have existing unspent Zerocoins, when the hard fork date rolls about, you will be presented with a Remint tab that will allow you to convert your existing Zerocoins to Sigma mints.
-6.  If you are late in upgrading and upgrade past the hard fork date, you may be prompted to [reindex your wallet](https://firo.org/guide/reindex-wallet.html).
+6.  If you are late in upgrading and upgrade past the hard fork date, you may be prompted to [reindex your wallet]({{ site.baseurl }}/guide/reindex-wallet.html).
 7.  Needless to say, if you need help, do so only via the official channels in [Discord under #support](https://discord.gg/7Jb4QzK) or Telegram in [Zcoin Support](https://t.me/zcoinsupport)  do not accept help from anyone whom you don't trust. **Team members will NEVER initiate any direct messages or PMs.**
 
 ## Instructions For Znode Users

@@ -50,7 +50,7 @@ permalink: /about/research/index.html
                                       <p class="abstract">In privacy-preserving transaction protocols, confidential asset designs permit transfer of quantities of distinct asset types in a way that obscures their types and values. Spark is a protocol that provides flexible privacy properties relating to addressing, transaction sources and recipients, and value transfer; however, it does not natively support the use of multiple confidential asset types. Here we describe Spats, a new design for confidential assets compatible with Spark that focuses on efficient and modular implementation. It does so by extending coin value commitments to bind and mask an asset type, and asserting in zero knowledge that this type is maintained throughout transactions. We describe the cryptographic components and changes to the Spark protocol necessary for the design of Spats.</p>
                                   </div>
 								  <div class="col">
-                                      <a href="https://firo.org/blog/assets/helsing-1049371.pdf" alt="" class="paper-title">Helsing: Private Masternode Staking</a>
+                                      <a href="{{ site.baseurl }}/blog/assets/helsing-1049371.pdf" alt="" class="paper-title">Helsing: Private Masternode Staking</a>
                                       <p class="abstract">Helsing is a protocol extension to Spark that allows for private staking operations not requiring transparent addresses or outputs. Specifically, Helsing provides for Spark-compatible collateral staking and coinbase payouts.</p>
                                   </div>
                               </div>
@@ -60,11 +60,14 @@ permalink: /about/research/index.html
                           <div class="col">
                               <h3>{% t tech.audits %}</h3>
                               <div class="row papers">
+                                <div class="col">
+                                    <a href="/about/research/papers/lelantus_spark_code_audit_report.pdf" alt="" class="paper-title">Lelantus Spark code audit by Hashcloak</a>
+                                </div>
                                   <div class="col">
                                       <a href="/about/research/papers/Lelantus_Spark_Audit_Report.pdf" alt="" class="paper-title">Lelantus Spark cryptography audit by Hashcloak</a>
                                   </div>
                                   <div class="col">
-                                      <a href="/about/research/papers/LinfengSparkAudit.pdf" alt="" class="paper-title">Lelantus cryptography audit by Daniel (Linfeng) Zhao</a>
+                                      <a href="/about/research/papers/LinfengSparkAudit.pdf" alt="" class="paper-title">Lelantus Spark cryptography audit by Daniel (Linfeng) Zhao</a>
                                   </div>
                               </div>
                           </div>
