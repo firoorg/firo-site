@@ -23,6 +23,7 @@ You should only need to provide your address that you collateraled your FIRO in 
 
 *   [Allnodes](https://www.allnodes.com/?utm_source=zcoinio&utm_medium=setup-guide)
 *   [Flux](https://home.runonflux.io/apps/marketplace)
+*   [NodeHub.io](https://nodehub.io/dashboard/view_coin?coin=firo)
 *   [HostingKing](http://www.hostingking.com)  by [perrykmm#2742](mailto:hello@hostingking.com) (Discord)
 *   [Masternodes Germany](https://masternodes-germany.de)
 *   [Masternodehosting](https://masternodehosting.com/) (by Flare)
