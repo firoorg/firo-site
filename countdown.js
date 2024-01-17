@@ -1,28 +1,26 @@
 /// Configuration.  Edit these values.
-const targetDate = new Date("2024-01-18T00:00:00"); // Edit this date.
+const targetBlockHeight = 819300; // Target block height.
 const updateInterval = 1000; // Update every second (1000ms).
 const activationMessage = "Firo Spark has been activated!"; // Countdown ending message.
-const realTimeUpdate = true; // Set to false to pause countdown.
-
-/// Constants.  
-const targetBlockHeight = 819300;
 const explorerURL = "https://explorer.firo.org";
+const defaultRemainingTime = 525.5 * 60 * 1000; // Default remaining time in milliseconds (525.5 minutes).
+
+// Constants for block height difference intervals and query intervals.
 const blockDiffs = {
-  high: 1000,     // 1000 blocks, or about a week.
-  medium: 100,    // 100 blocks, or about 16 hours.
-  low: 10,        // 10 blocks, or about 1.5 hours.
+  high: 1000,
+  medium: 100,
+  low: 10,
 };
 const queryIntervals = {
-  highDiff: 24 * 60 * 60 * 1000, // 24 hours.  If the block height difference is over 1000 blocks, don't query firo.explorer.org more than once a day.
-  mediumDiff: 60 * 60 * 1000,    // 1 hour.  If the block height difference is over 100 blocks, don't query firo.explorer.org more than once an hour.
-  lowDiff: 10 * 60 * 1000,       // 10 minutes.
-  veryLowDiff: 30 * 1000         // 30 seconds.
+  highDiff: 24 * 60 * 60 * 1000,
+  mediumDiff: 60 * 60 * 1000,
+  lowDiff: 10 * 60 * 1000,
+  veryLowDiff: 30 * 1000
 };
 
-// Calculate the time difference between now and the target date.
-function calculateTimeDifference() {
-  const currentDate = new Date();
-  const timeDifference = targetDate - currentDate;
+// Calculate the time difference based on blocks remaining.
+function calculateTimeDifference(blocksRemaining) {
+  const timeDifference = blocksRemaining > 0 ? blocksRemaining * 2.5 * 60 * 1000 : 0;
 
   if (timeDifference <= 0) {
     clearInterval(timerInterval);
@@ -49,7 +47,7 @@ function calculateTimeDifference() {
   }
 }
 
-/// Query to block height from explorer.firo.org.
+// Query the current block height and calculate the time difference.
 function queryBlockHeight() {
   fetch(explorerURL + "/api/status?q=getInfo")
     .then(response => response.json())
@@ -57,30 +55,23 @@ function queryBlockHeight() {
       const latestBlockHeight = data.info.blocks;
       console.log("Latest Block Height:", latestBlockHeight);
 
-      if (latestBlockHeight >= targetBlockHeight) {
+      const blocksRemaining = targetBlockHeight - latestBlockHeight;
+      calculateTimeDifference(blocksRemaining);
+
+      if (blocksRemaining <= 0) {
         clearInterval(timerInterval);
         document.getElementById("activationMessage").innerHTML = activationMessage;
-
-        document.getElementById("days").innerHTML = 0;
-        document.getElementById("daysLabel").innerHTML = "days";
-        document.getElementById("hours").innerHTML = 0;
-        document.getElementById("hoursLabel").innerHTML = "hours";
-        document.getElementById("minutes").innerHTML = 0;
-        document.getElementById("minutesLabel").innerHTML = "minutes";
-        document.getElementById("seconds").innerHTML = 0;
-        document.getElementById("secondsLabel").innerHTML = "seconds";
       } else {
         // Determine the next query interval based on block height difference.
         let nextQueryInterval = queryIntervals.highDiff;
-        const blockHeightDifference = targetBlockHeight - latestBlockHeight;
 
-        if (blockHeightDifference <= blockDiffs.high) {
+        if (blocksRemaining <= blockDiffs.high) {
             nextQueryInterval = queryIntervals.mediumDiff;
         }
-        if (blockHeightDifference <= blockDiffs.medium) {
+        if (blocksRemaining <= blockDiffs.medium) {
             nextQueryInterval = queryIntervals.lowDiff;
         }
-        if (blockHeightDifference <= blockDiffs.low) {
+        if (blocksRemaining <= blockDiffs.low) {
             nextQueryInterval = queryIntervals.veryLowDiff;
         }
 
@@ -90,18 +81,13 @@ function queryBlockHeight() {
     })
     .catch(error => {
       console.error("Error fetching data:", error);
+      // Use default remaining time if there's an error fetching data.
+      calculateTimeDifference(Math.round(defaultRemainingTime / (2.5 * 60 * 1000)));
     });
 }
 
-// Initial calculation.
-calculateTimeDifference();
+// Start the initial query.
+queryBlockHeight();
 
 // Update the countdown at the specified interval.
-const timerInterval = setInterval(() => {
-  if (realTimeUpdate) {
-    calculateTimeDifference();
-  }
-}, updateInterval);
-
-// Start the block height query after the initial countdown update.
-setTimeout(queryBlockHeight, updateInterval);
+const timerInterval = setInterval(queryBlockHeight, updateInterval);
