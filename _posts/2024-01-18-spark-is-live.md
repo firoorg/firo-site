@@ -39,9 +39,13 @@ Exchange addresses differ from regular transparent addresses in that they cannot
 Below is a quick summary of what funds Exchange Addresses can use.
 
 ❌Spark / Lelantus —> Exchange Address 
+
 ❌Mining/masternode rewards —> Exchange Address 
+
 ✅Transparent address —> Exchange address 
+
 ✅Spark / Lelantus → Transparent address → Exchange address 
+
 ✅Mining/Masternode rewards → Transparent address → Exchange address 
 
 These addresses can be identified with an EX prefix and are 36 characters long. 
