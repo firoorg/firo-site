@@ -6,11 +6,11 @@ tags: [announcement, news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/sparkislive/banner.png"
 ---
-We are pleased to announce that Lelantus Spark, our next gen privacy protocol is now live on Firo’s mainnet! This forms the culmination of years of research and development from the first time [Spark was announced in 2021.](https://firo.org/2021/08/24/presenting-lelantus-spark.html)
+We are pleased to announce that Lelantus Spark, our next gen privacy protocol is now live on Firo’s mainnet! This forms the culmination of years of research and development from the first time [Spark was announced in 2021.]({{ site.baseurl_root }}/2021/08/24/presenting-lelantus-spark.html)
 
-Since then, it has gone through several revisions and improvements and has undergone two cryptography audits ([Hashcloak,](https://firo.org/about/research/papers/Lelantus_Spark_Audit_Report.pdf) [Daniel (Linfeng) Zhao](https://firo.org/about/research/papers/LinfengSparkAudit.pdf)) and a [code and implementation audit.](https://firo.org/about/research/papers/lelantus_spark_code_audit_report.pdf)
+Since then, it has gone through several revisions and improvements and has undergone two cryptography audits ([Hashcloak,]({{ site.baseurl_root }}/about/research/papers/Lelantus_Spark_Audit_Report.pdf) [Daniel (Linfeng) Zhao]({{ site.baseurl_root }}/about/research/papers/LinfengSparkAudit.pdf)) and a [code and implementation audit.]({{ site.baseurl_root }}/about/research/papers/lelantus_spark_code_audit_report.pdf)
 
-Please ensure you’re updated to [the latest version of Firo.](https://firo.org/get-firo/download/)
+Please ensure you’re updated to [the latest version of Firo.]({{ site.baseurl_root }}/get-firo/download/)
 
 Let’s do a quick run-through of what’s new in this update!
 
@@ -32,7 +32,7 @@ Spark transactions have very high anonymity sets and are less susceptible to sta
 
 ## Exchange Addresses
 
-This update also introduces [Exchange Addresses](https://firo.org/2023/11/06/exchange-addresses.html) which allow exchanges to maintain compliance with regulations without affecting user privacy. **Users do not need to create these addresses.**
+This update also introduces [Exchange Addresses]({{ site.baseurl_root }}/2023/11/06/exchange-addresses.html) which allow exchanges to maintain compliance with regulations without affecting user privacy. **Users do not need to create these addresses.**
 
 Exchange addresses differ from regular transparent addresses in that they cannot directly receive funds from Spark, Lelantus, mining or masternode rewards. If you have funds in Spark/Lelantus or from mining or masternode rewards, you would need to send these funds to a transparent address first before sending them to an Exchange Address.
 
@@ -68,11 +68,11 @@ These include:
 
 Thereafter, in the following months, we’ll be focusing on increasing Spark address use with the following:
 * All mining and masternode rewards to mandatorily go into Spark addresses
-* Deployment of [Helsing](https://firo.org/2022/01/28/helsing-private-firo-masternode.html), to allow masternode collateral to be held in Spark addresses
+* Deployment of [Helsing]({{ site.baseurl_root }}/2022/01/28/helsing-private-firo-masternode.html), to allow masternode collateral to be held in Spark addresses
 
 Concurrently, we are in the midst of developing and/or researching:
-* **Spark Assets for Elysium [(Spats)](https://firo.org/2022/03/07/spats-confidential-assets-lelantus-spark.html):** The ability to create confidential assets using Spark technology where sender, receiver, amount and asset type are hidden. Work has already been done on the cryptographic library for this.
-* **Curve Tree Research:** [Curve tree research](https://firo.org/2023/05/26/elliptic-curves-research.html) is completed and is in the process of being documented.
+* **Spark Assets for Elysium [(Spats)]({{ site.baseurl_root }}/2022/03/07/spats-confidential-assets-lelantus-spark.html):** The ability to create confidential assets using Spark technology where sender, receiver, amount and asset type are hidden. Work has already been done on the cryptographic library for this.
+* **Curve Tree Research:** [Curve tree research]({{ site.baseurl_root }}/2023/05/26/elliptic-curves-research.html) is completed and is in the process of being documented.
 
 Spark is not a completion of a journey but the beginning of a new era of privacy.
 
