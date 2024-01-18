@@ -80,7 +80,7 @@ Spark is not a completion of a journey but the beginning of a new era of privacy
 
 Lelantus Spark would not have been possible if not for the support and efforts of many people and organizations. We would like to thank **Aram Jivanyan and Aaron Feickert** (CypherStack) for creating and improving Lelantus Spark, **Levon Petrosyan, Petr Shugalev** for contributing the vast majority of Spark implementation code, **Anwar P** for the tireless hours on tests, [**CypherStack**](https://cypherstack.com/) for supporting us in many ways including the implementation of Spark in their [Stack Wallet](https://stackwallet.com/) and [**HashCloak**](https://hashcloak.com/) for their constant support and the excellent work in the Spark audit.
 
-Additionally, the generous donations of [**Arcadia Group](https://arcadia.agency/) , Rasikh Morani, Firo Fam** and the support from the **Community Fund Committee** have allowed us to continue development and research during the depths of the bear market. We would also like to thank MAGIC Fund for administering the [Firo MAGIC fund](https://magicgrants.org/funds/firo/) that has allowed us to fund our research and security services.  
+Additionally, the generous donations of **[Arcadia Group](https://arcadia.agency/) , Rasikh Morani, Firo Fam** and the support from the **Community Fund Committee** have allowed us to continue development and research during the depths of the bear market. We would also like to thank MAGIC Fund for administering the [Firo MAGIC fund](https://magicgrants.org/funds/firo/) that has allowed us to fund our research and security services.  
 
 
 
