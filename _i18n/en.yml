@@ -107,9 +107,6 @@ download:
   hasheslinux: Show SHA256 hashes for Linux
   officialmobile: official mobile wallets
   optionmob1: Android
-  androidmob: Android Wallet
-  downloadmobandroid: Download wallet
-  hashesandroid: Show SHA256 hashes for Android
   optionmob2: iOS
   iosmob: iOS Wallet
   downloadmobios: Coming soon
