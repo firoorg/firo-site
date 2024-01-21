@@ -41,23 +41,27 @@ navigation:
   opencollective: Open Collective
   
 footer:
-  resources: resources
+  resources: Resources
   branding: Branding
   vuln: Vulnerability Program
   explorer: Explorer
-  website: website
+  website: Website
   privacy: Privacy Policy
+  tos: Terms Of Service
   newsletter: news
   ifsub: Check out our <a href="/blog/">Blog</a> and Telegram channel to stay up to date on Firo news.
   newsbutton: Read news
   comm: communication
   feed: Feed RSS
+
   
 home:
-  heading: Privacy is consent
-  heading2: Firo is a privacy preserving cryptocurrency and ecosystem.
+  heading: Sparking <br class="brmob">a privacy revolution
+  heading2: Firo is a privacy preserving cryptocurrency <br>and ecosystem.
   cta1: Get Firo
-  cta2: Learn More
+  cta2: Learn more
+  about: How Firo works
+  aboutp: Firo is unique in the cryptocurrency market as it innovates and pioneers the way forward with bleeding-edge privacy and protocol research. Read on and see for yourself.
   privacy: Privacy
   privacy1: Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.
   privacy2: anonymity set
@@ -71,12 +75,20 @@ home:
   privacyin1: Firo's Elysium tokenization layer allows users to create their own privacy-enabled tokens with use-cases from private stablecoins or voting tokens and in the future offer privacy for bridged assets from other chains.
   randd: Research and Development
   randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies  such as Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
-  getfiro: get firo
-  getfiro1: Push the frontiers of digital privacy. Join the Firo ecosystem today.
+  getfiro: Get Firo
+  getfiro1: Buy, mine, or earn Firo, and join the privacy revolution. <br>Store your Firo in one of our feature-filled wallets, optimized for power, accessibility, and user experience.
   getfiro2: Get a wallet
+  getfiro2text: Firo has multiple options to manage your funds on major desktop and mobile OS. Choose the one that works best for you. 
+  getfiro2link: Download a wallet
   getfiro3: Buy Firo
+  getfiro3text: Firo has multiple options to manage your funds on major desktop and mobile OS. Choose the one that works best for you. 
+  getfiro3link: Find an exchange
   getfiro4: Earn Firo
+  getfiro4text: You can set up your own Firo masternode to earn Firo. We walk you through the setup process in our detailed guide.
+  getfiro4link: Set up a masternode
   getfiro5: Start mining
+  getfiro5text: FiroPoW, Firo mining algorithm, is designed to be mined by GPUs. Follow our guide to start mining your first Firo.
+  getfiro5link: Read the mining guide
   
 download:
   heading: Download a wallet
