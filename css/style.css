@@ -4377,6 +4377,20 @@ footer ul li a, footer ul li a:visited, footer p {
     color: #fefefe;
 }
 
+footer p a, footer p a:visited {
+    color: #FCC9CA;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+
+footer p a:hover, footer p a:focus, footer p a:active {
+    color: #ffffff;
+}
+
 footer .btn-text {
     color: #FCC9CA;
 }
@@ -4385,12 +4399,12 @@ footer .btn-text:hover, footer .btn-text:active, footer .btn-text:focus {
     color: #ffffff;
 }
 
-footer .social li i {
-    color: #ED9092;
+footer .social-icons {
+    justify-content: start;
 }
 
-footer .social li:hover i {
-    color: #FCC9CA;
+footer .social-icons a {
+    margin-right: 1.5rem;
 }
 
 .language-change label {
@@ -4400,11 +4414,17 @@ footer .social li:hover i {
     -moz-transition: all ease-out .2s;
     -o-transition: all ease-out .2s;
     transition: all ease-out .2s;
-    padding: 0.5rem 3.5rem 0.5rem 4rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+
+.language-change label::before {
+    margin-right: 0.5rem;
 }
 
 .language-change label:after {
     color: #FCC9CA;
+    margin-left: 0.5rem;
 }
 
 .language-change label:hover {
@@ -4421,7 +4441,24 @@ footer .row .col {
 
 @media only screen and (max-width: 48rem) {
 
+footer .bottom .col {
+    text-align: left;
+}
+
 .language-change label {
     border: 2px solid #ED9092;
 }
+
+}
+
+@media only screen and (max-width: 30rem) {
+
+footer .social-icons a {
+    margin-right: 1rem;
+}
+
+footer .social-icons a img {
+    width: 2rem;
+}
+
 }
