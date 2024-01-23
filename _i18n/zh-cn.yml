@@ -51,12 +51,15 @@ footer:
   ifsub: Check out our Telegram channel to stay up to date on Firo news.
   newsbutton: Read news
   comm: 加入讨论
+  feed: 
 
 home:
   heading: 隐私是同意
   heading2: Firo 是一种保护隐私的加密货币和生态系统。
   cta1: 获取 Firo
   cta2: 了解更多
+  about: 
+  aboutp:
   privacy: 隐私
   privacy1: Firo 处于加密货币隐私的最前沿，Lelantus 和 Lelantus Spark 提供具有高匿名集的无需信任的链上隐私。Dandelion++ 技术还提供网络层隐私。
   privacy2: 匿名集
@@ -73,9 +76,17 @@ home:
   getfiro: 获取 Firo
   getfiro1: 开拓数字隐私前沿。立即加入 Firo 生态系统。
   getfiro2: 获取钱包
+  getfiro2text: 
+  getfiro2link:
   getfiro3: 买 Firo
+  getfiro3text:
+  getfiro3link:
   getfiro4: 赚 Firo
+  getfiro4text:
+  getfiro4link:
   getfiro5: 开始挖矿
+  getfiro5text:
+  getfiro5link:
 
 download:
   heading: 下载钱包
@@ -252,7 +263,9 @@ roadmap:
   development: 开发
   heading: 路线图
   mnodes: 确定性主节点（已完成）
-  mnodesq: 长效主节点仲裁链（已完成）
+  mnodesq: 长效主节点仲裁链（已完成
+  mtpstrip: 
+  mtpstripdesc:
   rebrand: 品牌重塑（已完成）
   lelantus: Lelantus 激活（已完成）
   lelantusdesc: Lelantus 是我们的下一代隐私协议，它提供了最高级别的实用隐私，无预信任机制，只依赖可靠的密码学假设。Lelantus 支持的匿名集比其他无预信任机制的隐私系统大几个数量级。
@@ -306,3 +319,8 @@ merchants:
   button12: 软件
   button13: 旅行
   button14: VPN
+  nothing: 
+
+social:
+  community: 
+  findus: 

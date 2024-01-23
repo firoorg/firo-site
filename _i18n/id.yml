@@ -161,88 +161,88 @@ team:
   research: riset
   community: komunitas
   poramininsom:
-    nama: Poramin Insom
-    jabatan: Co-Founder
+    name: Poramin Insom
+    title: Co-Founder
     bio: Poramin Insom mendirikan Zcoin (sekarang Firo) pada tahun 2016, berusaha memberikan privasi finansial dan juga penambangan yang lebih inklusif melalui bukti kerja tahan ASIC. Dia memperoleh gelar master dalam Keamanan Informasi dari Universitas Johns Hopkins di mana dia menulis makalah tentang implementasi praktis yang diusulkan dari protokol Zerocoin. Dia meletakkan dasar-dasar teknologi Zcoin (sekarang Firo) dari pengkodean implementasi Zerocoin pertama di dunia dan juga mendorong penelitian dan pengembangan ke dalam algoritma penambangan MTP. Poramin telah difokuskan untuk mendorong adopsi Firo ke dunia nyata terutama dalam keterlibatannya memfasilitasi Partai Demokrat Thailand untuk melakukan pemilihan utama dalam memilih pemimpin partainya di blockchain Firo pada tahun 2018 yang merupakan pemilihan politik skala besar pertama di dunia pada sebuah blockchain.
   reubenyap:
-    nama: Reuben Yap
-    jabatan: Co-Founder
+    name: Reuben Yap
+    title: Co-Founder
     bio: Reuben Yap adalah Pengurus Proyek dari Firo dan memimpin proyek dalam keseluruhan strategi, tujuan pengembangan, dan upaya penelitiannya. Bergabung dengan tim tidak lama setelah dimulai, ia telah memainkan peran penting dalam membentuk Firo hingga seperti sekarang ini. Reuben telah menjadi pendukung vokal privasi online dan finansial setelah mendirikan salah satu layanan VPN paling awal di Asia Tenggara untuk memerangi sensor negaranya dan merupakan pembicara yang disegani tentang topik tersebut, dengan wawancara dan komentar unggulan di BBC, Nasdaq Tradetalks, Forbes, Coindesk, Reuters dan Cheddar News, antara lain. Sebelum bergabung dengan Firo, Reuben adalah mitra di firma hukum dengan lebih dari sepuluh tahun pengalaman praktik yang mengkhususkan diri dalam melakukan pekerjaan penasihat dalam kerangka hukum dan kelembagaan.
   petershugalev:
-    nama: Peter Shugalev
-    jabatan: Kepala Pengembang
+    name: Peter Shugalev
+    title: Kepala Pengembang
     bio: Peter adalah programmer dan arsitek perangkat lunak yang sangat terampil dengan pengalaman lebih dari 20 tahun. Dia tinggal di Moskow, Rusia, dan lulus dari Universitas Negeri Moskow magna cum laude dengan gelar Master di bidang Ilmu Komputer dan Matematika. Dia telah menciptakan jaringan dan layanan terkait keamanan, dan bahkan telah membuat bahasa pemrogramannya sendiri dan kompiler lintas platform untuk sistem deteksi intrusi berbasis tanda tangan. Kombinasi langka antara pengetahuan kriptografi dan pemrograman telah membantu Firo tetap berada di garis depan privasi on-chain.
   levonpetrosyan:
-    nama: Levon Petrosyan
-    jabatan: Pengembang
+    name: Levon Petrosyan
+    title: Pengembang
     bio: Levon adalah seorang insinyur perangkat lunak dengan gelar Master di bidang Ilmu Komputer dan Ekonomi dari American University of Armenia. Latar belakangnya adalah pemrograman C++ dan kriptografi. Dia adalah salah satu kontributor Firo paling produktif yang telah mengkodekan sebagian besar perpustakaan kriptografi Lelantus Firo bersama dengan pengoptimalan untuk mendukung kumpulan anonimitas besar.
   sproxet:
     name: Sproxet
     title: Pengembang
     bio: Sproxet adalah pengembang anonim yang telah bekerja pada perangkat lunak penjaga privasi selama 15 tahun terakhir dan telah berkontribusi secara signifikan untuk klien Electron Firo. Sproxet juga merupakan pendiri Signal Eleven, sebuah konsultan IT yang berfokus pada keamanan komputer dan audit, pengembangan perangkat lunak dan desain arsitektur sistem kriptografi.
   gevorgmirzoyan:
-    nama: Gevorg Mirzoyan
-    jabatan: Pengembang
+    name: Gevorg Mirzoyan
+    title: Pengembang
     bio: Gevorg adalah seorang insinyur perangkat lunak yang lulus dari Fakultas Matematika dan Informatika Terapan, Universitas Rusia-Armenia (Slavon). Tumpukan teknologinya termasuk C++, Unity dan Linux. Dia memiliki hasrat untuk pemrograman, mendaki, dan game.
   lc:
-    nama: LC
-    jabatan: Pengembang
+    name: LC
+    title: Pengembang
     bio: LC adalah pengembang anonim yang tertarik pada lintas-bagian antara pemerintah, politik, kekuasaan negara, dan teknologi. Menggambar dari filsuf seperti Foucault, Fisher, Ellul, Ranciere, dia tertarik pada kebebasan individu manusia, jadi dia secara alami tertarik pada anarki kripto. Dia berfokus pada keamanan komputer, filosofi, dan pengembangan perangkat lunak Python. Dia mengikuti cypherpunk Bitstream Podcast oleh Frank Braun & Jonathan 'penyelundup' Logan. 
   levonh:
-    nama: Levon Hovhannisyan
-    jabatan: Pengembang
+    name: Levon Hovhannisyan
+    title: Pengembang
     bio: Levon Hovhannisyan memiliki lebih dari 6 tahun pengalaman profesional, khususnya dalam C++, algoritma dan struktur data. Tumpukan teknologinya termasuk tidak terbatas pada standar C++ terbaru, Python, Lua, Windows/Linux. Selama karir profesionalnya, Levon juga memiliki pengalaman dalam game dan pengembangan backend. Dia lulus dari Universitas Rusia-Armenia (Slavon) dan selama belajar Levon terlibat dalam kontes pemrograman kompetitif, termasuk ACM ICPC, dan pengetahuan yang diperoleh telah membantunya menjadi dosen profesional dan pencipta kursus pembelajaran. Dia juga bersemangat mempelajari teknologi baru dan praktik pengembangan perangkat lunak, pemecahan masalah, dan video game.
   zorayrzakaryan:
-    nama: Zorayr Zakaryan
-    jabatan: Manajer Proyek Ponsel
+    name: Zorayr Zakaryan
+    title: Manajer Proyek Ponsel
     bio: Zorayr adalah pengembang backend perangkat lunak dengan pengalaman lebih dari 14 tahun. Spesialisasi dalam mengelola tim teknik dan menetapkan proses pengembangan yang tepat. Menyukai apa pun yang terkait dengan algoritma, aset kripto, dan video game.
   hakobkanoyan:
-    nama: Hakob Kanoyan
-    jabatan: Pengembang Ponsel
+    name: Hakob Kanoyan
+    title: Pengembang Ponsel
     bio: Hakob memiliki pengalaman lebih dari 10 tahun sebagai pengembang seluler, backend, dan game. Dia memiliki latar belakang matematika yang kuat termasuk kriptografi. Hakob memimpin pengembangan teknis dompet seluler Firo.
   haykzakaryan:
-    nama: Hayk Zakaryan
-    jabatan: Pengembang Ponsel
+    name: Hayk Zakaryan
+    title: Pengembang Ponsel
     bio: Dengan 11+ tahun pengalaman dalam rekayasa perangkat lunak, termasuk 7+ tahun pengembangan seluler asli dan lintas platform, Hayk bergabung dengan tim Firo sebagai insinyur seluler paruh waktu.
   arminezakaryan:
-    nama: Armine Zakaryan
-    jabatan: Desainer UI/UX
+    name: Armine Zakaryan
+    title: Desainer UI/UX
     bio: Seorang desainer UX / UI dengan pengalaman 5+ tahun. Dia adalah desainer otodidak yang penuh dengan antusiasme dan motivasi untuk menciptakan pengalaman yang inovatif, ramah pengguna, dan antarmuka pengguna yang kreatif. Saat ini sebagian besar mengerjakan desain produk B2B SAAS.
   anwarp:
-    nama: Anwar P.
-    jabatan: Senior Support
+    name: Anwar P.
+    title: Senior Support
     bio: Anwar mengambil jurusan teknik listrik dan elektronik, dengan beberapa tahun pengalaman teknisi support di sebuah perusahaan IT. Dia menangani query support, dokumentasi, developer support dan juga membantu Pengurus Proyek dengan masalah sehari-hari.
   ajaydono:
-    nama: Ajaydono
-    jabatan: Support
+    name: Ajaydono
+    title: Support
     bio: Ajay membantu Pengurus Proyek dalam operasi sehari-hari serta query support. Dia memiliki Diploma Teknologi Informasi jurusan Administrasi Database dan memiliki beberapa tahun pengalaman dukungan teknis TI.
   lucasfullam:
-    nama: Lucas Fullam
-    jabatan: Manajer Komunitas
+    name: Lucas Fullam
+    title: Manajer Komunitas
     bio: Lucas Fullam memiliki riwayat pekerjaan yang berfokus pada pelanggan di masa lalu mulai dari perwakilan layanan pelanggan hingga pengaturan acara di tempat dan konferensi. Dia pertama kali mendengar tentang aset kripto pada tahun 2012, tetapi tidak benar-benar mempelajarinya hingga tahun 2017 ketika salah satu temannya membawanya lebih dalam ke dunia kripto di mana dia akhirnya melihat seberapa besar potensi yang ada. Satu hal mengarah ke hal lain dan akhirnya dia menemukan Firo dan sisanya adalah sejarah.
   michaelmugglesbernhardt:
-    nama: Michael 'Muggles' Bernhardt
-    jabatan: Manajer Komunitas
+    name: Michael 'Muggles' Bernhardt
+    title: Manajer Komunitas
     bio: Seorang programmer dengan perdagangan, ia menjalankan bisnisnya sendiri untuk mengelola proyek air melalui portal online dengan instalasi di seluruh Afrika. Michael telah mempelajari kripto sejak 2013 dan memiliki hasrat yang kuat untuk privasi dan kebebasan.
   sebastianbausch:
-    nama: Sebastian Bausch
-    jabatan: Asian Operations
+    name: Sebastian Bausch
+    title: Asian Operations
     bio: Sebastian Bausch adalah investor malaikat yang berbasis di Bangkok dan telah menyukai aset kripto sejak 2011. Ia belajar bahasa Mandarin di Universitas Xiamen dan meraih gelar pascasarjana dari Universitas Nottingham. Dia mendukung operasi tim di wilayah tersebut dan mengkoordinasikan penerjemahan dan pertemuan.
   lemarlukebriones:
-    nama: Lemar “Luke” Briones
-    jabatan: Manajer Komunitas Filipina
+    name: Lemar “Luke” Briones
+    title: Manajer Komunitas Filipina
     bio: Lulusan Teknologi Informasi dari Filipina, Lemar telah menjadi penggemar aset kripto sejak 2017 dan berdedikasi untuk menyebarkan kesadaran tentang Firo di seluruh Filipina.
   aramjivanyan:
-    nama: Aram Jivanyan
-    jabatan: Kriptografer
+    name: Aram Jivanyan
+    title: Kriptografer
     bio: Aram adalah pencipta protokol privasi Lelantus dan Lelantus Spark Firo yang telah menghidupkan kembali minat pada satu dari banyak bukti dan mengilhami protokol privasi lainnya seperti Triptych (Monero) dan Lelantus-MW (Beam). Dia juga CEO pendiri Skycryptor, perusahaan Techstars yang mempelopori pengembangan algoritma enkripsi ulang proxy. Sebelum mendirikan Skycryptor, Aram bekerja sebagai peneliti kriptografi senior dan pemimpin tim pengembangan di American University of Armenia di mana kelompok ilmiah tersebut melakukan penelitian kriptografi untuk mitra industri Fortune 1000. Minat penelitian utama Aram termasuk kriptografi kotak putih, metode enkripsi yang dapat dicari, protokol transfer yang tidak disadari, dan sistem e-voting kriptografi.
   aregvrtanesyan:
-    nama: Areg Vrtanesyan
-    jabatan: Peneliti Kriptografi / Pengembang
+    name: Areg Vrtanesyan
+    title: Peneliti Kriptografi / Pengembang
     bio: Areg adalah seorang insinyur kriptografi di firo dan saat ini mengambil jurusan Cyber Security di YSU. Memiliki pengalaman dalam rekayasa perangkat lunak dan pemrograman back end di C++. Minatnya saat ini adalah kriptografi, keamanan informasi, dan musik.
   tigranmamikonyan:
-    nama: Tigran Mamikonyan
-    jabatan: Riset
+    name: Tigran Mamikonyan
+    title: Riset
     bio: Tigran meraih gelar Master di bidang Informatika dan Matematika Terapan serta Ilmu Komputer dan Informasi. Dia saat ini sedang mengejar gelar PhD di bidang Informatika dan Matematika Terapan di Yerevan State University.
   
 roadmap:
