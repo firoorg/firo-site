@@ -3882,11 +3882,12 @@ br.brmob {
     color: #fefefe;
     border: 2px solid #fefefe;
     width: 13rem;
+    border-radius: 100px;
 }
 
 #intro .intro-info a.btn-primary span, #intro .intro-info a.btn-primary i {
     vertical-align: middle;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #intro .intro-info a.btn-primary:hover, #intro .intro-info a.btn-primary:focus, #intro .intro-info a.btn-primary:active {
@@ -3932,7 +3933,7 @@ br.brmob {
 @media only screen and (max-width: 75rem) {
 
 #home header, #introwrap {
-    background-color: #E51718;
+    background-color: #B61936;
 }
 
 #intro {
@@ -3981,7 +3982,7 @@ br.brmob {
 }
 
 #intro:before {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 }
 
@@ -4020,11 +4021,13 @@ br.brmob {
 
 #intro .intro-info a.btn-secondary, #intro .intro-info a.btn-primary {
     margin-top: 3rem;
-}
-
-#intro .intro-info a.btn-secondary, #intro .intro-info a.btn-primary {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    width: 8rem;
+}
+
+#intro .intro-info a.btn-primary span, #intro .intro-info a.btn-primary i {
+    font-size: 1.2rem;
 }
     
 }
@@ -4120,7 +4123,7 @@ br.brmob {
 }
 
 a.btn-tertiary {
-    color: #C4060F;
+    color: #B61936;
     font-weight: 700;
     text-decoration: none;
     text-transform: none;
@@ -4283,7 +4286,7 @@ a.btn-tertiary i, #getfiro .btns .col p a i, a.btn-text i {
 }
 
 #getfiro .btns .col p a {
-    color: #C4060F;
+    color: #B61936;
     font-weight: 700;
     text-decoration: none;
     text-transform: none;
@@ -4366,7 +4369,7 @@ a.btn-tertiary i, #getfiro .btns .col p a i, a.btn-text i {
 /* footer changes */
 
 footer.section {
-    background-color: #D31A23;
+    background-color: #B61936;
     color: #fefefe;
 }
 
