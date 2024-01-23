@@ -22,7 +22,7 @@
                       <div>
                           <h4>{% t footer.newsletter %}</h4>
                           <p>{% t footer.ifsub %}</p>
-                          <a class="btn-text" href="https://t.me/fironews" target="_blank">{% t footer.newsbutton %}</a>
+                          <a class="btn-text" href="https://t.me/fironews" target="_blank"><span>{% t footer.newsbutton %}</span><i class="icons-right-small"></i></a>
                       </div>
                       <div class="social">
                           <h4>{% t footer.comm %}</h4>
@@ -42,9 +42,7 @@
                       <div href="#" class="dropdown language-change">
                             <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
                             <label for="langdrop">
-                              <img src="/img/site-icons/footer/language.svg" alt="Language icon">
                               {{ site.data.languages.langs.[site.lang] }}
-                              <img id="arrow" src="/img/site-icons/footer/down.svg" alt="Clickable arrow">
                             </label>
                             <div class="dropdown-content text-center">
                               {% for lang in site.languages %}

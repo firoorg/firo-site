@@ -1,118 +1,93 @@
 ---
-layout: base
+layout: home
 title: titles.home
 permalink: /index.html
 ---
-              <section id="intro">
-          <div class="row">
-              <div class="intro-img col">
-                  <img src="/img/firo-ecosystem.svg" alt="Image representing the Firo ecosystem"/>
-              </div>
-              <div class="intro-info col imgi">
-                  <img src="/img/img_firo-mobile-top2.svg" alt="Header for mobile" loading="lazy"/>
-              </div>
-              <div class="intro-info col">
-                  <h1>{% t home.heading %}</h1>
-                  <p>{% t home.heading2 %}</p>
-                  <a class="btn-primary" href="#getfiro">{% t home.cta1 %}</a>
-                  <a class="btn-secondary" href="{{ site.baseurl }}/about/faq/">{% t home.cta2 %}</a>
-              </div>
-              <div class="intro-info col imgi">
-                  <img src="/img/img_firo-mobile-bot2.svg" alt="Header for mobile" loading="lazy"/>
-              </div>
+
+        <section id="introwrap">
+          <div id="intro">
+               <div class="row">
+                    <div class="intro-info col">
+                         <h1>{% t home.heading %}</h1>
+                         <p>{% t home.heading2 %}</p>
+                         <a class="btn-primary" href="#getfiro"><span>{% t home.cta1 %}</span><i class="icons-right-small"></i></a>
+                    </div>
+               </div>
           </div>
-      </section>
+        </section>
       
       <section id="intro-info" class="section">
          <div class="container">
-          <div class="row blockchain">
-             <div class="col col-img">
-                  <img src="/img/privacy.svg" alt="Blockchain illustration" loading="lazy"/>
-             </div>
+            <div class="row">
+                <div class="col">
+                     <h2>{% t home.about %}</h2>
+                     <p>{% t home.aboutp %}</p>
+                </div>
+            </div>
+          <div class="row privacy">
              <div class="col col-info">
                   <h3>{% t home.privacy %}</h3>
                   <p>{% t home.privacy1 %}</p>
-                  <div class="row block-facts">
-                      <div class="col">
-                         <img src="/img/site-icons/icon_anonymous.svg" alt="stylised human figure with an exclamation mark on the face" loading="lazy"/>
-                         <div>
-                              <h4>{% t home.privacy2 %}</h4>
-                              <p>2<sup>16</sup></p>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <img src="/img/site-icons/icon_setup.svg" alt="stylised equalizer" loading="lazy"/>
-                          <div>
-                              <h4>{% t home.privacy3 %}</h4>
-                              <p>{% t global.yeth %}</p>
-                          </div>
-                      </div>
+                  <div class="block-facts">
+                      <ul>
+                        <li>
+                            <i class="icons-users"></i>
+                            <p>2<sup>16</sup> {% t home.privacy2 %}</p>
+                        </li>
+                        <li>
+                            <i class="icons-square-sliders-vertical"></i>
+                            <p>{% t home.privacy3 %}</p>
+                        </li>
+                      </ul>
                   </div>
              </div>
+             <div class="col col-img">
+                <img src="/img/privacy-img.svg" alt="Privacy illustration"/>
+             </div>
           </div>
-          <div class="row privacy">
+          <div class="row blockchain">
              <div class="col col-info">
                   <h3>{% t home.blockchain %}</h3>
                   <p>{% t home.blockchain1 %}</p>
                   <div class="row block-facts">
-                      <div class="col">
-                          <img src="/img/site-icons/icon_coins.svg" alt="stylised stack of coins" loading="lazy"/>
-                          <div>
-                              <h4>{% t home.blockchain2 %}</h4>
-                              <p>21.4 mil</p>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <img src="/img/site-icons/icon_axe.svg" alt="stylised axe" loading="lazy"/>
-                          <div>
-                               <h4>{% t home.blockchain3 %}</h4>
-                               <p>FiroPoW</p>
-                           </div>
-                      </div>
-                      <div class="col">
-                          <img src="/img/site-icons/icon_node.svg" alt="stylised stack of servers representing nodes" loading="lazy"/>
-                          <div>
-                              <h4>{% t home.blockchain4 %}</h4>
-                              <p>5000+</p>
-                          </div>
-                      </div>
+                    <ul>
+                        <li>
+                            <i class="icons-coins"></i>
+                            <p>21.4 mil {% t home.blockchain2 %}</p>
+                        </li>
+                        <li>
+                            <i class="icons-pickaxe"></i>
+                            <p>FiroPoW {% t home.blockchain3 %}</p>
+                        </li>
+                        <li>
+                            <i class="icons-server"></i>
+                            <p>5000+ {% t home.blockchain4 %}</p>
+                        </li>
+                    </ul>
                   </div>
              </div>
              <div class="col col-img">
-                  <img src="/img/blockchain.svg" alt="Blockchain illustration" loading="lazy"/>
+                  <img src="/img/blockchain-img.svg" alt="Blockchain illustration"/>
              </div>
           </div>
-          <div class="row blockchain">
-             <div class="col col-img">
-                  <img src="/img/privacy-infrastructure.svg" alt="Privacy Infrastructure illustration" loading="lazy"/>
-             </div>
+          <div class="row infrastructure">
              <div class="col col-info">
                   <h3>{% t home.privacyin %}</h3>
                   <p>{% t home.privacyin1 %}</p>
+             </div>
+             <div class="col col-img">
+                <img src="/img/infrastructure-img.svg" alt="Privacy Infrastructure illustration"/>
              </div>
           </div>
           <div class="row rnd">
              <div class="col col-info">
                   <h3>{% t home.randd %}</h3>
                   <p>{% t home.randd1 %}</p>
-                  <div class="row block-facts">
-                      <div class="col">
-                         <img src="/img/site-icons/icon_sigma.svg" alt="stylised sigma" loading="lazy"/>
-                         <h4>Sigma</h4>
-                      </div>
-                      <div class="col">
-                          <img src="/img/site-icons/icon_lelantus.svg" alt="stylised L" loading="lazy"/>
-                          <h4>Lelantus</h4>
-                      </div>
-                      <div class="col">
-                          <img src="/img/site-icons/icon_dandelion.svg" alt="stylised dandelion" loading="lazy"/>
-                          <h4>Dandelion</h4>
-                      </div>
-                  </div>
-                  <a class="btn-secondary" href="{{ site.baseurl }}/about/research/">{% t home.cta2 %}</a>
+
+                  <p><a class="btn-tertiary" href="{{ site.baseurl }}/about/research/"><span>{% t home.cta2 %}</span><i class="icons-right-small"></i></a></p>
              </div>
              <div class="col col-img">
-                  <img src="/img/rnd.svg" alt="Blockchain illustration" loading="lazy"/>
+                  <img src="/img/rnd-img.svg" alt="Blockchain illustration"/>
              </div>
           </div>
           </div>
@@ -120,31 +95,37 @@ permalink: /index.html
       
       <section id="getfiro" class="section">
          <div class="container">
-          <div class="row">
+          <div class="row head">
              <div class="col">
                   <h2>{% t home.getfiro %}</h2>
                   <p>{% t home.getfiro1 %}</p>
              </div>
           </div>
           <div class="row btns">
-             <a class="col" href="{{ site.baseurl }}/get-firo/download/">
-                  <img src="/img/wallet.svg" alt="Image representing a physical Firo wallet" loading="lazy"/>
+             <div class="col">
+                  <img src="/img/wallet-icon.svg" alt="" />
                   <h3>{% t home.getfiro2 %}</h3>
-             </a>
-             <a class="col" href="{{ site.baseurl }}/get-firo/buy-firo/">
-                  <img src="/img/buy-firo.svg" alt="Image representing swapping Firo for dollars" loading="lazy"/>
+                  <p>{% t home.getfiro2text %}</p>
+                  <p><a href="{{ site.baseurl }}/get-firo/download/"><span>{% t home.getfiro2link %}</span><i class="icons-right-small"></i></a></p>
+             </div>
+             <div class="col">
+                  <img src="/img/exchange-icon.svg" alt="" />
                   <h3>{% t home.getfiro3 %}</h3>
-             </a>
-             
-             <a class="col" href="{{ site.baseurl }}/guide/masternode-setup.html">
-                  <img src="/img/earn-firo.svg" alt="Image representing a masternode" loading="lazy"/>
+                  <p>{% t home.getfiro3text %}</p>
+                  <p><a href="{{ site.baseurl }}/get-firo/buy-firo/"><span>{% t home.getfiro3link %}</span><i class="icons-right-small"></i></a></p>
+             </div>
+             <div class="col">
+                  <img src="/img/masternode-icon.svg" alt="" />
                   <h3>{% t home.getfiro4 %}</h3>
-             </a>
-             
-             <a class="col" href="{{ site.baseurl }}/guide/how-to-mine-firo.html">
-                  <img src="/img/mine-firo.svg" alt="Image showing a pickaxe representing mining Firo" loading="lazy"/>
+                  <p>{% t home.getfiro4text %}</p>
+                  <p><a href="{{ site.baseurl }}/guide/masternode-setup.html"><span>{% t home.getfiro4link %}</span><i class="icons-right-small"></i></a></p>
+             </div>
+             <div class="col">
+                  <img src="/img/mining-icon.svg" alt="" />
                   <h3>{% t home.getfiro5 %}</h3>
-             </a>
+                  <p>{% t home.getfiro5text %}</p>
+                  <p><a href="{{ site.baseurl }}/guide/how-to-mine-firo.html"><span>{% t home.getfiro5link %}</span><i class="icons-right-small"></i></a></p>
+             </div>
           </div>
           </div>
       </section>  

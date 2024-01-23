@@ -1,37 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 1000 1000"
-   version="1.1"
-   id="svg4"
-   sodipodi:docname="facebook.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8" />
-  <sodipodi:namedview
-     id="namedview6"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.779"
-     inkscape:cx="500"
-     inkscape:cy="499.35815"
-     inkscape:window-width="1920"
-     inkscape:window-height="959"
-     inkscape:window-x="0"
-     inkscape:window-y="48"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
-  <path
-     d="M988 503q0-133-67-247-64-110-174-174-114-67-247-67-133 0-247 67-110 64-174 174-67 114-67 247 0 120 55 225 53 103 147 171 94 68 210 86l0-341-124 0 0-141 124 0 0-108q0-90 49.5-140 49.5-50 134.5-50 34 0 75 5l34 5 0 120-61 0q-42 0-63 24-17 19-17 52l0 92 136 0-22 141-114 0 0 341q116-18 210-86 94-68 147-171 55-105 55-225z"
-     id="path2"
-     style="fill:#8c939a;fill-opacity:1" />
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M988 503C988 414.333 965.667 332 921 256C878.333 182.667 820.333 124.667 747 82C671 37.3333 588.667 15 500 15C411.333 15 329 37.3333 253 82C179.667 124.667 121.667 182.667 79 256C34.3333 332 12 414.333 12 503C12 583 30.3333 658 67 728C102.333 796.667 151.333 853.667 214 899C276.667 944.333 346.667 973 424 985V644H300V503H424V395C424 335 440.5 288.333 473.5 255C506.5 221.667 551.333 205 608 205C630.667 205 655.667 206.667 683 210L717 215V335H656C628 335 607 343 593 359C581.667 371.667 576 389 576 411V503H712L690 644H576V985C653.333 973 723.333 944.333 786 899C848.667 853.667 897.667 796.667 933 728C969.667 658 988 583 988 503Z" fill="#ED9092"/>
 </svg>
