@@ -266,7 +266,7 @@ roadmap:
   elysiumdesc: Elysium allows token (for e.g. stablecoins, asset backed coins) to be issued on Firo’s network that will benefit from Firo’s privacy technology.
   elysiumv2: Elysium v2
   elysiumv2desc: Elysium v2 expands the capabilities of Elysium with easier bridging and DeFi capabilities. Elysium v2 will also implement Spats that will hide the asset type being transferred.
-  lelantusspark: Lelantus Spark (in progress)
+  lelantusspark: Lelantus Spark (done)
   lelantussparkdesc: Lelantus Spark allows direct anonymous payments allowing users to transact with each other without revealing amounts, source and recipient. Spark introduces a Spark addresses that will allow users to keep their funds totally hidden along with full view key and threshold multisig support.
   mobile: Mobile Wallet  (done)
   mobiledesc: A native, private by default mobile wallet that will have full Lelantus transaction support.

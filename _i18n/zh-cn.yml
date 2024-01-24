@@ -279,7 +279,7 @@ roadmap:
   elysiumdesc: Elysium 允许在 Firo 的网络上发行代币（如稳定币、资产支持币），将受益于 Firo 的隐私技术。
   elysiumv2: Elysium v2
   elysiumv2desc: Elysium v2 扩展了 Elysium 的功能，使其更容易实现桥接和 DeFi 功能。Elysium v2 还将实现 Spats，隐藏传输的资产类型。
-  lelantusspark: Lelantus Spark（进行中）
+  lelantusspark: Lelantus Spark（已完成）
   lelantussparkdesc: Lelantus Spark 允许直接匿名支付，允许用户在不透露金额、来源和接收方的情况下相互交易。Spark 引入了一个 Spark 地址，允许用户将他们的资金完全隐藏起来，同时还支持全查看密钥和阈值多重签名。
   mobile: 手机钱包（已完成）
   mobiledesc: 一个原生的、默认隐私手机钱包，将有完整的 Lelantus 交易支持。
