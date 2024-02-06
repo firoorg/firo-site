@@ -46,18 +46,13 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
 * [Zergpool](http://zergpool.com)
     * firopow.mine.zergpool.com:3001
     * firopow.eu.mine.zergpool.com:3001
-* [Solo Pool](https://firo.solopool.org/)
-    * s3.solopool.org:8014
-* [Cruxpool](https://www.cruxpool.com/firo)
-    * firo.cruxpool.com:2222
 * [Speedpool](https://mining.speedpool.top/pool/firo)
     * mining.speedpool.top:7000
 * [Minerpool](https://firo.minerpool.org/)
     * firo-us-east.minerpool.org:14058
     * firo-eu.minerpool.org:14058
-* [BadHasher](https://badhasher.com/pool/Firo)
-    * us-stratum.badhasher.com:3318
 * [K1Pool](https://k1pool.com/pool/firo)
+    * eu.firo.k1pool.com:3476
     * us.firo.k1pool.com:3476
 * For detailed stratum information, please visit the pool's own site.
 
