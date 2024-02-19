@@ -1,10 +1,10 @@
-firo_qt_version: "0.14.13.1"
-firo_old_commit: 39c41e5e7ec6
-firo_new_commit: ab389d8bbe78
+firo_qt_version: "0.14.13.2"
+firo_old_commit: ab389d8bbe78
+firo_new_commit: 0f9d27dfef6f
 
-qt_hashes_win: aa7c3ec92fbd69b72c6417f658538b548ee2b9c9e0d4d45038bb3e6569cfa645
-qt_hashes_mac: 974d3fd08a5fcca5eee42cc12f42646007fc07ee6c389fc19a53fc9e90030e1e
-qt_hashes_lin: a6e763399cbe58ece0485232f44d1bedb9951995df437e005af3ef8a2a16aeba
+qt_hashes_win: 4492d1a18774527b88fe6b8cc7538dfab44eb3b8ca35a0245dc559d2d9f70c80
+qt_hashes_mac: 65239262bbda1cf8c17b7ad3f9b84384f60d97c9594624f1a0f56411ae9c175e
+qt_hashes_lin: b06ebd9d8f4b2e5b2145ab4bcf6b290b50d272fc8b1c7fc3ada80254a7c9760a
 
 firo_electron_version: "4.0.0"
 electron_hashes_win: 0c21bd469db6788b1511d70989675158a0f8f749a25650805b6e26d705350011
