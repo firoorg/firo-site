@@ -21,9 +21,7 @@ As part of the event, an award will be given to the participant who comes up wit
 
 ### **How to Participate** 
 
-You can submit your entry with the hashtag **#FiroSloganShowdown** in the official Firo Telegram, or reply to the Twitter/X post. 
-
-With your creativity, we believe we can take our project to greater heights! We eagerly await your submissions!
+You can submit your entry with the hashtag **#FiroSloganShowdown** in the official [Firo Telegram Channel](https://t.me/firoorg), or reply to the Twitter/X post. 
 
 ## Selection Process
 A the end of submission date, The team will pick the top 3 slogans, and the final selection will be voted on by the Firo community in telegram and Twitter/X for 5 days.
@@ -33,3 +31,5 @@ A the end of submission date, The team will pick the top 3 slogans, and the fina
 * **1st place:** 1 T-shirt with their slogan on it and 25 FIRO
 * **2nd place:** 15 FIRO
 * **3rd place:** 10 FIRO
+
+With your creativity, we believe we can take our project to greater heights! We eagerly await your submissions!
