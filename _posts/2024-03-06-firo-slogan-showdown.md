@@ -24,7 +24,7 @@ As part of the event, an award will be given to the participant who comes up wit
 You can submit your entry with the hashtag **#FiroSloganShowdown** in the official [Firo Telegram Channel](https://t.me/firoorg), or reply to the Twitter/X post. 
 
 ## Selection Process
-A the end of submission date, The team will pick the top 3 slogans, and the final selection will be voted on by the Firo community in telegram and Twitter/X for 5 days.
+At the end of the submission period, the team will select the top 3 slogans. The final selection will be voted on by the Firo community on Telegram and Twitter for 5 days via polls.
 
 ## Event Prizes
 
