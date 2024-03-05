@@ -16,9 +16,9 @@ As part of the event, an award will be given to the participant who comes up wit
 
 ## Event Details
 
-**Start Date**: 6th March, 2024
-**Deadline for Submission**: 20th March 2024
-**How to Participate**: You can submit your entry with the hashtag **#FiroSloganShowdown** in the official Firo Telegram, or reply to the Twitter/X post. 
+* **Start Date**: 6th March, 2024 
+* **Deadline for Submission**: 20th March 2024 
+* **How to Participate**: You can submit your entry with the hashtag **#FiroSloganShowdown** in the official Firo Telegram, or reply to the Twitter/X post. 
 
 With your creativity, we believe we can take our project to greater heights! We eagerly await your submissions!
 
@@ -27,6 +27,6 @@ A the end of submission date, The team will pick the top 3 slogans, and the fina
 
 ## Event Prizes
 
-**1st place:** 1 T-shirt with their slogan and 25 FIRO
-**2nd place:** 15 FIRO
-**3rd place:** 10 FIRO
+* **1st place:** 1 T-shirt with their slogan and 25 FIRO
+* **2nd place:** 15 FIRO
+* **3rd place:** 10 FIRO
