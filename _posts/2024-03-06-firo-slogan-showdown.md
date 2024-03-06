@@ -21,7 +21,7 @@ As part of the event, an award will be given to the participant who comes up wit
 
 ### **How to Participate** 
 
-You can submit your entry with the hashtag **#FiroSloganShowdown** in the official [Firo Telegram Channel](https://t.me/firoorg), or reply to the Twitter/X post. 
+You can submit your entry with the hashtag **#FiroSloganShowdown** in the official [Firo Telegram Channel](https://t.me/firoorg), [Firo Matrix Channel](https://matrix.to/#/%23firo:matrix.org) or reply to the Slogan Showdown post on [Firo Twitter/X page](https://twitter.com/firoorg). 
 
 ## Selection Process
 At the end of the submission period, the team will select the top 3 slogans. The final selection will be voted on by the Firo community on Telegram and Twitter for 5 days via polls.
