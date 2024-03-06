@@ -45,14 +45,18 @@ permalink: /about/research/index.html
                                       <a href="https://eprint.iacr.org/2021/1173" alt="" class="paper-title">Lelantus Spark: Secure and Flexible Private Transactions</a>
                                       <p class="abstract">We propose a modification to the Lelantus private transaction protocol to provide recipient privacy, improved security, and additional usability features. Our decentralized anonymous payment (DAP) construction, Spark, enables non-interactive one-time addressing to hide recipient addresses in transactions. The modified address format permits flexibility in transaction visibility. Address owners can securely provide third parties with opt-in visibility into incoming transactions or all transactions associated to the address; this functionality allows for offloading chain scanning and balance computation without delegating spend authority. It is also possible to delegate expensive proving operations without compromising spend authority when generating transactions. Further, the design is compatible with straightforward linear multisignature operations to allow mutually non-trusting parties to cooperatively receive and generate transactions associated to a multisignature address. We prove that Spark satisfies formal DAP security properties of balance, non-malleability, and ledger indistinguishability.</p>
                                   </div>
-								  <div class="col">
+				 	<div class="col">
                                       <a href="https://eprint.iacr.org/2022/288" alt="" class="paper-title">Spats: user-defined confidential assets for the Spark transaction protocol.</a>
                                       <p class="abstract">In privacy-preserving transaction protocols, confidential asset designs permit transfer of quantities of distinct asset types in a way that obscures their types and values. Spark is a protocol that provides flexible privacy properties relating to addressing, transaction sources and recipients, and value transfer; however, it does not natively support the use of multiple confidential asset types. Here we describe Spats, a new design for confidential assets compatible with Spark that focuses on efficient and modular implementation. It does so by extending coin value commitments to bind and mask an asset type, and asserting in zero knowledge that this type is maintained throughout transactions. We describe the cryptographic components and changes to the Spark protocol necessary for the design of Spats.</p>
                                   </div>
-								  <div class="col">
+					<div class="col">
                                       <a href="{{ site.baseurl }}/blog/assets/helsing-1049371.pdf" alt="" class="paper-title">Helsing: Private Masternode Staking</a>
                                       <p class="abstract">Helsing is a protocol extension to Spark that allows for private staking operations not requiring transparent addresses or outputs. Specifically, Helsing provides for Spark-compatible collateral staking and coinbase payouts.</p>
                                   </div>
+				      <dib class="col">
+					<a href="{{ site.baseurl }}/blog/assets/Lelantus_Sparks_with_Curve_Trees__Implementation_Notes.pdf" alt="" class="paper-title">Lelantus Spark with Curve Trees</a>
+					<p class="abstract">A recent construction referred to as Curve Trees is a novel and efficient design for membership proofs which significantly optimizes the communication and computational complexity of the argument including the proof sizes, proving time, and verification time. This enables efficient scaling of the set size to billions of elements and very importantly also provides efficient batch verification techniques which further can decrease the marginal cost of proof verification. We discuss how Lelantus Spark can be implemented with Curve Trees to support full membership proofs.</p>
+			      	</div>	      
                               </div>
                           </div>
                       </div>
