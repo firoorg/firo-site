@@ -1399,6 +1399,11 @@ a.btn-primary, a.btn-secondary {
 .desk-wallets .col .inner .system.android:before {
     background-image: url(../img/android.svg);
 }
+
+.desk-wallets .col .inner .system.flathub:before {
+    background-image: url(../img/flathub.svg);
+    top: auto;
+}
     
 
 .desk-wallets .col .inner .system > a {
