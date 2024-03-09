@@ -105,6 +105,7 @@ download:
   qt: QT Wallet
   downloadqtw: Download QT for Windows
   downloadqtm: Download QT for MacOS
+  downloadqtflathub: Get it on Flathub
   downloadqtl: Download QT for Linux
   electron: Electron
   downloadelectronw: Download Electron for Windows
