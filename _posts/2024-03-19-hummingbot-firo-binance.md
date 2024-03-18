@@ -33,4 +33,4 @@ Note that liquidity only counts towards rewards where they are within 2.0% sprea
 
 Help contribute to $FIRO’s liquidity and get rewarded! 
 
-Hummingbot's Full article: [https://support.hummingbot.io/miner/8-week-for-firo-liquidity-mining-campaign}(https://support.hummingbot.io/miner/8-week-for-firo-liquidity-mining-campaign)
+Hummingbot's Full article: [https://support.hummingbot.io/miner/8-week-for-firo-liquidity-mining-campaign](https://support.hummingbot.io/miner/8-week-for-firo-liquidity-mining-campaign)
