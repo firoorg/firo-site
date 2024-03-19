@@ -14,7 +14,7 @@ Since the launch of our liquidity mining program, we have witnessed participatio
 
 ## Campaign Terms
 
-Start date: **March 19, 2024, 12:00 AM UT**  
+Start date: **March 19, 2024, 12:00 AM UTC**  
 Total reward pool*: ~US$4,000 (FIRO 248 per week)  
 Reward token: **FIRO**  
 Eligible token pair: **FIRO/BTC**  
