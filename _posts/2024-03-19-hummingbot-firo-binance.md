@@ -10,7 +10,7 @@ We are excited to share that we will be launching another 8-week liquidity minin
 
 Since the launch of our liquidity mining program, we have witnessed participation from 779 unique miners across various campaigns. The total filled order volume has reached an impressive $115 million as of November 27, 2023. We look forward to your continued participation in our campaigns and welcome new firofam to join us in earning rewards!
 
-![](/blog/assets/hummingbot-btc-firo-binance/screen1.png)
+![Firo-BTC hummingbot miner](/blog/assets/hummingbot-btc-firo-binance/screen1.png)
 
 Start date: **March 19, 2024, 12:00 AM UT**
 Total reward pool*: ~US$4,000 (FIRO 248 per week) 
