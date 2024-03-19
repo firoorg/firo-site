@@ -22,7 +22,7 @@ Eligible orders: maker orders placed with spreads of 2.0% or lower
 Exchange: [Binance](https://accounts.binance.com/en/register?ref=37748947)  
 
 *The links above contain referral links which would help support Firo’s core team’s efforts if you sign up to those exchanges through the link.*  
-\* Please see Hummingbot's [liquidity mining campaign terms](https://support.hummingbot.io/hc/en-us/articles/4402940217369-Additional-Campaign-Terms)  
+\* Please see Hummingbot's [Liquidity Mining Policy](https://support.hummingbot.io/miner/liquidity-mining-policy)  
 
 ### Getting Started
 
