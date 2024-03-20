@@ -28,6 +28,7 @@ You should only need to provide your address that you collateraled your FIRO in 
 *   [Masternodehosting](https://masternodehosting.com/) (by Flare)
 *   [Nodehub](https://nodehub.io/ref/charybdis)
 *   [PDABase](http://pdabase.com.my/zcoin-znode-hosting/) (small provider by Reuben and his friend Hui Sing to cater to mainly friends)
+*   [Pecunia](https://pecuniaplatform.io/home)
 *   [Satang Nodes](https://satang.com/nodes)
 
 ## Getting Started
