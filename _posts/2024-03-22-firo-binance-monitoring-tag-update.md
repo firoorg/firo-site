@@ -34,3 +34,5 @@ There has been some discussion with Binance on whether to retain the FIRO/BTC pa
 We also note that some privacy assets were excluded from the Monitoring Tag. We were advised that this was because their privacy features were not materially used when transferring to Binance and, therefore, were not a material concern, while Firo users regularly used Lelantus functions to deposit into Binance.
 
 We would like to thank Binance for remaining open to working with privacy projects like ours on finding a path to remain listed despite immense regulatory pressure on them when the easy thing to do would be to delist. While we strongly disagree with the regulations which in our opinion are overreaching and misguided, we understand that centralized exchanges are bound by the laws that govern them. We continue to monitor the situation and would also like to reiterate that we would not take any steps that would materially compromise user privacy for the sake of compliance.
+
+[Discuss this blog post on our forums.](https://forum.firo.org/t/update-on-binance-monitoring-tag-issue/3148)
