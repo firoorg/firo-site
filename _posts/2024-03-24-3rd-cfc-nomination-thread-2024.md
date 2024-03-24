@@ -7,7 +7,7 @@ author: "Reuben Yap"
 img: "/blog/assets/3rd-cfc-nomination/banner.png"
 ---
 
-The one year term of the [2nd CFC Committee](https://forum.firo.org/t/community-fund-committee-election-march-2023/2877) has ended and the time for the 2nd CFC nominations is underway in preparation for the election. 
+The one year term of the [2nd CFC Committee](https://forum.firo.org/t/community-fund-committee-election-march-2023/2877) has ended and the time for the 3rd CFC nominations is underway in preparation for the election. 
 
 Please express your interest in standing for election in the thread below. Do ensure you introduce yourself and why you are applying to the post and your experience/history with Firo.
 
