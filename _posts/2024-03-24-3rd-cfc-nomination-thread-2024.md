@@ -87,3 +87,5 @@ Moving on from these specifics, it's essential to outline the responsibilities a
 
 
 3rd CFC Election Nomination Thread: [https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150)
+
+Follow the Community Fund Committee deliberations on [Telegram](https://t.me/firocfc) and [Discord](https://discord.gg/ctuXBY5a)
