@@ -11,7 +11,7 @@ The one year term of the [2nd CFC Committee](https://forum.firo.org/t/community-
 
 Please express your interest in standing for election in the thread below. Do ensure you introduce yourself and why you are applying to the post and your experience/history with Firo.
 
-3rd CFC Election Thread: [https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150)
+3rd CFC Election Nomination Thread: [https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150)
 
 The 7 member CFC forms an important role in gradually decentralizing governance and sets up an independent fund (Firo Community Fund) to be used for the benefit of Firo. The FCF has been used to fund various community management efforts, audits, social media/marketing support and also to assist the core team where additional funds are required.
 
@@ -86,4 +86,4 @@ Moving on from these specifics, it's essential to outline the responsibilities a
 2. The CFC shall not represent itself as core team members or as representatives of the project.
 
 
-3rd CFC Election Thread: [https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150)
+3rd CFC Election Nomination Thread: [https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150)
