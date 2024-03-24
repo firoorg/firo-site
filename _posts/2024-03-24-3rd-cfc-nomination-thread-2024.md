@@ -84,4 +84,4 @@ Moving on from these specifics, it's essential to outline the responsibilities a
 2. The CFC shall not represent itself as core team members or as representatives of the project.
 
 
-3rd CFC Election Tread: [https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500(https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150)
+3rd CFC Election Tread: [https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150)
