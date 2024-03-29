@@ -9,6 +9,8 @@ permalink: /guide/masternode-setup.html
 
 **DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a masternode provider.
 
+**DISCLOSURE:** Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
+
 ## List of masternode Providers (arranged in alphabetical order)
 
 These providers have informed us that they are hosting Firo masternode hosting services. These are recommended if you don't have the technical expertise to follow these instructions. 
@@ -18,8 +20,6 @@ These providers have informed us that they are hosting Firo masternode hosting s
 Do your own due diligence when picking them. Some masternode providers may be run by team members in their own personal capacity but shall not be considered an official Firo provider. We will delist providers that are reported as scams or have acted irresponsibly but hold no responsibility for having them listed in this list as it is impossible for us to police. 
 
 You should only need to provide your address that you collateraled your FIRO in or the transaction ID. You should **NEVER** need to collateral 1000 FIRO to them or to an address outside your PC/mac wallet or to give any of your private keys (that is obtained via dumpprivkey). Here's an alphabetical list:
-
-**Disclosure:** Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
 
 *   [Allnodes](https://www.allnodes.com/?utm_source=zcoinio&utm_medium=setup-guide)
 *   [Flux](https://home.runonflux.io/apps/marketplace)
