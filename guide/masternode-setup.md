@@ -39,7 +39,7 @@ The list of available masternode providers:
 
 * [The latest version of Firo full nodewallet](({{ site.baseurl }}/get-firo/download/)) (Firo Qt/Firo Electron) 
 * 1000 FIRO plus transaction fee
-* A VPS/dedicated server
+* A VPS/dedicated server with static IPv4 address
 
 Hosting a masternode with hardware wallet requires the use of [Firo Masternode Tool,](https://github.com/firoorg/firo-masternode-tool/releases/latest) which can be used together with Electrum Firo.
 
