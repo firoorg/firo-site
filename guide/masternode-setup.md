@@ -41,6 +41,10 @@ The list of available masternode providers:
 * 1000 FIRO plus transaction fee
 * A VPS/dedicated server
 
+Hosting a masternode with hardware wallet requires the use of [Firo Masternode Tool,](https://github.com/firoorg/firo-masternode-tool/releases/latest) which can be used together with Electrum Firo.
+
+Running masternode off [Electrum Firo](https://github.com/firoorg/electrum-firo/releases/latest) alone is not officially supported.
+
 ### Step 1: Encrypt and Backup your wallet on your Desktop wallet
 
 ![](/guide/assets/masternode-setup/encryptwallet_firo.png) 
