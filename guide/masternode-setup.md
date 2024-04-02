@@ -9,17 +9,19 @@ permalink: /guide/masternode-setup.html
 
 **DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a masternode provider.
 
+**DISCLOSURE:** Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
+
 ## List of masternode Providers (arranged in alphabetical order)
 
 These providers have informed us that they are hosting Firo masternode hosting services. These are recommended if you don't have the technical expertise to follow these instructions. 
 
-**We do not endorse or recommend any particular masternode provider (even those run by team members)** and none of these are affiliated to Firo in anyway. 
+**We do not endorse or recommend any particular masternode provider** even those run by team members. None of the listed providers are affiliated with Firo in any way. 
 
 Do your own due diligence when picking them. Some masternode providers may be run by team members in their own personal capacity but shall not be considered an official Firo provider. We will delist providers that are reported as scams or have acted irresponsibly but hold no responsibility for having them listed in this list as it is impossible for us to police. 
 
-You should only need to provide your address that you collateraled your FIRO in or the transaction ID. You should **NEVER** need to collateral 1000 FIRO to them or to an address outside your PC/mac wallet or to give any of your private keys (that is obtained via dumpprivkey). Here's an alphabetical list:
+You should only need to provide the transaction ID and index of your masternode collateral. **NEVER* send the 1000 FIRO collateral anywhere else except to your own wallet, or give the collateral address' private key.
 
-**Disclosure:** Some of these links contain referral links whereby we may receive compensation when you sign-up or use their products/services. These do not constitute an endorsement of the product/service.
+The list of available masternode providers:
 
 *   [Allnodes](https://www.allnodes.com/?utm_source=zcoinio&utm_medium=setup-guide)
 *   [Flux](https://home.runonflux.io/apps/marketplace)
@@ -33,19 +35,25 @@ You should only need to provide your address that you collateraled your FIRO in 
 
 ## Getting Started
 
-Whether you are hosting with a masternode provider or doing it on your own, ensure you have the latest [Firo wallet]({{ site.baseurl }}/get-firo/download/) and you have already obtained your **1000 FIRO** (preferably just a bit more to cover fees when you're transferring around). **Steps 1 and 2 are still required** even if you are going for a masternode provider.
+### Requirements
+
+* [The latest version of Firo full nodewallet](({{ site.baseurl }}/get-firo/download/)) (Firo Qt/Firo Electron) 
+* 1000 FIRO plus transaction fee
+* A VPS/dedicated server with static IPv4 address
+
+Hosting a masternode with hardware wallet requires the use of [Firo Masternode Tool,](https://github.com/firoorg/firo-masternode-tool/releases/latest) which can be used together with Electrum Firo.
+
+Running masternode off [Electrum Firo](https://github.com/firoorg/electrum-firo/releases/latest) alone is not officially supported.
 
 ### Step 1: Encrypt and Backup your wallet on your Desktop wallet
 
-If you haven't done so already, make sure you encrypt your wallet on your **local desktop wallet** (PC/Mac/Linux). 
-
-Go to **Settings > Encrypt Wallet.** 
-
 ![](/guide/assets/masternode-setup/encryptwallet_firo.png) 
 
-After you have encrypted your wallet, it is also recommended to do a backup via **File > Backup Wallet**. It is recommended to store this wallet on a separate physical drive or pen drive. The wallet.dat is encrypted so even if the wallet.dat is exposed, if your password is long enough, it will be secure.
+Encrypt your wallet on your **local desktop wallet** (PC/Mac/Linux) by going to **Settings/Preferences > Encrypt Wallet.**
 
- **Please don't forget your password! No one can help you if you lose your password.** 
+It is also recommended to do a backup via **File > Backup Wallet**. Store this backup file separately from your wallet.
+
+ **Do not forget the password used for encrypting your wallet.**
 
 ### Step 2: collateral your 1000 FIRO on your Desktop wallet
 
@@ -55,7 +63,9 @@ You can create the collateral address in two ways: using the Receive tab, OR in 
 
 #### Receive tab:
 
-Click on the Receive tab. Enter a label for your collateral address in the Label field and click on Request Payment. A window should pop up with a Firo address.
+**Note:** You cannot host masternodes on Spark addresses yet.
+
+Click on the Receive tab. From the Address dropdown menu, select _Transparent._ Enter a label for your collateral address in the Label field and click on Request Payment. A window should pop up with a Firo transparent address.
 
 #### Debug Window:
 
@@ -63,11 +73,9 @@ Go to Help > Debug Window > Console and type in
  
 `getnewaddress` 
 
-In one single transaction, send **exactly 1000 FIRO** into the masternode collateral address that you created. Do not send 500 and then another 500. **It has to be in one single transaction. Do not tick subtract fee from amount.** 
+In one single transaction, send **exactly 1000 FIRO** into the masternode collateral address that you created. **It has to be in one single transaction. Do not tick subtract fee from amount.** Do not send 500 and then another 500.  
 
-It is not recommended to send it direct from an exchange as they might deduct certain withdrawal fees resulting in less than 1000 FIRO in that transfer. 
-
-Wait **1 confirmation** for this transaction to be valid as your masternode collateral. When done correctly, the transaction id and transaction index will appear when you execute this command in the Debug Console:
+Wait **1 confirmation** for this transaction to be mined. When done correctly, the transaction id and index will appear when you execute this command in the Debug Console:
 
 `evoznode outputs`
 
@@ -93,9 +101,7 @@ _a, b, and c can be generated through Receive tab or the Debug Window, just like
 
 #### a. ownerAddress
 
-Proof that you own the masternode. Must be in the same wallet as collateral. **DO NOT USE THE COLLATERAL ADDRESS AS OWNER ADDRESS.**
-
-**DO NOT SEND COINS TO THE OWNER ADDRESS. DO NOT USE IT AS PAYOUT ADDRESS. DO NOT USE THIS ADDRESS FOR ANY OTHER PURPOSE.**
+Must be a new transparent address. Must be in the same wallet as collateral. **DO NOT RE-USE THE COLLATERAL ADDRESS AS OWNER ADDRESS.**
 
 #### b. payoutAddress
 
@@ -107,7 +113,7 @@ An address with funds to pay the transaction fee for registering your masternode
  
 `listaddressbalances 0.01` 
 
-If you do not have any, you can create an address and send some Firos there. You can then use the address as feeSourceAddress.
+If you do not have any, you can create an address and send some Firo there. You can then use the address as feeSourceAddress.
 
 #### d. operatorKey/operatorPubKey
 
@@ -119,15 +125,15 @@ In Debug Console, enter bls generate. The output will be similar to this:
     }
     
 
-**secret**: This is your operatorKey (for protx) and also the znodeblsprivkey for use in Step 6. 
+**secret**: This is your operatorKey (for protx) and also the znodeblsprivkey for use in Step 6. **Do not lose this key. If you do, you will need to re-create your masternode from scratch.**
 
-**public**: This is your operatorPubKey (for protx) 
+**public**: This is your operatorPubKey (for masternode registration transaction) 
 
 You cannot **regenerate the same pair of keys,** but you can generate the public key from the secret key if you lose the public key.
 
 ### Step 4: Get a VPS
 
-There are many providers to choose out there.
+There are many providers to choose from:
 
 *   [Digital Ocean](https://m.do.co/c/f89c8c2af033)
 *   [Linode](https://www.linode.com/?r=af3000184137a5eedea8fcfd03fd48f36b8471a3)
@@ -136,14 +142,15 @@ There are many providers to choose out there.
 
 Select a VPS package that meets the minimum requirements:
 
+*   1 or 2 vCPU cores 
 *   1.5 GB of RAM (2 GB with swap on recommended)
-*   25 GB of disk space (blockchain size is currently 5.3GB in May 2023)
+*   25 GB of disk space (blockchain size is currently 9.0 GB in April 2024)
 
 **Note:** With FiroPoW, the blockchain grows at a rate of about 1 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
 When choosing a server, please remember reliability is more important than price. If your masternode goes offline, you will potentially miss out on payouts which would be more than your VPS cost. 
 
-Pick **Ubuntu 20.04 64-bit** and install it. 
+Choose **Ubuntu 22.04 64-bit** and install it. 
 
 Once it is done, the VPS provider should give you a username (usually root) and a password. Use a SSH client like [Putty](http://www.putty.org/) or if the VPS provider provides, it open up a console window.
 
@@ -162,6 +169,8 @@ Create a new user with the following command, replacing <username> with a userna
 You will be prompted for a password. Enter and confirm using a new password (different to your root password) and store it in a safe place. 
 
 You will also see prompts for user information, but this can be left blank. 
+
+**Note:** A common mistake is logging in as the root user even when the masternode is running under another user.
 
 Once the user has been created, we will add them to the sudo group so they can perform commands as root. Only commands/applications run with sudo will run with root privileges, while others will run with regular privileges
  
@@ -199,7 +208,7 @@ The next step opens port 8168 which is required for your masternode to communica
 
 #### Allocating a Swap File
 
-_You can skip this step if your VPS provider has automatically allocated swap for you. Use the **free** command to check if swap exists._
+_You can skip this step if your VPS provider has automatically allocated swap for you. Use the **free -h** command to check if swap exists._
 
 `fallocate -l 4G /swapfile`
 
@@ -211,11 +220,11 @@ _You can skip this step if your VPS provider has automatically allocated swap fo
 
 `nano /etc/fstab` 
 
-Add the following line at the end of the file (press tab to separate each word/number
+Add the following line at the end of the file (press tab to separate each word/number):
  
 `/swapfile none swap sw 0 0` 
 
-then press Ctrl + X to close the editor, then Y and Enter save the file. Then reboot the server. 
+then press Ctrl + X to close the editor, then Y and Enter save the file, then reboot the server: 
 
 `reboot now` 
 
@@ -239,7 +248,7 @@ Create a new config file for your masternode. Type
 
 This will create a new directory and also open up a new text file called firo.conf in a text editor called nano. 
 
-In that new file type the following and **change the capitalized parts** to match your actual details. The rpc username and password can be anything you wish (try to make it longer a bit).
+In that new file type the following and **change the capitalized parts** to match your actual details.
 
     #----
     rpcuser=ANYUSERNAME
@@ -259,9 +268,7 @@ In that new file type the following and **change the capitalized parts** to matc
 
 Press **Ctrl-X** to save and press **Y** to confirm it. 
 
-
-
-Type following commands to start your firod daemon and let it sync. This will take a few hours. 
+Type following commands to start your Firo daemon and let it sync. This will take a few hours. 
 
 `cd ~/firo-{{ site.data.downloads.firo_new_commit }}/bin`
 
@@ -273,9 +280,11 @@ You can always check the status of syncing by typing
 
 and compare the blocks number with [our Block Explorer](https://explorer.firo.org). Once it has synced, it's now time to start your masternode.
 
+**Note:** You can copy firod and firo-cli to /usr/local/bin, but you need to ensure that these are kept up-to-date as well.
+
 ### Step 7: Registering your masternode
 
-_**The registration process must be done on your local wallet, not on your VPS/masternode**_
+_The registration process must be done **on your local wallet,** not on your VPS/masternode_
 
 Once you have done all the above, you can now register your masternode with the following command:
 
@@ -305,6 +314,14 @@ If everything is correct, you should get a transaction ID.
 #### **Example**
 
 ```
+evoznode outputs
+
+{
+  "4950f88867b69760d3cd7c1f53531340f6723eb8f7d7f00730abfa12c5fe10e0": "0"
+}
+```
+
+```
 protx register 4950f88867b69760d3cd7c1f53531340f6723eb8f7d7f00730abfa12c5fe10e0 0 207.148.122.12:8168 TRVDAxJwaZYFfmti4aTeKCByz1jbMq8Jy4 995b3e1e2a65ce960a8cc7d305c5914b7f60e888c338c1f3317efbdcac58e82ecc110315ce03f49d9d387ff35c2796ad "" 0 TEZ8M8Fgp8h4HvUjXtjz3krYraRtySiXdw TQGmCxUQHK2xKGYNyeqGdSYQqfEAB2hjtd` 
 ```
 
@@ -321,11 +338,11 @@ payoutAddress: TEZ8M8Fgp8h4HvUjXtjz3krYraRtySiXdw
 feeSourceAddress: TQGmCxUQHK2xKGYNyeqGdSYQqfEAB2hjtd
 ```
 
-Registration is successful once the transaction containing your registration is mined and is included in a block. To check, copy the transaction ID and enter it here: [explorer.firo.org](https://explorer.firo.org) 
+Registration is successful once the transaction containing your registration is mined. To check, copy the transaction ID and enter it here: [explorer.firo.org](https://explorer.firo.org) 
 
-Once the transaction is mined, the nodes you just registered should appear in the masternodes tab in the wallet. 
+Once the transaction is mined, the nodes you just registered should appear in the **Masternodes tab** in the wallet. 
 
-**Do not skip this step.** To check your masternode's status on the masternode itself, do **./firo-cli evoznode status**. If everything was setup correctly, you should see your masternode's details along with these two lines at the bottom: 
+**Do not skip this step.** To check your masternode's status on the masternode itself, do **./firo-cli getblockcount** and **./firo-cli evoznode status**. If everything was setup correctly, you should 1) the latest block number, and 2) see your masternode's details along with these two lines at the bottom: 
 ```
 "state": "READY", 
 "status": "Ready
@@ -333,7 +350,7 @@ Once the transaction is mined, the nodes you just registered should appear in th
 
 ### Unbanning your masternode
 
-_**The ubanning process must be done on your local wallet, not on your VPS/masternode**_
+_The ubanning process must be done **on your local wallet**, not on your VPS/masternode_
 
 Your masternode is banned if it has the **POSE_BANNED** status. You can unban your masternode by entering this command in your local wallet's Debug Console:
 `protx update_service proTxHash ipAndPort operatorKey operatorPayoutAddress feeSourceAddress`
@@ -349,12 +366,12 @@ feeSourceAddress: an address in the local wallet that has FIRO to fund the trans
 
 Please ensure that you have fixed the problem that caused the ban before unbanning your masternode otherwise it will get banned again. [A more detailed guide is here.](https://github.com/firoorg/firo/wiki/Troubleshooting-masternode%3A-PoSe-score-and-PoSe-ban)
 
-After unbanning, ensure that you check the status of the masternode in both the wallet and the masternode itself.
+After unbanning, ensure that you check the status of the masternode in both the wallet and **the masternode itself.** Failure to do this will cause another ban as you just unbanned your masternode on the network but did not fix the problem that caused it to be banned in the first place.
 
 ### Additional tips
 
 The following tips are not covered by this guide but can ensure smoother running of your masternode.
-* Ensure that your masternode is automatically started after a VPS reboot using [monit](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-monit) or [systemd](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-systemd)
+* Ensure that your masternode is automatically started after a VPS reboot using [systemd](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-systemd)
 * Set Ubuntu to automatically download and install new upgrades
 * Further secure your masternode by modifying the SSH configuration file and/or install and configure fail2ban
 * [Prevent the debug.log from getting too big by rotating it](https://github.com/firoorg/firo/wiki/Configuring-logrotate-for-Firo%27s-debug.log)
