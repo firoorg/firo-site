@@ -2,7 +2,7 @@
 layout: post
 title: "Firo Tokenomics Discussion with upcoming Halving"
 summary: "Firo's Halving in mid September 2024"
-tags: [community, development]
+tags: [community, dev]
 author: "Reuben Yap"
 img: "/blog/assets/halvingtokenomics2024/banner.png"
 ---
