@@ -24,13 +24,16 @@ This was a deliberate decision to ensure that if there is any extension of the d
 There are three questions that need to be answered:
 
 **1. What should the block division be after the halving?**
+
 This is self-explanatory and basically regulates what should be the respective percentages between masternodes, miners, development fund and community fund or should the funds exist at all.
 
 **2. Should the existing halving schedule be maintained or should it be relooked at?**
+
 We follow Bitcoin’s halving schedule which halves every 4 years. While this served Bitcoin well and was suitable when there was no ecosystem at all, the industry has changed and most projects now have faster emission cycles and are already almost fully emitted with only a tail emission remaining (for e.g. XMR).
 Also to consider whether halvings every 4 years are correct or instead adopt a more gradual reduction of supply.
 
 **3. Whether we should consider adopting a tail emission with/without dynamic blocks**
+
 Personally, while this problem is not going to happen for a while, it would be good to answer this sooner rather than later. I strongly believe in the need for a tail emission to have stable security instead of one that fluctuates based on the transaction volume which ebbs and wanes. The only value of not having a tail emission is to say ‘fixed supply’ which is a strong narrative for many people. Bitcoin will face this problem sooner than us so another option is just to wait for them to face those issues and then adapt it then.
 
 Before anyone weighs in as this is a very important decision, I hope everyone considers the following:
