@@ -12,10 +12,10 @@ Link to the 2024 Firo Tokenomics Discussion with upcoming Halving thread is loca
 
 Currently it is divided as follows:
 
-50% Masternodes
-25% Miners
-15% Dev reward
-10% Community Fund
+* 50% Masternodes 
+* 25% Miners 
+* 15% Dev reward 
+* 10% Community Fund 
 
 Based on the current code, if no change is made, the development fund and community fund will be ceased and the block reward will go 50% to miners and 50% to masternodes.
 
