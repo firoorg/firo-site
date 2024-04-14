@@ -434,7 +434,7 @@ operatorPayoutAddress: "" , if you set your operatorReward to 0 during registrat
 feeSourceAddress: an address in the local wallet that has FIRO to fund the transaction. Can be obtained with the listaddressbalances command
 ```
 
-Please ensure that you have fixed the problem that caused the ban before unbanning your masternode otherwise it will get banned again. [A more detailed guide is here.](https://github.com/firoorg/firo/wiki/Troubleshooting-masternode%3A-PoSe-score-and-PoSe-ban)
+Please ensure that you have fixed the problem that caused the ban before unbanning your masternode otherwise it will get banned again. [A more detailed guide is available]({{ site.baseurl }}/guide/troubleshooting-masternode.html).
 
 After unbanning, ensure that you check the status of the masternode in both the wallet and **the masternode itself.** Failure to do this will cause another ban as you just unbanned your masternode on the network but did not fix the problem that caused it to be banned in the first place.
 
