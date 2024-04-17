@@ -400,6 +400,26 @@ h1, h2, h3 {
     
 }
 
+/* CODE */
+
+code {
+    background-color: blue;
+    display: inline;
+    overflow: auto;
+    padding: 0.5rem;
+    background-color: #DFEBF2;
+    white-space: pre;
+    font: 0.9rem andale mono,Courier,courier new,monospace
+}
+
+/* Code blocks */
+
+pre > code {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
 /*space*/
 
 .section {
@@ -522,7 +542,7 @@ h1, h2, h3 {
 
 .main-menu li.nav-item ul.dropdown li a {
     display: block; 
-    padding: 1rem; 
+    padding: 1rem;
     font-size: 1rem;
     -webkit-transition: background-color ease-out .3s; 
     -moz-transition: background-color ease-out .3s; 
@@ -2947,6 +2967,7 @@ a.btn-primary, a.btn-secondary {
 
 .blog-section .col.post-page .post-body ul li, .blog-section .col.post-page .post-body ol li {
     font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .blog-section .col.post-page .post-body ul li a, .blog-section .col.post-page .post-body ol li a {
@@ -2957,17 +2978,6 @@ a.btn-primary, a.btn-secondary {
 
 .blog-section .col.post-page .post-body ul p, .blog-section .col.post-page .post-body ol p {
     display: inline;
-}
-
-.blog-section .col.post-page .post-body code {
-    background-color: blue;
-    display: block;
-    overflow: auto;
-    padding: 1rem;
-    white-space: pre;
-    background-color: #DFEBF2;
-    font: 0.9rem andale mono,Courier,courier new,monospace;
-    margin-top: 1rem;
 }
 
 .blog-section h2.tag-blog {
