@@ -65,25 +65,43 @@ Open your favourite text editor, cut and paste the following line corresponding 
 ### For Pool Mining
 
 Firominer:
+
 * Nvidia:
- `firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
+
+```
+firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
+```
+
 * AMD:
-`firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT`
+
+```
+firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
+```
 
 T-Rex Miner (Nvidia):
-`t-rex.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
+
+```
+t-rex.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password
+```
 
 Team Red Miner (AMD):
-`teamredminer.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password`
+
+```
+teamredminer.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password
+```
 
 SRBMiner-Multi (AMD):
-`SRBMiner-MULTI.exe --disable-cpu --algorithm firopow --pool POOLADDRESS:PORT --wallet username.worker --gpu-boost 3`
+
+```
+SRBMiner-MULTI.exe --disable-cpu --algorithm firopow --pool POOLADDRESS:PORT --wallet username.worker --gpu-boost 3
+```
 
 After pasting it in, save the file as a .bat file (for e.g. **miner.bat**) in the same folder where you had extracted the miner binary earlier. 
 
 ### For Solo Mining
 
 You will need to edit **firo.conf** to allow RPC calls. Navigate to the [default data directory](https://github.com/firoorg/firo/wiki/Default-data-directories), create a file called **firo.conf,** and add and modify these lines:
+
 ```
 rpcuser=RPCUSER (up to you to change)
 rpcpassword=RPCPASSWORD (up to you to change)
@@ -93,9 +111,12 @@ listen=1
 server=1
 daemon=1
 ```
+
 Once this is done, restart your Firo wallet and ensure it is synced to the latest block. Then make a new file called miner.bat as below and save it in the same folder as where you had extracted the miner binary earlier.
 
-`firominer -P http://RPCUSER:RPCPASSWORD@127.0.0.1:8382 --reward-address YOURFIROADDRESS`
+```
+firominer -P http://RPCUSER:RPCPASSWORD@127.0.0.1:8382 --reward-address YOURFIROADDRESS
+```
 
 Please ensure that the line in **miner.bat** matches the relevant settings from **firo.conf** such as rpcuser, rpcpassword, and rpcport.
 
