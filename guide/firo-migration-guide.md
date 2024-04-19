@@ -82,13 +82,17 @@ If you are **stuck on block 336890**, update to the [latest version](https://git
 
 Go to Help -> Debug Window -> Console and enter:
 
-`reconsiderblock bac60b152687f66dc8e70896642b76334f04b256a6875f6c048b153aad923406`
+```
+reconsiderblock bac60b152687f66dc8e70896642b76334f04b256a6875f6c048b153aad923406
+```
 
 Output will be (null). Restart wallet and it should start syncing.
 
 ### Masternode: 
 
-`./firo-cli reconsiderblock bac60b152687f66dc8e70896642b76334f04b256a6875f6c048b153aad923406`
+```
+./firo-cli reconsiderblock bac60b152687f66dc8e70896642b76334f04b256a6875f6c048b153aad923406
+```
 
 ## Resetting options
 
@@ -96,7 +100,9 @@ Output will be (null). Restart wallet and it should start syncing.
 
 Open the folder where the **firo-qt.exe** is located. Hold Shift, right-click inside the folder and select **'Open PowerShell window here'**. In the window that appears, type:
 
-`.\firo-qt.exe -resetguisettings`
+```
+.\firo-qt.exe -resetguisettings
+```
 
 The wallet should now start with the 'Choose your data directory' window.
 
@@ -104,7 +110,9 @@ The wallet should now start with the 'Choose your data directory' window.
 
 Using the **Terminal**, enter the following command:
 
-`/Applications/firo-qt.app/Contents/MacOS/Firo-qt -resetguisettings`
+```
+/Applications/firo-qt.app/Contents/MacOS/Firo-qt -resetguisettings
+```
 
 The wallet should now start with the 'Choose your data directory' window.
 
@@ -112,6 +120,8 @@ The wallet should now start with the 'Choose your data directory' window.
 
 Navigate to the directory where your **firo-qt** binary is. In the **Terminal**, type in the following:
 
-`./firo-qt -resetguisettings`
+```
+./firo-qt -resetguisettings
+```
 
 The wallet should now start with the 'Choose your data directory' window.

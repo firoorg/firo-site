@@ -14,35 +14,70 @@ Please note that if you did not update in time to a mandatory release or before 
 2.  Copy a link to the Linux archive from [GitHub](https://github.com/firoorg/firo/releases/latest) or [Sourceforge](https://sourceforge.net/projects/firoorg/files/) by right-clicking the file name (e.g. firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz) and selecting the copy link menu item in your browser.
 3.  On the masternode’s command line, type **wget** and insert the copied link after it like so: 
 
-`cd ~` 
-`wget https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz` 
+```
+cd ~
+```
+
+```
+wget https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz
+```
 
 This will download the archive to your masternode.
 
 {:start="4"}
 4.  Stop the old daemon  
 
-`cd ~/firo-{{ site.data.downloads.firo_old_commit }}/bin` 
+```
+cd ~/firo-{{ site.data.downloads.firo_old_commit }}/bin
+```
+
 (this is the folder of the major version you are upgrading _from_) 
-`./firo-cli stop` 
+
+```
+./firo-cli stop
+```
+
 and remove the old version 
-`cd ~` 
-`rm -rv firo-{{ site.data.downloads.firo_old_commit }}` 
+
+```
+cd ~ 
+```
+
+```
+rm -rv firo-{{ site.data.downloads.firo_old_commit }}
+```
+
 (see above) 
 
 {:start="5"}
 5.  Unpack the downloaded archive by typing 
-`tar xvzf firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz` 
+
+```
+tar xvzf firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz
+```
 
 {:start="6"}
-6.  Now you can start your masternode again 
-`cd ~/firo-{{ site.data.downloads.firo_new_commit }}/bin` 
+6.  Now you can start your masternode again
+
+```
+cd ~/firo-{{ site.data.downloads.firo_new_commit }}/bin
+```
+
 (new version)
-`./firod -daemon` 
+
+```
+./firod -daemon
+```
 
 **Always check that your masternode is running normally after every upgrade** with 
-`./firo-cli getinfo`
-`./firo-cli evoznode status`
+
+```
+./firo-cli getinfo
+```
+
+```
+./firo-cli evoznode status
+```
 
 Failure to check can cause your masternode to **get banned** some time later.
 

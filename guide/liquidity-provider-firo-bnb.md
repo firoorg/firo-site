@@ -21,7 +21,9 @@ Before starting, you will need a wallet that works with the Binance Smart Chain 
 
 3. In the 'Token Contract Address', enter the following:
 
-`0xd5d0322b6bab6a762c79f8c81a0b674778e13aed`
+```
+0xd5d0322b6bab6a762c79f8c81a0b674778e13aed
+```
 
 {:start="4"}
 4. If you correctly setup your wallet with BSC in the first step, the 'Token Symbol' will be automatically filled with 'FIRO'. Click next.
