@@ -19,7 +19,7 @@ These providers have informed us that they are hosting Firo masternode hosting s
 
 Do your own due diligence when picking them. Some masternode providers may be run by team members in their own personal capacity but shall not be considered an official Firo provider. We will delist providers that are reported as scams or have acted irresponsibly but hold no responsibility for having them listed in this list as it is impossible for us to police. 
 
-You should only need to provide the transaction ID and index of your masternode collateral. **NEVER* send the 1000 FIRO collateral anywhere else except to your own wallet, or give the collateral address' private key.
+You should only need to provide the transaction ID and index of your masternode collateral. **NEVER** send the 1000 FIRO collateral anywhere else except to your own wallet, or give the collateral address' private key.
 
 The list of available masternode providers:
 
@@ -37,7 +37,7 @@ The list of available masternode providers:
 
 ### Requirements
 
-* [The latest version of Firo full nodewallet](({{ site.baseurl }}/get-firo/download/)) (Firo Qt/Firo Electron) 
+* [The latest version of Firo full nodewallet]({{ site.baseurl }}/get-firo/download/) (Firo Qt/Firo Electron) 
 * 1000 FIRO plus transaction fee
 * A VPS/dedicated server with static IPv4 address
 
