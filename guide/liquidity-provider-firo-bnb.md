@@ -11,7 +11,7 @@ img: ""
 
 Before starting, you will need a wallet that works with the Binance Smart Chain (BSC) network. 
 
-[Please follow the guide here in order to connect your Metamask wallet to the BSC Network.](https://docs.binance.org/smart-chain/wallet/metamask.html)
+[Please follow the guide here in order to connect your Metamask wallet to the BSC Network.](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
 
 ## Adding BEP20 FIRO support to your Metamask wallet
 
