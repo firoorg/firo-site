@@ -41,7 +41,7 @@ _(This list is non-exhaustive. Your masternode might be facing a problem that is
 
 * Problems with the datacenter
 
-When everything is configured correctly, `./firo-cli evoznode status` and ``./firo-cli getinfo` will return
+When everything is configured correctly, `./firo-cli evoznode status` and `./firo-cli getinfo` will return
 
 ```
   "state": "READY",
@@ -81,7 +81,7 @@ This command will unlock your wallet for 60 seconds and returns a `(null)` messa
 
 `operatorKey`: znodeblsprivkey of the masternode
 
-`operatorPayoutAddress`: "" (if you set your operatorReward to 0)
+`operatorPayoutAddress`: `""` (if you set your operatorReward to 0)
 
 `feeSourceAddress`: an address in wallet that has a balance to fund the transaction
 

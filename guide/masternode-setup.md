@@ -359,7 +359,7 @@ where
 - `ipAndPort`: the IP address and port of your masternode
 - `ownerAddress`: the ownerAddress, generated in Step 3
 - `operatorPubKey`: the "public" part of the "bls generate" output, generated in Step 3
-- `votingAddress`: "" (defaults to ownerAddress)
+- `votingAddress`: `""` (defaults to ownerAddress)
 - `operatorReward`: 0
 - `payoutAddress`: A valid Firo address for your masternode payouts, generated in Step 3
 - `feeSourceAddress`: A valid Firo address with funds in it to fund the masternode registration, from Step 3
