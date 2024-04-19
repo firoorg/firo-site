@@ -72,6 +72,12 @@ If you were unable to start the Electron client for some reason, edit the **firo
 
 ```
 reindex=1
+```
+
+```
 reindex-chainstate=1
+```
+
+```
 rescan=1
 ```
