@@ -9,7 +9,7 @@ global:
 titles:
   home: Home
   download: Download
-  buyfiro: Buy firo
+  buyfiro: Buy Firo
   tech: Research
   team: Team
   roadmap: Roadmap
@@ -74,14 +74,14 @@ home:
   privacyin: Privacy Infrastructure
   privacyin1: Firo's Elysium tokenization layer allows users to create their own privacy-enabled tokens with use-cases from private stablecoins or voting tokens and in the future offer privacy for bridged assets from other chains.
   randd: Research and Development
-  randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies  such as Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
+  randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies such as Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
   getfiro: Get Firo
   getfiro1: Buy, mine, or earn Firo, and join the privacy revolution. <br>Store your Firo in one of our feature-filled wallets, optimized for power, accessibility, and user experience.
   getfiro2: Get a wallet
   getfiro2text: Firo has multiple options to manage your funds on major desktop and mobile OS. Choose the one that works best for you. 
   getfiro2link: Download a wallet
   getfiro3: Buy Firo
-  getfiro3text: Firo has multiple options to manage your funds on major desktop and mobile OS. Choose the one that works best for you. 
+  getfiro3text: Firo has multiple options to manage your funds on major desktop and mobile OS. Choose the one that works best for you.
   getfiro3link: Find an exchange
   getfiro4: Earn Firo
   getfiro4text: You can set up your own Firo masternode to earn Firo. We walk you through the setup process in our detailed guide.
@@ -104,19 +104,19 @@ download:
   option3: The fast, lightweight option
   qt: QT Wallet
   downloadqtw: Download QT for Windows
-  downloadqtm: Download QT for MacOS
+  downloadqtm: Download QT for macOS
   downloadqtflathub: Get it on Flathub
   downloadqtl: Download QT for Linux
   electron: Electron
   downloadelectronw: Download Electron for Windows
-  downloadelectronm: Download Electron for MacOS
+  downloadelectronm: Download Electron for macOS
   downloadelectronl: Download Electron for Linux
   electrum: Electrum
   downloadelectrumw: Download Electrum for Windows
-  downloadelectrumm: Download Electrum for MacOS
+  downloadelectrumm: Download Electrum for macOS
   downloadelectruml: Download Electrum for Linux
   hasheswindows: Show SHA256 hashes for Windows
-  hashesmac: Show SHA256 hashes for MacOS
+  hashesmac: Show SHA256 hashes for macOS
   hasheslinux: Show SHA256 hashes for Linux
   officialmobile: official mobile wallets
   optionmob1: Android
@@ -157,11 +157,11 @@ tech:
   lelantus1: Lelantus Technology
   lelantus2: Lelantus is a next-generation privacy protocol developed by Aram Jivanyan at Firo. Lelantus allows you to burn your coins, which hides them in an anonymity set of over 65,000. The receiver can redeem it from this anonymity pool, which breaks the links from your transaction and all the previous ones it has been through.
   sigma1: Sigma Technology
-  sigma2: We believe the whole purpose of blockchain is to build systems that do not require trust, and that same principle applies to our privacy systems. This is why we built Sigma for Zcoin in 2018 which removes the requirement of a trusted setup in Zerocoin. Sigma uses 256 bit ECC curves for proof sizes of just 1.5 kB - a 17x improvement on then-current technology. Sigma was a precursor to Lelantus, and set many stepping stones to get us where we are today.
+  sigma2: We believe the whole purpose of blockchain is to build systems that do not require trust, and that same principle applies to our privacy systems. This is why we built Sigma for Zcoin in 2018 which removes the requirement of a trusted setup in Zerocoin. Sigma uses 256-bit ECC curves for proof sizes of just 1.5 kB - a 17x improvement on then-current technology. Sigma was a precursor to Lelantus, and set many stepping stones to get us where we are today.
   dandelion1: Dandelion Technology
-  dandelion2: Dandelion++ protects your IP address. Before Firo transactions are broadcast to the whole network, they’re shuffled between nodes a random number of steps. This way, the origin of the broadcast is decorrelated from your IP address.
+  dandelion2: Dandelion++ protects your IP address. Before Firo transactions are broadcast to the whole network, they're shuffled between nodes a random number of steps. This way, the origin of the broadcast is decorrelated from your IP address.
   mtp1: Decentralized and fair security
-  mtp2: Firo’s Merkle Tree Proof (MTP) mining algorithm was designed to democratize mining. The MTP algorithm is memory-intensive increasing the costs of building ASICs and keeping the chain mineable by commodity hardware such as GPUs. Nodes, however, can bypass this memory requirement and verify these proofs efficiently. A Firo-sponsored audit in 2017 proved the effectiveness of this two-pronged approach. MTP has since been replaced by FiroPoW which has smaller proofs and additional ASIC resistant strategies.
+  mtp2: Firo's Merkle Tree Proof (MTP) mining algorithm was designed to democratize mining. The MTP algorithm is memory-intensive increasing the costs of building ASICs and keeping the chain mineable by commodity hardware such as GPUs. Nodes, however, can bypass this memory requirement and verify these proofs efficiently. A Firo-sponsored audit in 2017 proved the effectiveness of this two-pronged approach. MTP has since been replaced by FiroPoW which has smaller proofs and additional ASIC resistant strategies.
   
 team:
   heading: Team
@@ -173,7 +173,7 @@ team:
   poramininsom:
     name: Poramin Insom
     title: Co-Founder
-    bio: Poramin Insom founded Zcoin (now Firo) in 2016, seeking to provide financial privacy and also more inclusive mining via ASIC resistant proof of work. He earned a masters degree in Information Security from Johns Hopkins University where he wrote a paper on a proposed practical implementation of the Zerocoin protocol. He laid the foundations of Zcoin's (now Firo) technology from coding the world's first implementation of Zerocoin and also pushing for the research and development into the MTP mining algorithm. Poramin has been focused on pushing for the adoption of Firo into the real world especially in his involvement in facilitating the Thai Democrat Party to conduct its primary elections to elect its party leader on Firo's blockchain in 2018 which is the world’s first large scale political election on a blockchain.
+    bio: Poramin Insom founded Zcoin (now Firo) in 2016, seeking to provide financial privacy and also more inclusive mining via ASIC resistant proof of work. He earned a masters degree in Information Security from Johns Hopkins University where he wrote a paper on a proposed practical implementation of the Zerocoin protocol. He laid the foundations of Zcoin's (now Firo) technology from coding the world's first implementation of Zerocoin and also pushing for the research and development into the MTP mining algorithm. Poramin has been focused on pushing for the adoption of Firo into the real world especially in his involvement in facilitating the Thai Democrat Party to conduct its primary elections to elect its party leader on Firo's blockchain in 2018 which is the world's first large scale political election on a blockchain.
   reubenyap:
     name: Reuben Yap
     title: Co-Founder
@@ -185,7 +185,7 @@ team:
   levonpetrosyan:
     name: Levon Petrosyan
     title: Developer
-    bio: Levon is a software engineer with Master's degrees in both Computing Sciences and Economics from the American University of Armenia. His background is in C++ programming and cryptography. He is one of Firo’s most prolific contributors having coded huge portions of Firo's Lelantus cryptographic library along with optimizations to support large anonymity sets.
+    bio: Levon is a software engineer with Master's degrees in both Computing Sciences and Economics from the American University of Armenia. His background is in C++ programming and cryptography. He is one of Firo's most prolific contributors having coded huge portions of Firo's Lelantus cryptographic library along with optimizations to support large anonymity sets.
   sproxet:
     name: Sproxet
     title: Developer
@@ -193,7 +193,7 @@ team:
   gevorgmirzoyan:
     name: Gevorg Mirzoyan
     title: Developer
-    bio: Gevorg is a software engineer who graduated from the Faculty of Applied Mathematics and Informatics,  Russian-Armenian (Slavonic) University. His tech stack includes C++, Unity and Linux. He has a passion for programming, hiking and games.
+    bio: Gevorg is a software engineer who graduated from the Faculty of Applied Mathematics and Informatics, Russian-Armenian (Slavonic) University. His tech stack includes C++, Unity and Linux. He has a passion for programming, hiking and games.
   zorayrzakaryan:
     name: Zorayr Zakaryan
     title: Mobile Project Manager
@@ -225,9 +225,9 @@ team:
   sebastianbausch:
     name: Sebastian Bausch
     title: Asian Operations
-    bio: Sebastian Bausch is a Bangkok-based angel investor and has been passionate about cryptocurrencies since 2011. He studied Mandarin at Xiamen University and holds a postgraduate degree from the University of Nottingham. He supports the team’s operations in the region and coordinates translations and meet-ups.
+    bio: Sebastian Bausch is a Bangkok-based angel investor and has been passionate about cryptocurrencies since 2011. He studied Mandarin at Xiamen University and holds a postgraduate degree from the University of Nottingham. He supports the team's operations in the region and coordinates translations and meet-ups.
   lemarlukebriones:
-    name: Lemar “Luke” Briones
+    name: Lemar "Luke" Briones
     title: Filipino Community Manager
     bio: An Information Technology graduate from the Philippines, Lemar has been a cryptocurrency enthusiast since 2017 and is dedicated to spreading awareness of Firo across the Philippines.
   aramjivanyan:
@@ -237,7 +237,7 @@ team:
   aregvrtanesyan:
     name: Areg Vrtanesyan
     title: Cryptography Researcher / Developer
-    bio: Areg is a cryptography engineer in firo and is currently majoring in Cybersecurity at YSU. Has experience in software engineering and back end programming in C++. His current interests are cryptography, information security and music.
+    bio: Areg is a cryptography engineer in Firo and is currently majoring in Cybersecurity at YSU. Has experience in software engineering and back end programming in C++. His current interests are cryptography, information security and music.
   tigranmamikonyan:
     name: Tigran Mamikonyan
     title: Research
@@ -247,7 +247,7 @@ roadmap:
   aura: Aura Private Voting (finalizing paper)
   auradesc: Aura is our private voting mechanism for DAOs inspired by our Lelantus technology that allows anonymous but verifiable voting that also hides ballot progress. We intend to use this as the foundation of moving towards formalized decentralized governance.
   avalanche: Avalanche
-  avalanchedesc: Avalanche is a consensus algorithm that enables instant transactions, enhanced security and fork-free upgrades. We are exploring Avalanche consensus as a potential replacement our masternodes.
+  avalanchedesc: Avalanche is a consensus algorithm that enables instant transactions, enhanced security and fork-free upgrades. We are exploring Avalanche consensus as a potential replacement for our masternodes.
   development: Development
   heading: Roadmap
   mnodes: Deterministic Masternodes (done)
@@ -258,13 +258,13 @@ roadmap:
   lelantus: Lelantus Activation  (done)
   lelantusdesc: Lelantus is our next generation privacy protocol that offers the highest levels of practical privacy without trusted setup and only relying on solid cryptographic assumptions. Lelantus supports anonymity sets that are several magnitudes larger than other privacy systems that do not have trusted setup.
   chainlocks: Chainlocks  (done)
-  chainlocksdesc: Chainlocks utilize Firo’s masternode network to protect against 51% attacks. Transactions achieve finality as soon as 1 block is confirmed.
+  chainlocksdesc: Chainlocks utilize Firo's masternode network to protect against 51% attacks. Transactions achieve finality as soon as 1 block is confirmed.
   rap: RAP Addresses  (done)
   rapdesc: RAP addresses allow a publicly shareable address that does not allow third parties to see how much or when it has received funds.
   instant: Instant Send  (done)
-  instantdesc: Instant Send utilizes Firo’s masternode network to allow transactions to be confirmed within a few seconds allowing for practical use as a medium of exchange.
+  instantdesc: Instant Send utilizes Firo's masternode network to allow transactions to be confirmed within a few seconds allowing for practical use as a medium of exchange.
   elysium: Elysium (on Testnet)
-  elysiumdesc: Elysium allows token (for e.g. stablecoins, asset backed coins) to be issued on Firo’s network that will benefit from Firo’s privacy technology.
+  elysiumdesc: Elysium allows token (for e.g. stablecoins, asset backed coins) to be issued on Firo's network that will benefit from Firo's privacy technology.
   elysiumv2: Elysium v2
   elysiumv2desc: Elysium v2 expands the capabilities of Elysium with easier bridging and DeFi capabilities. Elysium v2 will also implement Spats that will hide the asset type being transferred.
   lelantusspark: Lelantus Spark (done)
@@ -279,7 +279,7 @@ roadmap:
   firodex: FiroDEX  (done)
   firodexdesc: FiroDEX allows for users to swap to and from Firo using decentralized infrastructure using atomic swap technology.
   bridges: Cross-chain bridges
-  bridgesdesc: Cross chain bridges will allow tokens from other ecosystems to bridge in and out of Firo’s Elysium token layer to utilize our privacy infrastructure.
+  bridgesdesc: Cross chain bridges will allow tokens from other ecosystems to bridge in and out of Firo's Elysium token layer to utilize our privacy infrastructure.
   mixnets: Mixnets
   mixnetsdesc: Tunnelling transactions and node communications into mixnets offer increased metadata protection even against state level adversaries. We are investigating the Meson mixnet that is built on Katzenpost software libraries.
   spats: Spark Assets (done)

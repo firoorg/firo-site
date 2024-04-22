@@ -92,18 +92,18 @@ download:
   option3: Opsi cepat dan ringan
   qt: Dompet QT
   downloadqtw: Unduh QT untuk Windows
-  downloadqtm: Unduh QT untuk MacOS
+  downloadqtm: Unduh QT untuk macOS
   downloadqtl: Unduh QT untuk Linux
   electron: Electron
   downloadelectronw: Unduh Electron untuk Windows
-  downloadelectronm: Unduh Electron untuk MacOS
+  downloadelectronm: Unduh Electron untuk macOS
   downloadelectronl: Unduh Electron untuk Linux
   electrum: Electrum
   downloadelectrumw: Unduh Electrum untuk Windows
-  downloadelectrumm: Unduh Electrum untuk MacOS
+  downloadelectrumm: Unduh Electrum untuk macOS
   downloadelectruml: Unduh Electrum untuk Linux
   hasheswindows: Tampilkan hash SHA256 untuk Windows
-  hashesmac: Tampilkan hash SHA256 untuk MacOS
+  hashesmac: Tampilkan hash SHA256 untuk macOS
   hasheslinux: Tampilkan hash SHA256 untuk Linux
   officialmobile: dompet ponsel resmi
   optionmob1: Android
@@ -229,7 +229,7 @@ team:
     title: Asian Operations
     bio: Sebastian Bausch adalah investor malaikat yang berbasis di Bangkok dan telah menyukai aset kripto sejak 2011. Ia belajar bahasa Mandarin di Universitas Xiamen dan meraih gelar pascasarjana dari Universitas Nottingham. Dia mendukung operasi tim di wilayah tersebut dan mengkoordinasikan penerjemahan dan pertemuan.
   lemarlukebriones:
-    name: Lemar “Luke” Briones
+    name: Lemar "Luke" Briones
     title: Manajer Komunitas Filipina
     bio: Lulusan Teknologi Informasi dari Filipina, Lemar telah menjadi penggemar aset kripto sejak 2017 dan berdedikasi untuk menyebarkan kesadaran tentang Firo di seluruh Filipina.
   aramjivanyan:
@@ -239,7 +239,7 @@ team:
   aregvrtanesyan:
     name: Areg Vrtanesyan
     title: Peneliti Kriptografi / Pengembang
-    bio: Areg adalah seorang insinyur kriptografi di firo dan saat ini mengambil jurusan Cyber Security di YSU. Memiliki pengalaman dalam rekayasa perangkat lunak dan pemrograman back end di C++. Minatnya saat ini adalah kriptografi, keamanan informasi, dan musik.
+    bio: Areg adalah seorang insinyur kriptografi di Firo dan saat ini mengambil jurusan Cyber Security di YSU. Memiliki pengalaman dalam rekayasa perangkat lunak dan pemrograman back end di C++. Minatnya saat ini adalah kriptografi, keamanan informasi, dan musik.
   tigranmamikonyan:
     name: Tigran Mamikonyan
     title: Riset
