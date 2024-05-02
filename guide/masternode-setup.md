@@ -440,7 +440,7 @@ After unbanning, ensure that you check the status of the masternode in both the 
 ### Additional tips
 
 The following tips are not covered by this guide but can ensure smoother running of your masternode.
-* Ensure that your masternode is automatically started after a VPS reboot using [systemd](https://github.com/firoorg/firo/wiki/Configuring-masternode-with-systemd)
+* Ensure that your masternode is automatically started after a VPS reboot using [systemd or monit]({{ site.baseurl }}/guide/masternode-system-managers.html)
 * Set Ubuntu to automatically download and install new upgrades
 * Further secure your masternode by modifying the SSH configuration file and/or install and configure fail2ban
 * [Prevent the debug.log from getting too big by rotating it](https://github.com/firoorg/firo/wiki/Configuring-logrotate-for-Firo%27s-debug.log)
