@@ -15,7 +15,7 @@ The following community members will serve as CFC members for a period of 1 year
 * [Fiendish](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150/3)
 * [Devwarrior](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150/4)
 * [Rehrar](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150/5)
-* [Nrsimha](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150/6
+* [Nrsimha](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150/6)
 * [Rasikhmorani](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150/10)
 * [sproxet](https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150/11) 
 
