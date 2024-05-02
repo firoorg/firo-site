@@ -25,7 +25,7 @@ Since there were no additional nominations, these seven members were automatical
 
 ## How to get funded from the Firo Community Fund
 
-Anyone can apply to be funded from the FCF by opening up a proposal in the Firo Crowdfunding System and also opening a thread on the forums to open discussion about it. The Community Fund Committee can also independently initiate proposals to be funded from the Firo Community Fund.
+Anyone can apply to be funded from the FCF by opening up a proposal in the [Firo Crowdfunding System](https://funding.firo.org/) and also opening a [thread on the forums](https://forum.firo.org/c/fcs-proposals/16) to open discussion about it. The Community Fund Committee can also independently initiate proposals to be funded from the Firo Community Fund.
 
 ## What are the responsibilities of the Community Fund Committee?
 
@@ -49,5 +49,5 @@ Anyone can apply to be funded from the FCF by opening up a proposal in the Firo 
 
 ## Where can I see the deliberations of the Community Fund Committee?
 
-All discussions of the CFC can be seen in our Discord in the channel #communityfund and is read-only. You will need to have verified status by passing the captcha to view the channel.
+All discussions of the CFC can be seen in our [Discord](https://discord.gg/TGZPRbRT3Y) in the channel #communityfund and is read-only. You will need to have verified status by passing the captcha to view the channel.
 
