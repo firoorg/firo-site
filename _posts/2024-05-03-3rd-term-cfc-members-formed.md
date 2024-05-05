@@ -4,7 +4,7 @@ title: "The 3rd term of CFC members are formed!"
 summary: "Welcome old and new"
 tags: [community, news]
 author: "Augustus Jong"
-img: "/blog/assets/3rdtermcfc/banner.png"
+img: "/blog/assets/3rdtermcfc/banner.jpg"
 ---
 
 The 7 member Community Fund Committee (“CFC”) is formed to oversee the newly formed Firo Community Fund (“FCF”) has been completed!
