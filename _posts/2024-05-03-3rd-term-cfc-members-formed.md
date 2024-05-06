@@ -7,7 +7,7 @@ author: "Augustus Jong"
 img: "/blog/assets/3rdtermcfc/banner.jpg"
 ---
 
-The 7 member Community Fund Committee (“CFC”) is formed to oversee the newly formed Firo Community Fund (“FCF”) has been completed!
+The 7 member Community Fund Committee (“CFC”) is formed to oversee the Firo Community Fund (“FCF”) has been completed!
 
 The following community members will serve as CFC members for a period of 1 year:
 
