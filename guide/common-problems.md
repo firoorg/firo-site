@@ -25,9 +25,9 @@ If you wish to stop your masternode and break the 1000 FIRO masternode collatera
 
 The 1000 FIRO should now be available for you to send.
 
-### Mining payouts
+### Masternode and mining payouts
 
-If you frequently receive mining payouts of 0.1 FIRO or similar amounts, you might encounter problems when trying to send as the transaction can be too big.
+If you frequently receive masternode or mining payouts, you might get the "Transaction too large" error message when trying to send FIRO as the transaction can be too big.
 
 In the **Transaction tab**, you can double-click on the problematic transaction and check the following:
 * Status: 0/offline, has not been successfully broadcast yet
@@ -35,14 +35,18 @@ In the **Transaction tab**, you can double-click on the problematic transaction 
 
 1. To workaround this issue, enable Coin Control in Firo QT by doing **Settings -> Options -> Wallet -> Enable coin control features.**
 
-2. Once done, you should be able to see an **Input button** in the **Send tab**. 
+2. Once done, you should be able to see an **Input button** in the **Send tab** for both private and transparent Sends. 
 
 3. Use this Coin Control to combine your input transactions into manageable amounts and send it to yourself to consolidate.
 
 Example: you receive a lot of 0.1 FIRO transactions. Use Coin Control to combine them into 1.0 or 2.0 FIRO before trying to send out a big amount like 100 FIRO.
 
+Example 2: you receive a lot of 3.125 FIRO transactions. Use Coin Control to combine them into 150 FIRO before trying to send out a big amount like 1000 FIRO.
+
+Example 3: you have a lot of small private Spark mints. Use Coin Control to combine them before trying to send out a big amount.
+
 If you frequently encounter this problem, some recommendations are:
-* regularly combine these mining payouts instead of waiting until you want to send them out.
+* regularly combine these masternode and mining payouts instead of waiting until you want to send them out.
 
 ## Firo Client (Electron)
 
