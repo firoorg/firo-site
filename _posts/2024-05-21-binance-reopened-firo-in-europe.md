@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "FIRO reopens for trading on Binance in 6 European countries"
-summary: "Poland, France, Spain, Italy, Belgium and Sweden"
+summary: "Firo trades reopen in Poland, France, Spain, Italy, Belgium and Sweden"
+
 tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/firoeurope/banner.png"
