@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "FIRO being reopened for trading on Binance in Europe"
+title: "FIRO reopens for trading on Binance in 6 European countries"
 summary: "Poland, France, Spain, Italy, Belgium and Sweden"
 tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/firoeurope/banner.png"
 ---
-FIRO being reopened for trading on Binance in 6 European countries
+FIRO reopens for trading on Binance in 6 European countries
 
 In May 2023, [Binance made Firo and several other privacy coins unavailable in several European countries](https://www.theblock.co/post/232751/binance-privacy-coins-delisting-europe) namely Poland, France, Spain, Italy, Belgium and Sweden, due to new EU regulations restricting the trading of privacy coins.
 
