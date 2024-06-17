@@ -4,7 +4,7 @@ title: "Exchange Addresses live for FIRO on Binance"
 summary: ""
 tags: [community, news]
 author: "Reuben Yap"
-img: "/blog/assets/exaddressesbinance/banner.png"
+img: "/blog/assets/exaddressbinance/banner.png"
 ---
 Exchange Addresses live for FIRO on Binance 
 
@@ -14,7 +14,7 @@ EX addresses are not meant for regular users to create but for exchanges that re
 
 You can identify an EX-address easily as the address begins with EXX.
 
-![Binance deposit address expired example](/blog/assets/exaddressesbinance/deposit-address-expired.png)
+![Binance deposit address expired example](/blog/assets/exaddressbinance/deposit-address-expired.png)
 
 ### Transition Notes
 
