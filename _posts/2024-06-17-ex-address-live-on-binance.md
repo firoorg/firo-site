@@ -6,7 +6,7 @@ tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/exaddressbinance/banner.png"
 ---
-Binance has confirmed with us that [Exchange Addresses (EX-addresses)](https://firo.org/2023/11/06/exchange-addresses.html) are now fully implemented and live on their exchange.
+Binance has confirmed with us that [Exchange Addresses]({{ site.baseurl_root }}/2023/11/06/exchange-addresses.html) are now fully implemented and live on their exchange.
 
 EX addresses are not meant for regular users to create but for exchanges that require them for regulatory or transparency reasons. However, users will need to interact with EX addresses if they are depositing into Binance or another exchange that deploys them.
 
