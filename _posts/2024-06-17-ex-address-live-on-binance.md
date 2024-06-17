@@ -14,7 +14,7 @@ EX addresses are not meant for regular users to create but for exchanges that re
 
 You can identify an EX-address easily as the address begins with EXX.
 
-![Binance deposit address expired example](/blog/assets/exaddressbinance/deposit-address-expired.png)
+![Binance deposit EX address](/blog/assets/exaddressbinance/exaddress.png)
 
 ### Transition Notes
 
@@ -32,5 +32,5 @@ Last year, in May 2023, [Binance made Firo and several other privacy coins unava
 
 Firo has been reopened for trading in these countries with immediate effect. If you are in an affected country, you might receive an email notification from Binance informing you of this. Do ensure you take note of your new deposit addresses which would have been updated to an EX-address.
 
-
+![Binance deposit address expired example](/blog/assets/exaddressbinance/deposit-address-expired.png)
 
