@@ -1,6 +1,6 @@
-firo_qt_version: "0.14.13.2"
-firo_old_commit: ab389d8bbe78
-firo_new_commit: 0f9d27dfef6f
+firo_qt_version: "0.14.13.3"
+firo_old_commit: 0f9d27dfef6f
+firo_new_commit: d3722c66e344
 
 qt_hashes_win: 4492d1a18774527b88fe6b8cc7538dfab44eb3b8ca35a0245dc559d2d9f70c80
 qt_hashes_mac: 65239262bbda1cf8c17b7ad3f9b84384f60d97c9594624f1a0f56411ae9c175e
