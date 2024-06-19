@@ -4,7 +4,7 @@ title: "Firo Release 0.14.13.3 Mandatory Upgrade"
 summary: "With performance improvements and features"
 tags: [community, news,dev]
 author: "Reuben Yap"
-img: "/blog/assets/new-firo-release-14133.png"
+img: "/blog/assets/new-firo-release-14133-2.png"
 ---
 
 We are proud to release Firo v0.14.13.3 which focuses on improving Spark performance, overall user experience and better Spark light wallet support.
