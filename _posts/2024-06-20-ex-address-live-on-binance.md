@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exchange Addresses live for FIRO on Binance"
-summary: "Deposit address are now EX-Addresses"
+summary: "Deposit addresses are now EX-Addresses"
 tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/exaddressbinance/banner.png"
