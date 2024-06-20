@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exchange Addresses live for FIRO on Binance"
-summary: "Update on EX-Addresses"
+summary: "Deposit address are now EX-Addresses"
 tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/exaddressbinance/banner.png"
@@ -14,7 +14,7 @@ You can identify an EX-address easily as the address begins with EXX.
 
 ![Binance deposit EX address](/blog/assets/exaddressbinance/exaddress.png)
 
-### Transition Notes
+## Transition Notes
 
 Binance has confirmed the roll out of EX-addresses for its users, though if for some reason you do not have an EX-address yet, do not send funds from Spark directly to Binance’s deposit address. Otherwise, they will be frozen until you open a support ticket with Binance to return the funds to you. This process can take up to 30 working days.
 
@@ -24,7 +24,7 @@ Most exchanges do not yet support withdrawals to an EX-address, so you would nee
 
 Most major exchanges such as MEXC, HTX and Gate support FIRO deposits from EX-addresses so you can send from Binance to these exchanges directly. Always test with a small amount first if unsure!
 
-### Reopening of Firo trading in Europe
+## Reopening of Firo trading in Europe
 
 Last year, in May 2023, [Binance made Firo and several other privacy coins unavailable in several European countries](https://www.theblock.co/post/232751/binance-privacy-coins-delisting-europe) namely Poland, France, Spain, Italy, Belgium and Sweden, due to new EU regulations restricting the trading of privacy coins.
 
