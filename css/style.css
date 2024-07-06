@@ -1307,7 +1307,7 @@ a.btn-primary, a.btn-secondary {
     margin: 0 1rem;
     -ms-flex-pack: justify;
     -webkit-box-pack: justify;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .desk-wallets.mob {
