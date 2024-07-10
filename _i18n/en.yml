@@ -242,6 +242,30 @@ team:
     name: Tigran Mamikonyan
     title: Research
     bio: Tigran holds a Master's Degree in Informatics and Applied Mathematics and Computer and Information Sciences. He is currently pursuing his PhD in Informatics and Applied Mathematics at Yerevan State University.
+  artur:
+    name: Artur
+    title: Developer
+    bio: Artur is a budding software engineer and Yerevan State Medical University student, brings a unique blend of medical knowledge and tech skills. Graduating from Picsart Academy, he excels in C/C++ and has hands-on experience in software development.His passion lies in merging medicine and technology to create impactful solutions.
+  narek:
+    name: Narek Geghamyan
+    title: Developer
+    bio: Narek is a software engineer who graduated from a Faculty of  computer science in National University of Architecture and Construction of Armenia. His tech stack includes C++ and Linux. He has a passion a swimming and coding.
+  cypherstack:
+    name: Cypher Stack
+    title: Design Firm
+    bio: Cypher Stack started as a humble design firm that wanted to make the open-source world a better place to be by improving the UI/UX, which can be severely lacking in such projects. But it wasn’t long before this vision expanded. Now, they still do stunning designs, but also expanded into full-stack development with a few neat surprises on the side. 
+  aaronfeickert:
+    name: Aaron Feickert
+    title: Cryptographer / Mathematician / Physicist
+    bio: 
+  batuhan:
+    name: Batuhan
+    title: Turkish Community Manager
+    bio:
+  antibit:
+    name: Antibit
+    title: Russian Community Manager
+    bio: 
   
 roadmap:
   aura: Aura Private Voting (finalizing paper)
