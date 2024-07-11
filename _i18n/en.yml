@@ -92,25 +92,27 @@ home:
   
 download:
   heading: Download a wallet
-  official: official desktop wallets
+  official: recommended wallets
   backup: Back up your wallet prior to updating
   verify: Verify hashes using
   verify1: this public key
   guide: Use this official
   guide1: wallet installation and usage guide
   changelog: View changelog
-  option1: The high security option
-  option2: The user friendly option
-  option3: The fast, lightweight option
-  qt: QT Wallet
-  downloadqtw: Download QT for Windows
-  downloadqtm: Download QT for macOS
+  option1: Full node, full features
+  option2: Recommended for most users
+  option3: Light wallet with hardware wallet support
+  qt: Reference
+  downloadqtw: Download Reference for Windows
+  downloadqtm: Download Reference for macOS
   downloadqtflathub: Get it on Flathub
-  downloadqtl: Download QT for Linux
-  electron: Electron
-  downloadelectronw: Download Electron for Windows
-  downloadelectronm: Download Electron for macOS
-  downloadelectronl: Download Electron for Linux
+  downloadqtl: Download Reference for Linux
+  electron: Campfire
+  downloadelectronw: Download Campfire for Windows
+  downloadelectronm: Download Campfire for macOS
+  downloadelectronl: Download Campfire for Linux
+  downloadmobcamp: Download Campfire for Android
+  downloadioscamp: Download Campfire for iOS
   electrum: Electrum
   downloadelectrumw: Download Electrum for Windows
   downloadelectrumm: Download Electrum for macOS
@@ -126,8 +128,6 @@ download:
   hashesios: Show SHA256 hashes for iOS
   optionmob3: Android & iOS
   campfiremob: Campfire Wallet
-  downloadmobcamp: Download for Android
-  downloadioscamp: Download for iOS
   stackwalletmob: Stack Wallet
   wallets: third-party wallets
 

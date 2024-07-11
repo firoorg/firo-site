@@ -1432,7 +1432,7 @@ a.btn-primary, a.btn-secondary {
     font-weight: 700;
     font-size: 1.1rem;
 }
-
+/*
 .desk-wallets .col .inner .system.camp {
     padding-left: 5rem;
     padding-top: 0;
@@ -1441,7 +1441,7 @@ a.btn-primary, a.btn-secondary {
 .desk-wallets .col .inner .system.camp:before {
     left: 2rem;
     top: 0.5rem;
-}
+}*/
 
 .desk-wallets .col .inner .system.camp > a {
     line-height: 3rem;
@@ -1628,6 +1628,14 @@ a.btn-primary, a.btn-secondary {
     color: #9b1c2e;
 }
 
+@media only screen and (min-width: 62rem) and (max-width: 90rem) {
+    
+.desk-wallets p.tagline {
+    height: 3rem;
+}
+
+}
+
 @media only screen and (max-width: 75rem) {
     
 .desk-wallets .col {
@@ -1648,6 +1656,10 @@ a.btn-primary, a.btn-secondary {
 .tech-section .mob-wallets .col li a {
     padding: 1rem 0.5rem;
 }   
+
+.desk-wallets .col .inner .system.camp > a{
+    line-height: 1.3;
+}
     
 }
 
@@ -1696,16 +1708,16 @@ a.btn-primary, a.btn-secondary {
     font-size: 1.2rem;
 }
     
-.desk-wallets .col .inner .system.camp > a {
-    line-height: 4rem;
-}
-    
 .desk-wallets .col .inner .system.camp::before {
     left: 0;
 }
     
 .desk-wallets .col .inner .system.camp {
     padding-left: 4rem;
+}
+
+.desk-wallets .col .inner .system.mac.camp > a{
+    line-height: 4rem;
 }
     
 }
@@ -1741,6 +1753,10 @@ a.btn-primary, a.btn-secondary {
     
 .desk-wallets .col .inner .system, .desk-wallets .col .inner .source {
     padding-top: 3rem;
+}
+
+.desk-wallets .col .inner .system.mac.camp > a{
+    line-height: 2;
 }
     
 }
@@ -1788,12 +1804,12 @@ a.btn-primary, a.btn-secondary {
     height: 2.3rem;
 }
     
-.desk-wallets .col .inner .system.camp > a {
-    line-height: 3rem;
-}
-    
 .desk-wallets .col .inner .system.camp::before {
     left: 1rem;
+}
+
+.desk-wallets .col .inner .system.mac.camp > a{
+    line-height: 1.3;
 }
     
 } 

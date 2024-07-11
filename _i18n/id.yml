@@ -90,14 +90,16 @@ download:
   option1: Opsi keamanan tingkat tinggi
   option2: Opsi penggunaan mudah
   option3: Opsi cepat dan ringan
-  qt: Dompet QT
-  downloadqtw: Unduh QT untuk Windows
-  downloadqtm: Unduh QT untuk macOS
-  downloadqtl: Unduh QT untuk Linux
-  electron: Electron
-  downloadelectronw: Unduh Electron untuk Windows
-  downloadelectronm: Unduh Electron untuk macOS
-  downloadelectronl: Unduh Electron untuk Linux
+  qt: Dompet Reference
+  downloadqtw: Unduh Reference untuk Windows
+  downloadqtm: Unduh Reference untuk macOS
+  downloadqtl: Unduh Reference untuk Linux
+  electron: Campfire
+  downloadelectronw: Unduh Campfire untuk Windows
+  downloadelectronm: Unduh Campfire untuk macOS
+  downloadelectronl: Unduh Campfire untuk Linux
+  downloadmobcamp: Unduh untuk Android
+  downloadioscamp: Unduh untuk iOS
   electrum: Electrum
   downloadelectrumw: Unduh Electrum untuk Windows
   downloadelectrumm: Unduh Electrum untuk macOS
@@ -116,8 +118,6 @@ download:
   hashesios: Tampilkan hash SHA256 untuk iOS
   optionmob3: Android & iOS
   campfiremob: Dompet Campfire
-  downloadmobcamp: Unduh untuk Android
-  downloadioscamp: Unduh untuk iOS
   stackwalletmob: Stack Wallet
   wallets: dompet pihak ketiga
 
