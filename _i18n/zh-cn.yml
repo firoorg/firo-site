@@ -100,14 +100,16 @@ download:
   option1: 高安全性的选择
   option2: 用户友好的选择
   option3: 快速，轻巧的选择
-  qt: QT 钱包
-  downloadqtw: 下载 Windows 版 QT 钱包
-  downloadqtm: 下载 macOS 版 QT 钱包
-  downloadqtl: 下载 Linux 版 QT 钱包
-  electron: Electron
-  downloadelectronw: 下载 Windows 版 Electron 钱包
-  downloadelectronm: 下载 macOS 版 Electron 钱包
-  downloadelectronl: 下载 Linux 版 Electron 钱包
+  qt: Reference 钱包
+  downloadqtw: 下载 Windows 版 Reference 钱包
+  downloadqtm: 下载 macOS 版 Reference 钱包
+  downloadqtl: 下载 Linux 版 Reference 钱包
+  electron: Campfire
+  downloadelectronw: 下载 Windows 版 Campfire 钱包
+  downloadelectronm: 下载 macOS 版 Campfire 钱包
+  downloadelectronl: 下载 Linux 版 Campfire 钱包
+  downloadmobcamp: Download for Android
+  downloadioscamp: Download for iOS
   electrum: Electrum
   downloadelectrumw: 下载 Windows 版 Electron 钱包
   downloadelectrumm: 下载 macOS 版 Electron 钱包
@@ -126,8 +128,6 @@ download:
   hashesios: 显示 iOS 版钱包的 SHA256 哈希
   optionmob3: Android & iOS
   campfiremob: Campfire 钱包
-  downloadmobcamp: Download for Android
-  downloadioscamp: Download for iOS
   stackwalletmob: Stack Wallet
   wallets: 第三方钱包
 
