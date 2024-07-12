@@ -30,6 +30,8 @@ Campfire remains true to our goals of being free and open source. All source cod
 
 While the original Campfire started as a Firo wallet that supported our previous privacy protocol, Lelantus, the new revamped Campfire has full Spark privacy support and shares the same internals as Stack wallet, a multi-coin wallet also developed by Cypher Stack.
 
+## [Download Campfire Here](https://firo.org/get-firo/download/)
+
 ## What's next?
 
 We would like to develop more features for Campfire, such as DEX support and Spark asset support!
