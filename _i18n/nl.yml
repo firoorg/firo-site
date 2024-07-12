@@ -102,15 +102,17 @@ download:
   option1: De hoge beveiligingsoptie
   option2: De gebruiksvriendelijke optie
   option3: De snelle, lichtgewicht optie
-  qt: QT-portemonnee
-  downloadqtw: Download QT voor Windows
-  downloadqtm: Download QT voor macOS
+  qt: Reference-portemonnee
+  downloadqtw: Download Reference voor Windows
+  downloadqtm: Download Reference voor macOS
   downloadqtflathub: Vind het op Flathub
-  downloadqtl: Download QT voor Linux
-  electron: Electron
-  downloadelectronw: Download Electron voor Windows
-  downloadelectronm: Download Electron voor macOS
-  downloadelectronl: Download Electron voor Linux
+  downloadqtl: Download Reference voor Linux
+  electron: Campfire
+  downloadelectronw: Download Campfire voor Windows
+  downloadelectronm: Download Campfire voor macOS
+  downloadelectronl: Download Campfire voor Linux
+  downloadmobcamp: Download voor Android
+  downloadioscamp: Download voor iOS
   electrum: Electrum
   downloadelectrumw: Download Electrum voor Windows
   downloadelectrumm: Download Electrum voor macOS
@@ -126,8 +128,6 @@ download:
   hashesios: Toon SHA256-hashes voor iOS
   optionmob3: Android & iOS
   campfiremob: Campfire Wallet
-  downloadmobcamp: Download voor Android
-  downloadioscamp: Download voor iOS
   stackwalletmob: Stack Wallet
   wallets: portemonnees van derden
 

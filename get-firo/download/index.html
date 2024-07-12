@@ -73,15 +73,15 @@ permalink: /get-firo/download/index.html
                         </div>
                     </div>
                     
-                    <!-- Electron -->
+                    <!-- Campfire -->
                     <div class="col">
                         <p class="tagline">{% t download.option2 %}</p>
                         <div class="inner">
                             <h3>{% t download.electron %}</h3>
                             <p class="wversion">{{ site.data.downloads.firo_electron_version }}</p>
-                            <p class="changelog"><a href="https://github.com/firoorg/firo-client/releases/latest" target="_blank">{% t download.changelog %}</a></p>
+                            <p class="changelog"><a href="https://github.com/firoorg/campfire/releases/latest" target="_blank">{% t download.changelog %}</a></p>
                             <div class="system win">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.exe">{% t download.downloadelectronw %}</a>
+                                <a href="https://github.com/firoorg/campfire/releases/latest">{% t download.downloadelectronw %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="wh3">
                                     <label class="tab-label" for="wh3">{% t download.hasheswindows %}</label>
@@ -91,7 +91,7 @@ permalink: /get-firo/download/index.html
                                 </div>
                             </div>
                             <div class="system mac">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.dmg">{% t download.downloadelectronm %}</a>
+                                <a href="https://github.com/firoorg/campfire/releases/latest">{% t download.downloadelectronm %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="mh2">
                                     <label class="tab-label" for="mh2">{% t download.hashesmac %}</label>
@@ -101,7 +101,7 @@ permalink: /get-firo/download/index.html
                               </div>
                             </div>
                             <div class="system linux">
-                                <a href="https://github.com/firoorg/firo-client/releases/download/v{{ site.data.downloads.firo_electron_version }}/Firo-Client-{{ site.data.downloads.firo_electron_version }}.AppImage">{% t download.downloadelectronl %}</a>
+                                <a href="https://github.com/firoorg/campfire/releases/latest">{% t download.downloadelectronl %}</a>
                                 <div class="tab">
                                     <input type="checkbox" id="lh2">
                                     <label class="tab-label" for="lh2">{% t download.hasheslinux %}</label>
@@ -110,9 +110,14 @@ permalink: /get-firo/download/index.html
                                     </div>
                               </div>
                             </div>
+                            <div class="system android camp">
+                                <a href="https://play.google.com/store/apps/details?id=com.cypherstack.campfire" target="_blank">{% t download.downloadmobcamp %}</a>
+                            </div>
+                            <div class="system mac camp">
+                                <a href="https://apps.apple.com/us/app/campfire-firo-wallet/id1613267898" target="_blank">{% t download.downloadioscamp %}</a>
+                            </div>
                             <div class="source">
-                                <a href="https://github.com/firoorg/firo-client" target="_blank"><i class="icon-github"></i></a>
-                                <a href="https://sourceforge.net/projects/firoorg/" target="_blank"><i class="icon-sourceforge"></i></a>
+                                <a href="https://github.com/firoorg/campfire" target="_blank"><i class="icon-github"></i></a>
                             </div>
                     </div>
                     </div>
@@ -162,52 +167,6 @@ permalink: /get-firo/download/index.html
                             </div>
                     </div>
                     </div>
-              </div>
-          </div>
-      </section>
-      
-      <!-- Mobile wallets -->
-      <section class="tech-section">
-            <div class="container">
-              <div class="row">
-                  <div class="col head">
-                        <h2>{% t download.officialmobile %}</h2>
-                  </div>
-              </div>
-              <div class="row desk-wallets mob">                 
-                    <div class="col">
-                        <p class="tagline">{% t download.optionmob3 %}</p>
-                        <div class="inner">
-                            <h3>{% t download.stackwalletmob %}</h3>
-                            <div class="system android camp">
-                                <a href="https://play.google.com/store/apps/details?id=com.cypherstack.stackwallet" target="_blank">{% t download.downloadmobcamp %}</a>
-                            </div>
-                            <div class="system mac camp">
-                                <a href="https://apps.apple.com/us/app/stack-wallet-by-cypher-stack/id1634811534" target="_blank">{% t download.downloadioscamp %}</a>
-                            </div>
-                            <div class="source">
-                                <a href="https://github.com/cypherstack/stack_wallet/" target="_blank"><i class="icon-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col">
-                        <p class="tagline">{% t download.optionmob3 %}</p>
-                        <div class="inner">
-                            <h3>{% t download.campfiremob %}</h3>
-                            <div class="system android camp">
-                                <a href="https://play.google.com/store/apps/details?id=com.cypherstack.campfire" target="_blank">{% t download.downloadmobcamp %}</a>
-                            </div>
-                            <div class="system mac camp">
-                                <a href="https://apps.apple.com/us/app/campfire-firo-wallet/id1613267898" target="_blank">{% t download.downloadioscamp %}</a>
-                            </div>
-                            <div class="source">
-                                <a href="https://github.com/cypherstack/Campfire/releases" target="_blank"><i class="icon-github"></i></a>
-                                <!--a href="https://sourceforge.net/projects/firoorg/" target="_blank"><i class="icon-sourceforge"></i></a-->
-                            </div>
-                        </div>
-                    </div>
-                    
               </div>
           </div>
       </section>
