@@ -253,19 +253,19 @@ team:
   cypherstack:
     name: Cypher Stack
     title: Design Firm
-    bio: Cypher Stack started as a humble design firm that wanted to make the open-source world a better place to be by improving the UI/UX, which can be severely lacking in such projects. But it wasn’t long before this vision expanded. Now, they still do stunning designs, but also expanded into full-stack development with a few neat surprises on the side. 
+    bio: Cypher Stack is a blockchain developer, design, research, and consultation company. They are currently developing Firo with their mobile wallet and lite desktop wallet, Campfire.
   aaronfeickert:
     name: Aaron Feickert
     title: Cryptographer / Mathematician / Physicist
-    bio: 
+    bio: Dr. Aaron Feickert is a mathematician and physicist currently researching privacy-preserving signature and proof constructions from Cypher Stack. He has extensive experience in teaching and speaking on applied cryptography and computational science. As a key researcher at Monero Research Lab, he focused on advancing transactional privacy and blockchain size efficiency. His contributions include the theory and implementation of CLSAG, Triptych, and Arcturus protocols, as well as novel implementations for Bulletproofs and Bulletproofs+. Additionally, he collaborated with cryptographer Aram Jivanyan on quality research in blockchain privacy, creating and developing Lelantus Spark.
   batuhan:
     name: Batuhan
     title: Turkish Community Manager
-    bio: 
+    bio: Batuhan manages the Turkish community, translating annoucements and notices
   antibit:
     name: Antibit
     title: Russian Community Manager
-    bio: 
+    bio: Antibit manages the Russian community, translating annoucements and notices
   
 roadmap:
   aura: Aura Private Voting (finalizing paper)
