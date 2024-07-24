@@ -24,7 +24,9 @@ jobs:
       - name: bundle install
         run: bundle install
       - name: build website
-        run: bundle exec jekyll build 
+        run: |
+          echo "PREVIEW_PATH=pr-preview/pr-${{ github.event.number }}" >> "$GITHUB_ENV"
+          bundle exec jekyll build --baseurl /firo-site/"$PREVIEW_PATH"
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
