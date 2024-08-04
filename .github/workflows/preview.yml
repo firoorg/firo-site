@@ -1,0 +1,35 @@
+name: Preview on GH Pages
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  ci:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: false
+      - name: Get PR preview path
+        run: echo "PREVIEW_PATH=pr-preview/pr-${{ github.event.number }}" >> "$GITHUB_ENV"
+      - name: install bundler
+        run: gem install bundler
+      - name: bundle install
+        run: bundle install
+      - name: build website
+        run: bundle exec jekyll build --baseurl /firo-site/"$PREVIEW_PATH"
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: _site
+          custom-url: justanwar.github.io/firo-site
+          
