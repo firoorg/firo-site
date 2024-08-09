@@ -21,4 +21,4 @@ Stay tuned for news on further activities with AscendEx! You can discuss this li
 
 ## About AscendEx
 
-AscendEX (formerly BitMax) is a leading global digital asset financial platform founded by a group of Wall Street quantitative trading veterans in 2018, building on core value of “Efficiency, Resilience and Transparency.” Driven by its continuous innovative product development and early-mover advantage in strategic alignment with the leading projects from DeFi ecosystem, 
+AscendEX (formerly BitMax) is a global digital asset financial platform founded by a group of Wall Street quantitative trading veterans in 2018, building on core value of “Efficiency, Resilience and Transparency.” The global cryptocurrency exchange platform serves both retail and institutional clients in more than 200 regions.
