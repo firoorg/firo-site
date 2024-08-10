@@ -13,8 +13,8 @@ After seeking community feedback and [preliminary polls](https://forum.firo.org/
 
 The two primary issues being voted on are:
 
-- What should Firo’s block reward division be?
-- What should Firo’s emissions be?
+* What should Firo’s block reward division be?
+* What should Firo’s emissions be?
 
 These polls touch on important issues, such as whether there should be a development and/or community fund, the sustainability of masternodes and the role of miners. It also looks into the long-term sustainability of Firo as to whether it should adopt a tail emission or stick closer to the original Bitcoin model.
 
