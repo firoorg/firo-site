@@ -33,7 +33,7 @@ As a Firo Guardian, you will:
 
 ### Did we catch your attention? 
 Here's how to apply:
-* Join the Firo Discord server: [https://discord.gg/9vNWhcqr](https://discord.gg/Ws5C9f3uPC)
+* Join the Firo Discord server: [https://discord.gg/Ws5C9f3uPC](https://discord.gg/Ws5C9f3uPC)
 * Open a thread in the Firo-guardian-signup channel under "Community-Firo-Guardians" Section.
 * Write a 5-line introduction about yourself, including your region.
 * Provide a link to your X (Twitter) profile.
