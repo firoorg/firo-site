@@ -30,11 +30,11 @@ You can view the previous discussions and polls here to help guide your decision
 
 Anyone who has been in the Firo community for some time is eligible to vote in this poll. 
 
-**Step 1**: Register an account at forum.firo.org
+**Step 1**: Register an account at [forum.firo.org](http://forum.firo.org)
 
-**Step 2**: Earn at least Trust Level 1 by spending time on the forums. Alternatively, if you have been with the Firo community for a while in other places, you can post in this thread to request for an admin to upgrade you immediately.
+**Step 2**: Earn at least Trust Level 1 by [spending time on the forums](https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/). Alternatively, if you have been with the Firo community for a while in other places, you can post in [this thread](https://forum.firo.org/t/for-new-members-trust-level-upgrade-request-thread/3294) to request for an admin to upgrade you immediately.
 
-**Step 3** Head to the final poll thread. Note there are two polls to vote on so please don’t forget to vote on both of them!
+**Step 3** Head to the [**final poll**](https://forum.firo.org/t/poll-final-tokenomics-and-block-division/3379) thread. Note there are two polls to vote on so please don’t forget to vote on both of them!
 
 **Step 4**: Rank the options you like with rank 1 being your most preferred option. For options you don’t like, you can choose to not rank them by picking ‘abstain’.
 
