@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="nl"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://firo.org/firo-site/pr-preview/pr-413/feed.xml" rel="self" type="application/atom+xml" /><link href="https://firo.org/firo-site/pr-preview/pr-413/" rel="alternate" type="text/html" hreflang="nl" /><updated>2024-08-12T17:55:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-413/feed.xml</id><title type="html">Firo</title><subtitle>Firo is a cryptocurrency that focuses on privacy and fungibility.</subtitle><entry><title type="html">Firo Guardian Program</title><link href="https://firo.org/firo-site/pr-preview/pr-413/2024/08/12/firo-guardian-program.html" rel="alternate" type="text/html" title="Firo Guardian Program" /><published>2024-08-12T00:00:00+00:00</published><updated>2024-08-12T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-413/2024/08/12/firo-guardian-program</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-413/2024/08/12/firo-guardian-program.html"><![CDATA[<p>Over the years, Firo has continued to gain momentum in the cryptocurrency space, and our community has been instrumental in this success. To further enhance our reach and engagement, we’re thrilled to introduce: Firo Guardian Program!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="nl"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://firo.org/firo-site/pr-preview/pr-413/feed.xml" rel="self" type="application/atom+xml" /><link href="https://firo.org/firo-site/pr-preview/pr-413/" rel="alternate" type="text/html" hreflang="nl" /><updated>2024-08-26T14:41:01+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-413/feed.xml</id><title type="html">Firo</title><subtitle>Firo is a cryptocurrency that focuses on privacy and fungibility.</subtitle><entry><title type="html">Together We Decide: Vote to Shape Firo’s Future!</title><link href="https://firo.org/firo-site/pr-preview/pr-413/2024/08/19/final-vote-tokenomics-2024.html" rel="alternate" type="text/html" title="Together We Decide: Vote to Shape Firo’s Future!" /><published>2024-08-19T00:00:00+00:00</published><updated>2024-08-19T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-413/2024/08/19/final-vote-tokenomics-2024</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-413/2024/08/19/final-vote-tokenomics-2024.html"><![CDATA[<p>The community has been actively discussing Firo’s economics, particularly its block reward division and emission model.</p>
+
+<p>After seeking community feedback and <a href="https://forum.firo.org/t/poll-final-tokenomics-and-block-division/3379">preliminary polls</a> since June, we are now approaching the penultimate poll to definitively decide Firo’s future.</p>
+
+<p>The two primary issues being voted on are:</p>
+
+<ul>
+  <li>What should Firo’s block reward division be?</li>
+  <li>What should Firo’s emissions be?</li>
+</ul>
+
+<p>These polls touch on important issues, such as whether there should be a development and/or community fund, the sustainability of masternodes and the role of miners. It also looks into the long-term sustainability of Firo as to whether it should adopt a tail emission or stick closer to the original Bitcoin model.</p>
+
+<p>Instead of a single-choice vote, the poll allows community members to rank their options, resulting in a fairer reflection of sentiment. This is also known as <a href="https://fairvote.org/our-reforms/ranked-choice-voting/">ranked-choice voting</a> and is suitable where there are many options to choose from.</p>
+
+<p>You can view the previous discussions and polls here to help guide your decision!</p>
+
+<ul>
+  <li><a href="https://forum.firo.org/t/poll-should-firo-continue-its-development-fund-and-community-fund/3274">Development and Community Funds</a></li>
+  <li><a href="https://forum.firo.org/t/poll-should-firo-have-a-tail-emission/3275">Tail Emission</a></li>
+  <li><a href="https://forum.firo.org/t/poll-should-firo-keep-its-halving-schedule-or-should-we-revisit-our-emission-curve/3276">Firo’s halving schedule</a></li>
+</ul>
+
+<h2 id="how-to-vote">How to Vote!</h2>
+
+<p>Anyone who has been in the Firo community for some time is eligible to vote in this poll.</p>
+
+<p><strong>Step 1</strong>: Register an account at <a href="http://forum.firo.org">forum.firo.org</a></p>
+
+<p><strong>Step 2</strong>: Earn at least Trust Level 1 by <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">spending time on the forums</a>. Alternatively, if you have been with the Firo community for a while in other places, you can post in <a href="https://forum.firo.org/t/for-new-members-trust-level-upgrade-request-thread/3294">this thread</a> to request for an admin to upgrade you immediately.</p>
+
+<p><strong>Step 3</strong> Head to the <a href="https://forum.firo.org/t/poll-final-tokenomics-and-block-division/3379"><strong>final poll</strong></a> thread. Note there are two polls to vote on so please don’t forget to vote on both of them!</p>
+
+<p><strong>Step 4</strong>: Rank the options you like with rank 1 being your most preferred option. For options you don’t like, you can choose to not rank them by picking ‘abstain’.</p>
+
+<p><strong>Step 5</strong>: You can post in the thread to explain why you picked a vote!</p>
+
+<p>Do note that in the future, we intend to impose higher requirements in future polls or even require a minimum Firo holding requirement to prove skin in the game without disenfranchising smaller holders.</p>
+
+<h2 id="do-your-part">Do your Part!</h2>
+
+<p>Getting involved in Firo’s polls is an important step in decentralized governance. It ensures that your voice is heard, and every vote counts! The poll closes on the 1 September 2024!</p>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="news" /><summary type="html"><![CDATA[The community has been actively discussing Firo’s economics, particularly its block reward division and emission model. After seeking community feedback and preliminary polls since June, we are now approaching the penultimate poll to definitively decide Firo’s future. The two primary issues being voted on are: What should Firo’s block reward division be? What should Firo’s emissions be? These polls touch on important issues, such as whether there should be a development and/or community fund, the sustainability of masternodes and the role of miners. It also looks into the long-term sustainability of Firo as to whether it should adopt a tail emission or stick closer to the original Bitcoin model. Instead of a single-choice vote, the poll allows community members to rank their options, resulting in a fairer reflection of sentiment. This is also known as ranked-choice voting and is suitable where there are many options to choose from. You can view the previous discussions and polls here to help guide your decision! Development and Community Funds Tail Emission Firo’s halving schedule How to Vote! Anyone who has been in the Firo community for some time is eligible to vote in this poll. Step 1: Register an account at forum.firo.org Step 2: Earn at least Trust Level 1 by spending time on the forums. Alternatively, if you have been with the Firo community for a while in other places, you can post in this thread to request for an admin to upgrade you immediately. Step 3 Head to the final poll thread. Note there are two polls to vote on so please don’t forget to vote on both of them! Step 4: Rank the options you like with rank 1 being your most preferred option. For options you don’t like, you can choose to not rank them by picking ‘abstain’. Step 5: You can post in the thread to explain why you picked a vote! Do note that in the future, we intend to impose higher requirements in future polls or even require a minimum Firo holding requirement to prove skin in the game without disenfranchising smaller holders. Do your Part! Getting involved in Firo’s polls is an important step in decentralized governance. It ensures that your voice is heard, and every vote counts! The poll closes on the 1 September 2024!]]></summary></entry><entry><title type="html">Firo Guardian Program</title><link href="https://firo.org/firo-site/pr-preview/pr-413/2024/08/12/firo-guardian-program.html" rel="alternate" type="text/html" title="Firo Guardian Program" /><published>2024-08-12T00:00:00+00:00</published><updated>2024-08-12T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-413/2024/08/12/firo-guardian-program</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-413/2024/08/12/firo-guardian-program.html"><![CDATA[<p>Over the years, Firo has continued to gain momentum in the cryptocurrency space, and our community has been instrumental in this success. To further enhance our reach and engagement, we’re thrilled to introduce: Firo Guardian Program!</p>
 
 <h3 id="who-you-are">Who you are:</h3>
 <ul>
@@ -212,176 +253,4 @@ Guardians will focus on:</p>
 
 <p>As these changes will significantly impact Firo’s future and development direction, we look forward to hearing from the community and greatly appreciate the well-reasoned feedback we’ve received thus far. Let your voice be heard!</p>
 
-<p>Join us in the discussion in our Firo forums located <a href="https://forum.firo.org/t/firo-tokenomics-discussion-with-upcoming-halving/3162">Here</a>!</p>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="dev" /><summary type="html"><![CDATA[With the upcoming scheduled halving of emissions in supply in September 2024, the Firo community has raised questions about whether the Firo block reward distribution or tokenomics would be revisited, as was the case with the previous halving. The last time this was done was in May 2022. In particular, whether the block reward distribution would be adjusted and whether there should be a change in the emission cycle; for example, whether to have a more gradual emission decrease instead of halvings, implement a tail emission, etc. The core team highly values the Firo community’s input in these crucial changes. We are actively seeking your feedback on our forums and plan to keep the feedback period open until at least the end of June 2024. This will allow us to implement your insights prior to the upcoming hard fork, underscoring your integral role in shaping Firo’s future. As these changes will significantly impact Firo’s future and development direction, we look forward to hearing from the community and greatly appreciate the well-reasoned feedback we’ve received thus far. Let your voice be heard! Join us in the discussion in our Firo forums located Here!]]></summary></entry><entry><title type="html">Nomination Thread for a New Community Fund Committee 2024</title><link href="https://firo.org/firo-site/pr-preview/pr-413/2024/03/24/3rd-cfc-nomination-thread-2024.html" rel="alternate" type="text/html" title="Nomination Thread for a New Community Fund Committee 2024" /><published>2024-03-24T00:00:00+00:00</published><updated>2024-03-24T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-413/2024/03/24/3rd-cfc-nomination-thread-2024</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-413/2024/03/24/3rd-cfc-nomination-thread-2024.html"><![CDATA[<p>The one year term of the <a href="https://forum.firo.org/t/community-fund-committee-election-march-2023/2877">2nd CFC Committee</a> has ended and the time for the 3rd CFC nominations is underway in preparation for the election.</p>
-
-<p>Please express your interest in standing for election in the thread below. Do ensure you introduce yourself and why you are applying to the post and your experience/history with Firo.</p>
-
-<p>3rd CFC Election Nomination Thread: <a href="https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150">https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500</a></p>
-
-<p>The 7 member CFC forms an important role in gradually decentralizing governance and sets up an independent fund (Firo Community Fund) to be used for the benefit of Firo. The FCF has been used to fund various community management efforts, audits, social media/marketing support and also to assist the core team where additional funds are required.</p>
-
-<p>CFC Committee positions are at this point in time are done on a volunteer basis and we recommend only active and motivated members of the Firo community apply. There is no restriction of existing committee members seeking re-election.</p>
-
-<p>Below is a reminder of the role of the CFC and the Firo Community Fund (FCF) it manages:</p>
-
-<h2 id="brief-summary-of-how-the-cfc-came-to-be">Brief summary of how the CFC came to be</h2>
-
-<p>Firo conducted a series of community votes to adjust its tokenomics and established the Firo Community Fund. This process spanned several months and involved multiple vetted polls to ensure alignment with the community’s wishes. A committee comprising seven elected community members was established to manage fund allocation.</p>
-
-<p>Following the nomination phase, nominees (who are new) undergo a vetting process, including an interview, to assess their eligibility and alignment with the community’s voting objectives. The interview, which can be conducted through text or online meetings, delves into the nominees’ beliefs in Firo, their grasp of Firo’s technology, personal background (without revealing sensitive information), and their vision for the fund’s utilization. Nominees not widely known in the community must provide proof of active participation for at least a year.</p>
-
-<p>Moving on from these specifics, it’s essential to outline the responsibilities and prerequisites expected of a member of the Firo Community Fund Committee (CFC).</p>
-
-<h2 id="responsibilities-of-community-fund-committee-members">Responsibilities of Community Fund Committee members</h2>
-
-<ol>
-  <li>
-    <p>To decide along with taking into account community feedback on how the community fund should be utilized.</p>
-  </li>
-  <li>
-    <p>To help evaluate community requests for funding, do due diligence on applicants applying for funding, and obtain all necessary information to ensure sufficient detail for the scope of work.</p>
-  </li>
-  <li>
-    <p>To evaluate and approve payment of milestone requests</p>
-  </li>
-  <li>
-    <p>To make all reasoning of the CFC for approval/rejection public</p>
-  </li>
-  <li>
-    <p>CFC can request for core team’s feedback and opinion on proposals.</p>
-  </li>
-  <li>
-    <p>To always conduct themselves with professionalism without resorting to personal attacks or insults.</p>
-  </li>
-</ol>
-
-<h2 id="minimum-requirements-to-be-eligible-to-be-a-committee-member">Minimum requirements to be eligible to be a committee member</h2>
-
-<ol>
-  <li>
-    <p>Be a recognized and active community member of Firo for at least a year, OR a recognized industry expert/specialist.</p>
-  </li>
-  <li>
-    <p>Solid understanding of Firo’s technology stack and current roadmap and goals</p>
-  </li>
-  <li>
-    <p>Cannot be a current full-time member of the Firo core team. Part-time contributors or contractors of Firo’s core team are allowed but must be disclosed.</p>
-  </li>
-  <li>
-    <p>Be able to attend a CFC meeting once a month or appoint a proxy to do the same (though proxies should be used sparingly).</p>
-  </li>
-  <li>
-    <p>While a technical or development background isn’t required, having a few committee members with some technical background would be helpful in evaluating proposals.</p>
-  </li>
-  <li>
-    <p>Be able to read, check and vote on proposals for funding at least once a week.</p>
-  </li>
-  <li>
-    <p>Be 18 years old and above.</p>
-  </li>
-</ol>
-
-<h2 id="removal-of-cfc-members">Removal of CFC Members</h2>
-
-<ol>
-  <li>
-    <p>If a CFC member is suspected or found to have been involved in fraud or scam or other deceitful behavior, the other CFC members can vote to remove them via majority vote.</p>
-  </li>
-  <li>
-    <p>If a CFC member has acted in a manner that is an unbecoming or unprofessional manner, the other CFC members can vote to remove them via a majority vote.</p>
-  </li>
-  <li>
-    <p>If a CFC member is absent for 2 meetings in a row without due cause, they shall be removed automatically.</p>
-  </li>
-  <li>
-    <p>If a CFC member has continuously failed to vote on proposals for funding, a vote shall be held at the next CFC meeting by the other CFC members on whether to remove them.</p>
-  </li>
-  <li>
-    <p>If a CFC member is removed, nominations should be open for the spot for the remaining term.</p>
-  </li>
-</ol>
-
-<h2 id="meetings-quorums-and-voting">Meetings, Quorums, and Voting</h2>
-
-<ol>
-  <li>
-    <p>A meeting should be held at least once a month with CFC members. The purpose of this meeting is to discuss proposals or to choose how to allocate the FCF funds or any other matters arising. Given CFC members may be in different time zones, this should be taken into account when determining the time of the meeting and the opportunity to take turns for amenable timing.</p>
-  </li>
-  <li>
-    <p>Core team members or their representatives should always be allowed to observe and attend all CFC meetings, but shall not have a vote unless otherwise specified.</p>
-  </li>
-  <li>
-    <p>The minutes of these meetings shall always be publicly available.</p>
-  </li>
-  <li>
-    <p>The meeting can be conducted by text or online meetings.</p>
-  </li>
-  <li>
-    <p>A quorum should be 5 members. Votes are passed using a majority of votes. In the event of an equality of votes, the core team shall have a casting vote.</p>
-  </li>
-  <li>
-    <p>Proposals for funding can be approved without the need for a meeting and shall be voted on in the proposal thread itself.</p>
-  </li>
-  <li>
-    <p>When voting for or against a proposal for funding, all CFC members are required to state the reasoning behind their choice.</p>
-  </li>
-  <li>
-    <p>Anyone can open a proposal for funding, including CFC members.</p>
-  </li>
-  <li>
-    <p>If a CFC member is an applicant for funding, the member cannot vote on that proposal. Also, if a CFC member has a close relationship (e.g. family member, best friend, significant other, spouse) with the applicant for funding, the CFC member should disclose the relationship and put it to the other CFC members to decide whether the member should be allowed to vote or choose to abstain voluntarily.</p>
-  </li>
-  <li>
-    <p>If the CFC wishes to make funds available to the core team to assist them (for instance to cover a shortfall or to pay for a specific employee to retain them), a higher vote threshold is required, which is 5 members out of 7 instead of the usual majority of votes.</p>
-  </li>
-</ol>
-
-<h2 id="general-guidelines-to-community-fund-usage">General Guidelines to Community Fund Usage</h2>
-
-<ol>
-  <li>
-    <p>Trust needs to be earned. While anyone can propose to be funded from the FCF, the person’s track record needs to be evaluated, the necessary due diligence needs to be taken, and milestone payments adjusted appropriately.</p>
-  </li>
-  <li>
-    <p>The CFC can choose to employ contractors to embark on specific tasks, but shall seek community feedback. Where it involves core code, the CFC has to consult the core team.</p>
-  </li>
-  <li>
-    <p>The CFC should not be used to host parties or purely social events. Educational or awareness events are okay but should be done with appropriate evidence and not paid upfront.</p>
-  </li>
-  <li>
-    <p>The CFC is to be used and while there shouldn’t be pressure to spend the CFC funds, the CFC funds shouldn’t be hoarded.</p>
-  </li>
-  <li>
-    <p>CFC funds should always be utilized for the benefit of Firo. Research or development that does not directly benefit Firo should not be undertaken.</p>
-  </li>
-  <li>
-    <p>CFC funds should not be used for giveaways, even for the purpose of promoting adoption or participation. These have limited effects.</p>
-  </li>
-  <li>
-    <p>All CFC expenditure has to be disclosed. Contractors that prohibit this should not be engaged.</p>
-  </li>
-  <li>
-    <p>Should the CFC deem fit, FCF funds can be burnt by sending them to this burn address. (<a href="https://explorer.firo.org/address/aFiroBurningAddressDoNotSendrPtjYA">https://explorer.firo.org/address/aFiroBurningAddressDoNotSendrPtjYA 2</a>)</p>
-  </li>
-  <li>
-    <p>FCF funds address can be viewed <a href="https://explorer.firo.org/address/aFA2TbqG9cnhhzX5Yny2pBJRK5EaEqLCH7">here</a> which are from time to time anonymized.</p>
-  </li>
-  <li>
-    <p>Utilization of CFC funds and proposals can always be viewed on the <a href="https://funding.firo.org">Firo Community Crowdfunding</a> page under the category of CFC.</p>
-  </li>
-</ol>
-
-<h2 id="what-the-cfc-is-not">What the CFC is NOT</h2>
-
-<ol>
-  <li>
-    <p>The CFC are NOT representatives of the opinion of the Firo Community. They are only tasked with matters to do with the Community Fund and do not replace the usual process of getting feedback from the general community and core team in implementing large changes.</p>
-  </li>
-  <li>
-    <p>The CFC shall not represent itself as core team members or as representatives of the project.</p>
-  </li>
-</ol>
-
-<p>3rd CFC Election Nomination Thread: <a href="https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/3150">https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500</a></p>
-
-<p>Follow the Community Fund Committee deliberations on <a href="https://t.me/firocfc">Telegram</a> and <a href="https://discord.gg/ctuXBY5a">Discord</a></p>]]></content><author><name>Reuben Yap</name></author><category term="news" /><category term="community" /><summary type="html"><![CDATA[The one year term of the 2nd CFC Committee has ended and the time for the 3rd CFC nominations is underway in preparation for the election. Please express your interest in standing for election in the thread below. Do ensure you introduce yourself and why you are applying to the post and your experience/history with Firo. 3rd CFC Election Nomination Thread: https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500 The 7 member CFC forms an important role in gradually decentralizing governance and sets up an independent fund (Firo Community Fund) to be used for the benefit of Firo. The FCF has been used to fund various community management efforts, audits, social media/marketing support and also to assist the core team where additional funds are required. CFC Committee positions are at this point in time are done on a volunteer basis and we recommend only active and motivated members of the Firo community apply. There is no restriction of existing committee members seeking re-election. Below is a reminder of the role of the CFC and the Firo Community Fund (FCF) it manages: Brief summary of how the CFC came to be Firo conducted a series of community votes to adjust its tokenomics and established the Firo Community Fund. This process spanned several months and involved multiple vetted polls to ensure alignment with the community’s wishes. A committee comprising seven elected community members was established to manage fund allocation. Following the nomination phase, nominees (who are new) undergo a vetting process, including an interview, to assess their eligibility and alignment with the community’s voting objectives. The interview, which can be conducted through text or online meetings, delves into the nominees’ beliefs in Firo, their grasp of Firo’s technology, personal background (without revealing sensitive information), and their vision for the fund’s utilization. Nominees not widely known in the community must provide proof of active participation for at least a year. Moving on from these specifics, it’s essential to outline the responsibilities and prerequisites expected of a member of the Firo Community Fund Committee (CFC). Responsibilities of Community Fund Committee members To decide along with taking into account community feedback on how the community fund should be utilized. To help evaluate community requests for funding, do due diligence on applicants applying for funding, and obtain all necessary information to ensure sufficient detail for the scope of work. To evaluate and approve payment of milestone requests To make all reasoning of the CFC for approval/rejection public CFC can request for core team’s feedback and opinion on proposals. To always conduct themselves with professionalism without resorting to personal attacks or insults. Minimum requirements to be eligible to be a committee member Be a recognized and active community member of Firo for at least a year, OR a recognized industry expert/specialist. Solid understanding of Firo’s technology stack and current roadmap and goals Cannot be a current full-time member of the Firo core team. Part-time contributors or contractors of Firo’s core team are allowed but must be disclosed. Be able to attend a CFC meeting once a month or appoint a proxy to do the same (though proxies should be used sparingly). While a technical or development background isn’t required, having a few committee members with some technical background would be helpful in evaluating proposals. Be able to read, check and vote on proposals for funding at least once a week. Be 18 years old and above. Removal of CFC Members If a CFC member is suspected or found to have been involved in fraud or scam or other deceitful behavior, the other CFC members can vote to remove them via majority vote. If a CFC member has acted in a manner that is an unbecoming or unprofessional manner, the other CFC members can vote to remove them via a majority vote. If a CFC member is absent for 2 meetings in a row without due cause, they shall be removed automatically. If a CFC member has continuously failed to vote on proposals for funding, a vote shall be held at the next CFC meeting by the other CFC members on whether to remove them. If a CFC member is removed, nominations should be open for the spot for the remaining term. Meetings, Quorums, and Voting A meeting should be held at least once a month with CFC members. The purpose of this meeting is to discuss proposals or to choose how to allocate the FCF funds or any other matters arising. Given CFC members may be in different time zones, this should be taken into account when determining the time of the meeting and the opportunity to take turns for amenable timing. Core team members or their representatives should always be allowed to observe and attend all CFC meetings, but shall not have a vote unless otherwise specified. The minutes of these meetings shall always be publicly available. The meeting can be conducted by text or online meetings. A quorum should be 5 members. Votes are passed using a majority of votes. In the event of an equality of votes, the core team shall have a casting vote. Proposals for funding can be approved without the need for a meeting and shall be voted on in the proposal thread itself. When voting for or against a proposal for funding, all CFC members are required to state the reasoning behind their choice. Anyone can open a proposal for funding, including CFC members. If a CFC member is an applicant for funding, the member cannot vote on that proposal. Also, if a CFC member has a close relationship (e.g. family member, best friend, significant other, spouse) with the applicant for funding, the CFC member should disclose the relationship and put it to the other CFC members to decide whether the member should be allowed to vote or choose to abstain voluntarily. If the CFC wishes to make funds available to the core team to assist them (for instance to cover a shortfall or to pay for a specific employee to retain them), a higher vote threshold is required, which is 5 members out of 7 instead of the usual majority of votes. General Guidelines to Community Fund Usage Trust needs to be earned. While anyone can propose to be funded from the FCF, the person’s track record needs to be evaluated, the necessary due diligence needs to be taken, and milestone payments adjusted appropriately. The CFC can choose to employ contractors to embark on specific tasks, but shall seek community feedback. Where it involves core code, the CFC has to consult the core team. The CFC should not be used to host parties or purely social events. Educational or awareness events are okay but should be done with appropriate evidence and not paid upfront. The CFC is to be used and while there shouldn’t be pressure to spend the CFC funds, the CFC funds shouldn’t be hoarded. CFC funds should always be utilized for the benefit of Firo. Research or development that does not directly benefit Firo should not be undertaken. CFC funds should not be used for giveaways, even for the purpose of promoting adoption or participation. These have limited effects. All CFC expenditure has to be disclosed. Contractors that prohibit this should not be engaged. Should the CFC deem fit, FCF funds can be burnt by sending them to this burn address. (https://explorer.firo.org/address/aFiroBurningAddressDoNotSendrPtjYA 2) FCF funds address can be viewed here which are from time to time anonymized. Utilization of CFC funds and proposals can always be viewed on the Firo Community Crowdfunding page under the category of CFC. What the CFC is NOT The CFC are NOT representatives of the opinion of the Firo Community. They are only tasked with matters to do with the Community Fund and do not replace the usual process of getting feedback from the general community and core team in implementing large changes. The CFC shall not represent itself as core team members or as representatives of the project. 3rd CFC Election Nomination Thread: https://forum.firo.org/t/nominations-for-the-3rd-community-fund-committee-cfc-are-now-open/31500 Follow the Community Fund Committee deliberations on Telegram and Discord]]></summary></entry></feed>
+<p>Join us in the discussion in our Firo forums located <a href="https://forum.firo.org/t/firo-tokenomics-discussion-with-upcoming-halving/3162">Here</a>!</p>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="dev" /><summary type="html"><![CDATA[With the upcoming scheduled halving of emissions in supply in September 2024, the Firo community has raised questions about whether the Firo block reward distribution or tokenomics would be revisited, as was the case with the previous halving. The last time this was done was in May 2022. In particular, whether the block reward distribution would be adjusted and whether there should be a change in the emission cycle; for example, whether to have a more gradual emission decrease instead of halvings, implement a tail emission, etc. The core team highly values the Firo community’s input in these crucial changes. We are actively seeking your feedback on our forums and plan to keep the feedback period open until at least the end of June 2024. This will allow us to implement your insights prior to the upcoming hard fork, underscoring your integral role in shaping Firo’s future. As these changes will significantly impact Firo’s future and development direction, we look forward to hearing from the community and greatly appreciate the well-reasoned feedback we’ve received thus far. Let your voice be heard! Join us in the discussion in our Firo forums located Here!]]></summary></entry></feed>
