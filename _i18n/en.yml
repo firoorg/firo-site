@@ -190,10 +190,6 @@ team:
     name: Sproxet
     title: Developer
     bio: Sproxet is an anonymous developer that has worked on privacy preserving software for the past 15 years and has contributed significantly to Firo's Electron client. Sproxet is also the founder of Signal Eleven, an IT consultancy which focuses on computer security and auditing, software development and cryptographic systems architecture design.
-  gevorgmirzoyan:
-    name: Gevorg Mirzoyan
-    title: Developer
-    bio: Gevorg is a software engineer who graduated from the Faculty of Applied Mathematics and Informatics, Russian-Armenian (Slavonic) University. His tech stack includes C++, Unity and Linux. He has a passion for programming, hiking and games.
   zorayrzakaryan:
     name: Zorayr Zakaryan
     title: Mobile Project Manager
@@ -242,6 +238,14 @@ team:
     name: Tigran Mamikonyan
     title: Research
     bio: Tigran holds a Master's Degree in Informatics and Applied Mathematics and Computer and Information Sciences. He is currently pursuing his PhD in Informatics and Applied Mathematics at Yerevan State University.
+  artur:
+    name: Artur
+    title: Developer
+    bio: Artur is a budding software engineer and Yerevan State Medical University student, brings a unique blend of medical knowledge and tech skills. Graduating from Picsart Academy, he excels in C/C++ and has hands-on experience in software development.His passion lies in merging medicine and technology to create impactful solutions.
+  narek:
+    name: Narek Geghamyan
+    title: Developer
+    bio: Narek is a software engineer who graduated from a Faculty of  computer science in National University of Architecture and Construction of Armenia. His tech stack includes C++ and Linux. He has a passion a swimming and coding.
   
 roadmap:
   aura: Aura Private Voting (finalizing paper)
