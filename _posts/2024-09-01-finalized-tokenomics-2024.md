@@ -2,7 +2,7 @@
 layout: post
 title: "Firo Tokenomics Finalized"
 summary: "The Firofam has voted and spoken"
-tags: [community, news]
+tags: [community, news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/finalized-tokenomics-2024/banner.png"
 ---
@@ -14,7 +14,7 @@ Through several rounds of polls, the community has decided on the implementation
 * A tail emission of 1 FIRO/block thereafter
 * A block reward division of 70% Masternodes, 5% Miners, 15% Dev, 10% Community
 
-For a more accurate reflection of community sentiment, we employed a system known as [ranked-choice voting or instant run-off](https://www.youtube.com/watch?v=3Y3jE3B8HsE) This system allowed voters to select multiple choices and then rank them in order of preference, ensuring that the final decision better represents the community's preferences.
+For a more accurate reflection of community sentiment, we employed a system known as [ranked-choice voting or instant run-off](https://www.youtube.com/watch?v=3Y3jE3B8HsE). This system allowed voters to select multiple choices and then rank them in order of preference, ensuring that the final decision better represents the community's preferences.
 
 ## Effect of Changes
 
