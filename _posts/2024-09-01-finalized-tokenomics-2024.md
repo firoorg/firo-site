@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Firo Tokenomics Finalized"
-summary: "The Firofam has voted and spoken"
+title: "Firo Finalized Tokenomics Results"
+summary: "The Firofam have voted and spoken."
 tags: [community, news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/finalized-tokenomics-2024/banner.png"
