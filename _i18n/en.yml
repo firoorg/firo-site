@@ -61,20 +61,19 @@ home:
   cta1: Get Firo
   cta2: Learn more
   about: How Firo works
-  aboutp: Firo is unique in the cryptocurrency market as it innovates and pioneers the way forward with bleeding-edge privacy and protocol research. Read on and see for yourself.
+  aboutp: Firo stands out by leading the charge in privacy and protocol innovation. Our pioneering research focuses on how privacy should work in digital finance.
   privacy: Privacy
-  privacy1: Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.
+  privacy1: Firo developed Lelantus Spark that provides trustless, on-chain privacy with high anonymity sets. Dandelion++ technology provides network-layer privacy.
   privacy2: anonymity set
   privacy3: trustless setup
   blockchain: Blockchain
-  blockchain1: Firo uses a hybrid PoW and LLMQ Chainlocks system combining fair distribution of supply with protection against 51% attacks and quick finality of blocks and transactions.
-  blockchain2: total supply
+  blockchain1: Our hybrid PoW and LLMQ Chainlocks system defends against 51% attacks while ensuring near-instant finality of blocks and transactions, making Firo an ideal choice for secure and efficient payments.
+  blockchain2: total supply + tail emission
   blockchain3: proof of work
   blockchain4: master nodes
   privacyin: Privacy Infrastructure
-  privacyin1: Firo's Elysium tokenization layer allows users to create their own privacy-enabled tokens with use-cases from private stablecoins or voting tokens and in the future offer privacy for bridged assets from other chains.
-  randd: Research and Development
-  randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies such as Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
+  privacyin1: With Spark Assets, Firo extends privacy beyond just transactions to the assets themselves. This feature conceals the type of asset being transferred, making it perfect for creating privacy-focused tokens that can be used in secure, anonymous applications like voting or private tokenized assets.
+  randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies such as Zerocoin, Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
   getfiro: Get Firo
   getfiro1: Buy, mine, or earn Firo, and join the privacy revolution. <br>Store your Firo in one of our feature-filled wallets, optimized for power, accessibility, and user experience.
   getfiro2: Get a wallet
@@ -173,7 +172,7 @@ team:
   poramininsom:
     name: Poramin Insom
     title: Co-Founder
-    bio: Poramin Insom founded Zcoin (now Firo) in 2016, seeking to provide financial privacy and also more inclusive mining via ASIC resistant proof of work. He earned a masters degree in Information Security from Johns Hopkins University where he wrote a paper on a proposed practical implementation of the Zerocoin protocol. He laid the foundations of Zcoin's (now Firo) technology from coding the world's first implementation of Zerocoin and also pushing for the research and development into the MTP mining algorithm. Poramin has been focused on pushing for the adoption of Firo into the real world especially in his involvement in facilitating the Thai Democrat Party to conduct its primary elections to elect its party leader on Firo's blockchain in 2018 which is the world's first large scale political election on a blockchain.
+    bio: Poramin Insom founded Zcoin (now Firo) in 2016, seeking to provide financial privacy and also more inclusive mining via ASIC resistant proof of work. He earned a masters degree in Information Security from Johns Hopkins University where he wrote a paper on a proposed practical implementation of the Zerocoin protocol. He laid the foundations of Zcoin's (now Firo) technology from coding the world's first implementation of Zerocoin and also pushing for the research and development into the MTP mining algorithm. Poramin has been focused on pushing for the adoption of Firo into the real world especially in his involvement in facilitating the Thai Democrat Party to conduct its primary elections to elect its party leader on Firo's blockchain in 2018 which is the world's first large scale political election on a blockchain. He also served in tha Thai military where he was in charge of cyberwarfare.
   reubenyap:
     name: Reuben Yap
     title: Co-Founder
