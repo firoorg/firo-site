@@ -6,7 +6,7 @@ tags: [community, dev, news]
 author: "Reuben Yap"
 img: "/blog/assets/firo-14140-release/banner.png"
 ---
-Following the [finalisation of the community polls](https://firo.org/2024/09/01/finalized-tokenomics-2024.html) to determine Firo’s tokenomics, we are releasing Firo v14.14.0 with the agreed-upon changes that require a hard fork.
+Following the [finalisation of the community polls](https://firo.org/2024/09/01/finalized-tokenomics-2024.html) to determine Firo’s tokenomics, we are releasing Firo v0.14.14.0 with the agreed-upon changes that require a hard fork.
 
 Please upgrade your wallets, daemons and masternodes to the latest Firo v0.14.14.0 before block 958655 (approximately 16 September 2024). **This is a mandatory upgrade**.
 
