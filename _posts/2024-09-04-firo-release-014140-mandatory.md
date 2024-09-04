@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Firo Mandatory upgrade v0.14.14.0"
+title: "Firo Mandatory Release v0.14.14.0"
 summary: "This release implements the tokenomics change voted on by community members"
 tags: [community, dev, news]
 author: "Reuben Yap"
