@@ -9,7 +9,7 @@ permalink: /guide/troubleshooting-masternode.html
 
 Masternode quorums form at certain block heights. When reaching such height, a subset of currently enabled masternodes is selected for participation in the quorum. This subset is chosen deterministically, meaning every peer on the network chooses exactly the same subset. A series of messages are then sent between quorum members to generate cryptographic keys. 
 
-Only masternodes that are configured correctly and running at the time of quorum formation can participate in key generation. If the masternode is selected for quorum but is misconfigured, not running or did not participate, it will be penalised. The masternode will gain a PoSe score which is given by `66% x number of Enabled masternodes` or `100`, whichever is greater.
+Only masternodes that are configured correctly and running at the time of quorum formation can participate in key generation. If the masternode is selected for quorum but is misconfigured, not running or did not participate, it will be penalised. The masternode will gain a PoSe score which is given by `66% x number of Registered masternodes` or `100`, whichever is greater.
 
 The PoSe score decreases by 1 for every block mined. A masternode with a PoSe score of 3000 therefore requires 3000 blocks to be mined before its score is zeroed.
 
