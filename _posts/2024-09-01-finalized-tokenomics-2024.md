@@ -34,14 +34,15 @@ There is also a significant change to the supply schedule of Firo to reflect the
 
 After the 21.4 million limit is hit, to ensure a stable monetary supply and a continued stable security subsidy, a fixed tail emission of 1 FIRO/block will continue in perpetuity which works out to be 0.98% inflation rate p.a. at the beginning and over time trends to 0%. To read more about the effects of tail emission and how it leads to a stable monetary supply that is neither inflationary nor deflationary, you can read this [article](https://petertodd.org/2022/surprisingly-tail-emission-is-not-inflationary). There's also strong [academic evidence](https://www.cs.princeton.edu/~arvindn/publications/mining_CCS.pdf) that indicates that having no block reward results in instability in Bitcoin.
 
-To view the effect of changes in tokenomics to Firo's supply over time, we've plotted this graph from the hard fork date of block 958655 (approximately 16 September 2024) over the next 20 years.
-[chart]
+To view the effect of changes in tokenomics to Firo's supply over time, we've plotted this graph starting from the hard fork date of block 958655 (approximately 16 September 2024) over the next 20 years. The times are estimated due to the slight variance in block times. Tail emission is hit roughly halfway into year 14 (5+ years from hard fork date).
+
+![Chart of emission, old versus new starting 2024](/blog/assets/finalized-tokenomics-2024/emissioncomparison2024.png)
 
 ## Future Direction
 
 The core team is making a firm commitment not to propose further changes to Firo's tokenomics until tail emission is hit. This commitment is aimed at providing stability and certainty to the Firo community, ensuring a secure and confident future.
 
-We will be deploying these changes in release [Firo v.14.14.0](https://github.com/firoorg/firo/releases), as these changes are scheduled to come into force by block 958655 (approximately 16 September 2024). Please ensure you are updated to the [latest version](https://github.com/firoorg/firo/releases) as soon as possible.
+We will be deploying these changes in release [Firo v.14.14.0](https://github.com/firoorg/firo/releases/tag/v0.14.14.0), as these changes are scheduled to come into force by block 958655 (approximately 16 September 2024). Please ensure you are updated to the [latest version](https://github.com/firoorg/firo/releases/latest) as soon as possible.
 
 In the coming weeks, the core team will also be rolling out an updated roadmap for Firo, laying out development and adoption goals for the next few years. This will also include research into blockchain consensus models that would be secure and sustainable through tail emission and also a renewed focus on increasing awareness and adoption.
 
