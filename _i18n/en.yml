@@ -120,6 +120,7 @@ download:
   downloadelectruml: Download Electrum for Linux
   hasheswindows: Show SHA256 hashes for Windows
   hashesmac: Show SHA256 hashes for macOS
+  hashesmacarm: Show SHA256 hashes for macOS arm64
   hasheslinux: Show SHA256 hashes for Linux
   officialmobile: official mobile wallets
   optionmob1: Android
