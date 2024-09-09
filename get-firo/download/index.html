@@ -57,6 +57,16 @@ permalink: /get-firo/download/index.html
                                     </div>
                               </div>
                             </div>
+                            <div class="system mac">
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-arm64-macos.dmg">{% t download.downloadqtmarm %}</a>
+                                <div class="tab">
+                                    <input type="checkbox" id="mh1">
+                                    <label class="tab-label" for="mh1">{% t download.hashesmac %}</label>
+                                    <div class="tab-content">
+                                      <p>{{ site.data.downloads.qt_hashes_mac_arm }}</p>
+                                    </div>
+                              </div>
+                            </div>
                             <div class="system linux">
                                 <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz">{% t download.downloadqtl %}</a>
                                 <div class="tab">

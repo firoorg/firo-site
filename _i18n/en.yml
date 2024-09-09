@@ -105,6 +105,7 @@ download:
   qt: Reference
   downloadqtw: Download Reference for Windows
   downloadqtm: Download Reference for macOS
+  downloadqtmarm: Download Reference for macOS arm64
   downloadqtflathub: Get it on Flathub
   downloadqtl: Download Reference for Linux
   electron: Campfire
