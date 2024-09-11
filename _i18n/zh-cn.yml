@@ -103,6 +103,7 @@ download:
   qt: Reference 钱包
   downloadqtw: 下载 Windows 版 Reference 钱包
   downloadqtm: 下载 macOS 版 Reference 钱包
+  downloadqtmarm: 下载 macOS arm64 版 Reference 钱包
   downloadqtl: 下载 Linux 版 Reference 钱包
   electron: Campfire
   downloadelectronw: 下载 Windows 版 Campfire 钱包
@@ -116,6 +117,7 @@ download:
   downloadelectruml: 下载 Linux 版 Electron 钱包
   hasheswindows: 显示 Windows 版钱包的 SHA256 哈希
   hashesmac: 显示 macOS 版钱包的 SHA256 哈希
+  hashesmacarm: 显示 macOS arm64 版钱包的 SHA256 哈希
   hasheslinux: 显示 Linux 版钱包的 SHA256 哈希
   officialmobile: 官方手机钱包
   optionmob1: Android

@@ -93,6 +93,7 @@ download:
   qt: Dompet Reference
   downloadqtw: Unduh Reference untuk Windows
   downloadqtm: Unduh Reference untuk macOS
+  downloadqtmarm: Unduh Reference untuk macOS arm64
   downloadqtl: Unduh Reference untuk Linux
   electron: Campfire
   downloadelectronw: Unduh Campfire untuk Windows
@@ -106,6 +107,7 @@ download:
   downloadelectruml: Unduh Electrum untuk Linux
   hasheswindows: Tampilkan hash SHA256 untuk Windows
   hashesmac: Tampilkan hash SHA256 untuk macOS
+  hashesmacarm: Tampilkan hash SHA256 untuk macOS arm64
   hasheslinux: Tampilkan hash SHA256 untuk Linux
   officialmobile: dompet ponsel resmi
   optionmob1: Android
