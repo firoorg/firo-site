@@ -23,7 +23,7 @@ If you need to rescan your wallet, please run with **\-rescan** instead. This ca
 Open the folder where the **firo-qt.exe** is located. Hold Shift, right-click inside the folder and select **'Open PowerShell window here'**.. In the PowerShell window that appears, type: 
 
 ```
-.\firo-qt.exe -reindex-chainstate
+.\firo-qt.exe -reindex
 ```
 
 ![](/guide/assets/reindex-wallet/firo-qt-powershell.png)
@@ -33,7 +33,7 @@ Open the folder where the **firo-qt.exe** is located. Hold Shift, right-click in
 Navigate to the directory where your **firo-qt** binary is. In the **Terminal**, type in the following: 
 
 ```
-./firo-qt -reindex-chainstate
+./firo-qt -reindex
 ```
 
 ![](/guide/assets/reindex-wallet/firo-qt-linux-terminal.png)
@@ -41,7 +41,7 @@ Navigate to the directory where your **firo-qt** binary is. In the **Terminal**,
 If you want to **reindex your masternode:** 
 
 ```
-./firod -daemon -reindex-chainstate
+./firod -daemon -reindex
 ```
 
 Note that the time to finish reindex differs greatly depending on your VPS' performance.
@@ -51,33 +51,7 @@ Note that the time to finish reindex differs greatly depending on your VPS' perf
 Using the **Terminal**, enter the following command: 
 
 ```
-/Applications/firo-qt.app/Contents/MacOS/Firo-qt -reindex-chainstate
+/Applications/firo-qt.app/Contents/MacOS/Firo-qt -reindex
 ```
 
 ![](/guide/assets/reindex-wallet/firo-qt-macos-terminal.png)
-
-## Firo Rich GUI client (Electron)
-
-To reindex the Electron client, go to the **Debug Console**, enter the following command and press Enter:
-
-```
-setargsfornextrun -reindex
-```
-
-Restart the wallet. The reindex process will start. Once completed, the wallet's main interface will be displayed.
-
-If you need the other options, replace `-reindex` with `-reindex-chainstate` or `-rescan`
-
-If you were unable to start the Electron client for some reason, edit the **firo.conf** in [the data directory](https://github.com/firoorg/firo/wiki/Default-data-directories) and add one of these options that you require. **Do not** add all options.
-
-```
-reindex=1
-```
-
-```
-reindex-chainstate=1
-```
-
-```
-rescan=1
-```
