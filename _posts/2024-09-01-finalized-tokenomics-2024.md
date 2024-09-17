@@ -22,7 +22,7 @@ For a more accurate reflection of community sentiment, we employed a system know
 
 To read through how the Firo community arrived at this decision, you can follow the timeline and links to the relevant discussions below:
 * April 2024: Initial discussion about tokenomics. [blog](https://firo.org/2024/04/23/firo-tokenomics-and-halving.html) [forum](https://forum.firo.org/t/firo-tokenomics-discussion-with-upcoming-halving/3162)
-* June-July 2024: Polls were held regarding [tail emission](https://forum.firo.org/t/firo-tokenomics-discussion-with-upcoming-halving/3162], the [development and community fund], and [the rate of emission](https://forum.firo.org/t/poll-should-firo-keep-its-halving-schedule-or-should-we-revisit-our-emission-curve/3276)
+* June-July 2024: Polls were held regarding [tail emission](https://forum.firo.org/t/firo-tokenomics-discussion-with-upcoming-halving/3162), the [development and community fund](https://forum.firo.org/t/poll-should-firo-continue-its-development-fund-and-community-fund/3274), and [the rate of emission](https://forum.firo.org/t/poll-should-firo-keep-its-halving-schedule-or-should-we-revisit-our-emission-curve/3276)
 * July 2024: A [thread](https://forum.firo.org/t/discussion-on-final-poll-options-for-tokenomics-and-block-division/3345) was opened to ensure that the final poll's voting options would cover all options that the community cared about.
 * August 2024: [Final polls](https://forum.firo.org/t/poll-final-tokenomics-and-block-division/3379) to vote on the proposed changes.
 
