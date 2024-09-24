@@ -39,5 +39,7 @@ To join the campaign, you'll need to set up your wallet using the [Hummingbot Mi
 Don't miss this amazing chance to earn rewards while engaging with the Firo community! Whether you're a current participant or new to liquidity mining, we invite you to take part and enjoy the benefits firsthand.
 
 
-*For full terms of the campaign, please read the full terms here [Hummingbot New 24-week for FIRO liquidity mining campaign!](https://support.hummingbot.io/miner/new-24-week-for-firo-liquidity-mining-campaign). Learn more about Liquidity mining [here](https://support.hummingbot.io/miner/liquidity-mining-explained)
+*For full terms of the campaign, please read the full terms here [Hummingbot New 24-week for FIRO liquidity mining campaign!](https://support.hummingbot.io/miner/new-24-week-for-firo-liquidity-mining-campaign)
+
+Learn more about Liquidity mining [here](https://support.hummingbot.io/miner/liquidity-mining-explained)
 
