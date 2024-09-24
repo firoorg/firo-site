@@ -8,7 +8,7 @@ img: "/blog/assets/firo-liquidity-campaign-sept24/banner.png"
 ---
 We are excited to share that the Liquidity campaign is back! Now for 24 weeks with a total reward pool of approximately ~US$19,200 up for grabs! Provide liquidity on Binance and AscendEX via Hummingbot and earn Firo!
 
-[!](/blog/assets/firo-liquidity-campaign-sept24/img1.jpg)
+[](/blog/assets/firo-liquidity-campaign-sept24/img1.jpg)
 
 ## Campaign Terms
 
