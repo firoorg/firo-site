@@ -2,7 +2,7 @@
 layout: post
 title: "Firo 24-Week Liquidity Mining Campaign"
 summary: "Total reward pool of up to US$19,200 up for grabs"
-tags: [dev, news]
+tags: [community, news]
 author: "Augustus Jong"
 img: "/blog/assets/firo-liquidity-campaign-sept24/banner.png"
 ---
