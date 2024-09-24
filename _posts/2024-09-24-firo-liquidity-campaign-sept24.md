@@ -12,17 +12,17 @@ We are excited to share that the Liquidity campaign is back! Now for 24 weeks wi
 
 ## Campaign Terms
 
-* Start date: September 24, 2024, 12:00 AM UTC 
+* Start date: **September 24, 2024, 12:00 AM UTC**
 
-* Total reward pool*: ~US$19,200 (FIRO 684 per week) 
+* Total reward pool*: **~US$19,200** (FIRO 684 per week) 
 
-* Reward token: FIRO
+* Reward token: **FIRO**
 
-* Eligible token pair: FIRO/USDT
+* Eligible token pair: **FIRO/USDT**
 
-* Eligible orders: maker orders placed with spreads of 2.0% or lower
+* Eligible orders: maker orders placed with spreads of **2.0%** or lower
 
-* Exchange: Binance and AscendEX
+* Exchange: **[Binance](https://accounts.binance.com/en/register?ref=37748947)** and **[AscendEX](https://ascendex.com/en-us/register?inviteCode=URUFAVHHY)**
 
 ## What is Hummingbot?
 
@@ -43,3 +43,6 @@ Don't miss this amazing chance to earn rewards while engaging with the Firo comm
 
 Learn more about Liquidity mining [here](https://support.hummingbot.io/miner/liquidity-mining-explained)
 
+## Thank you
+
+We extend our heartfelt thanks to Power Up Privacy who funded this campaign through their [donation]({{ site.baseurl }}2024/08/10/firo-receive-donation-from-powerup-privacy.html). Discover more about Power Up Privacy [here](https://powerupprivacy.com/)
