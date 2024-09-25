@@ -22,7 +22,7 @@ The guide is meant for Windows users though Linux users can easily adapt it.
 ## Step 1: Getting your Miners
 
 * [Official reference miner](https://github.com/firoorg/firominer/releases) (open source, no fee. Performance on newer AMD cards is poor on the reference miner) 
-* [Nvidia GPU: T-Rex Miner](https://github.com/trexminer/T-Rex/releases) (closed source, 1% fee)
+* [Nvidia/AMD GPU: GMiner](https://github.com/develsoftware/GMinerRelease/releases) (closed source, 1% fee)
 * [AMD GPU: Team Red Miner](https://github.com/todxx/teamredminer/releases) (closed source, 2% fee)
 * [AMD GPU: SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi/releases) (closed source, 0.85% fee)
 
