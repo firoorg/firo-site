@@ -39,8 +39,6 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
 	* [Mintpond's Firo mining guide](https://mintpond.com/getting-started-guide/firo)
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
-* [2Miners](https://2miners.com/firo-mining-pool)
-    * firo.2miners.com:8181
 * [Nanopool's Picopool](https://picopool.org/)
     * firo-eu1.picopool.org:22222
 * [Zergpool](http://zergpool.com)
