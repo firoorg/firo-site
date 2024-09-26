@@ -76,10 +76,10 @@ firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
 firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
 ```
 
-T-Rex Miner (Nvidia):
+Gminer:
 
 ```
-t-rex.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password
+miner --algo firopow --server POOLADDRESS:PORT --user username.worker
 ```
 
 Team Red Miner (AMD):
