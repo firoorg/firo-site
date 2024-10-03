@@ -22,7 +22,7 @@ The guide is meant for Windows users though Linux users can easily adapt it.
 ## Step 1: Getting your Miners
 
 * [Official reference miner](https://github.com/firoorg/firominer/releases) (open source, no fee. Performance on newer AMD cards is poor on the reference miner) 
-* [Nvidia GPU: T-Rex Miner](https://github.com/trexminer/T-Rex/releases) (closed source, 1% fee)
+* [Nvidia/AMD GPU: GMiner](https://github.com/develsoftware/GMinerRelease/releases) (closed source, 1% fee)
 * [AMD GPU: Team Red Miner](https://github.com/todxx/teamredminer/releases) (closed source, 2% fee)
 * [AMD GPU: SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi/releases) (closed source, 0.85% fee)
 
@@ -39,8 +39,6 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
 	* [Mintpond's Firo mining guide](https://mintpond.com/getting-started-guide/firo)
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
-* [2Miners](https://2miners.com/firo-mining-pool)
-    * firo.2miners.com:8181
 * [Nanopool's Picopool](https://picopool.org/)
     * firo-eu1.picopool.org:22222
 * [Zergpool](http://zergpool.com)
@@ -54,6 +52,8 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
 * [K1Pool](https://k1pool.com/pool/firo)
     * eu.firo.k1pool.com:3476
     * us.firo.k1pool.com:3476
+* [1pool](http://1pool.org/)
+    * firo.1pool.org:6060
 * For detailed stratum information, please visit the pool's own site.
 
 Most of the pools listed here do not require registration, only a valid **Firo address** as username and **worker** details. Ensure that you also get the **pool's address** and **port.**
@@ -78,10 +78,10 @@ firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
 firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
 ```
 
-T-Rex Miner (Nvidia):
+Gminer:
 
 ```
-t-rex.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password
+miner --algo firopow --server POOLADDRESS:PORT --user username.worker
 ```
 
 Team Red Miner (AMD):
