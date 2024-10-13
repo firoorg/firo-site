@@ -230,8 +230,8 @@ team:
     bio: An Information Technology graduate from the Philippines, Lemar has been a cryptocurrency enthusiast since 2017 and is dedicated to spreading awareness of Firo across the Philippines.
   aramjivanyan:
     name: Aram Jivanyan
-    title: Cryptographer
-    bio: Aram is the creator of Firo's Lelantus and Lelantus Spark privacy protocols which has revived interest in one-out-of-many proofs and inspired other privacy protocols such as Triptych (Monero) and Lelantus-MW (Beam). He is also the founding CEO of Skycryptor, Techstars company pioneering the development of proxy re-encryption algorithms. Before founding Skycryptor, Aram worked as senior cryptography researcher and development team lead at the American University of Armenia where the scientific group conducted cryptography research for Fortune 1000 industrial partners. Aram's main research interest included white-box cryptography, searchable encryption methods, oblivious transfer protocols and cryptographic e-voting systems.
+    title: Chief Privacy Architect
+    bio: Aram has been a key figure in developing Firo's core technology, having created both the Lelantus and Lelantus Spark protocols. These scientific innovations have significantly influenced the privacy protocol landscape within the cryptocurrency space, inspiring the creation of other privacy-focused protocols such as Triptych (Monero), Seraphis (Monero), and Lelantus-MW (Beam). He has also designed privacy preserving voting systems with minimal trust requirements such as Aura.
   aregvrtanesyan:
     name: Areg Vrtanesyan
     title: Cryptography Researcher / Developer
@@ -248,6 +248,22 @@ team:
     name: Narek Geghamyan
     title: Developer
     bio: Narek is a software engineer who graduated from a Faculty of  computer science in National University of Architecture and Construction of Armenia. His tech stack includes C++ and Linux. He has a passion a swimming and coding.
+  cypherstack:
+    name: Cypher Stack
+    title: Design Firm
+    bio: Cypher Stack is a blockchain developer, design, research, and consultation company. They are currently developing Firo with their mobile wallet and lite desktop wallet, Campfire.
+  batuhan:
+    name: Batuhan
+    title: Turkish Community Manager
+    bio: Batuhan manages the Turkish community, translating annoucements and notices
+  antibit:
+    name: Antibit
+    title: Russian Community Manager
+    bio: Antibit manages the Russian community, translating annoucements and notices
+  lilking:
+    name: Lil-King
+    title: Community Manager
+    bio: Lil-King is a dedicated privacy advocate in the crypto space with over five years of experience. Specializing in marketing and onboarding, Lil-King has played a crucial role in promoting privacy-focused projects. Passionate about financial privacy, Lil-King is committee to educating and empowering users to take control of their digital assets securely.
   
 roadmap:
   aura: Aura Private Voting (finalizing paper)
