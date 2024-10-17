@@ -10,4 +10,6 @@ We are happy to announce the addition of  80,356.8262 BEP20-FIRO and 167.286754 
 
 BEP20-FIRO is a wrapped version of FIRO that is issued and backed 1:1 with native FIRO by Binance. As a BEP20 token on BNB Chain, it does not have privacy features but it allows permissionless access to BNB Chain’s rich DeFi ecosystem such as AMM DEXes and also access to all major stablecoins that are either native to BNB Chain or can be bridged into it.
 
+Binance has [recently minted an additional 400,000 BEP20-FIRO](https://bscscan.com/tx/0x834c69aae5aa972f6fb9cfb4b0d1a8fbf051fd86867f216799b13c81a684fe36) and its backing of native FIRO can be verified on-chain at this [address](https://explorer.firo.org/address/a8tXPzGEYxcehK6ehfpCUXTtQ6VocQHHRT). 
+
 BEP20-FIRO can be swapped to and from native FIRO either through FiroDEX or Komodo Platform, swap providers such as ChangeNow or directly through Binance or MEXC. We’ll be posting more detailed guides on each of these options soon.
