@@ -34,9 +34,6 @@ Extract the exe binary into a folder of your choice.
 
 There are several pools running Firo on FiroPoW. Please try to spread the hashrate around so that no pool has more than 50% of the total hashrate for decentralization reasons! Note that pure 51% attacks are not possible on Firo due to Chainlocks technology which require both to compromise or take down the masternode network and have the necessary hashrate. You can view the current hashrate distribution [here](https://poolbay.io/crypto/317/firo).
 
-* [Mintpond](https://mintpond.com/#!/firo)
-    * firo.mintpond.com:3000
-	* [Mintpond's Firo mining guide](https://mintpond.com/getting-started-guide/firo)
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
 * [Nanopool's Picopool](https://picopool.org/)
@@ -54,6 +51,9 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
     * us.firo.k1pool.com:3476
 * [1pool](http://1pool.org/)
     * firo.1pool.org:6060
+* [cedric-crispin](https://firo.cedric-crispin.com/)
+    * firo.cedric-crispin.com:4065
+    * firo.cedric-crispin.com:4064
 * For detailed stratum information, please visit the pool's own site.
 
 Most of the pools listed here do not require registration, only a valid **Firo address** as username and **worker** details. Ensure that you also get the **pool's address** and **port.**

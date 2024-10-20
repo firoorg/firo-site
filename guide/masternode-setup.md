@@ -151,8 +151,8 @@ There are many providers to choose from:
 Select a VPS package that meets the minimum requirements:
 
 *   1 or 2 vCPU cores 
-*   1.5 GB of RAM (2 GB with swap on recommended)
-*   25 GB of disk space (blockchain size is currently 9.0 GB in April 2024)
+*   2 GB of RAM **with swap space enabled**
+*   25 GB of disk space (blockchain size is currently 8.0 GB in October 2024)
 
 **Note:** With FiroPoW, the blockchain grows at a rate of about 1 GB per year. Please make sure you pick a VPS with sufficient disk space. 
 
