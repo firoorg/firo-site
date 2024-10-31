@@ -23,7 +23,7 @@ Description=Firo daemon
 After=network.target
 
 [Service]
-Type=forking
+Type=simple
 Restart=always
 RestartSec=30
 
