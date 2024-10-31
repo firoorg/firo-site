@@ -308,11 +308,8 @@ In that new file type the following and **change the capitalized parts** to matc
     rpcpassword=ANYPASSWORD
     rpcallowip=127.0.0.1
     #----
-    listen=1
     server=1
     daemon=1
-    logtimestamps=1
-    txindex=1
     #----
     znode=1
     externalip=YOUR MASTERNODE IP:8168
