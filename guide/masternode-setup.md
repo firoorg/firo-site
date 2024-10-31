@@ -310,6 +310,7 @@ In that new file type the following and **change the capitalized parts** to matc
     #----
     server=1
     daemon=1
+    disablewallet=1
     #----
     znode=1
     externalip=YOUR MASTERNODE IP:8168
