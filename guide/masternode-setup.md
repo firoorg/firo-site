@@ -37,7 +37,7 @@ The list of available masternode providers:
 
 ### Requirements
 
-* [The latest version of Firo full nodewallet]({{ site.baseurl }}/get-firo/download/) (Firo Qt/Firo Electron) 
+* [The latest version of Firo full node wallet]({{ site.baseurl }}/get-firo/download/) (Firo Qt) 
 * 1000 FIRO plus transaction fee
 * A VPS/dedicated server with static IPv4 address
 
@@ -308,11 +308,9 @@ In that new file type the following and **change the capitalized parts** to matc
     rpcpassword=ANYPASSWORD
     rpcallowip=127.0.0.1
     #----
-    listen=1
     server=1
     daemon=1
-    logtimestamps=1
-    txindex=1
+    disablewallet=1
     #----
     znode=1
     externalip=YOUR MASTERNODE IP:8168

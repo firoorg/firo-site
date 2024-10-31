@@ -15,7 +15,7 @@ Create a service file for firod:
 
 `sudo nano /etc/systemd/system/firod.service`
 
-Enter the following. Modify the `User`, `Group`, `PIDFile`, `ExecStart`, and `ExecStop` lines according to your own configuration:
+Enter the following. Modify the `User`, `Group`, `PIDFile` (and `username`), `ExecStart`, and `ExecStop` lines according to your own configuration:
 
 ```
 [Unit]
@@ -23,7 +23,7 @@ Description=Firo daemon
 After=network.target
 
 [Service]
-Type=forking
+Type=simple
 Restart=always
 RestartSec=30
 
