@@ -37,7 +37,7 @@ The list of available masternode providers:
 
 ### Requirements
 
-* [The latest version of Firo full nodewallet]({{ site.baseurl }}/get-firo/download/) (Firo Qt/Firo Electron) 
+* [The latest version of Firo full node wallet]({{ site.baseurl }}/get-firo/download/) (Firo Qt) 
 * 1000 FIRO plus transaction fee
 * A VPS/dedicated server with static IPv4 address
 
