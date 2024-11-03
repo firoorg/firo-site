@@ -48,22 +48,6 @@ Example 3: you have a lot of small private Spark mints. Use Coin Control to comb
 If you frequently encounter this problem, some recommendations are:
 * regularly combine these masternode and mining payouts instead of waiting until you want to send them out.
 
-## Firo Client (Electron)
-
-### Breaking masternode collateral
-
-If you wish to stop your masternode and break the 1000 FIRO masternode collateral, you must first enable Coin Control.
-
-1. **Settings -> Allow Coin Control to Break Masternodes**
-
-2. In the Send screen,set the toggle from **Private** to **Public**
-
-3. Click on **"Custom Inputs (Coin Control)"**
-
-4. Find your 1000 FIRO collateral and click its checkbox.
-
-The 1000 FIRO should now be available for you to send.
-
 ## Electrum Firo
 
 ### Mining payouts and hardware wallets
