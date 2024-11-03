@@ -180,7 +180,7 @@
 
 <p>This allows you to easily store a backup of your wallet offline as well as restoring it to other compatible wallets that supports seed phrase, instead of just backing up your wallet.dat file previously.</p>
 
-<p><strong>Warning:</strong> Electrum-Firo uses a different seed phrase standard and thus <strong>cannot be imported</strong> into the QT or Electron wallet. You can import the QT/Electron seed phrase into Electrum-Firo, but ensure the <strong>BIP39</strong> option is checked.</p>
+<p><strong>Warning:</strong> Electrum-Firo uses a different seed phrase standard and thus <strong>cannot be imported</strong> into the QT wallet. You can import the QT seed phrase into Electrum-Firo, but ensure the <strong>BIP39</strong> option is checked.</p>
 
 <h2 id="creating-a-new-wallet-with-seed-phrase">Creating a new wallet with seed phrase</h2>
 
@@ -219,39 +219,6 @@
   </li>
 </ol>
 
-<h3 id="firo-client-electron">Firo Client (Electron)</h3>
-
-<p><img src="/guide/assets/backing-up-wallet-with-recovery-seed-phrase/firo-client/firo-client-01.png" alt="" /></p>
-
-<ol>
-  <li>Click on the <strong>“Create a New Wallet”</strong> button.</li>
-</ol>
-
-<p><img src="/guide/assets/backing-up-wallet-with-recovery-seed-phrase/firo-client/firo-client-02.png" alt="" /></p>
-
-<p><strong>WARNING:</strong> Do not use the seed phrase in the example above! If you do, your funds will be gone!</p>
-
-<ol>
-  <li>At the next screen, your seed phrase will be displayed. Please write it down and keep it in a safe and secure location. Click on the <strong>“I have written down my seed phrase”</strong> button once you have finished.</li>
-</ol>
-
-<p><img src="/guide/assets/backing-up-wallet-with-recovery-seed-phrase/firo-client/firo-client-03.png" alt="" /></p>
-
-<ol>
-  <li>You will be asked to re-enter some parts of your seed phrase to verify that you have written them down corectly. Enter all the words in the correct order and click on <strong>Confirm</strong>.</li>
-</ol>
-
-<p><img src="/guide/assets/backing-up-wallet-with-recovery-seed-phrase/firo-client/firo-client-04.png" alt="" /></p>
-
-<ol>
-  <li>
-    <p>At the next screen, enter your passphrase. This will be used to unlock your wallet or send a transaction.</p>
-  </li>
-  <li>
-    <p>Firo Client will now initialize your wallet with the seed phrase. This might take a while. Once complete, you will see the wallet’s main screen.</p>
-  </li>
-</ol>
-
 <h2 id="restoring-wallet-from-seed-phrase">Restoring wallet from seed phrase</h2>
 
 <h3 id="firo-qt-1">Firo QT</h3>
@@ -274,38 +241,6 @@
     <p>Click the “<strong>OK</strong>” button.</p>
   </li>
 </ol>
-
-<h3 id="firo-client-electron-1">Firo Client (Electron)</h3>
-
-<p><img src="/guide/assets/backing-up-wallet-with-recovery-seed-phrase/firo-client/firo-client-05.png" alt="" /></p>
-
-<ol>
-  <li>
-    <p>Click on the <strong>“Recover from a Seed Phrase”</strong> button.</p>
-  </li>
-  <li>
-    <p>At the next screen, select <strong>12</strong> or <strong>24 words</strong> and enter your seed phrase. If you have a protective passphrase, check the box and enter it here as well. If you never created a protective passphrase before, do not enter a protective passphrase <strong>otherwise the wrong wallet might be restored.</strong></p>
-  </li>
-</ol>
-
-<p><strong>CAUTION:</strong> This protective passphrase is not the same as your wallet’s passphrase that you use to unlock your wallet or send a transaction.</p>
-
-<p>Click on the <strong>OK</strong> button once you have entered the seed phrase.</p>
-
-<ol>
-  <li>
-    <p>At the next screen, enter your passphrase. This will be used to unlock your wallet or send a transaction.</p>
-  </li>
-  <li>
-    <p>Firo Client will now start rescanning the blockchain for transactions related to your seed phrase. This might take a while. Once complete, you will see the wallet’s main screen and restored balance.</p>
-  </li>
-</ol>
-
-<ul>
-  <li>Viewing seed phrase</li>
-</ul>
-
-<p>To view your wallet’s current seed phrase, go to <strong>Settings</strong> -&gt; <strong>Show Recovery Phrase</strong> and enter your passphrase.</p>
 
                      </div>
                   </div>
