@@ -95,10 +95,10 @@ download:
   downloadqtm: Unduh Reference untuk macOS
   downloadqtmarm: Unduh Reference untuk macOS arm64
   downloadqtl: Unduh Reference untuk Linux
-  electron: Campfire
-  downloadelectronw: Unduh Campfire untuk Windows
-  downloadelectronm: Unduh Campfire untuk macOS
-  downloadelectronl: Unduh Campfire untuk Linux
+  campfire: Campfire
+  downloadcampfirew: Unduh Campfire untuk Windows
+  downloadcampfirem: Unduh Campfire untuk macOS
+  downloadcampfirel: Unduh Campfire untuk Linux
   downloadmobcamp: Unduh untuk Android
   downloadioscamp: Unduh untuk iOS
   electrum: Electrum
