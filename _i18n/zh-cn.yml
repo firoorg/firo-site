@@ -112,9 +112,9 @@ download:
   downloadmobcamp: Download for Android
   downloadioscamp: Download for iOS
   electrum: Electrum
-  downloadelectrumw: 下载 Windows 版 Electron 钱包
-  downloadelectrumm: 下载 macOS 版 Electron 钱包
-  downloadelectruml: 下载 Linux 版 Electron 钱包
+  downloadelectrumw: 下载 Windows 版 Electrum 钱包
+  downloadelectrumm: 下载 macOS 版 Electrum 钱包
+  downloadelectruml: 下载 Linux 版 Electrum 钱包
   hasheswindows: 显示 Windows 版钱包的 SHA256 哈希
   hashesmac: 显示 macOS 版钱包的 SHA256 哈希
   hashesmacarm: 显示 macOS arm64 版钱包的 SHA256 哈希
