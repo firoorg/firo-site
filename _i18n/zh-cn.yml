@@ -105,16 +105,16 @@ download:
   downloadqtm: 下载 macOS 版 Reference 钱包
   downloadqtmarm: 下载 macOS arm64 版 Reference 钱包
   downloadqtl: 下载 Linux 版 Reference 钱包
-  electron: Campfire
-  downloadelectronw: 下载 Windows 版 Campfire 钱包
-  downloadelectronm: 下载 macOS 版 Campfire 钱包
-  downloadelectronl: 下载 Linux 版 Campfire 钱包
+  campfire: Campfire
+  downloadcampfirew: 下载 Windows 版 Campfire 钱包
+  downloadcampfirem: 下载 macOS 版 Campfire 钱包
+  downloadcampfirel: 下载 Linux 版 Campfire 钱包
   downloadmobcamp: Download for Android
   downloadioscamp: Download for iOS
   electrum: Electrum
-  downloadelectrumw: 下载 Windows 版 Electron 钱包
-  downloadelectrumm: 下载 macOS 版 Electron 钱包
-  downloadelectruml: 下载 Linux 版 Electron 钱包
+  downloadelectrumw: 下载 Windows 版 Electrum 钱包
+  downloadelectrumm: 下载 macOS 版 Electrum 钱包
+  downloadelectruml: 下载 Linux 版 Electrum 钱包
   hasheswindows: 显示 Windows 版钱包的 SHA256 哈希
   hashesmac: 显示 macOS 版钱包的 SHA256 哈希
   hashesmacarm: 显示 macOS arm64 版钱包的 SHA256 哈希

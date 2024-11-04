@@ -108,10 +108,10 @@ download:
   downloadqtmarm: Download Reference for macOS arm64
   downloadqtflathub: Get it on Flathub
   downloadqtl: Download Reference for Linux
-  electron: Campfire
-  downloadelectronw: Download Campfire for Windows
-  downloadelectronm: Download Campfire for macOS
-  downloadelectronl: Download Campfire for Linux
+  campfire: Campfire
+  downloadcampfirew: Download Campfire for Windows
+  downloadcampfirem: Download Campfire for macOS
+  downloadcampfirel: Download Campfire for Linux
   downloadmobcamp: Download Campfire for Android
   downloadioscamp: Download Campfire for iOS
   electrum: Electrum
