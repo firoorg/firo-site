@@ -205,15 +205,15 @@ permalink: /about/faq/index.html
                             <input type="checkbox" id="q15">
                             <label class="tab-label" for="q15"><h4>What is the total supply and distribution of Firo?</h4></label>
                             <div class="tab-content">
-                                <p>There will be 21.4 million Firos. Firo follows the same distribution and halving cycle as Bitcoin (every 4 years).</p>
+                                <p>A fixed emission of 6.25 FIRO/block until the cap of 21.4 million FIRO is hit and then a tail emission of 1 FIRO/block thereafter</p>
 								<p>The current block reward of 6.25 FIRO/block is divided as follows:</p>
                                 <ul>
-                                <li>Miners (25%, 1.5625 FIRO)</li>
-                                <li>Masternodes (50%, 3.125 FIRO )</li>
+                                <li>Miners (5%, 0.3125 FIRO)</li>
+                                <li>Masternodes (70%, 4.375 FIRO )</li>
                                 <li>Development Fund (15%, 0.9375 FIRO)</li>
                                 <li>Community Fund (10%, 0.625 FIRO)</li>
                                 </ul>
-                                <p>For more information about how we arrived at this new distribution and the development fund, please read this <a href="{{ site.baseurl }}/2020/05/04/block-reward-allocation-and-development-fund-for-the-next-4-years.html">blog post.</a></p>
+                                <p>For more information about how we arrived at this new distribution and the development fund, please read this <a href="{{ site.baseurl }}/2024/09/01/finalized-tokenomics-2024.html">blog post.</a></p>
                             </div>
                           </div>
                         </div>
@@ -241,7 +241,7 @@ permalink: /about/faq/index.html
                             <label class="tab-label" for="q17"><h4>What is FiroPoW?</h4></label>
                             <div class="tab-content">
                                 <p>FiroPoW is a mining algorithm that&nbsp;is highly optimized for GPU mining and designed to be both FPGA and ASIC resistant to even the playing field and allow people to mine from their own consumer hardware. We have always been big fans of Proof of Work’s ability to tie the value of a virtual currency to the real world along with a way to distribute Firo’s supply in a fair and decentralized manner free from restrictions.</p>
-                                <p>FiroPoW follows <a href="https://github.com/ifdefelse/ProgPOW">ProgPoW’s 0.9.4</a> spec with a small change to have the algorithm randomly change with every block. The starting DAG size will be slightly over 4GB and will increase by 8MB every 1300 blocks (~4.5 days). This DAG size has been chosen to support most modern graphics cards.</p>
+                                <p>FiroPoW follows <a href="https://github.com/ifdefelse/ProgPOW">ProgPoW’s 0.9.4</a> spec with a small change to have the algorithm randomly change with every block. The starting DAG size will be slightly over 7GB and will increase by 8MB every 1300 blocks (~4.5 days). This DAG size has been chosen to support most modern graphics cards.</p>
                                 <p>There is a visual explanation of the Merkle Tree Proof algorithm in Firo (formerly Zcoin) <a href="https://www.youtube.com/watch?v=DAJirQaBIzY">on Youtube</a></p>
                             </div>
                           </div>
@@ -275,7 +275,7 @@ permalink: /about/faq/index.html
                             <input type="checkbox" id="q20">
                             <label class="tab-label" for="q20"><h4>Why do some blocks deviate significantly from the target block time?</h4></label>
                             <div class="tab-content">
-                                <p>Our target block time is 5 minutes.</p>
+                                <p>Our target block time is 2.5 minutes.</p>
                                 <p>The chances of not getting a block in&nbsp;<i>blocktime * <b>K</b></i> is approximately <i>e<sup>(-<b>K</b>)</sup></i>.</p>
                                 <p>This means that the chance of getting a ≥30-minute block (<b>K</b>=6) is ≈0.25%. So even though our target block time is 5 minutes, roughly 1 in 400 blocks can take more than at least 30 minutes to find.</p>
                             </div>
