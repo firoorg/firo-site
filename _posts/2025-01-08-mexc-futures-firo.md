@@ -11,6 +11,7 @@ MEXC has launched [FIRO Perpetual Futures contracts](https://futures.mexc.com/ex
 ### What Are Perpetual Futures?
 
 Perpetual futures contracts, unlike traditional futures contracts with expiration dates, can be held indefinitely, providing traders with a flexible tool for both hedging and speculation in the cryptocurrency market.
+
 Learn more about Perpetual Futures [here](https://coinmarketcap.com/academy/glossary/perpetual-futures). 
 
 **Note**: While perpetual futures can be a powerful tool for experienced traders, they carry significant risk due to the use of leverage.
