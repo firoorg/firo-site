@@ -18,7 +18,7 @@ Spark Names not only tie Spark addresses to a name but can also serve as your de
 ### ii) Spark Names does not compromise on privacy: 
 In many alias systems like ENS, the alias is tied to a crypto address that can be looked up on the blockchain. This is a huge privacy risk as now everyone not only knows that the address belongs to you, but can see all transaction activity associated with it.
 
-![](/blog/assets/spark-names/image1.png
+![Image1](/blog/assets/spark-names/image1.png)
 
 Spark Names are tied to privacy preserving Spark Addresses (a type of stealth address) which are not searchable on the blockchain, so someone with your Spark Name can only resolve to a Spark Address which does not reveal any transaction details associated with it. This means you can freely share your Spark Name out without someone getting information about the transactions you receive or send much like an e-mail address!
 
