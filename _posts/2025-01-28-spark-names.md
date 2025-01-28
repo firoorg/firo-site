@@ -2,7 +2,7 @@
 layout: post
 title: "Firo Spark Names"
 summary: "Privacy preserving Digital Aliases and Identities"
-tags: [community, news]
+tags: [community, news, dev]
 author: "Reuben Yap"
 img: "/blog/assets/spark-names/banner.png"
 ---
