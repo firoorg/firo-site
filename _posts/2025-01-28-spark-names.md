@@ -36,10 +36,10 @@ Some naming schemes allow perpetual registration which can result in squatting w
 
 Spark Name’s fee structure is based on the length of the Spark Name where shorter names have higher fees. 
 
-One character: 1000 FIRO/year 
-Two characters: 100 FIRO/year 
-3-5 characters: 10 FIRO/year 
-6 characters and above: 1 FIRO/year 
+* One character: 1000 FIRO/year 
+* Two characters: 100 FIRO/year 
+* 3-5 characters: 10 FIRO/year 
+* 6 characters and above: 1 FIRO/year 
 
 This properly recognizes the scarcity of shorter names while keeping it affordable to most users instead of a flat rate. Users are free to pre-purchase as many years as they want in advance.
 
