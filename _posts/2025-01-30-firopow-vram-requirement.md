@@ -4,7 +4,7 @@ title: "Help Shape Firo’s Mining Future: Weigh In on FiroPoW’s VRAM Requirem
 summary: ""
 tags: [community, news, dev]
 author: "Reuben Yap"
-img: ""
+img: "/blog/assets/firopow_mining.png"
 ---
 
 Firo’s unique hybrid consensus model relies on both Masternodes and miners to secure our network. Mining remains an essential pillar—especially for those who prefer to acquire Firo without relying on an exchange. Recent developments, however, have prompted discussions about the VRAM requirements for mining Firo. We’d like the community’s input on how to proceed.
