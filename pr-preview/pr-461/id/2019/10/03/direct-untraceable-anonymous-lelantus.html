@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang=id>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enabling Direct Untraceable Anonymous Payments in Lelantus | Firo - Menjaga Privasi Aset Kripto</title>
+    <meta name="author" content="">
+    <meta name="description" content=" Direct anonymous payments which hide sender, recipient and value; only showing that a valid transaction has happened is the holy grail of privacy. ">
+    <meta property="og:image" content="/blog/assets/direct-untraceable-anonymous-lelantus/anonpay_in_lelantus.jpg">
+    <meta property="og:description" content=" Direct anonymous payments which hide sender, recipient and value; only showing that a valid transaction has happened is the holy grail of privacy. ">
+    <meta property="og:title" content="Enabling Direct Untraceable Anonymous Payments in Lelantus | Firo - Menjaga Privasi Aset Kripto">
+    <meta name="twitter:title" content="Enabling Direct Untraceable Anonymous Payments in Lelantus | Firo - Menjaga Privasi Aset Kripto">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/meta/favicon-16x16.png">
+    <link rel="manifest" href="img/meta/site.webmanifest">
+    <!-- Feed autodiscovery -->
+    <link type="application/atom+xml" rel="alternate" href="https://firo.org/firo-site/pr-preview/pr-461/feed.xml" title="Firo" />
+</head>
+
+
+  <body>
+    <main>
+        <header>
+      <div class="container">
+               <nav class="row" role='navigation'>
+                   <a class="logo col" href="/firo-site/pr-preview/pr-461/id/index.html" aria-label="Firo Cryptocurrency">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                   </a>
+                   <ul class="main-menu col">
+                       <li class="nav-item"><a href="#">Dapatkan Firo</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/get-firo/download/">Unduh Dompet</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/get-firo/buy-firo/">Beli Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/guide/masternode-setup.html">Dapatkan Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/guide/how-to-mine-firo.html">Tambang</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">Tentang</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/about/research/">Riset</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/about/team/">Tim</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/about/roadmap/">Peta Jalan</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/about/faq/">FAQ</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">Komunitas</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/community/social/">Sosial</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/id/community/merchants/">Para Pedagang</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-461/id/guide/">Panduan</a>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-461/id/blog/">Blog</a></li>
+                       <li class="nav-item"><a href="#">Penggalangan Dana</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="https://funding.firo.org/" target="_blank">Sistem Penggalangan Dana Firo</a></li>
+                               <li><a class="sub-nav-item" href="https://opencollective.com/firo" target="_blank">Kolektif Terbuka</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+               </nav>
+               <nav role='navigation' class="mobile-menu row">
+                  <a class="logo-mobile col" href="/firo-site/pr-preview/pr-461/id/index.html" aria-label="Firo Cryptocurrency">
+                    <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                  </a>
+                  <input class="burger-check" id="mobile-burger" type="checkbox">
+                  <label for="mobile-burger" class="hamburger hamburger--spring">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                  </label>
+                  <ul class="slide-nav">
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list1" type="checkbox" tabindex="0">
+                          <label for="list1">Dapatkan Firo</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-461/id/get-firo/download/">Unduh Dompet</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/id/get-firo/buy-firo/">Beli Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/id/guide/masternode-setup.html">Dapatkan Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/id/guide/how-to-mine-firo.html">Tambang</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list2" type="checkbox" tabindex="0">
+                          <label for="list2">Tentang</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-461/id/about/research/">Riset</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/id/about/team/">Tim</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/id/about/roadmap/">Peta Jalan</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/id/about/faq/">FAQ</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list3" type="checkbox" tabindex="0">
+                          <label for="list3">Komunitas</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-461/id/community/social/">Sosial</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/id/community/merchants/">Para Pedagang</a></li>
+                          </ul>
+                       </li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-461/id/guide/">Panduan</a></li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-461/id/blog/">Blog</a></li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list4" type="checkbox" tabindex="0">
+                          <label for="list4">Penggalangan Dana</label>
+                          <ul class="dropdown-content">
+                              <li><a href="https://funding.firo.org/">Sistem Penggalangan Dana Firo</a></li>
+                              <li><a href="https://opencollective.com/firo">Kolektif Terbuka</a></li>
+                          </ul>
+                       </li>
+                  </ul>
+               </nav>
+       </div>
+   </header>
+
+        
+        <section class="blog-section">
+         <div class="container">
+              <div class="row">
+                  <div class="col post-page">
+                     <h1>Enabling Direct Untraceable Anonymous Payments in Lelantus</h1>
+                     <p class="p-summary">Direct anonymous payments which hide sender, recipient and value; only showing that a valid transaction has happened is the holy grail of privacy.</p>
+                     <div class="post-meta">
+                         <p class="post-date">October 03, 2019</p>
+                         <p class="post-author">Reuben Yap</p>
+                     </div>
+                     <div class="post-body">
+                         <img src="/blog/assets/direct-untraceable-anonymous-lelantus/anonpay_in_lelantus.jpg" alt="">
+                          <p>Zcoin’s privacy comes from its unique mechanism of allowing people to destroy coins and then allow them to redeem them for brand new coins with no previous transaction history which is in our opinion, is superior to other privacy methods which involve mixing or hiding in a crowd.</p>
+
+<p>An easy to visualize how the <strong>“burn and redeem”</strong> privacy mechanism works is imagine money disappearing from one wallet and then at any time after that, magically reappearing in another wallet without showing how it appeared there. This is the basic concept behind Zerocoin (no longer in use) and <a href="/firo-site/pr-preview/pr-461/id/2019/03/20/what-is-sigma-and-why-is-it-replacing-zerocoin-in-zcoin.html">Sigma</a> (which is what Zcoin uses today).</p>
+
+<p>When we revealed <a href="/firo-site/pr-preview/pr-461/id/2019/04/14/lelantus-firo.html">Lelantus,</a> our next gen privacy protocol, we saw it as a matured version of this “burn and redeem” privacy approach combining</p>
+
+<ul>
+  <li>High anonymity sets (~100k)</li>
+  <li>No fancy cryptography with an easy to understand construction</li>
+  <li>No trusted setup</li>
+  <li>No need for fixed denominations.</li>
+</ul>
+
+<h2 id="enabling-direct-anonymous-payments">Enabling Direct Anonymous Payments</h2>
+
+<p>However for the highest level of privacy, direct anonymous payments which hide sender, recipient and value, only showing that a valid transaction has happened is the holy grail of privacy.</p>
+
+<p>The original version of Lelantus had some limited support for this but required the receiver to redeem first (revealing the amount) and then burning it again. This problem is what we call the “self spend” issue which made direct anonymous payments inefficient and bad from a usability standpoint. This is why we had directed research to find a solution to this problem and after some months of work we have made further improvements to the Lelantus protocol.</p>
+
+<p>The new updated Lelantus protocol has roughly equivalent performance characteristics with the original Lelantus with some minor differences:</p>
+
+<ul>
+  <li>Mints are slightly larger (couple of bytes)</li>
+  <li>Direct anonymous sends are now slightly smaller</li>
+  <li>Balance proofs with multiple inputs are slightly larger</li>
+  <li>Range proofs are slightly smaller.</li>
+</ul>
+
+<h2 id="things-left-to-do">Things Left to Do</h2>
+
+<p>The construction laid out in this addendum to the Lelantus paper is informal and lacks security analysis for the moment which we will be working on. We are putting this paper out early to seek feedback and validation of the ideas posed.</p>
+
+<p>The construction also prevents address re-use meaning the recipient always has to produce a new address for each transaction and it would be ideal to come up with a system to allow some form of ‘stealth addressing’.</p>
+
+<h2 id="special-thanks">Special Thanks</h2>
+
+<p>We would like to extend special thanks to <a href="https://github.com/SarangNoether">Sarang Noether</a> from <a href="https://web.getmonero.org/resources/research-lab/">Monero Research Lab</a> who throughout the process gave invaluable feedback and evaluation of the new Lelantus protocol along with proof reading and improving the quality of the paper.</p>
+
+<h2 id="learn-more-about-lelantus">Learn more about Lelantus</h2>
+
+<p><a href="https://lelantus.io/enabling-untraceable-anonymous-payments.pdf">Link to paper on enabling Direct Untraceable Anonymous Payments in Lelantus</a></p>
+
+<p><a href="https://gitter.im/lelantus-protocol/">Gitter link to discussion on Lelantus and Lelantus variants (such as Lelantus-MW)</a></p>
+
+<p><a href="https://t.me/lelantus">Telegram link to Lelantus discussion (bridged with Gitter)</a></p>
+
+<h2 id="presenting-at-cesc">Presenting at CESC</h2>
+
+<p>We will be presenting Lelantus at the upcoming <a href="https://cesc.io/">CESC conference.</a></p>
+
+<p><img src="/blog/assets/direct-untraceable-anonymous-lelantus/EDzgxj8XsAEgnw9.jpg" alt="" /></p>
+
+                     </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <footer class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <h4>Sumber daya</h4>
+                      <ul>
+                          <li><a href="https://github.com/firoorg/firo">Github</a></li>
+                          <li><a href="https://sourceforge.net/projects/firoorg/">Sourceforge</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-461/id/branding/">Merek</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-461/id/guide/bounty-program.html">Program Kerentanan</a></li>
+                          <li><a href="https://explorer.firo.org/">Penjelajah</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <h4>situs web</h4>
+                      <ul>
+                          <li><a href="/firo-site/pr-preview/pr-461/id/feed.xml">Umpan RSS</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-461/id/privacy-policy/">Kebijakan Privasi</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <div>
+                          <h4>Berita</h4>
+                          <p>Kunjungi kanal Telegram kami untuk mendapatkan informasi terbaru tentang berita Firo.</p>
+                          <a class="btn-text" href="https://t.me/fironews" target="_blank"><span>Baca Berita</span><i class="icons-right-small"></i></a>
+                      </div>
+                      <div class="social">
+                          <h4>komunikasi</h4>
+                          <div class="social-icons">
+                            <a href="https://discord.gg/TGZPRbRT3Y" target="_blank"><img src="/img/site-icons/footer/discord.svg" title="Discord" alt="Discord logo"></a>
+                            <a href="https://t.me/firoorg" target="_blank"><img src="/img/site-icons/footer/telegram.svg" title="Telegram" alt="Telegram logo"></a>
+                            <a href="https://twitter.com/firoorg" target="_blank"><img src="/img/site-icons/footer/x.svg" title="X (Twitter)" alt="X (Twitter) logo"></a>
+                            <a href="https://www.facebook.com/firoorg/" target="_blank"><img src="/img/site-icons/footer/facebook.svg" title="Facebook" alt="Facebook logo"></a>
+                            <a href="https://www.youtube.com/c/firoorg" target="_blank"><img src="/img/site-icons/footer/youtube.svg" title="Youtube" alt="Youtube logo"></a>
+                            <a href="https://www.reddit.com/r/firoproject/" target="_blank"><img src="/img/site-icons/footer/reddit.svg" title="Reddit" alt="Reddit logo"></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row bottom">
+                  <div class="col">
+                      <div href="#" class="dropdown language-change">
+                            <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
+                            <label for="langdrop">
+                              Bahasa Indonesia
+                            </label>
+                            <div class="dropdown-content text-center">
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-461/2019/10/03/direct-untraceable-anonymous-lelantus.html" >English</a>
+                                  
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-461/zh-cn/2019/10/03/direct-untraceable-anonymous-lelantus.html" >简体中文</a>
+                                  
+                                
+                              
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-461/nl/2019/10/03/direct-untraceable-anonymous-lelantus.html" >Nederlands</a>
+                                  
+                                
+                              
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang=en>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lelantus: Firo's next gen privacy protocol | Firo - Privacy-preserving cryptocurrency</title>
+    <meta name="author" content="">
+    <meta name="description" content=" We are proud to present Lelantus; the result of Firo's research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan. ">
+    <meta property="og:image" content="/blog/assets/lelantus-firo/lelantus-firo-poramin.jpg">
+    <meta property="og:description" content=" We are proud to present Lelantus; the result of Firo's research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan. ">
+    <meta property="og:title" content="Lelantus: Firo's next gen privacy protocol | Firo - Privacy-preserving cryptocurrency">
+    <meta name="twitter:title" content="Lelantus: Firo's next gen privacy protocol | Firo - Privacy-preserving cryptocurrency">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/meta/favicon-16x16.png">
+    <link rel="manifest" href="img/meta/site.webmanifest">
+    <!-- Feed autodiscovery -->
+    <link type="application/atom+xml" rel="alternate" href="https://firo.org/firo-site/pr-preview/pr-461/feed.xml" title="Firo" />
+</head>
+
+
+  <body>
+    <main>
+        <header>
+      <div class="container">
+               <nav class="row" role='navigation'>
+                   <a class="logo col" href="/firo-site/pr-preview/pr-461/index.html" aria-label="Firo Cryptocurrency">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                   </a>
+                   <ul class="main-menu col">
+                       <li class="nav-item"><a href="#">Get Firo</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/get-firo/download/">Download wallets</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/get-firo/buy-firo/">Buy Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/guide/masternode-setup.html">Earn Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/guide/how-to-mine-firo.html">Mine</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">About</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/about/research/">Research</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/about/team/">Team</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/about/roadmap/">Roadmap</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/about/faq/">FAQ</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">Community</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/community/social/">Social</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-461/community/merchants/">Merchants</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-461/guide/">Guides</a>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-461/blog/">Blog</a></li>
+                       <li class="nav-item"><a href="#">Crowdfunding</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="https://funding.firo.org/" target="_blank">Firo Crowdfunding System</a></li>
+                               <li><a class="sub-nav-item" href="https://opencollective.com/firo" target="_blank">Open Collective</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+               </nav>
+               <nav role='navigation' class="mobile-menu row">
+                  <a class="logo-mobile col" href="/firo-site/pr-preview/pr-461/index.html" aria-label="Firo Cryptocurrency">
+                    <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                  </a>
+                  <input class="burger-check" id="mobile-burger" type="checkbox">
+                  <label for="mobile-burger" class="hamburger hamburger--spring">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                  </label>
+                  <ul class="slide-nav">
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list1" type="checkbox" tabindex="0">
+                          <label for="list1">Get Firo</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-461/get-firo/download/">Download wallets</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/get-firo/buy-firo/">Buy Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/guide/masternode-setup.html">Earn Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/guide/how-to-mine-firo.html">Mine</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list2" type="checkbox" tabindex="0">
+                          <label for="list2">About</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-461/about/research/">Research</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/about/team/">Team</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/about/roadmap/">Roadmap</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/about/faq/">FAQ</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list3" type="checkbox" tabindex="0">
+                          <label for="list3">Community</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-461/community/social/">Social</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-461/community/merchants/">Merchants</a></li>
+                          </ul>
+                       </li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-461/guide/">Guides</a></li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-461/blog/">Blog</a></li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list4" type="checkbox" tabindex="0">
+                          <label for="list4">Crowdfunding</label>
+                          <ul class="dropdown-content">
+                              <li><a href="https://funding.firo.org/">Firo Crowdfunding System</a></li>
+                              <li><a href="https://opencollective.com/firo">Open Collective</a></li>
+                          </ul>
+                       </li>
+                  </ul>
+               </nav>
+       </div>
+   </header>
+
+        
+        <section class="blog-section">
+         <div class="container">
+              <div class="row">
+                  <div class="col post-page">
+                     <h1>Lelantus: Firo's next gen privacy protocol</h1>
+                     <p class="p-summary">We are proud to present Lelantus; the result of Firo's research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan.</p>
+                     <div class="post-meta">
+                         <p class="post-date">April 14, 2019</p>
+                         <p class="post-author">Reuben Yap</p>
+                     </div>
+                     <div class="post-body">
+                         <img src="/blog/assets/lelantus-firo/lelantus-firo-poramin.jpg" alt="">
+                          <p><strong>Updated on 16 July 2019</strong> with new performance numbers, updated comparison chart and Aram’s presentation at Monerokon.</p>
+
+<p>Technology never stands still; especially not in the blockchain privacy space. In a few years, the industry has moved from simple mixing solutions like Coinjoin, to more advanced cryptographic implementations like ring-signatures, Zerocoin (as used by Zcoin) and Zerocash (as used in Zcash).</p>
+
+<p>The tools that de-anonymise blockchains have also grown more sophisticated. Blockchain analysis is now widely available, and well-respected researchers such as Ian Miers believe that <a href="https://www.youtube.com/watch?v=9s3EbSKDA3o">‘decoy based’ systems such as Ring Signatures (as used in Monero) and Mimblewimble (as used in Grin or Beam) can be deanonymized especially when there are repeat transactions.</a></p>
+
+<p>While Zerocoin offered very good anonymity, it suffered from three main issues:</p>
+
+<ul>
+  <li><strong>Fixed denominations</strong></li>
+</ul>
+
+<p>You had to burn and redeem Zerocoins in fixed denominations. If you burnt 10 Zcoins, you would have to redeem 10 Zcoins as well. This greatly limited usability, and restricted anonymity to within the group using the same denomination. It also created a problem with change: how could you send fewer Zcoin than the smallest denomination. Other projects gave the change to miners’ fees and reminted any other balance, but this is not ideal performance-wise and adds a lot of overheads.</p>
+
+<ul>
+  <li><strong>Performance</strong></li>
+</ul>
+
+<p>If Zcoin were to reach the current volume of Bitcoin transactions, Zerocoin performance would still be adequate. Proof sizes are relatively large at 25 kb, though they can be reduced to 10 kb with less security. Verification (the time a node takes to check a proof’s validity) is slow at around 300-400 ms per proof, though it can be sped up with higher powered Znodes. However, performance numbers are insufficient if were to move to a ‘privacy on by default’ model. We need better performance for wide-scale adoption.</p>
+
+<ul>
+  <li><strong>Trusted Setup</strong></li>
+</ul>
+
+<p>A trusted setup is a feature of both Zerocoin and Zerocash systems. It requires certain parameters to be generated, then destroyed. If not destroyed correctly, it allows someone to create coins out of thin air. While <a href="/firo-site/pr-preview/pr-461/2017/04/21/zcoin-moving-beyond-trusted-setup-in-zerocoin.html">Zcoin uses parameters from a 20 year old academic factoring challenge which reduces the chances of a backdoor,</a> it is still an undesirable possibility which reduces trust in the system.</p>
+
+<p>We have previously teased Sigma (set to go live soon) which has smaller proof sizes and no trusted setup, but it still did not address the fixed denominations issue.</p>
+
+<p>We are therefore proud to present <a href="https://eprint.iacr.org/2019/373">Lelantus</a>; the result of Zcoin’s research with our cryptography advisor, Aram Jivanyan, with the assistance of Martun Karapetyan and Levon Petrosyan.</p>
+
+<h2 id="greater-ease-of-use">Greater Ease of Use</h2>
+
+<p>Lelantus builds on from Sigma, and allows users to burn any amount which they can then redeem any partial amount from, while keeping the rest in a burnt state.</p>
+
+<p>With traditional Zerocoin or Sigma, the most efficient way to privately spend 153 coins would require 100 + 50 + 1 + 1 + 1 coins: meaning that you would need a minimum of 5 Zerocoin spends, occupying 125 kB of space. With each spend taking 300ms to verify, that’s around 1500ms of verification time. This also assumes that you had these Zerocoin mints to begin with: most users require more Zerocoin spends if they don’t have the ideal mint denominations on hand.</p>
+
+<p>With Lelantus, this is greatly improved. To achieve the same private spend of 153 coins, a user simply has to use any of the mints they have done before - any arbitrary amount - and do a spend. The minimum number of spends now required is just one, and verification would take between 20 and 30 ms with batch verification, or 300 - 400 ms for a single proof.</p>
+
+<p>Lelantus proofs are only 1.5 kB, so the entire transaction would take a fraction of the power the original Zerocoin protocol required.</p>
+
+<p><img src="/blog/assets/lelantus-firo/lelantus-firo-mint.webp" alt="" /></p>
+
+<p><img src="/blog/assets/lelantus-firo/lelantus-firo-spend.webp" alt="" /></p>
+
+<h2 id="better-privacy">Better Privacy</h2>
+
+<p>Zerocoin’s anonymity set per transaction is based on the number of mints in each denomination. When minting and spending 1 Zcoin, the anonymity set is based off the other 1 Zcoin mints - not the 10, 25, 50 or 100 denominations.</p>
+
+<p>From our observation, certain mint denominations, like 25 and 50, are used less than others, which reduces their anonymity.</p>
+
+<p>Furthermore, as you always have to fully redeem Zerocoins, meaning if you burn 10 you always have to redeem 10, there are timing attacks where you can guess which redemption corresponds with which burn especially if there is a pattern to them.</p>
+
+<p>With Lelantus, there are no longer separate sets of mints for each denomination: all mints are in a single set. This eradicates the worry that certain denominations may be more private than others.</p>
+
+<p>With Zerocoin, there has been the issue of ‘tainted change,’ where an amount smaller than the smallest denomination cannot be minted, therefore it can deanonymize the user. Being able to spend exact amounts with Lelantus means all ‘change’ is left in a minted state, so users need not worry about this.</p>
+
+<h2 id="privacy-on-by-default">Privacy On by Default</h2>
+
+<p>When privacy is opt-in, few people choose to do so, to avoid the additional steps to make a private transaction. This can reduce the anonymity of the system as fewer people using the feature makes it easier to de-anonymise those users. We are therefore aiming to have privacy on by default with Lelantus.</p>
+
+<p>Lelantus offers privacy on by default, whilst offering opt-out privacy to remain easy to integrate with exchanges and other wallets that offer regular transactions.</p>
+
+<h2 id="better-performance">Better Performance</h2>
+
+<p>Besides proof sizes, verification time has been effectively brought down with batch verification.</p>
+
+<p>Lelantus proofs, based off Sigma, take 200 ms to verify per proof, which is significantly faster than Zerocoin. However with batch verification, where proofs are verified simultaneously together, with an anonymity set of 32,384, verifying 100 proofs takes around 2368 ms.</p>
+
+<p>This means the cost of verifying a single proof is only 23.7 ms when using batch verification techniques. We utilize multi exponentiation tricks such as Pippenger’s and Straus techniques to improve this as well.</p>
+
+<p><img src="/blog/assets/lelantus-firo/lelantus-firo-benchmark.webp" alt="" /></p>
+
+<h2 id="the-competition">The Competition</h2>
+
+<p>The chart below illustrates how Lelantus compares to other leading privacy schemes.</p>
+
+<p><img src="/blog/assets/lelantus-firo/lelantus-firo-comparison.webp" alt="" /></p>
+
+<p>As you can see, Lelantus performs very well in all measures; offering a high degree of anonymity, good performance and low proof sizes, without relying on experimental cryptography. We believe that Lelantus offers the most rounded privacy protocol available today.</p>
+
+<p>We expect Lelantus to be ready sometime in late 2019 or early 2020 as we wait for further peer review of the Lelantus paper. Sigma will be deployed in the interim in Q2 2019.</p>
+
+<p>The full academic paper is available at Eprint though we expect further improvements to be made.</p>
+
+<p>We would like to thank Jens Groth, Benedikt Bunz, Ariel Gabizon, Sarang Noether and Markulf Kohlweiss who provided invaluable feedback on Lelantus.</p>
+
+<p>You can check out some of our videos on Lelantus below:</p>
+
+<p><a href="https://www.youtube.com/watch?v=gb53Fe2iuqg"><img src="https://img.youtube.com/vi/gb53Fe2iuqg/maxresdefault.jpg" alt="MoneroKon 2019 - Lelantus: New Protocol for Private Transactions with Hidden Origins and Amounts" /></a></p>
+
+<p><a href="https://youtu.be/uS6JGBRcX-c"><img src="https://img.youtube.com/vi/uS6JGBRcX-c/maxresdefault.jpg" alt="Zcoin presenting Lelantus at Zero Knowledge Summit 3" /></a></p>
+
+<p><a href="https://youtu.be/HSf8bqC0Pcw"><img src="https://img.youtube.com/vi/HSf8bqC0Pcw/maxresdefault.jpg" alt="Zcoin's upcoming privacy protocols: Sigma and Lelantus" /></a></p>
+
+                     </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <footer class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <h4>Resources</h4>
+                      <ul>
+                          <li><a href="https://github.com/firoorg/firo">Github</a></li>
+                          <li><a href="https://sourceforge.net/projects/firoorg/">Sourceforge</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-461/branding/">Branding</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-461/guide/bounty-program.html">Vulnerability Program</a></li>
+                          <li><a href="https://explorer.firo.org/">Explorer</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <h4>Website</h4>
+                      <ul>
+                          <li><a href="/firo-site/pr-preview/pr-461/feed.xml">Feed RSS</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-461/privacy-policy/">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <div>
+                          <h4>News</h4>
+                          <p>Check out our <a href="/blog/">Blog</a> and Telegram channel to stay up to date on Firo news.</p>
+                          <a class="btn-text" href="https://t.me/fironews" target="_blank"><span>Read news</span><i class="icons-right-small"></i></a>
+                      </div>
+                      <div class="social">
+                          <h4>Communication</h4>
+                          <div class="social-icons">
+                            <a href="https://discord.gg/TGZPRbRT3Y" target="_blank"><img src="/img/site-icons/footer/discord.svg" title="Discord" alt="Discord logo"></a>
+                            <a href="https://t.me/firoorg" target="_blank"><img src="/img/site-icons/footer/telegram.svg" title="Telegram" alt="Telegram logo"></a>
+                            <a href="https://twitter.com/firoorg" target="_blank"><img src="/img/site-icons/footer/x.svg" title="X (Twitter)" alt="X (Twitter) logo"></a>
+                            <a href="https://www.facebook.com/firoorg/" target="_blank"><img src="/img/site-icons/footer/facebook.svg" title="Facebook" alt="Facebook logo"></a>
+                            <a href="https://www.youtube.com/c/firoorg" target="_blank"><img src="/img/site-icons/footer/youtube.svg" title="Youtube" alt="Youtube logo"></a>
+                            <a href="https://www.reddit.com/r/firoproject/" target="_blank"><img src="/img/site-icons/footer/reddit.svg" title="Reddit" alt="Reddit logo"></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row bottom">
+                  <div class="col">
+                      <div href="#" class="dropdown language-change">
+                            <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
+                            <label for="langdrop">
+                              English
+                            </label>
+                            <div class="dropdown-content text-center">
+                              
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-461/zh-cn/2019/04/14/lelantus-firo.html" >简体中文</a>
+                                  
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-461/id/2019/04/14/lelantus-firo.html" >Bahasa Indonesia</a>
+                                  
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-461/nl/2019/04/14/lelantus-firo.html" >Nederlands</a>
+                                  
+                                
+                              
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+    </main>
+  </body>
+</html>
