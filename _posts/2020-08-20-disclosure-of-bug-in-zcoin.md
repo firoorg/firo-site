@@ -5,6 +5,10 @@ tags: [announcement, news, development]
 author: "Reuben Yap"
 ---
 
+**Core Team Note (21 February 2025):**
+
+***A portion of the content below contains outdated or incorrect information. Specifically, the disclosed figure of 384,400.82 XZC forged is incorrect and the actual inflation is less at 320,841.99803185 of which 168,101.68037465 coins were recovered and [burnt](https://explorer.firo.org/tx/0b53178c1b22bae4c04ef943ee6d6d30f2483327fe9beb54952951592e8ce368) making the total inflation of this bug at 152,740.3176572 coins. This can be verified by this [pull request](https://github.com/firoorg/firo/pull/1502). Original post below remains unchanged.***
+
 In Zcoin, we have discovered and patched a critical bug that allowed for inflation. The bug has no relation to our Sigma privacy technology.
 
 The bug was a result of us merging in code from [Bitcoin core 0.14](https://web.archive.org/web/20201109030722/https://github.com/bitcoin/bitcoin/pull/9049) that contained a critical inflation bug that was reported in [CVE-2018-17144.](https://bitcoincore.org/en/2018/09/20/notice/) At the time of disclosure of the CVE, we were then on the older Bitcoin core 0.13; and therefore, we were not vulnerable.
