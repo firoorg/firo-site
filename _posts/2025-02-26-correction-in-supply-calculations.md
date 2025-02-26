@@ -57,10 +57,12 @@ After a detailed review, we also discovered that the original estimate of coins 
 
 (Previously reported as ~384,400.82268276)
 
+{:start="2"}
 2. **Recovered and [burnt:](https://explorer.firo.org/tx/0b53178c1b22bae4c04ef943ee6d6d30f2483327fe9beb54952951592e8ce368)**
 
 168,101.68037465 Firo
 
+{:start="3"}
 3. **Net Inflation from CVE-2018-17144:**
 
 152,740.3176572 Firo
@@ -69,11 +71,11 @@ Thus, the underreporting of Firo’s supply on CMC and CoinGecko is around **2,2
 
 ## Lelantus and Sigma Considerations
 
-* **Lelantus Vulnerability:**
+### **Lelantus Vulnerability:**
 
 We estimate around **59,000** coins may have been created via the Lelantus vulnerability. However, these figures will only be **conclusively confirmed once the Lelantus pools are closed,** which is expected around **January 2026.**
 
-* **Sigma Pool Closure:**
+### **Sigma Pool Closure:**
 
 We anticipate **16,072** coins to be permanently removed from circulation when the Sigma pool is closed in an upcoming hard fork. This closure will be rolled out together with the Spark Names feature.
 
@@ -87,10 +89,12 @@ Sigma was replaced by Lelantus on 14 January 2021 and Lelantus was replaced by L
 
 The [new and correct API endpoints](https://explorer.firo.org/api/ext/getmoneysupply) will be used by both CoinGecko and CMC, ensuring accurate reporting of Firo’s total circulating supply. This may take a while for them to verify and update their endpoints.
 
+{:start="2"}
 2. Fixing gettotalsupply
 
 The [gettotalsupply RPC command](https://github.com/firoorg/firo/pull/1502) has been updated to accurately include all known inflation from both the Zerocoin attacks and the Bitcoin CVE-2018-17144 exploit. This fix will be included in the **next release.**
 
+{:start="3"}
 3. Ongoing Monitoring
 
 We will continue to monitor and verify Firo’s total supply as we move closer to closing the Lelantus and Sigma pools. We remain committed to transparency and accuracy in all reporting.
