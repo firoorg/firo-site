@@ -29,9 +29,9 @@ The old API on the Insight explorer used the following formula to calculate Zero
 
 However, in the code, **Zerocoin spends** was treated as a negative number which caused the spend amount to be subtracted from the total instead of it being added back in, leading to an underestimation of Firo’s supply.
 
-The erroneous calculation was introduced [here](https://github.com/firoorg/insight-api-firo/commit/bd535426e082b2ecbb1ec0d9849c37e0884b2866) in 2018.
+* The erroneous calculation was introduced [here](https://github.com/firoorg/insight-api-firo/commit/bd535426e082b2ecbb1ec0d9849c37e0884b2866) in 2018.
 
-Specifically, the bug can be traced to this part of the code.
+* Specifically, the bug can be traced to [this part of the code.](https://github.com/firoorg/insight-api-firo/commit/bd535426e082b2ecbb1ec0d9849c37e0884b2866#diff-2dc1e3cd3d8546425b65b839444b59413f1ee621908bac40ddcd4b263047e1ccR63)
 
 This issue only exists on the Insight Explorer code and not the core Firo software.
 
@@ -53,19 +53,19 @@ After a detailed review, we also discovered that the original estimate of coins 
 
 1. **Total created from CVE-2018-17144:**
 
-320,841.99803185 Firo
+* 320,841.99803185 Firo
 
 (Previously reported as ~384,400.82268276)
 
 {:start="2"}
 2. **Recovered and [burnt:](https://explorer.firo.org/tx/0b53178c1b22bae4c04ef943ee6d6d30f2483327fe9beb54952951592e8ce368)**
 
-168,101.68037465 Firo
+* 168,101.68037465 Firo
 
 {:start="3"}
 3. **Net Inflation from CVE-2018-17144:**
 
-152,740.3176572 Firo
+* 152,740.3176572 Firo
 
 Thus, the underreporting of Firo’s supply on CMC and CoinGecko is around **2,262,246** coins, leading to a lower-than-actual market cap figure on both platforms.
 
@@ -85,35 +85,44 @@ Sigma was replaced by Lelantus on 14 January 2021 and Lelantus was replaced by L
 
 ## Next Steps
 
-1. Updating API Endpoints
+* Updating API Endpoints
+
+* Fixing gettotalsupply
+
+* Ongoing Monitoring
+
+### Updating API Endpoints
 
 The [new and correct API endpoints](https://explorer.firo.org/api/ext/getmoneysupply) will be used by both CoinGecko and CMC, ensuring accurate reporting of Firo’s total circulating supply. This may take a while for them to verify and update their endpoints.
 
-{:start="2"}
-2. Fixing gettotalsupply
+### Fixing gettotalsupply
 
 The [gettotalsupply RPC command](https://github.com/firoorg/firo/pull/1502) has been updated to accurately include all known inflation from both the Zerocoin attacks and the Bitcoin CVE-2018-17144 exploit. This fix will be included in the **next release.**
 
-{:start="3"}
-3. Ongoing Monitoring
+### Ongoing Monitoring
 
 We will continue to monitor and verify Firo’s total supply as we move closer to closing the Lelantus and Sigma pools. We remain committed to transparency and accuracy in all reporting.
 
 ## Conclusion
 
-* **No New Vulnerabilities:** 
+* **No New Vulnerabilities**
+* **Corrected Figures**  
+* **Updated Market Cap** 
+* **Future Updates** 
+
+### **No New Vulnerabilities:** 
 
 There is no new exploit or change in the **actual** supply of Firo, merely an underreporting primarily due to old explorer APIs.
 
-* **Corrected Figures:** 
+### **Corrected Figures:** 
 
 The corrected circulating supply is around **16,964,245** Firo.
 
-* **Updated Market Cap:** 
+### **Updated Market Cap:** 
 
 CMC and CoinGecko will soon update their figures, which will reflect a market cap increase of roughly **2.2 million** coins above previous reports.
 
-* **Future Updates:** 
+### **Future Updates:** 
 
 Once Lelantus and Sigma pools are fully closed, our supply figures will be reconfirmed and updated, ensuring continued reliability and accuracy.
 
