@@ -7,6 +7,9 @@ author: "Reuben Yap"
 img: "/blog/assets/correction-blogpost.png"
 ---
 
+Update (28 February 2025):
+[CoinMarketCap](https://coinmarketcap.com/currencies/firo/) and [CoinGecko](https://www.coingecko.com/en/coins/firo) have updated their circulating and total supply figures. Original post below remains unchanged.
+
 Dear Firo Community,
 
 We would like to inform you about an important update regarding Firo’s reported circulating supply and market capitalization as listed on CoinGecko and CoinMarketCap (CMC). Please rest assured that there has been **no new vulnerability** discovered, nor any actual increase in Firo’s real supply. Instead, the discrepancy stems from outdated API endpoints and a miscalculation in supply reporting.
