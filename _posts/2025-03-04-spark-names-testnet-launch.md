@@ -12,7 +12,7 @@ This testnet release provides a dedicated environment for developers and users t
 
 Your participation and feedback are invaluable as we work together to ensure Spark Names delivers a seamless and privacy-focused experience. Join us in testing and shaping the future of Firo’s address system!
 
-To know more about Spark Names, Please read more about it [here]({{ site.baseurl }}2025/01/28/spark-names.html).
+To know more about Spark Names, Please read more about it [here]({{ site.baseurl }}/2025/01/28/spark-names.html).
 
 **Please note that the testnet will undergo frequent updates and is not Final until release on mainnet. Failing to update to the latest testnet version may result in issues or disruptions.**
 
