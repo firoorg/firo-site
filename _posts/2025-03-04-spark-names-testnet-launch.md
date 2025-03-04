@@ -19,7 +19,7 @@ To know more about Spark Names, Please read more about it [here]({{ site.baseurl
 If you need some testnet FIRO, you can utilize [the faucet](https://testexplorer.firo.org/faucet) or join our Telegram/Discord group and ask for some!
 
 ## How to use Testnet
-1. Download the testnet binaries from [the Github release page.](https://github.com/firoorg/firo/releases/tag/v0.14.14.0-spark-names-alpha.1)
+1. Download the testnet binaries from [the Github release page.](https://github.com/firoorg/firo/releases/tag/v0.14.14.0-spark-names-alpha.2)
 2. Extract to a new directory.
 3. Open Command Prompt or Terminal and navigate to the same directory
 4. Start Firo Qt with the testnet flag. Example: `./firo-qt -testnet`
