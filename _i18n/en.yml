@@ -13,6 +13,7 @@ titles:
   tech: Research
   team: Team
   roadmap: Roadmap
+  roadmap-old: Old Roadmap
   faq: FAQ
   community: Community
   guides: Guides
@@ -266,6 +267,52 @@ team:
     bio: Lil-King is a dedicated privacy advocate in the crypto space with over five years of experience. Specializing in marketing and onboarding, Lil-King has played a crucial role in promoting privacy-focused projects. Passionate about financial privacy, Lil-King is committee to educating and empowering users to take control of their digital assets securely.
   
 roadmap:
+  heading: Roadmap
+  intro1: Firo has come a long way since its inception as Zcoin, pioneering the use of modern zero-knowledge proofs in a privacy protocol. Over time, we have steadily iterated on our technology, developing some of the most robust privacy protocols in the space — protocols that have influenced many other projects.
+  intro2: Our updated roadmap focuses on usability, utility, and upgrades.
+  usability: Usability
+  usabilityp: Enhancing the user experience, integrating with additional wallets, and supporting light clients.
+  utility: Utility
+  utilityp: Expanding use cases through private token issuance and implementing further privacy enhancements in preparation for future quantum computing challenges.
+  upgrades: Upgrades
+  upgradesp: Continuously strengthening the protocol’s core features to maintain Firo’s position as a leader in privacy technology.
+  neartermgoals: Near-term goals
+  sparknames: Spark Names
+  sparknamesp: Allow users to register human-readable addresses tied to their Spark addresses. This also enables storing and sharing metadata for potential use as a decentralized digital identity.
+  sparkcoinbase: Spark Coinbase
+  sparkcoinbasep: Enable miners and masternodes to send rewards directly to private Spark addresses, further enhancing user privacy and Spark adoption.
+  viewkeytooling: View Key Tooling
+  viewkeytoolingp: Develop user-friendly methods for sharing and utilizing Spark view keys, enabling watch-only wallets and selectively disclosing Spark-based funds for compliance purposes.
+  midtermgoals: Mid-term goals
+  sparkassets: Spark Assets
+  sparkassetsp: Allow users to issue their own privacy-preserving assets. These assets enjoy the same privacy features as Spark, including the ability to hide asset types. All assets (including Firo) contribute to a shared anonymity set, and the protocol can also support privacy-preserving NFTs.
+  sparkswap: Spark Swap
+  sparkswapp: Enable atomic swaps between Spark assets and/or Firo, ensuring trustless and private exchanges.
+  curvetrees: Curve Trees
+  curvetreesp: Adopt Curve Trees, an innovative technique for efficient membership proofs that supports a global anonymity set. This upgrade will substantially improve privacy, scalability, verification speed, and proof size.
+  longtermgoals: Long-term goals
+  improvedinfra: Improved Privacy-Preserving Light Wallet Infrastructure
+  improvedinfrap: Continue researching ways to reduce reliance on customized SPV servers, giving users more private and decentralized light wallet options.
+  quantum: Quantum-Resistant Spark
+  quantump: Explore paths to transition Spark into a quantum-resistant protocol, as well as potential interim mitigations to safeguard against future quantum threats.
+  tailemission: Tail Emission Consensus Mechanism
+  tailemissionp: Firo’s current hybrid masternode–Proof-of-Work model may evolve once tail emission is reached. We are investigating alternative incentive or consensus mechanisms to secure the chain in the long run.
+  governance: Governance
+  governancep: Develop clear, decentralized governance structures to reduce reliance on Firo’s core team. The aim is to align all project stakeholders without focusing solely on coin holdings.
+  integrations: Integrations
+  enkrypt: Enkrypt Wallet Integration
+  enkryptp: Integrate Firo into Enkrypt, a multi-asset Web3 browser extension wallet, with full support for Spark features.
+  layerswap: Layerswap v8 Integration
+  layerswapp: Leverage Layerswap v8, a peer-to-peer protocol for bridging and swapping crypto assets across different blockchains. By using pre-HTLCs, it addresses many limitations of traditional atomic swaps (e.g., both parties needing to be online) and supports multi-hop transactions.
+  serai: Serai Integration
+  seraip: Collaborate with Serai, a cross-chain DEX focusing on AMM liquidity for Bitcoin, Ethereum, DAI, and Monero. Integrating Firo expands its cross-chain liquidity options and user base.
+  iterative: Iterative Improvements
+  campfire: Campfire
+  campfirep: Continue building out Campfire desktop and mobile wallets to provide full-featured support for masternodes, Spark Assets, and Spark Names.
+  firodex: FiroDEX
+  firodexp: Rework FiroDEX to be more resilient, ensuring its infrastructure—both nodes and front ends—is operated by a decentralized network of volunteers and community members.
+
+roadmap-old:
   aura: Aura Private Voting (finalizing paper)
   auradesc: Aura is our private voting mechanism for DAOs inspired by our Lelantus technology that allows anonymous but verifiable voting that also hides ballot progress. We intend to use this as the foundation of moving towards formalized decentralized governance.
   avalanche: Avalanche
