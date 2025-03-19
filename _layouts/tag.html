@@ -36,7 +36,7 @@ title: page.tag
                         
                         <a href="{{ post.url }}" class="post-link">
                            {%if post.img%}
-                            <img src="{{post.img}}" alt="{{post.alt}}">
+                            <img src="{{ "{{post.img}}" | relative_url }}" alt="{{post.alt}}">
                             {%endif%}
                             <h2>{{ post.title }}</h2>
                             <p>{{ post.summary }}</p>

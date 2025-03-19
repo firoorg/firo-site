@@ -18,7 +18,7 @@
                          <p class="post-author">{{page.author}}</p>
                      </div>
                      <div class="post-body">
-                         <img src="{{page.img}}" alt="{{page.alt}}">
+                         <img src="{{ "{{page.img}}" | relative_url }}" alt="{{page.alt}}">
                           {{content}}
                      </div>
                   </div>
