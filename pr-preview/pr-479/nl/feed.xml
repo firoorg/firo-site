@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="nl"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://firo.org/firo-site/pr-preview/pr-479/feed.xml" rel="self" type="application/atom+xml" /><link href="https://firo.org/firo-site/pr-preview/pr-479/" rel="alternate" type="text/html" hreflang="nl" /><updated>2025-03-19T21:44:18+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/feed.xml</id><title type="html">Firo</title><subtitle>Firo is a cryptocurrency that focuses on privacy and fungibility.</subtitle><entry><title type="html">Campfire v2.0.4 Release</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2025/03/14/campfire204.html" rel="alternate" type="text/html" title="Campfire v2.0.4 Release" /><published>2025-03-14T00:00:00+00:00</published><updated>2025-03-14T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2025/03/14/campfire204</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2025/03/14/campfire204.html"><![CDATA[<p>This release brings some UI/UX improvements for a smoother experience</p>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+  <li>Show both Spark and Transparent balance in wallet screen.</li>
+  <li>Obscure seed words while restoring in progress</li>
+  <li>Option to rescan on enabling Lelantus scanning</li>
+  <li>Hide zero Lelantus balance on Desktop</li>
+</ul>
+
+<p>Download the latest Campfire wallet here: <a href="https://github.com/firoorg/campfire/releases/tag/v2.0.4">https://github.com/firoorg/campfire/releases/tag/v2.0.4</a></p>
+
+<h3 id="recommendation">Recommendation</h3>
+
+<p><strong>We do not recommend using the same seed phrase in two different wallets at the same time as it can result in errors when trying to spend from Spark. Running into this issue requires you to enter your wallet, go into Settings and clearing your electrumx cache.</strong></p>]]></content><author><name>Augustus Jong</name></author><category term="dev" /><category term="community" /><summary type="html"><![CDATA[This release brings some UI/UX improvements for a smoother experience Changelog Show both Spark and Transparent balance in wallet screen. Obscure seed words while restoring in progress Option to rescan on enabling Lelantus scanning Hide zero Lelantus balance on Desktop Download the latest Campfire wallet here: https://github.com/firoorg/campfire/releases/tag/v2.0.4 Recommendation We do not recommend using the same seed phrase in two different wallets at the same time as it can result in errors when trying to spend from Spark. Running into this issue requires you to enter your wallet, go into Settings and clearing your electrumx cache.]]></summary></entry><entry><title type="html">Spark Names Testnet Launch</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2025/03/04/spark-names-testnet-launch.html" rel="alternate" type="text/html" title="Spark Names Testnet Launch" /><published>2025-03-04T00:00:00+00:00</published><updated>2025-03-04T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2025/03/04/spark-names-testnet-launch</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2025/03/04/spark-names-testnet-launch.html"><![CDATA[<p>We are pleased to announce the launch of Spark Names testnet!</p>
+
+<p>This testnet release provides a dedicated environment for developers and users to experiment, evaluate, and refine Spark Names ahead of its mainnet launch. By enabling real-world testing, we aim to identify and address any potential issues that may not surface during internal development.</p>
+
+<p>Your participation and feedback are invaluable as we work together to ensure Spark Names delivers a seamless and privacy-focused experience. Join us in testing and shaping the future of Firo’s address system!</p>
+
+<p>To know more about Spark Names, Please read more about it <a href="/firo-site/pr-preview/pr-479/nl/2025/01/28/spark-names.html">here</a>.</p>
+
+<p><strong>Please note that the testnet will undergo frequent updates and is not Final until release on mainnet. Failing to update to the latest testnet version may result in issues or disruptions.</strong></p>
+
+<p>If you need some testnet FIRO, you can utilize <a href="https://testexplorer.firo.org/faucet">the faucet</a> or join our Telegram/Discord group and ask for some!</p>
+
+<h2 id="how-to-use-testnet">How to use Testnet</h2>
+<ol>
+  <li>Download the testnet binaries from <a href="https://github.com/firoorg/firo/releases/tag/v0.14.14.0-spark-names-alpha.3">the Github release page.</a></li>
+  <li>Extract to a new directory.</li>
+  <li>Open Command Prompt or Terminal and navigate to the same directory</li>
+  <li>Start Firo Qt with the testnet flag. Example: <code class="language-plaintext highlighter-rouge">./firo-qt -testnet</code></li>
+</ol>
+
+<p>Note: Please backup your mainnet wallet.dat BEFORE testing testnet!!!</p>
+
+<p>We will NOT be responsible for any wallet corruption.</p>
+
+<h3 id="spark-names-fee-structure">Spark Names Fee Structure</h3>
+
+<ul>
+  <li>One character: 1000 FIRO/year</li>
+  <li>Two characters: 100 FIRO/year</li>
+  <li>3-5 characters: 10 FIRO/year</li>
+  <li>6 characters and above: 1 FIRO/year</li>
+</ul>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="news" /><category term="dev" /><summary type="html"><![CDATA[We are pleased to announce the launch of Spark Names testnet! This testnet release provides a dedicated environment for developers and users to experiment, evaluate, and refine Spark Names ahead of its mainnet launch. By enabling real-world testing, we aim to identify and address any potential issues that may not surface during internal development. Your participation and feedback are invaluable as we work together to ensure Spark Names delivers a seamless and privacy-focused experience. Join us in testing and shaping the future of Firo’s address system! To know more about Spark Names, Please read more about it here. Please note that the testnet will undergo frequent updates and is not Final until release on mainnet. Failing to update to the latest testnet version may result in issues or disruptions. If you need some testnet FIRO, you can utilize the faucet or join our Telegram/Discord group and ask for some! How to use Testnet Download the testnet binaries from the Github release page. Extract to a new directory. Open Command Prompt or Terminal and navigate to the same directory Start Firo Qt with the testnet flag. Example: ./firo-qt -testnet Note: Please backup your mainnet wallet.dat BEFORE testing testnet!!! We will NOT be responsible for any wallet corruption. Spark Names Fee Structure One character: 1000 FIRO/year Two characters: 100 FIRO/year 3-5 characters: 10 FIRO/year 6 characters and above: 1 FIRO/year]]></summary></entry><entry><title type="html">Correcting Firo’s Reported Supply and Market Cap Figures</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2025/02/26/correction-in-supply-calculations.html" rel="alternate" type="text/html" title="Correcting Firo’s Reported Supply and Market Cap Figures" /><published>2025-02-26T00:00:00+00:00</published><updated>2025-02-26T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2025/02/26/correction-in-supply-calculations</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2025/02/26/correction-in-supply-calculations.html"><![CDATA[<p>Update (28 February 2025):
+<a href="https://coinmarketcap.com/currencies/firo/">CoinMarketCap</a> and <a href="https://www.coingecko.com/en/coins/firo">CoinGecko</a> have updated their circulating and total supply figures. Original post below remains unchanged.</p>
+
+<p>Dear Firo Community,</p>
+
+<p>We would like to inform you about an important update regarding Firo’s reported circulating supply and market capitalization as listed on CoinGecko and CoinMarketCap (CMC). Please rest assured that there has been <strong>no new vulnerability</strong> discovered, nor any actual increase in Firo’s real supply. Instead, the discrepancy stems from outdated API endpoints and a miscalculation in supply reporting.</p>
+
+<h2 id="background">Background</h2>
+
+<p>On February 21, 2025, at block height 1049420 (06:42 UTC), both CoinGecko and CMC were found to be using an old API endpoint on the Insight explorer.</p>
+
+<p><code class="language-plaintext highlighter-rouge">https://explorer.zcoin.io/api/zerocoin/getrealsupply</code></p>
+
+<p>This endpoint dates back to when Firo was known as Zcoin. As a result of this outdated API, Firo’s supply was incorrectly reported as <strong>14,701,999</strong>, significantly lower than its actual figure.</p>
+
+<h2 id="reasons-for-the-discrepancy">Reasons for the Discrepancy</h2>
+
+<h3 id="incorrect-zerocoin-inflation-calculation">Incorrect Zerocoin Inflation Calculation</h3>
+
+<p>The old API on the Insight explorer used the following formula to calculate Zerocoin-related supply:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Coinbase - Zerocoin mints + Zerocoin spends</code></p>
+
+<p>However, in the code, <strong>Zerocoin spends</strong> was treated as a negative number which caused the spend amount to be subtracted from the total instead of it being added back in, leading to an underestimation of Firo’s supply.</p>
+
+<ul>
+  <li>
+    <p>The erroneous calculation was introduced <a href="https://github.com/firoorg/insight-api-firo/commit/bd535426e082b2ecbb1ec0d9849c37e0884b2866">here</a> in 2018.</p>
+  </li>
+  <li>
+    <p>Specifically, the bug can be traced to <a href="https://github.com/firoorg/insight-api-firo/commit/bd535426e082b2ecbb1ec0d9849c37e0884b2866#diff-2dc1e3cd3d8546425b65b839444b59413f1ee621908bac40ddcd4b263047e1ccR63">this part of the code.</a></p>
+  </li>
+</ul>
+
+<p>This issue only exists on the Insight Explorer code and not the core Firo software.</p>
+
+<h3 id="unaccounted-inflation-from-bitcoin-cve-2018-17144">Unaccounted Inflation from Bitcoin CVE-2018-17144</h3>
+
+<p>Additionally, the old API did not factor in <strong>152,740.3176572</strong> coins created due to the <a href="https://firo.org/2020/08/20/disclosure-of-bug-in-zcoin.html">Bitcoin CVE-2018-17144 vulnerability</a> in 2020.</p>
+
+<h2 id="correct-supply-figure">Correct Supply Figure</h2>
+
+<p>The correct supply figure, as of block 1049420, is approximately <strong>16,964,245.</strong> The following pull request consolidates the calculation of disclosed Zerocoin attacks and the inflation amounts from Bitcoin CVE-2018-17144 into the <code class="language-plaintext highlighter-rouge">gettotalsupply</code> command:</p>
+
+<ul>
+  <li><a href="https://github.com/firoorg/firo/pull/1502">PR #1502: Correct total supply calculation</a></li>
+</ul>
+
+<p>As explained further below, this does not factor coins in Lelantus and Sigma pools. While no new Lelantus or Sigma coins can be created, withdrawals from the respective pools are still allowed.</p>
+
+<h2 id="updated-inflation-calculation-for-bitcoin-cve-2018-17144">Updated Inflation Calculation for Bitcoin CVE-2018-17144</h2>
+
+<p>After a detailed review, we also discovered that the original estimate of coins created from the Bitcoin CVE-2018-17144 vulnerability was overstated. Here is the corrected breakdown:</p>
+
+<ol>
+  <li><strong>Total created from CVE-2018-17144:</strong></li>
+</ol>
+
+<ul>
+  <li>320,841.99803185 Firo</li>
+</ul>
+
+<p>(Previously reported as ~384,400.82268276)</p>
+
+<ol start="2">
+  <li><strong>Recovered and <a href="https://explorer.firo.org/tx/0b53178c1b22bae4c04ef943ee6d6d30f2483327fe9beb54952951592e8ce368">burnt:</a></strong></li>
+</ol>
+
+<ul>
+  <li>168,101.68037465 Firo</li>
+</ul>
+
+<ol start="3">
+  <li><strong>Net Inflation from CVE-2018-17144:</strong></li>
+</ol>
+
+<ul>
+  <li>152,740.3176572 Firo</li>
+</ul>
+
+<p>Thus, the underreporting of Firo’s supply on CMC and CoinGecko is around <strong>2,262,246</strong> coins, leading to a lower-than-actual market cap figure on both platforms.</p>
+
+<h2 id="lelantus-and-sigma-considerations">Lelantus and Sigma Considerations</h2>
+
+<h3 id="lelantus-vulnerability"><strong>Lelantus Vulnerability:</strong></h3>
+
+<p>We estimate around <strong>59,000</strong> coins may have been created via the Lelantus vulnerability. However, these figures will only be <strong>conclusively confirmed once the Lelantus pools are closed,</strong> which is expected around <strong>January 2026.</strong></p>
+
+<h3 id="sigma-pool-closure"><strong>Sigma Pool Closure:</strong></h3>
+
+<p>We anticipate <strong>16,072</strong> coins to be permanently removed from circulation when the Sigma pool is closed in an upcoming hard fork. This closure will be rolled out together with the Spark Names feature.</p>
+
+<p>The quantum of these coins will not drastically affect supply and once these pools are closed (meaning no more withdrawals from the Lelantus and Sigma pools would be allowed), the exact supply can be verified and updated. This balances the need to retire older privacy protocols which are no longer maintained to reduce any attack surface while giving users several years to withdraw their coins.</p>
+
+<p>Sigma was replaced by Lelantus on 14 January 2021 and Lelantus was replaced by Lelantus Spark on 18 January 2024. This means that Sigma users have been given 4 years to withdraw their Sigma coins and Lelantus users will be given approximately 2 years as <a href="https://forum.firo.org/t/emergency-switch-functionality-for-lelantus-lelantus-spark-to-extend-or-retire/2749/37">decided by community feedback.</a></p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<ul>
+  <li>
+    <p>Updating API Endpoints</p>
+  </li>
+  <li>
+    <p>Fixing gettotalsupply</p>
+  </li>
+  <li>
+    <p>Ongoing Monitoring</p>
+  </li>
+</ul>
+
+<h3 id="updating-api-endpoints">Updating API Endpoints</h3>
+
+<p>The <a href="https://explorer.firo.org/api/ext/getmoneysupply">new and correct API endpoints</a> will be used by both CoinGecko and CMC, ensuring accurate reporting of Firo’s total circulating supply. This may take a while for them to verify and update their endpoints.</p>
+
+<h3 id="fixing-gettotalsupply">Fixing gettotalsupply</h3>
+
+<p>The <a href="https://github.com/firoorg/firo/pull/1502">gettotalsupply RPC command</a> has been updated to accurately include all known inflation from both the Zerocoin attacks and the Bitcoin CVE-2018-17144 exploit. This fix will be included in the <strong>next release.</strong></p>
+
+<h3 id="ongoing-monitoring">Ongoing Monitoring</h3>
+
+<p>We will continue to monitor and verify Firo’s total supply as we move closer to closing the Lelantus and Sigma pools. We remain committed to transparency and accuracy in all reporting.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<ul>
+  <li><strong>No New Vulnerabilities</strong></li>
+  <li><strong>Corrected Figures</strong></li>
+  <li><strong>Updated Market Cap</strong></li>
+  <li><strong>Future Updates</strong></li>
+</ul>
+
+<h3 id="no-new-vulnerabilities"><strong>No New Vulnerabilities:</strong></h3>
+
+<p>There is no new exploit or change in the <strong>actual</strong> supply of Firo, merely an underreporting primarily due to old explorer APIs.</p>
+
+<h3 id="corrected-figures"><strong>Corrected Figures:</strong></h3>
+
+<p>The corrected circulating supply is around <strong>16,964,245</strong> Firo.</p>
+
+<h3 id="updated-market-cap"><strong>Updated Market Cap:</strong></h3>
+
+<p>CMC and CoinGecko will soon update their figures, which will reflect a market cap increase of roughly <strong>2.2 million</strong> coins above previous reports.</p>
+
+<h3 id="future-updates"><strong>Future Updates:</strong></h3>
+
+<p>Once Lelantus and Sigma pools are fully closed, our supply figures will be reconfirmed and updated, ensuring continued reliability and accuracy.</p>
+
+<p>We appreciate your understanding and cooperation as we work to resolve this discrepancy. Thank you for your continued support of Firo. For any questions or concerns, feel free to reach out to us on our official community channels.</p>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="news" /><category term="dev" /><summary type="html"><![CDATA[Update (28 February 2025): CoinMarketCap and CoinGecko have updated their circulating and total supply figures. Original post below remains unchanged. Dear Firo Community, We would like to inform you about an important update regarding Firo’s reported circulating supply and market capitalization as listed on CoinGecko and CoinMarketCap (CMC). Please rest assured that there has been no new vulnerability discovered, nor any actual increase in Firo’s real supply. Instead, the discrepancy stems from outdated API endpoints and a miscalculation in supply reporting. Background On February 21, 2025, at block height 1049420 (06:42 UTC), both CoinGecko and CMC were found to be using an old API endpoint on the Insight explorer. https://explorer.zcoin.io/api/zerocoin/getrealsupply This endpoint dates back to when Firo was known as Zcoin. As a result of this outdated API, Firo’s supply was incorrectly reported as 14,701,999, significantly lower than its actual figure. Reasons for the Discrepancy Incorrect Zerocoin Inflation Calculation The old API on the Insight explorer used the following formula to calculate Zerocoin-related supply: Coinbase - Zerocoin mints + Zerocoin spends However, in the code, Zerocoin spends was treated as a negative number which caused the spend amount to be subtracted from the total instead of it being added back in, leading to an underestimation of Firo’s supply. The erroneous calculation was introduced here in 2018. Specifically, the bug can be traced to this part of the code. This issue only exists on the Insight Explorer code and not the core Firo software. Unaccounted Inflation from Bitcoin CVE-2018-17144 Additionally, the old API did not factor in 152,740.3176572 coins created due to the Bitcoin CVE-2018-17144 vulnerability in 2020. Correct Supply Figure The correct supply figure, as of block 1049420, is approximately 16,964,245. The following pull request consolidates the calculation of disclosed Zerocoin attacks and the inflation amounts from Bitcoin CVE-2018-17144 into the gettotalsupply command: PR #1502: Correct total supply calculation As explained further below, this does not factor coins in Lelantus and Sigma pools. While no new Lelantus or Sigma coins can be created, withdrawals from the respective pools are still allowed. Updated Inflation Calculation for Bitcoin CVE-2018-17144 After a detailed review, we also discovered that the original estimate of coins created from the Bitcoin CVE-2018-17144 vulnerability was overstated. Here is the corrected breakdown: Total created from CVE-2018-17144: 320,841.99803185 Firo (Previously reported as ~384,400.82268276) Recovered and burnt: 168,101.68037465 Firo Net Inflation from CVE-2018-17144: 152,740.3176572 Firo Thus, the underreporting of Firo’s supply on CMC and CoinGecko is around 2,262,246 coins, leading to a lower-than-actual market cap figure on both platforms. Lelantus and Sigma Considerations Lelantus Vulnerability: We estimate around 59,000 coins may have been created via the Lelantus vulnerability. However, these figures will only be conclusively confirmed once the Lelantus pools are closed, which is expected around January 2026. Sigma Pool Closure: We anticipate 16,072 coins to be permanently removed from circulation when the Sigma pool is closed in an upcoming hard fork. This closure will be rolled out together with the Spark Names feature. The quantum of these coins will not drastically affect supply and once these pools are closed (meaning no more withdrawals from the Lelantus and Sigma pools would be allowed), the exact supply can be verified and updated. This balances the need to retire older privacy protocols which are no longer maintained to reduce any attack surface while giving users several years to withdraw their coins. Sigma was replaced by Lelantus on 14 January 2021 and Lelantus was replaced by Lelantus Spark on 18 January 2024. This means that Sigma users have been given 4 years to withdraw their Sigma coins and Lelantus users will be given approximately 2 years as decided by community feedback. Next Steps Updating API Endpoints Fixing gettotalsupply Ongoing Monitoring Updating API Endpoints The new and correct API endpoints will be used by both CoinGecko and CMC, ensuring accurate reporting of Firo’s total circulating supply. This may take a while for them to verify and update their endpoints. Fixing gettotalsupply The gettotalsupply RPC command has been updated to accurately include all known inflation from both the Zerocoin attacks and the Bitcoin CVE-2018-17144 exploit. This fix will be included in the next release. Ongoing Monitoring We will continue to monitor and verify Firo’s total supply as we move closer to closing the Lelantus and Sigma pools. We remain committed to transparency and accuracy in all reporting. Conclusion No New Vulnerabilities Corrected Figures Updated Market Cap Future Updates No New Vulnerabilities: There is no new exploit or change in the actual supply of Firo, merely an underreporting primarily due to old explorer APIs. Corrected Figures: The corrected circulating supply is around 16,964,245 Firo. Updated Market Cap: CMC and CoinGecko will soon update their figures, which will reflect a market cap increase of roughly 2.2 million coins above previous reports. Future Updates: Once Lelantus and Sigma pools are fully closed, our supply figures will be reconfirmed and updated, ensuring continued reliability and accuracy. We appreciate your understanding and cooperation as we work to resolve this discrepancy. Thank you for your continued support of Firo. For any questions or concerns, feel free to reach out to us on our official community channels.]]></summary></entry><entry><title type="html">Help Shape Firo’s Mining Future: Weigh In on FiroPoW’s VRAM Requirements</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2025/01/30/firopow-vram-requirement.html" rel="alternate" type="text/html" title="Help Shape Firo’s Mining Future: Weigh In on FiroPoW’s VRAM Requirements" /><published>2025-01-30T00:00:00+00:00</published><updated>2025-01-30T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2025/01/30/firopow-vram-requirement</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2025/01/30/firopow-vram-requirement.html"><![CDATA[<p>Firo’s unique hybrid consensus model relies on both Masternodes and miners to secure our network. Mining remains an essential pillar—especially for those who prefer to acquire Firo without relying on an exchange. Recent developments, however, have prompted discussions about the VRAM requirements for mining Firo. We’d like the community’s input on how to proceed.</p>
+
+<h2 id="background-firopows-increasing-dag-size">Background: FiroPOW’s Increasing DAG Size</h2>
+
+<p>When FiroPOW was introduced in 2021, it began with a VRAM requirement of <strong>4 GB.</strong> From the outset, our mining algorithm was designed to steadily increase its DAG size. The purpose?</p>
+
+<ol>
+  <li>
+    <p><strong>Discourage the use of older, dirt-cheap GPUs</strong> that large farms could easily accumulate.</p>
+  </li>
+  <li>
+    <p><strong>Maintain a level of decentralization</strong> by using relatively modern GPUs.</p>
+  </li>
+</ol>
+
+<p>Since FiroPOW’s launch, the DAG size has continued to grow at approximately <strong>8 MB every 1,300 blocks</strong> (about <strong>2.26 days</strong>). Recently, it <strong>surpassed 7.7 GB</strong>, causing many 8 GB GPUs to fall below the mining threshold due to the GPU overhead.</p>
+
+<h2 id="why-we-need-to-revisit-this">Why We Need to Revisit This</h2>
+
+<ul>
+  <li>
+    <p><strong>Evolving GPU Market:</strong> Mid-range GPUs from 2015 typically had 2-4 GB of VRAM, increasing to 4–8 GB in the 2016–2019 period. Even in 2020–2023, many mid-range cards still ship with 6–8 GB. Meanwhile, rumors suggest the upcoming RTX 5060 may only have 8 GB of VRAM.</p>
+  </li>
+  <li>
+    <p><strong>Continued Role of Miners:</strong> Although Firo has a hybrid consensus system, miners still play an important part in securing the network and offering an alternative onramp to Firo ownership. If VRAM requirements climb too high, we risk excluding a broader audience of potential miners—particularly those using mid-range GPUs.</p>
+  </li>
+</ul>
+
+<h2 id="balancing-accessibility-and-security">Balancing Accessibility and Security</h2>
+
+<p>On one hand, <strong>increasing the DAG size</strong> reduces the risk of someone acquiring large amounts of outdated GPUs at bargain prices to exploit or attack the network. On the other hand, setting the VRAM requirement too high leaves many loyal miners—and potential new ones—unable to participate.</p>
+
+<p><strong>Current Options Being Discussed</strong></p>
+
+<ol>
+  <li>
+    <p><strong>Maintain the requirement at around 8GB:</strong></p>
+
+    <ul>
+      <li>
+        <p>This aligns with most mid-range cards from the past few years.</p>
+      </li>
+      <li>
+        <p>Ensures even upcoming rumored 8GB GPUs can participate.</p>
+      </li>
+      <li>
+        <p>If VRAM trends change significantly, we can revisit in the future.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Lower to just under 6GB and allow it to creep up slowly:</strong></p>
+
+    <ul>
+      <li>
+        <p>This potentially opens up Firo mining to more people immediately.</p>
+      </li>
+      <li>
+        <p>Still gradually phases out older cards but at a slower rate.</p>
+      </li>
+      <li>
+        <p>Balances concerns about security with broader accessibility.</p>
+      </li>
+      <li>
+        <p>Possibly reduces the need for a future hard-fork when VRAM in GPUs increase</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Keep status-quo</strong></p>
+
+    <ul>
+      <li>
+        <p>Only higher-end cards can mine FIRO</p>
+      </li>
+      <li>
+        <p>Potential reduction in security as less GPUs can participate</p>
+      </li>
+      <li>
+        <p>More rewards for remaining miners who can still mine.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="have-your-say-in-our-forum">Have Your Say in Our Forum</h2>
+
+<p>We believe community feedback is vital to making the best decision for Firo’s long-term health. We invite you to:</p>
+
+<ol>
+  <li>
+    <p><strong>Read the full discussion</strong> on our <a href="https://forum.firo.org/t/poll-what-should-the-vram-requirement-for-mining-firo-be/3877">official forum post.</a></p>
+  </li>
+  <li>
+    <p><strong>Cast your vote</strong> on the solution you think best supports Firo’s vision.</p>
+  </li>
+</ol>
+
+<p>This is a critical moment to weigh in on the direction of our mining infrastructure. Your input will help shape how we balance accessibility with security, ensuring Firo remains both robust and welcoming to new and existing miners.</p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<ul>
+  <li>
+    <p><strong>Join the Discussion:</strong> Head over to our <a href="https://forum.firo.org/t/poll-what-should-the-vram-requirement-for-mining-firo-be/3877">forum thread</a> and share your thoughts. Ensure you’re at least Trust Level 1.</p>
+  </li>
+  <li>
+    <p><strong>Vote on Your Preferred Approach:</strong> A simple poll is available for you to vote on locking the VRAM requirement to slightly below 8GB or adjusting it to a slower growth rate starting near 6GB or just maintaining the status quo.</p>
+  </li>
+  <li>
+    <p><strong>Stay Informed:</strong> We will announce any consensus-driven changes and next steps on our official channels.</p>
+  </li>
+</ul>
+
+<p>Thank you for being part of the Firo community. Together, we can chart a path forward that keeps our network secure, decentralized, and accessible to a broad range of miners.
+<strong>—The Firo Core Team</strong></p>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="news" /><category term="dev" /><summary type="html"><![CDATA[Firo’s unique hybrid consensus model relies on both Masternodes and miners to secure our network. Mining remains an essential pillar—especially for those who prefer to acquire Firo without relying on an exchange. Recent developments, however, have prompted discussions about the VRAM requirements for mining Firo. We’d like the community’s input on how to proceed. Background: FiroPOW’s Increasing DAG Size When FiroPOW was introduced in 2021, it began with a VRAM requirement of 4 GB. From the outset, our mining algorithm was designed to steadily increase its DAG size. The purpose? Discourage the use of older, dirt-cheap GPUs that large farms could easily accumulate. Maintain a level of decentralization by using relatively modern GPUs. Since FiroPOW’s launch, the DAG size has continued to grow at approximately 8 MB every 1,300 blocks (about 2.26 days). Recently, it surpassed 7.7 GB, causing many 8 GB GPUs to fall below the mining threshold due to the GPU overhead. Why We Need to Revisit This Evolving GPU Market: Mid-range GPUs from 2015 typically had 2-4 GB of VRAM, increasing to 4–8 GB in the 2016–2019 period. Even in 2020–2023, many mid-range cards still ship with 6–8 GB. Meanwhile, rumors suggest the upcoming RTX 5060 may only have 8 GB of VRAM. Continued Role of Miners: Although Firo has a hybrid consensus system, miners still play an important part in securing the network and offering an alternative onramp to Firo ownership. If VRAM requirements climb too high, we risk excluding a broader audience of potential miners—particularly those using mid-range GPUs. Balancing Accessibility and Security On one hand, increasing the DAG size reduces the risk of someone acquiring large amounts of outdated GPUs at bargain prices to exploit or attack the network. On the other hand, setting the VRAM requirement too high leaves many loyal miners—and potential new ones—unable to participate. Current Options Being Discussed Maintain the requirement at around 8GB: This aligns with most mid-range cards from the past few years. Ensures even upcoming rumored 8GB GPUs can participate. If VRAM trends change significantly, we can revisit in the future. Lower to just under 6GB and allow it to creep up slowly: This potentially opens up Firo mining to more people immediately. Still gradually phases out older cards but at a slower rate. Balances concerns about security with broader accessibility. Possibly reduces the need for a future hard-fork when VRAM in GPUs increase Keep status-quo Only higher-end cards can mine FIRO Potential reduction in security as less GPUs can participate More rewards for remaining miners who can still mine. Have Your Say in Our Forum We believe community feedback is vital to making the best decision for Firo’s long-term health. We invite you to: Read the full discussion on our official forum post. Cast your vote on the solution you think best supports Firo’s vision. This is a critical moment to weigh in on the direction of our mining infrastructure. Your input will help shape how we balance accessibility with security, ensuring Firo remains both robust and welcoming to new and existing miners. Next Steps Join the Discussion: Head over to our forum thread and share your thoughts. Ensure you’re at least Trust Level 1. Vote on Your Preferred Approach: A simple poll is available for you to vote on locking the VRAM requirement to slightly below 8GB or adjusting it to a slower growth rate starting near 6GB or just maintaining the status quo. Stay Informed: We will announce any consensus-driven changes and next steps on our official channels. Thank you for being part of the Firo community. Together, we can chart a path forward that keeps our network secure, decentralized, and accessible to a broad range of miners. —The Firo Core Team]]></summary></entry><entry><title type="html">Firo Spark Names</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2025/01/28/spark-names.html" rel="alternate" type="text/html" title="Firo Spark Names" /><published>2025-01-28T00:00:00+00:00</published><updated>2025-01-28T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2025/01/28/spark-names</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2025/01/28/spark-names.html"><![CDATA[<p>We have a new feature coming to Firo which greatly improves two of the biggest pain points of dealing with crypto: hard to remember cryptocurrency addresses and digital identity!</p>
+
+<p>Spark Names allows users to register user-friendly human-readable names to <a href="/firo-site/pr-preview/pr-479/nl/2021/08/24/presenting-lelantus-spark.html">privacy preserving Spark Addresses</a> directly on Firo’s blockchain, for e.g. ‘@sparky’ instead of a lengthy 144 character Spark address. Spark Names also allow you to attach metadata to it allowing you to add any information you wish to associate with your handle.</p>
+
+<p>While the idea of registering human readable aliases to crypto addresses is not new, as seen in Namecoin, Ethereum Name Service, FIO, Handshake and Zano aliases, our Spark Names implementation offers some advantages over existing naming systems..</p>
+
+<h3 id="i--spark-names-as-your-digital-identity">i)  Spark Names as your Digital Identity</h3>
+<p>Spark Names not only tie Spark addresses to a name but can also serve as your decentralized digital identity! While many other address alias protocols primarily focus only on tying handles to crypto addresses, Spark Names allows you to optionally add metadata to your Spark Name, be it social media handles, avatar urls, and any other text based data so that your Spark Name can identify you while keeping your transaction history private. Metadata can be updated through a renewal which you can perform at any time.</p>
+
+<h3 id="ii-spark-names-does-not-compromise-on-privacy">ii) Spark Names does not compromise on privacy:</h3>
+<p>In many alias systems like ENS, the alias is tied to a crypto address that can be looked up on the blockchain. This is a huge privacy risk as now everyone not only knows that the address belongs to you, but can see all transaction activity associated with it.</p>
+
+<p><img src="/blog/assets/spark-names/image1.png" alt="Image1" /></p>
+
+<p>Spark Names are tied to privacy preserving Spark Addresses (a type of stealth address) which are not searchable on the blockchain, so someone with your Spark Name can only resolve to a Spark Address which does not reveal any transaction details associated with it. This means you can freely share your Spark Name out without someone getting information about the transactions you receive or send much like an e-mail address!</p>
+
+<h3 id="iii-spark-name-fees-fund-community-fund">iii) Spark Name fees fund Community Fund</h3>
+
+<p>As the Firo project doesn’t rely on funding from VCs or investors, it primarily relies on donations and a percentage of the block reward. As Firo gradually moves into decentralized funding, additional continuing sources of revenue are important. All Spark Name related fees are channeled towards the Community Fund led by the community elected <a href="/firo-site/pr-preview/pr-479/nl/2022/07/04/community-fund-committee-elected.html">Community Fund Committee</a> which is independent from the Core team. These funds can be used to fund various tasks such as audits, community initiatives, listings or even development tasks to support Firo and its ecosystem.</p>
+
+<p>In future updates should the community desire, Spark Name fees can be burnt or channeled towards miners or masternode holders that can be helpful when Firo goes into tail emission in a couple of years.</p>
+
+<h3 id="iv-spark-names-requires-renewal">iv) Spark Names requires renewal</h3>
+
+<p>Some naming schemes allow perpetual registration which can result in squatting where one user just hogs a lot of potential names. While requiring renewal does not completely prevent this, it ensures that there’s an ongoing price to squat or at least pay a bigger fee upfront to secure a multi-year registration. This also partially addresses issues where users become inactive and yet hold on to valuable aliases. Having Spark Names fee model in this way generates organic demand for FIRO and an ongoing revenue source for the FIRO ecosystem.</p>
+
+<h3 id="v--fee-structure-based-on-length">v)  Fee structure based on length</h3>
+
+<p>Spark Name’s fee structure is based on the length of the Spark Name where shorter names have higher fees.</p>
+
+<ul>
+  <li>One character: 1000 FIRO/year</li>
+  <li>Two characters: 100 FIRO/year</li>
+  <li>3-5 characters: 10 FIRO/year</li>
+  <li>6 characters and above: 1 FIRO/year</li>
+</ul>
+
+<p>This properly recognizes the scarcity of shorter names while keeping it affordable to most users instead of a flat rate. Users are free to pre-purchase as many years as they want in advance.</p>
+
+<h3 id="vi-ownership-proof">vi) Ownership proof</h3>
+
+<p>To prevent abuse, users can only register aliases to Spark addresses that they control and not third parties since registration requires an ownership proof. This prevents someone from assigning derogatory or offensive names to your Spark address. In the same logic, we also only allow one Spark Name per Spark address to minimize the chance of confusion.</p>
+
+<h3 id="vii-transfer-of-ownership">vii) Transfer of ownership</h3>
+
+<p>Spark Names allows for the transfer of ownership to a new user should a user decide to sell it. This feature would be unavailable at launch but will be added on at a later time.</p>
+
+<h3 id="when">When?</h3>
+
+<p>We are in the final stages of coding Spark Names and have released it on our internal devnet. We expect to release Spark Names on testnet in a week or two and mainnet in a month after that. We would be requiring a hard fork along with other updates when we roll out Spark Names.</p>
+
+<p>Spark name functionality is also being added into our mobile wallets.</p>
+
+<p>The core team is excited to bring a new level of usability and added functionality to FIRO with Spark Names!</p>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="news" /><category term="dev" /><summary type="html"><![CDATA[We have a new feature coming to Firo which greatly improves two of the biggest pain points of dealing with crypto: hard to remember cryptocurrency addresses and digital identity! Spark Names allows users to register user-friendly human-readable names to privacy preserving Spark Addresses directly on Firo’s blockchain, for e.g. ‘@sparky’ instead of a lengthy 144 character Spark address. Spark Names also allow you to attach metadata to it allowing you to add any information you wish to associate with your handle. While the idea of registering human readable aliases to crypto addresses is not new, as seen in Namecoin, Ethereum Name Service, FIO, Handshake and Zano aliases, our Spark Names implementation offers some advantages over existing naming systems.. i) Spark Names as your Digital Identity Spark Names not only tie Spark addresses to a name but can also serve as your decentralized digital identity! While many other address alias protocols primarily focus only on tying handles to crypto addresses, Spark Names allows you to optionally add metadata to your Spark Name, be it social media handles, avatar urls, and any other text based data so that your Spark Name can identify you while keeping your transaction history private. Metadata can be updated through a renewal which you can perform at any time. ii) Spark Names does not compromise on privacy: In many alias systems like ENS, the alias is tied to a crypto address that can be looked up on the blockchain. This is a huge privacy risk as now everyone not only knows that the address belongs to you, but can see all transaction activity associated with it. Spark Names are tied to privacy preserving Spark Addresses (a type of stealth address) which are not searchable on the blockchain, so someone with your Spark Name can only resolve to a Spark Address which does not reveal any transaction details associated with it. This means you can freely share your Spark Name out without someone getting information about the transactions you receive or send much like an e-mail address! iii) Spark Name fees fund Community Fund As the Firo project doesn’t rely on funding from VCs or investors, it primarily relies on donations and a percentage of the block reward. As Firo gradually moves into decentralized funding, additional continuing sources of revenue are important. All Spark Name related fees are channeled towards the Community Fund led by the community elected Community Fund Committee which is independent from the Core team. These funds can be used to fund various tasks such as audits, community initiatives, listings or even development tasks to support Firo and its ecosystem. In future updates should the community desire, Spark Name fees can be burnt or channeled towards miners or masternode holders that can be helpful when Firo goes into tail emission in a couple of years. iv) Spark Names requires renewal Some naming schemes allow perpetual registration which can result in squatting where one user just hogs a lot of potential names. While requiring renewal does not completely prevent this, it ensures that there’s an ongoing price to squat or at least pay a bigger fee upfront to secure a multi-year registration. This also partially addresses issues where users become inactive and yet hold on to valuable aliases. Having Spark Names fee model in this way generates organic demand for FIRO and an ongoing revenue source for the FIRO ecosystem. v) Fee structure based on length Spark Name’s fee structure is based on the length of the Spark Name where shorter names have higher fees. One character: 1000 FIRO/year Two characters: 100 FIRO/year 3-5 characters: 10 FIRO/year 6 characters and above: 1 FIRO/year This properly recognizes the scarcity of shorter names while keeping it affordable to most users instead of a flat rate. Users are free to pre-purchase as many years as they want in advance. vi) Ownership proof To prevent abuse, users can only register aliases to Spark addresses that they control and not third parties since registration requires an ownership proof. This prevents someone from assigning derogatory or offensive names to your Spark address. In the same logic, we also only allow one Spark Name per Spark address to minimize the chance of confusion. vii) Transfer of ownership Spark Names allows for the transfer of ownership to a new user should a user decide to sell it. This feature would be unavailable at launch but will be added on at a later time. When? We are in the final stages of coding Spark Names and have released it on our internal devnet. We expect to release Spark Names on testnet in a week or two and mainnet in a month after that. We would be requiring a hard fork along with other updates when we roll out Spark Names. Spark name functionality is also being added into our mobile wallets. The core team is excited to bring a new level of usability and added functionality to FIRO with Spark Names!]]></summary></entry><entry><title type="html">Firo USDT-M Perpetual Futures now available on MEXC</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2025/01/08/mexc-futures-firo.html" rel="alternate" type="text/html" title="Firo USDT-M Perpetual Futures now available on MEXC" /><published>2025-01-08T00:00:00+00:00</published><updated>2025-01-08T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2025/01/08/mexc-futures-firo</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2025/01/08/mexc-futures-firo.html"><![CDATA[<p>MEXC has launched <a href="https://futures.mexc.com/exchange/FIRO_USDT">FIRO Perpetual Futures contracts</a> with up to 50x leverage, available in both cross and isolated margin modes.</p>
+
+<h3 id="what-are-perpetual-futures">What Are Perpetual Futures?</h3>
+
+<p>Perpetual futures contracts, unlike traditional futures contracts with expiration dates, can be held indefinitely, providing traders with a flexible tool for both hedging and speculation in the cryptocurrency market.</p>
+
+<p>Learn more about Perpetual Futures <a href="https://coinmarketcap.com/academy/glossary/perpetual-futures">here</a>.</p>
+
+<p><strong>Note</strong>: While perpetual futures can be a powerful tool for experienced traders, they carry significant risk due to the use of leverage.</p>
+
+<p>As always, trade responsibly and be aware of the risks of perpetual futures!</p>]]></content><author><name>Augustus Jong</name></author><category term="community" /><category term="news" /><summary type="html"><![CDATA[MEXC has launched FIRO Perpetual Futures contracts with up to 50x leverage, available in both cross and isolated margin modes. What Are Perpetual Futures? Perpetual futures contracts, unlike traditional futures contracts with expiration dates, can be held indefinitely, providing traders with a flexible tool for both hedging and speculation in the cryptocurrency market. Learn more about Perpetual Futures here. Note: While perpetual futures can be a powerful tool for experienced traders, they carry significant risk due to the use of leverage. As always, trade responsibly and be aware of the risks of perpetual futures!]]></summary></entry><entry><title type="html">Campfire v2.0.3 Release</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2025/01/01/campfire203.html" rel="alternate" type="text/html" title="Campfire v2.0.3 Release" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2025/01/01/campfire203</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2025/01/01/campfire203.html"><![CDATA[<p>This release adds support for a more reliable method of syncing Spark.</p>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+  <li>Add pagination support. Allows more resilience while downloading the Spark anonymity set.</li>
+</ul>
+
+<p>Download the latest Campfire wallet here: <a href="https://github.com/firoorg/campfire/releases/tag/v2.0.3">https://github.com/firoorg/campfire/releases/tag/v2.0.3</a></p>
+
+<h3 id="recommendation">Recommendation</h3>
+
+<p><strong>We do not recommend using the same seed phrase in two different wallets at the same time as it can result in errors when trying to spend from Spark. Running into this issue requires you to enter your wallet, go into Settings and clearing your electrumx cache.</strong></p>]]></content><author><name>Augustus Jong</name></author><category term="dev" /><category term="community" /><summary type="html"><![CDATA[This release adds support for a more reliable method of syncing Spark. Changelog Add pagination support. Allows more resilience while downloading the Spark anonymity set. Download the latest Campfire wallet here: https://github.com/firoorg/campfire/releases/tag/v2.0.3 Recommendation We do not recommend using the same seed phrase in two different wallets at the same time as it can result in errors when trying to spend from Spark. Running into this issue requires you to enter your wallet, go into Settings and clearing your electrumx cache.]]></summary></entry><entry><title type="html">Firo listed on Biconomy</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2024/12/02/firo-listed-on-biconomy.html" rel="alternate" type="text/html" title="Firo listed on Biconomy" /><published>2024-12-02T00:00:00+00:00</published><updated>2024-12-02T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2024/12/02/firo-listed-on-biconomy</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2024/12/02/firo-listed-on-biconomy.html"><![CDATA[<p>We are thrilled to announce that Firo is now listed on <a href="https://www.biconomy.com/">Biconomy</a> with a USDT trading pair!</p>
+
+<p>To celebrate this listing, Biconomy is hosting a Kickstarter session where users can commit USDT tokens for a chance to earn airdrop rewards totaling $2,500 in Firo and $1,000 in USDT.</p>
+
+<p>For more details, visit: <a href="https://biconomy.zendesk.com/hc/en-us/articles/40679980919961-Biconomy-FIRO-Kickstarter-2-500-FIRO-and-1-000-USDT-Airdrops">Biconomy Firo Kickstarter</a>. Stay tuned for other activities coming really soon!</p>
+
+<p>The Biconomy listing supports both native FIRO and BEP20 FIRO networks and most notably also supports direct withdrawal to Spark addresses from the exchange for added privacy making it the 2nd centralized exchange to do so.</p>
+
+<h2 id="about-biconomy">About Biconomy</h2>
+
+<p>Biconomy.com is a cryptocurrency trading and investment platform that enables users to easily buy, sell, exchange, and store digital assets. Designed with an intuitive and beginner-friendly interface, it supports key crypto transactions, digital wallets, and payment methods like SEPA and SWIFT.</p>
+
+<p>Established in October 2019, Biconomy.com serves over 1 million users and institutions globally, offering access to a wide range of assets and contracts across Spot markets and crypto derivatives such as Futures and Options. The platform also includes features like Demo and Copy Trading, Launchpad projects, Earn and Kickstarter programs, an NFT Marketplace, and more.</p>]]></content><author><name>Augustus Jong</name></author><category term="community" /><category term="news" /><summary type="html"><![CDATA[We are thrilled to announce that Firo is now listed on Biconomy with a USDT trading pair! To celebrate this listing, Biconomy is hosting a Kickstarter session where users can commit USDT tokens for a chance to earn airdrop rewards totaling $2,500 in Firo and $1,000 in USDT. For more details, visit: Biconomy Firo Kickstarter. Stay tuned for other activities coming really soon! The Biconomy listing supports both native FIRO and BEP20 FIRO networks and most notably also supports direct withdrawal to Spark addresses from the exchange for added privacy making it the 2nd centralized exchange to do so. About Biconomy Biconomy.com is a cryptocurrency trading and investment platform that enables users to easily buy, sell, exchange, and store digital assets. Designed with an intuitive and beginner-friendly interface, it supports key crypto transactions, digital wallets, and payment methods like SEPA and SWIFT. Established in October 2019, Biconomy.com serves over 1 million users and institutions globally, offering access to a wide range of assets and contracts across Spot markets and crypto derivatives such as Futures and Options. The platform also includes features like Demo and Copy Trading, Launchpad projects, Earn and Kickstarter programs, an NFT Marketplace, and more.]]></summary></entry><entry><title type="html">MAGIC approves grant to develop Enkrypt wallet integration</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2024/11/25/magic-grant-enkrypt-wallet-integration.html" rel="alternate" type="text/html" title="MAGIC approves grant to develop Enkrypt wallet integration" /><published>2024-11-25T00:00:00+00:00</published><updated>2024-11-25T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2024/11/25/magic-grant-enkrypt-wallet-integration</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2024/11/25/magic-grant-enkrypt-wallet-integration.html"><![CDATA[<p>We are thrilled to announce that MAGIC Grants has approved a grant from the MAGIC Firo Fund to integrate Firo, a leading privacy-preserving cryptocurrency, with the <a href="https://www.enkrypt.com/">Enkrypt</a> wallet. The integration work will be spearheaded by <a href="https://blockstars.tech/">BlockStars</a>, a renowned web3 development company. This collaboration will include full support for Spark, enhancing the usability and accessibility of Firo within a multi-chain ecosystem. We expect the work to take about 3 months.</p>
+
+<h2 id="elevating-privacy-and-accessibility-with-enkrypt">Elevating Privacy and Accessibility with Enkrypt</h2>
+
+<p>The integration of Firo into Enkrypt wallet marks a significant milestone in our mission to provide users with seamless and secure access to privacy-focused financial solutions. Enkrypt is not just another crypto wallet; it’s a true multichain browser extension wallet developed by <a href="https://www.myetherwallet.com/">MyEtherWallet</a>. With support for over 70 natively integrated chains—including Ethereum, Bitcoin, Solana, and many more—Enkrypt offers a unified platform for managing diverse digital assets.</p>
+
+<h3 id="why-enkrypt">Why Enkrypt?</h3>
+
+<ul>
+  <li><strong>Multichain Support</strong>: Access EVM chains, Solana, Parachains, Canto, and the Bitcoin Network—all with a single account.</li>
+  <li><strong>User-Friendly Interface</strong>: Easy access to the world of web3 with integrated DApps and NFT management.</li>
+  <li><strong>One Recovery Phrase</strong>: Simplify your crypto experience with one recovery phrase for all chains.</li>
+  <li><strong>Security and Control</strong>: An open-source, self-custody wallet where users have full control over their digital assets.</li>
+</ul>
+
+<p>By integrating Firo into Enkrypt, we are enabling our community to manage their Firo holdings alongside other cryptocurrencies, all within a single, user-friendly platform.</p>
+
+<h2 id="full-spark-support">Full Spark Support</h2>
+
+<p>The integration will include comprehensive support for Spark, Firo’s innovative protocol that enhances privacy. This means users will enjoy all the benefits of Spark directly within the Enkrypt wallet, including easy swaps from other assets and improved privacy features.</p>
+
+<h2 id="about-magic-grants-and-the-magic-firo-fund">About MAGIC Grants and the MAGIC Firo Fund</h2>
+
+<p><a href="https://magicgrants.org">MAGIC Grants</a> is a 501(c)(3) public charity that supports essential public infrastructure for  cryptocurrency networks and supports privacy. Through the establishment of semi-autonomous MAGIC Funds, communities can fund various qualifying activities such as educational materials, essential development projects, research, and security audits.</p>
+
+<p>The <a href="https://magicgrants.org/funds/firo">MAGIC Firo Fund</a>, established in December 2022, operates independently from the Firo Core team and is administered by the MAGIC Board. Funded by generous donations from Firo supporters like Arcadia, donations to the fund are tax-deductible for U.S.-based contributors.</p>
+
+<h2 id="blockstars">BlockStars</h2>
+
+<p><a href="https://blockstars.tech/">BlockStars</a>, is a blockchain-based software development company committed to bringing the power of blockchain technology to businesses worldwide. BlockStars specializes in developing real-world decentralized applications, smart contracts, NFTs, DeFi apps, and blockchain gaming solutions. Their expertise ensures that the Firo integration with Enkrypt will be seamless, secure, and efficient.</p>
+
+<h2 id="the-benefits-of-a-multichain-browser-extension-wallet">The Benefits of a Multichain Browser Extension Wallet</h2>
+
+<p>Integrating Firo into a multichain wallet like Enkrypt offers numerous benefits:</p>
+
+<ul>
+  <li><strong>Convenience</strong>: Manage multiple cryptocurrencies across different blockchains in one place.</li>
+  <li><strong>Enhanced Security</strong>: Benefit from self-custody and open-source security features.</li>
+  <li><strong>Unified Experience</strong>: Access a wide range of decentralized applications and services without switching wallets.</li>
+  <li><strong>Future-Proof</strong>: Easily adopt new blockchain innovations as they are integrated into Enkrypt.</li>
+</ul>
+
+<h2 id="looking-ahead">Looking Ahead</h2>
+
+<p>This integration is a significant step forward in making Firo more accessible and user-friendly. We believe that by partnering with MAGIC Grants, Enkrypt, and BlockStars, we are paving the way for a more private, secure, and inclusive financial future.</p>
+
+<p>Stay tuned for updates on the integration progress. We are committed to keeping our community informed every step of the way.</p>]]></content><author><name>Reuben Yap</name></author><category term="community" /><category term="news" /><summary type="html"><![CDATA[We are thrilled to announce that MAGIC Grants has approved a grant from the MAGIC Firo Fund to integrate Firo, a leading privacy-preserving cryptocurrency, with the Enkrypt wallet. The integration work will be spearheaded by BlockStars, a renowned web3 development company. This collaboration will include full support for Spark, enhancing the usability and accessibility of Firo within a multi-chain ecosystem. We expect the work to take about 3 months. Elevating Privacy and Accessibility with Enkrypt The integration of Firo into Enkrypt wallet marks a significant milestone in our mission to provide users with seamless and secure access to privacy-focused financial solutions. Enkrypt is not just another crypto wallet; it’s a true multichain browser extension wallet developed by MyEtherWallet. With support for over 70 natively integrated chains—including Ethereum, Bitcoin, Solana, and many more—Enkrypt offers a unified platform for managing diverse digital assets. Why Enkrypt? Multichain Support: Access EVM chains, Solana, Parachains, Canto, and the Bitcoin Network—all with a single account. User-Friendly Interface: Easy access to the world of web3 with integrated DApps and NFT management. One Recovery Phrase: Simplify your crypto experience with one recovery phrase for all chains. Security and Control: An open-source, self-custody wallet where users have full control over their digital assets. By integrating Firo into Enkrypt, we are enabling our community to manage their Firo holdings alongside other cryptocurrencies, all within a single, user-friendly platform. Full Spark Support The integration will include comprehensive support for Spark, Firo’s innovative protocol that enhances privacy. This means users will enjoy all the benefits of Spark directly within the Enkrypt wallet, including easy swaps from other assets and improved privacy features. About MAGIC Grants and the MAGIC Firo Fund MAGIC Grants is a 501(c)(3) public charity that supports essential public infrastructure for cryptocurrency networks and supports privacy. Through the establishment of semi-autonomous MAGIC Funds, communities can fund various qualifying activities such as educational materials, essential development projects, research, and security audits. The MAGIC Firo Fund, established in December 2022, operates independently from the Firo Core team and is administered by the MAGIC Board. Funded by generous donations from Firo supporters like Arcadia, donations to the fund are tax-deductible for U.S.-based contributors. BlockStars BlockStars, is a blockchain-based software development company committed to bringing the power of blockchain technology to businesses worldwide. BlockStars specializes in developing real-world decentralized applications, smart contracts, NFTs, DeFi apps, and blockchain gaming solutions. Their expertise ensures that the Firo integration with Enkrypt will be seamless, secure, and efficient. The Benefits of a Multichain Browser Extension Wallet Integrating Firo into a multichain wallet like Enkrypt offers numerous benefits: Convenience: Manage multiple cryptocurrencies across different blockchains in one place. Enhanced Security: Benefit from self-custody and open-source security features. Unified Experience: Access a wide range of decentralized applications and services without switching wallets. Future-Proof: Easily adopt new blockchain innovations as they are integrated into Enkrypt. Looking Ahead This integration is a significant step forward in making Firo more accessible and user-friendly. We believe that by partnering with MAGIC Grants, Enkrypt, and BlockStars, we are paving the way for a more private, secure, and inclusive financial future. Stay tuned for updates on the integration progress. We are committed to keeping our community informed every step of the way.]]></summary></entry><entry><title type="html">Campfire v2.0.2 Release</title><link href="https://firo.org/firo-site/pr-preview/pr-479/2024/10/27/campfire202.html" rel="alternate" type="text/html" title="Campfire v2.0.2 Release" /><published>2024-10-27T00:00:00+00:00</published><updated>2024-10-27T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-479/2024/10/27/campfire202</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-479/2024/10/27/campfire202.html"><![CDATA[<p>This release enable swaps in campfire and fixes various bugs.</p>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+  <li>Enable swaps for Campfire</li>
+  <li>Update secp256k1 build scripts <a href="https://github.com/cypherstack/stack_wallet/pull/1009">cypherstack#1009</a></li>
+  <li>Fix unstable connection for Firo <a href="https://github.com/cypherstack/stack_wallet/pull/1002">cypherstack#1002</a></li>
+  <li>Fix biometric <a href="https://github.com/cypherstack/stack_wallet/pull/994">cypherstack#994</a></li>
+  <li>Fix bad submodule commit <a href="https://github.com/cypherstack/stack_wallet/pull/991">cypherstack#991</a></li>
+  <li>Update Flutter <a href="https://github.com/cypherstack/stack_wallet/pull/980">cypherstack#980</a></li>
+  <li>Quick toggle balances as appropriate <a href="https://github.com/cypherstack/stack_wallet/pull/904">cypherstack#904</a></li>
+</ul>
+
+<p>Download the latest Campfire wallet here: <a href="https://github.com/firoorg/campfire/releases/tag/v2.0.2">https://github.com/firoorg/campfire/releases/tag/v2.0.2</a></p>
+
+<h3 id="recommendation">Recommendation</h3>
+
+<p><strong>We do not recommend using the same seed phrase in two different wallets at the same time as it can result in errors when trying to spend from Spark. Running into this issue requires you to enter your wallet, go into Settings and clearing your electrumx cache.</strong></p>]]></content><author><name>Augustus Jong</name></author><category term="dev" /><category term="community" /><summary type="html"><![CDATA[This release enable swaps in campfire and fixes various bugs. Changelog Enable swaps for Campfire Update secp256k1 build scripts cypherstack#1009 Fix unstable connection for Firo cypherstack#1002 Fix biometric cypherstack#994 Fix bad submodule commit cypherstack#991 Update Flutter cypherstack#980 Quick toggle balances as appropriate cypherstack#904 Download the latest Campfire wallet here: https://github.com/firoorg/campfire/releases/tag/v2.0.2 Recommendation We do not recommend using the same seed phrase in two different wallets at the same time as it can result in errors when trying to spend from Spark. Running into this issue requires you to enter your wallet, go into Settings and clearing your electrumx cache.]]></summary></entry></feed>
