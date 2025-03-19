@@ -179,7 +179,7 @@
                          <p class="post-author">Reuben Yap</p>
                      </div>
                      <div class="post-body">
-                         <img src="/blog/assets/day-4-mtp-stripping.png" alt="">
+                         <img src="/blog/assets/day-4-mtp-stripping.png" | relative_url }}" alt="">
                           <p><a href="/firo-site/pr-preview/pr-479/2021/11/08/mtp-data-stripping.html">MTP stripping</a> is now live on Firo with <a href="https://github.com/firoorg/firo/releases">our latest release.</a> MTP stripping brings down the size of Firo’s blockchain from over 60+ GB to under 4 GB bringing down node requirements and also making it practical to run on your regular computing device especially on SSDs where space is precious.</p>
 
 <p>MTP stripping works by removing unneeded <a href="https://arxiv.org/pdf/1606.03588.pdf">MTP data proofs</a> from our previous PoW. Nodes can still choose to retain these proofs if needed. As more nodes use the MTP stripping mode, nodes will also push older blocks in stripped form, greatly reducing the amount of data required to do a fresh sync.</p>

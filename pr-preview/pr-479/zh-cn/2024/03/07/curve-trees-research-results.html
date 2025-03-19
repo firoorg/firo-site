@@ -179,7 +179,7 @@
                          <p class="post-author">Reuben</p>
                      </div>
                      <div class="post-body">
-                         <img src="/blog/assets/curvetreesnotes/banner.png" alt="">
+                         <img src="/blog/assets/curvetreesnotes/banner.png" | relative_url }}" alt="">
                           <p>We are proud to publish the <a href="/firo-site/pr-preview/pr-479/about/research/papers/Lelantus_Sparks_with_Curve_Trees__Implementation_Notes.pdf">results of the research grant on curve trees</a> carried out by Aram Jivanyan and funded by the <a href="https://magicgrants.org/funds/firo/">MAGIC Firo Fund</a>. <a href="https://eprint.iacr.org/2022/756">Curve trees</a> is a new technique that allows scaling zero-knowledge membership proofs to allow global anonymity sets, meaning that the ZKP is performant enough that it can encompass all transactions in a blockchain. It achieves this without any need for a trusted setup, a key requirement of Firo’s privacy research, while retaining small transaction sizes and quick proving and verification times. Curve trees also allow for efficient batching verification techniques, which can further decrease the marginal cost of proof verification.</p>
 
 <p>Lelantus Spark’s unique modular design allows the upgrading of its components, and in this case, curve trees would replace Spark’s use of <a href="https://eprint.iacr.org/2014/764.pdf">one-out-of-many proofs</a>. The research note covers the necessary modifications to implement curve trees in Spark to scale it to global anonymity sets.</p>
