@@ -1,126 +1,271 @@
 ---
-layout: base
+layout: basenew
 title: titles.roadmap
 permalink: /about/roadmap/index.html
 ---
-      <section class="page-intro section">
+      <section class="pagetitle roadmap">
+        <div class="container">
           <div class="row">
               <div class="col">
                   <h1>{% t roadmap.heading %}</h1>
               </div>
-          </div>
-      </section>
-      
-      <section class="faq-section">
-            <div class="container">
-              <div class="row">
-                  <div class="col">
-                        <h2>{% t roadmap.development %}</h2>
-                  </div>
+              <div class="col">
+                <img src="/img/roadmap/roadmap-img.svg" alt="" loading="lazy">
               </div>
-              <div class="row">
-                  <div class="col">
-                          <ul class="timeline">
-                            <li class="event done">
-                              <h3>{% t roadmap.mnodes %}</h3>
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.mnodesq %}</h3>   
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.rebrand %}</h3>
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.lelantus %}</h3> 
-                              <p>{% t roadmap.lelantusdesc %}</p>  
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.chainlocks %}</h3>
-                              <p>{% t roadmap.chainlocksdesc %}</p>
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.rap %}</h3>
-                              <p>{% t roadmap.rapdesc %}</p>
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.firopow %}</h3>   
-                              <p>{% t roadmap.firopowdesc %}</p>
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.instant %}</h3>
-                              <p>{% t roadmap.instantdesc %}</p>
-                            </li>
-							<li class="event done">
-                              <h3>{% t roadmap.mtpstrip %}</h3>
-                              <p>{% t roadmap.mtpstripdesc %}</p>
-                            </li>
-						    <li class="event done">
-                              <h3>{% t roadmap.firodex %}</h3>
-                              <p>{% t roadmap.firodexdesc %}</p>
-                            </li>
-							<li class="event done">
-                              <h3>{% t roadmap.mobile %}</h3>
-                              <p>{% t roadmap.mobiledesc %}</p>
-                            </li>
-                            <li class="event done">
-                              <h3>{% t roadmap.lelantusspark %}</h3>
-                              <p>{% t roadmap.lelantussparkdesc %}</p>
-                            </li>
-                            <li class="event current">
-                              <h3>{% t roadmap.elysium %}</h3>
-                              <p>{% t roadmap.elysiumdesc %}</p>
+          </div>
+        </div>
+      </section>
 
-                            </li>
-                          </ul>
-                  </div>
+      <section class="roadmap-intro">
+        <div class="narrowbox">
+            <div class="row">
+              <div class="col">
+                <p>{% t roadmap.intro1 %}</p>
+                <p>{% t roadmap.intro2 %}</p>
               </div>
-          </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="roadmap-focus-list">
+                  <li class="row">
+                    <p class="col">{% t roadmap.usability %}</p>
+                    <p class="col">{% t roadmap.usabilityp %}</p>
+                  </li>
+                  <li class="row">
+                    <p class="col">{% t roadmap.utility %}</p>
+                    <p class="col">{% t roadmap.utilityp %}</p>
+                  </li>
+                  <li class="row">
+                    <p class="col">{% t roadmap.upgrades %}</p>
+                    <p class="col">{% t roadmap.upgradesp %}</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
       </section>
-      
-      <section class="faq-section">
-            <div class="container">
-              <div class="row">
-                  <div class="col">
-                        <h2>{% t roadmap.research %}</h2>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col">
-                          <ul class="timeline">
-                            <li class="event done">
-                              <h3>{% t roadmap.lelantussparkaddress %}</h3>
-                              <p>{% t roadmap.lelantussparkaddressdesc %}</p>
-                            </li>
-							<li class="event done">
-                              <h3>{% t roadmap.spats %}</h3>
-                              <p>{% t roadmap.spatsdesc %}</p>
-                            </li>
-							<li class="event current">
-                              <h3>{% t roadmap.aura %}</h3>
-                              <p>{% t roadmap.auradesc %}</p>
-                            </li>
-                            <li class="event">
-                              <h3>{% t roadmap.syncclients %}</h3>
-                              <p>{% t roadmap.syncclientsdesc %}</p>
-                            </li>
-                            <li class="event">
-                              <h3>{% t roadmap.mixnets %}</h3>
-                              <p>{% t roadmap.mixnetsdesc %}</p>
-                            </li>
-                            <li class="event">
-                              <h3>{% t roadmap.bridges %}</h3>
-                              <p>{% t roadmap.bridgesdesc %}</p>
-                            </li>
-                            <li class="event">
-                              <h3>{% t roadmap.avalanche %}</h3>
-                              <p>{% t roadmap.avalanchedesc %}</p>
-                            </li>
-							<li class="event">
-                              <h3>{% t roadmap.elysiumv2 %}</h3>
-                              <p>{% t roadmap.elysiumv2desc %}</p>
-                            </li>
-                          </ul>
-                  </div>
-              </div>
+
+      <section class="roadmap-goals">
+        <div class="narrowbox">
+          <div class="row subhead">
+            <div class="col">
+              <h2>{% t roadmap.neartermgoals %}</h2>
+            </div>
           </div>
-      </section>      
+          <div class="row goal-list">
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/SparkNames.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.sparknames %}</h3>
+                  <p>{% t roadmap.sparknamesp %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/SparkCoinbase.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.sparkcoinbase %}</h3>
+                  <p>{% t roadmap.sparkcoinbasep %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/ViewKeyTooling.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.viewkeytooling %}</h3>
+                  <p>{% t roadmap.viewkeytoolingp %}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>   
+      
+      <section class="roadmap-goals">
+        <div class="narrowbox">
+          <div class="row subhead">
+            <div class="col">
+              <h2>{% t roadmap.midtermgoals %}</h2>
+            </div>
+          </div>
+          <div class="row goal-list">
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/SparkAssets.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.sparkassets %}</h3>
+                  <p>{% t roadmap.sparkassetsp %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/SparkSwap.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.sparkswap %}</h3>
+                  <p>{% t roadmap.sparkswapp %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/CurveTrees.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.curvetrees %}</h3>
+                  <p>{% t roadmap.curvetreesp %}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="roadmap-goals">
+        <div class="narrowbox">
+          <div class="row subhead">
+            <div class="col">
+              <h2>{% t roadmap.longtermgoals %}</h2>
+            </div>
+          </div>
+          <div class="row goal-list">
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/Lightwallet.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.improvedinfra %}</h3>
+                  <p>{% t roadmap.improvedinfra %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/Quantum.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.quantum %}</h3>
+                  <p>{% t roadmap.quantump %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/TailEmission.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.tailemission %}</h3>
+                  <p>{% t roadmap.tailemissionp %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/Governance.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.governance %}</h3>
+                  <p>{% t roadmap.governancep %}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="roadmap-goals">
+        <div class="narrowbox">
+          <div class="row subhead">
+            <div class="col">
+              <h2>{% t roadmap.integrations %}</h2>
+            </div>
+          </div>
+          <div class="row goal-list">
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/EncryptWallet.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.enkrypt %}</h3>
+                  <p>{% t roadmap.enkryptp %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/Layerswap.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.layerswap %}</h3>
+                  <p>{% t roadmap.layerswapp %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/Serai.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.serai %}</h3>
+                  <p>{% t roadmap.seraip %}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="roadmap-goals">
+        <div class="narrowbox">
+          <div class="row subhead">
+            <div class="col">
+              <h2>{% t roadmap.iterative %}</h2>
+            </div>
+          </div>
+          <div class="row goal-list">
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/Campfire.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.campfire %}</h3>
+                  <p>{% t roadmap.campfirep %}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col goal">
+              <div class="row">
+                <div class="col goal-img">
+                  <img src="/img/roadmap/Firodex.png" alt="" loading="lazy">
+                </div>
+                <div class="col goal-info">
+                  <h3>{% t roadmap.firodex %}</h3>
+                  <p>{% t roadmap.firodexp %}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
