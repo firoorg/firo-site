@@ -11,7 +11,7 @@
       {% else %}{{ page.title }} | {% t global.title %}{% endif %}">
     <meta name="twitter:title" content="{% if page.title contains "titles." %}{% t page.title %} | {% t global.title %}
       {% else %}{{ page.title }} | {% t global.title %}{% endif %}">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}" type="text/css">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/meta/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/meta/favicon-16x16.png">
