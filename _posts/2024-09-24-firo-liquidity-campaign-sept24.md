@@ -45,4 +45,4 @@ Learn more about Liquidity mining [here](https://support.hummingbot.io/miner/liq
 
 ## Thank you
 
-We extend our heartfelt thanks to Power Up Privacy who funded this campaign through their [donation]({{ site.baseurl }}2024/08/10/firo-receive-donation-from-powerup-privacy.html). Discover more about Power Up Privacy [here](https://powerupprivacy.com/)
+We extend our heartfelt thanks to Power Up Privacy who funded this campaign through their [donation]({{ site.baseurl }}/2024/08/10/firo-receive-donation-from-powerup-privacy.html). Discover more about Power Up Privacy [here](https://powerupprivacy.com/)
