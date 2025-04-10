@@ -15,6 +15,7 @@ Power Up Privacy has repeatedly demonstrated their commitment to Firo’s missio
 ## Driving Firo’s Future
 
 This latest donation will:
+
 1) **Accelerate Development**: Support ongoing research and development of Firo's privacy protocols and upcoming features.
 
 2) **Extend Awareness**: Fund strategic marketing and education initiatives, introducing more people to the importance of financial privacy and the unique qualities Firo offers.
@@ -35,6 +36,6 @@ Learn more about [Power Up Privacy.](https://powerupprivacy.com/)
 
 For more details on Power Up Privacy’s previous contributions to Firo, check out:
 
-* [Firo Receives Donation from Power Up Privacy (Aug 10, 2024)](https://firo.org/2024/08/10/firo-receive-donation-from-powerup-privacy.html)
-* [Power Up Privacy & Firo Liquidity Injection (Oct 17, 2024)](https://firo.org/2024/10/17/powerupprivacy-firo-liquidity-injection.html)
-* [Firo Liquidity Campaign (Sept 24, 2024)](https://firo.org/2024/09/24/firo-liquidity-campaign-sept24.html)
+* [Firo Receives Donation from Power Up Privacy (Aug 10, 2024)]({{ site.baseurl }}/2024/08/10/firo-receive-donation-from-powerup-privacy.html)
+* [Power Up Privacy & Firo Liquidity Injection (Oct 17, 2024)]({{ site.baseurl }}/2024/10/17/powerupprivacy-firo-liquidity-injection.html)
+* [Firo Liquidity Campaign (Sept 24, 2024)]({{ site.baseurl }}/2024/09/24/firo-liquidity-campaign-sept24.html)
