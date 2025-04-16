@@ -18,19 +18,19 @@ You can [download the listed wallets here.](https://firo.org/get-firo/download/)
 
 * Campfire/Stack Wallet
 
-Go to the Receive screen. Under the Address Type dropdown menu, select 'Transparent address' and copy this address. 
+  Go to the Receive screen. Under the Address Type dropdown menu, select 'Transparent address' and copy this address. 
 
 * Firo Qt (Core/Reference)
 
-Go to Receive tab. Under the Address dropdown menu, select 'Transparent' and click on 'Request payment' button. Copy this address. 
+  Go to Receive tab. Under the Address dropdown menu, select 'Transparent' and click on 'Request payment' button. Copy this address. 
 
 * FiroDEX
 
-Go to Wallet. Click on the 'Receive' button and copy this address. 
+  Go to Wallet. Click on the 'Receive' button and copy this address. 
 
 * Other exchanges
 
-Please follow your exchange’s instructions to obtain a FIRO deposit address.
+  Please follow your exchange’s instructions to obtain a FIRO deposit address.
 
 ## Withdrawing from Binance
 
@@ -57,3 +57,5 @@ On Binance, do the following:
 * Under the Select Network menu, select BSC(BNB Smart Chain (BEP20))
 
 * Send your BEP20 FIRO to the displayed address
+
+* Once your BEP20 FIRO deposit has confirmed, follow the [above guide](#withdrawing-from-binance) to withdraw the converted native FIRO.
