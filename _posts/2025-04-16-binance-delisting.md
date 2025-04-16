@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-summary: ""
+title: "Binance Halts Firo Trading – Withdraw Your FIRO Now"
+summary: "Summary: Withdraw your Firo from Binance before 16 June 2025"
 tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/"
