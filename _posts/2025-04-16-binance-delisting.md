@@ -4,7 +4,7 @@ title: "Binance Halts Firo Trading – Withdraw Your FIRO Now"
 summary: "Summary: Withdraw your Firo from Binance before 16 June 2025"
 tags: [community, news]
 author: "Reuben Yap"
-img: "/blog/assets/"
+img: "/blog/assets/binance-delisting/banner.png"
 ---
 Trading on Binance for Firo has now been halted. While Binance is giving a grace period until to **16 June 2025** to withdraw your Firo, we encourage our Firo Fam to withdraw and self custody their Firo as soon as possible. Note that Binance from time to time suspends their withdrawals so ensure you do it soon for peace of mind.
 
