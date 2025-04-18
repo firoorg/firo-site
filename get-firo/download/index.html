@@ -76,6 +76,15 @@ permalink: /get-firo/download/index.html
                                       <p>{{ site.data.downloads.qt_hashes_lin }}</p>
                                     </div>
                               </div>
+                              <div class="system linux">
+                                <a href="https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-aarch64-linux-gnu.tar.gz">{% t download.downloadqtlarm64 %}</a>
+                                <div class="tab">
+                                    <input type="checkbox" id="lharm1">
+                                    <label class="tab-label" for="lharm1">{% t download.hasheslinuxarm64 %}</label>
+                                    <div class="tab-content">
+                                      <p>{{ site.data.downloads.qt_hashes_lin_arm64 }}</p>
+                                    </div>
+                              </div>
                             </div>
                             <div class="system flathub">
                                 <a href="https://flathub.org/apps/org.firo.firo-qt">{% t download.downloadqtflathub %}</a>
