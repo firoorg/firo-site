@@ -108,6 +108,7 @@ download:
   downloadqtmarm: Download Reference voor macOS arm64
   downloadqtflathub: Vind het op Flathub
   downloadqtl: Download Reference voor Linux
+  downloadqtlarm64: Download Reference voor Linux arm64
   campfire: Campfire
   downloadcampfirew: Download Campfire voor Windows
   downloadcampfirem: Download Campfire voor macOS
@@ -122,6 +123,7 @@ download:
   hashesmac: Toon SHA256-hashes voor macOS
   hashesmacarm: Toon SHA256-hashes voor macOS arm64
   hasheslinux: Toon SHA256-hashes voor Linux
+  hasheslinuxarm64: Toon SHA256-hashes voor Linux arm64
   officialmobile: officiële mobile portemonnees
   optionmob1: Android
   optionmob2: iOS

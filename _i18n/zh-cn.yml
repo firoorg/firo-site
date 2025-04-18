@@ -105,6 +105,7 @@ download:
   downloadqtm: 下载 macOS 版 Reference 钱包
   downloadqtmarm: 下载 macOS arm64 版 Reference 钱包
   downloadqtl: 下载 Linux 版 Reference 钱包
+  downloadqtlarm64: 下载 Linux arm64 版 Reference 钱包
   campfire: Campfire
   downloadcampfirew: 下载 Windows 版 Campfire 钱包
   downloadcampfirem: 下载 macOS 版 Campfire 钱包
@@ -119,6 +120,7 @@ download:
   hashesmac: 显示 macOS 版钱包的 SHA256 哈希
   hashesmacarm: 显示 macOS arm64 版钱包的 SHA256 哈希
   hasheslinux: 显示 Linux 版钱包的 SHA256 哈希
+  hasheslinuxarm64: 显示 Linux arm64 版钱包的 SHA256 哈希
   officialmobile: 官方手机钱包
   optionmob1: Android
   androidmob: Android 钱包

@@ -95,6 +95,7 @@ download:
   downloadqtm: Unduh Reference untuk macOS
   downloadqtmarm: Unduh Reference untuk macOS arm64
   downloadqtl: Unduh Reference untuk Linux
+  downloadqtlarm64: Unduh Reference untuk Linux arm64
   campfire: Campfire
   downloadcampfirew: Unduh Campfire untuk Windows
   downloadcampfirem: Unduh Campfire untuk macOS
@@ -109,6 +110,7 @@ download:
   hashesmac: Tampilkan hash SHA256 untuk macOS
   hashesmacarm: Tampilkan hash SHA256 untuk macOS arm64
   hasheslinux: Tampilkan hash SHA256 untuk Linux
+  hasheslinuxarm64: Tampilkan hash SHA256 untuk Linux arm64
   officialmobile: dompet ponsel resmi
   optionmob1: Android
   androidmob: Dompet Android

@@ -109,6 +109,7 @@ download:
   downloadqtmarm: Download Reference for macOS arm64
   downloadqtflathub: Get it on Flathub
   downloadqtl: Download Reference for Linux
+  downloadqtlarm64: Download Reference for Linux arm64
   campfire: Campfire
   downloadcampfirew: Download Campfire for Windows
   downloadcampfirem: Download Campfire for macOS
@@ -123,6 +124,7 @@ download:
   hashesmac: Show SHA256 hashes for macOS
   hashesmacarm: Show SHA256 hashes for macOS arm64
   hasheslinux: Show SHA256 hashes for Linux
+  hasheslinuxarm64: Show SHA256 hashes for Linux arm64
   officialmobile: official mobile wallets
   optionmob1: Android
   optionmob2: iOS
