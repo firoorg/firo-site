@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spark Names is Launching on Firo Mainnet!"
-summary: "Activated on the Firo mainnet at approximately block 1,104,500"
+summary: "Activating on the Firo mainnet at approximately block 1,104,500"
 tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/sparknamesmainnet/banner.png"
