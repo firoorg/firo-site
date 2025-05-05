@@ -1,11 +1,14 @@
 ---
 layout: guide
-title: "Firo Vulnerability Bounty Program"
+title: "Trading Firo on Bison Wallet (DCRDEX)"
 summary: 
 tags: [guide]
 author: "Anwar P."
 permalink: /guide/trading-firo-on-bisonwallet.html
 ---
+
+![](/guide/assets/trading-firo-on-bisonwallet/bisonw_header.png)
+
 ## Preparation
 
 Esnure that you have the latest version of the [Firo Reference (Qt) wallet](https://github.com/firoorg/firo/releases/latest) and [Bison Wallet.](https://github.com/decred/dcrdex/releases/latest)
@@ -51,15 +54,21 @@ rpcpassword=password
 * Wallet Password (if you encrypted your Firo wallet)
 * Click on **Add** when done.
 
+![](/guide/assets/trading-firo-on-bisonwallet/bond_asset.png)
+
 If everything was configured correctly, the contents of your Firo wallet such as balance and transactions will be displayed.
 
 ### Dex account creation
 
 Before you can start trading, you will need to create an account on the dex.
 
-1. CLick on the **Trade** button at top right and choose a trading pair.
+1. Click on the **Trade** button at top right and choose a trading pair.
 2. Click on **Create Account.**
 3. Select your bond asset.
+
+![](/guide/assets/trading-firo-on-bisonwallet/firodrpc.png)
+
+{:start="4"}
 4. At the next page, choose your trading tier. A higher trading tier will require more bonds to be locked, but has access to higher trading limits. Click on **Submit** when done. Confirm the details on the next page, and click on **Submit** when done.
 5. Once the bond transaction has confirmed you should be able to start trading.
 
