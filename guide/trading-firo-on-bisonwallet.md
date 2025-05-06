@@ -11,7 +11,7 @@ permalink: /guide/trading-firo-on-bisonwallet.html
 
 ## Preparation
 
-Esnure that you have the latest version of the [Firo Reference (Qt) wallet](https://github.com/firoorg/firo/releases/latest) and [Bison Wallet.](https://github.com/decred/dcrdex/releases/latest)
+Ensure that you have the latest version of the [Firo Reference (Qt) wallet](https://github.com/firoorg/firo/releases/latest) and [Bison Wallet.](https://github.com/decred/dcrdex/releases/latest)
 
 **Important note:** Bison Wallet requires you to pay a refundable bond before you use it to trade.
 
