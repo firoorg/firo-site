@@ -54,7 +54,7 @@ rpcpassword=password
 * Wallet Password (if you encrypted your Firo wallet)
 * Click on **Add** when done.
 
-![](/guide/assets/trading-firo-on-bisonwallet/bond_asset.png)
+![](/guide/assets/trading-firo-on-bisonwallet/firodrpc.png)
 
 If everything was configured correctly, the contents of your Firo wallet such as balance and transactions will be displayed.
 
@@ -66,7 +66,7 @@ Before you can start trading, you will need to create an account on the dex.
 2. Click on **Create Account.**
 3. Select your bond asset.
 
-![](/guide/assets/trading-firo-on-bisonwallet/firodrpc.png)
+![](/guide/assets/trading-firo-on-bisonwallet/bond_asset.png)
 
 {:start="4"}
 4. At the next page, choose your trading tier. A higher trading tier will require more bonds to be locked, but has access to higher trading limits. Click on **Submit** when done. Confirm the details on the next page, and click on **Submit** when done.
