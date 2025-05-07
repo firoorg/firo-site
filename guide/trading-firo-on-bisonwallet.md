@@ -44,19 +44,17 @@ rpcpassword=password
 3. A list of default wallets is shown. Press Submit to continue to the next screen.
 4. You will be prompted to backup your Bison Wallet seed. Please backup if you have not done so.
 
-### Setting up connection with Firo Reference Wallet
+### Setting up connection with Firo
 
-1. In Bison Wallet's main page, click on **Firo -> Create a Wallet.**
-2. In the next page, Click on **Create a Firo Wallet.**
-3. Enter the same settings that you used in firo.conf
-* JSON-RPC Username
-* JSON-RPC Password
-* Wallet Password (if you encrypted your Firo wallet)
-* Click on **Add** when done.
+Currently only Firo Electrum on Linux or macOS is supported to be connected to Bison Wallet.
 
-![](/guide/assets/trading-firo-on-bisonwallet/firodrpc.png)
+You will need to run Firo Electrum as daemon and set the RPC username, password, and port; and link these in Bison Wallet's settings:
 
-If everything was configured correctly, the contents of your Firo wallet such as balance and transactions will be displayed.
+```
+electrum-firo setconfig rpcport 7777
+electrum-firo setconfig rpcuser user
+electrum-firo setconfig rpcpassword password
+```
 
 ### Dex account creation
 
