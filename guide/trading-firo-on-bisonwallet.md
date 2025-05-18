@@ -11,11 +11,13 @@ permalink: /guide/trading-firo-on-bisonwallet.html
 
 ## Preparation
 
-Ensure that you have the latest version of the [Firo Reference (Qt) wallet](https://github.com/firoorg/firo/releases/latest) and [Bison Wallet.](https://github.com/decred/dcrdex/releases/latest)
+Ensure that you have the latest version of [Bison Wallet.](https://github.com/decred/dcrdex/releases/latest) and [Firo Reference (Qt) wallet](https://github.com/firoorg/firo/releases/latest) or [Electrum FIRO wallet.](https://github.com/firoorg/electrum-firo/releases/latest)
 
 **Important note:** Bison Wallet requires you to pay a refundable bond before you use it to trade.
 
-## Firo Reference (Qt) Wallet configuration
+## Wallet Configuration
+
+### Firo Reference (Qt) Wallet
 
 You will need to configure your wallet for it to interface with Bison Wallet.
 
@@ -35,7 +37,7 @@ rpcpassword=password
 {:start="5"}
 5. Start the wallet. It should now be ready to interface with Bison Wallet.
 
-## Firo Electrum Configuration
+### Firo Electrum
 
 Setup your Electrum wallet with the following settings. Modify as necessary.
 
