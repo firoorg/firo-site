@@ -35,6 +35,24 @@ rpcpassword=password
 
 5. Start the wallet. It should now be ready to interface with Bison Wallet.
 
+## Firo Electrum Configuration
+
+Setup your Electrum wallet with the following settings. Modify as necessary.
+
+```
+electrum-firo setconfig rpcport 7777
+electrum-firo setconfig rpcuser user
+electrum-firo setconfig rpcpassword password
+```
+
+If using the UI, head to View -> Show Console and enter the following commands in the Console:
+
+```
+setconfig('rpcport','7777')
+setconfig('rpcuser','user')
+setconfig('rpcpassword','password')
+```
+
 ## Bison Wallet configuration
 
 ### Initial Setup
@@ -55,6 +73,20 @@ rpcpassword=password
 * Click on **Add** when done.
 
 ![](/guide/assets/trading-firo-on-bisonwallet/firodrpc.png)
+
+If everything was configured correctly, the contents of your Firo wallet such as balance and transactions will be displayed.
+
+### Setting up connection with Firo Electrum Wallet
+
+1. In Bison Wallet's main page, click on **Firo -> Create a Wallet.**
+2. In the next page, Click on **Create a Firo Wallet.**
+3. Expand the **Change the wallet type** and select electrumRPC.
+4. Enter the same settings that you used earlier
+* JSON-RPC Username
+* JSON-RPC Password
+* JSON-RPC port
+* Full path to wallet file
+* Click on **Add** when done.
 
 If everything was configured correctly, the contents of your Firo wallet such as balance and transactions will be displayed.
 
