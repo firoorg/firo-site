@@ -32,7 +32,7 @@ server=1
 rpcuser=username
 rpcpassword=password
 ```
-
+{:start="5"}
 5. Start the wallet. It should now be ready to interface with Bison Wallet.
 
 ## Firo Electrum Configuration
@@ -58,7 +58,7 @@ setconfig('rpcpassword','password')
 ### Initial Setup
 
 1. Download and run Bison Wallet. It will open a web interface in your default browser.
-2. Set a password for Bison Wallet.. You can also restore from seed if you have an existing Bison Wallet seed.
+2. Set a password for Bison Wallet. You can also restore from seed if you have an existing Bison Wallet seed.
 3. A list of default wallets is shown. Press Submit to continue to the next screen.
 4. You will be prompted to backup your Bison Wallet seed. Please backup if you have not done so.
 
