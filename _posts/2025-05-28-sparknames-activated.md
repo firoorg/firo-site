@@ -30,4 +30,4 @@ Need more information about Spark Names? Exploring the resources below:
 
 ## What’s Next?
 
-Stay tuned! We’ll be hosting a community event to celebrate this milestone—stay tuned for details!
+We’ll be hosting a community event to celebrate this milestone—stay tuned for details!
