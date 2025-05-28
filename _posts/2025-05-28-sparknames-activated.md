@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spark Names Now Live on Mainnet!"
-summary: "Human-readable addresses!"
+summary: "Human-readable addresses with Lelantus Spark"
 tags: [dev, news]
 author: "Augustus Jong"
 img: "/blog/assets/sparknames-activated/banner.png"
