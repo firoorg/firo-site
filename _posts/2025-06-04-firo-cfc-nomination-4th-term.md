@@ -72,7 +72,7 @@ Minimum requirements to be eligible to be a committee member
 5CFC funds should always be utilized for the benefit of Firo. Research or development that does not directly benefit Firo should not be undertaken.
 6. CFC funds should not be used for giveaways, even for the purpose of promoting adoption or participation. These have limited effects.
 7. All CFC expenditure has to be disclosed. Contractors that prohibit this should not be engaged.
-8. Should the CFC deem fit, FCF funds can be burnt by sending them to this burn address. (https://explorer.firo.org/address/aFiroBurningAddressDoNotSendrPtjYA 2)
+8. Should the CFC deem fit, FCF funds can be burnt by sending them to this burn address. (https://explorer.firo.org/address/aFiroBurningAddressDoNotSendrPtjYA)
 9. FCF funds address can be viewed here which are from time to time anonymized.
 10. Utilization of CFC funds and proposals can always be viewed on the Firo Community Crowdfunding page under the category of CFC.
 
