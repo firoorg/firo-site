@@ -13,6 +13,7 @@ concurrency: preview-${{ github.ref }}
 jobs:
   ci:
     runs-on: ubuntu-22.04
+    if: ${{ github.event.action != 'closed' }}
     steps:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
@@ -41,4 +42,4 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: _site
-          action: auto          
+          action: auto
