@@ -6,6 +6,7 @@ on:
       - opened
       - reopened
       - synchronize
+      - closed
 
 concurrency: preview-${{ github.ref }}
 
@@ -31,4 +32,13 @@ jobs:
         with:
           source-dir: _site
           pages-base-url: firoorg.github.io/firo-site
-          
+  pr-closed:
+    runs-on: ubuntu-22.04
+    if: ${{ github.event.action == 'closed' }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Close PR Preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: _site
+          action: auto          
