@@ -32,6 +32,7 @@ The list of available masternode providers:
 *   [Nodehub](https://nodehub.io/ref/charybdis)
 *   [PDABase](http://pdabase.com.my/zcoin-znode-hosting/) (small provider by Reuben and his friend Hui Sing to cater to mainly friends)
 *   [Pecunia](https://pecuniaplatform.io/home)
+*   [Higlan](https://higlan.com/nodes/firo)
 
 ## Getting Started
 
