@@ -4,7 +4,7 @@ title: "The 4th term of CFC members are formed!"
 summary: "Welcome back and welcome aboard"
 tags: [community, news]
 author: "Augustus Jong"
-img: "/blog/assets/4thtermcfc/banner.jpg"
+img: "/blog/assets/4thtermcfc/banner.png"
 ---
 The 7 member Community Fund Committee (“CFC”) is formed to oversee the Firo Community Fund (“FCF”) has been completed!
 
@@ -49,4 +49,5 @@ Anyone is welcome to request funding from the FCF by submitting a proposal throu
 ## Where can I see the deliberations of the Community Fund Committee?
 
 All discussions of the CFC can be seen in our [Discord](https://discord.gg/TGZPRbRT3Y) in the channel #communityfund or The [CFC telegram group](https://t.me/firocfc) and is read-only. You will need to have verified status by passing the captcha to view the channel.
+
 
