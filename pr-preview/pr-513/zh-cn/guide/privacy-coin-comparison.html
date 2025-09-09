@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang=zh-cn>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How Firo's Privacy Technology Compares to the Competition | Firo - 保护隐私的加密货币</title>
+    <meta name="author" content="">
+    <meta name="description" content="  ">
+    <meta property="og:image" content="/guide/assets/privacy-technology-comparison/banner.png">
+    <meta property="og:description" content="  ">
+    <meta property="og:title" content="How Firo's Privacy Technology Compares to the Competition | Firo - 保护隐私的加密货币">
+    <meta name="twitter:title" content="How Firo's Privacy Technology Compares to the Competition | Firo - 保护隐私的加密货币">
+    <link rel="stylesheet" href="/firo-site/pr-preview/pr-513/css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/meta/favicon-16x16.png">
+    <link rel="manifest" href="img/meta/site.webmanifest">
+    <!-- Feed autodiscovery -->
+    <link type="application/atom+xml" rel="alternate" href="https://firo.org/firo-site/pr-preview/pr-513/feed.xml" title="Firo" />
+</head>
+
+
+  <body>
+    <main>
+        <header>
+      <div class="container">
+               <nav class="row" role='navigation'>
+                   <a class="logo col" href="/firo-site/pr-preview/pr-513/zh-cn/index.html" aria-label="Firo Cryptocurrency">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                   </a>
+                   <ul class="main-menu col">
+                       <li class="nav-item"><a href="#">获取 Firo</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/get-firo/download/">下载钱包</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/get-firo/buy-firo/">买 Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/guide/masternode-setup.html">赚 Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/guide/how-to-mine-firo.html">挖矿</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">关于</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/about/research/">研究</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/about/team/">团队</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/about/roadmap/">路线图</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/about/faq/">常问问题</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">社区</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/community/social/">社交</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-513/zh-cn/community/merchants/">商户</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-513/zh-cn/guide/">指南</a>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-513/zh-cn/blog/">博客</a></li>
+                       <li class="nav-item"><a href="#">众筹</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="https://funding.firo.org/" target="_blank">Firo 众筹系统</a></li>
+                               <li><a class="sub-nav-item" href="https://opencollective.com/firo" target="_blank">Open Collective</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+               </nav>
+               <nav role='navigation' class="mobile-menu row">
+                  <a class="logo-mobile col" href="/firo-site/pr-preview/pr-513/zh-cn/index.html" aria-label="Firo Cryptocurrency">
+                    <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                  </a>
+                  <input class="burger-check" id="mobile-burger" type="checkbox">
+                  <label for="mobile-burger" class="hamburger hamburger--spring">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                  </label>
+                  <ul class="slide-nav">
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list1" type="checkbox" tabindex="0">
+                          <label for="list1">获取 Firo</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/get-firo/download/">下载钱包</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/get-firo/buy-firo/">买 Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/guide/masternode-setup.html">赚 Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/guide/how-to-mine-firo.html">挖矿</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list2" type="checkbox" tabindex="0">
+                          <label for="list2">关于</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/about/research/">研究</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/about/team/">团队</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/about/roadmap/">路线图</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/about/faq/">常问问题</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list3" type="checkbox" tabindex="0">
+                          <label for="list3">社区</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/community/social/">社交</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-513/zh-cn/community/merchants/">商户</a></li>
+                          </ul>
+                       </li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-513/zh-cn/guide/">指南</a></li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-513/zh-cn/blog/">博客</a></li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list4" type="checkbox" tabindex="0">
+                          <label for="list4">众筹</label>
+                          <ul class="dropdown-content">
+                              <li><a href="https://funding.firo.org/">Firo 众筹系统</a></li>
+                              <li><a href="https://opencollective.com/firo">Open Collective</a></li>
+                          </ul>
+                       </li>
+                  </ul>
+               </nav>
+       </div>
+   </header>
+
+        
+        <section class="blog-section guide-section">
+         <div class="container">
+              <div class="row">
+                  <div class="col post-page">
+                     <h1>How Firo's Privacy Technology Compares to the Competition</h1>
+                     <p class="p-summary"></p>
+                     <div class="post-body">
+                         <img src="/guide/assets/privacy-technology-comparison/banner.png" alt="">
+                          <h3 id="blockchain-privacy-mechanisms">Blockchain Privacy Mechanisms</h3>
+
+<p>This post will give you a brief overview of the major blockchain privacy mechanisms that are implemented in cryptocurrencies today and show you how the Lelantus protocol used in Firo and the upcoming Lelantus Spark protocol stacks up. This is a living document that would be updated from time to time with recent developments.</p>
+
+<p>Blockchain privacy is particularly tricky to achieve as public blockchains are designed so that all transactions are transparent and coin amounts are public. This is because everyone has to be able to validate the state of the chain and balances. Balancing privacy with the requirement for public verifiability in blockchains is not a trivial problem.</p>
+
+<p>To understand the innovation behind Lelantus and Lelantus Spark, we need to also understand how other privacy systems work.</p>
+
+<h3 id="cryptocurrency-tumblers-and-coinjoin">Cryptocurrency Tumblers and CoinJoin</h3>
+
+<p><strong>As used in: Dash, Decred, Bitcoin Cash, Bitcoin mixers</strong></p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>Works on top of most cryptocurrencies without the need for specific consensus rules</li>
+  <li>Relatively simple to implement</li>
+  <li>Transactions are regular transactions introducing no additional overhead</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Amounts are still completely visible</li>
+  <li>Anonymity sets are generally low and reliant on the number of mixers</li>
+  <li>Coins that are mixed can be ‘flagged’ as going through a coin mixer.</li>
+  <li>Needs time for mixes to happen</li>
+  <li>Requires mixers to be online</li>
+  <li>Difficult to use correctly and cumbersome requiring careful UTXO management</li>
+  <li>Increases blockchain bloat with many transactions required to do mixes</li>
+  <li>Earlier implementations involve trust in a third party mixer</li>
+</ul>
+
+<p>One of the first methods people sought to achieve this was through the use of cryptocurrency tumblers. These work based on the principle of mixing funds with others by sending your coins to other people and then giving their coins to you. An easy way to visualize this is a group of people each putting the same number of coins into a pot, mixing it up and then each taking out the same amount of coins. The idea is that it is now hard to prove whose coin formerly belonged to whom thus providing plausible deniability. Early tumblers required you to trust the tumbler not to steal your coins or log how the mixes are done.</p>
+
+<p>CoinJoin is an improvement of this mixing idea and removes the possibility for the tumbler to steal the coins. It is used in Dash and also forms the basis of many coin tumblers. However, there are many drawbacks to the system.</p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/coinjoin.png" alt="Graphical comparison between a coinjoin and non-coinjoin transaction between two individuals" loading="lazy" /></p>
+
+<ul>
+  <li>You need to trust the tumbler for your anonymity as the mixer can log identifiable information and knows how the mix is happening along with each user’s input address and the address they are receiving coins to. This issue can be avoided by using blind digital signatures but then the anonymity of CoinJoin relies strongly on the possibility to connect to the tumbler in an anonymous manner, e.g., via the Tor network.</li>
+  <li>It requires people involved in the mixing to be online for a mixing transaction to happen. If no one wants to mix for the right denominations, your mix can be delayed.</li>
+  <li>The anonymity is limited by the amount of people you mix with. A typical round of Dash’s Privatesend mixing involves 3 participants only though this can be repeated.</li>
+  <li>Even with multiple rounds of CoinJoin mixing, <a href="https://arxiv.org/pdf/1708.04748.pdf">recent research</a> shows that a user’s wallet can be identified if they are not careful with browser cookies when making payments because mixing only obscures the transaction links between addresses but does not break them completely.</li>
+  <li>It is easy to disrupt a run of CoinJoin and delay the completion of the transaction for the other participants.</li>
+</ul>
+
+<p>What’s more, Dash’s implementation, previously called PrivateSend, is susceptible to <a href="https://arxiv.org/pdf/1709.02489.pdf">cluster intersection attacks</a>.</p>
+
+<p>Other improvements such as CoinShuffle and CoinShuffle++ as used in Decred added further protection from the tumbler stealing coins but are still subject to the other drawbacks of CoinJoin, namely a limited anonymity set and the requirement that participants are online. Coinshuffle systems cannot perform a mix with more than 50 users. CoinShuffle systems are also vulnerable to DoS attacks where a user who joins the mix and aborts can disrupt the mixing process for other users.</p>
+
+<p>The state of the art mixers such as <a href="https://medium.com/@nopara73/tumblebit-vs-coinjoin-15e5a7d58e3">Tumblebit</a> and <a href="https://github.com/cashshuffle/spec/blob/master/CASHFUSION.md">CashFusion</a> further improve over this allowing more users to mix and faster mixing speeds while preventing the tumbler from knowing how mixes are made. CashFusion also doesn’t require the use of fixed denominations.</p>
+
+<p>The main benefit of mixer type schemes is that they are relatively simple and work on top of the cryptocurrency without the need to use specific consensus rules. They also preserve full supply auditability as all amounts are not hidden. However even state of the art mixer systems do not solve the limitations of coin mixer systems which are: the need for specialized mixer servers to be hosted, amounts are fully visible, others need to be online to mix and perhaps the biggest one is that they require you to carefully handle your UTXOs to avoid mixing and can be quite cumbersome to use for multiple transactions.</p>
+
+<p>Coins that go through mixers are also often ‘flagged’ with a higher risk meaning that your coins can be tainted just by going through this process. This can be exacerbated if coins that are tainted from illicit activity are mixed together with yours further making your coins difficult to use on exchanges. The freezing of coins connected to CoinJoins have been happening on a regular basis:</p>
+
+<ul>
+  <li><a href="https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin">Binance Returns Frozen BTC After User ‘Promises’ Not to Use CoinJoin</a></li>
+  <li><a href="https://twitter.com/BlockFiZac/status/1234531935038341120">BlockFi considered CoinJoin as ‘prohibited activities</a></li>
+  <li><a href="https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/">Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services</a></li>
+</ul>
+
+<p>With appropriate precautions and correct use, CoinJoin and similar systems can provide some privacy to defend against trivial chain analysis but shouldn’t be considered as a sufficient privacy solution nor does it solve the issue of fungibility given that CoinJoined coins are often treated differently.</p>
+
+<p>Even Wasabi wallet’s creator admits that it is a <a href="https://en.cryptonomist.ch/2019/07/08/wasabi-wallet-privacy-2/">temporary hack</a> and that without confidential transactions, privacy will be priced out of Bitcoin’s main chain. This makes sense given the large number of transactions required to do CoinJoin along with the additional transactions required to break amounts into fixed denominations.</p>
+
+<h3 id="cryptonote-ring-signatures-ringct">CryptoNote, Ring Signatures, RingCT</h3>
+
+<p><strong>As used in: Monero, Particl, Zano</strong></p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>No need for a mixer and mixing is done automatically</li>
+  <li>Can be implemented with privacy on by default</li>
+  <li>Anonymity increases as time passes as outputs become the new inputs of new mixes</li>
+  <li>Hides transaction amounts when implemented with RingCT</li>
+  <li>Well understood cryptography</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Does not break transaction links, merely obscures them, hence a <a href="https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy">‘decoy’ model</a>.</li>
+  <li>Selecting the right decoys can be tricky and incorrect input selection algorithms can lead to loss of privacy</li>
+  <li>Low anonymity set per transaction due to practically limited ring sizes</li>
+</ul>
+
+<p>The next anonymity scheme we will explore is ring signatures as used in CryptoNote currencies such as Monero which significantly improves anonymity over regular mixer type schemes. A ring signature works by proving someone signed the transaction from a group of people without revealing which person it was. One common proposed use case of ring signatures is for it to be used to provide an anonymous signature from a “high-ranking White House official” without revealing which official signed the message.</p>
+
+<p>CryptoNote uses ring signatures in a way whereby a user can craft a transaction and use the outputs of other similar transactions on the blockchain automatically to form the inputs to a ring signature transaction so that it is unclear which input belongs to the person doing the transaction. It does this automatically without requiring other users to specify that they wish to mix and does not need to wait for other people to provide funds since it’s just scanning the blockchain for those outputs to use. As there is no mixer, there’s no mixer you need to trust.</p>
+
+<p>CryptoNote/ring signatures when combined with confidential transactions also hide amounts and used together they’re called Ring Confidential Transactions (RingCT). Most implementations using this privacy mechanism also now use RingCT after Monero implemented it in 2017.</p>
+
+<p>Another great feature of this protocol is that most implementations have mandatory stealth addressing which solve the address re-use problem and protects the receiver’s privacy.</p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/cryptonote.png" alt="Graphical representation of the way inputs are managed in a RingCT transaction" loading="lazy" /></p>
+
+<p>RingCT currencies also have limitations concerning practical ring size (the number of other outputs you are taking) as the size of a transaction grows linearly as the ring size increases. This is why Monero has a relatively small ring size of 11 though it is set to increase this to 16 in an upcoming hard fork. This means on a per transaction basis, the anonymity is limited by the number of inputs in the ring. While the possibilities start to fan out increasing the practical anonymity set, the real transaction link is still somewhere in there hiding among the decoys and there are methods to narrow the range of possibilities down such as theorized <a href="https://www.zfnd.org/blog/blockchain-privacy/#flashlight">Flashlight</a>, <a href="https://www.zfnd.org/blog/blockchain-privacy/#overseer">Overseer</a> and <a href="https://www.zfnd.org/blog/blockchain-privacy/#dust">Tainted Dust</a> attacks.</p>
+
+<p>Also, security researchers have on numerous occasions found numerous ways to make educated guesses as to which transaction is the real one by using statistical analysis and the age of the inputs. Picking the right decoys to form your ring can be tricky. For example, a <a href="https://arxiv.org/abs/1704.04299">2017 study</a> demonstrated that in any mix of one real coin and a set of fake coins bundled up in a transaction, the real one is very likely to have been the most recent coin to have moved prior to that transaction due to the way the decoy selection algorithm picked its inputs. That timing analysis correctly identified the real coin more than 90 percent of the time, virtually nullifying Monero’s privacy safeguards.</p>
+
+<p>To combat this, the Monero developers have changed the algorithm on how the wallet picks its mix-ins several times and have also increased the number of mix-ins. Despite such changes, while improving resistance against previous methods, they still can be narrowed down as highlighted in the 2018 version of the same study and even in 2021, there remain known <a href="https://github.com/monero-project/research-lab/issues/86">drawbacks</a>.</p>
+
+<p>More recently in July 2021, another <a href="https://github.com/monero-project/monero/issues/7807">error of implementation in decoy selection</a> allowed users who spend their funds within ~20 minutes after receiving funds to have the true spend identified. This issue has been since rectified but does not protect users who had already done this prior to the fix.</p>
+
+<p>A <a href="https://repo.getmonero.org/monero-project/ccs-proposals/-/blob/c2cb28f099eeb87cd07cbc0697bda924dc552248/Rucknium-OSPEAD-Fortifying-Monero-Against-Statistical-Attack.md">recent submission to Monero’s Vulnerability Response Process</a> has also indicated that even with the most recent fixes, there may be still issues with the current decoy selection algorithm though this has yet to be widely verified and is still an issue of active research.</p>
+
+<p>In short, the strength of the decoy selection algorithm has been a constant weakness in RingCT type of systems and fixing it conclusively has proven challenging though it can be partially mitigated with large increases in ring size.</p>
+
+<p>Another issue with decoy based systems are ‘flooding’ attacks where an attacker can flood the network with their own transactions to remove mixins from transaction inputs. This was documented in the paper <a href="https://eprint.iacr.org/2019/455">FloodXMR</a> which shows that an attack can be mounted by flooding transactions to remove mixins from transaction inputs. There is however ongoing debate as to the cost and efficiency of such techniques as the authors of that paper made several wrong assumptions on fees.</p>
+
+<p>Another criticism of RingCT is that if there’s a weakness in its ring signature implementation or a reasonably powerful quantum computer becomes feasible, the entire blockchain history is deanonymized and retroactively exposed. This cannot be fixed after the fact. In fact, <a href="https://github.com/shadowproject/shadow/issues/25">a flawed implementation in a CryptoNote currency called ShadowCash</a> allowed for its blockchain to be deanonymized in its entirety. However, a practical quantum computer is still quite some time off, and it boils down to whether several-year-old transactions data are still valuable. For this data to be useful, it will most likely need to be combined with external data.</p>
+
+<p>In RingCT, someone who breaks the discrete logarithm that underpins RingCT can forge coins without anyone knowing it. That being said, for now this is only a theoretical possibility as the <a href="https://en.wikipedia.org/wiki/Discrete_logarithm">discrete logarithm problem</a> is widely used in cryptography and it is expected that discrete logarithms will remain viable until the age of quantum computing.</p>
+
+<p>Privacy coins ultimately need to hide amounts transacted to provide the highest level of privacy and the trade off is the loss of supply auditability. RingCT in particular requires mandatory privacy and full hidden amounts to achieve high levels of privacy. A lack of supply auditability can complicate detecting hidden inflation. <a href="https://www.getmonero.org/2017/05/17/disclosure-of-a-major-bug-in-cryptonote-based-currencies.html">A bug in Cryptonote that allowed unlimited inflation was indeed discovered</a> but was patched before anyone could take advantage of it. A nuanced argument on supply auditability in privacy enhancing cryptocurrencies can be found in Riccardo Spagni’s presentation <a href="https://youtu.be/QAmOn8X-eKk">On Privacy Enhancing Currencies &amp; Supply Auditability</a>.</p>
+
+<p>Despite these drawbacks, RingCT has proven itself to be one of the better and well-reviewed privacy technologies out there that is still evolving and improving to deal with new threats and advancements.</p>
+
+<p>It is worth noting that Monero Research Labs are looking into alternative privacy protocols to help scale their ring sizes such as Lelantus Spark and Seraphis to increase its effective anonymity set and complicate statistical analysis.</p>
+
+<h3 id="lelantus-v1v2"><a href="/firo-site/pr-preview/pr-513/zh-cn/2019/04/14/lelantus-firo.html">Lelantus v1/v2</a></h3>
+
+<p><strong>As used in: Firo (activated Lelantus v1 from January 2021)</strong></p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>No need for a mixer</li>
+  <li>High anonymity sets up to around 65,000.</li>
+  <li>Uses well-researched cryptography and only requiring DDH cryptographic assumptions</li>
+  <li>Small proof sizes of around ~1.5 kB per proof</li>
+  <li>No trusted setup</li>
+  <li>Doesn’t use fixed denominations</li>
+  <li>Can do direct anonymous payments without having to convert to base coin (for Lelantus v2).</li>
+  <li>Efficient batch verification</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Anonymity sets cannot scale into the millions without cryptographic breakthrough</li>
+  <li>Lelantus v1 still does not fully hide amounts as only source and change amounts are hidden (Lelantus v2 fully hides amounts)</li>
+  <li>No stealth addressing support meaning users are still recommended to supply fresh addresses</li>
+  <li>Lelantus v1/v2 balance security lacks a formal security proof and is challenging to formulate one</li>
+</ul>
+
+<p>Lelantus is a creation of Firo’s cryptographer Aram Jivanyan as part of our continuous efforts to improve our privacy protocol and its full paper is available to read <a href="https://eprint.iacr.org/2019/373">here</a>.</p>
+
+<p>Lelantus v1 uses a burn and redeem model that was first pioneered by the Zerocoin protocol whereby coins are burnt and then later redeemed for brand new ones that do not contain transaction history nor an identifiable source.</p>
+
+<p>A simple way to imagine this is throwing coins into a black box. Those that throw coins into the black box retain a special receipt that allows them to prove that they did throw coins in the black box without having to show exactly which coins were burnt. This receipt or proof is built from a trustless zero-knowledge proof called <a href="https://eprint.iacr.org/2014/764.pdf">one-out-of-many proofs aka Groth-Bootle proofs</a> that does not require trusted setup. This construction was further optimized in the paper <a href="https://eprint.iacr.org/2015/643.pdf">Short Accountable Ring Signatures based on DDH (Jonathan Bootle, Andrew Cerulli, Pyrros Chaidos, Essam Ghadafi, Jens Groth and Christophe Petit).</a>.</p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/oneoutofmanyproofs.png" alt="Image showing the text 'Membership proof' with a graphical representation of the comparison" loading="lazy" /></p>
+
+<p>Previous burn and redeem schemes such as Zerocoin and Sigma (which were also previously used in Zcoin) required users to burn and redeem in fixed denominations and also did not allow partial redemptions. For example if I burnt 10 coins but wanted to spend 3 of them, I would need to redeem 10 fully, send the three and then reburn the 7. This is inefficient and involves several steps.</p>
+
+<p>Lelantus allows burns and redemptions of arbitrary amounts along with the ability to do partial redemptions. For e.g. this means I can burn 9.23 coins and can redeem 1.7 coins partially and have the change amount hidden.</p>
+
+<p>This makes it much harder to do analysis based on time or amount correlation. It also greatly simplifies the handling of UTXOs since there are no leftover dust amounts that a user would need to keep separately.</p>
+
+<p>Lelantus hides the transaction amounts of the inputs and also the change amount. It achieves this by utilizing double-blinded commitments and a modification of bulletproofs to hide transaction amounts.</p>
+
+<p>Lelantus v2 expands Lelantus v1 functionality and allows for direct anonymous payments and fully hides amounts. This means users don’t need to redeem the coins which expose its amounts but instead can pass these coins to a third party without ever revealing the amount to third parties.</p>
+
+<p>A limitation of Lelantus v1/v2 is due to the usage of Groth-Bootle proofs, anonymity sets are limited to the high thousands before verification and proving performance become unacceptable. This anonymity set is still magnitudes higher compared to almost all other privacy mechanisms with the exception of Zerocash with its own set of trade offs (trusted setup, complicated construction, etc) which we will explore further below.</p>
+
+<p>Lelantus also lacks stealth addressing support meaning that while users cannot see the source or amounts or when funds are spent, it can tell that a particular address has received some funds which reveals timing information.</p>
+
+<p>Our work in Lelantus has also revived interest in the use of Groth-Bootle proofs and has lead to a new breed of privacy protocols such as <a href="https://eprint.iacr.org/2020/018">Triptych</a> (Monero Research Labs), <a href="https://github.com/BeamMW/beam/wiki/Lelantus-MW">Lelantus-MW</a> (Beam) and <a href="https://eprint.iacr.org/2021/1036.pdf">Lelantus-CLA</a> (Beam).</p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/lelantusmint.png" alt="Mathematical scheme of a mint transaction" loading="lazy" /></p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/lelantuspend.png" alt="Mathematical scheme of a spend transaction" loading="lazy" /></p>
+
+<h3 id="lelantus-spark"><a href="/firo-site/pr-preview/pr-513/zh-cn/2021/08/24/presenting-lelantus-spark.html">Lelantus Spark</a></h3>
+
+<p><strong>As used in: Firo (to go live in 2022)</strong></p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>Retains all the pros of Lelantus v1/v2 using well researched cryptography, no trusted setup and having efficient batch verification</li>
+  <li>Full support of stealth addressing, efficient multi/threshold signatures and view key functionality via Spark addresses</li>
+  <li>Modular design which allows easier upgrade of components</li>
+  <li>Unlike Lelantus v1/v2 a security proof for the balance is available</li>
+  <li>Relatively simple cryptographic design compared to circuit-based zero-knowledge proof systems making it easier to implement and less room for error.</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Difficult to scale past anonymity sets larger than 100,000 without cryptographic breakthrough, huge optimizations or replacement of underlying Groth-Bootle proofs.</li>
+  <li>Verification of proofs are still slower than Groth16 zkSNARKs but are mitigated with efficient batch verification</li>
+</ul>
+
+<p>Lelantus Spark is the work of Firo’s research team and is slated to be launched on Firo’s mainnet in 2022. Lelantus Spark builds on the work of Lelantus v1/v2, and like Lelantus v2 hides the sender and fully hides amounts but greatly improves recipient privacy with the introduction of Spark addresses. The efficient and trustless Groth-Bootle one-out-of-many proofs still form the foundation of Spark as it did with Lelantus v1/v2 and Sigma.</p>
+
+<p>Spark addresses work similarly to stealth addresses by allowing people to publicly share their address without it being searchable on the blockchain. Spark addresses instead automatically allows senders to generate one-time addresses on behalf of the recipient, which then designates who can spend the funds in the transaction. Additionally, third parties then are unable to easily link the recipient’s wallet address to a transaction on the blockchain without the assistance of additional external information.</p>
+
+<p>Spark addresses also has full view key support meaning it can track both incoming and outgoing funds should you choose to reveal it. In comparison, Monero’s stealth addresses only support incoming view keys making it hard to disclose balances even if you wanted to. Spark addresses also has efficient multi-sig and threshold signature support.</p>
+
+<p>The primary advantage of Spark and Lelantus based systems are its simple design and reliance on standard cryptographic assumptions while offering very high anonymity sets along with flexible addressing system. This offers a real alternative to those who may not be comfortable with more complicated constructions where there are much more moving parts, use more experimental math or require a trusted setup.</p>
+
+<p>Also as all amounts would be hidden with Spark, supply isn’t transparently auditable and rely on zero knowledge proofs to preserve supply like in RingCT and Zerocash. A nuanced argument on supply auditability in privacy enhancing cryptocurrencies can be found in Riccardo Spagni’s presentation <a href="https://youtu.be/QAmOn8X-eKk">On Privacy Enhancing Currencies &amp; Supply Auditability</a>.</p>
+
+<p>The biggest criticism that can be said of Spark is because of its current reliance on Groth-Bootle proofs, the anonymity set still cannot be made a global anonymity set and verification performance is still lower than Groth16 zkSNARKs used in the Zerocash protocol.</p>
+
+<p>While practical anonymity might be in practice equivalent, we are keeping a close eye on improvements in membership proofs that might replace Groth-Bootle to allow Spark to have global anonymity sets.</p>
+
+<p>Spark’s cryptography has completed two independent audits and has full security proofs for its design.</p>
+
+<p>Seraphis, a privacy framework in consideration by Monero to replace RingCT shares many similarities with Lelantus Spark and derives many key parts of its design from our work such as the use of one-out-of-many proofs and our approach to addressing. However its proposed implementation would still use a decoy model and increase its ring size rather than Firo’s use of pools of anonymity combined with our sliding window approach.</p>
+
+<h2 id="zerocash"><strong>Zerocash</strong></h2>
+
+<p><strong>As used in: Zcash, PirateChain, Horizen, Komodo, PIVX</strong></p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>Theoretically the best anonymity set encompassing all coins minted and breaks transaction links between addresses.</li>
+  <li>Proof sizes are small and fast to verify</li>
+  <li>Hides transaction amounts</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Private transactions are computationally intensive (though much improved with Sapling upgrade)</li>
+  <li>Complicated trusted setup that has to be arranged by the team</li>
+  <li>Incorrect implementation or leakage of trusted setup parameters can lead to forgery of coins.</li>
+  <li>Uses relatively new cryptography and based on less standard cryptographic assumptions (KEA)</li>
+  <li>Complicated construction and difficult to understand in full meaning that only a handful of people can grasp the cryptography and code and may be prone to errors.</li>
+</ul>
+
+<p>One of the leading privacy schemes is the Zerocash protocol as used in ZCash. Zerocash builds on the work of Zerocoin and seeks to address the shortcomings of Zerocoin. With Zerocash and its use of zkSNARKs, proof sizes are small and are very fast to verify. Furthermore, all transaction amounts are hidden and there is no longer a need to use fixed denominations when doing a minting transaction. Zerocash also allows people to transfer anonymous coins to each other without the need to convert back into the base coin. Its anonymity set is also the largest among all previous anonymity schemes involving all minted coins regardless of the denomination on the blockchain.</p>
+
+<p>Like its predecessor Zerocoin, Zerocash requires a trusted setup, but Zerocash’s setup is much more complicated. For its initial deployment of Sprout, Zcash utilized a multi-party ceremony involving six people set up in a way that the only way these parameters could be leaked is if all six in the ceremony colluded to retain the keys. In other words, you have to trust all of these six people that they destroyed the initial parameters and also that the ceremony was carried out correctly. Weaknesses and flaws in the initial setup led to Zcash organizing a <a href="https://z.cash.foundation/blog/powers-of-tau/">new trusted setup ceremony</a> that involved 88 participants and addressed other weaknesses in the original Sprout ceremony.</p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/grinder.png" alt="Photo showing a man opening the back of a computer case using a grinder" loading="lazy" /></p>
+
+<p>If there is a bug in the code, or a cryptographic flaw or an issue with the multi-party trusted setup, an attacker can possibly generate unlimited Zcash and this additional supply <span style="text-decoration: underline;"><strong>cannot be detected</strong></span>.</p>
+
+<p>Zcash actually had one of these <a href="http://fortune.com/2019/02/05/zcash-vulnerability-cryptocurrency/">bugs live on its Sprout mainnet from launch until the 28 October 2018, a period of two years, before it was patched in Sapling</a> arising from a <a href="https://z.cash/blog/zcash-counterfeiting-vulnerability-successfully-remediated/">cryptographic flaw</a>. There is no way to tell whether this bug was taken advantage of prior to being patched and there was a gap of 8 months from the time of finding the bug till it was patched. This wasn’t the first time such a bug was discovered. Zerocash early in its development also had the <a href="https://blog.z.cash/fixing-zcash-vulns/">InternalH Collision Vulnerability</a> which would have allowed forging of coins as well. Although this bug never made it to production, it highlights the potential risks.</p>
+
+<p><a href="https://coinmetrics.io/bitcoin-private/">BTCP, a fork-merge of Zcash and Bitcoin also suffered hidden inflation</a> which went undetected for over almost ten months. This inflation was only detected by examining the UTXO import process when they were importing over the Bitcoin UTXOs. This wasn’t due to a flaw in the cryptography but rather a covert premine.</p>
+
+<p>Another trade-off is the use of new experimental cryptography. Unlike well established cryptography stalwarts like the <a href="https://en.wikipedia.org/wiki/Discrete_logarithm#Algorithms">discrete log assumption</a> or <a href="https://en.wikipedia.org/wiki/Integer_factorization">factorization hardness</a>, zkSNARKs security is based on variants of the Knowledge Of Exponent (KEA) assumption for bilinear groups (instantiated via certain pairing-friendly elliptic curves). KEA is much newer and is also <a href="https://www.iacr.org/cryptodb/archive/2003/CRYPTO/1571/1571.ps">subject to criticism</a>.  Some experts believe the cryptography behind <a href="https://petertodd.org/2016/cypherpunk-desert-bus-zcash-trusted-setup-ceremony">zkSNARKs to be relatively weak</a>.</p>
+
+<p>Zerocash is also highly complex and has been described as ‘moon math’, meaning that only a handful of people can properly understand and audit it and even can be challenging to spot bugs to its complexity. In fact, with the <a href="https://z.cash/blog/zcash-counterfeiting-vulnerability-successfully-remediated/">Zcash counterfeiting bug</a>, the following was quoted:</p>
+
+<ul>
+  <li><em>Discovery of the vulnerability would have required a high level of technical and cryptographic sophistication that very few people possess.</em></li>
+  <li><em>The vulnerability had existed for years but was undiscovered by numerous expert cryptographers, scientists, third-party auditors, and third-party engineering teams who initiated new projects based upon the Zcash code.</em></li>
+</ul>
+
+<p>This is effectively a form of <a href="https://en.wikipedia.org/wiki/Security_through_obscurity">‘security through obscurity’.</a> Lelantus, Lelantus Spark, RingCT and Mimblewimble constructions in comparison are much easier to understand.</p>
+
+<p>Another drawback of Zerocash in its original form, the generation of a private transaction takes significantly longer than any of the previous privacy schemes approaching a minute on a powerful computer and much longer on slower systems while requiring several gigabytes of RAM. This resulted in very few people using its privacy features and also may exclude less powerful systems such as mobile devices. Zcash has made substantial improvements on this in their latest Sapling upgrade through the use of new BLS12-381 curves bringing down generation time down to several seconds and requiring around 40 mb of memory making it finally feasible for mobile devices.</p>
+
+<p>Zerocash offers the highest theoretical anonymity and excellent performance but requires a complicated cryptographic construction, trusted setup, the use of new experimental cryptography and computational complexity when creating private transactions.</p>
+
+<p>Electric Coin Company has recently produced a modification to the Halo proving system called Halo 2 that it intends to deploy to the Zcash codebase and network, along with a compatible transaction protocol called Orchard. Compared to the existing Sapling protocol (which uses a different proving system), Orchard on Halo 2 removes the need for a trusted setup process. Benchmarks on testnet code indicate that performance would be slower than Sapling-based zkSNARKs but remain highly competitive.  The Halo 2 and Orchard implementations are licensed under <a href="https://electriccoin.co/blog/introducing-tgppl-a-radically-new-type-of-open-source-license/">BOSL</a>, that <a href="https://github.com/zcash/halo2/blob/main/COPYING">does not allow third parties to use the Halo2 code</a> until after the grace period expires.</p>
+
+<p>While the original Halo proving system came equipped with a traditional academic-style preprint, we do not know of any corresponding literature for Halo 2 that is publicly available. The <a href="https://hackmd.io/@qedit/zcash-nu5-audit">latest audit done by QEDIT</a> also commented that unlike Sapling, <a href="https://hackmd.io/@qedit/zcash-nu5-audit#QZ1-401-Lack-of-Orchard-Shielded-Protocol-Proof-of-Security">Orchard does not have an overarching proof of security or a high level sketch of the proof yet</a>. The audit also commented that reviewing such a complex system and its implementation is challenging and that many components of the protocol remain not well documented. The Orchard protocol with a Halo 2 proving system is a promising new development but remains a very complex construction that will take time for the wider technical and academic community to vet and understand fully. Combined with a more restrictive software license and less than complete documentation, anyone that uses Orchard or Halo 2 would need to trust and rely on the Electric Coin Company for its security or develop significant parallel resources to develop it independently.</p>
+
+<h3 id="mimblewimble"><strong>Mimblewimble</strong></h3>
+
+<p><strong>As used in: Grin, Beam, Litecoin MWEB Sidechain, MimbleWimble Coin</strong></p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>All amounts are hidden</li>
+  <li>Simple lightweight cryptographic construction</li>
+  <li>Hides transaction amounts</li>
+  <li>Blockchain can reduce in size as it only retains UTXOs</li>
+  <li>No re-use of address problems</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Monitoring the network can reveal details as to how the transactions are joined meaning the transaction graph is revealed</li>
+  <li>Does not break transaction links, merely obscures them, hence a <a href="https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy">‘decoy’ model</a>.</li>
+  <li>Vanilla Mimblewimble needs interaction between receiver and sender. Cannot post address and receive. Multi party transactions are problematic as all parties need to communicate to create a transaction. David Burkett’s one-sided transactions solves this but is only implemented in Litecoin’s upcoming MWEB sidechain. Beam uses <a href="https://github.com/BeamMW/beam/wiki/Secure-bulletin-board-system-(SBBS)">SBBS</a> and/or <a href="https://github.com/BeamMW/beam/wiki/One-side-payments">one side payments</a> which comes at the cost of some privacy.</li>
+  <li>If a block doesn’t have many transactions, anonymity is significantly reduced since it relies on other transactions to join with. Beam introduces additional decoys outputs if needed if insufficient transactions happen but remains unclear how much this improves privacy</li>
+  <li>Cold storage in hardware wallets are tricky to implement</li>
+</ul>
+
+<p>Grin and Beam are both implementations of MimbleWimble. Mimblewimble works via two primary methods, by hiding all transaction values and secondly by aggregating all transactions into one big transaction so that in a block, it appears as a giant transaction of many inputs with many outputs. Just looking at it from the blockchain alone, you can only guess which outputs came from which inputs provided that there are a few transactions in the same block. Mimblewimble also allows another feature called cut-through whereby if A pays to B who then pays it entirely to C, the blockchain can record A to C without even showing B.</p>
+
+<p>An easy way to imagine this is comparing how transactions look like in Bitcoin vs how a transaction looks once it’s aggregated in Mimblewimble.</p>
+
+<p>Imagine A sends to B and C. In a separate transaction D sends to E and F.<br />
+In Bitcoin this would be seen as<br />
+(Inputs) A &gt; (Outputs) B, C<br />
+(Inputs) D &gt; (Ouputs) E,F</p>
+
+<p>They would also have transaction values further making them unique.</p>
+
+<p>In Mimblewimble, all transactions values are hidden and these transactions are aggregated so once the transactions are joined in the block it will look like:</p>
+
+<p>(Inputs) A, D &gt; (Outputs) B, C, E, F</p>
+
+<p>Now it is unclear who sent to who!</p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/btcmw.png" alt="Comparison between inputs and output of a bitcoin and MimbleWimble based transaction" loading="lazy" /></p>
+
+<p>However the big assumption is that no one is monitoring the network as these transactions propagate and before they are recorded onto the blockchain. With vanilla Mimblewimble, someone could create a malicious node that connects to all other nodes in the network and record the transactions before they are combined together. This completely reveals the transaction graph.</p>
+
+<p>To mitigate this, both Grin and Beam use Dandelion++ technology which changes the way transactions are propagated. Instead of broadcasting each transaction to all peers, the transaction is first sent through a series of randomly selected peers (stem phase) and only then diffused to the entire network (fluff phase). Each succeeding node rolls a dice to determine whether to continue the stem phase (90% change) or switch to fluff phase (10% chance). While the transactions are in the stem phase, they are also joined together with other transactions before being broadcasted widely. In theory, this makes it harder for a node to have a full picture of how the transactions are joined together.</p>
+
+<p>In practice, the use of Dandelion++ doesn’t mitigate this sufficiently. A <a href="https://medium.com/dragonfly-research/breaking-mimblewimble-privacy-model-84bcd67bfe52">2019 study</a> showed that with a specially configured node, the researcher was able to uncover the senders and receivers of 96% of Grin transactions in real time even with the existence of Dandelion++. Beam’s implementation does make this harder by introducing decoy outputs when needed in the dandelion stem but it remains to be formally analysed to see how much practical privacy it adds.</p>
+
+<p>This combined with the fact that  Mimblewimble is also a decoy-based system similar to Cryptonote (although it achieves it using different methods), it still suffers the <a href="https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy">same drawbacks as other ‘decoy’ based privacy systems where repeated transactions can further reduce the anonymity as taint trees still remain</a>. Additionally, if there are not many transactions in a block, this reduces privacy greatly while Beam’s implementation of MW attempts to mitigate this by introducing decoys where needed. As explained before, active monitoring of the network can dilute this even further.</p>
+
+<p><img src="/guide/assets/privacy-technology-comparison/mwtx.png" alt="Example of a transaction graph that can be built by tracing the MimbleWimble transactions" loading="lazy" /> Example of a transaction graph that can be built by tracing the MimbleWimble transactions.</p>
+
+<p>A big drawback of traditional MimbleWimble is the need for interaction between the receiver and sender (meaning the receiver and sender need to communicate directly to communicate a blinding factor) and a massively different scheme that does away with addresses. This means you cannot just post an address on a website and have to give a new value all the time. This also complicates multi party transactions, for example A sending money to B, C, D, E in one transaction would require each of these parties to communicate to A before the send can happen. Beam’s implementation addresses this through the use of a Secure Bulletin Board system which allows people to post their messages to Beam’s full nodes so that the blinding factor can be communicated once the user comes online though further research is required if this leaks any information.</p>
+
+<p>Another more neat approach is David Burkett’s <a href="https://github.com/DavidBurkett/lips/blob/master/lip-0004.mediawiki">one sided transactions</a> that is being implemented in Litecoin’s Mimblewimble Extension Block sidechain that removes the requirement for interactivity.</p>
+
+<p>Also although there are no addresses, the Pedersen commitments are still unique and therefore on its own MimbleWimble does not hide the transaction graph meaning you can still see how the funds flow, and thus can be considered ‘one time’ addresses. This means that without the added workarounds of Dandelion and Coinjoin, Mimblewimble’s privacy is equivalent to Bitcoin except that addresses are only used once and transaction values are hidden.</p>
+
+<p>With full hidden values, <a href="https://medium.com/@nopara73/confidential-transactions-bulletproofs-the-elephant-in-the-room-cfdb37ce509">Mimblewimble doesn’t have supply auditability as it relies on Bulletproofs/Confidential Transactions</a> to check whether any additional coins have been created out of thin air. However the cryptography behind it is well understood.</p>
+
+<h2 id="evaluating-other-privacy-schemes-and-why-isnt-my-favorite-privacy-coin-featured-in-this-article">Evaluating Other Privacy Schemes and Why Isn’t My Favorite Privacy Coin Featured in This Article?</h2>
+
+<p>All of the blockchain privacy schemes listed here are well reviewed by researchers and the concepts well understood. However, there are many coins in the privacy space but only a handful that really protect it.</p>
+
+<p>For example coins such as Verge or DeepOnion do not have any onchain privacy mechanisms to hide the transaction graph or the amounts transacted and only have <a href="https://hackernoon.com/blockchain-privacy-enhancing-technology-series-stealth-address-i-c8a3eb4e4e43">stealth addresses</a> that prevent address re-use and TOR/i2p integration that only prevents your IP address from being associated to a transaction. Identical levels of privacy can be obtained by using Bitcoin through TOR/i2p and using new addresses making their claims that they are “privacy coins” spurious.</p>
+
+<p>These are the key factors when coming across a new privacy mechanism:</p>
+
+<ul>
+  <li><strong>Does it offer privacy on the blockchain?</strong> Some privacy coins market themselves as providing privacy but completely don’t offer any onchain privacy. Protecting your IP address/TOR alone is insufficient.</li>
+  <li><strong>Is the privacy mechanism written by experts and reviewed?</strong> Read to see if their privacy scheme was vetted by cryptographers and has academic papers referencing it! Many are just cooked up by developers or programmers without any history in cryptography or information security. The technologies implementing privacy technology are generally not easy and even world class cryptographers make mistakes.</li>
+  <li><strong>Is it merely a rebrand of existing technology?</strong> Some projects rename existing privacy schemes with their own names and pass it off as their own. This is acceptable if they disclose the original privacy technology behind it.</li>
+  <li><strong>Does it involve centralized trust?</strong> If a privacy scheme that relies on you to trust someone else to protect your privacy, it is generally a poor privacy scheme. This covers some pseudo privacy coins that use centralized mixers.</li>
+  <li><strong>Does the team understand the cryptography behind these schemes?</strong> This is hard to determine unless you’re an expert yourself. Check their team to see if there is anyone with cryptography credentials or experience on their team.</li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+
+<p>Every anonymity scheme has its own sets of benefits and trade-offs, and we believe that continuous exploration and research of these privacy schemes can only serve to improve blockchain privacy as a whole. We at Firo strongly believe that <a href="/firo-site/pr-preview/pr-513/zh-cn/2019/04/14/lelantus-firo.html">Lelantus</a> and Lelantus Spark compares very favorably to other anonymity schemes by providing a very well-rounded anonymity package, giving very strong anonymity using proven cryptography while remaining scalable and optionally auditable.</p>
+
+<p>We hope this article gives you a much better understanding of how various privacy tech works on the blockchain.</p>
+
+                     </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <footer class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <h4>资源</h4>
+                      <ul>
+                          <li><a href="https://github.com/firoorg/firo">Github</a></li>
+                          <li><a href="https://sourceforge.net/projects/firoorg/">Sourceforge</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-513/zh-cn/branding/">品牌</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-513/zh-cn/guide/bounty-program.html">漏洞计划</a></li>
+                          <li><a href="https://explorer.firo.org/">区块链浏览器</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <h4>网站</h4>
+                      <ul>
+                          <li><a href="/firo-site/pr-preview/pr-513/zh-cn/feed.xml">源</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-513/zh-cn/privacy-policy/">隐私政策</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <div>
+                          <h4>news</h4>
+                          <p>Check out our Telegram channel to stay up to date on Firo news.</p>
+                          <a class="btn-text" href="https://t.me/fironews" target="_blank"><span>Read news</span><i class="icons-right-small"></i></a>
+                      </div>
+                      <div class="social">
+                          <h4>加入讨论</h4>
+                          <div class="social-icons">
+                            <a href="https://discord.gg/TGZPRbRT3Y" target="_blank"><img src="/img/site-icons/footer/discord.svg" title="Discord" alt="Discord logo"></a>
+                            <a href="https://t.me/firoorg" target="_blank"><img src="/img/site-icons/footer/telegram.svg" title="Telegram" alt="Telegram logo"></a>
+                            <a href="https://twitter.com/firoorg" target="_blank"><img src="/img/site-icons/footer/x.svg" title="X (Twitter)" alt="X (Twitter) logo"></a>
+                            <a href="https://www.facebook.com/firoorg/" target="_blank"><img src="/img/site-icons/footer/facebook.svg" title="Facebook" alt="Facebook logo"></a>
+                            <a href="https://www.youtube.com/c/firoorg" target="_blank"><img src="/img/site-icons/footer/youtube.svg" title="Youtube" alt="Youtube logo"></a>
+                            <a href="https://www.reddit.com/r/firoproject/" target="_blank"><img src="/img/site-icons/footer/reddit.svg" title="Reddit" alt="Reddit logo"></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row bottom">
+                  <div class="col">
+                      <div href="#" class="dropdown language-change">
+                            <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
+                            <label for="langdrop">
+                              简体中文
+                            </label>
+                            <div class="dropdown-content text-center">
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-513/guide/privacy-coin-comparison.html" >English</a>
+                                  
+                                
+                              
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-513/id/guide/privacy-coin-comparison.html" >Bahasa Indonesia</a>
+                                  
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-513/nl/guide/privacy-coin-comparison.html" >Nederlands</a>
+                                  
+                                
+                              
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+    </main>
+  </body>
+</html>
