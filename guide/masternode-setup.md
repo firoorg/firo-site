@@ -24,15 +24,15 @@ You should only need to provide the transaction ID and index of your masternode 
 The list of available masternode providers:
 
 *   [Allnodes](https://www.allnodes.com/?utm_source=zcoinio&utm_medium=setup-guide)
+*   [DataVex](https://datavex.eu/project_details/FIRO)
 *   [Evoznode](https://evoznode.com/)
 *   [Flux](https://home.runonflux.io/apps/marketplace)
-*   [HostingKing](http://www.hostingking.com)  by [perrykmm#2742](mailto:hello@hostingking.com) (Discord)
-*   [Masternodes Germany](https://masternodes-germany.de)
+*   [Higlan](https://higlan.com/nodes/firo)
 *   [Masternodehosting](https://masternodehosting.com/) (by Flare)
 *   [Nodehub](https://nodehub.io/ref/charybdis)
 *   [PDABase](http://pdabase.com.my/zcoin-znode-hosting/) (small provider by Reuben and his friend Hui Sing to cater to mainly friends)
 *   [Pecunia](https://pecuniaplatform.io/home)
-*   [Higlan](https://higlan.com/nodes/firo)
+
 
 ## Getting Started
 
