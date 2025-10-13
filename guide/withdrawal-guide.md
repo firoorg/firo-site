@@ -36,6 +36,8 @@ You can [download the listed wallets here.](https://firo.org/get-firo/download/)
 
 On Binance, do the following:
 
+![Withdraw Native Firo](/guide/assets/bep-firo-withdrawal-guide/withdraw-firo.png)
+
 * Wallet -> Assets -> Overview -> Click on 'Withdraw' button 
 
 * Select coin: FIRO 
@@ -49,6 +51,8 @@ On Binance, do the following:
   * Please do not withdraw FIRO through the BEP20 network!
 
 ## Converting BEP20 FIRO to native FIRO
+
+![Withdraw Native Firo](/guide/assets/bep-firo-withdrawal-guide/deposit-firo.png)
 
 * Navigate to the Deposit page
 
