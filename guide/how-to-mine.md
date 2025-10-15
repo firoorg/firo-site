@@ -32,11 +32,11 @@ Extract the exe binary into a folder of your choice.
 
 ## Step 2: Registering with a Pool (if not solo mining)
 
-There are several pools running Firo on FiroPoW. Please try to spread the hashrate around so that no pool has more than 50% of the total hashrate for decentralization reasons! Note that pure 51% attacks are not possible on Firo due to Chainlocks technology which require both to compromise or take down the masternode network and have the necessary hashrate. You can view the current hashrate distribution [here](https://poolbay.io/crypto/317/firo).
+There are several pools running Firo on FiroPoW. Please try to spread the hashrate around so that no pool has more than 50% of the total hashrate for decentralization reasons! Note that pure 51% attacks are not possible on Firo due to Chainlocks technology which requires an attacker to either take down or take over the masternode network and also have 51% of the hashrate. You can view the current hashrate distribution [here](https://poolbay.io/crypto/317/firo).
 
-Currently ZergPool is the only pool with Spark Address payout support. Others only support transparent FIRO payouts. We recommend asking your favorite mining pool to add Spark Address support!
+Currently Cedric-Crispin is the only pool with [Spark Address payout support](https://firo.cedric-crispin.com/start-mining/). Others only support transparent FIRO payouts. We recommend asking your favorite mining pool to add Spark Address support!
 
-* [cedric-crispin](https://firo.cedric-crispin.com/)
+* [cedric-crispin](https://firo.cedric-crispin.com/) Spark Address and Spark Name payout support
     * firo.cedric-crispin.com:4064
     * firo.cedric-crispin.com:4065 (SSL)
 * [EthCore](https://kriptokyng.com)
@@ -47,10 +47,6 @@ Currently ZergPool is the only pool with Spark Address payout support. Others on
 	* pool.woolypooly.com:3104
 * [Kriptokyng](https://kriptokyng.com)
     * kriptokyng.com:4510
-* [Zergpool](http://zergpool.com) Spark Address payout support
-    * firopow.mine.zergpool.com:3001
-    * firopow.eu.mine.zergpool.com:3001
-    * firopow.mine.zergpool.com:13001 (SSL)
 
 * For detailed stratum information, please visit the pool's own site.
 
