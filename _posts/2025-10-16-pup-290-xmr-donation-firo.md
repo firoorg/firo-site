@@ -25,3 +25,4 @@ We would also like to extend our heartfelt thanks to [Cypher Stack](https://cyph
 With this donation, we’ll continue to strengthen Firo’s foundation, push privacy innovation further, and support the open-source work that benefits not only our project but the broader privacy ecosystem as a whole.
 
 Once again, a huge thank you to **Power Up Privacy**, the **Cypher Stack** team - and to every member of the **Firofam** who believes in and supports our shared vision for a private, decentralized future.
+
