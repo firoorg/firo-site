@@ -13,6 +13,7 @@ titles:
   tech: Riset
   team: Tim
   roadmap: Peta Jalan
+  roadmap-old: Peta Jalan Lama
   faq: FAQ
   community: Komunitas
   guides: Panduan
@@ -47,6 +48,7 @@ footer:
   explorer: Penjelajah
   website: situs web
   privacy: Kebijakan Privasi
+  tos: Terms of Service
   newsletter: Berita
   ifsub: Kunjungi kanal Telegram kami untuk mendapatkan informasi terbaru tentang berita Firo.
   newsbutton: Baca Berita
@@ -58,6 +60,8 @@ home:
   heading2: Firo adalah mata uang kripto dan ekosistem yang menjaga privasi.
   cta1: Dapatkan Firo
   cta2: Pelajari Lebih Lanjut
+  about: How Firo works
+  aboutp: Firo stands out by leading the charge in privacy and protocol innovation. Our pioneering research focuses on how privacy should work in digital finance.
   privacy: Privasi
   privacy1: Firo berada di garis depan dalam privasi mata uang kripto dengan Lelantus dan Lelantus Spark yang menyediakan privasi on-chain yang tidak dapat dipercaya dengan set anonimitas yang tinggi. Teknologi Dandelion++ juga menyediakan privasi lapisan jaringan.
   privacy2: pengaturan anonimitas
@@ -74,9 +78,17 @@ home:
   getfiro: dapatkan firo
   getfiro1: Mendorong batasan privasi digital. Bergabunglah dengan ekosistem Firo hari ini.
   getfiro2: Dapatkan dompet
+  getfiro2text: Firo has multiple options to manage your funds on major desktop and mobile OS. Choose the one that works best for you.
+  getfiro2link: Download a wallet
   getfiro3: Beli Firo
+  getfiro3text: Firo has multiple options to manage your funds on major desktop and mobile OS. Choose the one that works best for you.
+  getfiro3link: Find an exchange
   getfiro4: Dapatkan Firo
+  getfiro4text: You can set up your own Firo masternode to earn Firo. We walk you through the setup process in our detailed guide.
+  getfiro4link: Set up a masternode
   getfiro5: Mulai menambang
+  getfiro5text: FiroPoW, Firo mining algorithm, is designed to be mined by GPUs. Follow our guide to start mining your first Firo.
+  getfiro5link: Read the mining guide
   
 download:
   heading: Unduh dompet
@@ -94,6 +106,7 @@ download:
   downloadqtw: Unduh Reference untuk Windows
   downloadqtm: Unduh Reference untuk macOS
   downloadqtmarm: Unduh Reference untuk macOS arm64
+  downloadqtflathub: Get it on Flathub
   downloadqtl: Unduh Reference untuk Linux
   downloadqtlarm64: Unduh Reference untuk Linux arm64
   campfire: Campfire
@@ -113,9 +126,6 @@ download:
   hasheslinuxarm64: Tampilkan hash SHA256 untuk Linux arm64
   officialmobile: dompet ponsel resmi
   optionmob1: Android
-  androidmob: Dompet Android
-  downloadmobandroid: Unduh dompet
-  hashesandroid: Tampilkan hash SHA256 untuk Android
   optionmob2: iOS
   iosmob: Dompet iOS
   downloadmobios: Segera hadir
@@ -184,18 +194,6 @@ team:
     name: Sproxet
     title: Pengembang
     bio: Sproxet adalah pengembang anonim yang telah bekerja pada perangkat lunak penjaga privasi selama 15 tahun terakhir dan telah berkontribusi secara signifikan untuk klien Electron Firo. Sproxet juga merupakan pendiri Signal Eleven, sebuah konsultan IT yang berfokus pada keamanan komputer dan audit, pengembangan perangkat lunak dan desain arsitektur sistem kriptografi.
-  gevorgmirzoyan:
-    name: Gevorg Mirzoyan
-    title: Pengembang
-    bio: Gevorg adalah seorang insinyur perangkat lunak yang lulus dari Fakultas Matematika dan Informatika Terapan, Universitas Rusia-Armenia (Slavon). Tumpukan teknologinya termasuk C++, Unity dan Linux. Dia memiliki hasrat untuk pemrograman, mendaki, dan game.
-  lc:
-    name: LC
-    title: Pengembang
-    bio: LC adalah pengembang anonim yang tertarik pada lintas-bagian antara pemerintah, politik, kekuasaan negara, dan teknologi. Menggambar dari filsuf seperti Foucault, Fisher, Ellul, Ranciere, dia tertarik pada kebebasan individu manusia, jadi dia secara alami tertarik pada anarki kripto. Dia berfokus pada keamanan komputer, filosofi, dan pengembangan perangkat lunak Python. Dia mengikuti cypherpunk Bitstream Podcast oleh Frank Braun & Jonathan 'penyelundup' Logan. 
-  levonh:
-    name: Levon Hovhannisyan
-    title: Pengembang
-    bio: Levon Hovhannisyan memiliki lebih dari 6 tahun pengalaman profesional, khususnya dalam C++, algoritma dan struktur data. Tumpukan teknologinya termasuk tidak terbatas pada standar C++ terbaru, Python, Lua, Windows/Linux. Selama karir profesionalnya, Levon juga memiliki pengalaman dalam game dan pengembangan backend. Dia lulus dari Universitas Rusia-Armenia (Slavon) dan selama belajar Levon terlibat dalam kontes pemrograman kompetitif, termasuk ACM ICPC, dan pengetahuan yang diperoleh telah membantunya menjadi dosen profesional dan pencipta kursus pembelajaran. Dia juga bersemangat mempelajari teknologi baru dan praktik pengembangan perangkat lunak, pemecahan masalah, dan video game.
   zorayrzakaryan:
     name: Zorayr Zakaryan
     title: Manajer Proyek Ponsel
@@ -224,10 +222,6 @@ team:
     name: Lucas Fullam
     title: Manajer Komunitas
     bio: Lucas Fullam memiliki riwayat pekerjaan yang berfokus pada pelanggan di masa lalu mulai dari perwakilan layanan pelanggan hingga pengaturan acara di tempat dan konferensi. Dia pertama kali mendengar tentang aset kripto pada tahun 2012, tetapi tidak benar-benar mempelajarinya hingga tahun 2017 ketika salah satu temannya membawanya lebih dalam ke dunia kripto di mana dia akhirnya melihat seberapa besar potensi yang ada. Satu hal mengarah ke hal lain dan akhirnya dia menemukan Firo dan sisanya adalah sejarah.
-  michaelmugglesbernhardt:
-    name: Michael 'Muggles' Bernhardt
-    title: Manajer Komunitas
-    bio: Seorang programmer dengan perdagangan, ia menjalankan bisnisnya sendiri untuk mengelola proyek air melalui portal online dengan instalasi di seluruh Afrika. Michael telah mempelajari kripto sejak 2013 dan memiliki hasrat yang kuat untuk privasi dan kebebasan.
   sebastianbausch:
     name: Sebastian Bausch
     title: Asian Operations
@@ -248,8 +242,78 @@ team:
     name: Tigran Mamikonyan
     title: Riset
     bio: Tigran meraih gelar Master di bidang Informatika dan Matematika Terapan serta Ilmu Komputer dan Informasi. Dia saat ini sedang mengejar gelar PhD di bidang Informatika dan Matematika Terapan di Yerevan State University.
-  
+  artur:
+    name: Artur
+    title: Developer
+    bio: Artur is a budding software engineer and Yerevan State Medical University student, brings a unique blend of medical knowledge and tech skills. Graduating from Picsart Academy, he excels in C/C++ and has hands-on experience in software development.His passion lies in merging medicine and technology to create impactful solutions.
+  narek:
+    name: Narek Geghamyan
+    title: Developer
+    bio: Narek is a software engineer who graduated from a Faculty of  computer science in National University of Architecture and Construction of Armenia. His tech stack includes C++ and Linux. He has a passion a swimming and coding.
+  cypherstack:
+    name: Cypher Stack
+    title: Design Firm
+    bio: Cypher Stack is a blockchain developer, design, research, and consultation company. They are currently developing Firo with their mobile wallet and lite desktop wallet, Campfire.
+  batuhan:
+    name: Batuhan
+    title: Turkish Community Manager
+    bio: Batuhan manages the Turkish community, translating annoucements and notices
+  antibit:
+    name: Antibit
+    title: Russian-speaking Community Manager
+    bio: Antibit manages the Russian-speaking community, translating annoucements and notices. He has been a crypto enthusiast since 2012, and during this time has accumulated a lot of knowledge and experience regarding cryptocurrencies and blockchain technologies.
+  lilking:
+    name: Lil-King
+    title: Community Manager
+    bio: Lil-King is a dedicated privacy advocate in the crypto space with over five years of experience. Specializing in marketing and onboarding, Lil-King has played a crucial role in promoting privacy-focused projects. Passionate about financial privacy, Lil-King is committee to educating and empowering users to take control of their digital assets securely.
+
 roadmap:
+  heading: Roadmap
+  intro1: Firo has come a long way since its inception as Zcoin, pioneering the use of modern zero-knowledge proofs in a privacy protocol. Over time, we have steadily iterated on our technology, developing some of the most robust privacy protocols in the space — protocols that have influenced many other projects.
+  intro2: Our updated roadmap focuses on usability, utility, and upgrades.
+  usability: Usability
+  usabilityp: Enhancing the user experience, integrating with additional wallets, and supporting light clients.
+  utility: Utility
+  utilityp: Expanding use cases through private token issuance and implementing further privacy enhancements in preparation for future quantum computing challenges.
+  upgrades: Upgrades
+  upgradesp: Continuously strengthening the protocol’s core features to maintain Firo’s position as a leader in privacy technology.
+  neartermgoals: Near-term goals
+  sparknames: Spark Names
+  sparknamesp: Allow users to register human-readable addresses tied to their Spark addresses. This also enables storing and sharing metadata for potential use as a decentralized digital identity.
+  sparkcoinbase: Spark Coinbase
+  sparkcoinbasep: Enable miners and masternodes to send rewards directly to private Spark addresses, further enhancing user privacy and Spark adoption.
+  viewkeytooling: View Key Tooling
+  viewkeytoolingp: Develop user-friendly methods for sharing and utilizing Spark view keys, enabling watch-only wallets and selectively disclosing Spark-based funds for compliance purposes.
+  midtermgoals: Mid-term goals
+  sparkassets: Spark Assets
+  sparkassetsp: Allow users to issue their own privacy-preserving assets. These assets enjoy the same privacy features as Spark, including the ability to hide asset types. All assets (including Firo) contribute to a shared anonymity set, and the protocol can also support privacy-preserving NFTs.
+  sparkswap: Spark Swap
+  sparkswapp: Enable atomic swaps between Spark assets and/or Firo, ensuring trustless and private exchanges.
+  curvetrees: Curve Trees
+  curvetreesp: Adopt Curve Trees, an innovative technique for efficient membership proofs that supports a global anonymity set. This upgrade will substantially improve privacy, scalability, verification speed, and proof size.
+  longtermgoals: Long-term goals
+  improvedinfra: Improved Privacy-Preserving Light Wallet Infrastructure
+  improvedinfrap: Continue researching ways to reduce reliance on customized SPV servers, giving users more private and decentralized light wallet options.
+  quantum: Quantum-Resistant Spark
+  quantump: Explore paths to transition Spark into a quantum-resistant protocol, as well as potential interim mitigations to safeguard against future quantum threats.
+  tailemission: Tail Emission Consensus Mechanism
+  tailemissionp: Firo’s current hybrid masternode–Proof-of-Work model may evolve once tail emission is reached. We are investigating alternative incentive or consensus mechanisms to secure the chain in the long run.
+  governance: Governance
+  governancep: Develop clear, decentralized governance structures to reduce reliance on Firo’s core team. The aim is to align all project stakeholders without focusing solely on coin holdings.
+  integrations: Integrations
+  enkrypt: Enkrypt Wallet Integration
+  enkryptp: Integrate Firo into Enkrypt, a multi-asset Web3 browser extension wallet, with full support for Spark features.
+  layerswap: Layerswap v8 Integration
+  layerswapp: Leverage Layerswap v8, a peer-to-peer protocol for bridging and swapping crypto assets across different blockchains. By using pre-HTLCs, it addresses many limitations of traditional atomic swaps (e.g., both parties needing to be online) and supports multi-hop transactions.
+  serai: Serai Integration
+  seraip: Collaborate with Serai, a cross-chain DEX focusing on AMM liquidity for Bitcoin, Ethereum, DAI, and Monero. Integrating Firo expands its cross-chain liquidity options and user base.
+  iterative: Iterative Improvements
+  campfire: Campfire
+  campfirep: Continue building out Campfire desktop and mobile wallets to provide full-featured support for masternodes, Spark Assets, and Spark Names.
+  firodex: FiroDEX
+  firodexp: Rework FiroDEX to be more resilient, ensuring its infrastructure—both nodes and front ends—is operated by a decentralized network of volunteers and community members.
+
+roadmap-old:
   aura: Pemungutan Suara Privasi Aura (penyelesaian makalah)
   auradesc: Aura adalah mekanisme pemungutan suara pribadi kami untuk DAO yang terinspirasi oleh teknologi Lelantus kami yang memungkinkan pemungutan suara anonim namun dapat diverifikasi yang juga menyembunyikan kemajuan surat suara. Kami bermaksud menggunakan ini sebagai dasar untuk bergerak menuju tata pemerintahan terdesentralisasi yang diformalkan.
   avalanche: Avalanche
