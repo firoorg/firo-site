@@ -16,4 +16,4 @@ jobs:
       - name: bundle install
         run: bundle install
       - name: build website
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --future
