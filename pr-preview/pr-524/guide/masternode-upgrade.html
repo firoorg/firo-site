@@ -176,20 +176,20 @@
                      <p class="p-summary"></p>
                      <div class="post-body">
                          <img src="" alt="">
-                          <p>Here’s a quick step-by-step guide to get your masternode up and running with the latest version in a few minutes. This guide assumes you are upgrading from a previous 0.14.x.x version to the <strong>latest 0.14.14.3</strong>. If you are upgrading from earlier versions, please adjust the folder paths in step 4 accordingly.</p>
+                          <p>Here’s a quick step-by-step guide to get your masternode up and running with the latest version in a few minutes. This guide assumes you are upgrading from a previous 0.14.x.x version to the <strong>latest 0.14.15.0</strong>. If you are upgrading from earlier versions, please adjust the folder paths in step 4 accordingly.</p>
 
 <p>Please note that if you did not update in time to a mandatory release or before the hard fork, your masternode will stop receiving rewards. It is highly advisable to update to the latest stable version as soon as possible.</p>
 
 <ol>
   <li>Log on to your masternode</li>
-  <li>Copy a link to the Linux archive from <a href="https://github.com/firoorg/firo/releases/latest">GitHub</a> or <a href="https://sourceforge.net/projects/firoorg/files/">Sourceforge</a> by right-clicking the file name (e.g. firo-0.14.14.3-linux64.tar.gz) and selecting the copy link menu item in your browser.</li>
+  <li>Copy a link to the Linux archive from <a href="https://github.com/firoorg/firo/releases/latest">GitHub</a> or <a href="https://sourceforge.net/projects/firoorg/files/">Sourceforge</a> by right-clicking the file name (e.g. firo-0.14.15.0-linux64.tar.gz) and selecting the copy link menu item in your browser.</li>
   <li>On the masternode’s command line, type <strong>wget</strong> and insert the copied link after it like so: </li>
 </ol>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/firoorg/firo/releases/download/v0.14.14.3/firo-0.14.14.3-linux64.tar.gz
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/firoorg/firo/releases/download/v0.14.15.0/firo-0.14.15.0-linux64.tar.gz
 </code></pre></div></div>
 
 <p>This will download the archive to your masternode.</p>
@@ -198,7 +198,7 @@
   <li>Stop the old daemon</li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/firo-1e562851c4a6/bin
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/firo-055a67f88923/bin
 </code></pre></div></div>
 
 <p>(this is the folder of the major version you are upgrading <em>from</em>)</p>
@@ -211,7 +211,7 @@
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~ 
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rm -rv firo-1e562851c4a6
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rm -rv firo-055a67f88923
 </code></pre></div></div>
 
 <p>(see above)</p>
@@ -220,14 +220,14 @@
   <li>Unpack the downloaded archive by typing</li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tar xvzf firo-0.14.14.3-linux64.tar.gz
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tar xvzf firo-0.14.15.0-linux64.tar.gz
 </code></pre></div></div>
 
 <ol start="6">
   <li>Now you can start your masternode again</li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/firo-055a67f88923/bin
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/firo-82e000131d77/bin
 </code></pre></div></div>
 
 <p>(new version)</p>
