@@ -27,7 +27,7 @@ jobs:
       - name: bundle install
         run: bundle install
       - name: build website
-        run: bundle exec jekyll build --baseurl /firo-site/"$PREVIEW_PATH"
+        run: bundle exec jekyll build --future --baseurl /firo-site/"$PREVIEW_PATH"
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
