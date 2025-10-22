@@ -13,6 +13,7 @@ DataVEX now accepts **FIRO** and **Spark** as payment options, aligning with our
 ## Special Launch Promotion
 
 To celebrate the addition of Firo, [DataVEX is offering one month of free hosting](https://datavex.eu/prices/FIRO/) for a Firo masternode to the **first 10 customers**.
+
 It’s a *first come, first served* opportunity for community members looking to set up their own masternode and contribute to network stability.
 
 ## Q&A
@@ -38,3 +39,4 @@ What we’ve already started:
 * A draft Spark URI/QR convention + webhook/event guidelines.
 * WooCommerce plugin MVP (checkout + callbacks); PrestaShop prototype next.
 * Merchant docs & examples: quick-starts, invoice flow, troubleshooting.
+
