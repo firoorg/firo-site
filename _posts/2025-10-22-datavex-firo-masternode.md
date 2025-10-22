@@ -4,7 +4,7 @@ title: "DataVEX Masternode Provider now Accepts Firo and Spark as Payments"
 summary: "Powering decentralized privacy with effortless setup"
 tags: [community, news]
 author: "Augustus Jong"
-img: "/blog/assets/datavex-firo-spark/banner.png"
+img: "/blog/assets/datavex-firo-masternode/banner.png"
 ---
 We’re pleased to share that [DataVEX](https://datavex.eu/), a new masternode hosting provider, has added **Firo** to its list of supported masternodes. You can now easily deploy and manage **Firo masternodes** - no technical skills required. This makes it simple for anyone to participate in securing the Firo network without needing to handle server setups or command-line configurations.
 
@@ -39,4 +39,5 @@ What we’ve already started:
 * A draft Spark URI/QR convention + webhook/event guidelines.
 * WooCommerce plugin MVP (checkout + callbacks); PrestaShop prototype next.
 * Merchant docs & examples: quick-starts, invoice flow, troubleshooting.
+
 
