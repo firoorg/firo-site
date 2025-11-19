@@ -2,7 +2,7 @@
 layout: post
 title: "Hard Fork Successfully Completed"
 summary: "Transferable Spark Names, lower VRAM mining, and multiple efficiency improvements"
-tags: [community, news]
+tags: [community, news, dev]
 author: "Augustus Jong"
 img: "/blog/assets/hardfork-nov-2025/banner.png"
 ---
@@ -25,5 +25,6 @@ All exchanges, mining pools, nodes and masternodes have transitioned smoothly, a
 If you run a node, masternode, or the QT Reference Wallet, please ensure you are updated to the latest version.
 
 You may need to perform a reindex if you updated after the hard fork: [https://firo.org/guide/reindex-wallet.html](https://firo.org/guide/reindex-wallet.html)
+
 
 
