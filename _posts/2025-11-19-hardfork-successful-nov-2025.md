@@ -21,8 +21,9 @@ This hard fork reduces the VRAM requirements for FiroPoW miners, making mining m
 
 We would like to thank all exchanges, mining pools, nodes and masternodes for the smooth transition.
 
-If you run a node, masternode, or the QT Reference Wallet, please ensure you are updated to the latest version.
+If you run a node, masternode, or the QT Reference Wallet, please ensure you are updated to the [latest version](https://github.com/firoorg/firo/releases).
 You may need to perform a reindex if you updated after the hard fork: [https://firo.org/guide/reindex-wallet.html](https://firo.org/guide/reindex-wallet.html)
+
 
 
 
