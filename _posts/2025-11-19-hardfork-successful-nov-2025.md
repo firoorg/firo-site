@@ -19,12 +19,11 @@ Users can now transfer, buy, and sell Spark Names on-chain, enabling a new Firo-
 
 This hard fork reduces the VRAM requirements for FiroPoW miners, making mining more accessible and allowing 8 GB graphics cards to mine Firo again.
 
-
-All exchanges, mining pools, nodes and masternodes have transitioned smoothly, and the network is operating normally.
+We would like to thank all exchanges, mining pools, nodes and masternodes for the smooth transition.
 
 If you run a node, masternode, or the QT Reference Wallet, please ensure you are updated to the latest version.
-
 You may need to perform a reindex if you updated after the hard fork: [https://firo.org/guide/reindex-wallet.html](https://firo.org/guide/reindex-wallet.html)
+
 
 
 
