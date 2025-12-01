@@ -6,7 +6,7 @@ tags: [community, news]
 author: "Augustus Jong"
 img: "/blog/assets/shkeeper-firo-integration/banner.png"
 ---
-We're excited to announce that Firo has been integrated into SHKeeper, the self-hosted and open-source cryptocurrency payment gateway. This integration, funded through the Firo Community Fund Committee (CFC), marks an important step in making Firo accessible to merchants and businesses worldwide.
+We're excited to announce that Firo has been integrated into [SHKeeper](https://shkeeper.io/), the self-hosted and open-source cryptocurrency payment gateway. This integration, [funded through the Firo Community Fund Committee (CFC)](https://funding.firo.org/proposals/firo-integration-with-shkeeper-self-hosted-payment-processor-reuben), marks an important step in making Firo accessible to merchants and businesses worldwide.
 
 ## What is SHKeeper?
 
@@ -47,4 +47,5 @@ For the Firo community, this is another step toward building the infrastructure 
 ![Transactions](/blog/assets/shkeeper-firo-integration/img3.png)
 
 ![Payout](/blog/assets/shkeeper-firo-integration/img4.png)
+
 
