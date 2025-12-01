@@ -37,3 +37,11 @@ The SHKeeper integration exemplifies what the Community Fund was designed for: p
 Merchants interested in accepting Firo through SHKeeper can visit [shkeeper.io](https://shkeeper.io) to learn more about setup and integration options. The software is fully open-source and available on GitHub for those who want to inspect the code or contribute.
 
 For the Firo community, this is another step toward building the infrastructure that makes private digital cash practical for everyday use. We encourage you to spread the word to merchants you know and support businesses that choose to accept Firo.
+
+![wallets](/blog/assets/shkeeper-firo-integration/img1.png)
+
+![Spark wallet](/blog/assets/shkeeper-firo-integration/img2.png)
+
+![Transactions](/blog/assets/shkeeper-firo-integration/img3.png)
+
+![Payout](/blog/assets/shkeeper-firo-integration/img4.png)
