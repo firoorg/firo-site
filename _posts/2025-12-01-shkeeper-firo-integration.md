@@ -38,7 +38,14 @@ Merchants interested in accepting Firo through SHKeeper can visit [shkeeper.io](
 
 For the Firo community, this is another step toward building the infrastructure that makes private digital cash practical for everyday use. We encourage you to spread the word to merchants you know and support businesses that choose to accept Firo.
 
-## Examples
+## Demo site
+
+There is a demo page where merchants or anyone can log in to check it out: [https://demo.shkeeper.io/](https://demo.shkeeper.io/)
+
+Username: admin
+Password: admin
+
+Here are some screenshot.
 
 ![wallets](/blog/assets/shkeeper-firo-integration/img1.png)
 
@@ -47,5 +54,6 @@ For the Firo community, this is another step toward building the infrastructure 
 ![Transactions](/blog/assets/shkeeper-firo-integration/img3.png)
 
 ![Payout](/blog/assets/shkeeper-firo-integration/img4.png)
+
 
 
