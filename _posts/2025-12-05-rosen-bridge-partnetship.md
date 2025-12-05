@@ -8,7 +8,7 @@ img: "/blog/assets/rosen-bridge-partnership/banner.png"
 ---
 We're excited to announce that Firo is partnering with [Rosen Bridge](https://rosen.tech/) to enable cross-chain asset transfers, opening the door to some of the largest decentralized finance ecosystems and liquidity venues in cryptocurrency.
 
-Through this integration, Firo will become accessible on Ethereum, BNB Chain, and Cardano. Home to billions of dollars in decentralized exchange liquidity and a thriving landscape of DeFi applications all without relying on centralized intermediaries.
+Through this integration, Firo will become accessible on Ethereum, BNB Chain, and Cardano. Integrations to Base and other prominent EVMs are also in the works. Home to billions of dollars in decentralized exchange liquidity and a thriving landscape of DeFi applications all without relying on centralized intermediaries.
 
 ## Why This Matters
 
@@ -36,17 +36,22 @@ Rosen Bridge stands out for several reasons that align with Firo's values:
 
 Once the integration is live, Firo holders will be able to bridge their assets to Ethereum, BNB Chain, and Cardano, gaining access to:
 
-* Deep liquidity on established DEXes like Uniswap, PancakeSwap, and Cardano-native exchanges
-* Participation in DeFi protocols including lending, liquidity provision, and yield generation
-* A censorship-resistant on-ramp and off-ramp that operates independently of centralized exchange policies
+* Deep liquidity on established DEXes like Uniswap, PancakeSwap, and Cardano-native exchanges.
+* Participation in DeFi protocols including lending, liquidity provision, and yield generation.
+* A censorship-resistant on-ramp and off-ramp that operates independently of centralized exchange policies.
 
 This isn't about chasing DeFi trends. It's about building resilient infrastructure. When centralized access points fail, decentralized alternatives must exist. Rosen Bridge provides exactly that.
 
 ## Looking Ahead
 
-This partnership represents a strategic step in ensuring Firo remains accessible regardless of the regulatory climate surrounding privacy technologies. We believe that financial privacy is a fundamental right, and that belief must be backed by infrastructure that cannot be switched off.
+This partnership represents a strategic step in ensuring Firo remains accessible and liquid regardless of the regulatory climate surrounding privacy technologies. We believe that financial privacy is a fundamental right, and that belief must be backed by infrastructure that cannot be switched off.
 
-We'll share further details on the integration timeline and supported trading pairs as development progresses. In the meantime, you can learn more about Rosen Bridge at [rosen.tech](https://rosen.tech/) and follow our official channels for updates.
+We'll share further details on the integration timeline but development is already underway and progressing quickly.
+We have also secured commitments from Firo holders to bridge meaningful amounts of Firo once the bridge is live ensuring strong bootstrapped liquidity upon launch.
+
+In the meantime, you can learn more about Rosen Bridge at [rosen.tech](https://rosen.tech/) and follow our official channels for updates.
 
 Privacy isn't just a feature. It's infrastructure worth defending.
+
+
 
