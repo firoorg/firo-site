@@ -49,3 +49,4 @@ This partnership represents a strategic step in ensuring Firo remains accessible
 We'll share further details on the integration timeline and supported trading pairs as development progresses. In the meantime, you can learn more about Rosen Bridge at [rosen.tech](https://rosen.tech/) and follow our official channels for updates.
 
 Privacy isn't just a feature. It's infrastructure worth defending.
+
