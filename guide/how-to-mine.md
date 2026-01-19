@@ -45,9 +45,9 @@ Currently Cedric-Crispin is the only pool with [Spark Address payout support](ht
     * ethcore.ru:2075 (high-diff)
     * ethcore.ru:2077 (SSL)
 * [Rplant](https://pool.rplant.xyz/)
-	* eu.rplant.xyz:17045
- 	* asia.rplant.xyz:17045
-  	* na.rplant.xyz:17045   
+    * eu.rplant.xyz:17045
+    * asia.rplant.xyz:17045
+    * na.rplant.xyz:17045   
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
 
