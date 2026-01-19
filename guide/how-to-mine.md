@@ -13,18 +13,19 @@ Firo is designed to be mined by GPUs.
 
 The FiroPoW mining algorithm (a modified version of ProgPoW 0.9.4) is designed to utilize all parts of a GPU and includes a random sequence that changes every block to add further ASIC and FPGA resistance.
 
-We believe in the importance of fair distribution in FIRO and remain committed to having it mineable using commodity hardware like GPUs.
+We believe in the importance of fair distribution in FIRO and remain committed to having it mineable using commodity hardware like GPUs. The VRAM requirement is targeted to be mineable by GPUs with 8GB VRAM and above to keep old hardware off but keeping it accessible to most modern GPUs.
 
-Before you begin, make sure you have a Firo (FIRO) address where you want your mining payouts to go to. To get one, download a [Firo wallet]({{ site.baseurl }}/get-firo/download/) and sync it with the network. 
+Before you begin, make sure you have a Firo (FIRO) address where you want your mining payouts to go to. We do not recommend mining directly to an address owned by an exchange. To get one, download a [Firo wallet]({{ site.baseurl }}/get-firo/download/) and sync it with the network. 
 
 The guide is meant for Windows users though Linux users can easily adapt it.
 
 ## Step 1: Getting your Miners
 
-* [Official reference miner](https://github.com/firoorg/firominer/releases) (open source, no fee. Performance on newer AMD cards is poor on the reference miner) 
+* [Nvidia/AMD GPU: TeamBlackMiner](https://github.com/sp-hash/TeamBlackMiner) (closed source, 0.5% fee)
+* [Nvidia/AMD GPU: SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi/releases) (closed source, 0.85% fee)
+* [Reference miner](https://github.com/firoorg/firominer/releases) (open source, no fee. Performance on newer AMD cards is poor on the reference miner) 
 * [Nvidia/AMD GPU: GMiner](https://github.com/develsoftware/GMinerRelease/releases) (closed source, 1% fee)
 * [AMD GPU: Team Red Miner](https://github.com/todxx/teamredminer/releases) (closed source, 2% fee)
-* [AMD GPU: SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi/releases) (closed source, 0.85% fee)
 
 **Warning:** Miners are listed here for convenience. Non-official miners have not been vetted. Use at your own risk. All fees are to the developers of the miners.
 
@@ -32,7 +33,7 @@ Extract the exe binary into a folder of your choice.
 
 ## Step 2: Registering with a Pool (if not solo mining)
 
-There are several pools running Firo on FiroPoW. Please try to spread the hashrate around so that no pool has more than 50% of the total hashrate for decentralization reasons! Note that pure 51% attacks are not possible on Firo due to Chainlocks technology which requires an attacker to either take down or take over the masternode network and also have 51% of the hashrate. You can view the current hashrate distribution [here](https://poolbay.io/crypto/317/firo).
+There are several pools running Firo on FiroPoW. Please try to spread the hashrate around so that no pool has more than 50% of the total hashrate for decentralization reasons! Note that pure 51% attacks are not possible on Firo due to Chainlocks technology which requires an attacker to either take down or take over the masternode network and also have 51% of the hashrate. You can view the current hashrate distribution [here](https://miningpoolstats.stream/firo).
 
 Currently Cedric-Crispin is the only pool with [Spark Address payout support](https://firo.cedric-crispin.com/start-mining/). Others only support transparent FIRO payouts. We recommend asking your favorite mining pool to add Spark Address support!
 
@@ -43,11 +44,12 @@ Currently Cedric-Crispin is the only pool with [Spark Address payout support](ht
     * ethcore.ru:2073 (low-diff)
     * ethcore.ru:2075 (high-diff)
     * ethcore.ru:2077 (SSL)
+* [Rplant](https://pool.rplant.xyz/)
+	* eu.rplant.xyz:17045
+ 	* asia.rplant.xyz:17045
+  	* na.rplant.xyz:17045   
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
-* [Kriptokyng](https://kriptokyng.com)
-    * stratum.kriptokyng.com:3094 (PPLNS)
-    * stratum.kriptokyng.com:1094 (SOLO)
 
 * For detailed stratum information, please visit the pool's own site.
 
@@ -59,7 +61,7 @@ Open your favourite text editor, cut and paste the following line corresponding 
 
 ### For Pool Mining
 
-Firominer:
+Firominer (Reference Miner):
 
 * Nvidia:
 
@@ -73,26 +75,28 @@ firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
 firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
 ```
 
+TeamBlackMiner (Nvidia/AMD):
+
+```
+TBMiner.exe --algo firopow --hostname POOLADDRESS --port PORT --wallet WALLETADDRESS --worker-name WORKER --server-passwd x
+```
+
+SRBMiner-Multi (Nvidia/AMD):
+
+```
+SRBMiner-MULTI.exe --disable-cpu --algorithm firopow --pool POOLADDRESS:PORT --wallet USERNAME.WORKER
+```
+
 Gminer:
 
 ```
-miner --algo firopow --server POOLADDRESS:PORT --user username.worker
-```
-For Zergpool:
-```
-miner --algo firo --server stratum+ssl://firopow.mine.zergpool.com:13001 --user YOURSPARKADDRESS -p c=FIRO,mc=FIRO,ID=WORKERNAME
+miner.exe --algo firopow --server POOLADDRESS:PORT --user username.worker
 ```
 
 Team Red Miner (AMD):
 
 ```
 teamredminer.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password
-```
-
-SRBMiner-Multi (AMD):
-
-```
-SRBMiner-MULTI.exe --disable-cpu --algorithm firopow --pool POOLADDRESS:PORT --wallet username.worker --gpu-boost 3
 ```
 
 After pasting it in, save the file as a .bat file (for e.g. **miner.bat**) in the same folder where you had extracted the miner binary earlier. 
