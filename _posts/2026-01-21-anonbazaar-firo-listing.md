@@ -52,7 +52,7 @@ Already have a listing on XMRBazaar? Adding Firo as an additional payment option
 
 Enter your Spark address and you're done. Your listing will now accept both Monero and Firo, giving buyers more flexibility while expanding your potential customer base. Also it puts you in the running for the weekly lucky draw!
 
-![Payment Methods](/blog/assets/anonbazaar-firo/image1.png)
+![Payment Methods](/blog/assets/anonbazaar-firo/payment.png)
 
 If you need a wallet that supports Spark addresses, we recommend [Stack Wallet](https://stackwallet.com/), which is open source, supports both Monero and Firo and works on both mobile and desktop.
 
@@ -61,6 +61,7 @@ If you need a wallet that supports Spark addresses, we recommend [Stack Wallet](
 Visit [Anonbazaar.com](https://anonbazaar.com) to browse existing listings or create your own. No account registration with personal details is required. Just set up your listing, include your Spark address, and you're ready to participate in privacy-preserving commerce.
 
 Real-world utility is what transforms privacy technology from an abstract concept into something that protects people in their daily lives. Platforms like Anonbazaar represent an important step toward building a functional privacy-respecting economy, and we're glad to be part of it.
+
 
 
 
