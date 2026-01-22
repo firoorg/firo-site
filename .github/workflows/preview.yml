@@ -12,7 +12,7 @@ concurrency: preview-${{ github.ref }}
 
 jobs:
   ci:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-slim
     if: ${{ github.event.action != 'closed' }}
     steps:
       - uses: actions/checkout@v4
@@ -34,7 +34,7 @@ jobs:
           source-dir: _site
           pages-base-url: firoorg.github.io/firo-site
   pr-closed:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-slim
     if: ${{ github.event.action == 'closed' }}
     steps:
       - uses: actions/checkout@v3
