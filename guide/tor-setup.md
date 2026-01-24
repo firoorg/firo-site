@@ -9,7 +9,7 @@ permalink: /guide/firo-with-tor.html
 
 **This guide is a work in progress.**
 
-Firo's built-in Tor can be turned on by checking the **"Anonymous communication with Tor"** box (Firo Core) or adding **torsetup=1** to firo.conf (for firod). Please note that this is for **outbound connections only.**
+Firo's built-in Tor can be turned on by checking the `"Anonymous communication with Tor"` box (Firo Core) or adding `torsetup=1` to firo.conf (for firod). Please note that this is for **outbound connections only.**
 
 To use built-in Tor with .onion address or inbound connections, you will need to create a `torrc` file in the `tor` subdirectory under Firo's data directory with the following contents:
 
