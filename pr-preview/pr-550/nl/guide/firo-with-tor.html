@@ -178,9 +178,29 @@
                          <img src="" alt="">
                           <p><strong>This guide is a work in progress.</strong></p>
 
-<p>Firo’s built-in Tor can be turned on by checking the <code class="language-plaintext highlighter-rouge">"Anonymous communication with Tor"</code> box (Firo Core) or adding <code class="language-plaintext highlighter-rouge">torsetup=1</code> to firo.conf (for firod). Please note that this is for <strong>outbound connections only.</strong></p>
+<p><strong><em>WARNING: Different users require different levels of security from Tor. Please ensure that your settings matches your risk level.</em></strong></p>
 
-<p>To use built-in Tor with .onion address or inbound connections, you will need to create a <code class="language-plaintext highlighter-rouge">torrc</code> file in the <code class="language-plaintext highlighter-rouge">tor</code> subdirectory under Firo’s data directory with the following contents:</p>
+<p><strong><em>Note: If you are using external/standalone Tor, please modify this guide accordingly.</em></strong></p>
+
+<h2 id="firo-setup">Firo Setup</h2>
+
+<p>Firo’s built-in Tor can be turned on by checking the <code class="language-plaintext highlighter-rouge">"Anonymous communication with Tor"</code> box (Firo Core) or adding <code class="language-plaintext highlighter-rouge">torsetup=1</code> to firo.conf (for firod). Please note that this is for <strong>outbound connections only</strong> and will most likely be sufficient for most users.</p>
+
+<p>Additional settings for <code class="language-plaintext highlighter-rouge">firo.conf</code> are available below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>torsetup=1
+
+listen=1
+listenonion=1
+
+proxy=127.0.0.1:9050
+onion=127.0.0.1:9050
+torcontrol=127.0.0.1:9051
+</code></pre></div></div>
+
+<h2 id="additional-tor-setup">Additional Tor setup</h2>
+
+<p>To use built-in Tor with .onion address or inbound connections, you will need to create a <code class="language-plaintext highlighter-rouge">torrc</code> file in the <code class="language-plaintext highlighter-rouge">tor</code> subdirectory under <a href="https://github.com/firoorg/firo/wiki/Default-data-directories">Firo’s data directory</a> with the following contents:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SocksPort 127.0.0.1:9050
 ControlPort 127.0.0.1:9051
