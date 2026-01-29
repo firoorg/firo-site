@@ -50,6 +50,9 @@ Currently Cedric-Crispin is the only pool with [Spark Address payout support](ht
     * na.rplant.xyz:17045   
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
+* [Kriptokyng](https://kriptokyng.com)
+    * stratum.kriptokyng.com:3094 (PPLNS)
+    * stratum.kriptokyng.com:1094 (SOLO)
 
 * For detailed stratum information, please visit the pool's own site.
 
