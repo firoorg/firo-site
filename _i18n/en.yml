@@ -267,6 +267,10 @@ team:
     name: Lil-King
     title: Community Manager
     bio: Lil-King is a dedicated privacy advocate in the crypto space with over five years of experience. Specializing in marketing and onboarding, Lil-King has played a crucial role in promoting privacy-focused projects. Passionate about financial privacy, Lil-King is committee to educating and empowering users to take control of their digital assets securely.
+  navidrahimi:
+    name: Navid Rahimi
+    title: Developer
+    bio: Navid has a strong background in compiler infrastructure and low-level systems optimization. He holds an MSc in Computer Science from Simon Fraser University and previously worked as a Compiler Engineer at Microsoft. Currently a Core Blockchain Developer at Firo, where he works on protocol-level features including the Lelantus Spark privacy mechanism, full-node performance optimization, consensus verification, and improvements to the P2P and RPC layers to strengthen network stability and security.
   
 roadmap:
   heading: Roadmap
@@ -383,3 +387,4 @@ merchants:
 social:
   community: Community
   findus: You can also find us here
+
