@@ -10,10 +10,11 @@ We’re happy to announce the winners of Week 1 of the [AnonBazaar](https://anon
 
 Congratulations to **quadriocellata** and **Ammortel**, who have each won $50 USD worth of FIRO.
 
-The prizes were sent directly to their Spark addresses, as provided in their AnonBazaar listings.
+The prizes will be sent directly to their Spark addresses, as provided in their AnonBazaar listings.
 
 This weekly lucky draw is part of an ongoing initiative that will run for approximately three months, aimed at encouraging more real-world listings and usage of FIRO on AnonBazaar.
 
 Thank you to everyone participating, and congratulations again to our Week 1 winners. More draws coming soon.
+
 
 Check out the winner selection process [HERE.](https://www.youtube.com/watch?v=MVDUA_IxTMY)
