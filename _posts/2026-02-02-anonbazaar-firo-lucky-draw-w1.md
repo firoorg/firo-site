@@ -13,8 +13,9 @@ Congratulations to **quadriocellata** and **Ammortel**, who have each won $50 US
 The prizes will be sent directly to their Spark addresses, as provided in their AnonBazaar listings.
 
 This weekly lucky draw is part of an ongoing initiative that will run for approximately three months, aimed at encouraging more real-world listings and usage of FIRO on AnonBazaar.
+Winners will not be eligible to be selected again within the same month (30 days from the start of the campaign), but eligibility will reset each month, allowing past winners to be selected again in future draws.
 
 Thank you to everyone participating, and congratulations again to our Week 1 winners. More draws coming soon.
 
+Check out the winner selection process [HERE](https://www.youtube.com/watch?v=MVDUA_IxTMY)
 
-Check out the winner selection process [HERE.](https://www.youtube.com/watch?v=MVDUA_IxTMY)
