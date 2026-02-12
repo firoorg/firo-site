@@ -184,9 +184,11 @@
 
 <h2 id="firo-setup">Firo Setup</h2>
 
-<p>Firo’s built-in Tor can be turned on by checking the <code class="language-plaintext highlighter-rouge">"Anonymous communication with Tor"</code> box (Firo Core) or adding <code class="language-plaintext highlighter-rouge">torsetup=1</code> to firo.conf (for firod). Please note that this is for <strong>outbound connections only</strong> and will most likely be sufficient for most users.</p>
+<p>Firo comes bundled with its own built-in Tor. It can be turned on easily for outbound connections by checking the <code class="language-plaintext highlighter-rouge">"Anonymous communication with Tor"</code> box in Firo Core or by adding <code class="language-plaintext highlighter-rouge">torsetup=1</code> to <code class="language-plaintext highlighter-rouge">firo.conf</code> if you’re using firod.</p>
 
-<p>Additional settings for <code class="language-plaintext highlighter-rouge">firo.conf</code> are available below:</p>
+<p>This enables Tor for outbound connections only which means any transaction you sent, will be sent and protected with Tor but your node will still listen and be visible on your regular IP address.</p>
+
+<p>To enable your node to use Tor for both incoming and outgoing connections, you will need to add the following to your <code class="language-plaintext highlighter-rouge">firo.conf</code>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>torsetup=1
 
@@ -200,7 +202,7 @@ torcontrol=127.0.0.1:9051
 
 <h2 id="additional-tor-setup">Additional Tor setup</h2>
 
-<p>To use built-in Tor with .onion address or inbound connections, you will need to create a <code class="language-plaintext highlighter-rouge">torrc</code> file in the <code class="language-plaintext highlighter-rouge">tor</code> subdirectory under <a href="https://github.com/firoorg/firo/wiki/Default-data-directories">Firo’s data directory</a> with the following contents:</p>
+<p>To use built-in Tor with .onion address, you will need to create a <code class="language-plaintext highlighter-rouge">torrc</code> file in the <code class="language-plaintext highlighter-rouge">tor</code> subdirectory under <a href="https://github.com/firoorg/firo/wiki/Default-data-directories">Firo’s data directory</a> with the following contents:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SocksPort 127.0.0.1:9050
 ControlPort 127.0.0.1:9051
