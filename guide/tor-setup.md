@@ -15,9 +15,11 @@ permalink: /guide/firo-with-tor.html
 
 ## Firo Setup
 
-Firo's built-in Tor can be turned on by checking the `"Anonymous communication with Tor"` box (Firo Core) or adding `torsetup=1` to firo.conf (for firod). Please note that this is for **outbound connections only** and will most likely be sufficient for most users.
+Firo comes bundled with its own built-in Tor. It can be turned on easily for outbound connections by checking the `"Anonymous communication with Tor"` box in Firo Core or by adding `torsetup=1` to `firo.conf` if you're using firod.
 
-Additional settings for `firo.conf` are available below:
+This enables Tor for outbound connections only which means any transaction you sent, will be sent and protected with Tor but your node will still listen and be visible on your regular IP address.
+
+To enable your node to use Tor for both incoming and outgoing connections, you will need to add the following to your `firo.conf`:
 
 ```
 torsetup=1
@@ -32,7 +34,7 @@ torcontrol=127.0.0.1:9051
 
 ## Additional Tor setup
 
-To use built-in Tor with .onion address or inbound connections, you will need to create a `torrc` file in the `tor` subdirectory under [Firo's data directory](https://github.com/firoorg/firo/wiki/Default-data-directories) with the following contents:
+To use built-in Tor with .onion address, you will need to create a `torrc` file in the `tor` subdirectory under [Firo's data directory](https://github.com/firoorg/firo/wiki/Default-data-directories) with the following contents:
 
 ```
 SocksPort 127.0.0.1:9050
