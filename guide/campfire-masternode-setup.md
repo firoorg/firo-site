@@ -15,6 +15,8 @@ permalink: /guide/campfire-masternode-setup.html
 
 ## Registration
 
+*Note: This process will resend your collateral to your own wallet. We are working on a fix.*
+
 1. Tap on the hamburger menu and choose `Masternodes`.
 
 2. Tap on `Create Your First Masternode` if this is your first masternode, or the `+` sign if this is not.
