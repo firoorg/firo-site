@@ -12,7 +12,7 @@ For privacy coin projects, the question is no longer whether centralized exchang
 
 Our answer at Firo is Rosen Bridge. And I believe it represents the most strategically sound liquidity play any privacy coin has made to date.
 
-Video: [Firo’s Censorship-Resistant DeFi Bridge Is Coming | Rosen Bridge Explained](https://www.youtube.com/watch?v=Ki5HIZn34F4) by Reuben Yap.
+Video: [Firo’s Censorship-Resistant DeFi Bridge Is Coming - Rosen Bridge Explained](https://www.youtube.com/watch?v=Ki5HIZn34F4) by Reuben Yap.
 
 ## The Problem: Every Alternative Has a Fatal Flaw
 
