@@ -7,7 +7,7 @@ author: "Anwar P."
 img: ""
 permalink: /guide/how-to-mine-firo.html
 ---
-![](/guide/assets/how-to-mine/firopow-banner.png)
+![](/guide/assets/how-to-mine/MiningGuide-Sparky.png)
 
 Firo is designed to be mined by GPUs.
 
@@ -53,6 +53,10 @@ Currently Cedric-Crispin is the only pool with [Spark Address payout support](ht
 * [Kriptokyng](https://kriptokyng.com)
     * stratum.kriptokyng.com:3094 (PPLNS)
     * stratum.kriptokyng.com:1094 (SOLO)
+* [Pooly.ca](https://pooly.ca/)
+	* stratum+tcp://pooly.ca:3094
+* [Meowpool](https://meowpool.net/)
+	* stratum+tcp://meowpool.net:7278 (PPLNS)
 
 * For detailed stratum information, please visit the pool's own site.
 

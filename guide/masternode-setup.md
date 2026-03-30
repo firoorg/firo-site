@@ -6,6 +6,7 @@ tags: [guide]
 author: "Anwar P."
 permalink: /guide/masternode-setup.html
 ---
+![](/guide/assets/masternode-setup/Masternode-Guide-Sparky.png)
 
 **DISCLAIMER:** This guide assumes a basic knowledge of Putty and Linux and comfortable in dealing with command line commands. We are not responsible for any loss for using this guide without the pre-requisite knowledge. Do not proceed with this guide if you have any doubts and turn to a masternode provider.
 
