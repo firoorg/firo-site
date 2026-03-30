@@ -7,7 +7,7 @@ author: "Anwar P."
 img: ""
 permalink: /guide/how-to-mine-firo.html
 ---
-![](/guide/assets/how-to-mine/firopow-banner.png)
+![](/guide/assets/how-to-mine/MiningGuide-Sparky.png)
 
 Firo is designed to be mined by GPUs.
 
