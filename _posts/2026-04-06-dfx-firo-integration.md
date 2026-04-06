@@ -4,7 +4,7 @@ title: "DFX Is Integrating Firo for Privacy-First Payments"
 summary: "Firo Partners with DFX for Fiat On/Off-Ramping and Crypto Payments"
 tags: [community, news]
 author: "Augustus Jong"
-img: "/blog/assets/<filename>/banner.png"
+img: "/blog/assets/dfx/banner.png"
 ---
 Firo is partnering with [DFX](https://www.dfx.swiss/), a Swiss non-custodial fiat-to-crypto platform, to give FIRO users direct access to fiat on-ramping, off-ramping, and real-world crypto payments.
 
