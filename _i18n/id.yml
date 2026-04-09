@@ -1,10 +1,10 @@
 global:
-  date: '%d/%m/%Y'
+  date: '%Thn/%bln/%tgl'
   firo: Firo
   yeth: "ya"
   noo: "tidak"
   lelantus: Lelantus
-  title: Firo - Mata uang kripto yang menjaga privasi
+  title: Firo - Menjaga Privasi Aset Kripto
   
 titles:
   home: Beranda
@@ -18,7 +18,7 @@ titles:
   community: Komunitas
   guides: Panduan
   blog: Blog
-  branding: Branding
+  branding: Merek
   merchants: Para Pedagang
   
 navigation:
@@ -29,23 +29,23 @@ navigation:
   merchants: Para Pedagang
   guides: Panduan
   blog: Blog
-  crowdfunding: Crowdfunding
+  crowdfunding: Penggalangan Dana
   download: Unduh dompet
   buyfiro: Beli Firo
   earnfiro: Dapatkan Firo
-  mine: Menambang
+  mine: Tambang
   tech: Riset
   team: Tim
   roadmap: Peta Jalan
   faq: FAQ
-  fcs: Firo Crowdfunding System
-  opencollective: Open Collective
+  fcs: Sistem Penggalangan Dana Firo
+  opencollective: Kolektif Terbuka
   
 footer:
   resources: Sumber Daya
-  branding: Branding
+  branding: Merek
   vuln: Program Kerentanan
-  explorer: Explorer
+  explorer: Penjelajah
   website: Situs Web
   privacy: Kebijakan Privasi
   tos: Ketentuan Layanan
@@ -82,7 +82,7 @@ home:
   getfiro2link: Unduh dompet
   getfiro3: Beli Firo
   getfiro3text: Firo memiliki berbagai pilihan untuk mengelola dana Anda di OS desktop dan seluler utama. Pilih yang paling sesuai untuk Anda.
-  getfiro3link: Cari bursa (exchange)
+  getfiro3link: Cari Bursa (exchange)
   getfiro4: Dapatkan Firo
   getfiro4text: Anda dapat menyiapkan masternode Firo Anda sendiri untuk memperoleh Firo. Kami akan memandu Anda melalui proses penyiapan dalam panduan terperinci kami.
   getfiro4link: Siapkan masternode
@@ -368,14 +368,14 @@ merchants:
   disclaimer: Beberapa tautan ini mengandung tautan rujukan di mana kami mungkin menerima kompensasi saat Anda mendaftar atau menggunakan produk/layanan mereka. Ini bukan merupakan bentuk dukungan terhadap produk/layanan tersebut.
   introduction: Ingin membelanjakan Firo Anda? Berikut adalah beberapa tempat di mana Anda bisa melakukannya! Ini adalah daftar tidak lengkap dari tempat-tempat yang menerima Firo! Jika Anda memiliki bisnis yang ingin ditampilkan di sini, beri tahu kami!
   button1: Pakaian
-  button2: Kencan
+  button2: Biro Jodoh
   button3: Donasi
-  button4: Paruh Waktu
+  button4: Pekerja Lepas
   button5: Gaming
   button6: Produk Kesehatan
   button7: Hosting
   button8: Layanan Hukum
-  button9: Pusat Pasar Daring
+  button9: Pasar online
   button10: Pinjaman P2P
   button11: Solusi Pembayaran
   button12: Perangkat Lunak
