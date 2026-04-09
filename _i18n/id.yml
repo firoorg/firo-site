@@ -1,10 +1,10 @@
 global:
-  date: '%Thn/%bln/%tgl'
+  date: '%d/%m/%Y'
   firo: Firo
-  yeth: "iya"
+  yeth: "ya"
   noo: "tidak"
   lelantus: Lelantus
-  title: Firo - Menjaga Privasi Aset Kripto
+  title: Firo - Mata uang kripto yang menjaga privasi
   
 titles:
   home: Beranda
@@ -13,11 +13,12 @@ titles:
   tech: Riset
   team: Tim
   roadmap: Peta Jalan
+  roadmap-old: Peta Jalan Lama
   faq: FAQ
   community: Komunitas
   guides: Panduan
   blog: Blog
-  branding: Merek
+  branding: Branding
   merchants: Para Pedagang
   
 navigation:
@@ -28,80 +29,92 @@ navigation:
   merchants: Para Pedagang
   guides: Panduan
   blog: Blog
-  crowdfunding: Penggalangan Dana
-  download: Unduh Dompet
+  crowdfunding: Crowdfunding
+  download: Unduh dompet
   buyfiro: Beli Firo
   earnfiro: Dapatkan Firo
-  mine: Tambang
+  mine: Menambang
   tech: Riset
   team: Tim
   roadmap: Peta Jalan
   faq: FAQ
-  fcs: Sistem Penggalangan Dana Firo
-  opencollective: Kolektif Terbuka
+  fcs: Firo Crowdfunding System
+  opencollective: Open Collective
   
 footer:
-  resources: Sumber daya
-  branding: Merek
+  resources: Sumber Daya
+  branding: Branding
   vuln: Program Kerentanan
-  explorer: Penjelajah
-  website: situs web
+  explorer: Explorer
+  website: Situs Web
   privacy: Kebijakan Privasi
+  tos: Ketentuan Layanan
   newsletter: Berita
-  ifsub: Kunjungi kanal Telegram kami untuk mendapatkan informasi terbaru tentang berita Firo.
-  newsbutton: Baca Berita
-  comm: komunikasi
-  feed: Umpan RSS
-  
+  ifsub: Kunjungi <a href="/blog/">Blog</a> dan saluran Telegram kami untuk berita terbaru seputar Firo.
+  newsbutton: Baca berita
+  comm: Komunikasi
+  feed: Feed RSS
+
 home:
-  heading: Privasi adalah persetujuan
-  heading2: Firo adalah mata uang kripto dan ekosistem yang menjaga privasi.
+  heading: Memicu <br class="brmob">revolusi privasi
+  heading2: Firo adalah ekosistem dan mata uang kripto <br>yang menjaga privasi.
   cta1: Dapatkan Firo
-  cta2: Pelajari Lebih Lanjut
+  cta2: Pelajari lebih lanjut
+  about: Cara kerja Firo
+  aboutp: Firo unggul dengan memimpin inovasi dalam protokol dan privasi. Riset pelopor kami berfokus pada bagaimana privasi seharusnya bekerja dalam keuangan digital.
   privacy: Privasi
-  privacy1: Firo berada di garis depan dalam privasi mata uang kripto dengan Lelantus dan Lelantus Spark yang menyediakan privasi on-chain yang tidak dapat dipercaya dengan set anonimitas yang tinggi. Teknologi Dandelion++ juga menyediakan privasi lapisan jaringan.
-  privacy2: pengaturan anonimitas
-  privacy3: pengaturan tanpa kepercayaan
+  privacy1: Firo mengembangkan Lelantus Spark yang menyediakan privasi on-chain tanpa kepercayaan (trustless) dengan tingkat anonimitas yang tinggi. Teknologi Dandelion++ menyediakan privasi pada lapisan jaringan.
+  privacy2: set anonimitas
+  privacy3: penyiapan tanpa kepercayaan (trustless setup)
   blockchain: Blockchain
-  blockchain1: Firo menggunakan hybrid PoW dan sistem Chainlock LLMQ yang mengkombinasikan distribusi pasokan yang adil dengan perlindungan terhadap serangan 51% dan penyelesaian blok dan transaksi yang cepat.
-  blockchain2: Jumlah pasokan
+  blockchain1: Sistem hibrida PoW dan LLMQ Chainlocks kami melindungi dari serangan 51% sekaligus memastikan finalitas blok dan transaksi yang nyaris instan, menjadikan Firo pilihan ideal untuk pembayaran yang aman dan efisien.
+  blockchain2: total pasokan + emisi ekor (tail emission)
   blockchain3: proof of work
-  blockchain4: masternodes
+  blockchain4: master node
   privacyin: Infrastruktur Privasi
-  privacyin1: Lapisan tokenisasi Elysium Firo mengijinkan pengguna untuk membuat token privasi mereka sendiri untuk keperluan mulai dari penggunaan stablecoin pribadi, pemungutan suara melalui token, hingga mampu menawarkan privasi untuk menjembatani aset-aset dari jaringan blockchain lainnya di masa mendatang.
+  privacyin1: Dengan Spark Assets, Firo memperluas privasi melampaui sekadar transaksi ke aset itu sendiri. Fitur ini menyembunyikan jenis aset yang ditransfer, menjadikannya sempurna untuk membuat token yang berfokus pada privasi untuk digunakan dalam aplikasi aman dan anonim seperti pemungutan suara atau aset tokenisasi pribadi.
   randd: Riset dan Pengembangan
-  randd1: Firo menjadi salah satu yang paling menonjol dari beberapa proyek yang berkontribusi pada penelitian independen untuk privasi blockchain dan teknologi terdesentralisasi seperti Sigma, Lelantus, Lelantus Spark dan FiroPoW. Pekerjaan kami telah berperan penting dalam ruang yang telah mempengaruhi atau diadopsi di dalam proyek lain.
-  getfiro: dapatkan firo
-  getfiro1: Mendorong batasan privasi digital. Bergabunglah dengan ekosistem Firo hari ini.
+  randd1: Firo menonjol sebagai satu dari sedikit proyek yang menyumbangkan riset independen untuk teknologi privasi blockchain dan desentralisasi seperti Zerocoin, Sigma, Lelantus, Lelantus Spark, dan MTP. Karya kami telah memainkan peran penting di bidang ini serta telah memengaruhi atau diadopsi oleh proyek-proyek lain.
+  getfiro: Dapatkan Firo
+  getfiro1: Beli, tambang, atau Dapatkan Firo, dan bergabunglah dalam revolusi privasi. <br>Simpan Firo Anda di salah satu dompet kami yang kaya fitur, dioptimalkan untuk daya, aksesibilitas, dan pengalaman pengguna.
   getfiro2: Dapatkan dompet
+  getfiro2text: Firo memiliki berbagai pilihan untuk mengelola dana Anda di OS desktop dan seluler utama. Pilih yang paling sesuai untuk Anda. 
+  getfiro2link: Unduh dompet
   getfiro3: Beli Firo
+  getfiro3text: Firo memiliki berbagai pilihan untuk mengelola dana Anda di OS desktop dan seluler utama. Pilih yang paling sesuai untuk Anda.
+  getfiro3link: Cari bursa (exchange)
   getfiro4: Dapatkan Firo
+  getfiro4text: Anda dapat menyiapkan masternode Firo Anda sendiri untuk memperoleh Firo. Kami akan memandu Anda melalui proses penyiapan dalam panduan terperinci kami.
+  getfiro4link: Siapkan masternode
   getfiro5: Mulai menambang
+  getfiro5text: FiroPoW, algoritma penambangan Firo, dirancang untuk ditambang menggunakan GPU. Ikuti panduan kami untuk mulai menambang Firo pertama Anda.
+  getfiro5link: Baca panduan menambang
   
 download:
   heading: Unduh dompet
-  official: dompet desktop resmi
+  official: dompet yang direkomendasikan
   backup: Cadangkan dompet Anda sebelum memperbarui
   verify: Verifikasi hash menggunakan
   verify1: kunci publik ini
-  guide: Gunakan panduan resmi 
-  guide1: panduan pemasangan dan penggunaan dompet
+  guide: Gunakan panduan resmi
+  guide1: instalasi dan penggunaan dompet ini
   changelog: Lihat log perubahan
-  option1: Opsi keamanan tingkat tinggi
-  option2: Opsi penggunaan mudah
-  option3: Opsi cepat dan ringan
-  qt: Dompet Reference
-  downloadqtw: Unduh Reference untuk Windows
-  downloadqtm: Unduh Reference untuk macOS
-  downloadqtmarm: Unduh Reference untuk macOS arm64
-  downloadqtl: Unduh Reference untuk Linux
-  downloadqtlarm64: Unduh Reference untuk Linux arm64
+  option1: Full node, fitur lengkap
+  option2: Direkomendasikan untuk sebagian besar pengguna
+  option3: Dompet ringan dengan dukungan dompet perangkat keras (hardware wallet)
+  qt: Referensi
+  downloadqtw: Unduh Referensi untuk Windows
+  downloadqtm: Unduh Referensi untuk macOS
+  downloadqtmarm: Unduh Referensi untuk macOS arm64
+  downloadqtflathub: Dapatkan di Flathub
+  downloadqtl: Unduh Referensi untuk Linux
+  downloadqtlarm64: Unduh Referensi untuk Linux arm64
   campfire: Campfire
   downloadcampfirew: Unduh Campfire untuk Windows
   downloadcampfirem: Unduh Campfire untuk macOS
   downloadcampfirel: Unduh Campfire untuk Linux
-  downloadmobcamp: Unduh untuk Android
-  downloadioscamp: Unduh untuk iOS
+  downloadmobcamp: Unduh Campfire untuk Android
+  downloadioscamp: Unduh Campfire untuk iOS
   electrum: Electrum
   downloadelectrumw: Unduh Electrum untuk Windows
   downloadelectrumm: Unduh Electrum untuk macOS
@@ -111,209 +124,266 @@ download:
   hashesmacarm: Tampilkan hash SHA256 untuk macOS arm64
   hasheslinux: Tampilkan hash SHA256 untuk Linux
   hasheslinuxarm64: Tampilkan hash SHA256 untuk Linux arm64
-  officialmobile: dompet ponsel resmi
+  officialmobile: dompet seluler resmi
   optionmob1: Android
-  androidmob: Dompet Android
-  downloadmobandroid: Unduh dompet
-  hashesandroid: Tampilkan hash SHA256 untuk Android
   optionmob2: iOS
   iosmob: Dompet iOS
   downloadmobios: Segera hadir
   hashesios: Tampilkan hash SHA256 untuk iOS
   optionmob3: Android & iOS
   campfiremob: Dompet Campfire
-  stackwalletmob: Stack Wallet
+  stackwalletmob: Dompet Stack
   wallets: dompet pihak ketiga
 
 buyfiro:
   heading: Beli Firo
-  heading2: Salah satu cara untuk mendapatkan Firo adalah dengan mendapatkannya di salah satu bursa perdagangan. Dibawah ini Anda dapat menemukan daftar layanan bursa dan penukaran koin yang mendukung Firo.
-  predisclaimer: Disclaimer&colon;&#x20;
-  disclaimer: Beberapa tautan ini berisi tautan rujukan di mana tim inti Firo dapat menerima kompensasi saat Anda mendaftar atau menggunakan produk/layanan mereka. Ini bukan merupakan endorsement produk/layanan.
+  heading2: Salah satu cara mendapatkan Firo adalah dengan membelinya di bursa (exchange). Di bawah ini Anda akan menemukan daftar bursa dan layanan penukaran koin yang mendukung Firo.
+  predisclaimer: Penafian&colon;&#x20;
+  disclaimer: Beberapa tautan ini mengandung tautan rujukan di mana tim inti Firo mungkin menerima kompensasi saat Anda mendaftar atau menggunakan produk/layanan mereka. Ini bukan merupakan bentuk dukungan terhadap produk/layanan tersebut.
   ff: "Firo / Fiat"
   fc: "Firo / Kripto"
-  cs: "Penukaran-Koin"
-  exchangeswith: bertukar dengan
+  cs: "Penukaran Koin (Coin-Swapping)"
+  exchangeswith: bursa dengan
   ffhead1: "firo / fiat"
   pairing: pasangan
   fchead1: "firo / kripto"
-  csservice: layanan penukaran-koin
+  csservice: layanan penukaran koin
   dex: dex
-  liquidstaking: staking likuid
+  liquidstaking: liquid staking
   
 tech:
   heading: Riset
-  heading1: Privasi adalah tentang selangkah lebih maju. Tim di belakang Firo bertanggung jawab atas beberapa protokol privasi blockchain paling signifikan yang pernah tercatat, dan semua teknologi itu dikultivasi menjadi Firo.
-  academicpapers: Makalah Academik
+  heading1: Privasi adalah tentang tetap selangkah di depan. Tim di balik Firo bertanggung jawab atas beberapa protokol privasi blockchain paling signifikan yang pernah ada, dan semua teknologi itu disatukan ke dalam Firo.
+  academicpapers: Makalah Akademik
   audits: Audit
   sparklelantus1: Teknologi Lelantus Spark
-  sparklelantus2: Lelantus Spark sangat meningkat dibandingkan pendahulunya, Lelantus dengan alamat Spark fleksibel yang mampu membuat informasi jumlah transaksi menjadi privat dan tidak dapat dilacak dengan sistem tanda tangan digital yang efisien serta dukungan tampilan input dan output. Spark juga memiliki struktur modular yang memungkinkan komponen untuk ditingkatkan seiring dengan munculnya teknologi yang lebih baik sambil menyederhanakan analisis keamanan. Teknologi ini mempertahankan keunggulan Lelantus sebagai mekanisme tanpa trusted setup, serta konstruksi yang mudah dipahami dan berdasarkan asumsi kriptografi yang kokoh.
+  sparklelantus2: Lelantus Spark sangat meningkatkan pendahulunya, Lelantus, dengan alamat Spark fleksibel yang menyembunyikan semua jumlah transaksi, tidak dapat dicari di blockchain, namun tetap memungkinkan tanda tangan ambang batas (threshold signatures) yang efisien serta dukungan kunci tampilan (view key) baik masuk maupun keluar. Spark juga memiliki struktur modular yang memungkinkan komponen ditingkatkan seiring munculnya teknologi yang lebih baik sambil menyederhanakan analisis keamanan. Ini mempertahankan manfaat Lelantus tanpa penyiapan terpercaya (trusted setup), konstruksi yang mudah dipahami, dan didasarkan pada asumsi kriptografi yang mapan.
   lelantus1: Teknologi Lelantus
-  lelantus2: Lelantus adalah protokol privasi generasi selanjutnya yang dikembangkan oleh Aram Jivanyan di Firo. Lelantus memungkinkan Anda untuk melakukan pembakaran koin untuk menciptakan koin sama yang sepenuhnya baru dan menyembunyikannya diantara set anonimitas sebesar lebih dari 65,000. Penerima menerima koin Anda dari kumpulan anonimitas ini, yang telah memutuskan tautan dari transaksi yang Anda buat dan semua transaksi sebelumnya yang telah dilakukan jika ada.
+  lelantus2: Lelantus adalah protokol privasi generasi berikutnya yang dikembangkan oleh Aram Jivanyan di Firo. Lelantus memungkinkan Anda untuk membakar (burn) koin Anda, yang menyembunyikannya dalam set anonimitas lebih dari 65.000. Penerima dapat mencairkannya dari pool anonimitas ini, yang memutus tautan dari transaksi Anda dan semua transaksi sebelumnya yang telah dilaluinya.
   sigma1: Teknologi Sigma
-  sigma2: Kami percaya seluruh tujuan blockchain adalah untuk membangun sistem yang tidak memerlukan kepercayaan, dan prinsip yang sama berlaku untuk sistem privasi kami. Inilah sebabnya kami membangun Sigma untuk Zcoin pada tahun 2018 yang menghilangkan persyaratan pengaturan terpercaya di Zerocoin. Sigma menggunakan kurva ECC 256 bit dengan ukuran proof hanya 1,5 kB - 17x yang merupakan peningkatan pada teknologi saat itu. Sigma adalah pendahulu Lelantus, dan menetapkan banyak batu loncatan untuk membawa kita ke tempat kita sekarang ini.
+  sigma2: Kami percaya bahwa tujuan utama blockchain adalah untuk membangun sistem yang tidak memerlukan kepercayaan, dan prinsip yang sama berlaku untuk sistem privasi kami. Inilah sebabnya kami membangun Sigma untuk Zcoin pada tahun 2018 yang menghapus persyaratan penyiapan terpercaya (trusted setup) di Zerocoin. Sigma menggunakan kurva ECC 256-bit untuk ukuran bukti hanya 1,5 kB - peningkatan 17x lipat dari teknologi saat itu. Sigma merupakan pendahulu Lelantus, dan meletakkan banyak batu loncatan untuk membawa kita ke posisi saat ini.
   dandelion1: Teknologi Dandelion
-  dandelion2: Dandelion++ melindungi alamat IP Anda. Sebelum transaksi Firo disiarkan ke seluruh jaringan, transaksi tersebut akan diacak antar node dengan sejumlah langkah acak. Dengan cara ini, asal siaran didekorasi dengan alamat IP Anda.
-  mtp1: Keamanan yang desentralisasi dan adil
-  mtp2: Algoritma penambangan Merkle Tree Proof (MTP) Firo dirancang untuk penambangan yang demokratis. Algoritma MTP adalah memori intensif yang meningkatkan biaya pembuatan ASIC dan menjaga agar rantai tetap dapat ditambang oleh perangkat keras komoditas seperti GPU. Node, bagaimanapun, dapat melewati persyaratan memori ini dan memverifikasi bukti-bukti ini secara efisien. Audit yang disponsori Firo pada tahun 2017 membuktikan keefektifan pendekatan dua arah ini. MTP telah digantikan oleh FiroPoW yang memiliki bukti lebih kecil dan strategi tahan ASIC tambahan.
+  dandelion2: Dandelion++ melindungi alamat IP Anda. Sebelum transaksi Firo disiarkan ke seluruh jaringan, transaksi tersebut diacak di antara node dalam jumlah langkah yang acak. Dengan cara ini, asal siaran tidak berkorelasi dengan alamat IP Anda.
+  mtp1: Keamanan yang terdesentralisasi dan adil
+  mtp2: Algoritma penambangan Merkle Tree Proof (MTP) Firo dirancang untuk mendemokratisasi penambangan. Algoritma MTP bersifat intensif memori guna meningkatkan biaya pembuatan ASIC dan menjaga agar rantai tetap dapat ditambang oleh perangkat keras umum seperti GPU. Namun, node dapat melewati persyaratan memori ini dan memverifikasi bukti tersebut secara efisien. Audit yang disponsori Firo pada tahun 2017 membuktikan efektivitas pendekatan dua arah ini. MTP sejak itu telah digantikan oleh FiroPoW yang memiliki bukti lebih kecil dan strategi tahan-ASIC tambahan.
   
 team:
   heading: Tim
-  founders: Para Pendiri
+  founders: pendiri
   coreteam: pengembang inti
-  mobileteam: pengembang
+  mobileteam: pengembangan seluler
   research: riset
   community: komunitas
   poramininsom:
     name: Poramin Insom
     title: Co-Founder
-    bio: Poramin Insom mendirikan Zcoin (sekarang Firo) pada tahun 2016, berusaha memberikan privasi finansial dan juga penambangan yang lebih inklusif melalui bukti kerja tahan ASIC. Dia memperoleh gelar master dalam Keamanan Informasi dari Universitas Johns Hopkins di mana dia menulis makalah tentang implementasi praktis yang diusulkan dari protokol Zerocoin. Dia meletakkan dasar-dasar teknologi Zcoin (sekarang Firo) dari pengkodean implementasi Zerocoin pertama di dunia dan juga mendorong penelitian dan pengembangan ke dalam algoritma penambangan MTP. Poramin telah difokuskan untuk mendorong adopsi Firo ke dunia nyata terutama dalam keterlibatannya memfasilitasi Partai Demokrat Thailand untuk melakukan pemilihan utama dalam memilih pemimpin partainya di blockchain Firo pada tahun 2018 yang merupakan pemilihan politik skala besar pertama di dunia pada sebuah blockchain.
+    bio: Poramin Insom mendirikan Zcoin (sekarang Firo) pada tahun 2016, berupaya menyediakan privasi finansial dan juga penambangan yang lebih inklusif melalui proof of work yang tahan ASIC. Ia meraih gelar master dalam Keamanan Informasi dari Universitas Johns Hopkins di mana ia menulis makalah tentang usulan implementasi praktis dari protokol Zerocoin. Ia meletakkan dasar-dasar teknologi Zcoin (sekarang Firo) mulai dari mengoding implementasi Zerocoin pertama di dunia dan juga mendorong riset serta pengembangan algoritma penambangan MTP. Poramin telah berfokus mendorong adopsi Firo ke dunia nyata, terutama keterlibatannya dalam memfasilitasi Partai Demokrat Thailand untuk melakukan pemilihan primer guna memilih pemimpin partainya di blockchain Firo pada tahun 2018, yang merupakan pemilihan politik skala besar pertama di dunia di atas blockchain. Ia juga pernah bertugas di militer Thailand di mana ia bertanggung jawab atas perang siber.
   reubenyap:
     name: Reuben Yap
     title: Co-Founder
-    bio: Reuben Yap adalah Pengurus Proyek dari Firo dan memimpin proyek dalam keseluruhan strategi, tujuan pengembangan, dan upaya penelitiannya. Bergabung dengan tim tidak lama setelah dimulai, ia telah memainkan peran penting dalam membentuk Firo hingga seperti sekarang ini. Reuben telah menjadi pendukung vokal privasi online dan finansial setelah mendirikan salah satu layanan VPN paling awal di Asia Tenggara untuk memerangi sensor negaranya dan merupakan pembicara yang disegani tentang topik tersebut, dengan wawancara dan komentar unggulan di BBC, Nasdaq Tradetalks, Forbes, Coindesk, Reuters dan Cheddar News, antara lain. Sebelum bergabung dengan Firo, Reuben adalah mitra di firma hukum dengan lebih dari sepuluh tahun pengalaman praktik yang mengkhususkan diri dalam melakukan pekerjaan penasihat dalam kerangka hukum dan kelembagaan.
+    bio: Reuben Yap telah memimpin proyek ini dalam strategi keseluruhan, tujuan pengembangan, dan upaya riset selama beberapa tahun terakhir. Ia kini tetap menjadi bagian dari tim inti yang mengelola tim pengembangan dan riset. Bergabung dengan tim sesaat setelah awal berdirinya, ia telah memainkan peran penting dalam membentuk Firo hingga menjadi seperti sekarang. Reuben telah menjadi advokat vokal untuk privasi daring dan finansial setelah mendirikan salah satu layanan VPN pertama di Asia Tenggara untuk memerangi sensor di negaranya, dan merupakan pembicara yang dihormati dalam topik tersebut, dengan wawancara serta komentar unggulan di BBC, Nasdaq Tradetalks, Forbes, Coindesk, Reuters, dan Cheddar News, antara lain. Sebelum bergabung dengan Firo, Reuben adalah mitra di firma hukum dengan pengalaman praktik lebih dari sepuluh tahun yang berspesialisasi dalam pekerjaan penasihat di kerangka hukum dan institusional.
   petershugalev:
     name: Peter Shugalev
-    title: Kepala Pengembang
-    bio: Peter adalah programmer dan arsitek perangkat lunak yang sangat terampil dengan pengalaman lebih dari 20 tahun. Dia tinggal di Moskow, Rusia, dan lulus dari Universitas Negeri Moskow magna cum laude dengan gelar Master di bidang Ilmu Komputer dan Matematika. Dia telah menciptakan jaringan dan layanan terkait keamanan, dan bahkan telah membuat bahasa pemrogramannya sendiri dan kompiler lintas platform untuk sistem deteksi intrusi berbasis tanda tangan. Kombinasi langka antara pengetahuan kriptografi dan pemrograman telah membantu Firo tetap berada di garis depan privasi on-chain.
+    title: Pengembang Utama
+    bio: Peter adalah pemrogram dan arsitek perangkat lunak yang sangat terampil dengan pengalaman lebih dari 20 tahun. Ia tinggal di Moskow, Rusia, dan lulus dari Universitas Negeri Moskow dengan predikat magna cum laude dengan gelar Master dalam Ilmu Komputer dan Matematika. Ia telah menciptakan layanan terkait jaringan dan keamanan, bahkan menciptakan bahasa pemrogramannya sendiri serta kompiler lintas platform untuk sistem deteksi intrusi berbasis tanda tangan. Kombinasi langka antara pengetahuan kriptografi dan pemrograman telah membantu Firo tetap berada di garis depan privasi on-chain.
   levonpetrosyan:
     name: Levon Petrosyan
     title: Pengembang
-    bio: Levon adalah seorang insinyur perangkat lunak dengan gelar Master di bidang Ilmu Komputer dan Ekonomi dari American University of Armenia. Latar belakangnya adalah pemrograman C++ dan kriptografi. Dia adalah salah satu kontributor Firo paling produktif yang telah mengkodekan sebagian besar perpustakaan kriptografi Lelantus Firo bersama dengan pengoptimalan untuk mendukung kumpulan anonimitas besar.
+    bio: Levon adalah insinyur perangkat lunak dengan gelar Master dalam Ilmu Komputasi dan Ekonomi dari American University of Armenia. Latar belakangnya adalah pemrograman C++ dan kriptografi. Ia adalah salah satu kontributor paling produktif di Firo yang telah mengoding sebagian besar pustaka kriptografi Lelantus Firo bersama dengan optimalisasi untuk mendukung set anonimitas yang besar.
   sproxet:
     name: Sproxet
     title: Pengembang
-    bio: Sproxet adalah pengembang anonim yang telah bekerja pada perangkat lunak penjaga privasi selama 15 tahun terakhir dan telah berkontribusi secara signifikan untuk klien Electron Firo. Sproxet juga merupakan pendiri Signal Eleven, sebuah konsultan IT yang berfokus pada keamanan komputer dan audit, pengembangan perangkat lunak dan desain arsitektur sistem kriptografi.
-  gevorgmirzoyan:
-    name: Gevorg Mirzoyan
-    title: Pengembang
-    bio: Gevorg adalah seorang insinyur perangkat lunak yang lulus dari Fakultas Matematika dan Informatika Terapan, Universitas Rusia-Armenia (Slavon). Tumpukan teknologinya termasuk C++, Unity dan Linux. Dia memiliki hasrat untuk pemrograman, mendaki, dan game.
-  lc:
-    name: LC
-    title: Pengembang
-    bio: LC adalah pengembang anonim yang tertarik pada lintas-bagian antara pemerintah, politik, kekuasaan negara, dan teknologi. Menggambar dari filsuf seperti Foucault, Fisher, Ellul, Ranciere, dia tertarik pada kebebasan individu manusia, jadi dia secara alami tertarik pada anarki kripto. Dia berfokus pada keamanan komputer, filosofi, dan pengembangan perangkat lunak Python. Dia mengikuti cypherpunk Bitstream Podcast oleh Frank Braun & Jonathan 'penyelundup' Logan. 
-  levonh:
-    name: Levon Hovhannisyan
-    title: Pengembang
-    bio: Levon Hovhannisyan memiliki lebih dari 6 tahun pengalaman profesional, khususnya dalam C++, algoritma dan struktur data. Tumpukan teknologinya termasuk tidak terbatas pada standar C++ terbaru, Python, Lua, Windows/Linux. Selama karir profesionalnya, Levon juga memiliki pengalaman dalam game dan pengembangan backend. Dia lulus dari Universitas Rusia-Armenia (Slavon) dan selama belajar Levon terlibat dalam kontes pemrograman kompetitif, termasuk ACM ICPC, dan pengetahuan yang diperoleh telah membantunya menjadi dosen profesional dan pencipta kursus pembelajaran. Dia juga bersemangat mempelajari teknologi baru dan praktik pengembangan perangkat lunak, pemecahan masalah, dan video game.
+    bio: Sproxet adalah pengembang anonim yang telah mengerjakan perangkat lunak penjaga privasi selama 15 tahun terakhir dan telah berkontribusi secara signifikan pada klien Electron Firo. Sproxet juga merupakan pendiri Signal Eleven, sebuah konsultan IT yang berfokus pada keamanan dan audit komputer, pengembangan perangkat lunak, dan desain arsitektur sistem kriptografi.
   zorayrzakaryan:
     name: Zorayr Zakaryan
-    title: Manajer Proyek Ponsel
-    bio: Zorayr adalah pengembang backend perangkat lunak dengan pengalaman lebih dari 14 tahun. Spesialisasi dalam mengelola tim teknik dan menetapkan proses pengembangan yang tepat. Menyukai apa pun yang terkait dengan algoritma, aset kripto, dan video game.
+    title: Manajer Proyek Seluler
+    bio: Zorayr adalah pengembang backend perangkat lunak dengan pengalaman lebih dari 14 tahun. Berspesialisasi dalam mengelola tim teknik dan menetapkan proses pengembangan yang tepat. Menyukai segala hal yang berkaitan dengan algoritma, mata uang kripto, dan video game.
   hakobkanoyan:
     name: Hakob Kanoyan
-    title: Pengembang Ponsel
-    bio: Hakob memiliki pengalaman lebih dari 10 tahun sebagai pengembang seluler, backend, dan game. Dia memiliki latar belakang matematika yang kuat termasuk kriptografi. Hakob memimpin pengembangan teknis dompet seluler Firo.
+    title: Pengembang Seluler
+    bio: Hakob memiliki pengalaman lebih dari 10 tahun sebagai pengembang seluler, backend, dan game. Ia memiliki latar belakang matematika yang kuat termasuk kriptografi. Hakob memimpin pengembangan teknis dompet seluler Firo.
   haykzakaryan:
     name: Hayk Zakaryan
-    title: Pengembang Ponsel
-    bio: Dengan 11+ tahun pengalaman dalam rekayasa perangkat lunak, termasuk 7+ tahun pengembangan seluler asli dan lintas platform, Hayk bergabung dengan tim Firo sebagai insinyur seluler paruh waktu.
+    title: Pengembang Seluler
+    bio: Dengan pengalaman lebih dari 11 tahun dalam rekayasa perangkat lunak, termasuk lebih dari 7 tahun pengembangan seluler asli dan lintas platform, Hayk bergabung dengan tim Firo sebagai insinyur seluler paruh waktu.
   arminezakaryan:
     name: Armine Zakaryan
     title: Desainer UI/UX
-    bio: Seorang desainer UX / UI dengan pengalaman 5+ tahun. Dia adalah desainer otodidak yang penuh dengan antusiasme dan motivasi untuk menciptakan pengalaman yang inovatif, ramah pengguna, dan antarmuka pengguna yang kreatif. Saat ini sebagian besar mengerjakan desain produk B2B SAAS.
+    bio: Seorang desainer UX / UI dengan pengalaman lebih dari 5 tahun. Ia adalah desainer otodidak yang penuh antusiasme dan motivasi untuk menciptakan pengalaman yang inovatif dan ramah pengguna serta antarmuka pengguna yang kreatif. Saat ini ia banyak mengerjakan desain produk B2B SAAS.
   anwarp:
     name: Anwar P.
-    title: Senior Support
-    bio: Anwar mengambil jurusan teknik listrik dan elektronik, dengan beberapa tahun pengalaman teknisi support di sebuah perusahaan IT. Dia menangani query support, dokumentasi, developer support dan juga membantu Pengurus Proyek dengan masalah sehari-hari.
+    title: Dukungan Senior
+    bio: Anwar mengambil jurusan teknik elektro dan elektronika, dengan pengalaman beberapa tahun dalam dukungan teknis di sebuah perusahaan IT. Ia menangani kueri dukungan, dokumentasi, dukungan pengembang, dan juga membantu Project Steward dalam urusan sehari-hari.
   ajaydono:
     name: Ajaydono
-    title: Support
-    bio: Ajay membantu Pengurus Proyek dalam operasi sehari-hari serta query support. Dia memiliki Diploma Teknologi Informasi jurusan Administrasi Database dan memiliki beberapa tahun pengalaman dukungan teknis TI.
+    title: Dukungan
+    bio: Ajay membantu Project Steward dalam operasional sehari-hari serta pertanyaan dukungan. Ia memiliki Diploma Teknologi Informasi dengan jurusan Administrasi Database dan memiliki pengalaman beberapa tahun dalam dukungan teknis IT.
   lucasfullam:
     name: Lucas Fullam
     title: Manajer Komunitas
-    bio: Lucas Fullam memiliki riwayat pekerjaan yang berfokus pada pelanggan di masa lalu mulai dari perwakilan layanan pelanggan hingga pengaturan acara di tempat dan konferensi. Dia pertama kali mendengar tentang aset kripto pada tahun 2012, tetapi tidak benar-benar mempelajarinya hingga tahun 2017 ketika salah satu temannya membawanya lebih dalam ke dunia kripto di mana dia akhirnya melihat seberapa besar potensi yang ada. Satu hal mengarah ke hal lain dan akhirnya dia menemukan Firo dan sisanya adalah sejarah.
-  michaelmugglesbernhardt:
-    name: Michael 'Muggles' Bernhardt
-    title: Manajer Komunitas
-    bio: Seorang programmer dengan perdagangan, ia menjalankan bisnisnya sendiri untuk mengelola proyek air melalui portal online dengan instalasi di seluruh Afrika. Michael telah mempelajari kripto sejak 2013 dan memiliki hasrat yang kuat untuk privasi dan kebebasan.
+    bio: Lucas Fullam memiliki sejarah bekerja di pekerjaan yang berfokus pada pelanggan di masa lalu, mulai dari perwakilan layanan pelanggan hingga pengaturan acara di tempat pertemuan dan konferensi. Ia pertama kali mendengar tentang mata uang kripto pada tahun 2012, tetapi tidak benar-benar mendalaminya hingga tahun 2017 ketika salah satu temannya membawanya lebih dalam ke dunia kripto di mana ia akhirnya melihat betapa besarnya potensi yang ada. Satu hal berlanjut ke hal lain dan akhirnya ia menemukan Firo, dan sisanya adalah sejarah.
   sebastianbausch:
     name: Sebastian Bausch
-    title: Asian Operations
-    bio: Sebastian Bausch adalah investor malaikat yang berbasis di Bangkok dan telah menyukai aset kripto sejak 2011. Ia belajar bahasa Mandarin di Universitas Xiamen dan meraih gelar pascasarjana dari Universitas Nottingham. Dia mendukung operasi tim di wilayah tersebut dan mengkoordinasikan penerjemahan dan pertemuan.
+    title: Operasional Asia
+    bio: Sebastian Bausch adalah investor malaikat yang berbasis di Bangkok dan telah bersemangat tentang mata uang kripto sejak 2011. Ia belajar bahasa Mandarin di Universitas Xiamen dan memegang gelar pascasarjana dari Universitas Nottingham. Ia mendukung operasional tim di kawasan tersebut dan mengoordinasikan terjemahan serta pertemuan (meet-up).
   lemarlukebriones:
     name: Lemar "Luke" Briones
     title: Manajer Komunitas Filipina
-    bio: Lulusan Teknologi Informasi dari Filipina, Lemar telah menjadi penggemar aset kripto sejak 2017 dan berdedikasi untuk menyebarkan kesadaran tentang Firo di seluruh Filipina.
+    bio: Lulusan Teknologi Informasi dari Filipina, Lemar telah menjadi penggemar mata uang kripto sejak 2017 dan berdedikasi untuk menyebarkan kesadaran tentang Firo di seluruh Filipina.
   aramjivanyan:
     name: Aram Jivanyan
-    title: Kriptografer
-    bio: Aram adalah pencipta protokol privasi Lelantus dan Lelantus Spark Firo yang telah menghidupkan kembali minat pada satu dari banyak bukti dan mengilhami protokol privasi lainnya seperti Triptych (Monero) dan Lelantus-MW (Beam). Dia juga CEO pendiri Skycryptor, perusahaan Techstars yang mempelopori pengembangan algoritma enkripsi ulang proxy. Sebelum mendirikan Skycryptor, Aram bekerja sebagai peneliti kriptografi senior dan pemimpin tim pengembangan di American University of Armenia di mana kelompok ilmiah tersebut melakukan penelitian kriptografi untuk mitra industri Fortune 1000. Minat penelitian utama Aram termasuk kriptografi kotak putih, metode enkripsi yang dapat dicari, protokol transfer yang tidak disadari, dan sistem e-voting kriptografi.
+    title: Kepala Arsitek Privasi
+    bio: Aram telah menjadi sosok kunci dalam mengembangkan teknologi inti Firo, setelah menciptakan protokol Lelantus dan Lelantus Spark. Inovasi ilmiah ini telah memengaruhi lanskap protokol privasi secara signifikan dalam ruang mata uang kripto, menginspirasi penciptaan protokol berfokus privasi lainnya seperti Triptych (Monero), Seraphis (Monero), dan Lelantus-MW (Beam). Ia juga telah merancang sistem pemungutan suara yang menjaga privasi dengan persyaratan kepercayaan minimal seperti Aura.
   aregvrtanesyan:
     name: Areg Vrtanesyan
     title: Peneliti Kriptografi / Pengembang
-    bio: Areg adalah seorang insinyur kriptografi di Firo dan saat ini mengambil jurusan Cyber Security di YSU. Memiliki pengalaman dalam rekayasa perangkat lunak dan pemrograman back end di C++. Minatnya saat ini adalah kriptografi, keamanan informasi, dan musik.
+    bio: Areg adalah insinyur kriptografi di Firo dan saat ini sedang mengambil jurusan Keamanan Siber di YSU. Memiliki pengalaman dalam rekayasa perangkat lunak dan pemrograman back end dalam C++. Minatnya saat ini adalah kriptografi, keamanan informasi, dan musik.
   tigranmamikonyan:
     name: Tigran Mamikonyan
     title: Riset
-    bio: Tigran meraih gelar Master di bidang Informatika dan Matematika Terapan serta Ilmu Komputer dan Informasi. Dia saat ini sedang mengejar gelar PhD di bidang Informatika dan Matematika Terapan di Yerevan State University.
+    bio: Tigran memegang gelar Master dalam Informatika dan Matematika Terapan serta Ilmu Komputer dan Informasi. Saat ini ia sedang menempuh studi PhD dalam Informatika dan Matematika Terapan di Yerevan State University.
+  artur:
+    name: Artur
+    title: Pengembang
+    bio: Artur adalah insinyur perangkat lunak muda dan mahasiswa Universitas Kedokteran Negeri Yerevan, membawa perpaduan unik antara pengetahuan medis dan keterampilan teknologi. Lulus dari Picsart Academy, ia mahir dalam C/C++ dan memiliki pengalaman praktis dalam pengembangan perangkat lunak. Semangatnya terletak pada penggabungan kedokteran dan teknologi untuk menciptakan solusi yang berdampak.
+  narek:
+    name: Narek Geghamyan
+    title: Pengembang
+    bio: Narek adalah insinyur perangkat lunak yang lulus dari Fakultas Ilmu Komputer di Universitas Nasional Arsitektur dan Konstruksi Armenia. Stack teknologinya mencakup C++ dan Linux. Ia memiliki gairah dalam berenang dan koding.
+  cypherstack:
+    name: Cypher Stack
+    title: Firma Desain
+    bio: Cypher Stack adalah perusahaan pengembang blockchain, desain, riset, dan konsultasi. Saat ini mereka sedang mengembangkan Firo dengan dompet seluler dan dompet desktop ringan mereka, Campfire.
+  batuhan:
+    name: Batuhan
+    title: Manajer Komunitas Turki
+    bio: Batuhan mengelola komunitas Turki, menerjemahkan pengumuman dan pemberitahuan.
+  antibit:
+    name: Antibit
+    title: Manajer Komunitas Berbahasa Rusia
+    bio: Antibit mengelola komunitas berbahasa Rusia, menerjemahkan pengumuman dan pemberitahuan. Ia telah menjadi penggemar kripto sejak 2012, dan selama waktu tersebut telah mengakumulasi banyak pengetahuan serta pengalaman mengenai mata uang kripto dan teknologi blockchain.
+  lilking:
+    name: Lil-King
+    title: Manajer Komunitas
+    bio: Lil-King adalah advokat privasi yang berdedikasi di ruang kripto dengan pengalaman lebih dari lima tahun. Berspesialisasi dalam pemasaran dan onboarding, Lil-King telah memainkan peran krusial dalam mempromosikan proyek-proyek berfokus privasi. Bersemangat tentang privasi finansial, Lil-King berkomitmen untuk mengedukasi dan memberdayakan pengguna untuk mengendalikan aset digital mereka dengan aman.
+  navidrahimi:
+    name: Navid Rahimi
+    title: Pengembang
+    bio: Navid memiliki latar belakang yang kuat dalam infrastruktur kompiler dan optimalisasi sistem tingkat rendah. Ia memegang gelar MSc dalam Ilmu Komputer dari Simon Fraser University dan sebelumnya bekerja sebagai Insinyur Kompiler di Microsoft. Saat ini sebagai Pengembang Blockchain Inti di Firo, di mana ia mengerjakan fitur-fitur tingkat protokol termasuk Lelantus Spark, optimalisasi performa node, verifikasi konsensus, serta peningkatan pada lapisan P2P dan RPC untuk memperkuat stabilitas dan keamanan jaringan.
   
 roadmap:
-  aura: Pemungutan Suara Privasi Aura (penyelesaian makalah)
-  auradesc: Aura adalah mekanisme pemungutan suara pribadi kami untuk DAO yang terinspirasi oleh teknologi Lelantus kami yang memungkinkan pemungutan suara anonim namun dapat diverifikasi yang juga menyembunyikan kemajuan surat suara. Kami bermaksud menggunakan ini sebagai dasar untuk bergerak menuju tata pemerintahan terdesentralisasi yang diformalkan.
+  heading: Peta Jalan
+  intro1: Firo telah menempuh perjalanan panjang sejak awal berdirinya sebagai Zcoin, memelopori penggunaan zero-knowledge proofs modern dalam protokol privasi. Seiring waktu, kami terus mengiterasi teknologi kami, mengembangkan beberapa protokol privasi yang paling kuat di bidang ini — protokol yang telah memengaruhi banyak proyek lainnya.
+  intro2: Peta jalan kami yang diperbarui berfokus pada kegunaan, utilitas, dan peningkatan.
+  usability: Kegunaan
+  usabilityp: Meningkatkan pengalaman pengguna, berintegrasi dengan dompet tambahan, dan mendukung klien ringan (light clients).
+  utility: Utilitas
+  utilityp: Memperluas kasus penggunaan melalui penerbitan token pribadi dan menerapkan peningkatan privasi lebih lanjut sebagai persiapan menghadapi tantangan komputasi kuantum di masa depan.
+  upgrades: Peningkatan
+  upgradesp: Terus memperkuat fitur inti protokol untuk mempertahankan posisi Firo sebagai pemimpin dalam teknologi privasi.
+  neartermgoals: Tujuan jangka pendek
+  sparknames: Spark Names
+  sparknamesp: Memungkinkan pengguna untuk mendaftarkan alamat yang mudah dibaca manusia yang terikat dengan alamat Spark mereka. Ini juga memungkinkan penyimpanan dan berbagi metadata untuk potensi penggunaan sebagai identitas digital terdesentralisasi.
+  sparkcoinbase: Spark Coinbase
+  sparkcoinbasep: Memungkinkan penambang dan masternode untuk mengirim hadiah langsung ke alamat Spark pribadi, yang semakin meningkatkan privasi pengguna dan adopsi Spark.
+  viewkeytooling: Alat View Key
+  viewkeytoolingp: Mengembangkan metode yang ramah pengguna untuk berbagi dan menggunakan kunci tampilan (view keys) Spark, memungkinkan dompet khusus pantau (watch-only) dan pengungkapan dana berbasis Spark secara selektif untuk tujuan kepatuhan.
+  midtermgoals: Tujuan jangka menengah
+  sparkassets: Spark Assets
+  sparkassetsp: Memungkinkan pengguna untuk menerbitkan aset penjaga privasi mereka sendiri. Aset-aset ini menikmati fitur privasi yang sama dengan Spark, termasuk kemampuan untuk menyembunyikan jenis aset. Semua aset (termasuk Firo) berkontribusi pada set anonimitas bersama, dan protokol ini juga dapat mendukung NFT yang menjaga privasi.
+  sparkswap: Spark Swap
+  sparkswapp: Memungkinkan atomic swaps antara aset Spark dan/atau Firo, memastikan pertukaran yang tanpa kepercayaan dan pribadi.
+  curvetrees: Curve Trees
+  curvetreesp: Mengadopsi Curve Trees, sebuah teknik inovatif untuk bukti keanggotaan yang efisien yang mendukung set anonimitas global. Peningkatan ini akan secara substansial meningkatkan privasi, skalabilitas, kecepatan verifikasi, dan ukuran bukti.
+  longtermgoals: Tujuan jangka panjang
+  improvedinfra: Infrastruktur Dompet Ringan Penjaga Privasi yang Ditingkatkan
+  improvedinfrap: Terus meneliti cara-cara untuk mengurangi ketergantungan pada server SPV khusus, memberikan pengguna opsi dompet ringan yang lebih pribadi dan terdesentralisasi.
+  quantum: Spark Tahan-Kuantum
+  quantump: Menjelajahi jalur untuk mentransisikan Spark menjadi protokol tahan-kuantum, serta potensi mitigasi sementara untuk melindungi dari ancaman kuantum di masa depan.
+  tailemission: Mekanisme Konsensus Emisi Ekor (Tail Emission)
+  tailemissionp: Model hibrida masternode–Proof-of-Work Firo saat ini mungkin berevolusi setelah emisi ekor tercapai. Kami sedang menyelidiki mekanisme insentif atau konsensus alternatif untuk mengamankan jaringan dalam jangka panjang.
+  governance: Tata Kelola
+  governancep: Mengembangkan struktur tata kelola yang jelas dan terdesentralisasi untuk mengurangi ketergantungan pada tim inti Firo. Tujuannya adalah untuk menyelaraskan semua pemangku kepentingan proyek tanpa hanya berfokus pada kepemilikan koin.
+  integrations: Integrasi
+  enkrypt: Integrasi Dompet Enkrypt
+  enkryptp: Mengintegrasikan Firo ke dalam Enkrypt, dompet ekstensi browser Web3 multi-aset, dengan dukungan penuh untuk fitur Spark.
+  layerswap: Integrasi Layerswap v8
+  layerswapp: Memanfaatkan Layerswap v8, protokol peer-to-peer untuk menjembatani dan menukar aset kripto di berbagai blockchain yang berbeda. Dengan menggunakan pre-HTLC, ini mengatasi banyak keterbatasan atomic swap tradisional (misalnya, kedua belah pihak harus online) dan mendukung transaksi multi-hop.
+  serai: Integrasi Serai
+  seraip: Berkolaborasi dengan Serai, DEX lintas rantai yang berfokus pada likuiditas AMM untuk Bitcoin, Ethereum, DAI, dan Monero. Mengintegrasikan Firo memperluas opsi likuiditas lintas rantai dan basis penggunanya.
+  iterative: Perbaikan Berulang
+  campfire: Campfire
+  campfirep: Terus membangun dompet desktop dan seluler Campfire untuk menyediakan dukungan fitur lengkap bagi masternode, Spark Assets, dan Spark Names.
+  firodex: FiroDEX
+  firodexp: Mengerjakan ulang FiroDEX agar lebih tangguh, memastikan infrastrukturnya—baik node maupun front end—dioperasikan oleh jaringan sukarelawan dan anggota komunitas yang terdesentralisasi.
+
+roadmap-old:
+  aura: Pemungutan Suara Pribadi Aura (finalisasi makalah)
+  auradesc: Aura adalah mekanisme pemungutan suara pribadi kami untuk DAO yang terinspirasi oleh teknologi Lelantus kami yang memungkinkan pemungutan suara anonim namun dapat diverifikasi yang juga menyembunyikan progres surat suara. Kami bermaksud menggunakan ini sebagai fondasi untuk bergerak menuju tata kelola terdesentralisasi yang formal.
   avalanche: Avalanche
-  avalanchedesc: Avalanche adalah algoritma konsensus yang memungkinkan transaksi instan, keamanan yang ditingkatkan, dan peningkatan tanpa fork. Kami sedang menjajaki konsensus Avalanche sebagai pengganti potensial masternode kami.
+  avalanchedesc: Avalanche adalah algoritma konsensus yang memungkinkan transaksi instan, keamanan yang ditingkatkan, dan peningkatan tanpa fork. Kami sedang mengeksplorasi konsensus Avalanche sebagai pengganti potensial untuk masternode kami.
   development: Pengembangan
   heading: Peta Jalan
-  mnodes: Masternodes Deterministik (selesai)
-  mnodesq: Masternode Long Lived Quorums (selesai)
+  mnodes: Deterministic Masternodes (selesai)
+  mnodesq: Long Lived Masternode Quorums (selesai)
   mtpstrip: MTP Strip (selesai)
   mtpstripdesc: MTP stripping mengurangi ukuran blockchain Firo dari 60GB menjadi 4GB dengan menghapus bukti MTP dari blok lama.
-  rebrand: Pengubahan Merek (selesai)
+  rebrand: Rebrand (selesai)
   lelantus: Aktivasi Lelantus (selesai)
-  lelantusdesc: Lelantus adalah protokol privasi generasi berikutnya yang menawarkan tingkat privasi praktis tertinggi tanpa trusted setup dan hanya mengandalkan asumsi kriptografi yang solid. Lelantus mendukung kumpulan anonimitas yang beberapa kali lebih besar daripada sistem privasi lain yang tidak memiliki trusted setup.
+  lelantusdesc: Lelantus adalah protokol privasi generasi berikutnya kami yang menawarkan tingkat privasi praktis tertinggi tanpa penyiapan terpercaya dan hanya mengandalkan asumsi kriptografi yang kuat. Lelantus mendukung set anonimitas yang beberapa kali lipat lebih besar daripada sistem privasi lain yang tidak memiliki penyiapan terpercaya.
   chainlocks: Chainlocks (selesai)
   chainlocksdesc: Chainlocks memanfaatkan jaringan masternode Firo untuk melindungi dari serangan 51%. Transaksi mencapai finalitas segera setelah 1 blok dikonfirmasi.
-  rap: Address RAP (selesai)
-  rapdesc: Address RAP mengizinkan alamat yang dapat dibagikan secara publik yang tidak mengizinkan pihak ketiga untuk melihat berapa banyak atau kapan telah menerima dana.
-  instant: Instant send (selesai)
-  instantdesc: Instant send menggunakan jaringan masternode Firo untuk memungkinkan transaksi dikonfirmasi dalam beberapa detik yang memungkinkan penggunaan praktis sebagai media pertukaran.
+  rap: Alamat RAP (selesai)
+  rapdesc: Alamat RAP memungkinkan alamat yang dapat dibagikan secara publik tanpa membiarkan pihak ketiga melihat berapa banyak atau kapan alamat tersebut menerima dana.
+  instant: Instant Send (selesai)
+  instantdesc: Instant Send memanfaatkan jaringan masternode Firo untuk memungkinkan transaksi dikonfirmasi dalam beberapa detik, memungkinkan penggunaan praktis sebagai media pertukaran.
   elysium: Elysium (di Testnet)
-  elysiumdesc: Elysium memungkinkan token (misalnya stablecoin, koin yang didukung aset) akan dikeluarkan di jaringan Firo yang akan mendapat manfaat dari teknologi privasi Firo.
+  elysiumdesc: Elysium memungkinkan token (misalnya stablecoin, koin berbasis aset) diterbitkan di jaringan Firo yang akan mendapat manfaat dari teknologi privasi Firo.
   elysiumv2: Elysium v2
-  elysiumv2desc: Elysium v2 memperluas kemampuan Elysium dengan kemampuan menjembatani jaringan dan integrasi DeFi yang lebih mudah. Elysium v2 juga akan mengimplementasikan Spats yang akan menyembunyikan jenis aset yang sedang ditransfer.
+  elysiumv2desc: Elysium v2 memperluas kemampuan Elysium dengan penjembatanan yang lebih mudah dan kemampuan DeFi. Elysium v2 juga akan menerapkan Spats yang akan menyembunyikan jenis aset yang ditransfer.
   lelantusspark: Lelantus Spark (selesai)
-  lelantussparkdesc: Lelantus Spark memungkinkan pembayaran anonim langsung yang memungkinkan pengguna untuk bertransaksi satu sama lain tanpa mengungkapkan jumlah, sumber, dan penerima. Spark memperkenalkan alamat Spark yang memungkinkan pengguna untuk menyembunyikan dana mereka sepenuhnya bersama dengan kunci tampilan penuh dan dukungan multisig.
-  mobile: Dompet Ponsel (selesai)
-  mobiledesc: Dompet seluler asli, pribadi secara default yang akan memiliki dukungan transaksi Lelantus penuh.
+  lelantussparkdesc: Lelantus Spark memungkinkan pembayaran anonim langsung yang memungkinkan pengguna bertransaksi satu sama lain tanpa mengungkapkan jumlah, sumber, dan penerima. Spark memperkenalkan alamat Spark yang akan memungkinkan pengguna menjaga dana mereka tetap tersembunyi sepenuhnya beserta dukungan view key penuh dan multisig ambang batas (threshold multisig).
+  mobile: Dompet Seluler (selesai)
+  mobiledesc: Dompet seluler asli yang pribadi secara default dan akan memiliki dukungan transaksi Lelantus penuh.
   firopow: FiroPoW (selesai)
-  firopowdesc: FiroPoW adalah varian ProgPOW yang didesain untuk GPU dan memiliki ketahanan ASIC yang kuat.
+  firopowdesc: FiroPoW adalah varian ProgPOW yang dirancang untuk GPU dan memiliki resistensi ASIC yang kuat.
   research: Riset
-  lelantussparkaddress: Lelantus Spark sub-adress dan bukti pembayaran (selesai)
-  lelantussparkaddressdesc: Lelantus Spark akan mendukung sub-address yang memungkinkan pemindaian dan bukti pembayaran yang lebih efisien yang memungkinkan pengguna membuktikan bahwa mereka telah melakukan pembayaran.
+  lelantussparkaddress: Sub-addressing dan bukti pembayaran Lelantus Spark (selesai)
+  lelantussparkaddressdesc: Lelantus Spark akan mendukung sub-alamat yang memungkinkan pemindaian lebih efisien dan bukti pembayaran yang memungkinkan pengguna membuktikan bahwa mereka telah melakukan pembayaran.
   firodex: FiroDEX (selesai)
-  firodexdesc: FiroDEX memungkinkan pengguna untuk bertukar ke dan dari Firo menggunakan infrastruktur terdesentralisasi menggunakan teknologi pertukaran atom.
-  bridges: Jembatan cross-chain
-  bridgesdesc: Jembatan cross chain akan memungkinkan token dari ekosistem lain untuk menjembatani masuk dan keluar dari lapisan token Elysium Firo untuk memanfaatkan infrastruktur privasi kami.
+  firodexdesc: FiroDEX memungkinkan pengguna untuk menukar ke dan dari Firo menggunakan infrastruktur terdesentralisasi dengan teknologi atomic swap.
+  bridges: Jembatan lintas rantai (Cross-chain bridges)
+  bridgesdesc: Jembatan lintas rantai akan memungkinkan token dari ekosistem lain untuk masuk dan keluar dari lapisan token Elysium Firo guna memanfaatkan infrastruktur privasi kami.
   mixnets: Mixnets
-  mixnetsdesc: Tunneling transaksi dan komunikasi node ke dalam mixnet menawarkan peningkatan perlindungan metadata bahkan terhadap musuh tingkat negara bagian. Kami sedang menyelidiki mixnet Meson yang dibangun di perpustakaan perangkat lunak Katzenpost.
-  spats: Aset Spark (selesai)
-  spatsdesc: Aset Spark memperluas fungsionalitas Spark untuk menyembunyikan jenis aset yang sedang ditransfer. Spats rencananya akan diimplementasikan di Elysium v2.
-  syncclients: Sinkronisasi Klien Cepat
-  syncclientsdesc: Sinkronisasi Klien Cepat memungkinkan pengguna untuk menyinkronkan dompet mereka dengan cepat tanpa perlu mengunduh seluruh blockchain sambil mendukung transaksi Lelantus.
-  learnmore: Pelajari Lebih Lanjut
+  mixnetsdesc: Penyaluran (tunnelling) transaksi dan komunikasi node ke dalam mixnets menawarkan peningkatan perlindungan metadata bahkan terhadap lawan tingkat negara. Kami sedang menyelidiki mixnet Meson yang dibangun di atas pustaka perangkat lunak Katzenpost.
+  spats: Spark Assets (selesai)
+  spatsdesc: Spark Assets memperluas fungsionalitas Spark untuk menyembunyikan jenis aset yang ditransfer. Spats direncanakan untuk diimplementasikan di Elysium v2.
+  syncclients: Klien sinkronisasi cepat
+  syncclientsdesc: Klien sinkronisasi cepat memungkinkan pengguna menyinkronkan dompet mereka dengan cepat tanpa perlu mengunduh seluruh blockchain sambil tetap mendukung transaksi Lelantus.
+  learnmore: Pelajari lebih lanjut
   
 merchants:
   heading: Para Pedagang
-  predisclaimer: Disclaimer&colon;&#x20;
-  disclaimer: Beberapa tautan ini berisi tautan rujukan di mana kami dapat menerima kompensasi ketika Anda mendaftar atau menggunakan produk/layanan mereka. Ini bukan merupakan dukungan dari produk/layanan.
-  introduction: Anda Ingin menghabiskan Firo Anda? Berikut adalah beberapa tempat yang dapat Anda kunjungi! Ini adalah daftar tempat yang menerima Firo! Jika Anda memiliki bisnis yang ingin ditampilkan di sini, beri tahu kami!
+  predisclaimer: Penafian&colon;&#x20;
+  disclaimer: Beberapa tautan ini mengandung tautan rujukan di mana kami mungkin menerima kompensasi saat Anda mendaftar atau menggunakan produk/layanan mereka. Ini bukan merupakan bentuk dukungan terhadap produk/layanan tersebut.
+  introduction: Ingin membelanjakan Firo Anda? Berikut adalah beberapa tempat di mana Anda bisa melakukannya! Ini adalah daftar tidak lengkap dari tempat-tempat yang menerima Firo! Jika Anda memiliki bisnis yang ingin ditampilkan di sini, beri tahu kami!
   button1: Pakaian
-  button2: Biro Jodoh
+  button2: Kencan
   button3: Donasi
-  button4: Pekerja Lepas
-  button5: Permainan
+  button4: Paruh Waktu
+  button5: Gaming
   button6: Produk Kesehatan
   button7: Hosting
   button8: Layanan Hukum
-  button9: Pasar Online
+  button9: Pusat Pasar Daring
   button10: Pinjaman P2P
   button11: Solusi Pembayaran
   button12: Perangkat Lunak
-  button13: Bepergian
+  button13: Wisata
   button14: VPN
-
-  social:
+  nothing: Belum ada apa-apa di sini. Apakah Anda tahu Para Pedagang yang menerima Firo? Beri tahu kami!
+  
+social:
   community: Komunitas
   findus: Anda juga dapat menemukan kami di sini
+  
