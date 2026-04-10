@@ -12,9 +12,9 @@ We're excited to welcome [MeowPool](https://meowpool.net/) to the Firo ecosystem
  
 MeowPool launched in early 2026 with a clear mission: to help decentralize hashrate and support projects worth believing in.
  
-The founder isn't a stranger to mining. Back in 2020–2022, he was an active miner himself and he kept running into the same frustration: hashrate was perpetually consolidating into a handful of large pools. That centralization is bad for networks, bad for decentralization, and ultimately bad for the projects that depend on a healthy, distributed mining ecosystem.
+The founder isn't a stranger to mining. Back in 2020–2022, she was an active miner himself and she kept running into the same frustration: hashrate was perpetually consolidating into a handful of large pools. That centralization is bad for networks, bad for decentralization, and ultimately bad for the projects that depend on a healthy, distributed mining ecosystem.
  
-So he built his own pool. MeowPool is a passion project at heart — designed to support projects he genuinely believes in and to give miners a meaningful alternative to the giants.
+So she built his own pool. MeowPool is a passion project at heart — designed to support projects she genuinely believes in and to give miners a meaningful alternative to the giants.
  
 Firo is a natural fit.
 
