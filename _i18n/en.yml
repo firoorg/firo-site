@@ -58,15 +58,32 @@ footer:
   
 home:
   heading: Sparking <br class="brmob">a privacy revolution
-  heading2: Firo is a privacy preserving cryptocurrency <br>and ecosystem.
+  heading2: Private money, for everyone. <br>No surveillance. No trails. No compromises.
+  happening: What is happening now.
+  case: Used in the real world. Right now.
+  case1: In 2018, the Thai Democrat Party used Firo to run its primary election, the first time a major political party conducted a large-scale vote on a public blockchain. Over 127,000 people voted with full privacy and a verifiable result.
+  case2: In Syria, community members are not waiting for a better system to arrive. They are building one. A local Firo education office is already being established to give people a practical way to hold and transfer value privately, outside of a banking system that rations their own money back to them. This is what Firo adoption looks like on the ground.
+  case3: At the 2025 Monero Conference in Prague, privacy researchers and developers from competing projects singled out Firo as one of the few projects with genuine technical integrity. That kind of recognition across community lines is not given lightly.
   cta1: Get Firo
   cta2: Learn more
-  about: How Firo works
-  aboutp: Firo stands out by leading the charge in privacy and protocol innovation. Our pioneering research focuses on how privacy should work in digital finance.
+  about: Your money, Your Business
+  aboutp: Firo lets you send and receive money privately. No one can see your balance, your history, or who you are paying. Not corporations. Not governments. Not anyone.
+  problem: Money is already a surveillance tool.
+  problem1: Most digital currencies record your entire financial history permanently. Your balance, your habits, every person you ever paid. Anyone with the right tools can see it all. That is not a bug: it is by design.
+  problem2: Your bank knows more about your life than most people do. Every purchase is logged and sold. You were never asked for permission. As cash disappears, so does the last form of truly private spending.
+  problem3: This is not theoretical. In Syria, weekly bank withdrawals are capped at around $38. A community member is already building a physical office to teach people how to use Firo as a practical alternative.
+  problem4: Privacy is not about hiding. It is about consent: the right to choose who sees what you spend. That right used to come with cash. Firo brings it back.
   privacy: Privacy
   privacy1: Firo developed Lelantus Spark that provides trustless, on-chain privacy with high anonymity sets. Dandelion++ technology provides network-layer privacy.
   privacy2: anonymity set
   privacy3: trustless setup
+  apart: The privacy technology others build on.
+  apart1: Most privacy projects adopt existing technology and rebrand it. Firo builds from scratch. The privacy systems we have designed have been adopted by other major projects in the space. When the industry needed a better model, they looked at what Firo built.
+  apart2: We have been doing this since 2016. Our work has been independently audited, peer-reviewed, and published. We are not new to this.
+  pointproof1: 9 years of continuous development.
+  pointproof2: Original Research. Not forks, not copies.
+  pointproof3: Independently audited by third-party security firms.
+  pointproof4: Referenced and adopted by other major privacy projects.
   blockchain: Blockchain
   blockchain1: Our hybrid PoW and LLMQ Chainlocks system defends against 51% attacks while ensuring near-instant finality of blocks and transactions, making Firo an ideal choice for secure and efficient payments.
   blockchain2: total supply + tail emission
@@ -76,6 +93,14 @@ home:
   privacyin1: With Spark Assets, Firo extends privacy beyond just transactions to the assets themselves. This feature conceals the type of asset being transferred, making it perfect for creating privacy-focused tokens that can be used in secure, anonymous applications like voting or private tokenized assets.
   randd: Research and Development
   randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies such as Zerocoin, Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
+  sparkassets: Privacy for every asset, not just Firo
+  sparkassets1: Firo's privacy doesn't stop at its own currency. Spark Assets lets any token inherit the same protections: stablecoins, loyalty points, voting credentials, NFTs. Once inside Firo's network, assets become indistinguishable from one another. Private infrastructure for anything that moves value.
+  solution: Privacy that does not ask you to trust anyone
+  solution1: When you send Firo, the amount, sender, and recipient are all hidden. Not blurred, not optional: hidden. No setup required. Privacy is how it works.
+  solution2: Most transactions can be traced back to the device that sent them. Firo is designed so even your internet connection reveals nothing. Anonymous from the start.
+  solution3: Firo transactions confirm in seconds and can not be reversed or tampered with. Thousands of independent nodes keep the network honest. No central party to pressure, hack, or shut down.
+  community: Community-funded. Community-governed.
+  community1: Firo's development is funded through a decentralized Community Fund: not a corporate treasury, not venture capital. Anyone can propose ideas, and the community votes on what gets built. This is not governance theater. It is how Firo actually works.
   getfiro: Get Firo
   getfiro1: Buy, mine, or earn Firo, and join the privacy revolution. <br>Store your Firo in one of our feature-filled wallets, optimized for power, accessibility, and user experience.
   getfiro2: Get a wallet
