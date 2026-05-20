@@ -30,6 +30,7 @@ SmoozyPool is a multi-chain pool supporting GPU, CPU, and ASIC mining across a r
 Getting started takes three steps: choose Firo as your coin, generate your mining command using SmoozyPool's built-in config generator, and run your miner.
 
 **PPLNS port:** `4031`
+
 **SOLO port:** `4034`
 
 SmoozyPool's site includes a mining command generator - enter your wallet address and worker name and it outputs a ready-to-run command for your preferred miner. No manual config editing required.
