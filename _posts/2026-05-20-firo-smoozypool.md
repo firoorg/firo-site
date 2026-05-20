@@ -6,8 +6,7 @@ tags: [community, mining]
 author: "Augustus Jong"
 img: "/blog/assets/firo-smoozypool/banner.png"
 ---
-
-The FiroFam has a new place to point their GPUs. [SmoozyPool](https://www.smoozypool.es/) is a new mining pool that has added support for Firo, and it comes with a clear philosophy behind it: support privacy-focused, community-driven coins with real technology behind them.
+[SmoozyPool](https://www.smoozypool.es/) is a new mining pool that has added support for Firo, and it comes with a clear philosophy behind it: support privacy-focused, community-driven coins with real technology behind them.
 
 In the founder's own words: "The original idea behind SmoozyPool was to support privacy-focused and community-driven coins, not just add random mining coins. Firo fits that direction well because it has a strong privacy mission, real technology behind it, and an active long-term community."
 
