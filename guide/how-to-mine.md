@@ -57,6 +57,8 @@ Currently Cedric-Crispin is the only pool with [Spark Address payout support](ht
 	* stratum+tcp://pooly.ca:3094
 * [Meowpool](https://meowpool.net/)
 	* stratum+tcp://meowpool.net:7278 (PPLNS)
+* [SmoozyPool](https://www.smoozypool.es/)
+	* stratum+tcp://(Firo-Address).(Name)@smoozypool.es:4031 (PPLNS)
 
 * For detailed stratum information, please visit the pool's own site.
 
