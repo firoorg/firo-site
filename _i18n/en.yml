@@ -68,11 +68,22 @@ home:
   cta2: Learn more
   about: "Your money shouldn't be a tracking device"
   aboutp: "Firo lets you send and receive money privately. Your balance, your history, who you're paying: hidden by default, visible only to those you choose"
+  pillar1: "Placeholder"
+  pillar1text: "Placeholder text for pillar 1"
+  pillar1link: "Placeholder"
+  pillar2: "Placeholder"
+  pillar2text: "Placeholder text for pillar 2"
+  pillar2link: "Placeholder"  
+  pillar3: "Placeholder"
+  pillar3text: "Placeholder text for pillar 3"
+  pillar3link: "Placeholder"
+  quote2: "Placeholder"
+  quote2a: "Placeholder"
   problem_heading: Money is already a surveillance tool.
-  problem1: Most digital currencies record your entire financial history permanently. Your balance, your habits, every person you ever paid. Anyone with the right tools can see it all. That is not a bug: it is by design.
+  problem1: "Most digital currencies record your entire financial history permanently. Your balance, your habits, every person you ever paid. Anyone with the right tools can see it all. That is not a bug: it is by design."
   problem2: Your bank knows more about your life than most people do. Every purchase is logged and sold. You were never asked for permission. As cash disappears, so does the last form of truly private spending.
   problem3: This is not theoretical. In Syria, weekly bank withdrawals are capped at around $38. A community member is already building a physical office to teach people how to use Firo as a practical alternative.
-  problem4: Privacy is not about hiding. It is about consent: the right to choose who sees what you spend. That right used to come with cash. Firo brings it back.
+  problem4: "Privacy is not about hiding. It is about consent: the right to choose who sees what you spend. That right used to come with cash. Firo brings it back."
   privacy: Privacy
   privacy1: Firo developed Lelantus Spark that provides trustless, on-chain privacy with high anonymity sets. Dandelion++ technology provides network-layer privacy.
   privacy2: anonymity set
@@ -94,13 +105,13 @@ home:
   randd: Research and Development
   randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies such as Zerocoin, Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
   sparkassets: Privacy for every asset, not just Firo
-  sparkassets1: Firo's privacy doesn't stop at its own currency. Spark Assets lets any token inherit the same protections: stablecoins, loyalty points, voting credentials, NFTs. Once inside Firo's network, assets become indistinguishable from one another. Private infrastructure for anything that moves value.
+  sparkassets1: "Firo's privacy doesn't stop at its own currency. Spark Assets lets any token inherit the same protections: stablecoins, loyalty points, voting credentials, NFTs. Once inside Firo's network, assets become indistinguishable from one another. Private infrastructure for anything that moves value."
   solution: Privacy that does not ask you to trust anyone
-  solution1: When you send Firo, the amount, sender, and recipient are all hidden. Not blurred, not optional: hidden. No setup required. Privacy is how it works.
+  solution1: "When you send Firo, the amount, sender, and recipient are all hidden. Not blurred, not optional: hidden. No setup required. Privacy is how it works."
   solution2: Most transactions can be traced back to the device that sent them. Firo is designed so even your internet connection reveals nothing. Anonymous from the start.
   solution3: Firo transactions confirm in seconds and can not be reversed or tampered with. Thousands of independent nodes keep the network honest. No central party to pressure, hack, or shut down.
   community: Community-funded. Community-governed.
-  community1: Firo's development is funded through a decentralized Community Fund: not a corporate treasury, not venture capital. Anyone can propose ideas, and the community votes on what gets built. This is not governance theater. It is how Firo actually works.
+  community1: "Firo's development is funded through a decentralized Community Fund: not a corporate treasury, not venture capital. Anyone can propose ideas, and the community votes on what gets built. This is not governance theater. It is how Firo actually works."
   getfiro: Get Firo
   getfiro1: Buy, mine, or earn Firo, and join the privacy revolution. <br>Store your Firo in one of our feature-filled wallets, optimized for power, accessibility, and user experience.
   getfiro2: Get a wallet
