@@ -4762,3 +4762,125 @@ footer .social-icons a img {
 }
 
 }
+
+#pillars {
+    position: relative;
+    background-color: #fff3f3;
+}
+ 
+#pillars .btns {
+    margin-top: 4rem;
+    padding: 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+ 
+#pillars .btns .col {
+    position: relative;
+    -ms-flex-preferred-size: 31%;        /* getfiro is 48% for 2x2; 31% gives 3-up */
+    flex-basis: 31%;
+    max-width: 31%;
+    padding: 3rem;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 30px;
+    /* frosted-glass card, same recipe as live getfiro */
+    background: rgba(255, 255, 255, 0.36);
+    -webkit-backdrop-filter: blur(9.6px);
+    backdrop-filter: blur(3px);
+    -webkit-box-shadow: 0px 30px 30px 0px rgba(68, 87, 136, 0.10);
+    -moz-box-shadow: 0px 30px 30px 0px rgba(68, 87, 136, 0.10);
+    box-shadow: 0px 30px 30px 0px rgba(68, 87, 136, 0.10);
+    /* column layout so the link sits at the bottom on uneven lists */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+ 
+#pillars .btns .col h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: left;
+    color: #3d3939;
+    margin: 0 0 2rem;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+ 
+#pillars .btns .col ul {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+ 
+#pillars .btns .col ul li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: .75rem;
+    font-size: 1.125rem;          /* matches getfiro p */
+    line-height: 1.4;
+    color: #83868c;               /* matches getfiro body gray */
+}
+ 
+#pillars .btns .col ul li:before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #9b1c2e;               /* brand red bullets */
+}
+ 
+#pillars .btns .col p {
+    margin: 0;
+}
+ 
+#pillars .btns .col p a {
+    color: #b61936;               /* same link red as getfiro */
+    font-weight: 700;
+    text-decoration: none;
+}
+ 
+#pillars .btns .col p a span {
+    vertical-align: middle;
+}
+ 
+/* ---- responsive: follows the getfiro breakpoint ladder ---- */
+@media only screen and (max-width: 62rem) {
+    #pillars .btns .col {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    #pillars .btns .col h3 { font-size: 1.8rem; }
+}
+ 
+@media only screen and (max-width: 35rem) {
+    #pillars .btns .col { padding: 2.5rem; }
+}
+ 
+@media only screen and (max-width: 30rem) {
+    #pillars .btns .col {
+        padding: 2.5rem;
+        box-shadow: 0px 5px 10px 0px rgba(68, 87, 136, 0.10);
+        -webkit-box-shadow: 0px 5px 10px 0px rgba(68, 87, 136, 0.10);
+        -moz-box-shadow: 0px 5px 10px 0px rgba(68, 87, 136, 0.10);
+    }
+    #pillars .btns .col h3 { font-size: 1.75rem; }
+}
