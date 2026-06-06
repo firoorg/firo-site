@@ -128,6 +128,7 @@ home:
   getfiro5: Start mining
   getfiro5text: FiroPoW, Firo mining algorithm, is designed to be mined by GPUs. Follow our guide to start mining your first Firo.
   getfiro5link: Read the mining guide
+  getcampfirelink: Download it now
   
 download:
   heading: Download a wallet
