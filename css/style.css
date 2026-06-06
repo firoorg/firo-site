@@ -1370,13 +1370,35 @@ a.btn-primary, a.btn-secondary {
 
 /*GET CAMPFIRE banner*/
  
+#campfire {
+    /* extra vertical room so the taller phone overhang doesn't
+       collide with the sections above/below */
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+ 
 #campfire .campfire-box {
     position: relative;            /* anchor for the phone */
-    background-color: #ececec;
+    /* --- frosted glass with a hint of red --- */
+    background: -webkit-gradient(linear, left top, right bottom,
+                from(rgba(186, 42, 69, 0.14)), to(rgba(155, 28, 46, 0.06)));
+    background: -webkit-linear-gradient(top left,
+                rgba(186, 42, 69, 0.14), rgba(155, 28, 46, 0.06));
+    background: linear-gradient(135deg,
+                rgba(186, 42, 69, 0.14), rgba(155, 28, 46, 0.06));
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.50);   /* glassy edge highlight */
     border-radius: 24px;
-    min-height: 20rem;
-    padding: 4rem 3rem;
-    overflow: visible;             /* THIS is what lets the phone escape the box */
+    -webkit-box-shadow: 0 30px 40px 0 rgba(155, 28, 46, 0.15);
+    -moz-box-shadow: 0 30px 40px 0 rgba(155, 28, 46, 0.15);
+    box-shadow: 0 30px 40px 0 rgba(155, 28, 46, 0.15);
+ 
+    /* --- box made shorter so the phone pops more --- */
+    min-height: 16rem;             /* was 20rem */
+    padding: 3rem 3rem;            /* was 4rem 3rem */
+ 
+    overflow: visible;             /* lets the phone escape the box */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1409,21 +1431,58 @@ a.btn-primary, a.btn-secondary {
     position: absolute;
     right: 6%;
     top: 50%;
-    height: 30rem;                 /* taller than the box -> spills out top & bottom */
+    height: 30rem;                 /* now pokes ~7rem past a 16rem box, top & bottom */
     width: auto;
-    /* The tilt. IF your PNG is already exported at an angle, change the
-       rotate to 0deg so it isn't tilted twice (see notes). */
+    /* The tilt. IF your PNG is already exported at an angle, set this
+       rotate to 0deg so it isn't tilted twice. */
     -webkit-transform: translateY(-50%) rotate(0deg);
     -ms-transform: translateY(-50%) rotate(0deg);
     transform: translateY(-50%) rotate(0deg);
  
-    /* Shadow: ONLY use this if your PNG does NOT already include one.
-       drop-shadow (not box-shadow) hugs the phone's shape instead of a
-       rectangle, which is what you want for a transparent PNG. */
+    /* Shadow: ONLY if your PNG does NOT already include one. drop-shadow
+       hugs the phone silhouette (a box-shadow would shadow a rectangle). */
     /*
-    -webkit-filter: drop-shadow(0 30px 35px rgba(0, 0, 0, 0.30));
-    filter: drop-shadow(0 30px 35px rgba(0, 0, 0, 0.30));
+    -webkit-filter: drop-shadow(0 30px 35px rgba(17, 2, 2, 0.30));
+    filter: drop-shadow(0 30px 35px rgba(17, 2, 2, 0.30));
     */
+}
+ 
+/* ---- responsive ---- */
+@media only screen and (max-width: 62rem) {
+    #campfire .campfire-content h2 { font-size: 2.75rem; }
+    #campfire .campfire-phone { height: 27rem; right: 2%; }
+}
+ 
+/* stack neatly on small screens: no tilt, no overflow, phone upright at bottom */
+@media only screen and (max-width: 48rem) {
+    #campfire { padding-top: 4rem; padding-bottom: 4rem; }
+    #campfire .campfire-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1.5rem 0;     /* phone sits flush at the bottom */
+    }
+    #campfire .campfire-content {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    #campfire .campfire-phone {
+        position: static;
+        height: 22rem;
+        margin: 2rem auto 0;
+        display: block;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+}
+ 
+@media only screen and (max-width: 30rem) {
+    #campfire .campfire-content h2 { font-size: 2.25rem; }
+    #campfire .campfire-phone { height: 18rem; }
 }
 
 /*download wallet*/
