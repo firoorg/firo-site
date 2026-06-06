@@ -1413,9 +1413,9 @@ a.btn-primary, a.btn-secondary {
     width: auto;
     /* The tilt. IF your PNG is already exported at an angle, change the
        rotate to 0deg so it isn't tilted twice (see notes). */
-    -webkit-transform: translateY(-50%) rotate(-12deg);
-    -ms-transform: translateY(-50%) rotate(-12deg);
-    transform: translateY(-50%) rotate(-12deg);
+    -webkit-transform: translateY(-50%) rotate(0deg);
+    -ms-transform: translateY(-50%) rotate(0deg);
+    transform: translateY(-50%) rotate(0deg);
  
     /* Shadow: ONLY use this if your PNG does NOT already include one.
        drop-shadow (not box-shadow) hugs the phone's shape instead of a
