@@ -400,6 +400,30 @@ h1, h2, h3 {
     
 }
 
+/* "Download Wallet" — solid white pill, so it reads slightly bolder
+   than the ghost "Get Firo" button next to it */
+#intro .intro-info a.btn-secondary {
+    width: auto;                 /* fit the longer label */
+    background-color: #ffffff;
+    color: #9b1c2e;              /* brand red text on white */
+    border: 2px solid #ffffff;
+    border-radius: 100px;        /* match the Get Firo pill shape */
+}
+
+#intro .intro-info a.btn-secondary:hover,
+#intro .intro-info a.btn-secondary:focus,
+#intro .intro-info a.btn-secondary:active {
+    background-color: #f7f0f1;   /* soft light-pink on hover */
+    border-color: #f7f0f1;
+    color: #9b1c2e;
+}
+
+/* arrow slides on hover, same as the primary button */
+#intro .intro-info a.btn-secondary:hover i {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
 /* CODE */
 
 code {
