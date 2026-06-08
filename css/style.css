@@ -403,11 +403,20 @@ h1, h2, h3 {
 /* "Download Wallet" — solid white pill, so it reads slightly bolder
    than the ghost "Get Firo" button next to it */
 #intro .intro-info a.btn-secondary {
-    width: auto;                 /* fit the longer label */
+    width: auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;          /* inline-flex so it still sits beside "Get Firo" */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;           /* vertical centering (the arrow fix) */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;       /* horizontal centering of text + arrow */
     background-color: #ffffff;
-    color: #9b1c2e;              /* brand red text on white */
+    color: #9b1c2e;
     border: 2px solid #ffffff;
-    border-radius: 100px;        /* match the Get Firo pill shape */
+    border-radius: 100px;
 }
 
 #intro .intro-info a.btn-secondary:hover,
