@@ -418,6 +418,12 @@ h1, h2, h3 {
     color: #9b1c2e;
 }
 
+/* center the arrow with the text, same as the primary button */
+#intro .intro-info a.btn-secondary span,
+#intro .intro-info a.btn-secondary i {
+    vertical-align: middle;
+}
+
 /* arrow slides on hover, same as the primary button */
 #intro .intro-info a.btn-secondary:hover i {
     -webkit-transform: translateX(50%);
