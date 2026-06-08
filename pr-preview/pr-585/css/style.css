@@ -1403,12 +1403,20 @@ a.btn-primary, a.btn-secondary {
     flex-basis: 31%;
     max-width: 31%;
     padding: 2.5rem;
-    background-color: #9b1c2e;                  /* brand burgundy */
-    border-radius: 6px;                          /* set to 0 for fully sharp corners */
-    /* stacked offset shadow (hard, no blur) like your draft */
-    -webkit-box-shadow: 12px 12px 0 0 #7c1624;
-    -moz-box-shadow: 12px 12px 0 0 #7c1624;
-    box-shadow: 12px 12px 0 0 #7c1624;
+    /* frosted glass with a clear (but soft) red tint */
+    background: -webkit-gradient(linear, left top, right bottom,
+                from(rgba(186, 42, 69, 0.18)), to(rgba(155, 28, 46, 0.10)));
+    background: -webkit-linear-gradient(top left,
+                rgba(186, 42, 69, 0.18), rgba(155, 28, 46, 0.10));
+    background: linear-gradient(135deg,
+                rgba(186, 42, 69, 0.18), rgba(155, 28, 46, 0.10));
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.45);   /* glassy edge */
+    border-radius: 18px;
+    -webkit-box-shadow: 0 20px 40px 0 rgba(155, 28, 46, 0.15);
+    -moz-box-shadow: 0 20px 40px 0 rgba(155, 28, 46, 0.15);
+    box-shadow: 0 20px 40px 0 rgba(155, 28, 46, 0.15);   /* soft tinted shadow, not the old hard offset */
     /* column layout so the single button can sit at the card bottom */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1422,17 +1430,15 @@ a.btn-primary, a.btn-secondary {
 #firo-paths .btns .col h3 {
     /* font inherited from the site h1,h2,h3 rule (Saira Semi Condensed) */
     font-size: 2rem;
-    /* Light heading for legibility. Your draft used dark text on the red,
-       which is low-contrast and hard to read. For that darker look anyway,
-       change this to #110202. */
-    color: #ffffff;
+    color: #3d3939;            /* dark text now that the card is light. For a
+                                  brand-red heading instead, use #9b1c2e. */
     margin: 0 0 1.5rem;
 }
  
 #firo-paths .btns .col p {
     font-size: 1.05rem;
     line-height: 1.4;
-    color: #f7f0f1;                             /* light brand pink, readable on red */
+    color: #5a5050;            /* readable warm gray on the pale red tint */
     margin: 0 0 1.25rem;
 }
  
@@ -1440,13 +1446,13 @@ a.btn-primary, a.btn-secondary {
     margin-bottom: 0;
 }
  
-/* light pink button */
+/* bold burgundy button — now the one striking-red element per card */
 #firo-paths .btns .col .firo-btn {
     -ms-flex-item-align: start;
     align-self: flex-start;
     display: inline-block;
-    background-color: #f7f0f1;
-    color: #9b1c2e;
+    background-color: #9b1c2e;
+    color: #ffffff;
     font-weight: 700;
     text-decoration: none;
     padding: .65rem 1.4rem;
@@ -1458,16 +1464,15 @@ a.btn-primary, a.btn-secondary {
     transition: all ease-out .2s;
 }
  
-/* Pushes the LAST button to the card bottom. This bottom-aligns the single
-   button on the Buy/Use cards, while the Earn card (whose last element is a
-   <p>, not a button) keeps its two buttons interleaved where they are. */
+/* pushes the LAST button to the card bottom (bottom-aligns the single
+   button on Buy/Use; leaves Earn's interleaved buttons in place) */
 #firo-paths .btns .col .firo-btn:last-child {
     margin-top: auto;
     margin-bottom: 0;
 }
  
 #firo-paths .btns .col .firo-btn:hover {
-    background-color: #ffffff;
+    background-color: #7c1624;
 }
  
 #firo-paths .btns .col .firo-btn i {
@@ -1490,9 +1495,6 @@ a.btn-primary, a.btn-secondary {
         flex-basis: 100%;
         max-width: 100%;
         margin-bottom: 2.5rem;
-        /* smaller offset so the shadow doesn't cause sideways scroll on phones */
-        -webkit-box-shadow: 8px 8px 0 0 #7c1624;
-        box-shadow: 8px 8px 0 0 #7c1624;
     }
     #firo-paths .btns .col h3 { font-size: 1.8rem; }
 }
