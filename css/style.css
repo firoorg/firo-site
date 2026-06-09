@@ -1499,6 +1499,15 @@ a.btn-primary, a.btn-secondary {
     #firo-paths .btns .col h3 { font-size: 1.8rem; }
 }
 
+#firo-paths h2 {
+    font-size: 2.5rem;
+}
+@media only screen and (max-width: 62rem) {
+    #firo-paths h2 { font-size: 2.2rem; }
+}
+@media only screen and (max-width: 48rem) {
+    #firo-paths h2 { font-size: 2rem; }
+}
 
 /*Pillars*/
 
