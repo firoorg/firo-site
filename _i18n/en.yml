@@ -68,8 +68,8 @@ home:
   cta2: Download Wallet
   campfire: "Get Campfire"
   campfiretext: "Firo on your mobile phone"
-  about: "Your money shouldn't be a tracking device"
-  aboutp: "Firo lets you send and receive money privately. Your balance, your history, who you're paying: hidden by default, visible only to those you choose"
+  firomsg: "Your money shouldn't be a tracking device"
+  firomsgp: "Firo lets you send and receive money privately. Your balance, your history, who you're paying: hidden by default, visible only to those you choose"
   pillar1: "Private"
   pillar1text1: "State of the art Lelantus Spark technology"
   pillar1text2: "Private balances and transaction"
