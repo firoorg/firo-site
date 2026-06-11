@@ -1699,6 +1699,7 @@ a.btn-primary, a.btn-secondary {
     height: 3rem;
     width: auto;
     display: block;
+	border-radius: 22%;
 }
 
 #campfire .campfire-content p {
