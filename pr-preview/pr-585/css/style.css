@@ -1633,7 +1633,7 @@ a.btn-primary, a.btn-secondary {
     #pillars .btns .col h3 { font-size: 1.75rem; }
 }
 
-/*GET CAMPFIRE banner*/
+/*GET CAMPFIRE*/
  
 #campfire {
     /* extra vertical room so the taller phone overhang doesn't
@@ -1685,7 +1685,22 @@ a.btn-primary, a.btn-secondary {
     color: #3d3939;
     margin: 0 0 1rem;
 }
- 
+
+#campfire .campfire-heading {
+    display: -webkit-box; display: -ms-flexbox; display: flex;
+    -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+    gap: 1rem;
+    margin: 0 0 1rem;
+}
+#campfire .campfire-heading h2 {
+    margin: 0;
+}
+#campfire .campfire-logo {
+    height: 3rem;
+    width: auto;
+    display: block;
+}
+
 #campfire .campfire-content p {
     font-size: 1.25rem;
     color: #6a7176;
@@ -1733,6 +1748,9 @@ a.btn-primary, a.btn-secondary {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         max-width: 100%;
+    }
+	 #campfire .campfire-heading {
+        -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
     }
     #campfire .campfire-phone {
         position: static;
