@@ -1509,6 +1509,10 @@ a.btn-primary, a.btn-secondary {
     #firo-paths h2 { font-size: 2rem; }
 }
 
+#firo-paths { 
+	background-color: #fff3f3; 
+}
+
 /*Pillars*/
 
 #pillars {
@@ -1607,6 +1611,14 @@ a.btn-primary, a.btn-secondary {
 #pillars .btns .col p a span {
     vertical-align: middle;
 }
+
+#pillars .btns .col img {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 5rem;
+    height: auto;
+}
  
 /* ---- responsive: follows the getfiro breakpoint ladder ---- */
 @media only screen and (max-width: 62rem) {
@@ -1632,6 +1644,8 @@ a.btn-primary, a.btn-secondary {
     }
     #pillars .btns .col h3 { font-size: 1.75rem; }
 }
+
+
 
 /*GET CAMPFIRE*/
  
@@ -1767,6 +1781,21 @@ a.btn-primary, a.btn-secondary {
 @media only screen and (max-width: 30rem) {
     #campfire .campfire-content h2 { font-size: 2.25rem; }
     #campfire .campfire-phone { height: 18rem; }
+}
+
+#campfire .campfire-stores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+#campfire .campfire-stores img {
+    height: 2.75rem;
+    width: auto;
+    display: block;
 }
 
 /*download wallet*/
