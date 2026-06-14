@@ -140,9 +140,6 @@ home:
   manifesto: "Privacy is necessary for an open society in the electronic age."
 
 private:
-  pillar1: "Private"
- 
-private:
   heading: "Your money is nobody's business"
   lead: "Most cryptocurrencies run on a public ledger, where anyone can see your balance and every payment you have ever made. Firo is built so they can't."
   cta: "Get a private wallet"
