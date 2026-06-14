@@ -1,0 +1,102 @@
+---
+layout: base
+title: titles.pillar1
+permalink: /pillars/private/index.html
+---
+
+<div class="pillar-page">
+    <section class="section pillar-hero">
+        <div class="container">
+            <div class="pillar-hero__inner">
+                <div class="pillar-hero__text">
+                    <p class="pillar-eyebrow">{% t home.pillar1 %}</p>
+                    <h1>{% t private.heading %}</h1>
+                    <p class="pillar-lead">{% t private.lead %}</p>
+                    <a class="pillar-btn" href="{{ site.baseurl }}/get-firo/download/"><span>{% t private.cta %}</span><i class="icons-right-small"></i></a>
+                </div>
+                <div class="pillar-hero__art">
+                    <img src="{{ site.baseurl }}/img/private-hero.svg" alt="" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section pillar-features">
+        <div class="container">
+
+            <div class="pillar-feature">
+                <div class="pillar-feature__text">
+                    <h2>{% t private.spark_title %}</h2>
+                    <p>{% t private.spark_text %}</p>
+                    <p><a href="{{ site.baseurl }}/about/research/"><span>{% t private.spark_link %}</span><i class="icons-right-small"></i></a></p>
+                </div>
+                <div class="pillar-feature__art">
+                    <img src="{{ site.baseurl }}/img/private-spark.svg" alt="" loading="lazy">
+                </div>
+            </div>
+
+            <div class="pillar-feature">
+                <div class="pillar-feature__text">
+                    <h2>{% t private.balances_title %}</h2>
+                    <p>{% t private.balances_text %}</p>
+                </div>
+                <div class="pillar-feature__art">
+                    <img src="{{ site.baseurl }}/img/private-balances.svg" alt="" loading="lazy">
+                </div>
+            </div>
+
+            <div class="pillar-feature">
+                <div class="pillar-feature__text">
+                    <h2>{% t private.anonset_title %}</h2>
+                    <p>{% t private.anonset_text %}</p>
+                </div>
+                <div class="pillar-feature__art">
+                    <img src="{{ site.baseurl }}/img/private-anonset.svg" alt="" loading="lazy">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="section pillar-compare">
+        <div class="container">
+            <h2>{% t private.compare_title %}</h2>
+            <p class="pillar-lead">{% t private.compare_lead %}</p>
+            <table class="pillar-table">
+                <thead>
+                    <tr><th></th><th>Firo</th><th>Typical privacy coin</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Private by default</td><td class="yes">Yes</td><td class="no">Often optional</td></tr>
+                    <tr><td>Hides sender, receiver &amp; amount</td><td class="yes">Yes</td><td class="no">Varies</td></tr>
+                    <tr><td>No trusted setup</td><td class="yes">Yes</td><td class="no">Varies</td></tr>
+                    <tr><td>One shared anonymity set</td><td class="yes">Yes</td><td class="no">Often fragmented</td></tr>
+                </tbody>
+            </table>
+            <p class="pillar-note">Placeholder — verify, date, and translate every claim before publishing.</p>
+        </div>
+    </section>
+
+    <section class="section pillar-trust">
+        <div class="container">
+            <div class="pillar-trust__grid">
+                <div><b>{% t private.trust1b %}</b><span>{% t private.trust1s %}</span></div>
+                <div><b>{% t private.trust2b %}</b><span>{% t private.trust2s %}</span></div>
+                <div><b>{% t private.trust3b %}</b><span>{% t private.trust3s %}</span></div>
+                <div><b>{% t private.trust4b %}</b><span>{% t private.trust4s %}</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section pillar-cta">
+        <div class="container">
+            <h2>{% t private.cta_title %}</h2>
+            <p>
+                <a class="pillar-btn" href="{{ site.baseurl }}/get-firo/download/"><span>{% t private.cta_wallet %}</span><i class="icons-right-small"></i></a>
+                <a class="pillar-btn pillar-btn--ghost" href="{{ site.baseurl }}/about/research/"><span>{% t private.cta_research %}</span><i class="icons-right-small"></i></a>
+            </p>
+        </div>
+    </section>
+
+</div>
