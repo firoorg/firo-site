@@ -20,6 +20,7 @@ titles:
   blog: Blog
   branding: Branding
   merchants: Merchants
+  pillar1: Private
   
 navigation:
   getfiro: Get Firo
@@ -137,6 +138,34 @@ home:
   getfiro5link: Read the mining guide
   getcampfirelink: Download it now
   manifesto: "Privacy is necessary for an open society in the electronic age."
+
+private:
+  pillar1: "Private"
+ 
+private:
+  heading: "Your money is nobody's business"
+  lead: "Most cryptocurrencies run on a public ledger, where anyone can see your balance and every payment you have ever made. Firo is built so they can't."
+  cta: "Get a private wallet"
+  sparktitle: "Lelantus Spark"
+  sparktext: "Firo's privacy engine. Lelantus Spark hides who sent a payment, who received it, and how much, with no trusted setup to take on faith."
+  sparklink: "Read the research"
+  balancestitle: "Private by default"
+  balancestext: "Privacy isn't a setting you have to switch on. Your balance and full payment history stay hidden by default, seen only by you and by anyone you choose to show."
+  anonsettitle: "Strong anonymity set"
+  anonsettext: "Your privacy comes from the crowd. Every private transaction joins one large shared pool, so no single payment can be singled out, and the more people use Firo, the stronger that protection gets."
+  comparetitle: "What makes privacy actually strong"
+  comparelead: "The things worth checking in any private cryptocurrency."
+  trust1b: "Since 2016"
+  trust1s: "Nine years in production"
+  trust2b: "Peer-reviewed"
+  trust2s: "Published, audited cryptography"
+  trust3b: "No trusted setup"
+  trust3s: "Nothing to take on faith"
+  trust4b: "Privacy pioneer"
+  trust4s: "Zerocoin to Sigma to Lelantus to Spark"
+  ctatitle: "Ready for private money?"
+  ctawallet: "Get a wallet"
+  ctaresearch: "Read the research"
   
 download:
   heading: Download a wallet
