@@ -147,7 +147,7 @@ private:
   sparktitle: "Lelantus Spark"
   sparktext: "Firo's privacy engine. Lelantus Spark hides who sent a payment, who received it, and how much, with no trusted setup to take on faith."
   sparklink: "Read the research"
-  balancestitle: "Private by default"
+  balancestitle: "Private balances and transaction"
   balancestext: "Privacy isn't a setting you have to switch on. Your balance and full payment history stay hidden by default, seen only by you and by anyone you choose to show."
   anonsettitle: "Strong anonymity set"
   anonsettext: "Your privacy comes from the crowd. Every private transaction joins one large shared pool, so no single payment can be singled out, and the more people use Firo, the stronger that protection gets."
