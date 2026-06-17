@@ -11,6 +11,7 @@ img: ""
 ## Registering a Spark Name
 
 **Notes:** 
+
 * You must have sufficient private Firo balance in order to register a Spark Name.
 * You cannot register more than one Spark Address to a Spark Name.
 
@@ -18,6 +19,11 @@ img: ""
 2. Paste an existing Spark Address, or click on the **Generate new button** to generate a new one.
 3. Enter the Spark Name you wish to register and the number of years. You can register a minimum of 1 year and a maximum of 15 years. A shorter Spark Name will require a higher fee than a longer one.
 4. Enter any additional information you wish to be associated with the Spark Name. **This information is public.**
+
+## Sending to a Spark Name
+
+1. Using the **Send tab,** enter the Spark Name you wish to send to in the `PayTo` field, prefixed with a '@'. Example: `@Sparky`.
+2. You can send from both private and public balance.
 
 ## Extending validity of a Spark Name
 
