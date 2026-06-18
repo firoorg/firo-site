@@ -1,0 +1,149 @@
+---
+layout: base
+title: titles.pillar2
+permalink: /pillars/practical/index.html
+---
+
+{% comment %}
+  PRACTICAL pillar page. Reuses the shared .pillar-page shell + the Practical
+  component CSS appended to style.css (.pillar-grid, .pillar-steps, .pillar-mock-*).
+
+  TO CONFIRM BEFORE PUBLISHING:
+  - Feature "learn more" hrefs below are best-guess placeholders. Point them at
+    real pages (or anchors), or remove the link on any feature with no destination.
+  - The step mockups are illustrative. "@alice", "12.5", "FIRO" and the "f" logo
+    mark are placeholders; swap the f for the real Campfire logo mark.
+  - home.pillar2 (hero eyebrow) and titles.pillar2 (page title) should already
+    exist from the homepage pillar cards; practical.yml only adds the page body keys.
+{% endcomment %}
+
+<div class="pillar-page">
+
+    <!-- 1. HERO: promise + framing, left text + art (matches Private) -->
+    <section class="section pillar-hero">
+        <div class="container">
+            <div class="pillar-hero-inner">
+                <div class="pillar-hero-text">
+                    <p class="pillar-eyebrow">{% t home.pillar2 %}</p>
+                    <h1>{% t practical.heading %}</h1>
+                    <p class="pillar-lead">{% t practical.lead %}</p>
+                    <a class="pillar-btn" href="{{ site.baseurl }}/get-firo/download/"><span>{% t practical.cta %}</span><i class="icons-right-small"></i></a>
+                    <a class="pillar-btn pillar-btn-ghost" href="{{ site.baseurl }}/get-firo/"><span>{% t practical.cta2 %}</span><i class="icons-right-small"></i></a>
+                </div>
+                <div class="pillar-hero-art">
+                    <img src="{{ site.baseurl }}/img/practical-hero.svg" alt="" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. FEATURES: 2x2 grid of cards (tint band) -->
+    <section class="section pillar-tint">
+        <div class="container">
+            <div class="pillar-head">
+                <p class="pillar-eyebrow">{% t practical.featureseyebrow %}</p>
+                <h2>{% t practical.featurestitle %}</h2>
+            </div>
+            <div class="pillar-grid">
+
+                <div class="pillar-grid-card">
+                    <div class="pillar-grid-icon"><img src="{{ site.baseurl }}/img/practical-names.svg" alt="" loading="lazy"></div>
+                    <h3>{% t practical.namestitle %}</h3>
+                    <p>{% t practical.namestext %}</p>
+                    <a class="pillar-grid-link" href="{{ site.baseurl }}/guide/spark-names/"><span>{% t practical.nameslink %}</span><i class="icons-right-small"></i></a>
+                </div>
+
+                <div class="pillar-grid-card">
+                    <div class="pillar-grid-icon"><img src="{{ site.baseurl }}/img/practical-address.svg" alt="" loading="lazy"></div>
+                    <h3>{% t practical.addresstitle %}</h3>
+                    <p>{% t practical.addresstext %}</p>
+                    <a class="pillar-grid-link" href="{{ site.baseurl }}/guide/spark-address/"><span>{% t practical.addresslink %}</span><i class="icons-right-small"></i></a>
+                </div>
+
+                <div class="pillar-grid-card">
+                    <div class="pillar-grid-icon"><img src="{{ site.baseurl }}/img/practical-instantsend.svg" alt="" loading="lazy"></div>
+                    <h3>{% t practical.instantsendtitle %}</h3>
+                    <p>{% t practical.instantsendtext %}</p>
+                    <a class="pillar-grid-link" href="{{ site.baseurl }}/guide/instantsend/"><span>{% t practical.instantsendlink %}</span><i class="icons-right-small"></i></a>
+                </div>
+
+                <div class="pillar-grid-card">
+                    <div class="pillar-grid-icon"><img src="{{ site.baseurl }}/img/practical-campfire.svg" alt="" loading="lazy"></div>
+                    <h3>{% t practical.campfiretitle %}</h3>
+                    <p>{% t practical.campfiretext %}</p>
+                    <a class="pillar-grid-link" href="{{ site.baseurl }}/get-firo/download/"><span>{% t practical.campfirelink %}</span><i class="icons-right-small"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. HOW IT WORKS: 3 step cards with mockups (white band) -->
+    <section class="section">
+        <div class="container">
+            <div class="pillar-head">
+                <p class="pillar-eyebrow">{% t practical.howeyebrow %}</p>
+                <h2>{% t practical.howtitle %}</h2>
+                <p class="pillar-lead">{% t practical.howlead %}</p>
+            </div>
+            <div class="pillar-steps">
+
+                <div class="pillar-step">
+                    <span class="pillar-step-num">01</span>
+                    <h3>{% t practical.step1title %}</h3>
+                    <p>{% t practical.step1text %}</p>
+                    <div class="pillar-step-mock">
+                        <div class="pillar-mock pillar-mock-chip">
+                            <div class="pillar-mock-logo">f</div>
+                            <div>
+                                <div class="pillar-mock-title">Campfire</div>
+                                <div class="pillar-mock-sub">{% t practical.step1mocksub %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pillar-step">
+                    <span class="pillar-step-num">02</span>
+                    <h3>{% t practical.step2title %}</h3>
+                    <p>{% t practical.step2text %}</p>
+                    <div class="pillar-step-mock">
+                        <div class="pillar-mock">
+                            <div class="pillar-mock-label">{% t practical.step2mocklabel %}</div>
+                            <div class="pillar-mock-input">
+                                <span class="pillar-mock-addr">@alice</span>
+                                <span class="pillar-mock-check">&check;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pillar-step">
+                    <span class="pillar-step-num">03</span>
+                    <h3>{% t practical.step3title %}</h3>
+                    <p>{% t practical.step3text %}</p>
+                    <div class="pillar-step-mock">
+                        <div class="pillar-mock">
+                            <div class="pillar-mock-amount"><b>12.5</b> FIRO</div>
+                            <button class="pillar-mock-send">{% t practical.step3mockbtn %}</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. CREDIBILITY strip (tint band) -->
+    <section class="section pillar-tint">
+        <div class="container">
+            <div class="pillar-trust-grid">
+                <div><b>{% t practical.trust1b %}</b><span>{% t practical.trust1s %}</span></div>
+                <div><b>{% t practical.trust2b %}</b><span>{% t practical.trust2s %}</span></div>
+                <div><b>{% t practical.trust3b %}</b><span>{% t practical.trust3s %}</span></div>
+                <div><b>{% t practical.trust4b %}</b><span>{% t practical.trust4s %}</span></div>
+            </div>
+        </div>
+    </section>
+
+</div>
