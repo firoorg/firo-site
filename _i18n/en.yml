@@ -21,6 +21,7 @@ titles:
   branding: Branding
   merchants: Merchants
   pillar1: Private
+  pillar2: Practical
   
 navigation:
   getfiro: Get Firo
@@ -164,7 +165,47 @@ private:
   ctatitle: "Ready for private money?"
   ctawallet: "Get a wallet"
   ctaresearch: "Read the research"
-  
+
+practical:
+  heading: "Privacy you don't have to fight"
+  lead: "Private money has a reputation for being slow, technical, and awkward. Firo's isn't. It is built to use every day: on your phone, in seconds, without the headache."
+  cta: "Get Campfire"
+  cta2: "See all wallets"
+  featureseyebrow: "Features"
+  featurestitle: "Built for everyday use"
+  namestitle: "Spark Names"
+  namestext: "Send to a name, not a string. Pay to a simple, human-readable name instead of copying a long, error-prone address."
+  nameslink: "How Spark Names work"
+  addresstitle: "Spark Address"
+  addresstext: "One address, reuse it freely. Share a single Spark address publicly and keep receiving to it, payment after payment, privately."
+  addresslink: "About Spark Address"
+  instantsendtitle: "InstantSend"
+  instantsendtext: "Confirmed in seconds. Payments are final almost instantly, even before the next block: fast enough for a real checkout."
+  instantsendlink: "How InstantSend works"
+  campfiretitle: "Campfire"
+  campfiretext: "Privacy in your pocket. A full private Firo wallet on your phone, with setup simple enough for a first-timer."
+  campfirelink: "Get Campfire"
+  howeyebrow: "How it works"
+  howtitle: "Sending Firo, start to finish"
+  howlead: "Three steps. No jargon, no node, no waiting around."
+  step1title: "Open Campfire"
+  step1text: "Open the app and unlock with your PIN or biometrics. Your wallet is ready."
+  step1mocksub: "Unlocked"
+  step2title: "Pick a name or paste an address"
+  step2text: "Type a Spark Name, or paste an address. Campfire checks it for you."
+  step2mocklabel: "Pay to"
+  step3title: "Send"
+  step3text: "Confirm the amount and send. It's private, and final in seconds."
+  step3mockbtn: "Send privately"
+  trust1b: "iOS, Android & desktop"
+  trust1s: "Use it anywhere"
+  trust2b: "Seconds"
+  trust2s: "Final, not pending"
+  trust3b: "No setup"
+  trust3s: "Nothing to configure"
+  trust4b: "Live today"
+  trust4s: "Working, not roadmap"
+
 download:
   heading: Download a wallet
   official: recommended wallets
