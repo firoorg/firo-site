@@ -1812,6 +1812,203 @@ a.btn-primary, a.btn-secondary {
     .pillar-page h2 { font-size: 1.7rem; }
 }
 
+/* PRACTICAL PAGE additions */
+/* tint band utility + centered section heading */
+.pillar-tint { background-color: #fff3f3; }
+.pillar-head { text-align: center; margin-bottom: 3.25rem; }
+.pillar-head .pillar-lead { margin-left: auto; margin-right: auto; }
+ 
+/* hero secondary (ghost) button needs to be visible on the red band */
+.pillar-hero .pillar-btn-ghost { background: none; color: #ffffff; border-color: #ffffff; }
+.pillar-hero .pillar-btn + .pillar-btn { margin-left: .75rem; }
+ 
+/* A. feature grid (2x2 cards) */
+.pillar-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5rem 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.pillar-grid-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid rgba(155, 28, 46, .1);
+    border-radius: 14px;
+    padding: 2.25rem;
+    -webkit-box-shadow: 0 16px 32px 0 rgba(155, 28, 46, .05);
+    box-shadow: 0 16px 32px 0 rgba(155, 28, 46, .05);
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.pillar-grid-card:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 24px 40px 0 rgba(155, 28, 46, .1);
+    box-shadow: 0 24px 40px 0 rgba(155, 28, 46, .1);
+}
+.pillar-grid-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 12px;
+    background: #fff3f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.pillar-grid-icon img { width: 2rem; height: 2rem; }
+.pillar-grid-card h3 { font-size: 1.5rem; margin: 0 0 .6rem; color: #3d3939; }
+.pillar-grid-card p { font-size: 1.05rem; color: #5a5050; margin: 0; }
+.pillar-grid-link {
+    margin-top: auto;
+    padding-top: 1.5rem;
+    color: #9b1c2e;
+    font-weight: 700;
+    text-decoration: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: .4rem;
+}
+.pillar-grid-link i { font-size: 1.1rem; }
+ 
+/* B. how it works (3 step cards with mockups) */
+.pillar-steps {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5rem 1fr 1.5rem 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.pillar-step {
+    background: #fff3f3;
+    border-radius: 16px;
+    padding: 2.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.pillar-step-num {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #9b1c2e;
+    margin-bottom: .85rem;
+}
+.pillar-step h3 { font-size: 1.5rem; margin: 0 0 .75rem; }
+.pillar-step > p { color: #5a5050; font-size: 1.02rem; margin: 0 0 1.85rem; }
+.pillar-step-mock { margin-top: auto; }
+ 
+/* mockup cards inside the steps */
+.pillar-mock {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.1rem 1.15rem;
+    -webkit-box-shadow: 0 8px 20px 0 rgba(155, 28, 46, .08);
+    box-shadow: 0 8px 20px 0 rgba(155, 28, 46, .08);
+}
+.pillar-mock-chip {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: .85rem;
+}
+.pillar-mock-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background: #9b1c2e;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.pillar-mock-title { font-weight: 700; color: #3d3939; }
+.pillar-mock-sub { color: #9a9a9a; font-size: .85rem; }
+.pillar-mock-label {
+    font-size: .7rem;
+    letter-spacing: .1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #9a9a9a;
+    margin-bottom: .55rem;
+}
+.pillar-mock-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #fff3f3;
+    border-radius: 8px;
+    padding: .7rem .9rem;
+}
+.pillar-mock-addr { font-weight: 600; color: #3d3939; }
+.pillar-mock-check { color: #1c8a4b; font-weight: 700; }
+.pillar-mock-amount { text-align: center; margin-bottom: .9rem; color: #9a9a9a; font-size: .9rem; }
+.pillar-mock-amount b { font-size: 1.6rem; color: #3d3939; font-weight: 800; }
+.pillar-mock-send {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background: #9b1c2e;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: .8rem;
+    font-weight: 700;
+    font-size: 1rem;
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.pillar-mock-send:hover { background: #7c1624; }
+ 
+/* responsive: stack grid + steps */
+@media only screen and (max-width: 48rem) {
+    .pillar-grid,
+    .pillar-steps {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .pillar-hero .pillar-btn + .pillar-btn { margin-left: 0; }
+}
 
 /*GET CAMPFIRE*/
  
