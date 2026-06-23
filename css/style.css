@@ -4687,63 +4687,73 @@ body,
 #home {
     background-color: #FFF3F3;
 }
-
-main {
-    position: relative;
-}
-
+ 
+/* kill the old full-page hero pseudo-element */
 #intro:before {
+    content: none;
+}
+ 
+#introwrap {
+    position: relative;
+    z-index: 0;
+}
+ 
+#introwrap:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-image: url(/img/herologospark.svg), url(/img/heroBG.svg), url(red-background.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 100%;            /* = #introwrap height = the hero only */
+    background-image:
+        url(/img/herologospark.svg),
+        url(/img/heroBG.svg),
+        linear-gradient(180deg, #c4133f 0%, #c4133f 55%, #FFF3F3 100%);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right -4rem top 6rem, center top, top left;
+    background-size: 42rem auto, cover, 100% 100%;
     z-index: -1;
 }
-
+ 
 #intro {
     padding: 17rem 1rem 17rem 1rem;
     margin-left: auto;
     margin-right: auto;
 }
-
+ 
 #intro .row {
     height: 100%;
 }
-
+ 
 #intro .intro-info {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%;
   }
-
+ 
 #intro .intro-info h1 {
     font-size: 6.875rem;
     color: #fefefe;
 }
-
+ 
 br.brmob {
     display: none;
 }
-
+ 
 #intro .intro-info h1 + p {
     width: auto;
     font-size: 1.75rem;
     color: #FEDAD6;
     margin-top: 3rem;
 }
-
+ 
 #intro .intro-info a.btn-secondary, #intro .intro-info a.btn-primary {
     font-size: 1.1rem;
     font-weight: 600;
     padding: 1rem 1.7rem 1rem 2rem;
     margin-top: 5rem;
 }
-
+ 
 #intro .intro-info a.btn-primary {
     background: none;
     color: #fefefe;
@@ -4751,17 +4761,17 @@ br.brmob {
     width: 13rem;
     border-radius: 100px;
 }
-
+ 
 #intro .intro-info a.btn-primary span, #intro .intro-info a.btn-primary i {
     vertical-align: middle;
     font-size: 1.5rem;
 }
-
+ 
 #intro .intro-info a.btn-primary:hover, #intro .intro-info a.btn-primary:focus, #intro .intro-info a.btn-primary:active {
     background-color: rgba(256,256,256,.3);
     background: none;
 }
-
+ 
 #intro .intro-info a.btn-secondary i, #intro .intro-info a.btn-primary i {
     font-size: 2rem;
     margin-left: 1rem;
@@ -4771,66 +4781,52 @@ br.brmob {
     transition: all ease-out .2s;
     display: inline-block;
 }
-
+ 
 #intro .intro-info a.btn-primary:hover i {
     transform: translateX(50%);
 }
-
+ 
 @media only screen and (max-width: 120rem) {
-
+ 
 #intro {
     padding: 8rem 1rem 12rem 1rem;
 }
-
+ 
 #intro .intro-info h1 {
     font-size: 6rem;
 }
-
+ 
+#introwrap:before {
+    background-size: 38rem auto, cover, 100% 100%;
 }
-
+ 
+}
+ 
 @media only screen and (max-width: 100rem) {
-
-#intro:before {
-    background-image: url(/img/herologospark.svg), url(/img/red-background-2.png);
-    background-position: 0 15rem, top left;
+ 
+#introwrap:before {
+    background-position: right -2rem top 8rem, center top, top left;
 }
-
+ 
 }
-
+ 
 @media only screen and (max-width: 75rem) {
-
-#home header, #introwrap {
-    background-color: #B61936;
-}
-
+ 
 #intro {
     padding: 8rem 0 12rem 0;
 }
-
-#intro:before {
-    background-image: none;
+ 
+/* logo centered low; texture still spread (cover); gradient underneath */
+#introwrap:before {
+    background-image:
+        url(/img/herologospark.svg),
+        url(/img/heroBG.svg),
+        linear-gradient(180deg, #c4133f 0%, #c4133f 62%, #FFF3F3 100%);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center bottom -2rem, center top, top left;
+    background-size: 28rem auto, cover, 100% 100%;
 }
-
-#introwrap {
-    position: relative;
-    z-index: 0;
-}
-
-#intro:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/herologospark.svg);
-    background-position: bottom -15rem right 0;
-    background-repeat: no-repeat;
-    background-size: 80rem;
-    z-index: -1;
-}
-
-
+ 
 }
 
 /* content changes */
