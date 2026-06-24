@@ -4687,7 +4687,11 @@ body,
 #home {
     background-color: #FFF3F3;
 }
-
+ 
+#home header {
+    background-color: #c4133f;
+}
+ 
 /* kill the old full-page hero pseudo-element */
 #intro:before {
     content: none;
