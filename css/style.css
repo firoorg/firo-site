@@ -5637,3 +5637,11 @@ footer .social-icons a img {
         margin: 0;
     }
 }
+
+/* tighter spacing between front-page sections */
+#home .section {
+    padding: 3rem 0;
+}
+#home #intro-info {
+    padding-top: 3rem;
+}
