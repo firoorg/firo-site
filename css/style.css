@@ -5607,3 +5607,33 @@ footer .social-icons a img {
 }
 
 }
+
+/* intro-info: text left, illustration right (desktop) */
+@media only screen and (min-width: 54.0625rem) {
+    #intro-info .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    #intro-info .row > .col {
+        -ms-flex: 1 1 0;
+        flex: 1 1 0;
+        max-width: 100%;
+    }
+    #intro-info .row > .col.col-img {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    #intro-info .col-img img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
