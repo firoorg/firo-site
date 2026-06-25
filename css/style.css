@@ -5645,3 +5645,15 @@ footer .social-icons a img {
 #home #intro-info {
     padding-top: 3rem;
 }
+
+/* manifesto: image left, quote right */
+#manifesto .manifesto-band {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+#manifesto .manifesto-quote {
+    padding-right: 0;
+    padding-left: 2rem;
+}
