@@ -22,6 +22,7 @@ titles:
   merchants: Merchants
   pillar1: Private
   pillar2: Practical
+  pillar3: Ecosystem
   
 navigation:
   getfiro: Get Firo
@@ -205,6 +206,30 @@ practical:
   trust3s: "Nothing to configure"
   trust4b: "Live today"
   trust4s: "Working, not roadmap"
+  
+ecosystem:
+  heading: "Privacy that reaches further"
+  lead: "Firo's privacy doesn't stop at FIRO. It can carry new tokens, reach other chains, and trade without giving up custody, bringing strong privacy to a wider slice of crypto."
+  cta: "Explore Spark Assets"
+  cta2: "Read the research"
+  spatseyebrow: "The centerpiece"
+  spatstitle: "Spark Assets"
+  spatstagline: "Create your own confidential token on Firo."
+  spatstext1: "Spark Assets, or Spats, extends Lelantus Spark, the privacy engine behind FIRO, so it can protect more than just FIRO. You can create your own token directly on the Firo blockchain, and it lives there as a Spark Asset with the same strong privacy FIRO already has."
+  spatstext2: "That turns Firo into a place to issue and hold confidential tokens, each one private by default, all on one chain."
+  callouttitle: "Every token hides the others"
+  callouttext: "Here is the part that makes it powerful: every Spark Asset shares one anonymity set. A transaction sending Token A looks exactly like one sending Token B. So every payment on the Spats layer helps hide every other one, and the more tokens and activity it carries, the stronger privacy gets for everyone."
+  roseneyebrow: "Reach"
+  rosentitle: "RosenBridge"
+  rosentext1: "RosenBridge connects FIRO to other blockchains. When FIRO crosses the bridge, the native coin is locked and an equal amount of rsFIRO (Rosen-wrapped FIRO) is minted as a standard token on the target chain, such as Ethereum or BNB Chain."
+  rosentext2: "The native Firo chain stays where privacy happens. rsFIRO gives FIRO a presence in the big EVM ecosystems where most liquidity actually lives, so it is easier to get, hold, and trade. Privacy at home, liquidity abroad."
+  firodexeyebrow: "Trade"
+  firodextitle: "FiroDEX"
+  firodextext1: "FiroDEX is a decentralized exchange. You trade straight from your own wallet and keep custody of your coins the whole time: no account to open, no company holding your funds."
+  firodextext2: "It is how you swap into and out of FIRO without trusting a centralized exchange, keeping the self-custody spirit of private money intact."
+  closingtitle: "A growing ecosystem"
+  closingtext: "Spark Assets, RosenBridge, and FiroDEX are the first pieces. More ways to use and connect Firo's privacy are on the way."
+  closingcta: "Get involved"
 
 download:
   heading: Download a wallet
