@@ -2010,6 +2010,54 @@ a.btn-primary, a.btn-secondary {
     .pillar-hero .pillar-btn + .pillar-btn { margin-left: 0; }
 }
 
+/* ECOSYSTEM PAGE */
+
+.pillar-feature.feature-normal {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.pillar-feature.feature-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.pillar-feature-art img { max-width: 100%; height: auto; display: block; }
+ 
+/* Spark Assets: highlighted insight callout */
+.pillar-callout {
+    margin-top: 3rem;
+    background: #fff3f3;
+    border-left: 4px solid #9b1c2e;
+    border-radius: 12px;
+    padding: 2rem 2.25rem;
+}
+.pillar-callout h3 { font-size: 1.5rem; margin: 0 0 .6rem; color: #3d3939; }
+.pillar-callout p { font-size: 1.12rem; color: #4a4646; margin: 0; }
+ 
+/* closing: center the button under the centered head */
+.pillar-head .btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+ 
+/* responsive: keep forced-direction features stacked on mobile */
+@media only screen and (max-width: 48rem) {
+    .pillar-feature.feature-normal,
+    .pillar-feature.feature-reverse {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
 /*GET CAMPFIRE*/
  
 #campfire {
