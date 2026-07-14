@@ -9,7 +9,7 @@ img: "/blog/assets/cfc5thterm/banner.png"
 
 The one year term of the [4th CFC Committee](https://forum.firo.org/t/firo-4th-community-fund-committee-elections/4114) will be coming to an end in approximately 2 months and the time for the 5th CFC nominations is underway in preparation for the election.
 
-Please express your interest in standing for election in the thread below. Do ensure you introduce yourself and why you are applying to the post and your experience/history with Firo.
+Please express your interest in standing for election in the [Forum thread here](https://forum.firo.org/t/nominations-for-the-5th-community-fund-committee-cfc-are-now-open/4339). Do ensure you introduce yourself and why you are applying to the post and your experience/history with Firo.
 
 The 7 member CFC forms an important role in gradually decentralizing governance and sets up an independent fund (Firo Community Fund) to be used for the benefit of Firo. The FCF has been used to fund various community management efforts, audits, social media/marketing support and also to assist the core team where additional funds are required.
 
