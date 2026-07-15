@@ -1812,8 +1812,7 @@ a.btn-primary, a.btn-secondary {
     .pillar-page h2 { font-size: 1.7rem; }
 }
 
-/* PRACTICAL PAGE additions */
-/* tint band utility + centered section heading */
+* tint band utility + centered section heading */
 .pillar-tint { background-color: #fff3f3; }
 .pillar-head { text-align: center; margin-bottom: 3.25rem; }
 .pillar-head .pillar-lead { margin-left: auto; margin-right: auto; }
@@ -2056,6 +2055,55 @@ a.btn-primary, a.btn-secondary {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+}
+/*PRACTICAL: step illustration slot*/
+
+.pillar-step-illustration {
+    margin-top: auto;
+    margin-bottom: 1.5rem;
+}
+.pillar-step-illustration img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* was margin-top:auto — the illustration above now does the pinning */
+.pillar-step-mock { margin-top: 0; }
+
+img.pillar-mock-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: none;
+    border-radius: 10px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    display: block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+/* Feature-card watermark */
+.pillar-grid-card {
+    position: relative;
+    overflow: hidden;
+}
+.pillar-grid-watermark {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translate(22%, -50%);
+    -ms-transform: translate(22%, -50%);
+    transform: translate(22%, -50%);
+    width: 15rem;
+    height: auto;
+    pointer-events: none;
+    z-index: 0;
+}
+/* keep the real content above the watermark */
+.pillar-grid-card > :not(.pillar-grid-watermark) {
+    position: relative;
+    z-index: 1;
 }
 
 /*GET CAMPFIRE*/
