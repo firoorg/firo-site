@@ -2060,7 +2060,7 @@ a.btn-primary, a.btn-secondary {
 
 .pillar-step-illustration {
     margin-top: auto;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
 }
 .pillar-step-illustration img {
     width: 100%;
