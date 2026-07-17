@@ -86,14 +86,39 @@ permalink: /pillars/private/index.html
         </div>
     </section>
 
-    <section class="section pillar-cta">
+<section class="section">
         <div class="container">
-            <h2>{% t private.ctatitle %}</h2>
-            <p>
-                <a class="pillar-btn" href="{{ site.baseurl }}/get-firo/download/"><span>{% t private.ctawallet %}</span><i class="icons-right-small"></i></a>
-                <a class="pillar-btn pillar-btn--ghost" href="{{ site.baseurl }}/about/research/"><span>{% t private.ctaresearch %}</span><i class="icons-right-small"></i></a>
-            </p>
+            <div class="pillar-siblings-head">
+                <h2>{% t pillars.nexttitle %}</h2>
+                <p>{% t private.nextlead %}</p>
+            </div>
+            <div class="pillar-siblings-grid">
+                <a class="pillar-sibling-card" href="{{ site.baseurl }}/pillars/practical/">
+                    <span class="pillar-sibling-icon"><img src="{{ site.baseurl }}/img/practical_icon.svg" alt="" loading="lazy"></span>
+                    <span class="pillar-sibling-text">
+                        <span class="pillar-sibling-label">{% t pillars.label %}</span>
+                        <span class="pillar-sibling-title">{% t pillars.practicaltitle %}</span>
+                        <span class="pillar-sibling-pitch">{% t pillars.practicalpitch %}</span>
+                    </span>
+                    <i class="icons-right-small pillar-sibling-arrow"></i>
+                </a>
+                <a class="pillar-sibling-card" href="{{ site.baseurl }}/pillars/ecosystem/">
+                    <span class="pillar-sibling-icon"><img src="{{ site.baseurl }}/img/ecosystem_icon.svg" alt="" loading="lazy"></span>
+                    <span class="pillar-sibling-text">
+                        <span class="pillar-sibling-label">{% t pillars.label %}</span>
+                        <span class="pillar-sibling-title">{% t pillars.ecosystemtitle %}</span>
+                        <span class="pillar-sibling-pitch">{% t pillars.ecosystempitch %}</span>
+                    </span>
+                    <i class="icons-right-small pillar-sibling-arrow"></i>
+                </a>
+            </div>
+            <div class="pillar-siblings-action">
+                <a class="pillar-btn" href="{{ site.baseurl }}/get-firo/download/"><span>{% t private.nextcta %}</span><i class="icons-right-small"></i></a>
+            </div>
         </div>
+    </section>
+ 
+</div>
     </section>
     
 </div>
