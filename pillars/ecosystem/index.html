@@ -81,15 +81,34 @@ permalink: /pillars/ecosystem/index.html
         </div>
     </section>
 
-    <!-- 5. CLOSING -->
-    <section class="section pillar-tint">
+<section class="section">
         <div class="container">
-            <div class="pillar-head">
-                <h2>{% t ecosystem.closingtitle %}</h2>
-                <p class="pillar-lead">{% t ecosystem.closingtext %}</p>
-                <div class="btns">
-                    <a class="pillar-btn" href="{{ site.baseurl }}/community/social/"><span>{% t ecosystem.closingcta %}</span><i class="icons-right-small"></i></a>
-                </div>
+            <div class="pillar-siblings-head">
+                <h2>{% t pillars.nexttitle %}</h2>
+                <p>{% t ecosystem.nextlead %}</p>
+            </div>
+            <div class="pillar-siblings-grid">
+                <a class="pillar-sibling-card" href="{{ site.baseurl }}/pillars/private/">
+                    <span class="pillar-sibling-icon"><img src="{{ site.baseurl }}/img/private_icon.svg" alt="" loading="lazy"></span>
+                    <span class="pillar-sibling-text">
+                        <span class="pillar-sibling-label">{% t pillars.label %}</span>
+                        <span class="pillar-sibling-title">{% t pillars.privatetitle %}</span>
+                        <span class="pillar-sibling-pitch">{% t pillars.privatepitch %}</span>
+                    </span>
+                    <i class="icons-right-small pillar-sibling-arrow"></i>
+                </a>
+                <a class="pillar-sibling-card" href="{{ site.baseurl }}/pillars/practical/">
+                    <span class="pillar-sibling-icon"><img src="{{ site.baseurl }}/img/practical_icon.svg" alt="" loading="lazy"></span>
+                    <span class="pillar-sibling-text">
+                        <span class="pillar-sibling-label">{% t pillars.label %}</span>
+                        <span class="pillar-sibling-title">{% t pillars.practicaltitle %}</span>
+                        <span class="pillar-sibling-pitch">{% t pillars.practicalpitch %}</span>
+                    </span>
+                    <i class="icons-right-small pillar-sibling-arrow"></i>
+                </a>
+            </div>
+            <div class="pillar-siblings-action">
+                <a class="pillar-btn" href="{{ site.baseurl }}/community/social/"><span>{% t ecosystem.nextcta %}</span><i class="icons-right-small"></i></a>
             </div>
         </div>
     </section>
