@@ -142,6 +142,16 @@ home:
   getcampfirelink: Download it now
   manifesto: "Privacy is necessary for an open society in the electronic age."
 
+pillars:
+  nexttitle: "Where to next"
+  label: "Pillar"
+  privatetitle: "Private"
+  privatepitch: "How Firo hides your balance and payments, and why that privacy holds up."
+  practicaltitle: "Practical"
+  practicalpitch: "Spark Names, payments final in seconds, and a wallet simple enough for every day."
+  ecosystemtitle: "Ecosystem"
+  ecosystempitch: "Confidential tokens on Firo, a bridge to other chains, and trading without custody."
+
 private:
   heading: "Your money is nobody's business"
   lead: "Most cryptocurrencies run on a public ledger, where anyone can see your balance and every payment you have ever made. Firo is built so they can't."
