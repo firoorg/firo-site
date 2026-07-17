@@ -176,6 +176,8 @@ private:
   ctatitle: "Ready for private money?"
   ctawallet: "Get a wallet"
   ctaresearch: "Read the research"
+  nextlead: "Private is one side of Firo. Here are the other two."
+  nextcta: "Get a wallet"
 
 practical:
   heading: "Privacy you don't have to fight"
@@ -216,6 +218,8 @@ practical:
   trust3s: "Nothing to configure"
   trust4b: "Live today"
   trust4s: "Working, not roadmap"
+  nextlead: "Practical is one side of Firo. Here are the other two."
+  nextcta: "Download Campfire"
   
 ecosystem:
   heading: "Privacy that reaches further"
@@ -240,6 +244,8 @@ ecosystem:
   closingtitle: "A growing ecosystem"
   closingtext: "Spark Assets, RosenBridge, and FiroDEX are the first pieces. More ways to use and connect Firo's privacy are on the way."
   closingcta: "Get involved"
+  nextlead: "Ecosystem is one side of Firo. Here are the other two."
+  nextcta: "Get involved"
 
 download:
   heading: Download a wallet
