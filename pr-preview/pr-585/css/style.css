@@ -1812,7 +1812,7 @@ a.btn-primary, a.btn-secondary {
     .pillar-page h2 { font-size: 1.7rem; }
 }
 
-* tint band utility + centered section heading */
+/* tint band utility + centered section heading */
 .pillar-tint { background-color: #fff3f3; }
 .pillar-head { text-align: center; margin-bottom: 3.25rem; }
 .pillar-head .pillar-lead { margin-left: auto; margin-right: auto; }
@@ -2105,6 +2105,125 @@ img.pillar-mock-logo {
     position: relative;
     z-index: 1;
 }
+
+/* PILLAR SIBLINGS card navigation */
+
+.pillar-siblings-head { margin-bottom: 2rem; }
+.pillar-siblings-head h2 { font-size: 1.6rem; margin: 0 0 .25rem; }
+.pillar-siblings-head p { color: #83868c; font-size: 1.02rem; margin: 0; }
+ 
+.pillar-siblings-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5rem 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+ 
+/* the whole card is the link: bigger target, one focus stop */
+.pillar-sibling-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.5rem 1.75rem;
+    border: 1px solid rgba(155, 28, 46, .14);
+    border-radius: 12px;
+    background: #ffffff;
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.pillar-sibling-card:hover,
+.pillar-sibling-card:focus {
+    border-color: rgba(155, 28, 46, .4);
+    background: #fffafa;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+ 
+.pillar-sibling-icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 10px;
+    background: #fff3f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.pillar-sibling-icon img { width: 1.5rem; height: 1.5rem; }
+ 
+.pillar-sibling-text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+.pillar-sibling-label {
+    display: block;
+    font-size: .68rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #b07a82;
+    margin-bottom: .15rem;
+}
+.pillar-sibling-title {
+    display: block;
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.15;
+    color: #3d3939;
+    margin-bottom: .15rem;
+}
+.pillar-sibling-pitch {
+    display: block;
+    font-size: .95rem;
+    line-height: 1.45;
+    color: #6b6666;
+}
+ 
+.pillar-sibling-arrow {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    color: #9b1c2e;
+    font-size: 1.25rem;
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.pillar-sibling-card:hover .pillar-sibling-arrow {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+ 
+/* the single exit action */
+.pillar-siblings-action {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+ 
+@media only screen and (max-width: 48rem) {
+    .pillar-siblings-grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /*GET CAMPFIRE*/
  
