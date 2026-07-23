@@ -86,7 +86,7 @@ CoinJoin's principal strengths are simplicity, non-custodial operation and compa
 
 Coins that pass through mixers are also often assigned higher compliance risk scores. Exchanges have frozen or discouraged deposits connected to CoinJoin:
 
-- [Binance Returns Frozen BTC After User 'Promises' Not to Use CoinJoin](https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)
+- [Binance Returns Frozen BTC After User 'Promises' Not to Use CoinJoin](https://web.archive.org/web/20200701094809/https://cointelegraph.com/news/binance-returns-frozen-btc-after-user-promises-not-to-use-coinjoin)
 - [BlockFi considered CoinJoin as 'prohibited activities'](https://twitter.com/BlockFiZac/status/1234531935038341120)
 - [Another Crypto Exchange Discourages the Use of Bitcoin Mixing Services](https://news.bitcoin.com/another-crypto-exchange-discourages-the-use-of-bitcoin-mixing-services/)
 
@@ -314,7 +314,7 @@ Zerocash uses zkSNARKs to provide small, fast-to-verify proofs, hidden amounts, 
 
 "Zcash" is not one unchanging proving system. It has moved through **Sprout**, **Sapling**, **Orchard** and now **Ironwood**, each with a different circuit, trust story and failure history.
 
-Adoption of this technology also moves in both directions. Dash [added an Orchard-based shielded pool](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) to its Evolution chain in July 2026, while Horizen, once a prominent Zcash-derived privacy coin, [removed its shielded pool entirely](https://blog.horizen.io/zenip-42207-complete-removal-of-shielded-pool-from-the-horizen-mainchain/) in 2024, a reminder that opt-in privacy can be voted away when it is peripheral to a project's direction.
+Adoption of this technology also moves in both directions. Dash [added an Orchard-based shielded pool](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) to its Evolution chain in July 2026, while Horizen, once a prominent Zcash-derived privacy coin, [removed its shielded pool entirely](https://web.archive.org/web/20250612145820/https://blog.horizen.io/zenip-42207-complete-removal-of-shielded-pool-from-the-horizen-mainchain/) in 2024, a reminder that opt-in privacy can be voted away when it is peripheral to a project's direction.
 
 Projects that reuse these protocols benefit from mature upstream research, libraries and engineering, but inherit a disclosure dependency. During the private remediation of the 2018 Sprout counterfeiting vulnerability, Zcash notified Horizen and Komodo before public disclosure, while not every affected fork was included; [Bitcoin Private was publicly cited as one example](https://fortune.com/crypto/2019/02/05/zcash-vulnerability-cryptocurrency/). Zcash leadership explained that disclosure was initially limited until most exposed market capitalization had been protected.
 
