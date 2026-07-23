@@ -2224,6 +2224,11 @@ img.pillar-mock-logo {
     }
 }
 
+.pillar-page .pillar-next {
+    padding-top: 0;
+}
+
+.pillar-table .spark { font-weight: 700; color: #9b1c2e; }
 
 /*GET CAMPFIRE*/
  
