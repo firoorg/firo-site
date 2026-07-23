@@ -53,6 +53,16 @@ permalink: /pillars/private/index.html
                     <img src="{{ site.baseurl }}/img/private/private-anonset.svg" alt="" loading="lazy">
                 </div>
             </div>
+            
+             <div class="pillar-feature">
+                <div class="pillar-feature-text">
+                    <h2>{% t private.opentitle %}</h2>
+                    <p>{% t private.opentext %}</p>
+                </div>
+                <div class="pillar-feature-art">
+                    <img src="{{ site.baseurl }}/img/private-open.svg" alt="" loading="lazy">
+                </div>
+            </div>
 
         </div>
     </section>
@@ -63,13 +73,18 @@ permalink: /pillars/private/index.html
             <p class="pillar-lead">{% t private.comparelead %}</p>
             <table class="pillar-table">
                 <thead>
-                    <tr><th></th><th>Firo</th><th>Typical privacy coin</th></tr>
+                    <tr>
+                        <th>{% t private.tablecol1 %}</th>
+                        <th>{% t private.tablecol2 %}</th>
+                        <th>{% t private.tablecol3 %}</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Private by default</td><td class="yes">Yes</td><td class="no">Often optional</td></tr>
-                    <tr><td>Hides sender, receiver &amp; amount</td><td class="yes">Yes</td><td class="no">Varies</td></tr>
-                    <tr><td>No trusted setup</td><td class="yes">Yes</td><td class="no">Varies</td></tr>
-                    <tr><td>One shared anonymity set</td><td class="yes">Yes</td><td class="no">Often fragmented</td></tr>
+                    <tr><td>{% t private.table1a %}</td><td class="spark">{% t private.table1b %}</td><td>{% t private.table1c %}</td></tr>
+                    <tr><td>{% t private.table2a %}</td><td class="spark">{% t private.table2b %}</td><td>{% t private.table2c %}</td></tr>
+                    <tr><td>{% t private.table3a %}</td><td class="spark">{% t private.table3b %}</td><td>{% t private.table3c %}</td></tr>
+                    <tr><td>{% t private.table4a %}</td><td class="spark">{% t private.table4b %}</td><td>{% t private.table4c %}</td></tr>
+                    <tr><td>{% t private.table5a %}</td><td class="spark">{% t private.table5b %}</td><td>{% t private.table5c %}</td></tr>
                 </tbody>
             </table>
         </div>
