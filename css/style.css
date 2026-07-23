@@ -3024,6 +3024,178 @@ img.pillar-mock-logo {
     
 }
 
+.buy-page h1,
+.buy-page h2 {
+    color: #3d3939;
+    line-height: 1.15;
+}
+ 
+/* ---------- 1. hero ---------- */
+.buy-hero {
+    background: #9b1c2e;
+    background: -webkit-linear-gradient(top left, #b3203a, #7c1624);
+    background: -o-linear-gradient(top left, #b3203a, #7c1624);
+    background: linear-gradient(135deg, #b3203a, #7c1624);
+    color: #ffffff;
+    padding: 5rem 0;
+}
+.buy-hero .buy-eyebrow {
+    display: inline-block;
+    font-size: .8rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f6c9cf;
+    margin: 0 0 .75rem;
+}
+.buy-hero h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.buy-hero p {
+    max-width: 40rem;
+    font-size: 1.2rem;
+    color: #f6dcdf;
+    margin: 0;
+}
+ 
+/* ---------- 2. sticky jump nav ---------- */
+.buy-jump {
+    background: #ffffff;
+    border-bottom: 1px solid rgba(155, 28, 46, .12);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.buy-jump ul {
+    list-style: none;
+    margin: 0;
+    padding: 1.1rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.buy-jump li { margin: 0; }
+.buy-jump a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .98rem;
+    color: #6b6666;
+    padding-bottom: .2rem;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.buy-jump a:hover,
+.buy-jump a:focus {
+    color: #9b1c2e;
+    border-bottom-color: #9b1c2e;
+}
+ 
+/* ---------- 3. section bands ---------- */
+.buy-page .section { padding: 5rem 0; }
+.buy-tint { background-color: #fff3f3; }
+ 
+.buy-head {
+    max-width: 44rem;
+    margin-bottom: 2.5rem;
+}
+.buy-head h2 {
+    font-size: 2rem;
+    margin: 0 0 .5rem;
+}
+.buy-head p {
+    color: #6b6666;
+    font-size: 1.08rem;
+    margin: 0;
+}
+ 
+/* ---------- 4. logo card grid ---------- */
+.buy-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.25rem 1fr 1.25rem 1fr 1.25rem 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+}
+.buy-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 7rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border: 1px solid rgba(155, 28, 46, .12);
+    border-radius: 12px;
+    text-decoration: none;
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.buy-card:hover,
+.buy-card:focus {
+    border-color: rgba(155, 28, 46, .4);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0 12px 24px 0 rgba(155, 28, 46, .08);
+    box-shadow: 0 12px 24px 0 rgba(155, 28, 46, .08);
+}
+/* caps the wildly different source logo sizes to one consistent height */
+.buy-card img {
+    max-width: 100%;
+    max-height: 2.75rem;
+    width: auto;
+    height: auto;
+    display: block;
+}
+ 
+/* ---------- 5. disclaimer ---------- */
+.buy-disclaimer-band { padding: 3rem 0; }
+.buy-disclaimer {
+    max-width: 52rem;
+    background: #fff3f3;
+    border-left: 4px solid rgba(155, 28, 46, .35);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    font-size: .95rem;
+    color: #6b6666;
+    margin: 0;
+}
+.buy-tint .buy-disclaimer { background: #ffffff; }
+.buy-disclaimer b { color: #3d3939; }
+ 
+/* ---------- 6. responsive ---------- */
+@media only screen and (max-width: 62rem) {
+    .buy-grid {
+        -ms-grid-columns: 1fr 1.25rem 1fr 1.25rem 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 48rem) {
+    .buy-grid {
+        -ms-grid-columns: 1fr 1.25rem 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .buy-hero { padding: 3.5rem 0; }
+    .buy-hero h1 { font-size: 2.2rem; }
+    .buy-hero p { font-size: 1.05rem; }
+    .buy-page .section { padding: 3.5rem 0; }
+    .buy-jump ul { gap: 1.25rem; padding: .9rem 0; }
+    .buy-jump a { font-size: .9rem; }
+    .buy-head h2 { font-size: 1.7rem; }
+}
+
 /*team*/
 
 .team-section .container h2, .site-section .container h2, .tech-section .container h2 {
