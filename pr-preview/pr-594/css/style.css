@@ -2670,6 +2670,340 @@ img.pillar-mock-logo {
     color: #9b1c2e;
 }
 
+/*  New download wallet page  */
+
+.dl-page h1,
+.dl-page h2,
+.dl-page h3 {
+    color: #3d3939;
+    line-height: 1.15;
+}
+ 
+/* ---------- 1. hero ---------- */
+.dl-hero {
+    background: #9b1c2e;
+    background: -webkit-linear-gradient(top left, #b3203a, #7c1624);
+    background: -o-linear-gradient(top left, #b3203a, #7c1624);
+    background: linear-gradient(135deg, #b3203a, #7c1624);
+    color: #ffffff;
+    padding: 5rem 0;
+}
+.dl-hero .dl-eyebrow {
+    display: inline-block;
+    font-size: .8rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f6c9cf;
+    margin: 0 0 .75rem;
+}
+.dl-hero h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.dl-hero p {
+    max-width: 40rem;
+    font-size: 1.2rem;
+    color: #f6dcdf;
+    margin: 0;
+}
+ 
+/* ---------- 2. safety callout band ---------- */
+.dl-safety-band {
+    background-color: #fff3f3;
+    padding: 2.5rem 0;
+}
+.dl-safety {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5rem 1fr 1.5rem 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.dl-safety-item {
+    background: #ffffff;
+    border-left: 4px solid #9b1c2e;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    font-size: .95rem;
+    color: #6b6666;
+}
+.dl-safety-item p { margin: 0; }
+.dl-safety-item a {
+    color: #9b1c2e;
+    font-weight: 700;
+    text-decoration: none;
+}
+.dl-safety-item a:hover,
+.dl-safety-item a:focus { text-decoration: underline; }
+ 
+/* ---------- 3. section heads ---------- */
+.dl-page .section { padding: 5rem 0; }
+.dl-tint { background-color: #fff3f3; }
+ 
+.dl-head {
+    max-width: 44rem;
+    margin-bottom: 2.5rem;
+}
+.dl-head h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+ 
+/* ---------- 4. official wallet cards ---------- */
+.dl-wallets {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.5rem 1fr 1.5rem 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+}
+.dl-wallet {
+    background: #ffffff;
+    border: 1px solid rgba(155, 28, 46, .12);
+    border-radius: 14px;
+    padding: 2rem 1.75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-shadow: 0 12px 24px 0 rgba(155, 28, 46, .05);
+    box-shadow: 0 12px 24px 0 rgba(155, 28, 46, .05);
+}
+.dl-wallet.featured {
+    border-color: rgba(155, 28, 46, .45);
+    -webkit-box-shadow: 0 16px 32px 0 rgba(155, 28, 46, .10);
+    box-shadow: 0 16px 32px 0 rgba(155, 28, 46, .10);
+}
+.dl-flag {
+    display: inline-block;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    font-size: .68rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    background: #9b1c2e;
+    border-radius: 100px;
+    padding: .25rem .75rem;
+    margin: 0 0 1rem;
+}
+.dl-wallet h3 {
+    font-size: 1.6rem;
+    margin: 0 0 .25rem;
+}
+.dl-version {
+    font-size: .95rem;
+    color: #83868c;
+    margin: 0;
+}
+.dl-version a {
+    color: #9b1c2e;
+    font-weight: 700;
+    text-decoration: none;
+}
+.dl-version a:hover,
+.dl-version a:focus { text-decoration: underline; }
+.dl-tagline {
+    font-size: 1rem;
+    color: #6b6666;
+    margin: 1rem 0 1.5rem;
+}
+ 
+/* download rows */
+.dl-list {
+    list-style: none;
+    margin: auto 0 0;
+    padding: 0;
+}
+.dl-list li {
+    border-top: 1px solid rgba(155, 28, 46, .10);
+    margin: 0;
+}
+.dl-list li:first-child { border-top: none; }
+.dl-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: .6rem;
+    padding: .7rem 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .98rem;
+    color: #3d3939;
+    -webkit-transition: color ease-out .2s;
+    transition: color ease-out .2s;
+}
+.dl-row:hover,
+.dl-row:focus { color: #9b1c2e; }
+.dl-row .dl-os {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.dl-row .dl-arrow { color: #9b1c2e; }
+ 
+
+.dl-hash { margin: 0 0 .5rem; }
+.dl-hash summary {
+    cursor: pointer;
+    font-size: .78rem;
+    color: #a08a8d;
+    list-style: none;
+    padding: .15rem 0;
+}
+.dl-hash summary::-webkit-details-marker { display: none; }
+.dl-hash summary::before { content: "+ "; font-weight: 700; }
+.dl-hash[open] summary::before { content: "\2212 "; }
+.dl-hash summary:hover,
+.dl-hash summary:focus { color: #9b1c2e; }
+.dl-hash code {
+    display: block;
+    font-size: .72rem;
+    word-break: break-all;
+    color: #6b6666;
+    background: #fff3f3;
+    border-radius: 6px;
+    padding: .5rem .6rem;
+    margin-top: .35rem;
+}
+ 
+.dl-source {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(155, 28, 46, .10);
+}
+.dl-source a {
+    color: #9b1c2e;
+    font-size: 1.35rem;
+    text-decoration: none;
+    margin-right: .85rem;
+    -webkit-transition: opacity ease-out .2s;
+    transition: opacity ease-out .2s;
+}
+.dl-source a:hover,
+.dl-source a:focus { opacity: .7; }
+ 
+/* ---------- 5. third-party wallets ---------- */
+.dl-tp-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.25rem 1fr 1.25rem 1fr 1.25rem 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+}
+.dl-tp-card {
+    background: #ffffff;
+    border: 1px solid rgba(155, 28, 46, .12);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.dl-tp-card:hover {
+    border-color: rgba(155, 28, 46, .35);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+.dl-tp-card img.dl-tp-logo {
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+    width: auto;
+    height: auto;
+    margin: 0 auto .75rem;
+    display: block;
+}
+.dl-tp-card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 .75rem;
+}
+.dl-tp-platforms {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.dl-tp-platforms li { margin: 0; }
+.dl-tp-platforms a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 8px;
+    background: #fff3f3;
+    -webkit-transition: background ease-out .2s;
+    transition: background ease-out .2s;
+}
+.dl-tp-platforms a:hover { background: rgba(155, 28, 46, .15); }
+.dl-tp-platforms img {
+    width: 1.1rem;
+    height: 1.1rem;
+    display: block;
+}
+ 
+
+.dl-disclaimer {
+    max-width: 52rem;
+    margin: 2.5rem 0 0;
+    background: #ffffff;
+    border-left: 4px solid rgba(155, 28, 46, .35);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    font-size: .95rem;
+    color: #6b6666;
+}
+.dl-disclaimer b { color: #3d3939; }
+ 
+@media only screen and (max-width: 62rem) {
+    .dl-wallets,
+    .dl-safety {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .dl-tp-grid {
+        -ms-grid-columns: 1fr 1.25rem 1fr 1.25rem 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 48rem) {
+    .dl-hero { padding: 3.5rem 0; }
+    .dl-hero h1 { font-size: 2.2rem; }
+    .dl-hero p { font-size: 1.05rem; }
+    .dl-page .section { padding: 3.5rem 0; }
+    .dl-head h2 { font-size: 1.7rem; }
+    .dl-tp-grid {
+        -ms-grid-columns: 1fr 1.25rem 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 .tech-section .mob-wallets {
     margin-left: 1rem;
     margin-right: 1rem;
