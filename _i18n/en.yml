@@ -268,6 +268,10 @@ ecosystem:
   nextcta: "Get involved"
 
 download:
+  lead: "Choose the wallet that fits how you want to use Firo. All of them are private by default."
+  recommended: "Recommended"
+  tpdisclaimerlabel: "Note."
+  tpdisclaimertext: "These wallets are built and maintained by third parties, not by the Firo team. Listing here is not an endorsement. Review them yourself before trusting them with your funds."
   heading: Download a wallet
   official: recommended wallets
   backup: Back up your wallet prior to updating
@@ -329,17 +333,17 @@ buyfiro:
   liquidstaking: liquid staking
   eyebrow: "Get Firo"
   heading: "Buy Firo"
-  lead: "Firo is listed on centralized exchanges, decentralized exchanges, and coin-swapping services. Pick whichever suits how you already hold your crypto."
+  lead: "Firo is listed on exchanges, decentralized exchanges, and coin-swapping services. Pick whichever suits how you already hold your crypto."
   jumplabel: "Jump to a section"
   jumpdex: "Decentralized exchanges"
-  jumpexchanges: "Centralized exchanges"
+  jumpexchanges: "Exchanges"
   jumpswap: "Coin-swapping"
   dextitle: "Decentralized exchanges"
   dextext: "Trade peer to peer from your own wallet. You keep custody of your coins throughout."
-  exchangestitle: "Centralized exchanges"
+  exchangestitle: "Exchanges"
   exchangestext: "Trade FIRO against other cryptocurrencies on a centralized exchange. Most require an account and identity verification."
   swaptitle: "Coin-swapping services"
-  swaptext: "Swap another cryptocurrency straight for FIRO. No account to open: you send one coin/token and receive FIRO at the address you give."
+  swaptext: "Swap another cryptocurrency straight for FIRO. No account to open: you send one coin and receive FIRO at the address you give."
   disclaimerlabel: "Disclaimer."
   disclaimertext: "Some of these links are referral links, and the Firo core team may receive compensation if you sign up or use these products and services. Listing here is not an endorsement."
   
