@@ -1,20 +1,20 @@
-firo_qt_version: "0.14.16.1"
-firo_old_commit: ffb16cbc270b
-firo_new_commit: 2fade3dfc0b4
+firo_qt_version: "0.15.16.17"
+firo_old_commit: abcdef
+firo_new_commit: ingo
 
 
-qt_hashes_win: ea5c5a885bce58f563e4307a754bf59d9e16105a3568593d64474b6f1e279bfb
-qt_hashes_mac: d03b3a8663282ad290d5f71c70572e710dfcbc90799e23f5ecab9e681db57a73
-qt_hashes_mac_arm: 3b74f86161c65889c321d81b569aae3e7afeb481d13f50d1f93ab3aba66291f3
-qt_hashes_lin: f2b7dba9adfbfebaf4812ca96c39f4f94fdb03ea7e1a7e5c346f8d2f626594e0
-qt_hashes_lin_arm64: c9a4a268d9569ccf13bb388229b57655aaeab42c39dca0f4291f737f0bf955a6
+qt_hashes_win: abc
+qt_hashes_mac: def
+qt_hashes_mac_arm: ghi
+qt_hashes_lin: jkl
+qt_hashes_lin_arm64: mno
 
-campfire_version: "2.6.0"
-campfire_hashes_win: cca29fa955ab98509ccc52522601453b9e045d38bbc2c59933f89341559933b6
-campfire_hashes_mac: 3a773295afe72ca68926c42ce1c7e9d726dd48d952d1efeab76213eb6e183bc0
-campfire_hashes_lin: f15d805264c7ca0db65a27ea5a339db8cc0ed09c5aa929af3ec9c1f0c408036d
+campfire_version: "6.6.6"
+campfire_hashes_win: a1b2c3
+campfire_hashes_mac: 321123
+campfire_hashes_lin: abcdef
 
-firo_electrum_version: "4.1.5.7"
-electrum_hashes_win: bd74716c3dc292c5b6ffd46282c23485e3a9c94b9834cd81f0d2fe2220319fba
-electrum_hashes_mac: 92b8ea9a1ef3a49e48347217141eebb7e30e3c5679f20885c7f9ea06e95d2691
-electrum_hashes_lin: 3fafc2be37e17f366f90b6d4cb8ede9db269e4ff0c638e5628d549557ae0815c
+firo_electrum_version: "4.4.4.4"
+electrum_hashes_win: xyz
+electrum_hashes_mac: abc123
+electrum_hashes_lin: xyz987
