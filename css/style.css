@@ -5438,11 +5438,11 @@ body,
     width: 100%;
     height: 100%;          
     background-image:
-        url(/img/herologospark.svg),
+        url(/img/herologosparkv2-edited.svg),
         url(/img/heroBG.svg),
         linear-gradient(180deg, #c4133f 0%, #c4133f 55%, #FFF3F3 100%);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: right -4rem center, center top, top left;
+    background-position: right 8rem center, center top, top left;
     background-size: 34rem auto, cover, 100% 100%;
     z-index: -1;
 }
@@ -5551,15 +5551,25 @@ br.brmob {
 /* logo centered low; texture still spread (cover); gradient underneath */
 #introwrap:before {
     background-image:
-        url(/img/herologospark.svg),
+        url(/img/herologosparkv2-edited.svg),
         url(/img/heroBG.svg),
         linear-gradient(180deg, #c4133f 0%, #c4133f 62%, #FFF3F3 100%);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center bottom -2rem, center top, top left;
-    background-size: 28rem auto, cover, 100% 100%;
+    background-position: center bottom -1rem, center top, top left;
+    background-size: 18rem auto, cover, 100% 100%;
 }
  
 }
+
+@media only screen and (max-width: 30rem) {
+
+#introwrap:before {
+    background-size: 14rem auto, cover, 100% 100%;
+}
+
+}
+
+
 
 /* content changes */
 
