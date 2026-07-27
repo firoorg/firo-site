@@ -9,7 +9,7 @@ global:
 titles:
   home: Home
   download: Download
-  buyfiro: Buy Firo
+  buyfiro: "Buy Firo"
   tech: Research
   team: Team
   roadmap: Roadmap
@@ -20,6 +20,9 @@ titles:
   blog: Blog
   branding: Branding
   merchants: Merchants
+  pillar1: Private
+  pillar2: Practical
+  pillar3: Ecosystem
   
 navigation:
   getfiro: Get Firo
@@ -40,6 +43,7 @@ navigation:
   faq: FAQ
   fcs: Firo Crowdfunding System
   opencollective: Open Collective
+  whatisfiro: "What is Firo?"
   
 footer:
   resources: Resources
@@ -58,15 +62,52 @@ footer:
   
 home:
   heading: Sparking <br class="brmob">a privacy revolution
-  heading2: Firo is a privacy preserving cryptocurrency <br>and ecosystem.
+  heading2: Private money, for everyone. <br>No surveillance. No trails. No compromises.
+  happening: What is happening now.
+  case: Used in the real world. Right now.
+  case1: In 2018, the Thai Democrat Party used Firo to run its primary election, the first time a major political party conducted a large-scale vote on a public blockchain. Over 127,000 people voted with full privacy and a verifiable result.
+  case2: In Syria, community members are not waiting for a better system to arrive. They are building one. A local Firo education office is already being established to give people a practical way to hold and transfer value privately, outside of a banking system that rations their own money back to them. This is what Firo adoption looks like on the ground.
+  case3: At the 2025 Monero Conference in Prague, privacy researchers and developers from competing projects singled out Firo as one of the few projects with genuine technical integrity. That kind of recognition across community lines is not given lightly.
   cta1: Get Firo
-  cta2: Learn more
-  about: How Firo works
-  aboutp: Firo stands out by leading the charge in privacy and protocol innovation. Our pioneering research focuses on how privacy should work in digital finance.
+  cta2: Download Wallet
+  campfire: "Get Campfire"
+  campfiretext: "Firo on your mobile phone"
+  firomsg: "Your money shouldn't be a tracking device"
+  firomsgp: "Firo lets you send and receive money privately. Your balance, your history, who you're paying: hidden by default, visible only to those you choose"
+  pillar1: "Private"
+  pillar1text1: "State of the art Lelantus Spark technology"
+  pillar1text2: "Private balances and transaction"
+  pillar1text3: "Strong anonymity set"
+  pillar1link: "Learn more"
+  pillar2: "Practical"
+  pillar2text1: "Spark Names"
+  pillar2text2: "Spark Addresses"
+  pillar2text3: "InstantSend"
+  pillar2text4: "Campfire"
+  pillar2link: "Explore"  
+  pillar3: "Ecosystem"
+  pillar3text1: "Spark Assets"
+  pillar3text2: "FiroDEX"
+  pillar3text3: "RosenBridge"
+  pillar3link: "Discover More"
+  quote2: "“Privacy is necessary for an open society in the electronic age.”"
+  quote2a: "- A CYPHERPUNK'S MANIFESTO · 1993"
+  problem_heading: Money is already a surveillance tool.
+  problem1: "Most digital currencies record your entire financial history permanently. Your balance, your habits, every person you ever paid. Anyone with the right tools can see it all. That is not a bug: it is by design."
+  problem2: Your bank knows more about your life than most people do. Every purchase is logged and sold. You were never asked for permission. As cash disappears, so does the last form of truly private spending.
+  problem3: This is not theoretical. In Syria, weekly bank withdrawals are capped at around $38. A community member is already building a physical office to teach people how to use Firo as a practical alternative.
+  problem4: "Privacy is not about hiding. It is about consent: the right to choose who sees what you spend. That right used to come with cash. Firo brings it back."
   privacy: Privacy
   privacy1: Firo developed Lelantus Spark that provides trustless, on-chain privacy with high anonymity sets. Dandelion++ technology provides network-layer privacy.
   privacy2: anonymity set
   privacy3: trustless setup
+  apart: The privacy technology others build on.
+  apart1: Most privacy projects adopt existing technology and rebrand it. Firo builds from scratch. The privacy systems we have designed have been adopted by other major projects in the space. When the industry needed a better model, they looked at what Firo built.
+  apart2: We have been doing this since 2016. Our work has been independently audited, peer-reviewed, and published. We are not new to this.
+  pointproof1: 9 years of continuous development.
+  pointproof2: Original Research. Not forks, not copies.
+  pointproof3: Independently audited by third-party security firms.
+  pointproof4: Referenced and adopted by other major privacy projects.
   blockchain: Blockchain
   blockchain1: Our hybrid PoW and LLMQ Chainlocks system defends against 51% attacks while ensuring near-instant finality of blocks and transactions, making Firo an ideal choice for secure and efficient payments.
   blockchain2: total supply + tail emission
@@ -76,6 +117,14 @@ home:
   privacyin1: With Spark Assets, Firo extends privacy beyond just transactions to the assets themselves. This feature conceals the type of asset being transferred, making it perfect for creating privacy-focused tokens that can be used in secure, anonymous applications like voting or private tokenized assets.
   randd: Research and Development
   randd1: Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies such as Zerocoin, Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.
+  sparkassets: Privacy for every asset, not just Firo
+  sparkassets1: "Firo's privacy doesn't stop at its own currency. Spark Assets lets any token inherit the same protections: stablecoins, loyalty points, voting credentials, NFTs. Once inside Firo's network, assets become indistinguishable from one another. Private infrastructure for anything that moves value."
+  solution: Privacy that does not ask you to trust anyone
+  solution1: "When you send Firo, the amount, sender, and recipient are all hidden. Not blurred, not optional: hidden. No setup required. Privacy is how it works."
+  solution2: Most transactions can be traced back to the device that sent them. Firo is designed so even your internet connection reveals nothing. Anonymous from the start.
+  solution3: Firo transactions confirm in seconds and can not be reversed or tampered with. Thousands of independent nodes keep the network honest. No central party to pressure, hack, or shut down.
+  community: Community-funded. Community-governed.
+  community1: "Firo's development is funded through a decentralized Community Fund: not a corporate treasury, not venture capital. Anyone can propose ideas, and the community votes on what gets built. This is not governance theater. It is how Firo actually works."
   getfiro: Get Firo
   getfiro1: Buy, mine, or earn Firo, and join the privacy revolution. <br>Store your Firo in one of our feature-filled wallets, optimized for power, accessibility, and user experience.
   getfiro2: Get a wallet
@@ -90,8 +139,139 @@ home:
   getfiro5: Start mining
   getfiro5text: FiroPoW, Firo mining algorithm, is designed to be mined by GPUs. Follow our guide to start mining your first Firo.
   getfiro5link: Read the mining guide
+  getcampfirelink: Download it now
+  manifesto: "Privacy is necessary for an open society in the electronic age."
+
+pillars:
+  nexttitle: "Where to next"
+  label: "Pillar"
+  privatetitle: "Private"
+  privatepitch: "How Firo hides your balance and payments, and why that privacy holds up."
+  practicaltitle: "Practical"
+  practicalpitch: "Spark Names, payments final in seconds, and a wallet simple enough for every day."
+  ecosystemtitle: "Ecosystem"
+  ecosystempitch: "Confidential tokens on Firo, a bridge to other chains, and trading without custody."
+
+private:
+  heading: "Your money is nobody's business"
+  lead: "Most cryptocurrencies expose your balance and payment history on a public ledger. In Firo’s official wallets, Spark makes private payments the default."
+  cta: "Get a private wallet"
+  sparktitle: "Lelantus Spark"
+  sparktext: "Firo’s privacy protocol for direct payments. Spark hides the sender, recipient, and amount from public ledger observers, while zero-knowledge proofs let the network verify every transaction without requiring a trusted setup."
+  sparklink: "Read the research"
+  balancestitle: "Private balances and Payments"
+  balancestext: "Spark addresses cannot be searched on the blockchain like ordinary public addresses. Funds held and payments made with Spark stay out of public view, while view keys let you share transaction information when you choose."
+  anonsettitle: "Large, overlapping anonymity sets"
+  anonsettext: "Each Spark spend is hidden among a large set of possible coins. These sets are arranged as overlapping windows, so a new set carries privacy forward from the previous one instead of starting with an empty crowd. The more Spark activity, the larger the crowd to hide in."
+  opentitle: "Privacy built to be understood and to last."
+  opentext: "Private money should not depend on a single company or a small circle of experts. Spark combines established cryptographic building blocks, published research, open-source code, and a modular design to make independent scrutiny and long-term maintenance practical."
+  comparetitle: "Design choices you can check"
+  comparelead: "Privacy you cannot inspect is privacy you have to take on trust. Here is how Spark is built, and what each choice makes possible."
+  tablecol1: "Design choice"
+  tablecol2: "Spark"
+  tablecol3: "Why it matters"
+  table1a: "Established cryptographic foundations"
+  table1b: "Yes"
+  table1c: "Easier for independent experts to analyze"
+  table2a: "Public research and source code"
+  table2b: "Yes"
+  table2c: "Others can inspect, implement, and maintain the work"
+  table3a: "Modular construction"
+  table3b: "Yes"
+  table3c: "Components can be reviewed and upgraded separately"
+  table4a: "Independent audits"
+  table4b: "Cryptography and code"
+  table4c: "Scrutiny beyond the original developers"
+  table5a: "Trusted setup"
+  table5b: "Not required"
+  table5c: "No secret setup material to generate and destroy"
+  trust1b: "Privacy development since 2016"
+  trust1s: "Four generations of protocol work"
+  trust2b: "Published in the open"
+  trust2s: "Public papers, security proofs, and source code"
+  trust3b: "Audited by outside experts"
+  trust3s: "Spark’s cryptography and implementation reviewed"
+  trust4b: "Built for continuity"
+  trust4s: "A modular design others can understand and maintain"
+  ctatitle: "Ready for private money?"
+  ctawallet: "Get a wallet"
+  ctaresearch: "Read the research"
+  nextlead: "Private is one side of Firo. Here are the other two."
+  nextcta: "Get a wallet"
+
+practical:
+  heading: "Privacy you don't have to fight"
+  lead: "Private money has a reputation for being slow, technical, and awkward. Firo's isn't. It is built to use every day: on your phone, in seconds, without the headache."
+  cta: "Get Campfire"
+  cta2: "See all wallets"
+  featureseyebrow: "Features"
+  featurestitle: "Built for everyday use"
+  namestitle: "Spark Names"
+  namestext: "Send to a name, not a string. Pay to a simple, human-readable name instead of copying a long, error-prone address."
+  nameslink: "Learn more about SparkNames"
+  addresstitle: "Spark Address"
+  addresstext: "One address, reuse it freely. Share a single Spark address publicly and keep receiving to it, payment after payment, privately."
+  addresslink: "About Spark Address"
+  instantsendtitle: "InstantSend"
+  instantsendtext: "Confirmed in seconds. Payments are final almost instantly, even before the next block: fast enough for a real checkout."
+  instantsendlink: "How InstantSend works"
+  campfiretitle: "Campfire"
+  campfiretext: "Privacy in your pocket. A full private Firo wallet on your phone, with setup simple enough for a first-timer."
+  campfirelink: "Get Campfire"
+  howeyebrow: "How it works"
+  howtitle: "Sending Firo, start to finish"
+  howlead: "Three steps. No jargon, no node, no waiting around."
+  step1title: "Open Campfire"
+  step1text: "Open the app and unlock with your PIN or biometrics. Your wallet is ready."
+  step1mocksub: "Unlocked"
+  step2title: "Pick a name or paste an address"
+  step2text: "Type a Spark Name, or paste an address. Campfire checks it for you."
+  step2mocklabel: "Pay to"
+  step3title: "Send"
+  step3text: "Confirm the amount and send. It's private, and final in seconds."
+  step3mockbtn: "Send privately"
+  trust1b: "Mobile and desktop"
+  trust1s: "Windows, macOS, Linux, iOS, and Android"
+  trust2b: "Private by default"
+  trust2s: "Spark privacy enabled automatically"
+  trust3b: "Ready in seconds"
+  trust3s: "InstantSend means no waiting for the next block"
+  trust4b: "Open source"
+  trust4s: "Code available for public review"
+  nextlead: "Practical is one side of Firo. Here are the other two."
+  nextcta: "Download Campfire"
   
+ecosystem:
+  heading: "Privacy that reaches further"
+  lead: "Firo's privacy doesn't stop at FIRO. It can carry new tokens, reach other chains, and trade without giving up custody, bringing strong privacy to a wider slice of crypto."
+  cta: "Explore Spark Assets"
+  cta2: "Read the research"
+  spatseyebrow: "The centerpiece"
+  spatstitle: "Spark Assets"
+  spatstagline: "Create your own confidential token on Firo."
+  spatstext1: "Spark Assets, or Spats, extends Lelantus Spark, the privacy engine behind FIRO, so it can protect more than just FIRO. You can create your own token directly on the Firo blockchain, and it lives there as a Spark Asset with the same strong privacy FIRO already has."
+  spatstext2: "That turns Firo into a place to issue and hold confidential tokens, each one private by default, all on one chain."
+  callouttitle: "Every token hides the others"
+  callouttext: "Here is the part that makes it powerful: every Spark Asset is indistinguishable from every other asset or even Firo.  A transaction sending Token A looks exactly like one sending Token B. So every payment on the Spats layer helps hide every other one, and the more tokens and activity it carries, the stronger privacy gets for everyone."
+  roseneyebrow: "Reach"
+  rosentitle: "RosenBridge"
+  rosentext1: "Privacy coins need censorship resistant liquidity. RosenBridge connects FIRO to other blockchains. When FIRO crosses the bridge, the native coin is locked and an equal amount of rsFIRO (Rosen-wrapped FIRO) is minted as a standard token on the target chain, such as Ethereum or BNB Chain allowing it to participate in its rich and liquid DeFi ecosystems."
+  rosentext2: "RosenBridge does not depend on one exchange or custodian. Its design spreads responsibility across independent participants, making it harder for any single entity to block access to FIRO."
+  firodexeyebrow: "Trade"
+  firodextitle: "Atomic swap DEXes"
+  firodextext1: "FiroDEX and BasicSwap let you trade FIRO directly with another person. They use atomic swaps, which means you keep custody of your coins the whole time: no account to open, no company holding your funds."
+  firodextext2: "It is how you swap into and out of FIRO without trusting a centralized exchange, keeping the self-custody spirit of private money intact."
+  closingtitle: "A growing ecosystem"
+  closingtext: "Spark Assets, RosenBridge, and FiroDEX are the first pieces. More ways to use and connect Firo's privacy are on the way."
+  closingcta: "Get involved"
+  nextlead: "Ecosystem is one side of Firo. Here are the other two."
+  nextcta: "Get involved"
+
 download:
+  lead: "Choose the wallet that fits how you want to use Firo. All of them are private by default."
+  recommended: "Recommended"
+  tpdisclaimerlabel: "Note."
+  tpdisclaimertext: "These wallets are built and maintained by third parties, not by the Firo team. Listing here is not an endorsement. Review them yourself before trusting them with your funds."
   heading: Download a wallet
   official: recommended wallets
   backup: Back up your wallet prior to updating
@@ -151,6 +331,21 @@ buyfiro:
   csservice: coin-swapping services
   dex: dex
   liquidstaking: liquid staking
+  eyebrow: "Get Firo"
+  heading: "Buy Firo"
+  lead: "Firo is listed on exchanges, decentralized exchanges, and coin-swapping services. Pick whichever suits how you already hold your crypto."
+  jumplabel: "Jump to a section"
+  jumpdex: "Decentralized exchanges"
+  jumpexchanges: "Exchanges"
+  jumpswap: "Coin-swapping"
+  dextitle: "Decentralized exchanges"
+  dextext: "Trade peer to peer from your own wallet. You keep custody of your coins throughout."
+  exchangestitle: "Exchanges"
+  exchangestext: "Trade FIRO against other cryptocurrencies on a centralized exchange. Most require an account and identity verification."
+  swaptitle: "Coin-swapping services"
+  swaptext: "Swap another cryptocurrency straight for FIRO. No account to open: you send one coin and receive FIRO at the address you give."
+  disclaimerlabel: "Disclaimer."
+  disclaimertext: "Some of these links are referral links, and the Firo core team may receive compensation if you sign up or use these products and services. Listing here is not an endorsement."
   
 tech:
   heading: Research
