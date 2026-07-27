@@ -5442,8 +5442,8 @@ body,
         url(/img/heroBG.svg),
         linear-gradient(180deg, #c4133f 0%, #c4133f 55%, #FFF3F3 100%);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: right -4rem top 6rem, center top, top left;
-    background-size: 42rem auto, cover, 100% 100%;
+    background-position: right -4rem center, center top, top left;
+    background-size: 34rem auto, cover, 100% 100%;
     z-index: -1;
 }
  
