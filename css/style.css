@@ -1305,10 +1305,15 @@ a.btn-primary, a.btn-secondary {
     z-index: 1;                    /* keep text/image above the particles */
 }
  
+/* image left, quote right */
 #manifesto .manifesto-band {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1316,12 +1321,12 @@ a.btn-primary, a.btn-secondary {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
- 
+
 #manifesto .manifesto-quote {
     -webkit-box-flex: 1;
     -ms-flex: 1.15 1 0%;
     flex: 1.15 1 0%;               /* quote gets a touch more room than the image */
-    padding-right: 2rem;
+    padding-left: 2rem;
 }
  
 #manifesto .manifesto-quote blockquote {
@@ -1370,7 +1375,7 @@ a.btn-primary, a.btn-secondary {
         text-align: center;
     }
     #manifesto .manifesto-quote {
-        padding-right: 0;
+        padding-left: 0;
         margin-bottom: 2.5rem;
     }
     #manifesto .manifesto-quote blockquote { font-size: 1.7rem; }
@@ -1810,6 +1815,11 @@ a.btn-primary, a.btn-secondary {
     }
     .pillar-page h1 { font-size: 2.2rem; }
     .pillar-page h2 { font-size: 1.7rem; }
+    .pillar-table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 }
 
 /* tint band utility + centered section heading */
@@ -2937,6 +2947,8 @@ img.pillar-mock-logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -5558,10 +5570,22 @@ br.brmob {
     background-position: center bottom -1rem, center top, top left;
     background-size: 18rem auto, cover, 100% 100%;
 }
- 
+
+}
+
+@media only screen and (max-width: 48rem) {
+
+#intro .intro-info h1 {
+    font-size: 4rem;
+}
+
 }
 
 @media only screen and (max-width: 30rem) {
+
+#intro .intro-info h1 {
+    font-size: 3.5rem;
+}
 
 #introwrap:before {
     background-size: 14rem auto, cover, 100% 100%;
@@ -6362,6 +6386,9 @@ footer .social-icons a img {
         flex: 1 1 0;
         max-width: 100%;
     }
+    #intro-info .row > .col h2 + p {
+        width: auto;
+    }
     #intro-info .row > .col.col-img {
         -ms-flex: 0 0 40%;
         flex: 0 0 40%;
@@ -6380,16 +6407,4 @@ footer .social-icons a img {
 }
 #home #intro-info {
     padding-top: 3rem;
-}
-
-/* manifesto: image left, quote right */
-#manifesto .manifesto-band {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-}
-#manifesto .manifesto-quote {
-    padding-right: 0;
-    padding-left: 2rem;
 }
