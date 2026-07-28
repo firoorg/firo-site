@@ -273,12 +273,12 @@ download:
   tpdisclaimerlabel: "Note."
   tpdisclaimertext: "These wallets are built and maintained by third parties, not by the Firo team. Listing here is not an endorsement. Review them yourself before trusting them with your funds."
   heading: Download a wallet
-  official: recommended wallets
+  official: Recommended wallets
   backup: Back up your wallet prior to updating
   verify: Verify hashes using
   verify1: this public key
   guide: Use this official
-  guide1: wallet installation and usage guide
+  guide1: Wallet installation and usage guide
   changelog: View changelog
   option1: Full node, full features
   option2: Recommended for most users
@@ -314,7 +314,7 @@ download:
   optionmob3: Android & iOS
   campfiremob: Campfire Wallet
   stackwalletmob: Stack Wallet
-  wallets: third-party wallets
+  wallets: Third-party Wallets
 
 buyfiro:
   heading: Buy Firo
