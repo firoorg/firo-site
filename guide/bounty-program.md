@@ -28,13 +28,13 @@ The program covers vulnerabilities reproduced against the `master` branch of [fi
 
 Vulnerabilities are classified into three categories. If there is a dispute over the severity of a vulnerability, the Firo core team's assessment is definitive.
 
-### Critical: 10,000 up to 50,000 USD (in FIRO equivalent)
+### Critical: 5,000 up to 10,000 USD (in FIRO equivalent)
 
 A critical vulnerability is such that impacts the Firo network as a whole, has potential to break the entire Firo network, completely removes the anonymity of Lelantus, results in the loss of Firo, or is on a scale of great catastrophe.
 
 Example: A vulnerability that allows forged Lelantus spends to inflate coin supply.
 
-### Major: 1,000 up to 10,000 USD (in FIRO equivalent)
+### Major: 1,000 up to 5,000 USD (in FIRO equivalent)
 
 A major vulnerability is such that it impacts individual nodes, routers, wallets, reduces the anonymity of Lelantus significantly (timing attacks excluded) or must be carefully exploited.
 
