@@ -26,20 +26,20 @@ permalink: /about/roadmap/index.html
             </div>
             <div class="row">
               <div class="col">
-                <ul class="roadmap-focus-list">
-                  <li class="row">
-                    <p class="col">{% t roadmap.usability %}</p>
-                    <p class="col">{% t roadmap.usabilityp %}</p>
-                  </li>
-                  <li class="row">
-                    <p class="col">{% t roadmap.utility %}</p>
-                    <p class="col">{% t roadmap.utilityp %}</p>
-                  </li>
-                  <li class="row">
-                    <p class="col">{% t roadmap.upgrades %}</p>
-                    <p class="col">{% t roadmap.upgradesp %}</p>
-                  </li>
-                </ul>
+                <div class="roadmap-pillar-grid">
+                  <div class="roadmap-pillar">
+                    <h3>{% t roadmap.usability %}</h3>
+                    <p>{% t roadmap.usabilityp %}</p>
+                  </div>
+                  <div class="roadmap-pillar">
+                    <h3>{% t roadmap.utility %}</h3>
+                    <p>{% t roadmap.utilityp %}</p>
+                  </div>
+                  <div class="roadmap-pillar">
+                    <h3>{% t roadmap.upgrades %}</h3>
+                    <p>{% t roadmap.upgradesp %}</p>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -52,44 +52,58 @@ permalink: /about/roadmap/index.html
               <h2>{% t roadmap.neartermgoals %}</h2>
             </div>
           </div>
-          <div class="row goal-list">
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/SparkNames.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.sparknames %}</h3>
-                  <p>{% t roadmap.sparknamesp %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/SparkCoinbase.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.sparkcoinbase %}</h3>
-                  <p>{% t roadmap.sparkcoinbasep %}</p>
+
+          <span class="head-connector" data-head-connector><span class="seg-v1"></span><span class="bend"></span><span class="seg-v2"></span></span>
+
+          <div class="ledger" data-ledger>
+            <div class="ledger-fill" data-ledger-fill></div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/SparkNames.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.sparknames %}</span>
+                    <p class="node-summary">{% t roadmap.sparknamesp %}</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/ViewKeyTooling.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.viewkeytooling %}</h3>
-                  <p>{% t roadmap.viewkeytoolingp %}</p>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/SparkCoinbase.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.sparkcoinbase %}</span>
+                    <p class="node-summary">{% t roadmap.sparkcoinbasep %}</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/ViewKeyTooling.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.viewkeytooling %}</span>
+                    <p class="node-summary">{% t roadmap.viewkeytoolingp %}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-      </section>   
-      
+      </section>
+
       <section class="roadmap-goals">
         <div class="narrowbox">
           <div class="row subhead">
@@ -97,40 +111,54 @@ permalink: /about/roadmap/index.html
               <h2>{% t roadmap.midtermgoals %}</h2>
             </div>
           </div>
-          <div class="row goal-list">
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/SparkAssets.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.sparkassets %}</h3>
-                  <p>{% t roadmap.sparkassetsp %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/SparkSwap.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.sparkswap %}</h3>
-                  <p>{% t roadmap.sparkswapp %}</p>
+
+          <span class="head-connector" data-head-connector><span class="seg-v1"></span><span class="bend"></span><span class="seg-v2"></span></span>
+
+          <div class="ledger" data-ledger>
+            <div class="ledger-fill" data-ledger-fill></div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/SparkAssets.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.sparkassets %}</span>
+                    <p class="node-summary">{% t roadmap.sparkassetsp %}</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/CurveTrees.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.curvetrees %}</h3>
-                  <p>{% t roadmap.curvetreesp %}</p>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/SparkSwap.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.sparkswap %}</span>
+                    <p class="node-summary">{% t roadmap.sparkswapp %}</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/CurveTrees.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.curvetrees %}</span>
+                    <p class="node-summary">{% t roadmap.curvetreesp %}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -142,51 +170,68 @@ permalink: /about/roadmap/index.html
               <h2>{% t roadmap.longtermgoals %}</h2>
             </div>
           </div>
-          <div class="row goal-list">
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/Lightwallet.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.improvedinfra %}</h3>
-                  <p>{% t roadmap.improvedinfra %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/Quantum.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.quantum %}</h3>
-                  <p>{% t roadmap.quantump %}</p>
+
+          <span class="head-connector" data-head-connector><span class="seg-v1"></span><span class="bend"></span><span class="seg-v2"></span></span>
+
+          <div class="ledger" data-ledger>
+            <div class="ledger-fill" data-ledger-fill></div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/Lightwallet.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.improvedinfra %}</span>
+                    <p class="node-summary">{% t roadmap.improvedinfrap %}</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/TailEmission.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.tailemission %}</h3>
-                  <p>{% t roadmap.tailemissionp %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/Governance.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.governance %}</h3>
-                  <p>{% t roadmap.governancep %}</p>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/Quantum.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.quantum %}</span>
+                    <p class="node-summary">{% t roadmap.quantump %}</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/TailEmission.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.tailemission %}</span>
+                    <p class="node-summary">{% t roadmap.tailemissionp %}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/Governance.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.governance %}</span>
+                    <p class="node-summary">{% t roadmap.governancep %}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -198,40 +243,54 @@ permalink: /about/roadmap/index.html
               <h2>{% t roadmap.integrations %}</h2>
             </div>
           </div>
-          <div class="row goal-list">
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/EncryptWallet.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.enkrypt %}</h3>
-                  <p>{% t roadmap.enkryptp %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/Layerswap.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.layerswap %}</h3>
-                  <p>{% t roadmap.layerswapp %}</p>
+
+          <span class="head-connector" data-head-connector><span class="seg-v1"></span><span class="bend"></span><span class="seg-v2"></span></span>
+
+          <div class="ledger" data-ledger>
+            <div class="ledger-fill" data-ledger-fill></div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/EncryptWallet.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.enkrypt %}</span>
+                    <p class="node-summary">{% t roadmap.enkryptp %}</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/Serai.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.serai %}</h3>
-                  <p>{% t roadmap.seraip %}</p>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/Layerswap.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.layerswap %}</span>
+                    <p class="node-summary">{% t roadmap.layerswapp %}</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/Serai.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.serai %}</span>
+                    <p class="node-summary">{% t roadmap.seraip %}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -243,29 +302,186 @@ permalink: /about/roadmap/index.html
               <h2>{% t roadmap.iterative %}</h2>
             </div>
           </div>
-          <div class="row goal-list">
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/Campfire.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.campfire %}</h3>
-                  <p>{% t roadmap.campfirep %}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col goal">
-              <div class="row">
-                <div class="col goal-img">
-                  <img src="/img/roadmap/Firodex.png" alt="" loading="lazy">
-                </div>
-                <div class="col goal-info">
-                  <h3>{% t roadmap.firodex %}</h3>
-                  <p>{% t roadmap.firodexp %}</p>
+
+          <span class="head-connector" data-head-connector><span class="seg-v1"></span><span class="bend"></span><span class="seg-v2"></span></span>
+
+          <div class="ledger" data-ledger>
+            <div class="ledger-fill" data-ledger-fill></div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/Campfire.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.campfire %}</span>
+                    <p class="node-summary">{% t roadmap.campfirep %}</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="node">
+              <span class="node-marker"></span>
+              <span class="node-connector"></span>
+              <div class="node-card">
+                <div class="node-top">
+                  <img class="node-icon" src="/img/roadmap/Firodex.png" alt="" loading="lazy">
+                  <div class="node-body">
+                    <span class="node-title">{% t roadmap.firodex %}</span>
+                    <p class="node-summary">{% t roadmap.firodexp %}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
+
+<script>
+(function() {
+  var ledgers = document.querySelectorAll('[data-ledger]');
+
+  function updateLineEnds() {
+    ledgers.forEach(function(ledger) {
+      var nodes = ledger.querySelectorAll('.node');
+      if (!nodes.length) return;
+      var lastNode = nodes[nodes.length - 1];
+      var marker = lastNode.querySelector('.node-marker');
+      var end = marker
+        ? lastNode.offsetTop + marker.offsetTop + (marker.offsetHeight / 2)
+        : ledger.getBoundingClientRect().height;
+      ledger.style.setProperty('--line-end', end + 'px');
+    });
+  }
+
+  function updateLedgerFill() {
+    ledgers.forEach(function(ledger) {
+      var fill = ledger.querySelector('[data-ledger-fill]');
+      var rect = ledger.getBoundingClientRect();
+      var vh = window.innerHeight;
+      var lineEnd = parseFloat(getComputedStyle(ledger).getPropertyValue('--line-end'));
+      var total = lineEnd > 0 ? lineEnd : rect.height;
+      var revealLine = vh * 0.75;
+      var visibleAmount = revealLine - rect.top;
+      var pct = Math.max(0, Math.min(1, visibleAmount / total));
+      var fillPx = pct * total;
+      fill.style.height = fillPx + 'px';
+
+      ledger.querySelectorAll('.node').forEach(function(node) {
+        var markerY = parseFloat(node.dataset.markerY);
+        if (isNaN(markerY)) return;
+        node.classList.toggle('connector-reached', fillPx >= markerY);
+      });
+
+      var head = ledger.previousElementSibling;
+      if (head && head.hasAttribute('data-head-connector')) {
+        var firstNode = ledger.querySelector('.node');
+        var firstMarkerY = firstNode ? parseFloat(firstNode.dataset.markerY) : NaN;
+        if (!isNaN(firstMarkerY)) {
+          head.classList.toggle('connector-reached', fillPx >= firstMarkerY);
+        }
+      }
+    });
+  }
+
+  function positionConnectors() {
+    ledgers.forEach(function(ledger) {
+      var ledgerBeforeStyles = window.getComputedStyle(ledger, '::before');
+      var spineLeft = parseFloat(ledgerBeforeStyles.left) || 9;
+      var ledgerStyles = window.getComputedStyle(ledger);
+      var ledgerPadLeft = parseFloat(ledgerStyles.paddingLeft) || 0;
+
+      ledger.querySelectorAll('.node').forEach(function(node) {
+        var marker = node.querySelector('.node-marker');
+        var connector = node.querySelector('.node-connector');
+        if (!marker || !connector) return;
+
+        var markerCenterY = marker.offsetTop + (marker.offsetHeight / 2);
+        var connectorHeight = connector.offsetHeight || 3;
+        var spineLeftInNode = spineLeft - ledgerPadLeft;
+
+        connector.style.top = (markerCenterY - (connectorHeight / 2)) + 'px';
+        connector.style.left = spineLeftInNode + 'px';
+        connector.style.width = Math.max(0, 0 - spineLeftInNode) + 'px';
+
+        node.dataset.markerY = node.offsetTop + markerCenterY;
+      });
+    });
+  }
+
+  function positionHeadConnectors() {
+    document.querySelectorAll('[data-head-connector]').forEach(function(head) {
+      var box = head.closest('.narrowbox');
+      var pill = box ? box.querySelector('.subhead h2') : null;
+      var ledger = head.nextElementSibling;
+      var firstNode = ledger ? ledger.querySelector('.node') : null;
+      var marker = firstNode ? firstNode.querySelector('.node-marker') : null;
+      if (!box || !pill || !ledger || !marker) return;
+
+      var boxRect = box.getBoundingClientRect();
+      var pillRect = pill.getBoundingClientRect();
+      var ledgerBeforeStyles = window.getComputedStyle(ledger, '::before');
+      var spineLeft = parseFloat(ledgerBeforeStyles.left) || 9;
+      var ledgerRect = ledger.getBoundingClientRect();
+      var isMobile = window.innerWidth <= 592;
+
+      var spineX = (ledgerRect.left - boxRect.left) + spineLeft;
+      var pillLeftX = pillRect.left - boxRect.left;
+      var pillCenterX = pillLeftX + (pillRect.width / 2);
+      var markerRect = marker.getBoundingClientRect();
+      var markerCenterY = markerRect.top - boxRect.top + (markerRect.height / 2);
+
+      if (isMobile) {
+        var pillBottomYMobile = pillRect.bottom - boxRect.top;
+        head.style.left = spineX + 'px';
+        head.style.top = pillBottomYMobile + 'px';
+        head.style.width = Math.max(0, pillCenterX - spineX) + 'px';
+        head.style.height = Math.max(0, markerCenterY - pillBottomYMobile) + 'px';
+      } else {
+        var pillBottomY = (pillRect.bottom - boxRect.top) - 50;
+        head.style.left = spineX + 'px';
+        head.style.top = pillBottomY + 'px';
+        head.style.width = Math.max(0, pillLeftX - spineX) + 'px';
+        head.style.height = Math.max(0, markerCenterY - pillBottomY) + 'px';
+      }
+    });
+  }
+
+  var nodeObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) entry.target.classList.add('in-view');
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+
+  document.querySelectorAll('.node').forEach(function(n) { nodeObserver.observe(n); });
+
+  function refreshAll() {
+    updateLineEnds();
+    positionConnectors();
+    positionHeadConnectors();
+    updateLedgerFill();
+  }
+
+  refreshAll();
+  window.addEventListener('scroll', updateLedgerFill, { passive: true });
+  window.addEventListener('resize', refreshAll);
+  window.addEventListener('load', refreshAll);
+
+  var images = document.querySelectorAll('.node-icon');
+  var pending = images.length;
+  if (pending) {
+    images.forEach(function(img) {
+      if (img.complete) {
+        pending--;
+      } else {
+        img.addEventListener('load', function() { pending--; if (pending === 0) refreshAll(); });
+        img.addEventListener('error', function() { pending--; if (pending === 0) refreshAll(); });
+      }
+    });
+    if (pending === 0) refreshAll();
+  }
+})();
+</script>
