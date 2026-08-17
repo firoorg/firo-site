@@ -8,7 +8,7 @@ img: "/blog/assets/5thtermcfc/banner.png"
 ---
 The 7 member Community Fund Committee (“CFC”) is formed to oversee the Firo Community Fund (“FCF”) has been completed!
 
-The following community members will serve as CFC members for a period of 1 year:
+The following community members will serve as CFC members for a period of 1 year starting from September 2026:
 
 * rottenwheel
 * nrsimha
