@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The 5th term of CFC members are formed!"
-summary: "Welcome back and welcome aboard"
+title: "Firo Community Fund Committee: 5th Term Confirmed"
+summary: "Welcome back to those returning and a warm welcome to our newest members"
 tags: [community, news]
 author: "Augustus Jong"
 img: "/blog/assets/5thtermcfc/banner.png"
