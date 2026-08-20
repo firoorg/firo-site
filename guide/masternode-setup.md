@@ -281,7 +281,7 @@ cd ~
 ```
 
 ```
-wget https://downloads.sourceforge.net/project/firoorg/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz
+wget https://github.com/firoorg/firo/releases/download/v{{ site.data.downloads.firo_qt_version }}/firo-{{ site.data.downloads.firo_qt_version }}-linux64.tar.gz
 ``` 
 
 ```
