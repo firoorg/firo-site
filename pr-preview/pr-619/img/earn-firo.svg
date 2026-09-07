@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1500 880.1" style="enable-background:new 0 0 1500 880.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CBDBE8;}
+	.st1{fill:#DFEBF2;}
+	.st2{fill:#C9D3DC;}
+	.st3{fill:#BB3437;}
+	.st4{fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st6{fill:#C5D1DA;}
+	.st7{fill:#9B1C2E;}
+	.st8{clip-path:url(#SVGID_2_);}
+	.st9{opacity:0.7;}
+	.st10{fill:#ABB8C1;}
+	.st11{fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;}
+	.st13{fill:#BB3437;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st14{fill:#DDEDF2;}
+	.st15{fill:#C9D3DC;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<g>
+			<g>
+				<path class="st0" d="M1350,740H750V140h0.2C1081.5,140,1350,408.7,1350,740z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M750,140v600H150v-0.2C150,408.6,418.6,140,750,140z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<g>
+							<path d="M1052.3,458.9H447.7c-1.4,0-2.5-1.1-2.5-2.5s1.1-2.5,2.5-2.5h604.6c1.4,0,2.5,1.1,2.5,2.5S1053.7,458.9,1052.3,458.9
+								z"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<path d="M1052.3,525.7H447.7c-1.4,0-2.5-1.1-2.5-2.5s1.1-2.5,2.5-2.5h604.6c1.4,0,2.5,1.1,2.5,2.5S1053.7,525.7,1052.3,525.7
+								z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+			<g>
+				<g>
+					<rect x="546.1" y="326.9" class="st10" width="407.8" height="325.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<g>
+						<rect x="613.1" y="387.9" class="st6" width="273.7" height="203.7"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path d="M886.9,594.1H613.1c-1.4,0-2.5-1.1-2.5-2.5V387.9c0-1.4,1.1-2.5,2.5-2.5h273.7c1.4,0,2.5,1.1,2.5,2.5v203.7
+							C889.4,593,888.2,594.1,886.9,594.1z M615.6,589.1h268.7V390.4H615.6V589.1z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			
+				<rect x="747" y="464.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 1521.7953 979.5453)" class="st11" width="27.8" height="50.4"/>
+			
+				<rect x="798.1" y="464.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 1624.0073 979.5453)" class="st11" width="27.8" height="50.4"/>
+			<g>
+				
+					<rect x="697.4" y="464.6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 1422.5894 979.5453)" class="st11" width="27.8" height="50.4"/>
+				<line class="st11" x1="674.1" y1="514.9" x2="674.1" y2="464.6"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
