@@ -88,9 +88,9 @@ Follow the transfer instructions and check the receiving address, fees and expec
 
 Click on copy and paste the data into the “Send to” or “Pay to” address field. You will see a note that the **transaction contains certain metadata. This is important as without it, your funds will not be bridged and require recovery!** 
 
-![bridge3](/blog/assets/rsfiro-live/bridge3.jpg)
+![bridge3](/blog/assets/rsfiro-live/bridge3.png)
 
-![bridge4](/blog/assets/rsfiro-live/bridge4.jpg)
+![bridge4](/blog/assets/rsfiro-live/bridge4.png)
 
 Allow a few hours for bridging (typically 2-4 hours). Rosen Bridge prioritizes security and safety over speed.
 
