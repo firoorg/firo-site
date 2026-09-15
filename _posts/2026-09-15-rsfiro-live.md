@@ -80,7 +80,7 @@ Head to [app.rosen.tech](https://app.rosen.tech/),  select FIRO as the “Source
 
 ![rosenbridgeBridge](/blog/assets/rsfiro-live/rosenbridge1.png)
 
-Follow the transfer instructions and check the receiving address, fees and expected amount before sending. Switch to your transparent balance and ensure you are using a supported wallet (Campfire or Reference Firo-QT) that can embed the additional data to allow the bridging.
+Follow the transfer instructions and check the receiving address, fees and expected amount before sending. Switch to your transparent balance and ensure you are using a supported wallet **(Campfire or Reference Firo-QT)** that can embed the additional data to allow the bridging.
 
 ![bridge1](/blog/assets/rsfiro-live/bridge1.jpg)
 
@@ -100,7 +100,7 @@ You can check on the [events page](https://app.rosen.tech/events) to see how you
 
 Rosen Bridge charges a fee of **0.5% of the amount transferred, with a US$10 minimum, plus network fees**. This is used to support bridge infrastructure and development. Fees can change, so check the app's quote for your chosen route before proceeding. The minimum fee can make smaller transfers expensive.
 
-If you can't wait or your transfer is small, **vsnation**, a community member, has also built and runs **buyfiro.app**, an independent service for acquiring FIRO and bridging FIRO. It is separate from the Firo core team; check the service for its current routes, fees and availability.
+If you can't wait or your transfer is small, **vsnation**, a community member, has also built and runs **[buyfiro.app](https://buyfiro.app/)**, an independent service for acquiring FIRO and bridging FIRO. It is separate from the Firo core team; check the service for its current routes, fees and availability.
 
 ![buyfiroapp](/blog/assets/rsfiro-live/buyfiroapp.png)
 
