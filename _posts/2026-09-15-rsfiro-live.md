@@ -55,10 +55,10 @@ Always verify the contract address before buying rsFIRO or adding it to your wal
 **Contract address:** [0x2744ea5ac9b11cb5e3cd63d3a88e858336aeddc2](https://etherscan.io/token/0x2744ea5ac9b11cb5e3cd63d3a88e858336aeddc2)  
 **Decimals:** 8
 
-**Network:** BNB Chain
-**Token:** rsFIRO
-**Contract address:** [0x13cDb5F7f398F6AF2CC3B34EB04476af3488853f](https://bscscan.com/token/0x13cDb5F7f398F6AF2CC3B34EB04476af3488853f)
-**Decimals:** 8
+**Network:** BNB Chain  
+**Token:** rsFIRO  
+**Contract address:** [0x13cDb5F7f398F6AF2CC3B34EB04476af3488853f](https://bscscan.com/token/0x13cDb5F7f398F6AF2CC3B34EB04476af3488853f)  
+**Decimals:** 8  
 
 **These are the token’s contract addresses, not a deposit address. Do not send funds directly to it**. For other supported chains, check the official token identifier for that network rather than assuming the Ethereum address applies.
 
