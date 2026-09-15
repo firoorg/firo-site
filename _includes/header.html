@@ -62,6 +62,14 @@
                                <li><a class="sub-nav-item" href="https://opencollective.com/firo" target="_blank">{% t navigation.opencollective %}</a></li>
                            </ul>
                        </li>
+                        <li class="nav-item explorers-nav"><a href="#">{% t navigation.explorers %}</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="https://explorer.firo.org/" target="_blank">{% t navigation.explorerofficial %}</a></li>
+                               <li><a class="sub-nav-item" href="https://blockbook.firo.org/" target="_blank">{% t navigation.explorerblockbook %}</a></li>
+                               <li><a class="sub-nav-item" href="https://chainz.cryptoid.info/firo/" target="_blank">{% t navigation.explorerchainz %}</a></li>
+                               <li><a class="sub-nav-item" href="https://firoblocks.app/" target="_blank">{% t navigation.explorerfiroblocks %}</a></li>
+                           </ul>
+                       </li>
                    </ul>
                </nav>
                <nav role='navigation' class="mobile-menu row">
@@ -131,12 +139,22 @@
                        </li>
                       <li class="mob-item"><a href="{{ site.baseurl }}/guide/">{% t navigation.guides %}</a></li>
                       <li class="mob-item"><a href="{{ site.baseurl }}/blog/">{% t navigation.blog %}</a></li>
-                       <li class="mob-item">
+                        <li class="mob-item">
                           <input class="burger-checkdropdown" id="list4" type="checkbox" tabindex="0">
                           <label for="list4">{% t navigation.crowdfunding %}</label>
                           <ul class="dropdown-content">
                               <li><a href="https://funding.firo.org/">{% t navigation.fcs %}</a></li>
                               <li><a href="https://opencollective.com/firo">{% t navigation.opencollective %}</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list5" type="checkbox" tabindex="0">
+                          <label for="list5">{% t navigation.explorers %}</label>
+                          <ul class="dropdown-content">
+                              <li><a href="https://explorer.firo.org/">{% t navigation.explorerofficial %}</a></li>
+                              <li><a href="https://blockbook.firo.org/">{% t navigation.explorerblockbook %}</a></li>
+                              <li><a href="https://chainz.cryptoid.info/firo/">{% t navigation.explorerchainz %}</a></li>
+                              <li><a href="https://firoblocks.app/">{% t navigation.explorerfiroblocks %}</a></li>
                           </ul>
                        </li>
                   </ul>
