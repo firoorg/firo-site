@@ -2,7 +2,7 @@
 layout: post
 title: "FIRO Goes Multichain: rsFIRO Is Live on Rosen Bridge"
 summary: "More chains. More markets. Fewer gatekeepers. Rosen Bridge takes FIRO multichain, strengthening censorship-resistant access to trading and DeFi."
-tags: [community, news, ecosystem]
+tags: [community, news]
 author: "Reuben Yap"
 img: "/blog/assets/rsfiro-live/banner.png"
 ---
@@ -76,9 +76,21 @@ Only send rsFIRO to a centralized exchange if its deposit instructions explicitl
 
 ## Bridging FIRO to Ethereum/BNB Chain
 
-Head to [app.rosen.tech](https://app.rosen.tech/), select FIRO as the "Source" and FIRO as the token, then choose an available destination and enter the address in which you want to receive your rsFIRO. Follow the transfer instructions and check the receiving address, fees and expected amount before sending.
+Head to [app.rosen.tech](https://app.rosen.tech/),  select FIRO as the “Source” and FIRO as the token, then choose an available destination and enter in the address in which you want to receive your rsFIRO.
 
 ![rosenbridgeBridge](/blog/assets/rsfiro-live/rosenbridge1.png)
+
+Follow the transfer instructions and check the receiving address, fees and expected amount before sending. Switch to your transparent balance and ensure you are using a supported wallet (Campfire or Reference Firo-QT) that can embed the additional data to allow the bridging.
+
+![bridge1](/blog/assets/rsfiro-live/bridge1.jpg)
+
+![bridge2](/blog/assets/rsfiro-live/bridge2.jpg)
+
+Click on copy and paste the data into the “Send to” or “Pay to” address field. You will see a note that the **transaction contains certain metadata. This is important as without it, your funds will not be bridged and require recovery!** 
+
+![bridge3](/blog/assets/rsfiro-live/bridge3.jpg)
+
+![bridge4](/blog/assets/rsfiro-live/bridge4.jpg)
 
 Allow a few hours for bridging (typically 2-4 hours). Rosen Bridge prioritizes security and safety over speed.
 
