@@ -59,7 +59,7 @@ Download Firominer 1.4.0 from the [release page](https://github.com/firoorg/firo
 
 ## Thank You
  
-A big thank you to Zed, Centaurea, Flow666, and Kgiggles for helping us test Firominer 1.4.0. Your feedback and reports were invaluable for this release.
+A big thanks to Zed, Centaurea, Flow666, and Kgiggles for helping us test Firominer 1.4.0. Your feedback and reports were invaluable for this release.
 
 ## Help Us Improve It
 
