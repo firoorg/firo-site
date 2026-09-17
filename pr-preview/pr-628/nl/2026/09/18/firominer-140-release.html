@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang=nl>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firominer 1.4.0 Brings Firo's Reference Miner Back Up to Speed | Firo - Privacybehoudende cryptovaluta</title>
+    <meta name="author" content="">
+    <meta name="description" content=" No developer fee, NVIDIA and AMD support, and performance within 1% of closed-source miners. ">
+    <meta property="og:image" content="/blog/assets/firominer140/banner.png">
+    <meta property="og:description" content=" No developer fee, NVIDIA and AMD support, and performance within 1% of closed-source miners. ">
+    <meta property="og:title" content="Firominer 1.4.0 Brings Firo's Reference Miner Back Up to Speed | Firo - Privacybehoudende cryptovaluta">
+    <meta name="twitter:title" content="Firominer 1.4.0 Brings Firo's Reference Miner Back Up to Speed | Firo - Privacybehoudende cryptovaluta">
+    <link rel="stylesheet" href="/firo-site/pr-preview/pr-628/css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/meta/favicon-16x16.png">
+    <link rel="manifest" href="img/meta/site.webmanifest">
+    <!-- Feed autodiscovery -->
+    <link type="application/atom+xml" rel="alternate" href="https://firo.org/firo-site/pr-preview/pr-628/feed.xml" title="Firo" />
+</head>
+
+
+  <body>
+    <main>
+        <header>
+      <div class="container">
+               <nav class="row" role='navigation'>
+                   <a class="logo col" href="/firo-site/pr-preview/pr-628/nl/index.html" aria-label="Firo Cryptocurrency">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                   </a>
+                   <ul class="main-menu col">
+                        <li class="nav-item link"><a href="https://whatis.firo.org/">What is Firo?</a></li>
+                       <li class="nav-item"><a href="#">Start met Firo</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/get-firo/download/">Download portemonnees</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/get-firo/buy-firo/">Koop Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/guide/masternode-setup.html">Verdien Firo</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/guide/how-to-mine-firo.html">Mijnen</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">Over</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/about/research/">Research</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/about/team/">Team</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/about/roadmap/">Roadmap</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/about/faq/">FAQ</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item"><a href="#">Community</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/community/social/">Sociaal</a></li>
+                               <li><a class="sub-nav-item" href="/firo-site/pr-preview/pr-628/nl/community/merchants/">Merchants</a></li>
+                           </ul>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-628/nl/guide/">Handleidingen</a>
+                       </li>
+                       <li class="nav-item link"><a href="/firo-site/pr-preview/pr-628/nl/blog/">Blog</a></li>
+                       <li class="nav-item"><a href="#">Crowdfunding</a>
+                           <ul class="dropdown" aria-label="submenu">
+                               <li><a class="sub-nav-item" href="https://funding.firo.org/" target="_blank">Firo-crowdfundingsysteem</a></li>
+                               <li><a class="sub-nav-item" href="https://opencollective.com/firo" target="_blank">Open Collective</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+               </nav>
+               <nav role='navigation' class="mobile-menu row">
+                  <a class="logo-mobile col" href="/firo-site/pr-preview/pr-628/nl/index.html" aria-label="Firo Cryptocurrency">
+                    <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 996 424" style="enable-background:new 0 0 996 424;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="st0" d="M479.8,200.9h-30.7v-33.4h30.7V153c0-56,16.3-58.2,81-58.2v30.3c-35,0-39.4,1.9-39.4,21v21.3h39.4v33.4h-39.4
+                                    V327h-41.6L479.8,200.9L479.8,200.9z M590.3,94.4h42.9v36.9h-42.9V94.4z M590.6,167.4h41.9V327h-41.9V167.4z"/>
+                                <path class="st0" d="M676.4,167.4h39.1l1.2,27.6h2.5c8.5-23.7,25.4-30.1,51.1-30.1v39.8c-41,0-52.3,15-52.3,58.5V327h-41.6
+                                    L676.4,167.4L676.4,167.4z"/>
+                                <path class="st0" d="M792.5,246.9c0-64.5,4.1-82,73.2-82s73.2,17.5,73.2,82s-4.1,82.6-73.2,82.6
+                                    C796.6,329.6,792.5,311.3,792.5,246.9z M897,246.9c0-43.9,0-48.5-31.3-48.5s-31.3,4.7-31.3,48.5s0,49.1,31.3,49.1
+                                    S897,290.7,897,246.9z"/>
+                            </g>
+                            <g>
+                                <circle class="st1" cx="212.7" cy="212" r="155.4"/>
+                            </g>
+                            <g>
+                                <path class="st2" d="M148.5,280.2c3.6,0,7-2,8.6-5.2l22.9-43.5h-35.4c-5.4,0-9.7-4.4-9.7-9.7v-19.5c0-5.4,4.4-9.7,9.7-9.7h56
+                                    l43.5-82.4c1.7-3.2,5-5.2,8.6-5.2H326c-28.4-30-68.5-48.7-113.1-48.7c-86,0-155.8,69.7-155.8,155.8c0,24.4,5.6,47.6,15.7,68.2
+                                    h75.7V280.2z"/>
+                                <path class="st2" d="M277.1,143.8c-3.6,0-7,2-8.6,5.2l-22.9,43.5h35.4c5.4,0,9.7,4.4,9.7,9.7v19.5c0,5.4-4.4,9.7-9.7,9.7h-56
+                                    l-43.5,82.4c-1.7,3.2-5,5.2-8.6,5.2H99.6c28.4,30,68.5,48.7,113.1,48.7c86,0,155.8-69.7,155.8-155.8c0-24.4-5.6-47.6-15.7-68.2
+                                    h-75.7V143.8z"/>
+                            </g>
+                        </g>
+                        </svg>
+                  </a>
+                  <input class="burger-check" id="mobile-burger" type="checkbox">
+                  <label for="mobile-burger" class="hamburger hamburger--spring">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                  </label>
+                  <ul class="slide-nav">
+                       <li class="mob-item"><a href="https://whatis.firo.org/">What is Firo?</a></li> 
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list1" type="checkbox" tabindex="0">
+                          <label for="list1">Start met Firo</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/get-firo/download/">Download portemonnees</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/get-firo/buy-firo/">Koop Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/guide/masternode-setup.html">Verdien Firo</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/guide/how-to-mine-firo.html">Mijnen</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list2" type="checkbox" tabindex="0">
+                          <label for="list2">Over</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/about/research/">Research</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/about/team/">Team</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/about/roadmap/">Roadmap</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/about/faq/">FAQ</a></li>
+                          </ul>
+                       </li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list3" type="checkbox" tabindex="0">
+                          <label for="list3">Community</label>
+                          <ul class="dropdown-content">
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/community/social/">Sociaal</a></li>
+                              <li><a href="/firo-site/pr-preview/pr-628/nl/community/merchants/">Merchants</a></li>
+                          </ul>
+                       </li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-628/nl/guide/">Handleidingen</a></li>
+                      <li class="mob-item"><a href="/firo-site/pr-preview/pr-628/nl/blog/">Blog</a></li>
+                       <li class="mob-item">
+                          <input class="burger-checkdropdown" id="list4" type="checkbox" tabindex="0">
+                          <label for="list4">Crowdfunding</label>
+                          <ul class="dropdown-content">
+                              <li><a href="https://funding.firo.org/">Firo-crowdfundingsysteem</a></li>
+                              <li><a href="https://opencollective.com/firo">Open Collective</a></li>
+                          </ul>
+                       </li>
+                  </ul>
+               </nav>
+       </div>
+   </header>
+
+        
+        <section class="blog-section">
+         <div class="container">
+              <div class="row">
+                  <div class="col post-page">
+                     <h1>Firominer 1.4.0 Brings Firo's Reference Miner Back Up to Speed</h1>
+                     <p class="p-summary">No developer fee, NVIDIA and AMD support, and performance within 1% of closed-source miners.</p>
+                     <div class="post-meta">
+                         <p class="post-date">September 18, 2026</p>
+                         <p class="post-author">Reuben Yap</p>
+                     </div>
+                     <div class="post-body">
+                         <img src="/blog/assets/firominer140/banner.png" alt="">
+                          <p>Firominer 1.4.0 is out. It’s our open source FiroPoW miner, and it now mines Firo on both NVIDIA and AMD GPUs within roughly 1% of the performance of popular closed-source miners. It has no developer fee, supports solo mining directly from your own Firo node, and all of its code is on GitHub under the GPL-3.0 license meaning anyone using or modifying this code similarly has to open source their modifications and improvements.</p>
+
+<p>Download it from the <a href="https://github.com/firoorg/firominer/releases">v1.4.0 release page</a>.</p>
+
+<h2 id="why-we-updated-the-reference-miner">Why We Updated the Reference Miner</h2>
+
+<p>Firominer was always meant to be a reference miner: a working, open implementation of FiroPoW that others could take, improve and maintain as their own miners.</p>
+
+<p>Instead, the network ended up relying on a set of closed-source miners. Several of these are no longer maintained. Others still charge fees of up to 2%, even though their FiroPoW support has seen little development, in some cases for years. Miner developers are entitled to charge for their work. Still, it left Firo miners with few options that were both up to date and free to use.</p>
+
+<p>So we took the initiative and brought the reference miner up to date ourselves. We made it competitive on performance and added support for current GPUs and drivers.</p>
+
+<p>In our own testing of 1.4.0 on real hardware, and in reports from community miners, Firominer now comes within about 1% of closed-source alternatives on both NVIDIA (CUDA) and AMD (OpenCL) cards. Those miners charge developer fees of up to 2% of hashing time, while Firominer charges nothing. Once fees are counted, the difference in what reaches your wallet is small, and against the higher-fee miners Firominer comes out ahead.</p>
+
+<h2 id="why-open-source-miners-matter">Why Open Source Miners Matter</h2>
+
+<h3 id="you-can-check-what-runs-on-your-rig">You Can Check What Runs on Your Rig</h3>
+
+<p>A miner runs for days at a time with direct access to your hardware, often on the same machine as your wallet. With Firominer, anyone can read the code, build it from source and confirm it does what it says. Each release also ships with a combined <em>SHA256SUMS.txt</em> file, so you can check that the archive you downloaded is the one we published.</p>
+
+<h3 id="solo-mining-keeps-firo-decentralized">Solo Mining Keeps Firo Decentralized</h3>
+
+<p>Firo’s network difficulty is low enough that solo mining is a realistic option. Every block you find pays the full reward straight to your own address. Most closed-source FiroPoW miners only support pool mining. With those miners you pay a pool fee on top of the miner’s fee, and your hashrate adds to what large pools already control.</p>
+
+<p>Firominer connects directly to your own Firo node and mines on its block template, with no pool in between. Every solo miner adds another independent operator building blocks, which spreads block production more widely. Solo payouts arrive less regularly than pool payouts, but you keep all of each reward. You can also sign the blocks you find with a custom message by applying a small companion patch to the Firo daemon.</p>
+
+<h3 id="anyone-can-carry-it-forward">Anyone Can Carry It Forward</h3>
+
+<p>Open code doesn’t depend on any one team, including ours. Anyone can fork Firominer, improve it and release their own miner under its GPL-3.0 license. That is what a reference miner is for, and we’d welcome other developers building on it.</p>
+
+<h3 id="it-fits-how-firo-is-built">It Fits How Firo Is Built</h3>
+
+<p>Firo develops its privacy technology in the open, because privacy claims only mean something when people can verify them. A competitive open source miner applies the same approach to the software that secures the network.</p>
+
+<h2 id="whats-changed-since-110">What’s Changed Since 1.1.0</h2>
+
+<p>If you last used Firominer at 1.1.0, these are the changes that matter most:</p>
+
+<ul>
+  <li><strong>AMD support is back.</strong> Version 1.1.0 shipped without an AMD build because its OpenCL performance wasn’t competitive. 1.4.0 includes an OpenCL package with a reworked OpenCL path that brings AMD cards close to other miners.</li>
+  <li><strong>Current NVIDIA GPUs and drivers.</strong> The CUDA package is built on CUDA 12.9 Update 2, with improved work scheduling. The runtime libraries are included, so you don’t need a separate CUDA install. Older Maxwell, Pascal and Volta cards still work on R575 or R580 drivers.</li>
+  <li><strong>Better GPU detection.</strong> An updated OpenCL loader detects current AMD and NVIDIA drivers on Windows. On Linux, more OpenCL runtimes are recognized, including Mesa Rusticl.</li>
+  <li><strong>More reliable pool and solo mining.</strong> Stratum and getwork handling have been hardened, with better reconnection and device recovery. You can also choose between mainnet, testnet, devnet and regtest.</li>
+  <li><strong>Updated, verifiable packages.</strong> Dependencies are current, including OpenSSL 3.5 LTS. Linux and Windows packages come with checksums and list their dependency versions and licenses.</li>
+  <li><strong>Easier start on Windows.</strong> Windows packages include a mine_firo.bat launcher. Edit it with your pool and wallet details, then run it to start mining.</li>
+</ul>
+
+<p>The full list is in the <a href="https://github.com/firoorg/firominer/blob/main/CHANGELOG.md">changelog</a>.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>Download Firominer 1.4.0 from the <a href="https://github.com/firoorg/firominer/releases/tag/v1.4.0">release page</a>. Our <a href="https://firo.org/guide/how-to-mine-firo.html">mining guide</a> explains how to set it up for pool or solo mining.</p>
+
+<h2 id="thank-you">Thank You</h2>
+
+<p>A big thanks to Zed, Centaurea, Flow666, and Kgiggles for helping us test Firominer 1.4.0. Your feedback and reports were invaluable for this release.</p>
+
+<h2 id="help-us-improve-it">Help Us Improve It</h2>
+
+<p>Run Firominer on your own cards, compare it with what you use now, and tell us how it goes. Benchmarks, bug reports and pull requests are all welcome on <a href="https://github.com/firoorg/firominer">GitHub</a>. If you run a pool, please consider adding Firominer to your setup guides.</p>
+
+                     </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <footer class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <h4>Bronnen</h4>
+                      <ul>
+                          <li><a href="https://github.com/firoorg/firo">Github</a></li>
+                          <li><a href="https://sourceforge.net/projects/firoorg/">Sourceforge</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-628/nl/branding/">Branding</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-628/nl/guide/bounty-program.html">Kwetsbaarheidsprogramma</a></li>
+                          <li><a href="https://explorer.firo.org/">Explorer</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <h4>Website</h4>
+                      <ul>
+                          <li><a href="/firo-site/pr-preview/pr-628/nl/feed.xml">RSS-feed</a></li>
+                          <li><a href="/firo-site/pr-preview/pr-628/nl/privacy-policy/">Privacybeleid</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <div>
+                          <h4>Nieuws</h4>
+                          <p>Bekijk ons <a href="/blog/">Blog</a> en Telegram-kanaal en blijf op de hoogte van Firo-nieuws.</p>
+                          <a class="btn-text" href="https://t.me/fironews" target="_blank"><span>Lees nieuws</span><i class="icons-right-small"></i></a>
+                      </div>
+                      <div class="social">
+                          <h4>Communicatie</h4>
+                          <div class="social-icons">
+                            <a href="https://discord.gg/TGZPRbRT3Y" target="_blank"><img src="/img/site-icons/footer/discord.svg" title="Discord" alt="Discord logo"></a>
+                            <a href="https://t.me/firoorg" target="_blank"><img src="/img/site-icons/footer/telegram.svg" title="Telegram" alt="Telegram logo"></a>
+                            <a href="https://twitter.com/firoorg" target="_blank"><img src="/img/site-icons/footer/x.svg" title="X (Twitter)" alt="X (Twitter) logo"></a>
+                            <a href="https://www.facebook.com/firoorg/" target="_blank"><img src="/img/site-icons/footer/facebook.svg" title="Facebook" alt="Facebook logo"></a>
+                            <a href="https://www.youtube.com/c/firoorg" target="_blank"><img src="/img/site-icons/footer/youtube.svg" title="Youtube" alt="Youtube logo"></a>
+                            <a href="https://www.reddit.com/r/firoproject/" target="_blank"><img src="/img/site-icons/footer/reddit.svg" title="Reddit" alt="Reddit logo"></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row bottom">
+                  <div class="col">
+                      <div href="#" class="dropdown language-change">
+                            <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
+                            <label for="langdrop">
+                              Nederlands
+                            </label>
+                            <div class="dropdown-content text-center">
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-628/2026/09/18/firominer-140-release.html" >English</a>
+                                  
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-628/zh-cn/2026/09/18/firominer-140-release.html" >简体中文</a>
+                                  
+                                
+                              
+                                
+                                  
+                                    <a href="/firo-site/pr-preview/pr-628/id/2026/09/18/firominer-140-release.html" >Bahasa Indonesia</a>
+                                  
+                                
+                              
+                                
+                              
+                            </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+    </main>
+  </body>
+</html>
