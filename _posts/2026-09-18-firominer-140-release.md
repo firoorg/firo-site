@@ -57,6 +57,10 @@ The full list is in the [changelog](https://github.com/firoorg/firominer/blob/ma
 
 Download Firominer 1.4.0 from the [release page](https://github.com/firoorg/firominer/releases/tag/v1.4.0). Our [mining guide](https://firo.org/guide/how-to-mine-firo.html) explains how to set it up for pool or solo mining.
 
+## Thank You
+ 
+A big thanks to Zed, Centaurea, Flow666, and Kgiggles for helping us test Firominer 1.4.0. Your feedback and reports were invaluable for this release.
+
 ## Help Us Improve It
 
 Run Firominer on your own cards, compare it with what you use now, and tell us how it goes. Benchmarks, bug reports and pull requests are all welcome on [GitHub](https://github.com/firoorg/firominer). If you run a pool, please consider adding Firominer to your setup guides.
