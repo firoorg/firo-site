@@ -24,7 +24,7 @@ In our own testing of 1.4.0 on real hardware, and in reports from community mine
 
 ### You Can Check What Runs on Your Rig
 
-A miner runs for days at a time with direct access to your hardware, often on the same machine as your wallet. With Firominer, anyone can read the code, build it from source and confirm it does what it says. Each release also ships with a combined SHA256SUMS.txt file, so you can check that the archive you downloaded is the one we published.
+A miner runs for days at a time with direct access to your hardware, often on the same machine as your wallet. With Firominer, anyone can read the code, build it from source and confirm it does what it says. Each release also ships with a combined *SHA256SUMS.txt* file, so you can check that the archive you downloaded is the one we published.
 
 ### Solo Mining Keeps Firo Decentralized
 
