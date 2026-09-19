@@ -575,6 +575,12 @@ pre > code {
     box-shadow: 0px 0px 10px 0px rgba(84,104,119,0.3);
 }
 
+.main-menu li.nav-item.explorers-nav ul.dropdown {
+    left: auto;
+    right: 0;
+}
+
+
 .main-menu li.nav-item ul.dropdown li {
     width: 100%;
 }
