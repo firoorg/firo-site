@@ -30,6 +30,7 @@ The list of available masternode providers:
 *   [Higlan](https://higlan.com/nodes/firo)
 *   [Masternodehosting](https://masternodehosting.com/) (by Flare)
 *   [Nodehub](https://nodehub.io/ref/charybdis)
+*   [Masternode.space](https://masternode.space/)
 *   [Pecunia](https://pecuniaplatform.io/home)
 
 
