@@ -80,7 +80,7 @@ That is why we were working towards Rosen Bridge well before this launch. We [pu
 
 Our [Rosen integration is now live](https://firo.org/2026/09/15/rsfiro-live.html), allowing people to bridge FIRO into rsFIRO and redeem it back again, with markets on Ethereum, BNB Chain and Ergo. People can create pools and contribute liquidity on permissionless exchanges without waiting for a native FIRO listing.
 
-In the volume snapshot we were tracking on 19 September 2026, rsFIRO was at approximately US$86,000, compared with US$275,000 in reported native FIRO volume on centralised exchanges. That is almost one-third as much trading volume, just days after launch.
+In the volume snapshot we were tracking on **19 September 2026**, rsFIRO was at approximately **US$86,000**, compared with **US$275,000** in reported native FIRO volume on centralised exchanges. That is almost one-third as much trading volume, just days after launch.
 
 There are trade-offs: rsFIRO is transparent and introduces bridge and Guard-federation dependencies. Native FIRO and Spark remain the route for private transactions.
 
