@@ -206,21 +206,46 @@
 
 <p>Before you begin, make sure you have a Firo (FIRO) address where you want your mining payouts to go to. We do not recommend mining directly to an address owned by an exchange. To get one, download a <a href="/firo-site/pr-preview/pr-623/nl/get-firo/download/">Firo wallet</a> and sync it with the network.</p>
 
-<p>The guide is meant for Windows users though Linux users can easily adapt it.</p>
+<p>This guide is written for Windows users. Linux users can follow the same steps using the Linux packages and commands noted along the way.</p>
 
-<h2 id="step-1-getting-your-miners">Step 1: Getting your Miners</h2>
+<h2 id="step-1-getting-your-miner">Step 1: Getting your Miner</h2>
+
+<p>We recommend <strong>Firominer</strong>, Firo’s open source reference miner. It supports both NVIDIA and AMD GPUs, has no developer fee, supports both pool and solo mining, and performs within about 1% of closed-source miners.</p>
+
+<p>Download the latest version from the <a href="https://github.com/firoorg/firominer/releases/latest">Firominer releases page</a> and choose the package for your GPU:</p>
+
+<ul>
+  <li><strong>NVIDIA:</strong> the package with <code class="language-plaintext highlighter-rouge">cuda</code> in its name (for v1.4.0, <code class="language-plaintext highlighter-rouge">firominer-windows-x86_64-cuda12.9-opencl.zip</code>, or <code class="language-plaintext highlighter-rouge">firominer-linux-x86_64-cuda12.9-opencl.tar.gz</code> on Linux). It requires NVIDIA driver 576.57 or newer on Windows, or 575.57.08 or newer on Linux.</li>
+  <li><strong>AMD:</strong> the <code class="language-plaintext highlighter-rouge">opencl</code> package (for v1.4.0, <code class="language-plaintext highlighter-rouge">firominer-windows-x86_64-opencl.zip</code>, or <code class="language-plaintext highlighter-rouge">firominer-linux-x86_64-opencl.tar.gz</code> on Linux). Make sure your AMD GPU driver is up to date.</li>
+</ul>
+
+<p>Packages are available for 64-bit Windows 10/11 and for Ubuntu 22.04 or newer (x86-64). You don’t need to install the CUDA Toolkit, as the files Firominer needs are included. Older NVIDIA cards such as the GTX 10 series need a driver from the R575 or R580 branch, because newer driver branches no longer support them.</p>
+
+<p>Extract the whole archive into a folder of your choice and keep its contents together. <code class="language-plaintext highlighter-rouge">firominer.exe</code> is in the <code class="language-plaintext highlighter-rouge">bin</code> folder and needs the other files that come with it, so don’t move it out on its own.</p>
+
+<p><strong>Verifying your download (recommended):</strong> download <code class="language-plaintext highlighter-rouge">SHA256SUMS.txt</code> from the same release page. On Windows, open PowerShell in your downloads folder and run the following, using the name of the file you downloaded:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Get-FileHash .\firominer-windows-x86_64-opencl.zip -Algorithm SHA256
+</code></pre></div></div>
+
+<p>The hash shown should match the line for that file in <code class="language-plaintext highlighter-rouge">SHA256SUMS.txt</code>. On Linux, run <code class="language-plaintext highlighter-rouge">sha256sum --check --ignore-missing SHA256SUMS.txt</code> from your downloads folder.</p>
+
+<p><strong>Antivirus warnings:</strong> antivirus software, including Windows Defender, often flags cryptocurrency miners as potentially unwanted applications, and this may happen with Firominer too. Only download miners from their official release pages and verify the checksum before adding an exclusion for the miner’s folder.</p>
+
+<h3 id="other-miners">Other Miners</h3>
+
+<p>Other FiroPoW miners are also available. These are closed source and charge a developer fee:</p>
 
 <ul>
   <li><a href="https://github.com/sp-hash/TeamBlackMiner">Nvidia/AMD GPU: TeamBlackMiner</a> (closed source, 0.5% fee)</li>
   <li><a href="https://github.com/doktor83/SRBMiner-Multi/releases">Nvidia/AMD GPU: SRBMiner-Multi</a> (closed source, 0.85% fee)</li>
-  <li><a href="https://github.com/firoorg/firominer/releases">Reference miner</a> (open source, no fee. Performance on newer AMD cards is poor on the reference miner)</li>
   <li><a href="https://github.com/develsoftware/GMinerRelease/releases">Nvidia/AMD GPU: GMiner</a> (closed source, 1% fee)</li>
   <li><a href="https://github.com/todxx/teamredminer/releases">AMD GPU: Team Red Miner</a> (closed source, 2% fee)</li>
 </ul>
 
-<p><strong>Warning:</strong> Miners are listed here for convenience. Non-official miners have not been vetted. Use at your own risk. All fees are to the developers of the miners.</p>
+<p><strong>Warning:</strong> Third-party miners are listed here for convenience and have not been vetted. Use at your own risk. All fees go to the developers of the miners.</p>
 
-<p>Extract the exe binary into a folder of your choice.</p>
+<p>If you use one of these miners, extract its download into a folder of your choice.</p>
 
 <h2 id="step-2-registering-with-a-pool-if-not-solo-mining">Step 2: Registering with a Pool (if not solo mining)</h2>
 
@@ -282,25 +307,39 @@
 
 <h2 id="step-3-configuring-your-miner">Step 3: Configuring your Miner</h2>
 
-<p>Open your favourite text editor, cut and paste the following line corresponding to your selected pool and miner and edit it accordingly.</p>
+<h3 id="pool-mining-with-firominer">Pool Mining with Firominer</h3>
 
-<h3 id="for-pool-mining">For Pool Mining</h3>
+<p>Windows packages include a ready-made launcher called <code class="language-plaintext highlighter-rouge">mine_firo.bat</code> in the <code class="language-plaintext highlighter-rouge">bin</code> folder. Open it in Notepad (right-click the file and choose <strong>Edit</strong> or <strong>Edit in Notepad</strong>), find the line that starts with <code class="language-plaintext highlighter-rouge">"%~dp0firominer.exe"</code> and replace the pool details with your own:</p>
 
-<p>Firominer (Reference Miner):</p>
-
-<ul>
-  <li>Nvidia:</li>
-</ul>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"%~dp0firominer.exe" -P "stratum+tcp://WALLET.WORKER:PASSWORD@POOLADDRESS:PORT"
 </code></pre></div></div>
 
 <ul>
-  <li>AMD:</li>
+  <li><code class="language-plaintext highlighter-rouge">WALLET</code>: your Firo address</li>
+  <li><code class="language-plaintext highlighter-rouge">WORKER</code>: a name for this mining rig</li>
+  <li><code class="language-plaintext highlighter-rouge">PASSWORD</code>: your pool password. Use <code class="language-plaintext highlighter-rouge">x</code> if your pool doesn’t need one.</li>
+  <li><code class="language-plaintext highlighter-rouge">POOLADDRESS:PORT</code>: your pool’s address and port from Step 2</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
+<p>Then save the file.</p>
+
+<p>The launcher points to cedric-crispin (<code class="language-plaintext highlighter-rouge">firo.cedric-crispin.com:4064</code>) by default, so change the pool address and port if you use a different pool. Keep the quotation marks. Lines starting with <code class="language-plaintext highlighter-rouge">rem</code> are comments and are ignored. Some pools use a different login format, so check your pool’s site if your shares aren’t accepted. To use a pool’s SSL port, replace <code class="language-plaintext highlighter-rouge">stratum+tcp://</code> with <code class="language-plaintext highlighter-rouge">stratum+ssl://</code>.</p>
+
+<p>By default, Firominer mines on every GPU it detects. To choose explicitly, add <code class="language-plaintext highlighter-rouge">-U</code> for NVIDIA (CUDA) or <code class="language-plaintext highlighter-rouge">-G</code> for AMD (OpenCL) right after <code class="language-plaintext highlighter-rouge">"%~dp0firominer.exe"</code>, for example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"%~dp0firominer.exe" -G -P "stratum+tcp://WALLET.WORKER:PASSWORD@POOLADDRESS:PORT"
 </code></pre></div></div>
+
+<p>You can also add a backup pool by adding a second <code class="language-plaintext highlighter-rouge">-P</code> with another pool’s details. Firominer switches to it if the first pool can’t be reached.</p>
+
+<p>On Linux, run Firominer from the extracted folder:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./bin/firominer -P "stratum+tcp://WALLET.WORKER:PASSWORD@POOLADDRESS:PORT"
+</code></pre></div></div>
+
+<h3 id="pool-mining-with-other-miners">Pool Mining with Other Miners</h3>
+
+<p>Open your favourite text editor, paste the line for your miner and edit it with your pool details.</p>
 
 <p>TeamBlackMiner (Nvidia/AMD):</p>
 
@@ -322,14 +361,18 @@
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>teamredminer.exe -a firopow -o stratum+tcp://POOLADDRESS:PORT -u username.worker -p password
 </code></pre></div></div>
 
-<p>After pasting it in, save the file as a .bat file (for e.g. <strong>miner.bat</strong>) in the same folder where you had extracted the miner binary earlier.</p>
+<p>Save the file as a .bat file (for example, <strong>miner.bat</strong>) in the same folder as the miner’s executable.</p>
 
-<h3 id="for-solo-mining">For Solo Mining</h3>
+<h3 id="solo-mining-with-firominer">Solo Mining with Firominer</h3>
 
-<p>You will need to edit <strong>firo.conf</strong> to allow RPC calls. Navigate to the <a href="https://github.com/firoorg/firo/wiki/Default-data-directories">default data directory</a>, create a file called <strong>firo.conf,</strong> and add and modify these lines:</p>
+<p>Firo’s network difficulty is low enough that solo mining is a realistic option. Every block you find pays the full block reward straight to your address, though payouts arrive less regularly than with a pool. Solo mining with Firominer requires no pool; it mines directly against your own synced Firo wallet running on the same computer.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpcuser=RPCUSER (up to you to change)
-rpcpassword=RPCPASSWORD (up to you to change)
+<p>The block reward must go to a <strong>transparent Firo address</strong>. Spark addresses can’t be used as a solo mining reward address.</p>
+
+<p>First, edit <strong>firo.conf</strong> to allow RPC calls. Navigate to the <a href="https://github.com/firoorg/firo/wiki/Default-data-directories">default data directory</a>, create a file called <strong>firo.conf</strong> and add these lines, replacing <code class="language-plaintext highlighter-rouge">RPCUSER</code> and <code class="language-plaintext highlighter-rouge">RPCPASSWORD</code> with a username and password of your choice:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpcuser=RPCUSER
+rpcpassword=RPCPASSWORD
 rpcport=8382
 rpcallowip=127.0.0.1
 listen=1
@@ -337,18 +380,42 @@ server=1
 daemon=1
 </code></pre></div></div>
 
-<p>Once this is done, restart your Firo wallet and ensure it is synced to the latest block. Then make a new file called miner.bat as below and save it in the same folder as where you had extracted the miner binary earlier.</p>
+<p>Avoid characters such as <code class="language-plaintext highlighter-rouge">@</code>, <code class="language-plaintext highlighter-rouge">:</code> and <code class="language-plaintext highlighter-rouge">/</code> in your RPC username and password, since they would break the connection line below.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>firominer -P http://RPCUSER:RPCPASSWORD@127.0.0.1:8382 --reward-address YOURFIROADDRESS
+<p>Restart your Firo wallet and wait until it is synced to the latest block.</p>
+
+<p>Next, in Firominer’s <code class="language-plaintext highlighter-rouge">bin</code> folder, make a copy of <code class="language-plaintext highlighter-rouge">mine_firo.bat</code> and rename it <code class="language-plaintext highlighter-rouge">solo_firo.bat</code>. Open <code class="language-plaintext highlighter-rouge">solo_firo.bat</code> in Notepad and replace the line that starts with <code class="language-plaintext highlighter-rouge">"%~dp0firominer.exe"</code> with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"%~dp0firominer.exe" -P "getwork://RPCUSER:RPCPASSWORD@127.0.0.1:8382" -r YOURFIROADDRESS
 </code></pre></div></div>
 
-<p>Please ensure that the line in <strong>miner.bat</strong> matches the relevant settings from <strong>firo.conf</strong> such as rpcuser, rpcpassword, and rpcport.</p>
+<p>Change <code class="language-plaintext highlighter-rouge">RPCUSER</code>, <code class="language-plaintext highlighter-rouge">RPCPASSWORD</code> and the port <code class="language-plaintext highlighter-rouge">8382</code> so they match your <strong>firo.conf</strong>, replace <code class="language-plaintext highlighter-rouge">YOURFIROADDRESS</code> with your transparent Firo address, and save the file.</p>
+
+<p>On Linux, run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./bin/firominer -P "getwork://RPCUSER:RPCPASSWORD@127.0.0.1:8382" -r YOURFIROADDRESS
+</code></pre></div></div>
 
 <h2 id="step-4-running-the-miner">Step 4: Running the Miner</h2>
 
-<p>Once you are done, run the bat file you created. You should see a window similar to this which will differ depending on the miner you are using. For solo mining, your Firo wallet needs to be synced.</p>
+<p>Double-click the .bat file you created or edited (for Firominer, <code class="language-plaintext highlighter-rouge">mine_firo.bat</code> or <code class="language-plaintext highlighter-rouge">solo_firo.bat</code>). A console window opens and shows the miner’s progress.</p>
 
-<p>If you’re seeing your shares as accepted, you should be good to go. It may take a few minutes for the correct speed to be reflected on the pool’s website and your miner.</p>
+<p>When Firominer starts, it generates the DAG and prepares its mining code on each GPU, so give it a minute or two before your hashrate appears.</p>
+
+<p>For pool mining, you should be good to go once you see your shares accepted. It may take a few minutes for the correct speed to be reflected on the pool’s website and in your miner.</p>
+
+<p>For solo mining, there are no shares. Firominer only submits a solution when it finds a block. The reward then shows up in your wallet and becomes spendable once it has enough confirmations. Keep your Firo wallet open and synced while you mine.</p>
+
+<h3 id="troubleshooting-firominer">Troubleshooting Firominer</h3>
+
+<ul>
+  <li><strong>No GPUs detected:</strong> update your GPU driver, and for NVIDIA cards check that it meets the minimum version in Step 1. To see which GPUs Firominer detects, open PowerShell in the Firominer folder and run <code class="language-plaintext highlighter-rouge">.\bin\firominer.exe --list-devices</code>.</li>
+  <li><strong>Missing file errors:</strong> make sure you extracted the whole archive and that <code class="language-plaintext highlighter-rouge">firominer.exe</code> is still in the <code class="language-plaintext highlighter-rouge">bin</code> folder with the files it came with.</li>
+  <li><strong>Errors while generating the DAG:</strong> your GPU may not have enough free memory. Close other programs using the GPU and check that it meets the VRAM requirement above.</li>
+  <li><strong>Firominer disappears or won’t start:</strong> your antivirus may have quarantined it. See the antivirus note in Step 1.</li>
+</ul>
+
+<p>For all available options, run <code class="language-plaintext highlighter-rouge">.\bin\firominer.exe --help</code> or see the <a href="https://github.com/firoorg/firominer#readme">Firominer README</a>. You can report problems on <a href="https://github.com/firoorg/firominer/issues">GitHub</a>.</p>
 
 <p>Happy mining!</p>
 
