@@ -488,6 +488,7 @@ pre > code {
 /*nav*/
 
 .main-menu {
+    display: flex;
     text-align: right;
 }
 

@@ -44,6 +44,11 @@ navigation:
   fcs: Firo Crowdfunding System
   opencollective: Open Collective
   whatisfiro: "What is Firo?"
+  explorers: Explorers
+  explorerofficial: Official
+  explorerblockbook: Blockbook
+  explorerchainz: Chainz
+  explorerfiroblocks: Firoblocks
   
 footer:
   resources: Resources
