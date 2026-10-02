@@ -729,7 +729,6 @@ header .container {
     -moz-transition: height 500ms ease;
     -o-transition: height 500ms ease;
     transition: height 500ms ease;
-    overflow: hidden;
     overflow-y: auto;
     opacity: -1;
     z-index: 100;
