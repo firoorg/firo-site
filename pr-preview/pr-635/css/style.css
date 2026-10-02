@@ -753,7 +753,7 @@ label[for="mobile-burger"] {
     display: none;
 }
     
-+.slide-nav .mob-item > input.burger-checkdropdown:checked ~ .dropdown-content {
+.slide-nav .mob-item > input.burger-checkdropdown:checked ~ .dropdown-content {
     display: block;
     position: inherit;
     opacity: 1;
