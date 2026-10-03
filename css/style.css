@@ -743,7 +743,11 @@ label[for="mobile-burger"] {
 #mobile-burger:checked ~ .slide-nav {
     height: 95vh;
     opacity: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
+
     
 #mobile-burger:checked ~ body {
     overflow: none;
