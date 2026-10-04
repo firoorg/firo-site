@@ -21,12 +21,15 @@ The program covers vulnerabilities reproduced against the `master` branch of [fi
 - Reports referencing code that does not exist in the master branch
 - Generic findings from automated scanners or LLM output without project-specific analysis
 - Re-reports of previously known issues already disclosed in commits, release notes, audit reports, or prior bounty submissions
+- Masternode, ChainLocks, or LLMQ vulnerabilities for which [Dash Core](https://github.com/dashpay/dash) publicly published a fix or mitigation for the same underlying defect before the report was submitted, even if Firo has not yet incorporated it
 - Bugs in third-party dependencies that are not triggered or exploited through Firo's own code paths
 - Social engineering, physical attacks, or attacks on third-party infrastructure
 
 ## Severity tiers
 
 Vulnerabilities are classified into three categories. If there is a dispute over the severity of a vulnerability, the Firo core team's assessment is definitive.
+
+For bounty purposes, eligible masternode-related vulnerabilities, including ChainLocks and LLMQ issues, are capped at the Minor tier (up to 1,000 USD in FIRO equivalent), regardless of how they would be rated under the general severity definitions.
 
 ### Critical: 5,000 up to 10,000 USD (in FIRO equivalent)
 
