@@ -73,8 +73,11 @@ The pools below are listed on [MiningPoolStats](https://miningpoolstats.stream/f
     * ethcore.ru:2075 (high-diff)
     * ethcore.ru:2077 (SSL)
 * [Rplant](https://pool.rplant.xyz/)
+    * eu.rplant.xyz:7045 (TCP)
     * eu.rplant.xyz:17045 (SSL)
+    * asia.rplant.xyz:7045 (TCP)
     * asia.rplant.xyz:17045 (SSL)
+    * na.rplant.xyz:7045 (TCP)
     * na.rplant.xyz:17045 (SSL)
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
