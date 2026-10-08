@@ -25,20 +25,22 @@ We recommend **Firominer**, Firo's open source reference miner. It supports both
 
 Download the latest version from the [Firominer releases page](https://github.com/firoorg/firominer/releases/latest) and choose the package for your GPU:
 
-* **NVIDIA:** the package with `cuda` in its name (for v1.4.0, `firominer-windows-x86_64-cuda12.9-opencl.zip`, or `firominer-linux-x86_64-cuda12.9-opencl.tar.gz` on Linux). It requires NVIDIA driver 576.57 or newer on Windows, or 575.57.08 or newer on Linux.
-* **AMD:** the `opencl` package (for v1.4.0, `firominer-windows-x86_64-opencl.zip`, or `firominer-linux-x86_64-opencl.tar.gz` on Linux). Make sure your AMD GPU driver is up to date.
+* **NVIDIA:** the `cuda12.9-opencl` package for your operating system. It requires NVIDIA driver 576.57 or newer on Windows, or 575.57.08 or newer on Linux.
+* **AMD:** the `opencl` package for your operating system. Make sure your AMD GPU driver is up to date.
+
+Choose a `.zip` archive for Windows or a `.tar.gz` archive for Linux. Both package variants include the desktop launcher and command-line miner. Check the release notes for the current driver and operating system requirements.
 
 Packages are available for 64-bit Windows 10/11 and for Ubuntu 22.04 or newer (x86-64). You don't need to install the CUDA Toolkit, as the files Firominer needs are included. Older NVIDIA cards such as the GTX 10 series need a driver from the R575 or R580 branch, because newer driver branches no longer support them.
 
-Extract the whole archive into a folder of your choice and keep its contents together. `firominer.exe` is in the `bin` folder and needs the other files that come with it, so don't move it out on its own.
+Extract the whole archive into a folder of your choice and keep its contents together. The executables in the `bin` folder need the other files that come with them, so don't move them out on their own. To open the desktop launcher, double-click `bin\firominer-gui.exe` on Windows or run `./bin/firominer-gui` on Linux. The Linux launcher requires X11 or XWayland.
 
-**Verifying your download (recommended):** download `SHA256SUMS.txt` from the same release page. On Windows, open PowerShell in your downloads folder and run the following, using the name of the file you downloaded:
+**Verifying your download (recommended):** download the checksum file named `SHA256SUMS-v*.txt` from the same release page (`*` represents the release version). On Windows, open PowerShell in your downloads folder and run:
 
 ```
-Get-FileHash .\firominer-windows-x86_64-opencl.zip -Algorithm SHA256
+Get-FileHash .\firominer-windows-*.zip -Algorithm SHA256
 ```
 
-The hash shown should match the line for that file in `SHA256SUMS.txt`. On Linux, run `sha256sum --check --ignore-missing SHA256SUMS.txt` from your downloads folder.
+The hash shown should match the line for the archive you downloaded in the checksum file. On Linux, run `sha256sum --check --ignore-missing SHA256SUMS-v*.txt` from your downloads folder.
 
 **Antivirus warnings:** antivirus software, including Windows Defender, often flags cryptocurrency miners as potentially unwanted applications, and this may happen with Firominer too. Only download miners from their official release pages and verify the checksum before adding an exclusion for the miner's folder.
 
@@ -61,28 +63,25 @@ There are several pools running Firo on FiroPoW. Please try to spread the hashra
 
 Currently Cedric-Crispin is the only pool with [Spark Address payout support](https://firo.cedric-crispin.com/start-mining/). Others only support transparent FIRO payouts. We recommend asking your favorite mining pool to add Spark Address support!
 
+The pools below are listed on [MiningPoolStats](https://miningpoolstats.stream/firo). Check their current status and connection details before mining.
+
 * [cedric-crispin](https://firo.cedric-crispin.com/) Spark Address and Spark Name payout support
     * firo.cedric-crispin.com:4064
     * firo.cedric-crispin.com:4065 (SSL)
-* [EthCore](https://kriptokyng.com)
+* [EthCore](https://ethcore.ru/pool/firopool)
     * ethcore.ru:2073 (low-diff)
     * ethcore.ru:2075 (high-diff)
     * ethcore.ru:2077 (SSL)
 * [Rplant](https://pool.rplant.xyz/)
-    * eu.rplant.xyz:17045
-    * asia.rplant.xyz:17045
-    * na.rplant.xyz:17045   
+    * eu.rplant.xyz:17045 (SSL)
+    * asia.rplant.xyz:17045 (SSL)
+    * na.rplant.xyz:17045 (SSL)
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
-* [Kriptokyng](https://kriptokyng.com)
-    * stratum.kriptokyng.com:3094 (PPLNS)
-    * stratum.kriptokyng.com:1094 (SOLO)
 * [Pooly.ca](https://pooly.ca/)
 	* stratum+tcp://pooly.ca:3094
-* [Meowpool](https://meowpool.net/)
-	* stratum+tcp://meowpool.net:7278 (PPLNS)
-* [SmoozyPool](https://www.smoozypool.es/)
-	* stratum+tcp://(Firo-Address).(Name)@smoozypool.es:4031 (PPLNS)
+* [SmoozyPool](https://smoozypool.es/)
+	* smoozypool.es:4031 (PPLNS)
 
 * For detailed stratum information, please visit the pool's own site.
 
@@ -91,6 +90,18 @@ Most of the pools listed here do not require registration, only a valid **Firo a
 ## Step 3: Configuring your Miner
 
 ### Pool Mining with Firominer
+
+#### Desktop Launcher
+
+1. Open `bin\firominer-gui.exe` on Windows or run `./bin/firominer-gui` on Linux.
+2. Go to **Mining setup** and choose **Pool**.
+3. Enter your **Pool endpoint**, for example `stratum+tcp://firo.cedric-crispin.com:4064`. For an SSL port, use `stratum+ssl://` instead.
+4. Enter your **Payout address / account**, **Worker name** and **Pool password** following your pool's instructions. Use `x` if no password is required. Spark addresses and Spark Names are supported only by Cedric-Crispin.
+5. Leave **GPU backend** on **Automatic** to use all compatible GPUs, or choose **NVIDIA CUDA** or **OpenCL**. Click **Save setup**, then **Start mining**.
+
+Use **Pool** mode for a pool's SOLO endpoint too. **Solo** mode connects directly to your own Firo node, as described below.
+
+#### Command Line or Batch File
 
 Windows packages include a ready-made launcher called `mine_firo.bat` in the `bin` folder. Open it in Notepad (right-click the file and choose **Edit** or **Edit in Notepad**), find the line that starts with `"%~dp0firominer.exe"` and replace the pool details with your own:
 
@@ -163,6 +174,7 @@ First, edit **firo.conf** to allow RPC calls. Navigate to the [default data dire
 rpcuser=RPCUSER
 rpcpassword=RPCPASSWORD
 rpcport=8382
+rpcbind=127.0.0.1
 rpcallowip=127.0.0.1
 listen=1
 server=1
@@ -173,7 +185,19 @@ Avoid characters such as `@`, `:` and `/` in your RPC username and password, sin
 
 Restart your Firo wallet and wait until it is synced to the latest block.
 
-Next, in Firominer's `bin` folder, make a copy of `mine_firo.bat` and rename it `solo_firo.bat`. Open `solo_firo.bat` in Notepad and replace the line that starts with `"%~dp0firominer.exe"` with:
+#### Desktop Launcher
+
+1. Open Firominer's desktop launcher, go to **Mining setup** and choose **Solo**.
+2. Set **Node endpoint** to `http://127.0.0.1:8382` to match the configuration above. The launcher's default port is `8888`; use the port set in your **firo.conf**.
+3. Enter the **RPC username** and **RPC password** from **firo.conf**, and your transparent Firo address as the **Reward address**.
+4. Click **Test node** and wait for confirmation that the node is synced and the reward address is valid. Leave **Coinbase message** empty unless your node supports it; any message you enter is public text embedded in blocks you mine.
+5. Choose your **GPU backend**, click **Save setup**, then **Start mining**.
+
+The launcher remembers your setup, but does not save your RPC password. Enter it again when you reopen the launcher. Keep your Firo wallet running and synced while mining.
+
+#### Command Line or Batch File
+
+In Firominer's `bin` folder, make a copy of `mine_firo.bat` and rename it `solo_firo.bat`. Open `solo_firo.bat` in Notepad and replace the line that starts with `"%~dp0firominer.exe"` with:
 
 ```
 "%~dp0firominer.exe" -P "getwork://RPCUSER:RPCPASSWORD@127.0.0.1:8382" -r YOURFIROADDRESS
@@ -189,7 +213,9 @@ On Linux, run:
 
 ## Step 4: Running the Miner
 
-Double-click the .bat file you created or edited (for Firominer, `mine_firo.bat` or `solo_firo.bat`). A console window opens and shows the miner's progress.
+If you use Firominer's desktop launcher, click **Start mining** and follow the progress on **Overview**, **GPUs** and **Activity**. To stop, click **Stop mining**.
+
+If you use a batch file, double-click the .bat file you created or edited (for Firominer, `mine_firo.bat` or `solo_firo.bat`). A console window opens and shows the miner's progress.
 
 When Firominer starts, it generates the DAG and prepares its mining code on each GPU, so give it a minute or two before your hashrate appears.
 
@@ -204,6 +230,6 @@ For solo mining, there are no shares. Firominer only submits a solution when it 
 * **Errors while generating the DAG:** your GPU may not have enough free memory. Close other programs using the GPU and check that it meets the VRAM requirement above.
 * **Firominer disappears or won't start:** your antivirus may have quarantined it. See the antivirus note in Step 1.
 
-For all available options, run `.\bin\firominer.exe --help` or see the [Firominer README](https://github.com/firoorg/firominer#readme). You can report problems on [GitHub](https://github.com/firoorg/firominer/issues).
+For desktop launcher help, see the [Firominer GUI guide](https://github.com/firoorg/firominer/blob/main/docs/GUI.md). For all command-line options, run `.\bin\firominer.exe --help` or see the [Firominer README](https://github.com/firoorg/firominer#readme). You can report problems on [GitHub](https://github.com/firoorg/firominer/issues).
 
 Happy mining!
