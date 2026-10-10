@@ -6413,3 +6413,107 @@ footer .social-icons a img {
 #home #intro-info {
     padding-top: 3rem;
 }
+
+/* DeFi section for Buy-Firo */
+.buy-tag {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: .5rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: .7rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    background: #9b1c2e;
+    border-radius: 100px;
+    padding: .2rem .6rem;
+}
+.buy-contracts {
+    margin-top: 2rem;
+    max-width: 50rem;
+}
+.buy-contracts-label {
+    font-size: .9rem;
+    color: #6b6666;
+    margin: 0 0 .75rem;
+}
+.buy-contract {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: .75rem;
+    background: #ffffff;
+    border: 1px solid rgba(155, 28, 46, .14);
+    border-radius: 10px;
+    padding: .6rem .85rem;
+    margin-bottom: .6rem;
+}
+.buy-contract-net {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 6rem;
+    flex: 0 0 6rem;
+    font-weight: 700;
+    font-size: .9rem;
+    color: #3d3939;
+}
+.buy-contract-addr {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Menlo, Consolas, monospace;
+    font-size: .82rem;
+    color: #6b6666;
+
+    display: block;
+    background: none;
+    padding: 0;
+}
+.buy-contract-link {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #9b1c2e;
+    text-decoration: none;
+}
+.buy-contract-link:hover,
+.buy-contract-link:focus { text-decoration: underline; }
+.buy-contract-copy {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border: 1px solid #9b1c2e;
+    background: #ffffff;
+    color: #9b1c2e;
+    font-weight: 700;
+    font-size: .8rem;
+    border-radius: 6px;
+    padding: .35rem .8rem;
+    cursor: pointer;
+    -webkit-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+.buy-contract-copy:hover,
+.buy-contract-copy:focus {
+    background: #9b1c2e;
+    color: #ffffff;
+}
+@media only screen and (max-width: 48rem) {
+    .buy-contract {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .buy-contract-net {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+}
