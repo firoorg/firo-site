@@ -19,6 +19,7 @@ permalink: /get-firo/buy-firo/index.html
                 <li><a href="#dex">{% t buyfiro.jumpdex %}</a></li>
                 <li><a href="#crypto">{% t buyfiro.jumpexchanges %}</a></li>
                 <li><a href="#coinswap">{% t buyfiro.jumpswap %}</a></li>
+                <li><a href="#defi">DeFi (rsFIRO)</a></li>
             </ul>
         </div>
     </nav>
@@ -64,16 +65,42 @@ permalink: /get-firo/buy-firo/index.html
                 <a class="buy-card" href="https://buyfiro.app/"><img src="{{ site.baseurl }}/img/coin-swapping/buyfiro-app.svg" alt="buyfiro.app" loading="lazy"></a>
                 <a class="buy-card" href="https://privacygateway.io/"><img src="{{ site.baseurl }}/img/coin-swapping/PrivacyGateway.svg" alt="Privacy Gateway" loading="lazy"></a>
                 <a class="buy-card" href="https://changenow.io/currencies/firo?utm_campaign=firo%20website%20traffic"><img src="{{ site.baseurl }}/img/coin-swapping/change_now_logo.svg" alt="ChangeNOW" loading="lazy"></a>
-                <a class="buy-card" href="https://letsexchange.io/"><img src="{{ site.baseurl }}/img/coin-swapping/letsexchange.svg" alt="LetsExchange" loading="lazy"></a>
-                <a class="buy-card" href="https://simpleswap.io/"><img src="{{ site.baseurl }}/img/coin-swapping/simpleswap.svg" alt="SimpleSwap" loading="lazy"></a>
                 <a class="buy-card" href="https://stealthex.io/"><img src="{{ site.baseurl }}/img/coin-swapping/stealthex.svg" alt="StealthEX" loading="lazy"></a>
-                <a class="buy-card" href="https://swapspace.co/exchange/firo?utm_medium=referral&amp;utm_source=firo&amp;utm_campaign=coinlistings"><img src="{{ site.baseurl }}/img/coin-swapping/swapspace.svg" alt="SwapSpace" loading="lazy"></a>
                 <a class="buy-card" href="https://swapswop.io/"><img src="{{ site.baseurl }}/img/coin-swapping/swapswop.svg" alt="SwapSwop" loading="lazy"></a>
                 <a class="buy-card" href="https://swapzone.io/?refId=hZ9pjEPNe"><img src="{{ site.baseurl }}/img/coin-swapping/swapzone.svg" alt="Swapzone" loading="lazy"></a>
                 <a class="buy-card" href="https://www.coinoswap.com/?to=firo&amp;toNetwork=mainnet&amp;from=btc&amp;fromNetwork=btc&amp;sellAmount=0.01&amp;direction=direct"><img src="{{ site.baseurl }}/img/coin-swapping/coinswap_logo.svg" alt="CoinoSwap" loading="lazy"></a>
-                <a class="buy-card" href="https://xchange.me/"><img src="{{ site.baseurl }}/img/coin-swapping/xmlogo.png" alt="Xchange.me" loading="lazy"></a>
-                <a class="buy-card" href="https://exchang.io/"><img src="{{ site.baseurl }}/img/coin-swapping/exchangio.svg" alt="Exchang.io" loading="lazy"></a>
+                <a class="buy-card" href="https://swapspace.co/exchange/firo?utm_medium=referral&amp;utm_source=firo&amp;utm_campaign=coinlistings"><img src="{{ site.baseurl }}/img/coin-swapping/swapspace.svg" alt="SwapSpace" loading="lazy"></a>
+                <a class="buy-card" href="https://beta.xchange.me/"><img src="{{ site.baseurl }}/img/coin-swapping/xmlogo.png" alt="Xchange.me" loading="lazy"></a>
                 <a class="buy-card" href="https://cyphergoat.com/"><img src="{{ site.baseurl }}/img/coin-swapping/cyphergoat.svg" alt="CypherGoat" loading="lazy"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section buy-tint" id="defi">
+        <div class="container">
+            <div class="buy-head">
+                <h2>{% t buyfiro.defititle %} <span class="buy-tag">rsFIRO</span></h2>
+                <p>{% t buyfiro.defitext %}</p>
+            </div>
+            <div class="buy-grid">
+                <a class="buy-card" href="https://app.uniswap.org/explore/tokens/ethereum/0x2744eA5Ac9b11CB5E3CD63D3a88E858336aEddC2?chain=multichain"><img src="{{ site.baseurl }}/img/defi/uniswap.svg" alt="Uniswap" loading="lazy"></a>
+                <a class="buy-card" href="https://pancakeswap.finance/swap"><img src="{{ site.baseurl }}/img/defi/pancakeswap.svg" alt="PancakeSwap" loading="lazy"></a>
+            </div>
+ 
+            <div class="buy-contracts">
+                <p class="buy-contracts-label">{% t buyfiro.contractslabel %}</p>
+                <div class="buy-contract">
+                    <span class="buy-contract-net">Ethereum</span>
+                    <code class="buy-contract-addr" id="rsfiro-eth">0x2744eA5Ac9b11CB5E3CD63D3a88E858336aEddC2</code>
+                    <a class="buy-contract-link" href="https://etherscan.io/token/0x2744eA5Ac9b11CB5E3CD63D3a88E858336aEddC2" target="_blank" rel="noopener">Verify</a>
+                    <button class="buy-contract-copy" type="button" data-target="rsfiro-eth" data-done="Copied">Copy</button>
+                </div>
+                <div class="buy-contract">
+                    <span class="buy-contract-net">BNB Chain</span>
+                    <code class="buy-contract-addr" id="rsfiro-bsc">0x13cDb5F7f398F6AF2CC3B34EB04476af3488853f</code>
+                    <a class="buy-contract-link" href="https://bscscan.com/token/0x13cDb5F7f398F6AF2CC3B34EB04476af3488853f" target="_blank" rel="noopener">Verify</a>
+                    <button class="buy-contract-copy" type="button" data-target="rsfiro-bsc" data-done="Copied">Copy</button>
+                </div>
             </div>
         </div>
     </section>
@@ -83,5 +110,30 @@ permalink: /get-firo/buy-firo/index.html
             <p class="buy-disclaimer"><b>{% t buyfiro.disclaimerlabel %}</b> {% t buyfiro.disclaimertext %}</p>
         </div>
     </section>
+
+    <script>
+    (function () {
+        var buttons = document.querySelectorAll('.buy-contract-copy');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function () {
+                var btn = this;
+                var text = document.getElementById(btn.getAttribute('data-target')).textContent.trim();
+                var label = btn.textContent;
+                function done() {
+                    btn.textContent = btn.getAttribute('data-done');
+                    setTimeout(function () { btn.textContent = label; }, 1500);
+                }
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text).then(done);
+                } else {
+                    var t = document.createElement('textarea');
+                    t.value = text; document.body.appendChild(t); t.select();
+                    try { document.execCommand('copy'); done(); } catch (e) {}
+                    document.body.removeChild(t);
+                }
+            });
+        }
+    })();
+    </script>
 
 </div>
