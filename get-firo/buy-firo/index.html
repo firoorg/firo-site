@@ -75,10 +75,73 @@ permalink: /get-firo/buy-firo/index.html
         </div>
     </section>
 
+    {% if defi_on %}
+    <section class="section buy-tint" id="defi">
+        <div class="container">
+            <div class="buy-head">
+                <h2>DeFi platforms <span class="buy-tag">rsFIRO</span></h2>
+                <p>These platforms trade rsFIRO, a wrapped version of FIRO that lives on Ethereum and BNB Chain through RosenBridge. It is not the native coin: to use Firo's privacy features, bridge rsFIRO back to the Firo chain.</p>
+            </div>
+            <div class="buy-grid">
+                {% for p in rs.platforms %}{% if p.url != "" %}
+                <a class="buy-card" href="{{ p.url }}"><img src="{{ site.baseurl }}{{ p.logo }}" alt="{{ p.name }}" loading="lazy"></a>
+                {% endif %}{% endfor %}
+            </div>
+ 
+            {% if rs.eth_contract != "" or rs.bsc_contract != "" %}
+            <div class="buy-contracts">
+                <p class="buy-contracts-label">rsFIRO token contracts. Always check the address before you trade.</p>
+                {% if rs.eth_contract != "" %}
+                <div class="buy-contract">
+                    <span class="buy-contract-net">Ethereum</span>
+                    <code class="buy-contract-addr" id="rsfiro-eth">{{ rs.eth_contract }}</code>
+                    <a class="buy-contract-link" href="https://etherscan.io/token/{{ rs.eth_contract }}" target="_blank" rel="noopener">Verify</a>
+                    <button class="buy-contract-copy" type="button" data-target="rsfiro-eth" data-done="Copied">Copy</button>
+                </div>
+                {% endif %}
+                {% if rs.bsc_contract != "" %}
+                <div class="buy-contract">
+                    <span class="buy-contract-net">BNB Chain</span>
+                    <code class="buy-contract-addr" id="rsfiro-bsc">{{ rs.bsc_contract }}</code>
+                    <a class="buy-contract-link" href="https://bscscan.com/token/{{ rs.bsc_contract }}" target="_blank" rel="noopener">Verify</a>
+                    <button class="buy-contract-copy" type="button" data-target="rsfiro-bsc" data-done="Copied">Copy</button>
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </section>
+    {% endif %}
+
     <section class="buy-disclaimer-band buy-tint">
         <div class="container">
             <p class="buy-disclaimer"><b>{% t buyfiro.disclaimerlabel %}</b> {% t buyfiro.disclaimertext %}</p>
         </div>
     </section>
+
+<script>
+    (function () {
+        var buttons = document.querySelectorAll('.buy-contract-copy');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function () {
+                var btn = this;
+                var text = document.getElementById(btn.getAttribute('data-target')).textContent.trim();
+                var label = btn.textContent;
+                function done() {
+                    btn.textContent = btn.getAttribute('data-done');
+                    setTimeout(function () { btn.textContent = label; }, 1500);
+                }
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text).then(done);
+                } else {
+                    var t = document.createElement('textarea');
+                    t.value = text; document.body.appendChild(t); t.select();
+                    try { document.execCommand('copy'); done(); } catch (e) {}
+                    document.body.removeChild(t);
+                }
+            });
+        }
+    })();
+    </script>    
 
 </div>
