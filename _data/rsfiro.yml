@@ -1,0 +1,11 @@
+platforms:
+  - name: Uniswap
+    logo: /img/defi/uniswap.svg
+    url: "https://app.uniswap.org/explore/tokens/ethereum/0x2744eA5Ac9b11CB5E3CD63D3a88E858336aEddC2?chain=multichain"
+ 
+  - name: PancakeSwap
+    logo: /img/defi/pancakeswap.svg
+    url: "https://pancakeswap.finance/token/ethereum/0x2744eA5Ac9b11CB5E3CD63D3a88E858336aEddC2"
+ 
+eth_contract: "0x2744eA5Ac9b11CB5E3CD63D3a88E858336aEddC2"
+bsc_contract: "0x13cDb5F7f398F6AF2CC3B34EB04476af3488853f"
