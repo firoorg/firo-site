@@ -354,6 +354,7 @@ buyfiro:
   jumpdefi: "DeFi (rsFIRO)"
   defititle: "DeFi platforms"
   defitext: "These platforms trade rsFIRO, a wrapped version of FIRO that lives on Ethereum and BNB Chain through RosenBridge. It is not the native coin: to use Firo's privacy features, bridge rsFIRO back to the Firo chain."
+  contractslabel: "rsFIRO token contracts. Always check the address before you trade."
   
 tech:
   heading: Research
