@@ -6517,3 +6517,47 @@ footer .social-icons a img {
         flex-basis: 100%;
     }
 }
+
+/* Get-Firo cards background  */
+
+#firo-paths .btns .col {
+    position: relative;
+    overflow: hidden;
+}
+#firo-paths .btns .col::before {
+    content: "";
+    position: absolute;
+    right: -1.5rem;
+    bottom: -1.5rem;
+    width: 70%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: .7;
+    pointer-events: none;
+    z-index: 0;
+}
+#firo-paths .btns .col:nth-child(1)::before { background-image: url(/img/WhereToBuy-v2.svg); }
+#firo-paths .btns .col:nth-child(2)::before { background-image: url(/img/WhereToUse-v2.svg); }
+#firo-paths .btns .col:nth-child(3)::before { background-image: url(/img/HowToEarn-v2.svg); }
+ 
+/* Desktop only: bigger and stronger than on phones, between "full card"
+   and "small corner". DIALS: width/height = size, opacity = strength,
+   right/bottom = how far it tucks off the card edge. */
+@media only screen and (min-width: 62.0625rem) {
+    #firo-paths .btns .col::before {
+        right: -.75rem;
+        bottom: -.75rem;
+        width: 88%;
+        height: 88%;
+        opacity: .85;
+    }
+}
+ 
+/* keep the heading, text and buttons above the icon */
+#firo-paths .btns .col > * {
+    position: relative;
+    z-index: 1;
+}
