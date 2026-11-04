@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Introducing Firo Quests: Earn Rewards for Being Part of the FiroFam"
-summary: "Firo Quests is our new community rewards platform where you complete tasks, earn points, and get rewarded in FIRO"
+summary: "Firo Quests is our rewards platform where you complete tasks, earn points, and get rewarded in FIRO"
 tags: [community, news]
 author: "Augustus Jong"
-img: "/blog/assets/firo-quest/banner.png"
+img: "/blog/assets/firo-quests/banner.png"
 ---
 
 We're launching something we've been building for the FiroFam: [**Firo Quests**](https://quests.firo.org/), our own community rewards platform.
@@ -19,11 +19,11 @@ The more you participate in the Firo ecosystem, the more points you earn. Bigger
 
 ## How It Works
 
-![Firo Quest Main Page](/blog/assets/firo-quest/firoquest1.png)
+![Firo Quest Main Page](/blog/assets/firo-quests/firoquest1.png)
 
 Log in to the platform, and you'll see a list of available quests across different categories. Each quest has a point value attached to it. Complete the quest, submit your claim, and the points are added to your total.
 
-![Firo quests](/blog/assets/firo-quest/firoquest2.png)
+![Firo quests](/blog/assets/firo-quests/firoquest2.png)
 
 Quests range from quick social tasks to more involved challenges like writing tutorials or creating content about Firo. The platform tracks everything: your points, your rank on the leaderboard, and what you've completed versus what's still available.
 
@@ -31,7 +31,7 @@ As more quests are added over the campaign, the total points on offer grows. You
 
 ## The Leaderboard
 
-![Leaderboard](/blog/assets/firo-quest/leaderboard.png)
+![Leaderboard](/blog/assets/firo-quests/leaderboard.png)
 
 The leaderboard tracks everyone who's participating and ranks them by total points earned. It updates on every claim, so you'll always know where you stand. The top spots are competitive, and that's the point.
 
