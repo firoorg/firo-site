@@ -1,12 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://firo.org/firo-site/pr-preview/pr-643/feed.xml" rel="self" type="application/atom+xml" /><link href="https://firo.org/firo-site/pr-preview/pr-643/" rel="alternate" type="text/html" hreflang="zh-cn" /><updated>2026-11-04T18:25:15+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-643/feed.xml</id><title type="html">Firo</title><subtitle>Firo is a cryptocurrency that focuses on privacy and fungibility.</subtitle><entry><title type="html">Introducing Firo Quests: Earn Rewards for Being Part of the FiroFam</title><link href="https://firo.org/firo-site/pr-preview/pr-643/2026/11/05/firo-quests-launch.html" rel="alternate" type="text/html" title="Introducing Firo Quests: Earn Rewards for Being Part of the FiroFam" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-05T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-643/2026/11/05/firo-quests-launch</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-643/2026/11/05/firo-quests-launch.html"><![CDATA[<p>We’re launching something we’ve been building for the FiroFam: <a href="https://quests.firo.org/"><strong>Firo Quests</strong></a>, our own community rewards platform.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://firo.org/firo-site/pr-preview/pr-643/feed.xml" rel="self" type="application/atom+xml" /><link href="https://firo.org/firo-site/pr-preview/pr-643/" rel="alternate" type="text/html" hreflang="zh-cn" /><updated>2026-11-05T14:35:22+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-643/feed.xml</id><title type="html">Firo</title><subtitle>Firo is a cryptocurrency that focuses on privacy and fungibility.</subtitle><entry><title type="html">Introducing Firo Quests: Earn Rewards for Being Part of the FiroFam</title><link href="https://firo.org/firo-site/pr-preview/pr-643/2026/11/05/firo-quests-launch.html" rel="alternate" type="text/html" title="Introducing Firo Quests: Earn Rewards for Being Part of the FiroFam" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-05T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-643/2026/11/05/firo-quests-launch</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-643/2026/11/05/firo-quests-launch.html"><![CDATA[<p>We’re launching <a href="https://quests.firo.org/"><strong>Firo Quests</strong></a>, our community rewards platform for learning about Firo, contributing to its growth and earning FIRO along the way.</p>
 
-<p>Firo Quests is a place where community participation earns real rewards. Complete tasks, rack up points, climb the leaderboard, and win FIRO.</p>
+<p>We built it to give newcomers a clearer starting point and give the FiroFam more ways to get involved. Our aim is to help more people discover Firo, become comfortable using it and contribute to a network that makes financial privacy accessible.</p>
+
+<p>A shared post can introduce someone to Firo for the first time. A quiz can help them understand what Spark protects. A useful tutorial can give them the confidence to try a private transaction. Firo Quests brings these steps together and rewards the people who help others take them.</p>
+
+<p>We’re launching something we’ve been building for the FiroFam: Firo Quests, our own community rewards platform.</p>
+
+<p>Firo Quests is a place where community participation earns real rewards. Complete tasks, rack up points, climb the leaderboard, and win Firo.</p>
 
 <h2 id="what-is-firo-quests">What Is Firo Quests?</h2>
 
-<p>Firo Quests is our standalone quest platform, built and run entirely by us. It’s not tied to any third-party platform, which means we have full control over what quests we create, how points are awarded, and how rewards are structured. We can customize everything to fit the Firo community and what matters to us.</p>
+<p>Firo Quests is our standalone quest platform, built and operated by the Firo team. Building it ourselves lets us tailor quests and rewards to our community, expand into activities on the Firo network, and make deliberate choices about what participant information is collected and ensure they are protected.</p>
 
-<p>The more you participate in the Firo ecosystem, the more points you earn. Bigger tasks come with bigger point rewards, and more points means a better shot at earning rewards.</p>
+<p><strong>This launch is the first phase</strong>. It focuses mainly on social participation, learning and spreading the word: joining our communities, engaging with Firo’s content, completing quizzes and contributing content of your own. These activities help us reach people who might otherwise never come across Firo and give them somewhere to begin. It also helps existing holders of Firo who may not have had the chance to explore Firo’s other features.</p>
+
+<p>We are already in the process of expanding quests that encourage direct use of the ecosystem, including on-chain transactions on the Firo network, Spark Names, mining and incentives for providing liquidity which will come in the second phase. The longer-term goal is to turn that initial interest into people using Firo, helping others use it and making it easier to access.</p>
+
+<h2 id="how-privacy-is-protected">How Privacy is protected?</h2>
+
+<p>Building the platform ourselves allows us to make deliberate choices about privacy which is why we didn’t use existing campaign platforms like Zealy or Galxe.</p>
+
+<p>A rewards platform needs some information to verify participation, prevent abuse and arrange payments. As a privacy-focused project, we wanted control over what is collected, and how they are protected. That shaped several decisions:</p>
+
+<ul>
+  <li><strong>Sensitive details are encrypted before storage.</strong> This includes email and wallet addresses, linked social-account details, submitted links and files. Encryption keys are stored separately from the database, helping protect those details if stored records are somehow leaked without the keys.</li>
+  <li><strong>We use no advertising, analytics, trackers or fingerprinting.</strong> Your personal information is not shared to any third parties.</li>
+  <li><strong>The public leaderboard uses your display name.</strong> It shows your points, rank and qualification status without publishing your email or wallet addresses.</li>
+  <li><strong>You choose how to sign in.</strong> The platform supports email, a privacy-preserving Firo Spark address or an EVM wallet. Social accounts are linked for quests that need them; we never receive your social-account passwords, and the access tokens used to identify you are not retained.</li>
+</ul>
+
+<p>You can also request account deletion from your profile. Our <a href="https://quests.firo.org/privacy">privacy policy</a> explains the seven-day restoration period, cleanup process and limited records retained for auditing and preventing repeat claims. For Spark payments, the reward amount and recipient are hidden on the Firo blockchain.</p>
 
 <h2 id="how-it-works">How It Works</h2>
 
@@ -44,11 +67,9 @@
 
 <p>This platform exists for you. Every quest on it is a way for someone who cares about Firo’s success to contribute directly - whether that’s sharing a post, learning something new about Spark, or creating content that helps others discover financial privacy.</p>
 
-<p>We’ll keep adding quests, expanding reward structures, and building on this as the community grows.</p>
+<p>Whether you’re discovering Firo today or have been part of the FiroFam for years, we’d love you to join us. Learn something new, help someone else discover financial privacy and take part in building a more active Firo ecosystem.</p>
 
-<p>Head over and get started: <a href="https://quests.firo.org/">https://quests.firo.org/</a></p>
-
-<p>Welcome to Firo Quests</p>]]></content><author><name>Augustus Jong</name></author><category term="community" /><category term="news" /><summary type="html"><![CDATA[We’re launching something we’ve been building for the FiroFam: Firo Quests, our own community rewards platform.]]></summary></entry><entry><title type="html">Firo Reference v0.14.18.1: Redesigned Wallet, Better Performance</title><link href="https://firo.org/firo-site/pr-preview/pr-643/2026/09/26/firo-v014181-release.html" rel="alternate" type="text/html" title="Firo Reference v0.14.18.1: Redesigned Wallet, Better Performance" /><published>2026-09-26T00:00:00+00:00</published><updated>2026-09-26T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-643/2026/09/26/firo-v014181-release</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-643/2026/09/26/firo-v014181-release.html"><![CDATA[<p>Firo v0.14.18.1 puts the desktop wallet front and center, with a refreshed interface, smoother interactions, and major memory savings for full nodes.</p>
+<p>We’ll keep adding quests, expanding reward structures, and building on this as the community grows.</p>]]></content><author><name>Augustus Jong</name></author><category term="community" /><category term="news" /><summary type="html"><![CDATA[We’re launching Firo Quests, our community rewards platform for learning about Firo, contributing to its growth and earning FIRO along the way.]]></summary></entry><entry><title type="html">Firo Reference v0.14.18.1: Redesigned Wallet, Better Performance</title><link href="https://firo.org/firo-site/pr-preview/pr-643/2026/09/26/firo-v014181-release.html" rel="alternate" type="text/html" title="Firo Reference v0.14.18.1: Redesigned Wallet, Better Performance" /><published>2026-09-26T00:00:00+00:00</published><updated>2026-09-26T00:00:00+00:00</updated><id>https://firo.org/firo-site/pr-preview/pr-643/2026/09/26/firo-v014181-release</id><content type="html" xml:base="https://firo.org/firo-site/pr-preview/pr-643/2026/09/26/firo-v014181-release.html"><![CDATA[<p>Firo v0.14.18.1 puts the desktop wallet front and center, with a refreshed interface, smoother interactions, and major memory savings for full nodes.</p>
 
 <h2 id="a-new-look-and-smoother-experience">A New Look and Smoother Experience</h2>
 
