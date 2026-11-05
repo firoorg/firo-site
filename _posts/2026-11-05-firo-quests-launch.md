@@ -66,7 +66,7 @@ Here's how rewards work:
 
 **Base reward:** Every qualified member earns a base reward of US$2, paid out in leaderboard order up to the cap. Top-ranked members also earn a bonus on top.
 
-**Growing prize pool:** The pool grows as more members qualify. It starts with prizes for the top 3 and reaches US$600 with 100 qualified members. As more people join, the pool scales up.
+**Growing prize pool:** The pool grows as more members qualify. It starts with prizes for the top 3, reaches US$600 with 100 qualified members, and scales up to a maximum of US$2,000 as more people join.
 
 **Payout:** All prizes are paid in FIRO at the 7-day average CoinGecko price at campaign close, never below 70% of the launch-day price.
 
