@@ -66,7 +66,7 @@ Here's how rewards work:
 
 **Base reward:** Every qualified member earns a base reward of US$2, paid out in leaderboard order up to the cap. Top-ranked members also earn a bonus on top.
 
-**Growing prize pool:** The pool grows as more members qualify. It starts with prizes for the top 3, reaches US$600 with 100 qualified members, and scales up to a maximum of US$2,000 as more people join.
+**Growing prize pool:** The more the FiroFam shows up, the bigger the pot gets. The pool opens with prizes for the top 3. As more members qualify, more top places win and bonuses grow: at 100 qualified members, the pool reaches US$600. It scales up to a cap of US$2,000, with base rewards paid to qualified members in leaderboard order until it runs out.
 
 **Payout:** All prizes are paid in FIRO at the 7-day average CoinGecko price at campaign close, never below 70% of the launch-day price.
 
