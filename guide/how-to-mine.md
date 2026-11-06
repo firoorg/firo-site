@@ -85,6 +85,9 @@ The pools below are listed on [MiningPoolStats](https://miningpoolstats.stream/f
 	* stratum+tcp://pooly.ca:3094
 * [SmoozyPool](https://smoozypool.es/)
 	* smoozypool.es:4031 (PPLNS)
+* [VEIN Pool](https://veinpool.fr/coin/firo?lang=en)
+    * veinpool.fr:3060 (PPLNS)
+    * veinpool.fr:3062 (SOLO)
 
 * For detailed stratum information, please visit the pool's own site.
 
