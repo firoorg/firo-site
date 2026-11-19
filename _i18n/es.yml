@@ -1,0 +1,594 @@
+global:
+  date: '%d/%m/%Y'
+  firo: Firo
+  yeth: "sí"
+  noo: "no"
+  lelantus: Lelantus
+  title: Firo - Criptomoneda que preserva la privacidad
+  
+titles:
+  home: Inicio
+  download: Descargar
+  buyfiro: "Comprar Firo"
+  tech: Investigación
+  team: Equipo
+  roadmap: Hoja de ruta
+  roadmap-old: Hoja de ruta anterior
+  faq: Preguntas frecuentes
+  community: Comunidad
+  guides: Guías
+  blog: Blog
+  branding: Marca
+  merchants: Comercios
+  pillar1: Privado
+  pillar2: Práctico
+  pillar3: Ecosistema
+  
+navigation:
+  getfiro: Obtener Firo
+  about: Acerca de
+  community: Comunidad
+  social: Redes sociales
+  merchants: Comercios
+  guides: Guías
+  blog: Blog
+  crowdfunding: Crowdfunding
+  download: Descargar monederos
+  buyfiro: Comprar Firo
+  earnfiro: Ganar Firo
+  mine: Minar
+  tech: Investigación
+  team: Equipo
+  roadmap: Hoja de ruta
+  faq: Preguntas frecuentes
+  fcs: Sistema de crowdfunding de Firo
+  opencollective: Open Collective
+  whatisfiro: "¿Qué es Firo?"
+  explorers: Exploradores
+  explorerofficial: Oficial
+  explorerblockbook: Blockbook
+  explorerchainz: Chainz
+  explorerfiroblocks: Firoblocks
+  firoquest: "Firo Quests"
+  
+footer:
+  resources: Recursos
+  branding: Marca
+  vuln: Programa de vulnerabilidades
+  explorer: Explorador
+  website: Sitio web
+  privacy: Política de privacidad
+  tos: Condiciones del servicio
+  newsletter: Noticias
+  ifsub: Visita nuestro <a href="/blog/">blog</a> y nuestro canal de Telegram para estar al día de las novedades de Firo.
+  newsbutton: Leer noticias
+  comm: Comunicación
+  feed: Feed RSS
+
+  
+home:
+  heading: Encendiendo la chispa <br class="brmob">de la revolución de la privacidad
+  heading2: Dinero privado para todos. <br>Sin vigilancia. Sin rastros. Sin concesiones.
+  happening: Lo que está pasando ahora.
+  case: Usado en el mundo real. Ahora mismo.
+  case1: En 2018, el Partido Demócrata de Tailandia usó Firo para celebrar sus primarias, la primera vez que un gran partido político realizaba una votación a gran escala en una blockchain pública. Más de 127.000 personas votaron con total privacidad y con un resultado verificable.
+  case2: "En Siria, los miembros de la comunidad no esperan a que llegue un sistema mejor: lo están construyendo. Ya se está poniendo en marcha una oficina local de formación sobre Firo para ofrecer a la gente una forma práctica de guardar y transferir valor de forma privada, al margen de un sistema bancario que les raciona su propio dinero. Así es la adopción de Firo sobre el terreno."
+  case3: En la Monero Conference de 2025 en Praga, investigadores y desarrolladores de privacidad de proyectos rivales destacaron a Firo como uno de los pocos proyectos con una integridad técnica genuina. Un reconocimiento así, por encima de las fronteras entre comunidades, no se concede a la ligera.
+  cta1: Consigue Firo
+  cta2: Descarga el monedero
+  campfire: "Consigue Campfire"
+  campfiretext: "Firo en tu móvil"
+  firomsg: "Tu dinero no debería ser un dispositivo de rastreo"
+  firomsgp: "Firo te permite enviar y recibir dinero de forma privada. Tu saldo, tu historial, a quién pagas: oculto por defecto y visible solo para quien tú elijas"
+  pillar1: "Privado"
+  pillar1text1: "Tecnología Lelantus Spark de vanguardia"
+  pillar1text2: "Saldos y transacciones privados"
+  pillar1text3: "Un sólido conjunto de anonimato"
+  pillar1link: "Más información"
+  pillar2: "Práctico"
+  pillar2text1: "Spark Names"
+  pillar2text2: "Direcciones Spark"
+  pillar2text3: "InstantSend"
+  pillar2text4: "Campfire"
+  pillar2link: "Explora"
+  pillar3: "Ecosistema"
+  pillar3text1: "Spark Assets"
+  pillar3text2: "FiroDEX"
+  pillar3text3: "RosenBridge"
+  pillar3link: "Descubre más"
+  quote2: "«La privacidad es necesaria para una sociedad abierta en la era electrónica»."
+  quote2a: "- UN MANIFIESTO CYPHERPUNK · 1993"
+  problem_heading: El dinero ya es una herramienta de vigilancia.
+  problem1: "La mayoría de las monedas digitales registran para siempre todo tu historial financiero. Tu saldo, tus hábitos, cada persona a la que has pagado. Cualquiera con las herramientas adecuadas puede verlo todo. No es un fallo: es así por diseño."
+  problem2: Tu banco sabe más de tu vida que la mayoría de la gente. Cada compra queda registrada y se vende. Nunca te pidieron permiso. A medida que desaparece el efectivo, desaparece también la última forma de gastar de manera verdaderamente privada.
+  problem3: No es teoría. En Siria, las retiradas bancarias semanales están limitadas a unos 38 dólares. Un miembro de la comunidad ya está montando una oficina física para enseñar a la gente a usar Firo como alternativa práctica.
+  problem4: "La privacidad no consiste en esconderse. Consiste en el consentimiento: el derecho a elegir quién ve en qué gastas. Ese derecho venía con el efectivo. Firo lo recupera."
+  privacy: Privacidad
+  privacy1: Firo desarrolló Lelantus Spark, que ofrece privacidad en cadena y sin necesidad de confianza con grandes conjuntos de anonimato. La tecnología Dandelion++ aporta privacidad en la capa de red.
+  privacy2: conjunto de anonimato
+  privacy3: sin configuración de confianza
+  apart: La tecnología de privacidad sobre la que construyen otros.
+  apart1: La mayoría de los proyectos de privacidad adoptan tecnología existente y le cambian el nombre. Firo construye desde cero. Los sistemas de privacidad que hemos diseñado han sido adoptados por otros grandes proyectos del sector. Cuando la industria necesitó un modelo mejor, se fijó en lo que había construido Firo.
+  apart2: Llevamos haciendo esto desde 2016. Nuestro trabajo ha sido auditado de forma independiente, revisado por pares y publicado. No somos nuevos en esto.
+  pointproof1: 9 años de desarrollo continuo.
+  pointproof2: Investigación original. Ni bifurcaciones ni copias.
+  pointproof3: Auditado de forma independiente por empresas de seguridad externas.
+  pointproof4: Citado y adoptado por otros grandes proyectos de privacidad.
+  blockchain: Blockchain
+  blockchain1: Nuestro sistema híbrido de PoW y Chainlocks LLMQ protege frente a ataques del 51 % y garantiza una finalidad casi instantánea de bloques y transacciones, lo que convierte a Firo en una opción ideal para pagos seguros y eficientes.
+  blockchain2: suministro total + emisión de cola
+  blockchain3: prueba de trabajo
+  blockchain4: masternodes
+  privacyin: Infraestructura de privacidad
+  privacyin1: Con Spark Assets, Firo extiende la privacidad más allá de las transacciones, hasta los propios activos. Esta función oculta el tipo de activo que se transfiere, lo que la hace perfecta para crear tokens centrados en la privacidad que pueden usarse en aplicaciones seguras y anónimas, como votaciones o activos tokenizados privados.
+  randd: Investigación y desarrollo
+  randd1: Firo destaca como uno de los pocos proyectos que aportan investigación independiente a tecnologías de privacidad y descentralización en blockchain como Zerocoin, Sigma, Lelantus, Lelantus Spark y MTP. Nuestro trabajo ha desempeñado un papel clave en el sector, ya que ha influido en otros proyectos o ha sido adoptado por ellos.
+  sparkassets: Privacidad para cualquier activo, no solo para Firo
+  sparkassets1: "La privacidad de Firo no se limita a su propia moneda. Spark Assets permite que cualquier token herede las mismas protecciones: stablecoins, puntos de fidelidad, credenciales de voto, NFT. Una vez dentro de la red de Firo, los activos se vuelven indistinguibles entre sí. Infraestructura privada para todo lo que mueve valor."
+  solution: Privacidad que no te pide confiar en nadie
+  solution1: "Cuando envías Firo, el importe, el remitente y el destinatario quedan ocultos. Ni difuminados ni opcionales: ocultos. Sin necesidad de configurar nada. La privacidad es su forma de funcionar."
+  solution2: La mayoría de las transacciones pueden rastrearse hasta el dispositivo que las envió. Firo está diseñado para que ni siquiera tu conexión a internet revele nada. Anónimo desde el principio.
+  solution3: Las transacciones de Firo se confirman en segundos y no pueden revertirse ni manipularse. Miles de nodos independientes mantienen la red honesta. No hay ninguna entidad central a la que presionar, hackear o cerrar.
+  community: Financiado por la comunidad. Gobernado por la comunidad.
+  community1: "El desarrollo de Firo se financia a través de un Fondo Comunitario descentralizado: ni una tesorería corporativa ni capital riesgo. Cualquiera puede proponer ideas, y la comunidad vota qué se construye. No es teatro de gobernanza. Es como funciona Firo de verdad."
+  getfiro: Consigue Firo
+  getfiro1: Compra, mina o gana Firo, y únete a la revolución de la privacidad. <br>Guarda tus Firo en uno de nuestros monederos repletos de funciones, optimizados para ofrecer potencia, accesibilidad y una buena experiencia de usuario.
+  getfiro2: Consigue un monedero
+  getfiro2text: Firo ofrece varias opciones para gestionar tus fondos en los principales sistemas operativos de escritorio y móviles. Elige la que mejor te funcione.
+  getfiro2link: Descarga un monedero
+  getfiro3: Compra Firo
+  getfiro3text: Firo ofrece varias opciones para gestionar tus fondos en los principales sistemas operativos de escritorio y móviles. Elige la que mejor te funcione.
+  getfiro3link: Encuentra un exchange
+  getfiro4: Gana Firo
+  getfiro4text: Puedes configurar tu propio masternode de Firo para ganar Firo. Te guiamos paso a paso en el proceso de configuración en nuestra guía detallada.
+  getfiro4link: Configura un masternode
+  getfiro5: Empieza a minar
+  getfiro5text: FiroPoW, el algoritmo de minería de Firo, está diseñado para minarse con GPU. Sigue nuestra guía para empezar a minar tus primeros Firo.
+  getfiro5link: Lee la guía de minería
+  getcampfirelink: Descárgalo ahora
+  manifesto: "La privacidad es necesaria para una sociedad abierta en la era electrónica."
+
+pillars:
+  nexttitle: "Sigue explorando"
+  label: "Pilar"
+  privatetitle: "Privado"
+  privatepitch: "Cómo oculta Firo tu saldo y tus pagos, y por qué esa privacidad se sostiene."
+  practicaltitle: "Práctico"
+  practicalpitch: "Spark Names, pagos definitivos en segundos y un monedero lo bastante sencillo para el día a día."
+  ecosystemtitle: "Ecosistema"
+  ecosystempitch: "Tokens confidenciales en Firo, un puente hacia otras cadenas e intercambios sin ceder la custodia."
+
+private:
+  heading: "Tu dinero no es asunto de nadie"
+  lead: "La mayoría de las criptomonedas exponen tu saldo y tu historial de pagos en un registro público. En los monederos oficiales de Firo, Spark hace que los pagos privados sean la opción predeterminada."
+  cta: "Consigue un monedero privado"
+  sparktitle: "Lelantus Spark"
+  sparktext: "El protocolo de privacidad de Firo para pagos directos. Spark oculta el remitente, el destinatario y el importe a quienes observan el registro público, mientras que las pruebas de conocimiento cero permiten a la red verificar cada transacción sin necesidad de una configuración de confianza."
+  sparklink: "Lee la investigación"
+  balancestitle: "Saldos y pagos privados"
+  balancestext: "Las direcciones Spark no pueden buscarse en la blockchain como las direcciones públicas normales. Los fondos que guardas y los pagos que haces con Spark quedan fuera de la vista pública, mientras que las claves de visualización te permiten compartir información de tus transacciones cuando tú decidas."
+  anonsettitle: "Conjuntos de anonimato grandes y solapados"
+  anonsettext: "Cada gasto de Spark se oculta entre un gran conjunto de monedas posibles. Estos conjuntos se organizan como ventanas solapadas, de modo que cada nuevo conjunto arrastra la privacidad del anterior en lugar de empezar con una multitud vacía. Cuanta más actividad haya en Spark, mayor será la multitud en la que esconderse."
+  opentitle: "Privacidad diseñada para entenderse y para durar."
+  opentext: "El dinero privado no debería depender de una sola empresa ni de un pequeño círculo de expertos. Spark combina componentes criptográficos consolidados, investigación publicada, código abierto y un diseño modular para que el escrutinio independiente y el mantenimiento a largo plazo sean viables."
+  comparetitle: "Decisiones de diseño que puedes comprobar"
+  comparelead: "Una privacidad que no puedes inspeccionar es una privacidad en la que tienes que confiar a ciegas. Así está construido Spark y esto es lo que permite cada decisión."
+  tablecol1: "Decisión de diseño"
+  tablecol2: "Spark"
+  tablecol3: "Por qué importa"
+  table1a: "Fundamentos criptográficos consolidados"
+  table1b: "Sí"
+  table1c: "Más fácil de analizar para expertos independientes"
+  table2a: "Investigación y código fuente públicos"
+  table2b: "Sí"
+  table2c: "Otros pueden inspeccionar, implementar y mantener el trabajo"
+  table3a: "Construcción modular"
+  table3b: "Sí"
+  table3c: "Los componentes pueden revisarse y actualizarse por separado"
+  table4a: "Auditorías independientes"
+  table4b: "Criptografía y código"
+  table4c: "Escrutinio más allá de los desarrolladores originales"
+  table5a: "Configuración de confianza"
+  table5b: "No necesaria"
+  table5c: "Sin material secreto de configuración que generar y destruir"
+  trust1b: "Desarrollo de privacidad desde 2016"
+  trust1s: "Cuatro generaciones de trabajo en protocolos"
+  trust2b: "Publicado en abierto"
+  trust2s: "Artículos públicos, pruebas de seguridad y código fuente"
+  trust3b: "Auditado por expertos externos"
+  trust3s: "Criptografía e implementación de Spark revisadas"
+  trust4b: "Diseñado para perdurar"
+  trust4s: "Un diseño modular que otros pueden entender y mantener"
+  ctatitle: "¿Listo para el dinero privado?"
+  ctawallet: "Consigue un monedero"
+  ctaresearch: "Lee la investigación"
+  nextlead: "Privado es una de las caras de Firo. Estas son las otras dos."
+  nextcta: "Consigue un monedero"
+
+practical:
+  heading: "Privacidad sin complicaciones"
+  lead: "El dinero privado tiene fama de ser lento, técnico y engorroso. El de Firo no. Está pensado para usarse a diario: en tu móvil, en segundos y sin quebraderos de cabeza."
+  cta: "Consigue Campfire"
+  cta2: "Ver todos los monederos"
+  featureseyebrow: "Funciones"
+  featurestitle: "Pensado para el día a día"
+  namestitle: "Spark Names"
+  namestext: "Envía a un nombre, no a una cadena de caracteres. Paga a un nombre sencillo y legible en lugar de copiar una dirección larga y propensa a errores."
+  nameslink: "Más información sobre Spark Names"
+  addresstitle: "Dirección Spark"
+  addresstext: "Una sola dirección que puedes reutilizar libremente. Comparte públicamente una única dirección Spark y sigue recibiendo en ella, pago tras pago, de forma privada."
+  addresslink: "Acerca de la dirección Spark"
+  instantsendtitle: "InstantSend"
+  instantsendtext: "Confirmado en segundos. Los pagos son definitivos casi al instante, incluso antes del siguiente bloque: lo bastante rápido como para pagar en una tienda de verdad."
+  instantsendlink: "Cómo funciona InstantSend"
+  campfiretitle: "Campfire"
+  campfiretext: "Privacidad en tu bolsillo. Un monedero de Firo privado y completo en tu móvil, tan fácil de configurar que sirve para quien empieza."
+  campfirelink: "Consigue Campfire"
+  howeyebrow: "Cómo funciona"
+  howtitle: "Enviar Firo, de principio a fin"
+  howlead: "Tres pasos. Sin jerga, sin nodo y sin esperas."
+  step1title: "Abre Campfire"
+  step1text: "Abre la aplicación y desbloquéala con tu PIN o con biometría. Tu monedero está listo."
+  step1mocksub: "Desbloqueado"
+  step2title: "Elige un nombre o pega una dirección"
+  step2text: "Escribe un Spark Name o pega una dirección. Campfire la comprueba por ti."
+  step2mocklabel: "Pagar a"
+  step3title: "Envía"
+  step3text: "Confirma el importe y envía. Es privado y definitivo en segundos."
+  step3mockbtn: "Enviar en privado"
+  trust1b: "Móvil y escritorio"
+  trust1s: "Windows, macOS, Linux, iOS y Android"
+  trust2b: "Privado por defecto"
+  trust2s: "Privacidad Spark activada automáticamente"
+  trust3b: "Listo en segundos"
+  trust3s: "Con InstantSend no hay que esperar al siguiente bloque"
+  trust4b: "Código abierto"
+  trust4s: "Código disponible para revisión pública"
+  nextlead: "Práctico es una de las caras de Firo. Estas son las otras dos."
+  nextcta: "Descarga Campfire"
+  
+ecosystem:
+  heading: "Privacidad que llega más lejos"
+  lead: "La privacidad de Firo no se queda en FIRO. Puede albergar nuevos tokens, llegar a otras cadenas e intercambiarse sin ceder la custodia, llevando una privacidad sólida a una parte más amplia del mundo cripto."
+  cta: "Explora Spark Assets"
+  cta2: "Lee la investigación"
+  spatseyebrow: "La pieza central"
+  spatstitle: "Spark Assets"
+  spatstagline: "Crea tu propio token confidencial en Firo."
+  spatstext1: "Spark Assets, o Spats, amplía Lelantus Spark, el motor de privacidad de FIRO, para que pueda proteger algo más que FIRO. Puedes crear tu propio token directamente en la blockchain de Firo, y vivirá allí como un Spark Asset con la misma privacidad sólida que ya tiene FIRO."
+  spatstext2: "Eso convierte a Firo en un lugar donde emitir y guardar tokens confidenciales, cada uno privado por defecto y todos en una misma cadena."
+  callouttitle: "Cada token oculta a los demás"
+  callouttext: "Esta es la parte que lo hace tan potente: cada Spark Asset es indistinguible de cualquier otro activo, incluso de Firo. Una transacción que envía el token A es exactamente igual que una que envía el token B. Así, cada pago en la capa de Spats ayuda a ocultar todos los demás, y cuantos más tokens y actividad soporta, más fuerte es la privacidad para todos."
+  roseneyebrow: "Alcance"
+  rosentitle: "RosenBridge"
+  rosentext1: "Las monedas de privacidad necesitan liquidez resistente a la censura. RosenBridge conecta FIRO con otras blockchains. Cuando FIRO cruza el puente, la moneda nativa se bloquea y se emite una cantidad equivalente de rsFIRO (FIRO envuelto por Rosen) como token estándar en la cadena de destino, como Ethereum o BNB Chain, lo que le permite participar en sus ecosistemas DeFi, ricos y con mucha liquidez."
+  rosentext2: "RosenBridge no depende de un único exchange o custodio. Su diseño reparte la responsabilidad entre participantes independientes, lo que dificulta que una sola entidad bloquee el acceso a FIRO."
+  firodexeyebrow: "Intercambio"
+  firodextitle: "DEX de intercambio atómico"
+  firodextext1: "FiroDEX y BasicSwap te permiten intercambiar FIRO directamente con otra persona. Usan intercambios atómicos, lo que significa que mantienes la custodia de tus monedas en todo momento: sin cuenta que abrir ni empresa que guarde tus fondos."
+  firodextext2: "Es la forma de entrar y salir de FIRO sin confiar en un exchange centralizado, manteniendo intacto el espíritu de autocustodia del dinero privado."
+  closingtitle: "Un ecosistema en crecimiento"
+  closingtext: "Spark Assets, RosenBridge y FiroDEX son las primeras piezas. Vienen más formas de usar y conectar la privacidad de Firo."
+  closingcta: "Participa"
+  nextlead: "Ecosistema es una de las caras de Firo. Estas son las otras dos."
+  nextcta: "Participa"
+
+download:
+  lead: "Elige el monedero que mejor se adapte a cómo quieres usar Firo. Todos son privados por defecto."
+  recommended: "Recomendado"
+  tpdisclaimerlabel: "Nota."
+  tpdisclaimertext: "Estos monederos los desarrollan y mantienen terceros, no el equipo de Firo. Que aparezcan aquí no supone una recomendación. Revísalos tú mismo antes de confiarles tus fondos."
+  heading: Descarga un monedero
+  official: monederos recomendados
+  backup: Haz una copia de seguridad de tu monedero antes de actualizar
+  verify: Verifica los hashes con
+  verify1: esta clave pública
+  guide: Consulta esta
+  guide1: guía oficial de instalación y uso del monedero
+  changelog: Ver registro de cambios
+  option1: Nodo completo, todas las funciones
+  option2: Recomendado para la mayoría de los usuarios
+  option3: Monedero ligero compatible con monederos hardware
+  qt: Reference
+  downloadqtw: Descargar Reference para Windows
+  downloadqtm: Descargar Reference para macOS
+  downloadqtmarm: Descargar Reference para macOS arm64
+  downloadqtflathub: Descárgalo en Flathub
+  downloadqtl: Descargar Reference para Linux
+  downloadqtlarm64: Descargar Reference para Linux arm64
+  campfire: Campfire
+  downloadcampfirew: Descargar Campfire para Windows
+  downloadcampfirem: Descargar Campfire para macOS
+  downloadcampfirel: Descargar Campfire para Linux
+  downloadmobcamp: Descargar Campfire para Android
+  downloadioscamp: Descargar Campfire para iOS
+  electrum: Electrum
+  downloadelectrumw: Descargar Electrum para Windows
+  downloadelectrumm: Descargar Electrum para macOS
+  downloadelectruml: Descargar Electrum para Linux
+  hasheswindows: Mostrar hashes SHA256 para Windows
+  hashesmac: Mostrar hashes SHA256 para macOS
+  hashesmacarm: Mostrar hashes SHA256 para macOS arm64
+  hasheslinux: Mostrar hashes SHA256 para Linux
+  hasheslinuxarm64: Mostrar hashes SHA256 para Linux arm64
+  officialmobile: monederos móviles oficiales
+  optionmob1: Android
+  optionmob2: iOS
+  iosmob: Monedero para iOS
+  downloadmobios: Próximamente
+  hashesios: Mostrar hashes SHA256 para iOS
+  optionmob3: Android e iOS
+  campfiremob: Monedero Campfire
+  stackwalletmob: Stack Wallet
+  wallets: monederos de terceros
+
+buyfiro:
+  heading: Comprar Firo
+  heading2: Una de las formas de conseguir Firo es adquirirlo en un exchange. A continuación encontrarás una lista de exchanges y servicios de intercambio de monedas compatibles con Firo.
+  predisclaimer: Aviso&colon;&#x20;
+  disclaimer: Algunos de estos enlaces son enlaces de referido, por lo que el equipo principal de Firo puede recibir una compensación cuando te registras o usas sus productos o servicios. Esto no constituye una recomendación del producto o servicio.
+  ff: "Firo / fiat"
+  fc: "Firo / cripto"
+  cs: "Intercambio de monedas"
+  exchangeswith: exchanges con
+  ffhead1: "firo / fiat"
+  pairing: como par
+  fchead1: "firo / cripto"
+  csservice: servicios de intercambio de monedas
+  dex: dex
+  liquidstaking: staking líquido
+  eyebrow: "Obtener Firo"
+  heading: "Comprar Firo"
+  lead: "Firo está disponible en exchanges centralizados y descentralizados, y en servicios de intercambio de monedas. Elige la opción que mejor encaje con la forma en que ya guardas tus criptomonedas."
+  jumplabel: "Ir a una sección"
+  jumpdex: "Exchanges descentralizados"
+  jumpexchanges: "Exchanges centralizados"
+  jumpswap: "Intercambio de monedas"
+  dextitle: "Exchanges descentralizados"
+  dextext: "Opera de igual a igual desde tu propio monedero. Mantienes la custodia de tus monedas en todo momento."
+  exchangestitle: "Exchanges centralizados"
+  exchangestext: "Opera con FIRO frente a otras criptomonedas en un exchange centralizado. La mayoría exigen abrir una cuenta y verificar tu identidad."
+  swaptitle: "Servicios de intercambio de monedas"
+  swaptext: "Cambia otra criptomoneda directamente por FIRO. Sin cuenta que abrir: envías una moneda y recibes FIRO en la dirección que indiques."
+  disclaimerlabel: "Aviso."
+  disclaimertext: "Algunos de estos enlaces son enlaces de referido, y el equipo principal de Firo puede recibir una compensación si te registras o usas estos productos y servicios. Que aparezcan aquí no supone una recomendación."
+  jumpdefi: "DeFi (rsFIRO)"
+  defititle: "Plataformas DeFi"
+  defitext: "Estas plataformas operan con rsFIRO, una versión envuelta de FIRO que existe en Ethereum y BNB Chain gracias a RosenBridge. No es la moneda nativa: para usar las funciones de privacidad de Firo, devuelve tus rsFIRO a la cadena de Firo a través del puente."
+  contractslabel: "Contratos del token rsFIRO. Comprueba siempre la dirección antes de operar."
+  
+tech:
+  heading: Investigación
+  heading1: La privacidad consiste en ir siempre un paso por delante. El equipo detrás de Firo es responsable de algunos de los protocolos de privacidad para blockchain más importantes de la historia, y toda esa tecnología se condensa en Firo.
+  academicpapers: Artículos académicos
+  audits: Auditorías
+  sparklelantus1: Tecnología Lelantus Spark
+  sparklelantus2: "Lelantus Spark mejora enormemente a su predecesor, Lelantus, con direcciones Spark flexibles que ocultan todos los importes de las transacciones y no pueden buscarse en la blockchain, a la vez que permiten firmas de umbral eficientes y claves de visualización tanto de entrada como de salida. Spark también tiene una estructura modular que permite actualizar sus componentes a medida que surge mejor tecnología y que simplifica el análisis de seguridad. Conserva las ventajas de Lelantus: no necesita configuración de confianza, tiene una construcción fácil de entender y se basa en supuestos criptográficos bien establecidos."
+  lelantus1: Tecnología Lelantus
+  lelantus2: Lelantus es un protocolo de privacidad de nueva generación desarrollado por Aram Jivanyan en Firo. Lelantus te permite quemar tus monedas, lo que las oculta en un conjunto de anonimato de más de 65.000. El receptor puede canjearlas desde este fondo de anonimato, lo que rompe los vínculos con tu transacción y con todas las anteriores por las que han pasado.
+  sigma1: Tecnología Sigma
+  sigma2: Creemos que el propósito de la blockchain es construir sistemas que no requieran confianza, y ese mismo principio se aplica a nuestros sistemas de privacidad. Por eso creamos Sigma para Zcoin en 2018, que elimina la necesidad de una configuración de confianza en Zerocoin. Sigma usa curvas ECC de 256 bits para lograr pruebas de solo 1,5 kB, una mejora de 17 veces respecto a la tecnología de la época. Sigma fue la precursora de Lelantus y sentó muchas de las bases que nos han traído hasta aquí.
+  dandelion1: Tecnología Dandelion
+  dandelion2: Dandelion++ protege tu dirección IP. Antes de difundir las transacciones de Firo a toda la red, se pasan entre nodos durante un número aleatorio de saltos. Así, el origen de la difusión queda desvinculado de tu dirección IP.
+  mtp1: Seguridad descentralizada y justa
+  mtp2: El algoritmo de minería Merkle Tree Proof (MTP) de Firo se diseñó para democratizar la minería. El algoritmo MTP hace un uso intensivo de la memoria, lo que encarece la fabricación de ASIC y mantiene la cadena minable con hardware de consumo como las GPU. Los nodos, sin embargo, pueden prescindir de este requisito de memoria y verificar estas pruebas de forma eficiente. Una auditoría patrocinada por Firo en 2017 demostró la eficacia de este doble enfoque. Desde entonces, MTP ha sido sustituido por FiroPoW, que tiene pruebas más pequeñas y estrategias adicionales de resistencia a los ASIC.
+  
+team:
+  heading: Equipo
+  founders: fundadores
+  coreteam: desarrolladores principales
+  mobileteam: desarrollo móvil
+  research: investigación
+  community: comunidad
+  poramininsom:
+    name: Poramin Insom
+    title: Cofundador
+    bio: Poramin Insom fundó Zcoin (ahora Firo) en 2016 con el objetivo de ofrecer privacidad financiera y una minería más inclusiva mediante una prueba de trabajo resistente a los ASIC. Obtuvo un máster en Seguridad de la Información por la Universidad Johns Hopkins, donde escribió un artículo sobre una propuesta de implementación práctica del protocolo Zerocoin. Sentó las bases de la tecnología de Zcoin (ahora Firo), desde programar la primera implementación de Zerocoin del mundo hasta impulsar la investigación y el desarrollo del algoritmo de minería MTP. Poramin se ha centrado en impulsar la adopción de Firo en el mundo real, sobre todo con su participación para que el Partido Demócrata de Tailandia celebrara en 2018 en la blockchain de Firo las primarias para elegir a su líder, la primera elección política a gran escala del mundo en una blockchain. También sirvió en el ejército tailandés, donde estuvo a cargo de la ciberguerra.
+  reubenyap:
+    name: Reuben Yap
+    title: Cofundador
+    bio: Reuben Yap ha dirigido la estrategia general, los objetivos de desarrollo y los esfuerzos de investigación del proyecto durante los últimos años. Ahora sigue formando parte del equipo principal y gestiona sus equipos de desarrollo e investigación. Se unió al equipo poco después de su creación y ha desempeñado un papel clave para llevar a Firo a donde está hoy. Reuben, firme defensor de la privacidad en línea y financiera, fundó uno de los primeros servicios de VPN del sudeste asiático para combatir la censura en su país y es un ponente muy respetado en la materia, con entrevistas y comentarios en BBC, Nasdaq Tradetalks, Forbes, Coindesk, Reuters y Cheddar News, entre otros. Antes de unirse a Firo, Reuben era socio de un bufete de abogados, con más de diez años de ejercicio profesional especializado en asesoramiento sobre marcos jurídicos e institucionales.
+  petershugalev:
+    name: Peter Shugalev
+    title: Desarrollador principal
+    bio: Peter es un programador y arquitecto de software de gran talento con más de 20 años de experiencia. Vive en Moscú (Rusia) y se graduó magna cum laude en la Universidad Estatal de Moscú con un máster en Informática y Matemáticas. Ha creado servicios de red y de seguridad, e incluso su propio lenguaje de programación y un compilador multiplataforma para un sistema de detección de intrusiones basado en firmas. Su poco común combinación de conocimientos criptográficos y de programación ha ayudado a Firo a mantenerse a la vanguardia de la privacidad en cadena.
+  levonpetrosyan:
+    name: Levon Petrosyan
+    title: Desarrollador
+    bio: Levon es ingeniero de software con sendos másteres en Ciencias de la Computación y en Economía por la Universidad Americana de Armenia. Su formación se centra en la programación en C++ y la criptografía. Es uno de los colaboradores más prolíficos de Firo, ya que ha programado gran parte de la biblioteca criptográfica Lelantus de Firo, además de optimizaciones para admitir grandes conjuntos de anonimato.
+  sproxet:
+    name: Sproxet
+    title: Desarrollador
+    bio: Sproxet es un desarrollador anónimo que lleva 15 años trabajando en software que preserva la privacidad y ha contribuido de forma importante al cliente Electron de Firo. Sproxet también es el fundador de Signal Eleven, una consultora de TI centrada en la seguridad y la auditoría informáticas, el desarrollo de software y el diseño de arquitecturas de sistemas criptográficos.
+  zorayrzakaryan:
+    name: Zorayr Zakaryan
+    title: Jefe de proyecto móvil
+    bio: Zorayr es desarrollador de software backend con más de 14 años de experiencia. Está especializado en dirigir equipos de ingeniería y en establecer procesos de desarrollo adecuados. Le encanta todo lo relacionado con los algoritmos, las criptomonedas y los videojuegos.
+  hakobkanoyan:
+    name: Hakob Kanoyan
+    title: Desarrollador móvil
+    bio: Hakob tiene más de 10 años de experiencia como desarrollador móvil, de backend y de videojuegos. Tiene una sólida formación matemática, incluida la criptografía. Hakob dirige el desarrollo técnico del monedero móvil de Firo.
+  haykzakaryan:
+    name: Hayk Zakaryan
+    title: Desarrollador móvil
+    bio: Con más de 11 años de experiencia en ingeniería de software, incluidos más de 7 años de desarrollo móvil nativo y multiplataforma, Hayk se unió al equipo de Firo como ingeniero móvil a tiempo parcial.
+  arminezakaryan:
+    name: Armine Zakaryan
+    title: Diseñadora UI/UX
+    bio: Diseñadora UX/UI con más de 5 años de experiencia. Es una diseñadora autodidacta llena de entusiasmo y motivación por crear experiencias innovadoras y fáciles de usar e interfaces de usuario creativas. Actualmente trabaja sobre todo en diseños de productos SaaS B2B.
+  anwarp:
+    name: Anwar P.
+    title: Soporte sénior
+    bio: Anwar estudió ingeniería eléctrica y electrónica y tiene varios años de experiencia en soporte técnico en una empresa de TI. Se encarga de las consultas de soporte, la documentación y el soporte a desarrolladores, y también ayuda al Project Steward en el día a día.
+  ajaydono:
+    name: Ajaydono
+    title: Soporte
+    bio: Ajay ayuda al Project Steward en las operaciones diarias y en las consultas de soporte. Tiene un diploma en Tecnologías de la Información con especialización en administración de bases de datos y varios años de experiencia en soporte técnico de TI.
+  lucasfullam:
+    name: Lucas Fullam
+    title: Responsable de comunidad
+    bio: Lucas Fullam ha trabajado en puestos de cara al cliente, desde representante de atención al cliente hasta montaje de eventos en recintos y congresos. Oyó hablar de las criptomonedas por primera vez en 2012, pero no se adentró de verdad en ellas hasta bien entrado 2017, cuando un amigo le introdujo más a fondo en el mundo cripto y por fin vio todo su potencial. Una cosa llevó a la otra, al final encontró Firo y el resto es historia.
+  sebastianbausch:
+    name: Sebastian Bausch
+    title: Operaciones en Asia
+    bio: Sebastian Bausch es un inversor ángel afincado en Bangkok al que le apasionan las criptomonedas desde 2011. Estudió mandarín en la Universidad de Xiamen y tiene un título de posgrado de la Universidad de Nottingham. Apoya las operaciones del equipo en la región y coordina traducciones y encuentros.
+  lemarlukebriones:
+    name: Lemar "Luke" Briones
+    title: Responsable de la comunidad filipina
+    bio: Graduado en Tecnologías de la Información en Filipinas, Lemar es un entusiasta de las criptomonedas desde 2017 y se dedica a dar a conocer Firo por todo el país.
+  aramjivanyan:
+    name: Aram Jivanyan
+    title: Arquitecto jefe de privacidad
+    bio: Aram ha sido una figura clave en el desarrollo de la tecnología central de Firo, ya que ha creado los protocolos Lelantus y Lelantus Spark. Estas innovaciones científicas han influido notablemente en el panorama de los protocolos de privacidad del mundo de las criptomonedas y han inspirado la creación de otros protocolos centrados en la privacidad, como Triptych (Monero), Seraphis (Monero) y Lelantus-MW (Beam). También ha diseñado sistemas de votación que preservan la privacidad con requisitos mínimos de confianza, como Aura.
+  aregvrtanesyan:
+    name: Areg Vrtanesyan
+    title: Investigador y desarrollador de criptografía
+    bio: Areg es ingeniero criptográfico en Firo y actualmente estudia Ciberseguridad en la YSU. Tiene experiencia en ingeniería de software y programación backend en C++. Sus intereses actuales son la criptografía, la seguridad de la información y la música.
+  tigranmamikonyan:
+    name: Tigran Mamikonyan
+    title: Investigación
+    bio: Tigran tiene un máster en Informática y Matemática Aplicada y en Ciencias de la Computación y la Información. Actualmente cursa el doctorado en Informática y Matemática Aplicada en la Universidad Estatal de Ereván.
+  artur:
+    name: Artur
+    title: Desarrollador
+    bio: Artur es un prometedor ingeniero de software y estudiante de la Universidad Estatal de Medicina de Ereván que aporta una combinación única de conocimientos médicos y habilidades tecnológicas. Graduado en Picsart Academy, destaca en C/C++ y tiene experiencia práctica en desarrollo de software. Su pasión es unir medicina y tecnología para crear soluciones con impacto.
+  narek:
+    name: Narek Geghamyan
+    title: Desarrollador
+    bio: Narek es ingeniero de software graduado en la Facultad de Informática de la Universidad Nacional de Arquitectura y Construcción de Armenia. Trabaja con C++ y Linux. Le apasionan la natación y la programación.
+  cypherstack:
+    name: Cypher Stack
+    title: Empresa de diseño
+    bio: Cypher Stack es una empresa de desarrollo blockchain, diseño, investigación y consultoría. Actualmente desarrolla para Firo su monedero móvil y su monedero ligero de escritorio, Campfire.
+  batuhan:
+    name: Batuhan
+    title: Responsable de la comunidad turca
+    bio: Batuhan gestiona la comunidad turca y traduce anuncios y avisos
+  antibit:
+    name: Antibit
+    title: Responsable de la comunidad rusohablante
+    bio: Antibit gestiona la comunidad rusohablante y traduce anuncios y avisos. Es un entusiasta de las criptomonedas desde 2012 y en este tiempo ha acumulado muchos conocimientos y experiencia sobre las criptomonedas y las tecnologías blockchain.
+  lilking:
+    name: Lil-King
+    title: Responsable de comunidad
+    bio: Lil-King es un defensor entregado de la privacidad en el mundo cripto con más de cinco años de experiencia. Especializado en marketing e incorporación de usuarios, Lil-King ha desempeñado un papel crucial en la promoción de proyectos centrados en la privacidad. Apasionado de la privacidad financiera, Lil-King se dedica a formar a los usuarios y a darles las herramientas para controlar sus activos digitales de forma segura.
+  navidrahimi:
+    name: Navid Rahimi
+    title: Desarrollador
+    bio: Navid tiene una sólida formación en infraestructura de compiladores y optimización de sistemas de bajo nivel. Tiene un máster en Ciencias de la Computación por la Universidad Simon Fraser y trabajó como ingeniero de compiladores en Microsoft. Actualmente es desarrollador del núcleo blockchain de Firo, donde trabaja en funciones a nivel de protocolo como Lelantus Spark, la optimización del rendimiento de los nodos, la verificación del consenso y mejoras en las capas P2P y RPC para reforzar la estabilidad y la seguridad de la red.
+  
+roadmap:
+  heading: Hoja de ruta
+  intro1: Firo ha recorrido un largo camino desde sus inicios como Zcoin, cuando fue pionero en el uso de pruebas de conocimiento cero modernas en un protocolo de privacidad. Con el tiempo, hemos ido mejorando nuestra tecnología de forma constante y hemos desarrollado algunos de los protocolos de privacidad más sólidos del sector, protocolos que han influido en muchos otros proyectos.
+  intro2: Nuestra hoja de ruta actualizada se centra en la usabilidad, la utilidad y las mejoras.
+  usability: Usabilidad
+  usabilityp: Mejorar la experiencia de usuario, integrarse con más monederos y dar soporte a clientes ligeros.
+  utility: Utilidad
+  utilityp: Ampliar los casos de uso mediante la emisión privada de tokens y aplicar nuevas mejoras de privacidad como preparación para los futuros retos de la computación cuántica.
+  upgrades: Mejoras
+  upgradesp: Reforzar continuamente las funciones básicas del protocolo para mantener la posición de Firo como líder en tecnología de privacidad.
+  neartermgoals: Objetivos a corto plazo
+  sparknames: Spark Names
+  sparknamesp: Permitir a los usuarios registrar direcciones legibles vinculadas a sus direcciones Spark. También permite almacenar y compartir metadatos para un posible uso como identidad digital descentralizada.
+  sparkcoinbase: Spark Coinbase
+  sparkcoinbasep: Permitir que mineros y masternodes envíen las recompensas directamente a direcciones Spark privadas, lo que mejora aún más la privacidad de los usuarios y la adopción de Spark.
+  viewkeytooling: Herramientas para claves de visualización
+  viewkeytoolingp: Desarrollar métodos fáciles de usar para compartir y utilizar las claves de visualización de Spark, lo que permite monederos de solo lectura y revelar de forma selectiva fondos basados en Spark a efectos de cumplimiento normativo.
+  midtermgoals: Objetivos a medio plazo
+  sparkassets: Spark Assets
+  sparkassetsp: Permitir a los usuarios emitir sus propios activos que preservan la privacidad. Estos activos disfrutan de las mismas funciones de privacidad que Spark, incluida la posibilidad de ocultar el tipo de activo. Todos los activos (incluido Firo) contribuyen a un conjunto de anonimato compartido, y el protocolo también puede admitir NFT que preservan la privacidad.
+  sparkswap: Spark Swap
+  sparkswapp: Permitir intercambios atómicos entre activos Spark y/o Firo, para garantizar intercambios privados y sin necesidad de confianza.
+  curvetrees: Curve Trees
+  curvetreesp: Adoptar Curve Trees, una técnica innovadora para pruebas de pertenencia eficientes que admite un conjunto de anonimato global. Esta mejora optimizará considerablemente la privacidad, la escalabilidad, la velocidad de verificación y el tamaño de las pruebas.
+  longtermgoals: Objetivos a largo plazo
+  improvedinfra: Mejor infraestructura de monederos ligeros que preserva la privacidad
+  improvedinfrap: Seguir investigando formas de reducir la dependencia de servidores SPV personalizados, para ofrecer a los usuarios opciones de monedero ligero más privadas y descentralizadas.
+  quantum: Spark resistente a la computación cuántica
+  quantump: Explorar vías para convertir Spark en un protocolo resistente a la computación cuántica, así como posibles medidas provisionales frente a futuras amenazas cuánticas.
+  tailemission: Mecanismo de consenso para la emisión de cola
+  tailemissionp: El modelo híbrido actual de Firo, que combina masternodes y prueba de trabajo, podría evolucionar cuando se alcance la emisión de cola. Estamos estudiando mecanismos de incentivos o de consenso alternativos para proteger la cadena a largo plazo.
+  governance: Gobernanza
+  governancep: Desarrollar estructuras de gobernanza claras y descentralizadas para reducir la dependencia del equipo principal de Firo. El objetivo es alinear a todas las partes interesadas del proyecto sin centrarse únicamente en la cantidad de monedas que poseen.
+  integrations: Integraciones
+  enkrypt: Integración con el monedero Enkrypt
+  enkryptp: Integrar Firo en Enkrypt, un monedero Web3 multiactivo en forma de extensión del navegador, con soporte completo para las funciones de Spark.
+  layerswap: Integración con Layerswap v8
+  layerswapp: Aprovechar Layerswap v8, un protocolo entre pares para mover e intercambiar criptoactivos entre distintas blockchains. Al usar pre-HTLC, resuelve muchas de las limitaciones de los intercambios atómicos tradicionales (p. ej., que ambas partes tengan que estar conectadas) y admite transacciones con varios saltos.
+  serai: Integración con Serai
+  seraip: Colaborar con Serai, un DEX entre cadenas centrado en la liquidez AMM para Bitcoin, Ethereum, DAI y Monero. Integrar Firo amplía sus opciones de liquidez entre cadenas y su base de usuarios.
+  iterative: Mejoras iterativas
+  campfire: Campfire
+  campfirep: Seguir desarrollando los monederos de escritorio y móviles Campfire para ofrecer soporte completo a masternodes, Spark Assets y Spark Names.
+  firodex: FiroDEX
+  firodexp: Rediseñar FiroDEX para hacerlo más resiliente, de modo que su infraestructura (tanto los nodos como las interfaces) la gestione una red descentralizada de voluntarios y miembros de la comunidad.
+
+roadmap-old:
+  aura: Votación privada Aura (finalizando el artículo)
+  auradesc: Aura es nuestro mecanismo de votación privada para DAO, inspirado en nuestra tecnología Lelantus, que permite votar de forma anónima pero verificable y que además oculta el avance del escrutinio. Queremos usarlo como base para avanzar hacia una gobernanza descentralizada formalizada.
+  avalanche: Avalanche
+  avalanchedesc: Avalanche es un algoritmo de consenso que permite transacciones instantáneas, mayor seguridad y actualizaciones sin bifurcaciones. Estamos estudiando el consenso Avalanche como posible sustituto de nuestros masternodes.
+  development: Desarrollo
+  heading: Hoja de ruta
+  mnodes: Masternodes deterministas (hecho)
+  mnodesq: Quórums de masternodes de larga duración (hecho)
+  mtpstrip: Eliminación de pruebas MTP (hecho)
+  mtpstripdesc: La eliminación de pruebas MTP reduce el tamaño de la blockchain de Firo de 60 GB a 4 GB al quitar las pruebas MTP de los bloques antiguos.
+  rebrand: Cambio de marca (hecho)
+  lelantus: Activación de Lelantus (hecho)
+  lelantusdesc: Lelantus es nuestro protocolo de privacidad de nueva generación, que ofrece los niveles más altos de privacidad práctica sin configuración de confianza y basándose solo en supuestos criptográficos sólidos. Lelantus admite conjuntos de anonimato varios órdenes de magnitud mayores que otros sistemas de privacidad sin configuración de confianza.
+  chainlocks: Chainlocks (hecho)
+  chainlocksdesc: Chainlocks utiliza la red de masternodes de Firo para proteger frente a ataques del 51 %. Las transacciones alcanzan la finalidad en cuanto se confirma 1 bloque.
+  rap: Direcciones RAP (hecho)
+  rapdesc: Las direcciones RAP permiten tener una dirección que se puede compartir públicamente sin que terceros puedan ver cuánto ni cuándo ha recibido fondos.
+  instant: Instant Send (hecho)
+  instantdesc: Instant Send utiliza la red de masternodes de Firo para que las transacciones se confirmen en pocos segundos, lo que permite usarlo en la práctica como medio de intercambio.
+  elysium: Elysium (en testnet)
+  elysiumdesc: Elysium permite emitir en la red de Firo tokens (por ejemplo, stablecoins o monedas respaldadas por activos) que se beneficiarán de la tecnología de privacidad de Firo.
+  elysiumv2: Elysium v2
+  elysiumv2desc: Elysium v2 amplía las capacidades de Elysium con puentes más sencillos y funciones DeFi. Elysium v2 también implementará Spats, que ocultará el tipo de activo transferido.
+  lelantusspark: Lelantus Spark (hecho)
+  lelantussparkdesc: Lelantus Spark permite pagos anónimos directos para que los usuarios realicen transacciones entre sí sin revelar importes, origen ni destinatario. Spark introduce las direcciones Spark, que permitirán a los usuarios mantener sus fondos totalmente ocultos, además de ofrecer soporte completo para claves de visualización y multifirma de umbral.
+  mobile: Monedero móvil (hecho)
+  mobiledesc: Un monedero móvil nativo y privado por defecto con soporte completo para transacciones Lelantus.
+  firopow: FiroPoW (hecho)
+  firopowdesc: FiroPoW es una variante de ProgPOW diseñada para GPU y con una gran resistencia a los ASIC.
+  research: Investigación
+  lelantussparkaddress: Subdirecciones y pruebas de pago de Lelantus Spark (hecho)
+  lelantussparkaddressdesc: Lelantus Spark admitirá subdirecciones que permiten un escaneo más eficiente y pruebas de pago con las que los usuarios pueden demostrar que realizaron un pago.
+  firodex: FiroDEX (hecho)
+  firodexdesc: FiroDEX permite a los usuarios cambiar a Firo y desde Firo mediante una infraestructura descentralizada basada en la tecnología de intercambio atómico.
+  bridges: Puentes entre cadenas
+  bridgesdesc: Los puentes entre cadenas permitirán que tokens de otros ecosistemas entren y salgan de la capa de tokens Elysium de Firo para aprovechar nuestra infraestructura de privacidad.
+  mixnets: Mixnets
+  mixnetsdesc: Canalizar las transacciones y las comunicaciones entre nodos a través de mixnets ofrece una mayor protección de los metadatos, incluso frente a adversarios a nivel estatal. Estamos estudiando la mixnet Meson, construida sobre las bibliotecas de software de Katzenpost.
+  spats: Spark Assets (hecho)
+  spatsdesc: Spark Assets amplía la funcionalidad de Spark para ocultar el tipo de activo transferido. Está previsto implementar Spats en Elysium v2.
+  syncclients: Clientes de sincronización rápida
+  syncclientsdesc: Los clientes de sincronización rápida permiten a los usuarios sincronizar sus monederos rápidamente sin tener que descargar toda la blockchain, con soporte para transacciones Lelantus.
+  learnmore: Más información
+  
+merchants:
+  heading: Comercios
+  predisclaimer: Aviso&colon;&#x20;
+  disclaimer: Algunos de estos enlaces son enlaces de referido, por lo que podemos recibir una compensación cuando te registras o usas sus productos o servicios. Esto no constituye una recomendación del producto o servicio.
+  introduction: ¿Quieres gastar tus Firo? ¡Aquí tienes algunos sitios donde hacerlo! Esta lista de sitios que aceptan Firo no es exhaustiva. Si tienes un negocio y quieres aparecer aquí, ¡avísanos!
+  button1: Ropa
+  button2: Citas
+  button3: Donaciones
+  button4: Trabajo freelance
+  button5: Videojuegos
+  button6: Productos de salud
+  button7: Alojamiento web
+  button8: Servicios jurídicos
+  button9: Mercados en línea
+  button10: Préstamos P2P
+  button11: Soluciones de pago
+  button12: Software
+  button13: Viajes
+  button14: VPN
+  nothing: No hay nada que ver aquí. ¿Conoces algún comercio que acepte Firo? ¡Avísanos!
+  
+social:
+  community: Comunidad
+  findus: También puedes encontrarnos aquí
