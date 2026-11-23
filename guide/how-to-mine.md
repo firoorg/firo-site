@@ -79,6 +79,11 @@ The pools below are listed on [MiningPoolStats](https://miningpoolstats.stream/f
     * asia.rplant.xyz:17045 (SSL)
     * na.rplant.xyz:7045 (TCP)
     * na.rplant.xyz:17045 (SSL)
+* [VeinPool](https://veinpool.fr/en/coin/firo) (EU, PPLNS and SOLO, 1% fee)
+    * veinpool.fr:3060 (PPLNS)
+    * veinpool.fr:3061 (PPLNS, big rigs)
+    * veinpool.fr:3062 (SOLO)
+    * veinpool.fr:13060 / 13061 / 13062 (SSL)
 * [WoolyPooly](https://woolypooly.com/en/coin/firo)
 	* pool.woolypooly.com:3104
 * [Pooly.ca](https://pooly.ca/)
